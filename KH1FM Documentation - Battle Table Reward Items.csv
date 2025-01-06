@@ -1,0 +1,170 @@
+World,Location,Action,Item,Number,File,Use Corrected File?,Index,Offset,Chest Reference,AP Location ID,AP Location Name
+Traverse Town,1st District,Leon Gift,Elixir,1,btltbl.bin,N,1,C6A9,-,2656520,Traverse Town 1st District Leon Gift
+Traverse Town,1st District,Defeat Guard Armor,Dodge Roll,1,btltbl.bin,N,1,C6AB,-,2656011,Traverse Town Defeat Guard Armor Dodge Roll Event
+Traverse Town,1st District,Aerith Gift,Mega-Potion,1,btltbl.bin,N,1,C6AD,-,2656521,Traverse Town 1st District Aerith Gift
+???,???,???,Dodge Roll,1,btltbl.bin,N,1,C6AF,-,,
+???,???,???,Treasure Magnet (Donald),1,btltbl.bin,N,1,C6B1,-,,
+???,???,???,Second Wind (Goofy),1,btltbl.bin,N,1,C6B3,-,,
+???,???,???,High Jump,1,btltbl.bin,N,1,C6B5,-,,
+???,???,???,Potion,1,btltbl.bin,N,1,C6B7,-,,
+???,???,???,Potion,1,btltbl.bin,N,1,C6B9,-,,
+???,???,???,Potion,1,btltbl.bin,N,1,C6BB,-,,
+???,???,???,Potion,1,btltbl.bin,N,1,C6BD,-,,
+???,???,???,Potion,1,btltbl.bin,N,1,C6BF,-,,
+???,???,???,Potion,1,btltbl.bin,N,1,C6C1,-,,
+???,???,???,Potion,1,btltbl.bin,N,1,C6C3,-,,
+Atlantica,Ursula's Lair,Defeat Ursula 1,Mermaid Kick,1,btltbl.bin,N,1,C6C5,-,2656071,Atlantica Defeat Ursula I Mermaid Kick Event
+Neverland,Clock Tower,Seal Keyhole,Glide,1,btltbl.bin,N,1,C6C7,-,2656095,Neverland Seal Keyhole Glide Event
+End of the World,Volcanic Crater,Defeat Chernabog,Super Glide,1,btltbl.bin,N,1,C6C9,-,2656111,End of the World Defeat Chernabog Superglide Event
+Hollow Bastion,Castle Chapel,Defeat Dragon Maleficent,Fireglow,1,btltbl.bin,N,1,C6CB,-,2656103,Hollow Bastion Defeat Dragon Maleficent Fireglow Event
+Traverse Town,Secret Waterway,Speak to Leon,Earthshine,1,btltbl.bin,N,1,C6CD,-,2656014,Traverse Town Leon Secret Waterway Earthshine Event
+Deep Jungle,Tent,Seal Keyhole,Jungle King,1,btltbl.bin,N,1,C6CF,-,2656023,Deep Jungle Seal Keyhole Jungle King Event
+Agrabah,Aladdin's House,Seal Keyhole,Three Wishes,1,btltbl.bin,N,1,C6D1,-,2656055,Agrabah Seal Keyhole Three Wishes Event
+Neverland,Clock Tower,Seal Keyhole,Fairy Harp,1,btltbl.bin,N,1,C6D3,-,2656093,Neverland Seal Keyhole Fairy Harp Event
+Halloween Town,Research Lab,Seal Keyhole,Pumpkinhead,1,btltbl.bin,N,1,C6D5,-,2656083,Halloween Town Seal Keyhole Pumpkinhead Event
+Atlantica,Ariel's Grotto,Seal Keyhole,Crabclaw,1,btltbl.bin,N,1,C6D7,-,2656073,Atlantica Seal Keyhole Crabclaw Event
+Hollow Bastion,Library,Speak to Belle,Divine Rose,1,btltbl.bin,N,1,C6D9,-,2656522,Hollow Bastion Library Speak to Belle Divine Rose
+Olympus Coliseum,Hades Cup,Defeat Leon and Cloud,Lionheart,1,btltbl.bin,N,1,C6DB,-,2659013,Hades Cup Defeat Cloud and Leon Event
+Olympus Coliseum,Hercules Cup,Defeat Cloud,Metal Chocobo,1,btltbl.bin,N,1,C6DD,-,2659018,Hercules Cup Defeat Cloud Event
+Traverse Town,Secret Waterway,Speak to Kairi,Oathkeeper,1,btltbl.bin,N,1,C6DF,-,2656015,Traverse Town Kairi Secret Waterway Oathkeeper Event
+Olympus Coliseum,Hades Cup,Defeat Yuffie,Genji Shield,1,btltbl.bin,N,1,C6E1,-,2659014,Hades Cup Defeat Yuffie Event
+Olympus Coliseum,Hercules Cup,Defeat Hercules,Herc's Shield,1,btltbl.bin,N,1,C6E3,-,2659007,Complete Hercules Cup
+Olympus Coliseum,Coliseum Gates,Speak to Cloud,Sonic Blade,1,btltbl.bin,N,1,C6E5,-,2656032,Olympus Coliseum Cloud Sonic Blade Event
+Neverland,Captain's Cabin,Defeat Anti Sora,Raven's Claw,1,btltbl.bin,N,1,C6E7,-,2656091,Neverland Defeat Anti Sora Raven's Claw Event
+Olympus Coliseum,Pegasus Cup,Complete Cup Together,Strike Raid,1,btltbl.bin,N,1,C6E9,-,2659004,Complete Pegasus Cup
+Hollow Bastion,Grand Hall,Defeat Riku-Ansem,Ragnarok,1,btltbl.bin,N,1,C6EB,-,2656104,Hollow Bastion Defeat Riku II Ragnarok Event
+Olympus Coliseum,Hades Cup,Complete Cup Together,Trinity Limit,1,btltbl.bin,N,1,C6ED,-,2659010,Complete Hades Cup
+Neverland,Ship Deck,Defeat Captain Hook,Ars Arcanum,1,btltbl.bin,N,1,C6EF,-,2656097,Neverland Defeat Captain Hook Ars Arcanum Event
+Hollow Bastion,Castle Chapel,Defeat Maleficent,Cheer (Donald),1,btltbl.bin,N,1,C6F1,-,2656102,Hollow Bastion Defeat Maleficent Donald Cheer Event
+Monstro,Stomach,Defeat Parasite Cage 2,Cheer (Goofy),1,btltbl.bin,N,1,C6F3,-,2656061,Monstro Defeat Parasite Cage I Goofy Cheer Event
+Traverse Town,Mystical House,Obtain all Summons,Lord Fortune,1,btltbl.bin,N,1,C6F5,-,,
+Monstro,Mouth,Chest,High Jump,1,btltbl.bin,N,1,C6F7,Link,2653454,Monstro Mouth Boat Deck Chest
+Monstro,Mouth,Chest,Watergleam,1,btltbl.bin,N,1,C6F9,Link,2653732,Monstro Mouth High Platform Near Teeth Chest
+Monstro,Chamber 6,Chest,Mythril,1,btltbl.bin,N,1,C6FB,Link,2652451,Monstro Chamber 6 Raised Area Near Chamber 1 Entrance Chest
+100 Acre Wood,100 Acre Wood,Convert Torn Page 1,Naturespark,1,btltbl.bin,N,1,C6FD,-,2656351,100 Acre Wood Convert Torn Page 1
+100 Acre Wood,100 Acre Wood,Convert Torn Page 2,Mythril Shard,1,btltbl.bin,N,1,C6FF,-,2656352,100 Acre Wood Convert Torn Page 2
+100 Acre Wood,100 Acre Wood,Convert Torn Page 4,Mythril,1,btltbl.bin,N,1,C701,-,2656354,100 Acre Wood Convert Torn Page 4
+100 Acre Wood,100 Acre Wood,Convert Torn Page 5,EXP Ring,1,btltbl.bin,N,1,C703,-,2656355,100 Acre Wood Convert Torn Page 5
+100 Acre Wood,Pooh's House,All Minigames Clear,Cheer (Sora),1,btltbl.bin,N,1,C705,-,2656350,100 Acre Wood Pooh's House Owl Cheer
+Traverse Town,Mystical House,All Arts Items,Dream Shield,1,btltbl.bin,N,1,C707,-,2656311,Traverse Town Magician's Study Obtained All Arts Items
+Olympus Coliseum,Coliseum Lobby,"Complete Phil, Pegasus, and Hercules Cup",Olympia,1,btltbl.bin,N,1,C709,-,2656369,Olympus Coliseum Olympia Chest
+Hollow Bastion,Grand Hall,Chest,Oblivion,1,btltbl.bin,N,1,C70B,Link,2654491,Hollow Bastion Grand Hall Oblivion Chest
+Wonderland,Tea Party Garden,Chest,Mythril,1,btltbl.bin,N,1,C70D,Link,2651132,Wonderland Tea Party Garden Across From Bizarre Room Entrance Chest
+Traverse Town,Geppetto's House,Chest,Wishing Star,1,btltbl.bin,N,1,C70F,Link,2650334,Traverse Town Geppetto's House Chest
+Traverse Town,Dalmatian's House,Return 40 Puppies,Mythril Shard,1,btltbl.bin,N,1,C711,-,2656317,Traverse Town Piano Room Return 40 Puppies
+Traverse Town,Dalmatian's House,Return 60 Puppies,Megalixir,1,btltbl.bin,N,1,C713,-,2656320,Traverse Town Piano Room Return 60 Puppies
+Traverse Town,Dalmatian's House,Return 70 Puppies,Orichalcum,1,btltbl.bin,N,1,C715,-,2656321,Traverse Town Piano Room Return 70 Puppies
+Traverse Town,Dalmatian's House,Return 90 Puppies,Tech Boost,1,btltbl.bin,N,1,C717,-,2656324,Traverse Town Piano Room Return 90 Puppies
+Traverse Town,3rd District,Defeat Guard Armor,Brave Warrior,1,btltbl.bin,N,1,C719,-,2656016,Traverse Town Defeat Guard Armor Brave Warrior Event
+Wonderland,Bizarre Room,Defeat Trickmaster,Ifrit's Horn,1,btltbl.bin,N,1,C71B,-,2656042,Wonderland Defeat Trickmaster Ifrit's Horn Event
+Olympus Coliseum,Coliseum Arena,Defeat Cerberus,Inferno Band,1,btltbl.bin,N,1,C71D,-,2656033,Olympus Coliseum Defeat Cerberus Inferno Band Event
+Deep Jungle,Bamboo Thicket,Defeat Sabor,White Fang,1,btltbl.bin,N,1,C71F,-,2656021,Deep Jungle Defeat Sabor White Fang Event
+Agrabah,Agrabah,Defeat Pot Centipede,Ray of Light,1,btltbl.bin,N,1,C721,-,2656051,Agrabah Defeat Pot Centipede Ray of Light Event
+Halloween Town,Torture Chamber,Defeat Oogie Boogie,Holy Circlet,1,btltbl.bin,N,1,C723,-,2656081,Halloween Town Defeat Oogie Boogie Holy Circlet Event
+Hollow Bastion,Dark Depths,Defeat Behemoth,Omega Arts,1,btltbl.bin,N,1,C725,-,2656105,Hollow Bastion Defeat Behemoth Omega Arts Event
+Traverse Town,1st District,Chest,Defense Up,1,btltbl.bin,N,1,C727,Link,2650211,Traverse Town 1st District Candle Puzzle Chest
+Traverse Town,Green Room,Chest,Elixir,1,btltbl.bin,N,1,C729,Link,2650293,Traverse Town Green Room Table Chest
+Traverse Town,Mystical House,Chest,AP Up,1,btltbl.bin,N,1,C72B,Link,2650331,Traverse Town Mystical House Yellow Trinity Chest
+Traverse Town,Secret Waterway,Chest,Orichalcum,1,btltbl.bin,N,1,C72D,Link,2650333,Traverse Town Secret Waterway White Trinity Chest
+Wonderland,Rabbit Hole,Chest,Camping Set,1,btltbl.bin,N,1,C72F,Link,2650932,Wonderland Rabbit Hole Defeat Heartless 1 Chest
+Wonderland,Rabbit Hole,Chest,Mega-Potion,1,btltbl.bin,N,1,C731,Link,2650933,Wonderland Rabbit Hole Defeat Heartless 2 Chest
+Wonderland,Rabbit Hole,Chest,Megalixir,1,btltbl.bin,N,1,C733,Link,2650934,Wonderland Rabbit Hole Defeat Heartless 3 Chest
+Wonderland,Bizarre Room,Chest,Mythril Shard,1,btltbl.bin,N,1,C735,Link,2650971,Wonderland Bizarre Room Green Trinity Chest
+Wonderland,Lotus Forest,Chest,Orichalcum,1,btltbl.bin,N,1,C737,Link,2651052,Wonderland Lotus Forest Glide Chest
+Wonderland,Lotus Forest,Chest,Lady Luck,1,btltbl.bin,N,1,C739,Link,2651133,Wonderland Lotus Forest Through the Painting White Trinity Chest
+Deep Jungle,Treehouse,Chest,Mega-Potion,1,btltbl.bin,N,1,C73B,Link,2651213,Deep Jungle Tree House Beneath Tree House Chest
+Deep Jungle,Treehouse,Chest,Protect Chain,1,btltbl.bin,N,1,C73D,Link,2651214,Deep Jungle Tree House Rooftop Chest
+Deep Jungle,Cavern of Hearts,Chest,Orichalcum,1,btltbl.bin,N,1,C73F,Link,2651332,Deep Jungle Cavern of Hearts White Trinity Chest
+100 Acre Wood,Bouncing Spot,Chest,Mythril Shard,1,btltbl.bin,N,1,C741,Link,2651691,100 Acre Wood Bouncing Spot Left Cliff Chest
+100 Acre Wood,Bouncing Spt,Chest,AP Up,1,btltbl.bin,N,1,C743,Link,2651693,100 Acre Wood Bouncing Spot Under Giant Pot Chest
+Agrabah,Plaza,Chest,Cottage,1,btltbl.bin,N,1,C745,Link,2651974,Agrabah Plaza Top Corner Chest
+Agrabah,Bazaar,Chest,Fire Ring,1,btltbl.bin,N,1,C747,Link,2652013,Agrabah Bazaar High Corner Chest
+Agrabah,Main Street,Chest,Mythril,1,btltbl.bin,N,1,C749,Link,2652052,Agrabah Main Street High Above Palace Gates Entrance Chest
+Agrabah,Storage,Chest,AP Up,1,btltbl.bin,N,1,C74B,Link,2652092,Agrabah Storage Green Trinity Chest
+Agrabah,Bottomless Hall,Chest,Elixir,1,btltbl.bin,N,1,C74D,Link,2652171,Agrabah Cave of Wonders Bottomless Hall Pillar Chest
+Agrabah,Bottomless Hall,Chest,Mega-Potion,1,btltbl.bin,N,1,C74F,Link ,2652172,Agrabah Cave of Wonders Bottomless Hall Across Chasm Chest
+Agrabah,Dark Chamber,Chest,Protera Chain,1,btltbl.bin,N,1,C751,Link,2652251,Agrabah Cave of Wonders Dark Chamber Abu Gem Chest
+Olympus Coliseum,Coliseum Gates,Chest,Mythril Shard,1,btltbl.bin,N,1,C753,Link,2653334,Olympus Coliseum Coliseum Gates Left Blue Trinity Chest
+Olympus Coliseum,Coliseum Gates,Chest,Violetta,1,btltbl.bin,N,1,C755,Link,2653371,Olympus Coliseum Coliseum Gates White Trinity Chest
+Monstro,Mouth,Chest,Mythril Shard,1,btltbl.bin,N,1,C757,Link,2653494,Monstro Mouth Green Trinity Top of Boat Chest
+Hollow Bastion,Rising Falls,Chest,Defense Up,1,btltbl.bin,N,1,C759,Link,2654092,Hollow Bastion Rising Falls Under Water 2nd Chest
+Hollow Bastion,Castle Gates,Chest,Orichalcum,1,btltbl.bin,N,1,C75B,Link,2654133,Hollow Bastion Castle Gates Freestanding Pillar Chest
+Hollow Bastion,High Tower,Chest,Thundara Ring,1,btltbl.bin,N,1,C75D,Link,2654174,Hollow Bastion High Tower 1st Gravity Chest
+Hollow Bastion,Entrance Hall,Chest,AP Up,1,btltbl.bin,N,1,C75F,Link,2654212,Hollow Bastion Entrance Hall Left of Emblem Door Chest
+Traverse Town,Mystical House,Obtain all LV1 Magic,Spellbinder,1,btltbl.bin,N,1,C761,-,2656312,Traverse Town Magician's Study Obtained All LV1 Magic
+Traverse Town,Mystical House,Obtain all LV3 Magic,Dream Rod,1,btltbl.bin,N,1,C763,-,2656313,Traverse Town Magician's Study Obtained All LV3 Magic
+Olympus Coliseum,Phil Cup,Complete Solo,Combo Plus,1,btltbl.bin,N,1,C765,-,2659002,Complete Phil Cup Solo
+Olympus Coliseum,Pegasus Cup,Complete Solo,Orichalcum,1,btltbl.bin,N,1,C767,-,2659005,Complete Pegasus Cup Solo
+Olympus Coliseum,Hercules Cup,Complete Solo,Critical Plus,1,btltbl.bin,N,1,C769,-,2659008,Complete Hercules Cup Solo
+Olympus Coliseum,Hades Cup,Complete Solo,Save the Queen,1,btltbl.bin,N,1,C76B,-,2659011,Complete Hades Cup Solo
+Olympus Coliseum,Phil Cup,Complete Time Trial,Tech Boost,1,btltbl.bin,N,1,C76D,-,2659003,Complete Phil Cup Time Trial
+Olympus Coliseum,Pegasus Cup,Complete Time Trial,Dark Matter,1,btltbl.bin,N,1,C76F,-,2659006,Complete Pegasus Cup Time Trial
+Olympus Coliseum,Hercules Cup,Complete Time Trial,Gravity Break,1,btltbl.bin,N,1,C771,-,2659009,Complete Hercules Cup Time Trial
+Olympus Coliseum,Hades Cup,Complete Time Trial,Save the King,1,btltbl.bin,N,1,C773,-,2659012,Complete Hades Cup Time Trial
+Destiny Islands,Cove,Chest,Protect Chain,1,btltbl.bin,N,1,C775,Link,2650011,Destiny Islands Chest
+Traverse Town,1st District,Mail Postcard 1,Cottage,1,btltbl.bin,N,1,C777,-,2656120,Traverse Town Mail Postcard 01 Event
+Traverse Town,1st District,Mail Postcard 2,Mythril Shard,1,btltbl.bin,N,1,C779,-,2656121,Traverse Town Mail Postcard 02 Event
+Traverse Town,1st District,Mail Postcard 3,Mega-Potion,1,btltbl.bin,N,1,C77B,-,2656122,Traverse Town Mail Postcard 03 Event
+Traverse Town,1st District,Mail Postcard 4,Mega-Ether,1,btltbl.bin,N,1,C77D,-,2656123,Traverse Town Mail Postcard 04 Event
+Traverse Town,1st District,Mail Postcard 5,Mythril,1,btltbl.bin,N,1,C77F,-,2656124,Traverse Town Mail Postcard 05 Event
+Traverse Town,1st District,Mail Postcard 6,Elixir,1,btltbl.bin,N,1,C781,-,2656125,Traverse Town Mail Postcard 06 Event
+Traverse Town,1st District,Mail Postcard 7,Megalixir,1,btltbl.bin,N,1,C783,-,2656126,Traverse Town Mail Postcard 07 Event
+Traverse Town,1st District,Mail Postcard 8,Orichalcum,1,btltbl.bin,N,1,C785,-,2656127,Traverse Town Mail Postcard 08 Event
+Traverse Town,1st District,Mail Postcard 9,AP Up,1,btltbl.bin,N,1,C787,-,2656128,Traverse Town Mail Postcard 09 Event
+Traverse Town,1st District,Mail Postcard 10,Defense Up,1,btltbl.bin,N,1,C789,-,2656129,Traverse Town Mail Postcard 10 Event
+Traverse Town,Dalmatian's House,Return 50 Puppies,Mythril,1,btltbl.bin,N,1,C78B,-,2656319,Traverse Town Piano Room Return 50 Puppies Reward 2
+Deep Jungle,Cliff,Chest,Mega-Potion,1,btltbl.bin,N,1,C78D,Link,2651411,Deep Jungle Cliff Right Cliff Left Chest
+Deep Jungle,Cliff,Chest,Mythril Shard,1,btltbl.bin,N,1,C78F,Link,2651412,Deep Jungle Cliff Right Cliff Right Chest
+Wonderland,Rabbit Hole,Chest,Elixir,1,btltbl.bin,N,1,C791,Link,2650931,Wonderland Rabbit Hole Green Trinity Chest
+Deep Jungle,Treehouse,Chest,Mythril,1,btltbl.bin,N,1,C793,Link,2651413,Deep Jungle Tree House Suspended Boat Chest
+Agrabah,Palace Gates,Chest,Protera Chain,1,btltbl.bin,N,1,C795,Link,2652053,Agrabah Palace Gates Low Chest
+Agrabah,Relic Chamber,Chest,Thunder Ring,1,btltbl.bin,N,1,C797,Link,2652214,Agrabah Cave of Wonders Relic Chamber Stairs Chest
+Neverland,Cabin,Chest,Protera Chain,1,btltbl.bin,N,1,C799,Link,2653813,Neverland Cabin Chest
+Hollow Bastion,Rising Falls,Chest,Blizzara Ring,1,btltbl.bin,N,1,C79B,Link,2654094,Hollow Bastion Rising Falls Floating Platform Near Bubble Chest
+Hollow Bastion,Waterway,Chest,Fira Ring,1,btltbl.bin,N,1,C79D,Link,2654334,Hollow Bastion Waterway Near Save Chest
+End of the World,Final Dimension,Chest,Mythril Shard,1,btltbl.bin,N,1,C79F,Link,2654531,End of the World Final Dimension 1st Chest
+End of the World,Final Dimension,Chest,Pretty Stone,1,btltbl.bin,N,1,C7A1,Link,2654532,End of the World Final Dimension 2nd Chest
+End of the World,Final Dimension,Chest,Mega-Potion,1,btltbl.bin,N,1,C7A3,Link,2654533,End of the World Final Dimension 3rd Chest
+End of the World,Final Dimension,Chest,Mythril,1,btltbl.bin,N,1,C7A5,Link,2654534,End of the World Final Dimension 4th Chest
+End of the World,Final Dimension,Chest,Elixir,1,btltbl.bin,N,1,C7A7,Link,2654571,End of the World Final Dimension 5th Chest
+End of the World,Final Dimension,Chest,Mythril Shard,2,btltbl.bin,N,1,C7A9,Link,2654572,End of the World Final Dimension 6th Chest
+End of the World,Final Dimension,Chest,Pretty Stone,2,btltbl.bin,N,1,C7AB,Link,2654573,End of the World Final Dimension 10th Chest
+End of the World,Final Dimension,Chest,Cottage,1,btltbl.bin,N,1,C7AD,Link,2654574,End of the World Final Dimension 9th Chest
+End of the World,Final Dimension,Chest,Gale,1,btltbl.bin,N,1,C7AF,Link,2654611,End of the World Final Dimension 8th Chest
+End of the World,Final Dimension,Chest,AP Up,1,btltbl.bin,N,1,C7B1,Link,2654612,End of the World Final Dimension 7th Chest
+???,???,???,Megalixir,1,btltbl.bin,N,1,C7B3,-,,
+???,???,???,Megalixir,1,btltbl.bin,N,1,C7B5,-,,
+End of the World,World Terminus: Traverse Town,Chest,Spirit Gem,1,btltbl.bin,N,1,C7B7,Link,2654654,End of the World World Terminus Traverse Town Chest
+End of the World,World Terminus: Wonderland,Chest,Thunder Gem,1,btltbl.bin,N,1,C7B9,Link,2654691,End of the World World Terminus Wonderland Chest
+End of the World,World Terminus: Olympus Coliseum,Chest,Frost Gem,1,btltbl.bin,N,1,C7BB,Link,2654692,End of the World World Terminus Olympus Coliseum Chest
+End of the World,World Terminus: Deep Jungle,Chest,Bright Gem,1,btltbl.bin,N,1,C7BD,Link,2654693,End of the World World Terminus Deep Jungle Chest
+End of the World,World Terminus: Agrabah,Chest,Blaze Gem,1,btltbl.bin,N,1,C7BF,Link,2654694,End of the World World Terminus Agrabah Chest
+End of the World,World Terminus: Halloween Town,Chest,Lucid Gem,1,btltbl.bin,N,1,C7C1,Link,2654732,End of the World World Terminus Halloween Town Chest
+End of the World,World Terminus: Neverland,Chest,Mighty Shield,1,btltbl.bin,N,1,C7C3,Link,2654733,End of the World World Terminus Neverland Chest
+End of the World,World Terminus: Hollow Bastion,Chest,Elixir,1,btltbl.bin,N,1,C7C5,Link,2654771,End of the World World Terminus Hollow Bastion Chest
+Deep Jungle,Green Serpent,Gather 10 Fruits,Elixir,1,btltbl.bin,N,1,C7C7,-,2656370,Deep Jungle Jungle Slider 10 Fruits
+Deep Jungle,Splash Tunnel,Gather 20 Fruits,AP Up,1,btltbl.bin,N,1,C7C9,-,2656371,Deep Jungle Jungle Slider 20 Fruits
+Deep Jungle,Jade Spiral,Gather 30 Fruits,Dark Matter,1,btltbl.bin,N,1,C7CB,-,2656372,Deep Jungle Jungle Slider 30 Fruits
+Deep Jungle,Panic Fall,Gather 40 Fruits,Defense Up,1,btltbl.bin,N,1,C7CD,-,2656373,Deep Jungle Jungle Slider 40 Fruits
+Deep Jungle,Shadow Cavern,Gather 50 Fruits,Power Up,1,btltbl.bin,N,1,C7CF,-,2656374,Deep Jungle Jungle Slider 50 Fruits
+Olympus Coliseum,Gold Match,Defeat Ice Titan,Diamond Dust,1,btltbl.bin,N,1,C7D1,-,2656329,Olympus Coliseum Defeat Ice Titan Diamond Dust Event
+Olympus Coliseum,Platinum Match,Defeat Sephiroth,One-Winged Angel,1,btltbl.bin,N,1,C7D3,-,2656328,Olympus Coliseum Defeat Sephiroth One-Winged Angel Event
+Agrabah,Desert,Defeat Kurt Zisa,Zantetsuken,1,btltbl.bin,N,1,C7D5,-,2656378,Agrabah Defeat Kurt Zisa Zantetsuken Event
+Hollow Bastion,Castle Chapel,Defeat Unknown,EXP Necklace,1,btltbl.bin,N,1,C7D7,-,2656379,Hollow Bastion Defeat Unknown EXP Necklace Event
+Traverse Town,Item Workshop,Synthesize 15 Items,Encounter Plus,1,btltbl.bin,N,1,C7D9,-,,
+Wonderland,Tea Party Garden,Chest,Dark Matter,1,btltbl.bin,N,1,C7DB,Link,2651131,Wonderland Tea Party Garden Bear and Clock Puzzle Chest
+Olympus Coliseum,Coliseum Gates,Chest,Shiva Belt,1,btltbl.bin,N,1,C7DD,Link,2653373,Olympus Coliseum Coliseum Gates Blizzaga Chest
+100 Acre Wood,Bouncing Spot,Chest,Dark Matter,1,btltbl.bin,N,1,C7DF,Link,2651692,100 Acre Wood Bouncing Spot Right Tree Alcove Chest
+Agrabah,Main Street,Chest,Dark Matter,1,btltbl.bin,N,1,C7E1,Link,2652051,Agrabah Main Street High Above Alley Entrance Chest
+Agrabah,Entrance,Chest,Ifrit Belt,1,btltbl.bin,N,1,C7E3,Link,2652332,Agrabah Cave of Wonders Entrance White Trinity Chest
+Monstro,Chamber 6,Chest,Dark Matter,1,btltbl.bin,N,1,C7E5,Link,2655092,Monstro Chamber 6 White Trinity Chest
+Halloween Town,Oogie Manor/Manor Ruins,Chest,Orichalcum,1,btltbl.bin,N,1,C7E7,Link,2653093,Halloween Town Oogie's Manor Lower Iron Cage Chest
+???,???,???,Dark Matter,1,btltbl.bin,N,1,C7E9,-,,
+Neverland,Ship Hold,Chest,Dark Matter,1,btltbl.bin,N,1,C7EB,Link,2653811,Neverland Hold Yellow Trinity Left Blue Chest
+Neverland,Pirate Ship,Chest,Orichalcum,1,btltbl.bin,N,1,C7ED,Link,2653773,Neverland Pirate Ship Crows Nest Chest
+Hollow Bastion,Lift Stop,Chest,Ramuh Belt,1,btltbl.bin,N,1,C7EF,Link,2654254,Hollow Bastion Lift Stop Library Node After High Tower Switch Gravity Chest
+Hollow Bastion,Lift Stop,Chest,Royal Crown,1,btltbl.bin,N,1,C7F1,Link,2654292,Hollow Bastion Lift Stop Under High Tower Sliding Blocks Chest
+Hollow Bastion,Waterway,Chest,Dark Matter,1,btltbl.bin,N,1,C7F3,Link,2654371,Hollow Bastion Waterway Blizzard on Bubble Chest
+Hollow Bastion,Grand Hall,Chest,Dark Matter,1,btltbl.bin,N,1,C7F5,Link,2654454,Hollow Bastion Grand Hall Steps Right Side Chest
+End of the World,Giant Crevasse,Chest,Dark Matter,1,btltbl.bin,N,1,C7F7,Link,2654652,End of the World Giant Crevasse 4th Chest
+End of the World,Giant Crevasse,Chest,Meteor Strike,1,btltbl.bin,N,1,C7F9,Link,2654614,End of the World Giant Crevasse 5th Chest

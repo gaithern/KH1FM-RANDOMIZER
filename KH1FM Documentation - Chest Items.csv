@@ -1,0 +1,218 @@
+World,Room,Value,First 3 Hex Digits,Last Hex Digit,Reward Numeric Value,Reward,Uses Reward Battle Table?,Battle Table Link,Offset,AP Location ID,AP Location Name
+Destiny Islands,Cove,066E,066,E,102,Protect Chain,Y,Link,0,2650011,Destiny Islands Chest
+Traverse Town,1st District,03FE,03F,E,63,Defense Up,Y,Link,28,2650211,Traverse Town 1st District Candle Puzzle Chest
+Traverse Town,1st District,0D30,0D3,0,211,Postcard,N,None,2A,2650212,Traverse Town 1st District Accessory Shop Roof Chest
+Traverse Town,2nd District,0D30,0D3,0,211,Postcard,N,None,2C,2650213,Traverse Town 2nd District Boots and Shoes Awning Chest
+Traverse Town,2nd District,0FD0,0FD,0,253,Mythril Shard,N,None,2E,2650214,Traverse Town 2nd District Rooftop Chest
+Traverse Town,2nd District,0060,006,0,6,Mega-Potion,N,None,30,2650251,Traverse Town 2nd District Gizmo Shop Facade Chest
+Traverse Town,Alleyway,0010,001,0,1,Potion,N,None,32,2650252,Traverse Town Alleyway Balcony Chest
+Traverse Town,Alleyway,0E70,0E7,0,231,Pretty Stone,N,None,34,2650253,Traverse Town Alleyway Blue Room Awning Chest
+Traverse Town,Alleyway,0010,001,0,1,Potion,N,None,36,2650254,Traverse Town Alleyway Corner Chest
+Traverse Town,Green Room,0FE0,0FE,0,254,Mythril,N,None,3A,2650292,Traverse Town Green Room Clock Puzzle Chest
+Traverse Town,Green Room,040E,040,E,64,Elixir,Y,Link,3C,2650293,Traverse Town Green Room Table Chest
+Traverse Town,Red Room,0E70,0E7,0,231,Pretty Stone,N,None,3E,2650294,Traverse Town Red Room Chest
+Traverse Town,Mystical House,041E,041,E,65,AP Up,Y,Link,40,2650331,Traverse Town Mystical House Yellow Trinity Chest
+Traverse Town,Accessory Shop,0FD0,0FD,0,253,Mythril Shard,N,None,42,2650332,Traverse Town Accessory Shop Chest
+Traverse Town,Secret Waterway,042E,042,E,66,Orichalcum,Y,Link,44,2650333,Traverse Town Secret Waterway White Trinity Chest
+Traverse Town,Geppetto's House,033E,033,E,51,Wishing Star,Y,Link,46,2650334,Traverse Town Geppetto's House Chest
+Traverse Town,Item Workshop,0FD0,0FD,0,253,Mythril Shard,N,None,48,2650371,Traverse Town Item Workshop Right Chest
+Traverse Town,1st District,0D30,0D3,0,211,Postcard,N,None,50,2650411,Traverse Town 1st District Blue Trinity Balcony Chest
+Traverse Town,Mystical House,0014,001,4,1,Puppies,N,None,B0,2650891,Traverse Town Mystical House Glide Chest
+Traverse Town,Alleyway,0024,002,4,2,Puppies,N,None,B2,2650892,Traverse Town Alleyway Behind Crates Chest
+Traverse Town,Item Workshop,0034,003,4,3,Puppies,N,None,B4,2650893,Traverse Town Item Workshop Left Chest
+Traverse Town,Secret Waterway,0044,004,4,4,Puppies,N,None,B6,2650894,Traverse Town Secret Waterway Near Stairs Chest
+Wonderland,Rabbit Hole,074E,074,E,116,Elixir,Y,Link,B8,2650931,Wonderland Rabbit Hole Green Trinity Chest
+Wonderland,Rabbit Hole,043E,043,E,67,Camping Set,Y,Link,BA,2650932,Wonderland Rabbit Hole Defeat Heartless 1 Chest
+Wonderland,Rabbit Hole,044E,044,E,68,Mega-Potion,Y,Link,BC,2650933,Wonderland Rabbit Hole Defeat Heartless 2 Chest
+Wonderland,Rabbit Hole,045E,045,E,69,Megalixir,Y,Link,BE,2650934,Wonderland Rabbit Hole Defeat Heartless 3 Chest
+Wonderland,Bizarre Room,046E,046,E,70,Mythril Shard,Y,Link,C0,2650971,Wonderland Bizarre Room Green Trinity Chest
+Wonderland,Queen's Castle,03B2,03B,2,59,Gummi,N,None,C8,2651011,Wonderland Queen's Castle Hedge Left Red Chest
+Wonderland,Queen's Castle,0054,005,4,5,Puppies,N,None,CA,2651012,Wonderland Queen's Castle Hedge Right Blue Chest
+Wonderland,Queen's Castle,03E2,03E,2,62,Gummi,N,None,CC,2651013,Wonderland Queen's Castle Hedge Right Red Chest
+Wonderland,Lotus Forest,03B2,03B,2,59,Gummi,N,None,CE,2651014,Wonderland Lotus Forest Thunder Plant Chest
+Wonderland,Lotus Forest,0144,014,4,20,Puppies,N,None,D0,2651051,Wonderland Lotus Forest Through the Painting Thunder Plant Chest
+Wonderland,Lotus Forest,047E,047,E,71,Orichalcum,Y,Link,D2,2651052,Wonderland Lotus Forest Glide Chest
+Wonderland,Lotus Forest,0064,006,4,6,Puppies,N,None,D4,2651053,Wonderland Lotus Forest Nut Chest
+Wonderland,Lotus Forest,0332,033,2,51,Gummi,N,None,D6,2651054,Wonderland Lotus Forest Corner Chest
+Wonderland,Bizarre Room,0990,099,0,153,Defense Up,N,None,D8,2651091,Wonderland Bizarre Room Lamp Chest
+Wonderland,Tea Party Garden,0072,007,2,7,Gummi,N,None,DC,2651093,Wonderland Tea Party Garden Above Lotus Forest Entrance 2nd Chest
+Wonderland,Tea Party Garden,0074,007,4,7,Puppies,N,None,DE,2651094,Wonderland Tea Party Garden Above Lotus Forest Entrance 1st Chest
+Wonderland,Tea Party Garden,099E,099,E,153,Dark Matter,Y,Link,E0,2651131,Wonderland Tea Party Garden Bear and Clock Puzzle Chest
+Wonderland,Tea Party Garden,032E,032,E,50,Mythril,Y,Link,E2,2651132,Wonderland Tea Party Garden Across From Bizarre Room Entrance Chest
+Wonderland,Lotus Forest,048E,048,E,72,Lady Luck,Y,Link,E4,2651133,Wonderland Lotus Forest Through the Painting White Trinity Chest
+Deep Jungle,Tree House,049E,049,E,73,Mega-Potion,Y,Link,F4,2651213,Deep Jungle Tree House Beneath Tree House Chest
+Deep Jungle,Tree House,04AE,04A,E,74,Protect Chain,Y,Link,F6,2651214,Deep Jungle Tree House Rooftop Chest
+Deep Jungle,Hippos' Lagoon,0094,009,4,9,Puppies,N,None,F8,2651251,Deep Jungle Hippo's Lagoon Center Chest
+Deep Jungle,Hippos' Lagoon,0060,006,0,6,Mega-Potion,N,None,FA,2651252,Deep Jungle Hippo's Lagoon Left Chest
+Deep Jungle,Hippos' Lagoon,03E2,03E,2,62,Gummi,N,None,FC,2651253,Deep Jungle Hippo's Lagoon Right Chest
+Deep Jungle,Jungle: Vines,0FE0,0FE,0,254,Mythril,N,None,100,2651291,Deep Jungle Vines Chest
+Deep Jungle,Jungle: Vines 2,00A4,00A,4,10,Puppies,N,None,102,2651292,Deep Jungle Vines 2 Chest
+Deep Jungle,Climbing Trees,03B2,03B,2,59,Gummi,N,None,104,2651293,Deep Jungle Climbing Trees Blue Trinity Chest
+Deep Jungle,Jungle: Tunnel,0070,007,0,7,Mega-Ether,N,None,108,2651331,Deep Jungle Tunnel Chest
+Deep Jungle,Cavern of Hearts,04BE,04B,E,75,Orichalcum,Y,Link,10A,2651332,Deep Jungle Cavern of Hearts White Trinity Chest
+Deep Jungle,Camp,00C4,00C,4,12,Puppies,N,None,10C,2651333,Deep Jungle Camp Blue Trinity Chest
+Deep Jungle,Camp: Tent,0FD0,0FD,0,253,Mythril Shard,N,None,10E,2651334,Deep Jungle Tent Chest
+Deep Jungle,Waterfall Cavern,0FD0,0FD,0,253,Mythril Shard,N,None,110,2651371,Deep Jungle Waterfall Cavern Low Chest
+Deep Jungle,Waterfall Cavern,00B4,00B,4,11,Puppies,N,None,112,2651372,Deep Jungle Waterfall Cavern Middle Chest
+Deep Jungle,Waterfall Cavern,0FE0,0FE,0,254,Mythril,N,None,114,2651373,Deep Jungle Waterfall Cavern High Wall Chest
+Deep Jungle,Waterfall Cavern,0FF0,0FF,0,255,Orichalcum,N,None,116,2651374,Deep Jungle Waterfall Cavern High Middle Chest
+Deep Jungle,Jungle: Cliff,072E,072,E,114,Mega-Potion,Y,Link,118,2651411,Deep Jungle Cliff Right Cliff Left Chest
+Deep Jungle,Jungle: Cliff,073E,073,E,115,Mythril Shard,Y,Link,11A,2651412,Deep Jungle Cliff Right Cliff Right Chest
+Deep Jungle,Tree House,075E,075,E,117,Mythril,Y,Link,11C,2651413,Deep Jungle Tree House Suspended Boat Chest
+100 Acre Wood,Wood: Meadow,0FD0,0FD,0,253,Mythril Shard,N,None,14E,2651654,100 Acre Wood Meadow Inside Log Chest
+100 Acre Wood,Bouncing Spot,04CE,04C,E,76,Mythril Shard,Y,Link,150,2651691,100 Acre Wood Bouncing Spot Left Cliff Chest
+100 Acre Wood,Bouncing Spot,09BE,09B,E,155,Dark Matter,Y,Link,152,2651692,100 Acre Wood Bouncing Spot Right Tree Alcove Chest
+100 Acre Wood,Bouncing Spot,04DE,04D,E,77,AP Up,Y,Link,154,2651693,100 Acre Wood Bouncing Spot Under Giant Pot Chest
+Agrabah,Agrabah: Plaza,0060,006,0,6,Mega-Potion,N,None,18A,2651972,Agrabah Plaza By Storage Chest
+Agrabah,Agrabah: Plaza,0070,007,0,7,Mega-Ether,N,None,18C,2651973,Agrabah Plaza Raised Terrace Chest
+Agrabah,Agrabah: Plaza,04EE,04E,E,78,Cottage,Y,Link,18E,2651974,Agrabah Plaza Top Corner Chest
+Agrabah,Agrabah: Alley,0060,006,0,6,Mega-Potion,N,None,190,2652011,Agrabah Alley Chest
+Agrabah,Agrabah: Bazaar,03B2,03B,2,59,Gummi,N,None,192,2652012,Agrabah Bazaar Across Windows Chest
+Agrabah,Agrabah: Bazaar,04FE,04F,E,79,Fire Ring,Y,Link,194,2652013,Agrabah Bazaar High Corner Chest
+Agrabah,Main Street,0070,007,0,7,Mega-Ether,N,None,196,2652014,Agrabah Main Street Right Palace Entrance Chest
+Agrabah,Main Street,09CE,09C,E,156,Dark Matter,Y,Link,198,2652051,Agrabah Main Street High Above Alley Entrance Chest
+Agrabah,Main Street,050E,050,E,80,Mythril,Y,Link,19A,2652052,Agrabah Main Street High Above Palace Gates Entrance Chest
+Agrabah,Palace Gates,076E,076,E,118,Protera Chain,Y,Link,19C,2652053,Agrabah Palace Gates Low Chest
+Agrabah,Palace Gates,0124,012,4,18,Puppies,N,None,19E,2652054,Agrabah Palace Gates High Opposite Palace Chest
+Agrabah,Palace Gates,02E2,02E,2,46,Gummi,N,None,1A0,2652091,Agrabah Palace Gates High Close to Palace Chest
+Agrabah,Agrabah: Storage,051E,051,E,81,AP Up,Y,Link,1A2,2652092,Agrabah Storage Green Trinity Chest
+Agrabah,Agrabah: Storage,0060,006,0,6,Mega-Potion,N,None,1A4,2652093,Agrabah Storage Behind Barrel Chest
+Agrabah,Cave: Entrance,0070,007,0,7,Mega-Ether,N,None,1A6,2652094,Agrabah Cave of Wonders Entrance Left Chest
+Agrabah,Cave: Entrance,0114,011,4,17,Puppies,N,None,1A8,2652131,Agrabah Cave of Wonders Entrance Tall Tower Chest
+Agrabah,Cave: Hall,0040,004,0,4,Elixir,N,None,1AA,2652132,Agrabah Cave of Wonders Hall High Left Chest
+Agrabah,Cave: Hall,0FD0,0FD,0,253,Mythril Shard,N,None,1AC,2652133,Agrabah Cave of Wonders Hall Near Bottomless Hall Chest
+Agrabah,Bottomless Hall,0900,090,0,144,Cottage,N,None,1AE,2652134,Agrabah Cave of Wonders Bottomless Hall Raised Platform Chest
+Agrabah,Bottomless Hall,052E,052,E,82,Elixir,Y,Link,1B0,2652171,Agrabah Cave of Wonders Bottomless Hall Pillar Chest
+Agrabah,Bottomless Hall,053E,053,E,83,Mega-Potion,Y,Link,1B2,2652172,Agrabah Cave of Wonders Bottomless Hall Across Chasm Chest
+Agrabah,Treasure Room,00D4,00D,4,13,Puppies,N,None,1B4,2652173,Agrabah Cave of Wonders Treasure Room Across Platforms Chest
+Agrabah,Treasure Room,0FD0,0FD,0,253,Mythril Shard,N,None,1B6,2652174,Agrabah Cave of Wonders Treasure Room Small Treasure Pile Chest
+Agrabah,Treasure Room,03C2,03C,2,60,Gummi,N,None,1B8,2652211,Agrabah Cave of Wonders Treasure Room Large Treasure Pile Chest
+Agrabah,Treasure Room,0990,099,0,153,Defense Up,N,None,1BA,2652212,Agrabah Cave of Wonders Treasure Room Above Fire Chest
+Agrabah,Relic Chamber,0FE0,0FE,0,254,Mythril,N,None,1BC,2652213,Agrabah Cave of Wonders Relic Chamber Jump from Stairs Chest
+Agrabah,Relic Chamber,077E,077,E,119,Thunder Ring,Y,Link,1BE,2652214,Agrabah Cave of Wonders Relic Chamber Stairs Chest
+Agrabah,Dark Chamber,054E,054,E,84,Protera Chain,Y,Link,1C0,2652251,Agrabah Cave of Wonders Dark Chamber Abu Gem Chest
+Agrabah,Dark Chamber,03E2,03E,2,62,Gummi,N,None,1C2,2652252,Agrabah Cave of Wonders Dark Chamber Across from Relic Chamber Entrance Chest
+Agrabah,Dark Chamber,0D60,0D6,0,214,Torn Page 3,N,None,1C4,2652253,Agrabah Cave of Wonders Dark Chamber Bridge Chest
+Agrabah,Dark Chamber,0900,090,0,144,Cottage,N,None,1C6,2652254,Agrabah Cave of Wonders Dark Chamber Near Save Chest
+Agrabah,Silent Chamber,03B2,03B,2,59,Gummi,N,None,1C8,2652291,Agrabah Cave of Wonders Silent Chamber Blue Trinity Chest
+Agrabah,Hidden Room,0352,035,2,53,Gummi,N,None,1CA,2652292,Agrabah Cave of Wonders Hidden Room Right Chest
+Agrabah,Hidden Room,0104,010,4,16,Puppies,N,None,1CC,2652293,Agrabah Cave of Wonders Hidden Room Left Chest
+Agrabah,Aladdin's House,0882,088,2,136,Gummi,N,None,1CE,2652294,Agrabah Aladdin's House Main Street Entrance Chest
+Agrabah,Aladdin's House,0080,008,0,8,Megalixir,N,None,1D0,2652331,Agrabah Aladdin's House Plaza Entrance Chest
+Agrabah,Cave: Entrance,09DE,09D,E,157,Ifrit Belt,Y,Link,1D2,2652332,Agrabah Cave of Wonders Entrance White Trinity Chest
+Halloween Town,Moonlight Hill,0174,017,4,23,Puppies,N,None,25E,2653014,Halloween Town Moonlight Hill White Trinity Chest
+Halloween Town,Bridge,0072,007,2,7,Gummi,N,None,260,2653051,Halloween Town Bridge Under Bridge
+Halloween Town,Boneyard,0E40,0E4,0,228,Jack-In-The-Box,N,None,262,2653052,Halloween Town Boneyard Tombstone Puzzle Chest
+Halloween Town,Bridge,0990,099,0,153,Defense Up,N,None,264,2653053,Halloween Town Bridge Right of Gate Chest
+Halloween Town,Cemetery,0A0E,0A0,E,160,Dark Matter,Y,Link,266,2653054,Halloween Town Cemetery Behind Grave Chest
+Halloween Town,Cemetery,0164,016,4,22,Puppies,N,None,268,2653091,Halloween Town Cemetery By Cat Shape Chest
+Halloween Town,Cemetery,0892,089,2,137,Gummi,N,None,26A,2653092,Halloween Town Cemetery Between Graves Chest
+Halloween Town,Oogie Manor/Manor Ruins,09FE,09F,E,159,Orichalcum,Y,Link,26C,2653093,Halloween Town Oogie's Manor Lower Iron Cage Chest
+Halloween Town,Oogie Manor/Manor Ruins,0070,007,0,7,Mega-Ether,N,None,26E,2653094,Halloween Town Oogie's Manor Upper Iron Cage Chest
+Halloween Town,Oogie Manor/Manor Ruins,00E4,00E,4,14,Puppies,N,None,270,2653131,Halloween Town Oogie's Manor Hollow Chest
+Halloween Town,Oogie Manor/Manor Ruins,0FD0,0FD,0,253,Mythril Shard,N,None,272,2653132,Halloween Town Oogie's Manor Grounds Red Trinity Chest
+Halloween Town,Guillotine Square,0980,098,0,152,Power Up,N,None,274,2653133,Halloween Town Guillotine Square High Tower Chest
+Halloween Town,Guillotine Square,0040,004,0,4,Elixir,N,None,276,2653134,Halloween Town Guillotine Square Pumpkin Structure Left Chest
+Halloween Town,Oogie Manor/Manor Ruins,0030,003,0,3,Ether,N,None,278,2653171,Halloween Town Oogie's Manor Entrance Steps Chest
+Halloween Town,Oogie Manor/Manor Ruins,0030,003,0,3,Ether,N,None,27A,2653172,Halloween Town Oogie's Manor Inside Entrance Chest
+Halloween Town,Bridge,03E2,03E,2,62,Gummi,N,None,290,2653291,Halloween Town Bridge Left of Gate Chest
+Halloween Town,Cemetery,0082,008,2,8,Gummi,N,None,292,2653292,Halloween Town Cemetery By Striped Grave Chest
+Halloween Town,Guillotine Square,03B2,03B,2,59,Gummi,N,None,294,2653293,Halloween Town Guillotine Square Under Jack's House Stairs Chest
+Halloween Town,Guillotine Square,0184,018,4,24,Puppies,N,None,296,2653294,Halloween Town Guillotine Square Pumpkin Structure Right Chest
+Olympus Coliseum,Coliseum Gates,0060,006,0,6,Mega-Potion,N,None,29A,2653332,Olympus Coliseum Coliseum Gates Left Behind Columns Chest
+Olympus Coliseum,Coliseum Gates,0084,008,4,8,Puppies,N,None,29C,2653333,Olympus Coliseum Coliseum Gates Right Blue Trinity Chest
+Olympus Coliseum,Coliseum Gates,055E,055,E,85,Mythril Shard,Y,Link,29E,2653334,Olympus Coliseum Coliseum Gates Left Blue Trinity Chest
+Olympus Coliseum,Coliseum Gates,056E,056,E,86,Violetta,Y,Link,2A0,2653371,Olympus Coliseum Coliseum Gates White Trinity Chest
+Olympus Coliseum,Coliseum Gates,0082,008,2,8,Gummi,N,None,2A2,2653372,Olympus Coliseum Coliseum Gates Blizzara Chest
+Olympus Coliseum,Coliseum Gates,09AE,09A,E,154,Shiva Belt,Y,Link,2A4,2653373,Olympus Coliseum Coliseum Gates Blizzaga Chest
+Monstro,Chamber 6,0080,008,0,8,Megalixir,N,None,1E4,2652413,Monstro Chamber 6 Other Platform Chest
+Monstro,Chamber 6,0D50,0D5,0,213,Torn Page 2,N,None,1E6,2652414,Monstro Chamber 6 Platform Near Chamber 5 Entrance Chest
+Monstro,Chamber 6,029E,029,E,41,Mythril,Y,Link,1E8,2652451,Monstro Chamber 6 Raised Area Near Chamber 1 Entrance Chest
+Monstro,Chamber 6,01A4,01A,4,26,Puppies,N,None,1EA,2652452,Monstro Chamber 6 Low Chest
+Monstro,Monstro: Mouth,027E,027,E,39,High Jump,Y,Link,2B6,2653454,Monstro Mouth Boat Deck Chest
+Monstro,Monstro: Mouth,0900,090,0,144,Cottage,N,None,2B8,2653491,Monstro Mouth High Platform Boat Side Chest
+Monstro,Monstro: Mouth,0194,019,4,25,Puppies,N,None,2BA,2653492,Monstro Mouth High Platform Across from Boat Chest
+Monstro,Monstro: Mouth,0332,033,2,51,Gummi,N,None,2BC,2653493,Monstro Mouth Near Ship Chest
+Monstro,Monstro: Mouth,057E,057,E,87,Mythril Shard,Y,Link,2BE,2653494,Monstro Mouth Green Trinity Top of Boat Chest
+Monstro,Monstro: Chamber 2,0900,090,0,144,Cottage,N,None,2C6,2653534,Monstro Chamber 2 Ground Chest
+Monstro,Monstro: Chamber 2,0080,008,0,8,Megalixir,N,None,2C8,2653571,Monstro Chamber 2 Platform Chest
+Monstro,Monstro: Chamber 5,0FE0,0FE,0,254,Mythril,N,None,2D4,2653613,Monstro Chamber 5 Platform Chest
+Monstro,Monstro: Chamber 3,0070,007,0,7,Mega-Ether,N,None,2D6,2653614,Monstro Chamber 3 Ground Chest
+Monstro,Monstro: Chamber 3,0134,013,4,19,Puppies,N,None,2D8,2653651,Monstro Chamber 3 Platform Above Chamber 2 Entrance Chest
+Monstro,Monstro: Chamber 3,02F2,02F,2,47,Gummi,N,None,2DA,2653652,Monstro Chamber 3 Near Chamber 6 Entrance Chest
+Monstro,Monstro: Chamber 3,0072,007,2,7,Gummi,N,None,2DC,2653653,Monstro Chamber 3 Platform Near Chamber 6 Entrance Chest
+Monstro,Monstro: Mouth,028E,028,E,40,Watergleam,Y,Link,2EA,2653732,Monstro Mouth High Platform Near Teeth Chest
+Monstro,Monstro: Chamber 5,01B4,01B,4,27,Puppies,N,None,2EC,2653733,Monstro Chamber 5 Atop Barrel Chest
+Monstro,Monstro: Chamber 5,0070,007,0,7,Mega-Ether,N,None,2EE,2653734,Monstro Chamber 5 Low 2nd Chest
+Monstro,Monstro: Chamber 5,03C2,03C,2,60,Gummi,N,None,2F0,2653771,Monstro Chamber 5 Low 1st Chest
+Monstro,Chamber 6,09EE,09E,E,158,Dark Matter,Y,Link,3FA,2655092,Monstro Chamber 6 White Trinity Chest
+Neverland,Pirate Ship,00F4,00F,4,15,Puppies,N,None,2F2,2653772,Neverland Pirate Ship Deck White Trinity Chest
+Neverland,Pirate Ship,0A2E,0A2,E,162,Orichalcum,Y,Link,2F4,2653773,Neverland Pirate Ship Crows Nest Chest
+Neverland,Ship: Hold (Yellow Trinity),0FF0,0FF,0,255,Orichalcum,N,None,2F6,2653774,Neverland Hold Yellow Trinity Right Blue Chest
+Neverland,Ship: Hold (Yellow Trinity),0A1E,0A1,E,161,Dark Matter,Y,Link,2F8,2653811,Neverland Hold Yellow Trinity Left Blue Chest
+Neverland,Ship: Galley,03E2,03E,2,62,Gummi,N,None,2FA,2653812,Neverland Galley Chest
+Neverland,Ship: Cabin,078E,078,E,120,Protera Chain,Y,Link,2FC,2653813,Neverland Cabin Chest
+Neverland,Ship: Hold,01C4,01C,4,28,Puppies,N,None,2FE,2653814,Neverland Hold Flight 1st Chest
+Neverland,Clock Tower,0072,007,2,7,Gummi,N,None,326,2654014,Neverland Clock Tower Chest
+Neverland,Ship: Hold,08A2,08A,2,138,Gummi,N,None,328,2654051,Neverland Hold Flight 2nd Chest
+Neverland,Ship: Hold (Yellow Trinity),01D4,01D,4,29,Puppies,N,None,32A,2654052,Neverland Hold Yellow Trinity Green Chest
+Neverland,Captain's Cabin,01E4,01E,4,30,Puppies,N,None,32C,2654053,Neverland Captain's Cabin Chest
+Hollow Bastion,Rising Falls,0022,002,2,2,Gummi,N,None,32E,2654054,Hollow Bastion Rising Falls Water's Surface Chest
+Hollow Bastion,Rising Falls,03E2,03E,2,62,Gummi,N,None,330,2654091,Hollow Bastion Rising Falls Under Water 1st Chest
+Hollow Bastion,Rising Falls,058E,058,E,88,Defense Up,Y,Link,332,2654092,Hollow Bastion Rising Falls Under Water 2nd Chest
+Hollow Bastion,Rising Falls,01F4,01F,4,31,Puppies,N,None,334,2654093,Hollow Bastion Rising Falls Floating Platform Near Save Chest
+Hollow Bastion,Rising Falls,079E,079,E,121,Blizzara Ring,Y,Link,336,2654094,Hollow Bastion Rising Falls Floating Platform Near Bubble Chest
+Hollow Bastion,Rising Falls,0080,008,0,8,Megalixir,N,None,338,2654131,Hollow Bastion Rising Falls High Platform Chest
+Hollow Bastion,Castle Gates,0204,020,4,32,Puppies,N,None,33A,2654132,Hollow Bastion Castle Gates Gravity Chest
+Hollow Bastion,Castle Gates,059E,059,E,89,Orichalcum,Y,Link,33C,2654133,Hollow Bastion Castle Gates Freestanding Pillar Chest
+Hollow Bastion,Castle Gates,0352,035,2,53,Gummi,N,None,33E,2654134,Hollow Bastion Castle Gates High Pillar Chest
+Hollow Bastion,Great Crest,0FF0,0FF,0,255,Orichalcum,N,None,340,2654171,Hollow Bastion Great Crest Lower Chest
+Hollow Bastion,Great Crest,03C2,03C,2,60,Gummi,N,None,342,2654172,Hollow Bastion Great Crest After Battle Platform Chest
+Hollow Bastion,High Tower,02F2,02F,2,47,Gummi,N,None,344,2654173,Hollow Bastion High Tower 2nd Gravity Chest
+Hollow Bastion,High Tower,05AE,05A,E,90,Thundara Ring,Y,Link,346,2654174,Hollow Bastion High Tower 1st Gravity Chest
+Hollow Bastion,High Tower,0080,008,0,8,Megalixir,N,None,348,2654211,Hollow Bastion High Tower Above Sliding Blocks Chest
+Hollow Bastion,Entrance Hall,05BE,05B,E,91,AP Up,Y,Link,34A,2654212,Hollow Bastion Entrance Hall Left of Emblem Door Chest
+Hollow Bastion,Library,03F2,03F,2,63,Gummi,N,None,34C,2654213,Hollow Bastion Library Top of Bookshelf Chest
+Hollow Bastion,Lift Stop,0A3E,0A3,E,163,Ramuh Belt,Y,Link,356,2654254,Hollow Bastion Lift Stop Library Node After High Tower Switch Gravity Chest
+Hollow Bastion,Lift Stop,02E2,02E,2,46,Gummi,N,None,358,2654291,Hollow Bastion Lift Stop Library Node Gravity Chest
+Hollow Bastion,Lift Stop,0A4E,0A4,E,164,Royal Crown,Y,Link,35A,2654292,Hollow Bastion Lift Stop Under High Tower Sliding Blocks Chest
+Hollow Bastion,Lift Stop,0214,021,4,33,Puppies,N,None,35C,2654293,Hollow Bastion Lift Stop Outside Library Gravity Chest
+Hollow Bastion,Lift Stop,0FF0,0FF,0,255,Orichalcum,N,None,35E,2654294,Hollow Bastion Lift Stop Heartless Sigil Door Gravity Chest
+Hollow Bastion,Base Level,0FE0,0FE,0,254,Mythril,N,None,360,2654331,Hollow Bastion Base Level Bubble Under the Wall Platform Chest
+Hollow Bastion,Base Level,08B2,08B,2,139,Gummi,N,None,362,2654332,Hollow Bastion Base Level Platform Near Entrance Chest
+Hollow Bastion,Base Level,03B2,03B,2,59,Gummi,N,None,364,2654333,Hollow Bastion Base Level Near Crystal Switch Chest
+Hollow Bastion,Waterway,07AE,07A,E,122,Fira Ring,Y,Link,366,2654334,Hollow Bastion Waterway Near Save Chest
+Hollow Bastion,Waterway,0A5E,0A5,E,165,Dark Matter,Y,Link,368,2654371,Hollow Bastion Waterway Blizzard on Bubble Chest
+Hollow Bastion,Waterway,03C2,03C,2,60,Gummi,N,None,36A,2654372,Hollow Bastion Waterway Unlock Passage from Base Level Chest
+Hollow Bastion,Dungeon,03F2,03F,2,63,Gummi,N,None,36C,2654373,Hollow Bastion Dungeon By Candles Chest
+Hollow Bastion,Dungeon,03C2,03C,2,60,Gummi,N,None,36E,2654374,Hollow Bastion Dungeon Corner Chest
+Hollow Bastion,Grand Hall,0A6E,0A6,E,166,Dark Matter,Y,Link,37E,2654454,Hollow Bastion Grand Hall Steps Right Side Chest
+Hollow Bastion,Grand Hall,031E,031,E,49,Oblivion,Y,Link,380,2654491,Hollow Bastion Grand Hall Oblivion Chest
+Hollow Bastion,Grand Hall,0154,015,4,21,Puppies,N,None,382,2654492,Hollow Bastion Grand Hall Left of Gate Chest
+Hollow Bastion,Rising Falls,03C2,03C,2,60,Gummi,N,None,386,2654494,Hollow Bastion Rising Falls White Trinity Chest
+End of the World,Final Dimension,07BE,07B,E,123,Mythril Shard,Y,Link,388,2654531,End of the World Final Dimension 1st Chest
+End of the World,Final Dimension,07CE,07C,E,124,Pretty Stone,Y,Link,38A,2654532,End of the World Final Dimension 2nd Chest
+End of the World,Final Dimension,07DE,07D,E,125,Mega-Potion,Y,Link,38C,2654533,End of the World Final Dimension 3rd Chest
+End of the World,Final Dimension,07EE,07E,E,126,Mythril,Y,Link,38E,2654534,End of the World Final Dimension 4th Chest
+End of the World,Final Dimension,07FE,07F,E,127,Elixir,Y,Link,390,2654571,End of the World Final Dimension 5th Chest
+End of the World,Final Dimension,080E,080,E,128,Mythril Shard,Y,Link,392,2654572,End of the World Final Dimension 6th Chest
+End of the World,Final Dimension,081E,081,E,129,Pretty Stone,Y,Link,394,2654573,End of the World Final Dimension 10th Chest
+End of the World,Final Dimension,082E,082,E,130,Cottage,Y,Link,396,2654574,End of the World Final Dimension 9th Chest
+End of the World,Final Dimension,083E,083,E,131,Gale,Y,Link,398,2654611,End of the World Final Dimension 8th Chest
+End of the World,Final Dimension,084E,084,E,132,AP Up,Y,Link,39A,2654612,End of the World Final Dimension 7th Chest
+End of the World,Giant Crevasse,0032,003,2,3,Gummi,N,None,39C,2654613,End of the World Giant Crevasse 3rd Chest
+End of the World,Giant Crevasse,0A8E,0A8,E,168,Meteor Strike,Y,Link,39E,2654614,End of the World Giant Crevasse 5th Chest
+End of the World,Giant Crevasse,08D2,08D,2,141,Gummi,N,None,3A0,2654651,End of the World Giant Crevasse 1st Chest
+End of the World,Giant Crevasse,0A7E,0A7,E,167,Dark Matter,Y,Link,3A2,2654652,End of the World Giant Crevasse 4th Chest
+End of the World,Giant Crevasse,03F2,03F,2,63,Gummi,N,None,3A4,2654653,End of the World Giant Crevasse 2nd Chest
+End of the World,World Terminus: Traverse Town,087E,087,E,135,Spirit Gem,Y,Link,3A6,2654654,End of the World World Terminus Traverse Town Chest
+End of the World,World Terminus: Wonderland,088E,088,E,136,Thunder Gem,Y,Link,3A8,2654691,End of the World World Terminus Wonderland Chest
+End of the World,World Terminus: Olympus Coliseum,089E,089,E,137,Frost Gem,Y,Link,3AA,2654692,End of the World World Terminus Olympus Coliseum Chest
+End of the World,World Terminus: Deep Jungle,08AE,08A,E,138,Bright Gem,Y,Link,3AC,2654693,End of the World World Terminus Deep Jungle Chest
+End of the World,World Terminus: Agrabah,08BE,08B,E,139,Blaze Gem,Y,Link,3AE,2654694,End of the World World Terminus Agrabah Chest
+End of the World,World Terminus: Atlantica,09A0,09A,0,154,AP Up,N,None,3B0,2654731,End of the World World Terminus Atlantica Chest
+End of the World,World Terminus: Halloween Town,08CE,08C,E,140,Lucid Gem,Y,Link,3B2,2654732,End of the World World Terminus Halloween Town Chest
+End of the World,World Terminus: Neverland,08DE,08D,E,141,Mighty Shield,Y,Link,3B4,2654733,End of the World World Terminus Neverland Chest
+End of the World,World Terminus: 100 Acre Wood,0080,008,0,8,Megalixir,N,None,3B6,2654734,End of the World World Terminus 100 Acre Wood Chest
+End of the World,World Terminus: Hollow Bastion,08EE,08E,E,142,Elixir,Y,Link,3B8,2654771,End of the World World Terminus Hollow Bastion Chest
+End of the World,Final Rest,0080,008,0,8,Megalixir,N,None,3BA,2654772,End of the World Final Rest Chest

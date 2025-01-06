@@ -1,0 +1,1214 @@
+World,Location,Action,Item,Number,File,Use Corrected File?,Index,Offset,AP Location ID,AP Location Name
+Traverse Town,Item Shop,Hit Fan,Postcard,1,/remastered/tw10.ard/UK_tw10_ard2.evdl,N,1,D8C1,2656500,Traverse Town Item Shop Postcard
+Traverse Town,Item Shop,Hit Fan,Postcard,1,/remastered/tw10.ard/UK_tw10_ard2.evdl,N,2,D8CD,2656500,Traverse Town Item Shop Postcard
+Traverse Town,Item Shop,Hit Fan,Postcard,1,/remastered/tw10.ard/UK_tw10_ard2.evdl,N,3,D8D9,2656500,Traverse Town Item Shop Postcard
+Traverse Town,Item Shop,Hit Fan,Postcard,1,/remastered/tw10.ard/UK_tw10_ard19.evdl,N,1,1F3D,2656500,Traverse Town Item Shop Postcard
+Traverse Town,Item Shop,Hit Fan,Postcard,1,/remastered/tw10.ard/UK_tw10_ard19.evdl,N,2,1F49,2656500,Traverse Town Item Shop Postcard
+Traverse Town,Item Shop,Hit Fan,Postcard,1,/remastered/tw10.ard/UK_tw10_ard19.evdl,N,3,1F55,2656500,Traverse Town Item Shop Postcard
+Traverse Town,Item Shop,Hit Fan,Postcard,1,/remastered/tw10.ard/UK_tw10_ardc.evdl,N,1,B285,2656500,Traverse Town Item Shop Postcard
+Traverse Town,Item Shop,Hit Fan,Postcard,1,/remastered/tw10.ard/UK_tw10_ardc.evdl,N,2,B291,2656500,Traverse Town Item Shop Postcard
+Traverse Town,Item Shop,Hit Fan,Postcard,1,/remastered/tw10.ard/UK_tw10_ardc.evdl,N,3,B29D,2656500,Traverse Town Item Shop Postcard
+Traverse Town,Item Workshop,Examine Poster,Postcard,1,/remastered/tw12.ard/UK_tw12_ard0.evdl,N,1,C3F1,2656504,Traverse Town Item Workshop Postcard
+Traverse Town,Item Workshop,Examine Poster,Postcard,1,/remastered/tw12.ard/UK_tw12_ard0.evdl,N,2,C3FD,2656504,Traverse Town Item Workshop Postcard
+Traverse Town,Item Workshop,Examine Poster,Postcard,1,/remastered/tw12.ard/UK_tw12_ard0.evdl,N,3,C409,2656504,Traverse Town Item Workshop Postcard
+Traverse Town,Item Workshop,Examine Poster,Postcard,1,/remastered/tw12.ard/UK_tw12_ard19.evdl,N,1,2025,2656504,Traverse Town Item Workshop Postcard
+Traverse Town,Item Workshop,Examine Poster,Postcard,1,/remastered/tw12.ard/UK_tw12_ard19.evdl,N,2,2031,2656504,Traverse Town Item Workshop Postcard
+Traverse Town,Item Workshop,Examine Poster,Postcard,1,/remastered/tw12.ard/UK_tw12_ard19.evdl,N,3,203D,2656504,Traverse Town Item Workshop Postcard
+Traverse Town,Item Workshop,Examine Poster,Postcard,1,/remastered/tw12.ard/UK_tw12_ardc.evdl,N,1,B369,2656504,Traverse Town Item Workshop Postcard
+Traverse Town,Item Workshop,Examine Poster,Postcard,1,/remastered/tw12.ard/UK_tw12_ardc.evdl,N,2,B375,2656504,Traverse Town Item Workshop Postcard
+Traverse Town,Item Workshop,Examine Poster,Postcard,1,/remastered/tw12.ard/UK_tw12_ardc.evdl,N,3,B381,2656504,Traverse Town Item Workshop Postcard
+Traverse Town,Gizmo Shop,Examine Clock,Postcard,1,/remastered/tw18.ard/UK_tw18_ard0.evdl,N,1,C035,2656502,Traverse Town Gizmo Shop Postcard 1
+Traverse Town,Gizmo Shop,Examine Clock,Postcard,1,/remastered/tw18.ard/UK_tw18_ard0.evdl,N,2,C041,2656502,Traverse Town Gizmo Shop Postcard 1
+Traverse Town,Gizmo Shop,Examine Clock,Postcard,1,/remastered/tw18.ard/UK_tw18_ard0.evdl,N,3,C04D,2656502,Traverse Town Gizmo Shop Postcard 1
+Traverse Town,Gizmo Shop,Examine Clock,Postcard,1,/remastered/tw18.ard/UK_tw18_ard10.evdl,N,1,C071,2656502,Traverse Town Gizmo Shop Postcard 1
+Traverse Town,Gizmo Shop,Examine Clock,Postcard,1,/remastered/tw18.ard/UK_tw18_ard10.evdl,N,2,C07D,2656502,Traverse Town Gizmo Shop Postcard 1
+Traverse Town,Gizmo Shop,Examine Clock,Postcard,1,/remastered/tw18.ard/UK_tw18_ard10.evdl,N,3,C089,2656502,Traverse Town Gizmo Shop Postcard 1
+Traverse Town,Gizmo Shop,Examine Clock,Postcard,1,/remastered/tw18.ard/UK_tw18_ard19.evdl,N,1,2EB5,2656502,Traverse Town Gizmo Shop Postcard 1
+Traverse Town,Gizmo Shop,Examine Clock,Postcard,1,/remastered/tw18.ard/UK_tw18_ard19.evdl,N,2,2EC1,2656502,Traverse Town Gizmo Shop Postcard 1
+Traverse Town,Gizmo Shop,Examine Clock,Postcard,1,/remastered/tw18.ard/UK_tw18_ard19.evdl,N,3,2ECD,2656502,Traverse Town Gizmo Shop Postcard 1
+Traverse Town,Gizmo Shop,Examine Clock,Postcard,1,/remastered/tw18.ard/UK_tw18_ardc.evdl,N,1,C1F9,2656502,Traverse Town Gizmo Shop Postcard 1
+Traverse Town,Gizmo Shop,Examine Clock,Postcard,1,/remastered/tw18.ard/UK_tw18_ardc.evdl,N,2,C205,2656502,Traverse Town Gizmo Shop Postcard 1
+Traverse Town,Gizmo Shop,Examine Clock,Postcard,1,/remastered/tw18.ard/UK_tw18_ardc.evdl,N,3,C211,2656502,Traverse Town Gizmo Shop Postcard 1
+Traverse Town,Gizmo Shop,Examine Clock,Postcard,1,/remastered/tw18.ard/UK_tw18_ardd.evdl,N,1,C0A1,2656502,Traverse Town Gizmo Shop Postcard 1
+Traverse Town,Gizmo Shop,Examine Clock,Postcard,1,/remastered/tw18.ard/UK_tw18_ardd.evdl,N,2,C0AD,2656502,Traverse Town Gizmo Shop Postcard 1
+Traverse Town,Gizmo Shop,Examine Clock,Postcard,1,/remastered/tw18.ard/UK_tw18_ardd.evdl,N,3,C0B9,2656502,Traverse Town Gizmo Shop Postcard 1
+Traverse Town,Gizmo Shop,Examine Clock,Postcard,1,/remastered/tw18.ard/UK_tw18_arde.evdl,N,1,BFAD,2656502,Traverse Town Gizmo Shop Postcard 1
+Traverse Town,Gizmo Shop,Examine Clock,Postcard,1,/remastered/tw18.ard/UK_tw18_arde.evdl,N,2,BFB9,2656502,Traverse Town Gizmo Shop Postcard 1
+Traverse Town,Gizmo Shop,Examine Clock,Postcard,1,/remastered/tw18.ard/UK_tw18_arde.evdl,N,3,BFC5,2656502,Traverse Town Gizmo Shop Postcard 1
+Traverse Town,Gizmo Shop,Examine Clock,Postcard,2,/remastered/tw18.ard/UK_tw18_ard0.evdl,N,1,C1C5,2656503,Traverse Town Gizmo Shop Postcard 2
+Traverse Town,Gizmo Shop,Examine Clock,Postcard,2,/remastered/tw18.ard/UK_tw18_ard0.evdl,N,2,C1D1,2656503,Traverse Town Gizmo Shop Postcard 2
+Traverse Town,Gizmo Shop,Examine Clock,Postcard,2,/remastered/tw18.ard/UK_tw18_ard0.evdl,N,3,C1DD,2656503,Traverse Town Gizmo Shop Postcard 2
+Traverse Town,Gizmo Shop,Examine Clock,Postcard,2,/remastered/tw18.ard/UK_tw18_ard10.evdl,N,1,C201,2656503,Traverse Town Gizmo Shop Postcard 2
+Traverse Town,Gizmo Shop,Examine Clock,Postcard,2,/remastered/tw18.ard/UK_tw18_ard10.evdl,N,2,C20D,2656503,Traverse Town Gizmo Shop Postcard 2
+Traverse Town,Gizmo Shop,Examine Clock,Postcard,2,/remastered/tw18.ard/UK_tw18_ard10.evdl,N,3,C219,2656503,Traverse Town Gizmo Shop Postcard 2
+Traverse Town,Gizmo Shop,Examine Clock,Postcard,2,/remastered/tw18.ard/UK_tw18_ard19.evdl,N,1,3045,2656503,Traverse Town Gizmo Shop Postcard 2
+Traverse Town,Gizmo Shop,Examine Clock,Postcard,2,/remastered/tw18.ard/UK_tw18_ard19.evdl,N,2,3051,2656503,Traverse Town Gizmo Shop Postcard 2
+Traverse Town,Gizmo Shop,Examine Clock,Postcard,2,/remastered/tw18.ard/UK_tw18_ard19.evdl,N,3,305D,2656503,Traverse Town Gizmo Shop Postcard 2
+Traverse Town,Gizmo Shop,Examine Clock,Postcard,2,/remastered/tw18.ard/UK_tw18_ardc.evdl,N,1,C389,2656503,Traverse Town Gizmo Shop Postcard 2
+Traverse Town,Gizmo Shop,Examine Clock,Postcard,2,/remastered/tw18.ard/UK_tw18_ardc.evdl,N,2,C395,2656503,Traverse Town Gizmo Shop Postcard 2
+Traverse Town,Gizmo Shop,Examine Clock,Postcard,2,/remastered/tw18.ard/UK_tw18_ardc.evdl,N,3,C3A1,2656503,Traverse Town Gizmo Shop Postcard 2
+Traverse Town,Gizmo Shop,Examine Clock,Postcard,2,/remastered/tw18.ard/UK_tw18_ardd.evdl,N,1,C231,2656503,Traverse Town Gizmo Shop Postcard 2
+Traverse Town,Gizmo Shop,Examine Clock,Postcard,2,/remastered/tw18.ard/UK_tw18_ardd.evdl,N,2,C23D,2656503,Traverse Town Gizmo Shop Postcard 2
+Traverse Town,Gizmo Shop,Examine Clock,Postcard,2,/remastered/tw18.ard/UK_tw18_ardd.evdl,N,3,C249,2656503,Traverse Town Gizmo Shop Postcard 2
+Traverse Town,Gizmo Shop,Examine Clock,Postcard,2,/remastered/tw18.ard/UK_tw18_arde.evdl,N,1,C13D,2656503,Traverse Town Gizmo Shop Postcard 2
+Traverse Town,Gizmo Shop,Examine Clock,Postcard,2,/remastered/tw18.ard/UK_tw18_arde.evdl,N,2,C149,2656503,Traverse Town Gizmo Shop Postcard 2
+Traverse Town,Gizmo Shop,Examine Clock,Postcard,2,/remastered/tw18.ard/UK_tw18_arde.evdl,N,3,C155,2656503,Traverse Town Gizmo Shop Postcard 2
+Traverse Town,3rd District,Examine Balcony Corner,Postcard,1,/remastered/tw03.ard/UK_tw03_ard0.evdl,N,1,C1C5,2656505,Traverse Town 3rd District Balcony Postcard
+Traverse Town,3rd District,Examine Balcony Corner,Postcard,1,/remastered/tw03.ard/UK_tw03_ard0.evdl,N,2,C1D1,2656505,Traverse Town 3rd District Balcony Postcard
+Traverse Town,3rd District,Examine Balcony Corner,Postcard,1,/remastered/tw03.ard/UK_tw03_ard0.evdl,N,3,C1DD,2656505,Traverse Town 3rd District Balcony Postcard
+Traverse Town,3rd District,Examine Balcony Corner,Postcard,1,/remastered/tw03.ard/UK_tw03_ard2.evdl,N,1,13A6A,2656505,Traverse Town 3rd District Balcony Postcard
+Traverse Town,3rd District,Examine Balcony Corner,Postcard,1,/remastered/tw03.ard/UK_tw03_ard2.evdl,N,2,13A76,2656505,Traverse Town 3rd District Balcony Postcard
+Traverse Town,3rd District,Examine Balcony Corner,Postcard,1,/remastered/tw03.ard/UK_tw03_ard2.evdl,N,3,13A82,2656505,Traverse Town 3rd District Balcony Postcard
+Traverse Town,3rd District,Examine Balcony Corner,Postcard,1,/remastered/tw03.ard/UK_tw03_ard4.evdl,N,1,10805,2656505,Traverse Town 3rd District Balcony Postcard
+Traverse Town,3rd District,Examine Balcony Corner,Postcard,1,/remastered/tw03.ard/UK_tw03_ard4.evdl,N,2,10811,2656505,Traverse Town 3rd District Balcony Postcard
+Traverse Town,3rd District,Examine Balcony Corner,Postcard,1,/remastered/tw03.ard/UK_tw03_ard4.evdl,N,3,1081D,2656505,Traverse Town 3rd District Balcony Postcard
+Traverse Town,3rd District,Examine Balcony Corner,Postcard,1,/remastered/tw03.ard/UK_tw03_ard10.evdl,N,1,C201,2656505,Traverse Town 3rd District Balcony Postcard
+Traverse Town,3rd District,Examine Balcony Corner,Postcard,1,/remastered/tw03.ard/UK_tw03_ard10.evdl,N,2,C20D,2656505,Traverse Town 3rd District Balcony Postcard
+Traverse Town,3rd District,Examine Balcony Corner,Postcard,1,/remastered/tw03.ard/UK_tw03_ard10.evdl,N,3,C219,2656505,Traverse Town 3rd District Balcony Postcard
+Traverse Town,3rd District,Examine Balcony Corner,Postcard,1,/remastered/tw03.ard/UK_tw03_ard19.evdl,N,1,3045,2656505,Traverse Town 3rd District Balcony Postcard
+Traverse Town,3rd District,Examine Balcony Corner,Postcard,1,/remastered/tw03.ard/UK_tw03_ard19.evdl,N,2,3051,2656505,Traverse Town 3rd District Balcony Postcard
+Traverse Town,3rd District,Examine Balcony Corner,Postcard,1,/remastered/tw03.ard/UK_tw03_ard19.evdl,N,3,305D,2656505,Traverse Town 3rd District Balcony Postcard
+Traverse Town,3rd District,Examine Balcony Corner,Postcard,1,/remastered/tw03.ard/UK_tw03_ardc.evdl,N,1,C395,2656505,Traverse Town 3rd District Balcony Postcard
+Traverse Town,3rd District,Examine Balcony Corner,Postcard,1,/remastered/tw03.ard/UK_tw03_ardc.evdl,N,2,C3A1,2656505,Traverse Town 3rd District Balcony Postcard
+Traverse Town,3rd District,Examine Balcony Corner,Postcard,1,/remastered/tw03.ard/UK_tw03_ardc.evdl,N,3,C3AD,2656505,Traverse Town 3rd District Balcony Postcard
+Traverse Town,3rd District,Examine Balcony Corner,Postcard,1,/remastered/tw03.ard/UK_tw03_ardd.evdl,N,1,C231,2656505,Traverse Town 3rd District Balcony Postcard
+Traverse Town,3rd District,Examine Balcony Corner,Postcard,1,/remastered/tw03.ard/UK_tw03_ardd.evdl,N,2,C23D,2656505,Traverse Town 3rd District Balcony Postcard
+Traverse Town,3rd District,Examine Balcony Corner,Postcard,1,/remastered/tw03.ard/UK_tw03_ardd.evdl,N,3,C249,2656505,Traverse Town 3rd District Balcony Postcard
+Traverse Town,3rd District,Examine Balcony Corner,Postcard,1,/remastered/tw03.ard/UK_tw03_arde.evdl,N,1,C145,2656505,Traverse Town 3rd District Balcony Postcard
+Traverse Town,3rd District,Examine Balcony Corner,Postcard,1,/remastered/tw03.ard/UK_tw03_arde.evdl,N,2,C151,2656505,Traverse Town 3rd District Balcony Postcard
+Traverse Town,3rd District,Examine Balcony Corner,Postcard,1,/remastered/tw03.ard/UK_tw03_arde.evdl,N,3,C15D,2656505,Traverse Town 3rd District Balcony Postcard
+Traverse Town,1st District,Examine Safe,Postcard,1,/remastered/tw01.ard/UK_tw01_ard0.evdl,N,1,D979,2656501,Traverse Town 1st District Safe Postcard
+Traverse Town,1st District,Examine Safe,Postcard,1,/remastered/tw01.ard/UK_tw01_ard0.evdl,N,2,D985,2656501,Traverse Town 1st District Safe Postcard
+Traverse Town,1st District,Examine Safe,Postcard,1,/remastered/tw01.ard/UK_tw01_ard0.evdl,N,3,D991,2656501,Traverse Town 1st District Safe Postcard
+Traverse Town,1st District,Examine Safe,Postcard,1,/remastered/tw01.ard/UK_tw01_ard2.evdl,N,1,11951,2656501,Traverse Town 1st District Safe Postcard
+Traverse Town,1st District,Examine Safe,Postcard,1,/remastered/tw01.ard/UK_tw01_ard2.evdl,N,2,1195D,2656501,Traverse Town 1st District Safe Postcard
+Traverse Town,1st District,Examine Safe,Postcard,1,/remastered/tw01.ard/UK_tw01_ard2.evdl,N,3,11969,2656501,Traverse Town 1st District Safe Postcard
+Traverse Town,1st District,Examine Safe,Postcard,1,/remastered/tw01.ard/UK_tw01_ard3.evdl,N,1,E785,2656501,Traverse Town 1st District Safe Postcard
+Traverse Town,1st District,Examine Safe,Postcard,1,/remastered/tw01.ard/UK_tw01_ard3.evdl,N,2,E791,2656501,Traverse Town 1st District Safe Postcard
+Traverse Town,1st District,Examine Safe,Postcard,1,/remastered/tw01.ard/UK_tw01_ard3.evdl,N,3,E79D,2656501,Traverse Town 1st District Safe Postcard
+Traverse Town,1st District,Examine Safe,Postcard,1,/remastered/tw01.ard/UK_tw01_ard4.evdl,Y,1,DCED,2656501,Traverse Town 1st District Safe Postcard
+Traverse Town,1st District,Examine Safe,Postcard,1,/remastered/tw01.ard/UK_tw01_ard4.evdl,Y,2,DCF9,2656501,Traverse Town 1st District Safe Postcard
+Traverse Town,1st District,Examine Safe,Postcard,1,/remastered/tw01.ard/UK_tw01_ard4.evdl,Y,3,DD05,2656501,Traverse Town 1st District Safe Postcard
+Traverse Town,1st District,Examine Safe,Postcard,1,/remastered/tw01.ard/UK_tw01_ard5.evdl,N,1,10929,2656501,Traverse Town 1st District Safe Postcard
+Traverse Town,1st District,Examine Safe,Postcard,1,/remastered/tw01.ard/UK_tw01_ard5.evdl,N,2,10935,2656501,Traverse Town 1st District Safe Postcard
+Traverse Town,1st District,Examine Safe,Postcard,1,/remastered/tw01.ard/UK_tw01_ard5.evdl,N,3,10941,2656501,Traverse Town 1st District Safe Postcard
+Traverse Town,1st District,Examine Safe,Postcard,1,/remastered/tw01.ard/UK_tw01_ard19.evdl,N,1,274D,2656501,Traverse Town 1st District Safe Postcard
+Traverse Town,1st District,Examine Safe,Postcard,1,/remastered/tw01.ard/UK_tw01_ard19.evdl,N,2,2759,2656501,Traverse Town 1st District Safe Postcard
+Traverse Town,1st District,Examine Safe,Postcard,1,/remastered/tw01.ard/UK_tw01_ard19.evdl,N,3,2765,2656501,Traverse Town 1st District Safe Postcard
+Traverse Town,1st District,Examine Safe,Postcard,1,/remastered/tw01.ard/UK_tw01_ardc.evdl,N,1,BAA9,2656501,Traverse Town 1st District Safe Postcard
+Traverse Town,1st District,Examine Safe,Postcard,1,/remastered/tw01.ard/UK_tw01_ardc.evdl,N,2,BAB5,2656501,Traverse Town 1st District Safe Postcard
+Traverse Town,1st District,Examine Safe,Postcard,1,/remastered/tw01.ard/UK_tw01_ardc.evdl,N,3,BAC1,2656501,Traverse Town 1st District Safe Postcard
+Traverse Town,1st District,Examine Safe,Postcard,1,/remastered/tw01.ard/UK_tw01_ardd.evdl,N,1,B9A1,2656501,Traverse Town 1st District Safe Postcard
+Traverse Town,1st District,Examine Safe,Postcard,1,/remastered/tw01.ard/UK_tw01_ardd.evdl,N,2,B9AD,2656501,Traverse Town 1st District Safe Postcard
+Traverse Town,1st District,Examine Safe,Postcard,1,/remastered/tw01.ard/UK_tw01_ardd.evdl,N,3,B9B9,2656501,Traverse Town 1st District Safe Postcard
+Traverse Town,1st District,Defeat Guard Armor,Fire,1,/remastered/tw01.ard/UK_tw01_ard4.evdl,Y,1,1336A,2656012,Traverse Town Defeat Guard Armor Fire Event
+Traverse Town,1st District,Defeat Guard Armor,Fire,1,/remastered/tw01.ard/UK_tw01_ard4.evdl,Y,2,13376,2656012,Traverse Town Defeat Guard Armor Fire Event
+Traverse Town,1st District,Defeat Guard Armor,Fire,1,/remastered/tw01.ard/UK_tw01_ard4.evdl,Y,3,13382,2656012,Traverse Town Defeat Guard Armor Fire Event
+Traverse Town,1st District,Defeat Guard Armor,Blue Trinity,1,/remastered/tw01.ard/UK_tw01_ard4.evdl,Y,1,134FA,2656013,Traverse Town Defeat Guard Armor Blue Trinity Event
+Traverse Town,1st District,Defeat Guard Armor,Blue Trinity,1,/remastered/tw01.ard/UK_tw01_ard4.evdl,Y,2,13506,2656013,Traverse Town Defeat Guard Armor Blue Trinity Event
+Traverse Town,1st District,Defeat Guard Armor,Blue Trinity,1,/remastered/tw01.ard/UK_tw01_ard4.evdl,Y,3,13512,2656013,Traverse Town Defeat Guard Armor Blue Trinity Event
+Traverse Town,Geppetto's House,Examine Shelf,Postcard,1,/remastered/tw25.ard/UK_tw25_ard0.evdl,N,1,B1B9,2656506,Traverse Town Geppetto's House Postcard
+Traverse Town,Geppetto's House,Examine Shelf,Postcard,1,/remastered/tw25.ard/UK_tw25_ard0.evdl,N,2,B1C5,2656506,Traverse Town Geppetto's House Postcard
+Traverse Town,Geppetto's House,Examine Shelf,Postcard,1,/remastered/tw25.ard/UK_tw25_ard0.evdl,N,3,B1D1,2656506,Traverse Town Geppetto's House Postcard
+Traverse Town,Geppetto's House,Examine Shelf,Postcard,1,/remastered/tw25.ard/UK_tw25_ard2.evdl,N,1,F795,2656506,Traverse Town Geppetto's House Postcard
+Traverse Town,Geppetto's House,Examine Shelf,Postcard,1,/remastered/tw25.ard/UK_tw25_ard2.evdl,N,2,F7A1,2656506,Traverse Town Geppetto's House Postcard
+Traverse Town,Geppetto's House,Examine Shelf,Postcard,1,/remastered/tw25.ard/UK_tw25_ard2.evdl,N,3,F7AD,2656506,Traverse Town Geppetto's House Postcard
+Traverse Town,Geppetto's House,Examine Shelf,Postcard,1,/remastered/tw25.ard/UK_tw25_ard3.evdl,N,1,B309,2656506,Traverse Town Geppetto's House Postcard
+Traverse Town,Geppetto's House,Examine Shelf,Postcard,1,/remastered/tw25.ard/UK_tw25_ard3.evdl,N,2,B315,2656506,Traverse Town Geppetto's House Postcard
+Traverse Town,Geppetto's House,Examine Shelf,Postcard,1,/remastered/tw25.ard/UK_tw25_ard3.evdl,N,3,B321,2656506,Traverse Town Geppetto's House Postcard
+Traverse Town,Geppetto's House,Examine Shelf,Postcard,1,/remastered/tw25.ard/UK_tw25_ard10.evdl,N,1,B1F5,2656506,Traverse Town Geppetto's House Postcard
+Traverse Town,Geppetto's House,Examine Shelf,Postcard,1,/remastered/tw25.ard/UK_tw25_ard10.evdl,N,2,B201,2656506,Traverse Town Geppetto's House Postcard
+Traverse Town,Geppetto's House,Examine Shelf,Postcard,1,/remastered/tw25.ard/UK_tw25_ard10.evdl,N,3,B20D,2656506,Traverse Town Geppetto's House Postcard
+Traverse Town,Geppetto's House,Examine Shelf,Postcard,1,/remastered/tw25.ard/UK_tw25_ard19.evdl,N,1,2039,2656506,Traverse Town Geppetto's House Postcard
+Traverse Town,Geppetto's House,Examine Shelf,Postcard,1,/remastered/tw25.ard/UK_tw25_ard19.evdl,N,2,2045,2656506,Traverse Town Geppetto's House Postcard
+Traverse Town,Geppetto's House,Examine Shelf,Postcard,1,/remastered/tw25.ard/UK_tw25_ard19.evdl,N,3,2051,2656506,Traverse Town Geppetto's House Postcard
+Traverse Town,Geppetto's House,Examine Shelf,Postcard,1,/remastered/tw25.ard/UK_tw25_ardc.evdl,N,1,B37D,2656506,Traverse Town Geppetto's House Postcard
+Traverse Town,Geppetto's House,Examine Shelf,Postcard,1,/remastered/tw25.ard/UK_tw25_ardc.evdl,N,2,B389,2656506,Traverse Town Geppetto's House Postcard
+Traverse Town,Geppetto's House,Examine Shelf,Postcard,1,/remastered/tw25.ard/UK_tw25_ardc.evdl,N,3,B395,2656506,Traverse Town Geppetto's House Postcard
+Deep Jungle,Camp,Rescue Gorillas,Protect-G,1,/remastered/tz13.ard/UK_tz13_ard1.evdl,Y,1,5071,2656366,Deep Jungle Camp Save Gorillas
+Deep Jungle,Camp,Rescue Gorillas,Protect-G,1,/remastered/tz13.ard/UK_tz13_ard1.evdl,Y,2,507D,2656366,Deep Jungle Camp Save Gorillas
+Deep Jungle,Camp,Rescue Gorillas,Protect-G,1,/remastered/tz13.ard/UK_tz13_ard1.evdl,Y,3,5089,2656366,Deep Jungle Camp Save Gorillas
+Deep Jungle,Camp,Fire Experiment,Hi-Potion,1,/remastered/tz13.ard/UK_tz13_ard1.evdl,Y,1,6521,2656361,Deep Jungle Camp Hi-Potion Experiment
+Deep Jungle,Camp,Fire Experiment,Hi-Potion,1,/remastered/tz13.ard/UK_tz13_ard1.evdl,Y,2,652D,2656361,Deep Jungle Camp Hi-Potion Experiment
+Deep Jungle,Camp,Fire Experiment,Hi-Potion,1,/remastered/tz13.ard/UK_tz13_ard1.evdl,Y,3,6D4D,2656361,Deep Jungle Camp Hi-Potion Experiment
+Deep Jungle,Camp,Fire Experiment,Hi-Potion,1,/remastered/tz13.ard/UK_tz13_ard1.evdl,Y,4,6D59,2656361,Deep Jungle Camp Hi-Potion Experiment
+Deep Jungle,Camp,Fire Experiment,Hi-Potion,1,/remastered/tz13.ard/UK_tz13_ard0.evdl,N,1,6059,2656361,Deep Jungle Camp Hi-Potion Experiment
+Deep Jungle,Camp,Fire Experiment,Hi-Potion,1,/remastered/tz13.ard/UK_tz13_ard0.evdl,N,2,6065,2656361,Deep Jungle Camp Hi-Potion Experiment
+Deep Jungle,Camp,Fire Experiment,Hi-Potion,1,/remastered/tz13.ard/UK_tz13_ard0.evdl,N,3,6885,2656361,Deep Jungle Camp Hi-Potion Experiment
+Deep Jungle,Camp,Fire Experiment,Hi-Potion,1,/remastered/tz13.ard/UK_tz13_ard0.evdl,N,4,6891,2656361,Deep Jungle Camp Hi-Potion Experiment
+Deep Jungle,Camp,Fire Experiment,Hi-Potion,1,/remastered/tz13.ard/UK_tz13_ard2.evdl,N,1,53FD,2656361,Deep Jungle Camp Hi-Potion Experiment
+Deep Jungle,Camp,Fire Experiment,Hi-Potion,1,/remastered/tz13.ard/UK_tz13_ard2.evdl,N,2,5409,2656361,Deep Jungle Camp Hi-Potion Experiment
+Deep Jungle,Camp,Fire Experiment,Hi-Potion,1,/remastered/tz13.ard/UK_tz13_ard2.evdl,N,3,5C29,2656361,Deep Jungle Camp Hi-Potion Experiment
+Deep Jungle,Camp,Fire Experiment,Hi-Potion,1,/remastered/tz13.ard/UK_tz13_ard2.evdl,N,4,5C35,2656361,Deep Jungle Camp Hi-Potion Experiment
+Deep Jungle,Camp,Fire Experiment,Hi-Potion,1,/remastered/tz13.ard/UK_tz13_ard11.evdl,N,1,4CD5,2656361,Deep Jungle Camp Hi-Potion Experiment
+Deep Jungle,Camp,Fire Experiment,Hi-Potion,1,/remastered/tz13.ard/UK_tz13_ard11.evdl,N,2,4CE1,2656361,Deep Jungle Camp Hi-Potion Experiment
+Deep Jungle,Camp,Fire Experiment,Hi-Potion,1,/remastered/tz13.ard/UK_tz13_ard11.evdl,N,3,5501,2656361,Deep Jungle Camp Hi-Potion Experiment
+Deep Jungle,Camp,Fire Experiment,Hi-Potion,1,/remastered/tz13.ard/UK_tz13_ard11.evdl,N,4,550D,2656361,Deep Jungle Camp Hi-Potion Experiment
+Deep Jungle,Camp,Fire Experiment,Hi-Potion,1,/remastered/tz13.ard/UK_tz13_ard13.evdl,N,1,4CD5,2656361,Deep Jungle Camp Hi-Potion Experiment
+Deep Jungle,Camp,Fire Experiment,Hi-Potion,1,/remastered/tz13.ard/UK_tz13_ard13.evdl,N,2,4CE1,2656361,Deep Jungle Camp Hi-Potion Experiment
+Deep Jungle,Camp,Fire Experiment,Hi-Potion,1,/remastered/tz13.ard/UK_tz13_ard13.evdl,N,3,5501,2656361,Deep Jungle Camp Hi-Potion Experiment
+Deep Jungle,Camp,Fire Experiment,Hi-Potion,1,/remastered/tz13.ard/UK_tz13_ard13.evdl,N,4,550D,2656361,Deep Jungle Camp Hi-Potion Experiment
+Deep Jungle,Camp,Fire Experiment,Hi-Potion,1,/remastered/tz13.ard/UK_tz13_ard19.evdl,N,1,2C91,2656361,Deep Jungle Camp Hi-Potion Experiment
+Deep Jungle,Camp,Fire Experiment,Hi-Potion,1,/remastered/tz13.ard/UK_tz13_ard19.evdl,N,2,2C9D,2656361,Deep Jungle Camp Hi-Potion Experiment
+Deep Jungle,Camp,Fire Experiment,Hi-Potion,1,/remastered/tz13.ard/UK_tz13_ard19.evdl,N,3,34BD,2656361,Deep Jungle Camp Hi-Potion Experiment
+Deep Jungle,Camp,Fire Experiment,Hi-Potion,1,/remastered/tz13.ard/UK_tz13_ard19.evdl,N,4,34C9,2656361,Deep Jungle Camp Hi-Potion Experiment
+Deep Jungle,Camp,Fire Experiment,Hi-Potion,1,/remastered/tz13.ard/UK_tz13_arde.evdl,N,1,4CD5,2656361,Deep Jungle Camp Hi-Potion Experiment
+Deep Jungle,Camp,Fire Experiment,Hi-Potion,1,/remastered/tz13.ard/UK_tz13_arde.evdl,N,2,4CE1,2656361,Deep Jungle Camp Hi-Potion Experiment
+Deep Jungle,Camp,Fire Experiment,Hi-Potion,1,/remastered/tz13.ard/UK_tz13_arde.evdl,N,3,5501,2656361,Deep Jungle Camp Hi-Potion Experiment
+Deep Jungle,Camp,Fire Experiment,Hi-Potion,1,/remastered/tz13.ard/UK_tz13_arde.evdl,N,4,550D,2656361,Deep Jungle Camp Hi-Potion Experiment
+Deep Jungle,Camp,Fire Experiment,Hi-Potion,1,/remastered/tz13.ard/UK_tz13_ardf.evdl,N,1,4D61,2656361,Deep Jungle Camp Hi-Potion Experiment
+Deep Jungle,Camp,Fire Experiment,Hi-Potion,1,/remastered/tz13.ard/UK_tz13_ardf.evdl,N,2,4D6D,2656361,Deep Jungle Camp Hi-Potion Experiment
+Deep Jungle,Camp,Fire Experiment,Hi-Potion,1,/remastered/tz13.ard/UK_tz13_ardf.evdl,N,3,558D,2656361,Deep Jungle Camp Hi-Potion Experiment
+Deep Jungle,Camp,Fire Experiment,Hi-Potion,1,/remastered/tz13.ard/UK_tz13_ardf.evdl,N,4,5599,2656361,Deep Jungle Camp Hi-Potion Experiment
+Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard0.evdl,N,1,7A2D,2656362,Deep Jungle Camp Ether Experiment
+Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard0.evdl,N,2,7A39,2656362,Deep Jungle Camp Ether Experiment
+Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard0.evdl,N,3,7B09,2656362,Deep Jungle Camp Ether Experiment
+Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard0.evdl,N,4,7B15,2656362,Deep Jungle Camp Ether Experiment
+Deep Jungle,Camp,Replication Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard0.evdl,N,1,7D19,2656363,Deep Jungle Camp Replication Experiment
+Deep Jungle,Camp,Replication Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard0.evdl,N,2,7D25,2656363,Deep Jungle Camp Replication Experiment
+Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard1.evdl,Y,1,7EF5,2656362,Deep Jungle Camp Ether Experiment
+Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard1.evdl,Y,2,7F01,2656362,Deep Jungle Camp Ether Experiment
+Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard1.evdl,Y,3,81E1,2656362,Deep Jungle Camp Ether Experiment
+Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard1.evdl,Y,4,81ED,2656362,Deep Jungle Camp Ether Experiment
+Deep Jungle,Camp,Replication Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard1.evdl,Y,1,7FD1,2656363,Deep Jungle Camp Replication Experiment
+Deep Jungle,Camp,Replication Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard1.evdl,Y,2,7FDD,2656363,Deep Jungle Camp Replication Experiment
+Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard2.evdl,N,1,6DD1,2656362,Deep Jungle Camp Ether Experiment
+Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard2.evdl,N,2,6DDD,2656362,Deep Jungle Camp Ether Experiment
+Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard2.evdl,N,3,6EAD,2656362,Deep Jungle Camp Ether Experiment
+Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard2.evdl,N,4,6EB9,2656362,Deep Jungle Camp Ether Experiment
+Deep Jungle,Camp,Replication Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard2.evdl,N,1,70BD,2656363,Deep Jungle Camp Replication Experiment
+Deep Jungle,Camp,Replication Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard2.evdl,N,2,70C9,2656363,Deep Jungle Camp Replication Experiment
+Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard11.evdl,N,1,66A9,2656362,Deep Jungle Camp Ether Experiment
+Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard11.evdl,N,2,66B5,2656362,Deep Jungle Camp Ether Experiment
+Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard11.evdl,N,3,6785,2656362,Deep Jungle Camp Ether Experiment
+Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard11.evdl,N,4,6791,2656362,Deep Jungle Camp Ether Experiment
+Deep Jungle,Camp,Replication Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard11.evdl,N,1,6995,2656363,Deep Jungle Camp Replication Experiment
+Deep Jungle,Camp,Replication Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard11.evdl,N,2,69A1,2656363,Deep Jungle Camp Replication Experiment
+Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard13.evdl,N,1,66A9,2656362,Deep Jungle Camp Ether Experiment
+Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard13.evdl,N,2,66B5,2656362,Deep Jungle Camp Ether Experiment
+Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard13.evdl,N,3,6785,2656362,Deep Jungle Camp Ether Experiment
+Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard13.evdl,N,4,6791,2656362,Deep Jungle Camp Ether Experiment
+Deep Jungle,Camp,Replication Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard13.evdl,N,1,6995,2656363,Deep Jungle Camp Replication Experiment
+Deep Jungle,Camp,Replication Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard13.evdl,N,2,69A1,2656363,Deep Jungle Camp Replication Experiment
+Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard19.evdl,N,1,4665,2656362,Deep Jungle Camp Ether Experiment
+Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard19.evdl,N,2,4671,2656362,Deep Jungle Camp Ether Experiment
+Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard19.evdl,N,3,4741,2656362,Deep Jungle Camp Ether Experiment
+Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard19.evdl,N,4,474D,2656362,Deep Jungle Camp Ether Experiment
+Deep Jungle,Camp,Replication Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard19.evdl,N,1,4951,2656363,Deep Jungle Camp Replication Experiment
+Deep Jungle,Camp,Replication Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard19.evdl,N,2,495D,2656363,Deep Jungle Camp Replication Experiment
+Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_arde.evdl,N,1,66A9,2656362,Deep Jungle Camp Ether Experiment
+Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_arde.evdl,N,2,66B5,2656362,Deep Jungle Camp Ether Experiment
+Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_arde.evdl,N,3,6785,2656362,Deep Jungle Camp Ether Experiment
+Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_arde.evdl,N,4,6791,2656362,Deep Jungle Camp Ether Experiment
+Deep Jungle,Camp,Replication Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_arde.evdl,N,1,6995,2656363,Deep Jungle Camp Replication Experiment
+Deep Jungle,Camp,Replication Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_arde.evdl,N,2,69A1,2656363,Deep Jungle Camp Replication Experiment
+Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ardf.evdl,N,1,6735,2656362,Deep Jungle Camp Ether Experiment
+Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ardf.evdl,N,2,6741,2656362,Deep Jungle Camp Ether Experiment
+Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ardf.evdl,N,3,6811,2656362,Deep Jungle Camp Ether Experiment
+Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ardf.evdl,N,4,681D,2656362,Deep Jungle Camp Ether Experiment
+Deep Jungle,Camp,Replication Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ardf.evdl,N,1,6A21,2656363,Deep Jungle Camp Replication Experiment
+Deep Jungle,Camp,Replication Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ardf.evdl,N,2,6A2D,2656363,Deep Jungle Camp Replication Experiment
+Deep Jungle,Bamboo Thicket,Rescue Gorillas,Fire-G,1,/remastered/tz03.ard/UK_tz03_ard2.evdl,Y,1,444D,2656367,Deep Jungle Bamboo Thicket Save Gorillas
+Deep Jungle,Bamboo Thicket,Rescue Gorillas,Fire-G,1,/remastered/tz03.ard/UK_tz03_ard2.evdl,Y,2,4459,2656367,Deep Jungle Bamboo Thicket Save Gorillas
+Deep Jungle,Bamboo Thicket,Rescue Gorillas,Fire-G,1,/remastered/tz03.ard/UK_tz03_ard2.evdl,Y,3,4465,2656367,Deep Jungle Bamboo Thicket Save Gorillas
+Deep Jungle,Cliff,Rescue Gorillas,Aeroga-G,1,/remastered/tz12.ard/UK_tz12_ard2.evdl,Y,1,4475,2656364,Deep Jungle Cliff Save Gorillas
+Deep Jungle,Cliff,Rescue Gorillas,Aeroga-G,1,/remastered/tz12.ard/UK_tz12_ard2.evdl,Y,2,4481,2656364,Deep Jungle Cliff Save Gorillas
+Deep Jungle,Cliff,Rescue Gorillas,Aeroga-G,1,/remastered/tz12.ard/UK_tz12_ard2.evdl,Y,3,448D,2656364,Deep Jungle Cliff Save Gorillas
+Deep Jungle,Climbing Trees,Rescue Gorillas,Aeroga-G,1,/remastered/tz07.ard/UK_tz07_ard2.evdl,Y,1,459D,2656368,Deep Jungle Climbing Trees Save Gorillas
+Deep Jungle,Climbing Trees,Rescue Gorillas,Aeroga-G,1,/remastered/tz07.ard/UK_tz07_ard2.evdl,Y,2,45A9,2656368,Deep Jungle Climbing Trees Save Gorillas
+Deep Jungle,Climbing Trees,Rescue Gorillas,Aeroga-G,1,/remastered/tz07.ard/UK_tz07_ard2.evdl,Y,3,45B5,2656368,Deep Jungle Climbing Trees Save Gorillas
+Deep Jungle,Tree House,Rescue Gorillas,Shell-G,1,/remastered/tz01.ard/UK_tz01_ard3.evdl,Y,1,4495,2656365,Deep Jungle Tree House Save Gorillas
+Deep Jungle,Tree House,Rescue Gorillas,Shell-G,1,/remastered/tz01.ard/UK_tz01_ard3.evdl,Y,2,44A1,2656365,Deep Jungle Tree House Save Gorillas
+Deep Jungle,Tree House,Rescue Gorillas,Shell-G,1,/remastered/tz01.ard/UK_tz01_ard3.evdl,Y,3,44AD,2656365,Deep Jungle Tree House Save Gorillas
+Deep Jungle,Cliff,Defeat Clayton,Cure,1,/remastered/tz12.ard/UK_tz12_ard1.evdl,Y,1,8039,2656022,Deep Jungle Defeat Clayton Cure Event
+Deep Jungle,Cliff,Defeat Clayton,Cure,1,/remastered/tz12.ard/UK_tz12_ard1.evdl,Y,2,8045,2656022,Deep Jungle Defeat Clayton Cure Event
+Deep Jungle,Cliff,Defeat Clayton,Cure,1,/remastered/tz12.ard/UK_tz12_ard1.evdl,Y,3,8051,2656022,Deep Jungle Defeat Clayton Cure Event
+Deep Jungle,Cliff,Defeat Clayton,Cure,1,/remastered/tz12.ard/UK_tz12_ard1.evdl,Y,4,8AF1,2656022,Deep Jungle Defeat Clayton Cure Event
+Deep Jungle,Cliff,Defeat Clayton,Cure,1,/remastered/tz12.ard/UK_tz12_ard1.evdl,Y,5,8AFD,2656022,Deep Jungle Defeat Clayton Cure Event
+Deep Jungle,Cliff,Defeat Clayton,Cure,1,/remastered/tz12.ard/UK_tz12_ard1.evdl,Y,6,8B09,2656022,Deep Jungle Defeat Clayton Cure Event
+Deep Jungle,Cavern of Hearts,Seal Keyhole,Navi-G Piece,1,/remastered/tz11.ard/UK_tz11_ard0.evdl,N,1,79F5,2656384,Deep Jungle Cavern of Hearts Navi-G Piece Event
+Deep Jungle,Cavern of Hearts,Seal Keyhole,Navi-G Piece,1,/remastered/tz11.ard/UK_tz11_ard0.evdl,N,2,7A01,2656384,Deep Jungle Cavern of Hearts Navi-G Piece Event
+Deep Jungle,Cavern of Hearts,Seal Keyhole,Navi-G Piece,1,/remastered/tz11.ard/UK_tz11_ard0.evdl,N,3,7A0D,2656384,Deep Jungle Cavern of Hearts Navi-G Piece Event
+Deep Jungle,Tent,Seal Keyhole,Red Trinity,1,/remastered/tz15.ard/UK_tz15_ard0.evdl,Y,1,B531,2656024,Deep Jungle Seal Keyhole Red Trinity Event
+Deep Jungle,Tent,Seal Keyhole,Red Trinity,1,/remastered/tz15.ard/UK_tz15_ard0.evdl,Y,2,B53D,2656024,Deep Jungle Seal Keyhole Red Trinity Event
+Deep Jungle,Tent,Seal Keyhole,Red Trinity,1,/remastered/tz15.ard/UK_tz15_ard0.evdl,Y,3,B549,2656024,Deep Jungle Seal Keyhole Red Trinity Event
+Deep Jungle,Tent,Reunite with Donald and Goofy,Protect-G,1,/remastered/tz15.ard/UK_tz15_ard0.evdl,Y,1,A701,2656383,Deep Jungle Tent Protect-G Event
+Deep Jungle,Tent,Reunite with Donald and Goofy,Protect-G,1,/remastered/tz15.ard/UK_tz15_ard0.evdl,Y,2,A70D,2656383,Deep Jungle Tent Protect-G Event
+Deep Jungle,Tent,Reunite with Donald and Goofy,Protect-G,1,/remastered/tz15.ard/UK_tz15_ard0.evdl,Y,3,A719,2656383,Deep Jungle Tent Protect-G Event
+Olympus Coliseum,Coliseum Gates,Green Trinity,Mythril,1,he01.ard,N,1,1C4B47,2656377,Olympus Coliseum Coliseum Gates Green Trinity
+Olympus Coliseum,Coliseum Gates,Green Trinity,Mythril,1,he01.ard,N,2,1C4B53,2656377,Olympus Coliseum Coliseum Gates Green Trinity
+Olympus Coliseum,Coliseum Gates,Green Trinity,Mythril,1,he01.ard,N,3,1C4B5F,2656377,Olympus Coliseum Coliseum Gates Green Trinity
+Olympus Coliseum,Coliseum Gates,Green Trinity,Mythril,1,he01.ard,N,4,1D83FF,2656377,Olympus Coliseum Coliseum Gates Green Trinity
+Olympus Coliseum,Coliseum Gates,Green Trinity,Mythril,1,he01.ard,N,5,1D840B,2656377,Olympus Coliseum Coliseum Gates Green Trinity
+Olympus Coliseum,Coliseum Gates,Green Trinity,Mythril,1,he01.ard,N,6,1D8417,2656377,Olympus Coliseum Coliseum Gates Green Trinity
+Olympus Coliseum,Coliseum Gates,Green Trinity,Mythril,1,he01.ard,N,7,1EB9A7,2656377,Olympus Coliseum Coliseum Gates Green Trinity
+Olympus Coliseum,Coliseum Gates,Green Trinity,Mythril,1,he01.ard,N,8,1EB9B3,2656377,Olympus Coliseum Coliseum Gates Green Trinity
+Olympus Coliseum,Coliseum Gates,Green Trinity,Mythril,1,he01.ard,N,9,1EB9BF,2656377,Olympus Coliseum Coliseum Gates Green Trinity
+Olympus Coliseum,Coliseum Gates,Green Trinity,Mythril,1,he01.ard,N,10,1FBF7F,2656377,Olympus Coliseum Coliseum Gates Green Trinity
+Olympus Coliseum,Coliseum Gates,Green Trinity,Mythril,1,he01.ard,N,11,1FBF8B,2656377,Olympus Coliseum Coliseum Gates Green Trinity
+Olympus Coliseum,Coliseum Gates,Green Trinity,Mythril,1,he01.ard,N,12,1FBF97,2656377,Olympus Coliseum Coliseum Gates Green Trinity
+Olympus Coliseum,Coliseum Gates,Green Trinity,Mythril,1,he01.ard,N,13,217E93,2656377,Olympus Coliseum Coliseum Gates Green Trinity
+Olympus Coliseum,Coliseum Gates,Green Trinity,Mythril,1,he01.ard,N,14,217E9F,2656377,Olympus Coliseum Coliseum Gates Green Trinity
+Olympus Coliseum,Coliseum Gates,Green Trinity,Mythril,1,he01.ard,N,15,217EAB,2656377,Olympus Coliseum Coliseum Gates Green Trinity
+Olympus Coliseum,Coliseum Gates,Green Trinity,Mythril,1,he01.ard,N,16,2380AB,2656377,Olympus Coliseum Coliseum Gates Green Trinity
+Olympus Coliseum,Coliseum Gates,Green Trinity,Mythril,1,he01.ard,N,17,2380B7,2656377,Olympus Coliseum Coliseum Gates Green Trinity
+Olympus Coliseum,Coliseum Gates,Green Trinity,Mythril,1,he01.ard,N,18,2380C3,2656377,Olympus Coliseum Coliseum Gates Green Trinity
+Olympus Coliseum,Lobby,Complete Phil's Training,Thunder,1,/remastered/he02.ard/UK_he02c.ev,Y,1,57B5,2656031,Olympus Coliseum Clear Phil's Training Thunder Event
+Olympus Coliseum,Lobby,Complete Phil's Training,Thunder,1,/remastered/he02.ard/UK_he02c.ev,Y,2,57C1,2656031,Olympus Coliseum Clear Phil's Training Thunder Event
+Olympus Coliseum,Lobby,Complete Phil's Training,Thunder,1,/remastered/he02.ard/UK_he02c.ev,Y,3,57CD,2656031,Olympus Coliseum Clear Phil's Training Thunder Event
+Olympus Coliseum,Coliseum Gates,Complete Phil's Training,Entry Pass,1,/remastered/he01.ard/UK_he01_ard1.evdl,N,1,CB0E,2656386,Olympus Coliseum Coliseum Gates Entry Pass Event
+Olympus Coliseum,Coliseum Gates,Complete Phil's Training,Entry Pass,1,/remastered/he01.ard/UK_he01_ard1.evdl,N,2,CB1A,2656386,Olympus Coliseum Coliseum Gates Entry Pass Event
+Olympus Coliseum,Lobby,Defeat Cerberus,Hero's License,1,/remastered/he02.ard/UK_he02d.ev,N,1,E93A,2656380,Olympus Coliseum Coliseum Gates Hero's License Event
+Olympus Coliseum,Lobby,Defeat Cerberus,Hero's License,1,/remastered/he02.ard/UK_he02d.ev,N,2,E946,2656380,Olympus Coliseum Coliseum Gates Hero's License Event
+Olympus Coliseum,Phil Cup,Complete Phil Cup Together,Gravity,1,/remastered/he03.ard/UK_he03_ard5.evdl,Y,1,6652,2659001,Complete Phil Cup
+Olympus Coliseum,Phil Cup,Complete Phil Cup Together,Gravity,1,/remastered/he03.ard/UK_he03_ard5.evdl,Y,2,665E,2659001,Complete Phil Cup
+Olympus Coliseum,Phil Cup,Complete Phil Cup Together,Gravity,1,/remastered/he03.ard/UK_he03_ard5.evdl,Y,3,666A,2659001,Complete Phil Cup
+Olympus Coliseum,Hades Cup,Defeat Behemoth,Blizzard,1,/remastered/he06.ard/UK_he06_ardb.evdl,Y,1,AB65,2659016,Hades Cup Defeat Behemoth Event
+Olympus Coliseum,Hades Cup,Defeat Behemoth,Blizzard,1,/remastered/he06.ard/UK_he06_ardb.evdl,Y,2,AB71,2659016,Hades Cup Defeat Behemoth Event
+Olympus Coliseum,Hades Cup,Defeat Behemoth,Blizzard,1,/remastered/he06.ard/UK_he06_ardb.evdl,Y,3,AB7D,2659016,Hades Cup Defeat Behemoth Event
+Olympus Coliseum,Hades Cup,Defeat Cerberus,Thunder,1,/remastered/he03.ard/UK_he03_ardb.evdl,Y,1,AAD5,2659015,Hades Cup Defeat Cerberus Event
+Olympus Coliseum,Hades Cup,Defeat Cerberus,Thunder,1,/remastered/he03.ard/UK_he03_ardb.evdl,Y,2,AAE1,2659015,Hades Cup Defeat Cerberus Event
+Olympus Coliseum,Hades Cup,Defeat Cerberus,Thunder,1,/remastered/he03.ard/UK_he03_ardb.evdl,Y,3,AAED,2659015,Hades Cup Defeat Cerberus Event
+Olympus Coliseum,Hades Cup,Defeat Hades,Gravity,1,/remastered/he07.ard/UK_he07_ard4.evdl,Y,1,212AF,2659017,Hades Cup Defeat Hades Event
+Olympus Coliseum,Hades Cup,Defeat Hades,Gravity,1,/remastered/he07.ard/UK_he07_ard4.evdl,Y,2,212BB,2659017,Hades Cup Defeat Hades Event
+Olympus Coliseum,Hades Cup,Defeat Hades,Gravity,1,/remastered/he07.ard/UK_he07_ard4.evdl,Y,3,212C7,2659017,Hades Cup Defeat Hades Event
+Olympus Coliseum,Hades Cup,Defeat Hades,Ansem's Report 8,1,/remastered/he07.ard/UK_he07_ard4.evdl,Y,1,21503,2657011,Olympus Coliseum Defeat Hades Ansem's Report 8
+Olympus Coliseum,Hades Cup,Defeat Hades,Ansem's Report 8,1,/remastered/he07.ard/UK_he07_ard4.evdl,Y,2,2150F,2657011,Olympus Coliseum Defeat Hades Ansem's Report 8
+Olympus Coliseum,Hades Cup,Defeat Hades,Ansem's Report 8,1,/remastered/he07.ard/UK_he07_ard4.evdl,Y,3,2151B,2657011,Olympus Coliseum Defeat Hades Ansem's Report 8
+Olympus Coliseum,Coliseum Gates,Examine Jar,Orichalcum,1,he01.ard,N,1,1BEF95,2656330,Olympus Coliseum Gates Purple Jar After Defeating Hades
+Olympus Coliseum,Coliseum Gates,Examine Jar,Orichalcum,1,he01.ard,N,2,1BEFA1,2656330,Olympus Coliseum Gates Purple Jar After Defeating Hades
+Olympus Coliseum,Coliseum Gates,Examine Jar,Orichalcum,1,he01.ard,N,3,1BEFAD,2656330,Olympus Coliseum Gates Purple Jar After Defeating Hades
+Olympus Coliseum,Coliseum Gates,Examine Jar,Orichalcum,1,he01.ard,N,4,1D1CC1,2656330,Olympus Coliseum Gates Purple Jar After Defeating Hades
+Olympus Coliseum,Coliseum Gates,Examine Jar,Orichalcum,1,he01.ard,N,5,1D1CCD,2656330,Olympus Coliseum Gates Purple Jar After Defeating Hades
+Olympus Coliseum,Coliseum Gates,Examine Jar,Orichalcum,1,he01.ard,N,6,1D1CD9,2656330,Olympus Coliseum Gates Purple Jar After Defeating Hades
+Olympus Coliseum,Coliseum Gates,Examine Jar,Orichalcum,1,he01.ard,N,7,1E4879,2656330,Olympus Coliseum Gates Purple Jar After Defeating Hades
+Olympus Coliseum,Coliseum Gates,Examine Jar,Orichalcum,1,he01.ard,N,8,1E4885,2656330,Olympus Coliseum Gates Purple Jar After Defeating Hades
+Olympus Coliseum,Coliseum Gates,Examine Jar,Orichalcum,1,he01.ard,N,9,1E4891,2656330,Olympus Coliseum Gates Purple Jar After Defeating Hades
+Olympus Coliseum,Coliseum Gates,Examine Jar,Orichalcum,1,he01.ard,N,10,1F6C19,2656330,Olympus Coliseum Gates Purple Jar After Defeating Hades
+Olympus Coliseum,Coliseum Gates,Examine Jar,Orichalcum,1,he01.ard,N,11,1F6C25,2656330,Olympus Coliseum Gates Purple Jar After Defeating Hades
+Olympus Coliseum,Coliseum Gates,Examine Jar,Orichalcum,1,he01.ard,N,12,1F6C31,2656330,Olympus Coliseum Gates Purple Jar After Defeating Hades
+Olympus Coliseum,Coliseum Gates,Examine Jar,Orichalcum,1,he01.ard,N,13,212B2D,2656330,Olympus Coliseum Gates Purple Jar After Defeating Hades
+Olympus Coliseum,Coliseum Gates,Examine Jar,Orichalcum,1,he01.ard,N,14,212B39,2656330,Olympus Coliseum Gates Purple Jar After Defeating Hades
+Olympus Coliseum,Coliseum Gates,Examine Jar,Orichalcum,1,he01.ard,N,15,212B45,2656330,Olympus Coliseum Gates Purple Jar After Defeating Hades
+Olympus Coliseum,Coliseum Gates,Examine Jar,Orichalcum,1,he01.ard,N,16,232D45,2656330,Olympus Coliseum Gates Purple Jar After Defeating Hades
+Olympus Coliseum,Coliseum Gates,Examine Jar,Orichalcum,1,he01.ard,N,17,232D51,2656330,Olympus Coliseum Gates Purple Jar After Defeating Hades
+Olympus Coliseum,Coliseum Gates,Examine Jar,Orichalcum,1,he01.ard,N,18,232D5D,2656330,Olympus Coliseum Gates Purple Jar After Defeating Hades
+Olympus Coliseum,Platinum Match,Defeat Sephiroth,Ansem's Report 12,1,he07.ard,Y,1,90FEB,2657025,Olympus Coliseum Defeat Sephiroth Ansem's Report 12
+Olympus Coliseum,Platinum Match,Defeat Sephiroth,Ansem's Report 12,1,he07.ard,Y,1,90FF7,2657025,Olympus Coliseum Defeat Sephiroth Ansem's Report 12
+Olympus Coliseum,Platinum Match,Defeat Sephiroth,Ansem's Report 12,1,he07.ard,Y,1,91003,2657025,Olympus Coliseum Defeat Sephiroth Ansem's Report 12
+Atlantica,Undersea Valley,Clam,Elixir,1,/remastered/lm01.ard/UK_lm01_ardd.evdl,N,1,5A9D,2656207,Atlantica Undersea Valley Pillar Clam
+Atlantica,Undersea Valley,Clam,Elixir,1,/remastered/lm01.ard/UK_lm01_ardd.evdl,N,2,5AA5,2656207,Atlantica Undersea Valley Pillar Clam
+Atlantica,Undersea Valley,Clam,Elixir,1,/remastered/lm01.ard/UK_lm01_ard10.evdl,N,1,7515,2656207,Atlantica Undersea Valley Pillar Clam
+Atlantica,Undersea Valley,Clam,Elixir,1,/remastered/lm01.ard/UK_lm01_ard10.evdl,N,2,751D,2656207,Atlantica Undersea Valley Pillar Clam
+Atlantica,Undersea Valley,Clam,Elixir,1,/remastered/lm01.ard/UK_lm01_ard11.evdl,N,1,74B1,2656207,Atlantica Undersea Valley Pillar Clam
+Atlantica,Undersea Valley,Clam,Elixir,1,/remastered/lm01.ard/UK_lm01_ard11.evdl,N,2,74B9,2656207,Atlantica Undersea Valley Pillar Clam
+Atlantica,Undersea Valley,Clam,Elixir,1,/remastered/lm01.ard/UK_lm01_ard12.evdl,N,1,5751,2656207,Atlantica Undersea Valley Pillar Clam
+Atlantica,Undersea Valley,Clam,Elixir,1,/remastered/lm01.ard/UK_lm01_ard12.evdl,N,2,5759,2656207,Atlantica Undersea Valley Pillar Clam
+Atlantica,Undersea Valley,Clam,Elixir,1,/remastered/lm01.ard/UK_lm01_ardc.evdl,N,1,7549,2656207,Atlantica Undersea Valley Pillar Clam
+Atlantica,Undersea Valley,Clam,Elixir,1,/remastered/lm01.ard/UK_lm01_ardc.evdl,N,2,7551,2656207,Atlantica Undersea Valley Pillar Clam
+Atlantica,Undersea Valley,Clam,Elixir,1,/remastered/lm01.ard/UK_lm01_arde.evdl,N,1,74B1,2656207,Atlantica Undersea Valley Pillar Clam
+Atlantica,Undersea Valley,Clam,Elixir,1,/remastered/lm01.ard/UK_lm01_arde.evdl,N,2,74B9,2656207,Atlantica Undersea Valley Pillar Clam
+Atlantica,Undersea Valley,Clam,Elixir,1,/remastered/lm01.ard/UK_lm01_ardf.evdl,N,1,74B1,2656207,Atlantica Undersea Valley Pillar Clam
+Atlantica,Undersea Valley,Clam,Elixir,1,/remastered/lm01.ard/UK_lm01_ardf.evdl,N,2,74B9,2656207,Atlantica Undersea Valley Pillar Clam
+Atlantica,Undersea Valley,Fire Clam,Mythril Shard,1,/remastered/lm01.ard/UK_lm01_ardd.evdl,N,1,7981,2656205,Atlantica Undersea Valley Fire Clam
+Atlantica,Undersea Valley,Fire Clam,Mythril Shard,1,/remastered/lm01.ard/UK_lm01_ardd.evdl,N,2,7989,2656205,Atlantica Undersea Valley Fire Clam
+Atlantica,Undersea Valley,Fire Clam,Mythril Shard,1,/remastered/lm01.ard/UK_lm01_ard10.evdl,N,1,93F9,2656205,Atlantica Undersea Valley Fire Clam
+Atlantica,Undersea Valley,Fire Clam,Mythril Shard,1,/remastered/lm01.ard/UK_lm01_ard10.evdl,N,2,9401,2656205,Atlantica Undersea Valley Fire Clam
+Atlantica,Undersea Valley,Fire Clam,Mythril Shard,1,/remastered/lm01.ard/UK_lm01_ard11.evdl,N,1,9395,2656205,Atlantica Undersea Valley Fire Clam
+Atlantica,Undersea Valley,Fire Clam,Mythril Shard,1,/remastered/lm01.ard/UK_lm01_ard11.evdl,N,2,939D,2656205,Atlantica Undersea Valley Fire Clam
+Atlantica,Undersea Valley,Fire Clam,Mythril Shard,1,/remastered/lm01.ard/UK_lm01_ard12.evdl,N,1,7635,2656205,Atlantica Undersea Valley Fire Clam
+Atlantica,Undersea Valley,Fire Clam,Mythril Shard,1,/remastered/lm01.ard/UK_lm01_ard12.evdl,N,2,763D,2656205,Atlantica Undersea Valley Fire Clam
+Atlantica,Undersea Valley,Fire Clam,Mythril Shard,1,/remastered/lm01.ard/UK_lm01_ardc.evdl,N,1,942D,2656205,Atlantica Undersea Valley Fire Clam
+Atlantica,Undersea Valley,Fire Clam,Mythril Shard,1,/remastered/lm01.ard/UK_lm01_ardc.evdl,N,2,9435,2656205,Atlantica Undersea Valley Fire Clam
+Atlantica,Undersea Valley,Fire Clam,Mythril Shard,1,/remastered/lm01.ard/UK_lm01_arde.evdl,N,1,9395,2656205,Atlantica Undersea Valley Fire Clam
+Atlantica,Undersea Valley,Fire Clam,Mythril Shard,1,/remastered/lm01.ard/UK_lm01_arde.evdl,N,2,939D,2656205,Atlantica Undersea Valley Fire Clam
+Atlantica,Undersea Valley,Fire Clam,Mythril Shard,1,/remastered/lm01.ard/UK_lm01_ardf.evdl,N,1,9395,2656205,Atlantica Undersea Valley Fire Clam
+Atlantica,Undersea Valley,Fire Clam,Mythril Shard,1,/remastered/lm01.ard/UK_lm01_ardf.evdl,N,2,939D,2656205,Atlantica Undersea Valley Fire Clam
+Atlantica,Undersea Valley,Clam,Mega-Ether,1,/remastered/lm01.ard/UK_lm01_ardd.evdl,N,1,7131,2656203,Atlantica Undersea Valley Higher Cave Clam
+Atlantica,Undersea Valley,Clam,Mega-Ether,1,/remastered/lm01.ard/UK_lm01_ardd.evdl,N,2,7139,2656203,Atlantica Undersea Valley Higher Cave Clam
+Atlantica,Undersea Valley,Clam,Mega-Ether,1,/remastered/lm01.ard/UK_lm01_ard10.evdl,N,1,8BA9,2656203,Atlantica Undersea Valley Higher Cave Clam
+Atlantica,Undersea Valley,Clam,Mega-Ether,1,/remastered/lm01.ard/UK_lm01_ard10.evdl,N,2,8BB1,2656203,Atlantica Undersea Valley Higher Cave Clam
+Atlantica,Undersea Valley,Clam,Mega-Ether,1,/remastered/lm01.ard/UK_lm01_ard11.evdl,N,1,8B45,2656203,Atlantica Undersea Valley Higher Cave Clam
+Atlantica,Undersea Valley,Clam,Mega-Ether,1,/remastered/lm01.ard/UK_lm01_ard11.evdl,N,2,8B4D,2656203,Atlantica Undersea Valley Higher Cave Clam
+Atlantica,Undersea Valley,Clam,Mega-Ether,1,/remastered/lm01.ard/UK_lm01_ard12.evdl,N,1,6DE5,2656203,Atlantica Undersea Valley Higher Cave Clam
+Atlantica,Undersea Valley,Clam,Mega-Ether,1,/remastered/lm01.ard/UK_lm01_ard12.evdl,N,2,6DED,2656203,Atlantica Undersea Valley Higher Cave Clam
+Atlantica,Undersea Valley,Clam,Mega-Ether,1,/remastered/lm01.ard/UK_lm01_ardc.evdl,N,1,8BDD,2656203,Atlantica Undersea Valley Higher Cave Clam
+Atlantica,Undersea Valley,Clam,Mega-Ether,1,/remastered/lm01.ard/UK_lm01_ardc.evdl,N,2,8BE5,2656203,Atlantica Undersea Valley Higher Cave Clam
+Atlantica,Undersea Valley,Clam,Mega-Ether,1,/remastered/lm01.ard/UK_lm01_arde.evdl,N,1,8B45,2656203,Atlantica Undersea Valley Higher Cave Clam
+Atlantica,Undersea Valley,Clam,Mega-Ether,1,/remastered/lm01.ard/UK_lm01_arde.evdl,N,2,8B4D,2656203,Atlantica Undersea Valley Higher Cave Clam
+Atlantica,Undersea Valley,Clam,Mega-Ether,1,/remastered/lm01.ard/UK_lm01_ardf.evdl,N,1,8B45,2656203,Atlantica Undersea Valley Higher Cave Clam
+Atlantica,Undersea Valley,Clam,Mega-Ether,1,/remastered/lm01.ard/UK_lm01_ardf.evdl,N,2,8B4D,2656203,Atlantica Undersea Valley Higher Cave Clam
+Atlantica,Undersea Valley,Clam,Mega-Potion,1,/remastered/lm01.ard/UK_lm01_ardd.evdl,N,1,530D,2656208,Atlantica Undersea Valley Ocean Floor Clam
+Atlantica,Undersea Valley,Clam,Mega-Potion,1,/remastered/lm01.ard/UK_lm01_ardd.evdl,N,2,5315,2656208,Atlantica Undersea Valley Ocean Floor Clam
+Atlantica,Undersea Valley,Clam,Mega-Potion,1,/remastered/lm01.ard/UK_lm01_ard10.evdl,N,1,6D85,2656208,Atlantica Undersea Valley Ocean Floor Clam
+Atlantica,Undersea Valley,Clam,Mega-Potion,1,/remastered/lm01.ard/UK_lm01_ard10.evdl,N,2,6D8D,2656208,Atlantica Undersea Valley Ocean Floor Clam
+Atlantica,Undersea Valley,Clam,Mega-Potion,1,/remastered/lm01.ard/UK_lm01_ard11.evdl,N,1,6D21,2656208,Atlantica Undersea Valley Ocean Floor Clam
+Atlantica,Undersea Valley,Clam,Mega-Potion,1,/remastered/lm01.ard/UK_lm01_ard11.evdl,N,2,6D29,2656208,Atlantica Undersea Valley Ocean Floor Clam
+Atlantica,Undersea Valley,Clam,Mega-Potion,1,/remastered/lm01.ard/UK_lm01_ard12.evdl,N,1,4FC1,2656208,Atlantica Undersea Valley Ocean Floor Clam
+Atlantica,Undersea Valley,Clam,Mega-Potion,1,/remastered/lm01.ard/UK_lm01_ard12.evdl,N,2,4FC9,2656208,Atlantica Undersea Valley Ocean Floor Clam
+Atlantica,Undersea Valley,Clam,Mega-Potion,1,/remastered/lm01.ard/UK_lm01_ardc.evdl,N,1,6DB9,2656208,Atlantica Undersea Valley Ocean Floor Clam
+Atlantica,Undersea Valley,Clam,Mega-Potion,1,/remastered/lm01.ard/UK_lm01_ardc.evdl,N,2,6DC1,2656208,Atlantica Undersea Valley Ocean Floor Clam
+Atlantica,Undersea Valley,Clam,Mega-Potion,1,/remastered/lm01.ard/UK_lm01_arde.evdl,N,1,6D21,2656208,Atlantica Undersea Valley Ocean Floor Clam
+Atlantica,Undersea Valley,Clam,Mega-Potion,1,/remastered/lm01.ard/UK_lm01_arde.evdl,N,2,6D29,2656208,Atlantica Undersea Valley Ocean Floor Clam
+Atlantica,Undersea Valley,Clam,Mega-Potion,1,/remastered/lm01.ard/UK_lm01_ardf.evdl,N,1,6D21,2656208,Atlantica Undersea Valley Ocean Floor Clam
+Atlantica,Undersea Valley,Clam,Mega-Potion,1,/remastered/lm01.ard/UK_lm01_ardf.evdl,N,2,6D29,2656208,Atlantica Undersea Valley Ocean Floor Clam
+Atlantica,Undersea Valley,Clam,Mythril,1,/remastered/lm01.ard/UK_lm01_ardd.evdl,N,1,69BD,2656204,Atlantica Undersea Valley Lower Cave Clam
+Atlantica,Undersea Valley,Clam,Mythril,1,/remastered/lm01.ard/UK_lm01_ardd.evdl,N,2,69C5,2656204,Atlantica Undersea Valley Lower Cave Clam
+Atlantica,Undersea Valley,Clam,Mythril,1,/remastered/lm01.ard/UK_lm01_ard10.evdl,N,1,8435,2656204,Atlantica Undersea Valley Lower Cave Clam
+Atlantica,Undersea Valley,Clam,Mythril,1,/remastered/lm01.ard/UK_lm01_ard10.evdl,N,2,843D,2656204,Atlantica Undersea Valley Lower Cave Clam
+Atlantica,Undersea Valley,Clam,Mythril,1,/remastered/lm01.ard/UK_lm01_ard11.evdl,N,1,83D1,2656204,Atlantica Undersea Valley Lower Cave Clam
+Atlantica,Undersea Valley,Clam,Mythril,1,/remastered/lm01.ard/UK_lm01_ard11.evdl,N,2,83D9,2656204,Atlantica Undersea Valley Lower Cave Clam
+Atlantica,Undersea Valley,Clam,Mythril,1,/remastered/lm01.ard/UK_lm01_ard12.evdl,N,1,6671,2656204,Atlantica Undersea Valley Lower Cave Clam
+Atlantica,Undersea Valley,Clam,Mythril,1,/remastered/lm01.ard/UK_lm01_ard12.evdl,N,2,6679,2656204,Atlantica Undersea Valley Lower Cave Clam
+Atlantica,Undersea Valley,Clam,Mythril,1,/remastered/lm01.ard/UK_lm01_ardc.evdl,N,1,8469,2656204,Atlantica Undersea Valley Lower Cave Clam
+Atlantica,Undersea Valley,Clam,Mythril,1,/remastered/lm01.ard/UK_lm01_ardc.evdl,N,2,8471,2656204,Atlantica Undersea Valley Lower Cave Clam
+Atlantica,Undersea Valley,Clam,Mythril,1,/remastered/lm01.ard/UK_lm01_arde.evdl,N,1,83D1,2656204,Atlantica Undersea Valley Lower Cave Clam
+Atlantica,Undersea Valley,Clam,Mythril,1,/remastered/lm01.ard/UK_lm01_arde.evdl,N,2,83D9,2656204,Atlantica Undersea Valley Lower Cave Clam
+Atlantica,Undersea Valley,Clam,Mythril,1,/remastered/lm01.ard/UK_lm01_ardf.evdl,N,1,83D1,2656204,Atlantica Undersea Valley Lower Cave Clam
+Atlantica,Undersea Valley,Clam,Mythril,1,/remastered/lm01.ard/UK_lm01_ardf.evdl,N,2,83D9,2656204,Atlantica Undersea Valley Lower Cave Clam
+Atlantica,Undersea Valley,Clam,Cottage,1,/remastered/lm01.ard/UK_lm01_ardd.evdl,N,1,622D,2656206,Atlantica Undersea Valley Wall Clam
+Atlantica,Undersea Valley,Clam,Cottage,1,/remastered/lm01.ard/UK_lm01_ardd.evdl,N,2,6235,2656206,Atlantica Undersea Valley Wall Clam
+Atlantica,Undersea Valley,Clam,Cottage,1,/remastered/lm01.ard/UK_lm01_ard10.evdl,N,1,7CA5,2656206,Atlantica Undersea Valley Wall Clam
+Atlantica,Undersea Valley,Clam,Cottage,1,/remastered/lm01.ard/UK_lm01_ard10.evdl,N,2,7CAD,2656206,Atlantica Undersea Valley Wall Clam
+Atlantica,Undersea Valley,Clam,Cottage,1,/remastered/lm01.ard/UK_lm01_ard11.evdl,N,1,7C41,2656206,Atlantica Undersea Valley Wall Clam
+Atlantica,Undersea Valley,Clam,Cottage,1,/remastered/lm01.ard/UK_lm01_ard11.evdl,N,2,7C49,2656206,Atlantica Undersea Valley Wall Clam
+Atlantica,Undersea Valley,Clam,Cottage,1,/remastered/lm01.ard/UK_lm01_ard12.evdl,N,1,5EE1,2656206,Atlantica Undersea Valley Wall Clam
+Atlantica,Undersea Valley,Clam,Cottage,1,/remastered/lm01.ard/UK_lm01_ard12.evdl,N,2,5EE9,2656206,Atlantica Undersea Valley Wall Clam
+Atlantica,Undersea Valley,Clam,Cottage,1,/remastered/lm01.ard/UK_lm01_ardc.evdl,N,1,7CD9,2656206,Atlantica Undersea Valley Wall Clam
+Atlantica,Undersea Valley,Clam,Cottage,1,/remastered/lm01.ard/UK_lm01_ardc.evdl,N,2,7CE1,2656206,Atlantica Undersea Valley Wall Clam
+Atlantica,Undersea Valley,Clam,Cottage,1,/remastered/lm01.ard/UK_lm01_arde.evdl,N,1,7C41,2656206,Atlantica Undersea Valley Wall Clam
+Atlantica,Undersea Valley,Clam,Cottage,1,/remastered/lm01.ard/UK_lm01_arde.evdl,N,2,7C49,2656206,Atlantica Undersea Valley Wall Clam
+Atlantica,Undersea Valley,Clam,Cottage,1,/remastered/lm01.ard/UK_lm01_ardf.evdl,N,1,7C41,2656206,Atlantica Undersea Valley Wall Clam
+Atlantica,Undersea Valley,Clam,Cottage,1,/remastered/lm01.ard/UK_lm01_ardf.evdl,N,2,7C49,2656206,Atlantica Undersea Valley Wall Clam
+Atlantica,Undersea Cave,Clam,Cottage,1,/remastered/lm05.ard/UK_lm05_ardc.evdl,N,1,4B89,2656206,Atlantica Undersea Valley Wall Clam
+Atlantica,Undersea Cave,Clam,Cottage,1,/remastered/lm05.ard/UK_lm05_ardc.evdl,N,2,4B91,2656206,Atlantica Undersea Valley Wall Clam
+Atlantica,Undersea Cave,Clam,Cottage,1,/remastered/lm05.ard/UK_lm05_ardd.evdl,N,1,4AF1,2656206,Atlantica Undersea Valley Wall Clam
+Atlantica,Undersea Cave,Clam,Cottage,1,/remastered/lm05.ard/UK_lm05_ardd.evdl,N,2,4AF9,2656206,Atlantica Undersea Valley Wall Clam
+Atlantica,Undersea Cave,Clam,Cottage,1,/remastered/lm05.ard/UK_lm05_ard11.evdl,N,1,4AF1,2656206,Atlantica Undersea Valley Wall Clam
+Atlantica,Undersea Cave,Clam,Cottage,1,/remastered/lm05.ard/UK_lm05_ard11.evdl,N,2,4AF9,2656206,Atlantica Undersea Valley Wall Clam
+Atlantica,Undersea Cave,Clam,Cottage,1,/remastered/lm05.ard/UK_lm05_ard19.evdl,N,1,4BBD,2656206,Atlantica Undersea Valley Wall Clam
+Atlantica,Undersea Cave,Clam,Cottage,1,/remastered/lm05.ard/UK_lm05_ard19.evdl,N,2,4BC5,2656206,Atlantica Undersea Valley Wall Clam
+Atlantica,Undersea Cave,Clam,Cottage,1,/remastered/lm05.ard/UK_lm05_arde.evdl,N,1,4AF1,2656206,Atlantica Undersea Valley Wall Clam
+Atlantica,Undersea Cave,Clam,Cottage,1,/remastered/lm05.ard/UK_lm05_arde.evdl,N,2,4AF9,2656206,Atlantica Undersea Valley Wall Clam
+Atlantica,Undersea Cave,Clam,Cottage,1,/remastered/lm05.ard/UK_lm05_ardf.evdl,N,1,4AF1,2656206,Atlantica Undersea Valley Wall Clam
+Atlantica,Undersea Cave,Clam,Cottage,1,/remastered/lm05.ard/UK_lm05_ardf.evdl,N,2,4AF9,2656206,Atlantica Undersea Valley Wall Clam
+Atlantica,Undersea Gorge,Blizzard Clam,Mythril Shard,1,/remastered/lm04.ard/UK_lm04_ard10.evdl,N,1,5A05,2656201,Atlantica Undersea Gorge Blizzard Clam
+Atlantica,Undersea Gorge,Blizzard Clam,Mythril Shard,1,/remastered/lm04.ard/UK_lm04_ard10.evdl,N,2,5A0D,2656201,Atlantica Undersea Gorge Blizzard Clam
+Atlantica,Undersea Gorge,Blizzard Clam,Mythril Shard,1,/remastered/lm04.ard/UK_lm04_ard11.evdl,N,1,5965,2656201,Atlantica Undersea Gorge Blizzard Clam
+Atlantica,Undersea Gorge,Blizzard Clam,Mythril Shard,1,/remastered/lm04.ard/UK_lm04_ard11.evdl,N,2,596D,2656201,Atlantica Undersea Gorge Blizzard Clam
+Atlantica,Undersea Gorge,Blizzard Clam,Mythril Shard,1,/remastered/lm04.ard/UK_lm04_ard12.evdl,N,1,59A1,2656201,Atlantica Undersea Gorge Blizzard Clam
+Atlantica,Undersea Gorge,Blizzard Clam,Mythril Shard,1,/remastered/lm04.ard/UK_lm04_ard12.evdl,N,2,59A9,2656201,Atlantica Undersea Gorge Blizzard Clam
+Atlantica,Undersea Gorge,Blizzard Clam,Mythril Shard,1,/remastered/lm04.ard/UK_lm04_ard17.evdl,N,1,5965,2656201,Atlantica Undersea Gorge Blizzard Clam
+Atlantica,Undersea Gorge,Blizzard Clam,Mythril Shard,1,/remastered/lm04.ard/UK_lm04_ard17.evdl,N,2,596D,2656201,Atlantica Undersea Gorge Blizzard Clam
+Atlantica,Undersea Gorge,Blizzard Clam,Mythril Shard,1,/remastered/lm04.ard/UK_lm04_ard19.evdl,N,1,71B1,2656201,Atlantica Undersea Gorge Blizzard Clam
+Atlantica,Undersea Gorge,Blizzard Clam,Mythril Shard,1,/remastered/lm04.ard/UK_lm04_ard19.evdl,N,2,71B9,2656201,Atlantica Undersea Gorge Blizzard Clam
+Atlantica,Undersea Gorge,Blizzard Clam,Mythril Shard,1,/remastered/lm04.ard/UK_lm04_ardc.evdl,N,1,717D,2656201,Atlantica Undersea Gorge Blizzard Clam
+Atlantica,Undersea Gorge,Blizzard Clam,Mythril Shard,1,/remastered/lm04.ard/UK_lm04_ardc.evdl,N,2,7185,2656201,Atlantica Undersea Gorge Blizzard Clam
+Atlantica,Undersea Gorge,Blizzard Clam,Mythril Shard,1,/remastered/lm04.ard/UK_lm04_ardd.evdl,N,1,5965,2656201,Atlantica Undersea Gorge Blizzard Clam
+Atlantica,Undersea Gorge,Blizzard Clam,Mythril Shard,1,/remastered/lm04.ard/UK_lm04_ardd.evdl,N,2,596D,2656201,Atlantica Undersea Gorge Blizzard Clam
+Atlantica,Undersea Gorge,Blizzard Clam,Mythril Shard,1,/remastered/lm04.ard/UK_lm04_arde.evdl,N,1,7A7D,2656201,Atlantica Undersea Gorge Blizzard Clam
+Atlantica,Undersea Gorge,Blizzard Clam,Mythril Shard,1,/remastered/lm04.ard/UK_lm04_arde.evdl,N,2,7A85,2656201,Atlantica Undersea Gorge Blizzard Clam
+Atlantica,Undersea Gorge,Blizzard Clam,Mythril Shard,1,/remastered/lm04.ard/UK_lm04_ardf.evdl,N,1,5965,2656201,Atlantica Undersea Gorge Blizzard Clam
+Atlantica,Undersea Gorge,Blizzard Clam,Mythril Shard,1,/remastered/lm04.ard/UK_lm04_ardf.evdl,N,2,596D,2656201,Atlantica Undersea Gorge Blizzard Clam
+Atlantica,Undersea Gorge,Clam,Mega-Ether,1,/remastered/lm04.ard/UK_lm04_ard10.evdl,N,1,5195,2656202,Atlantica Undersea Gorge Ocean Floor Clam
+Atlantica,Undersea Gorge,Clam,Mega-Ether,1,/remastered/lm04.ard/UK_lm04_ard10.evdl,N,2,519D,2656202,Atlantica Undersea Gorge Ocean Floor Clam
+Atlantica,Undersea Gorge,Clam,Mega-Ether,1,/remastered/lm04.ard/UK_lm04_ard11.evdl,N,1,50F5,2656202,Atlantica Undersea Gorge Ocean Floor Clam
+Atlantica,Undersea Gorge,Clam,Mega-Ether,1,/remastered/lm04.ard/UK_lm04_ard11.evdl,N,2,50FD,2656202,Atlantica Undersea Gorge Ocean Floor Clam
+Atlantica,Undersea Gorge,Clam,Mega-Ether,1,/remastered/lm04.ard/UK_lm04_ard12.evdl,N,1,5131,2656202,Atlantica Undersea Gorge Ocean Floor Clam
+Atlantica,Undersea Gorge,Clam,Mega-Ether,1,/remastered/lm04.ard/UK_lm04_ard12.evdl,N,2,5139,2656202,Atlantica Undersea Gorge Ocean Floor Clam
+Atlantica,Undersea Gorge,Clam,Mega-Ether,1,/remastered/lm04.ard/UK_lm04_ard17.evdl,N,1,50F5,2656202,Atlantica Undersea Gorge Ocean Floor Clam
+Atlantica,Undersea Gorge,Clam,Mega-Ether,1,/remastered/lm04.ard/UK_lm04_ard17.evdl,N,2,50FD,2656202,Atlantica Undersea Gorge Ocean Floor Clam
+Atlantica,Undersea Gorge,Clam,Mega-Ether,1,/remastered/lm04.ard/UK_lm04_ard19.evdl,N,1,6941,2656202,Atlantica Undersea Gorge Ocean Floor Clam
+Atlantica,Undersea Gorge,Clam,Mega-Ether,1,/remastered/lm04.ard/UK_lm04_ard19.evdl,N,2,6949,2656202,Atlantica Undersea Gorge Ocean Floor Clam
+Atlantica,Undersea Gorge,Clam,Mega-Ether,1,/remastered/lm04.ard/UK_lm04_ardc.evdl,N,1,690D,2656202,Atlantica Undersea Gorge Ocean Floor Clam
+Atlantica,Undersea Gorge,Clam,Mega-Ether,1,/remastered/lm04.ard/UK_lm04_ardc.evdl,N,2,6915,2656202,Atlantica Undersea Gorge Ocean Floor Clam
+Atlantica,Undersea Gorge,Clam,Mega-Ether,1,/remastered/lm04.ard/UK_lm04_ardd.evdl,N,1,50F5,2656202,Atlantica Undersea Gorge Ocean Floor Clam
+Atlantica,Undersea Gorge,Clam,Mega-Ether,1,/remastered/lm04.ard/UK_lm04_ardd.evdl,N,2,50FD,2656202,Atlantica Undersea Gorge Ocean Floor Clam
+Atlantica,Undersea Gorge,Clam,Mega-Ether,1,/remastered/lm04.ard/UK_lm04_arde.evdl,N,1,720D,2656202,Atlantica Undersea Gorge Ocean Floor Clam
+Atlantica,Undersea Gorge,Clam,Mega-Ether,1,/remastered/lm04.ard/UK_lm04_arde.evdl,N,2,7215,2656202,Atlantica Undersea Gorge Ocean Floor Clam
+Atlantica,Undersea Gorge,Clam,Mega-Ether,1,/remastered/lm04.ard/UK_lm04_ardf.evdl,N,1,50F5,2656202,Atlantica Undersea Gorge Ocean Floor Clam
+Atlantica,Undersea Gorge,Clam,Mega-Ether,1,/remastered/lm04.ard/UK_lm04_ardf.evdl,N,2,50FD,2656202,Atlantica Undersea Gorge Ocean Floor Clam
+Atlantica,Undersea Gorge,Lodged Chest,Orichalcum,1,/remastered/lm04.ard/UK_lm04_ard10.evdl,N,1,6371,2652574,Atlantica Undersea Gorge Jammed by Ariel's Grotto Chest
+Atlantica,Undersea Gorge,Lodged Chest,Orichalcum,1,/remastered/lm04.ard/UK_lm04_ard10.evdl,N,2,63B5,2652574,Atlantica Undersea Gorge Jammed by Ariel's Grotto Chest
+Atlantica,Undersea Gorge,Lodged Chest,Orichalcum,1,/remastered/lm04.ard/UK_lm04_ard10.evdl,N,3,63C9,2652574,Atlantica Undersea Gorge Jammed by Ariel's Grotto Chest
+Atlantica,Undersea Gorge,Lodged Chest,Orichalcum,1,/remastered/lm04.ard/UK_lm04_ard11.evdl,N,1,62D1,2652574,Atlantica Undersea Gorge Jammed by Ariel's Grotto Chest
+Atlantica,Undersea Gorge,Lodged Chest,Orichalcum,1,/remastered/lm04.ard/UK_lm04_ard11.evdl,N,2,6315,2652574,Atlantica Undersea Gorge Jammed by Ariel's Grotto Chest
+Atlantica,Undersea Gorge,Lodged Chest,Orichalcum,1,/remastered/lm04.ard/UK_lm04_ard11.evdl,N,3,6329,2652574,Atlantica Undersea Gorge Jammed by Ariel's Grotto Chest
+Atlantica,Undersea Gorge,Lodged Chest,Orichalcum,1,/remastered/lm04.ard/UK_lm04_ard12.evdl,N,1,630D,2652574,Atlantica Undersea Gorge Jammed by Ariel's Grotto Chest
+Atlantica,Undersea Gorge,Lodged Chest,Orichalcum,1,/remastered/lm04.ard/UK_lm04_ard12.evdl,N,2,6351,2652574,Atlantica Undersea Gorge Jammed by Ariel's Grotto Chest
+Atlantica,Undersea Gorge,Lodged Chest,Orichalcum,1,/remastered/lm04.ard/UK_lm04_ard12.evdl,N,3,6365,2652574,Atlantica Undersea Gorge Jammed by Ariel's Grotto Chest
+Atlantica,Undersea Gorge,Lodged Chest,Orichalcum,1,/remastered/lm04.ard/UK_lm04_ard17.evdl,N,1,62D1,2652574,Atlantica Undersea Gorge Jammed by Ariel's Grotto Chest
+Atlantica,Undersea Gorge,Lodged Chest,Orichalcum,1,/remastered/lm04.ard/UK_lm04_ard17.evdl,N,2,6315,2652574,Atlantica Undersea Gorge Jammed by Ariel's Grotto Chest
+Atlantica,Undersea Gorge,Lodged Chest,Orichalcum,1,/remastered/lm04.ard/UK_lm04_ard17.evdl,N,3,6329,2652574,Atlantica Undersea Gorge Jammed by Ariel's Grotto Chest
+Atlantica,Undersea Gorge,Lodged Chest,Orichalcum,1,/remastered/lm04.ard/UK_lm04_ard19.evdl,N,1,7B1D,2652574,Atlantica Undersea Gorge Jammed by Ariel's Grotto Chest
+Atlantica,Undersea Gorge,Lodged Chest,Orichalcum,1,/remastered/lm04.ard/UK_lm04_ard19.evdl,N,2,7B61,2652574,Atlantica Undersea Gorge Jammed by Ariel's Grotto Chest
+Atlantica,Undersea Gorge,Lodged Chest,Orichalcum,1,/remastered/lm04.ard/UK_lm04_ard19.evdl,N,3,7B75,2652574,Atlantica Undersea Gorge Jammed by Ariel's Grotto Chest
+Atlantica,Undersea Gorge,Lodged Chest,Orichalcum,1,/remastered/lm04.ard/UK_lm04_ard19.evdl,N,1,7B1D,2652574,Atlantica Undersea Gorge Jammed by Ariel's Grotto Chest
+Atlantica,Undersea Gorge,Lodged Chest,Orichalcum,1,/remastered/lm04.ard/UK_lm04_ard19.evdl,N,2,7B61,2652574,Atlantica Undersea Gorge Jammed by Ariel's Grotto Chest
+Atlantica,Undersea Gorge,Lodged Chest,Orichalcum,1,/remastered/lm04.ard/UK_lm04_ard19.evdl,N,3,7B75,2652574,Atlantica Undersea Gorge Jammed by Ariel's Grotto Chest
+Atlantica,Undersea Gorge,Lodged Chest,Orichalcum,1,/remastered/lm04.ard/UK_lm04_ardc.evdl,N,1,7AE9,2652574,Atlantica Undersea Gorge Jammed by Ariel's Grotto Chest
+Atlantica,Undersea Gorge,Lodged Chest,Orichalcum,1,/remastered/lm04.ard/UK_lm04_ardc.evdl,N,2,7B2D,2652574,Atlantica Undersea Gorge Jammed by Ariel's Grotto Chest
+Atlantica,Undersea Gorge,Lodged Chest,Orichalcum,1,/remastered/lm04.ard/UK_lm04_ardc.evdl,N,3,7B41,2652574,Atlantica Undersea Gorge Jammed by Ariel's Grotto Chest
+Atlantica,Undersea Gorge,Lodged Chest,Orichalcum,1,/remastered/lm04.ard/UK_lm04_ardd.evdl,N,1,62D1,2652574,Atlantica Undersea Gorge Jammed by Ariel's Grotto Chest
+Atlantica,Undersea Gorge,Lodged Chest,Orichalcum,1,/remastered/lm04.ard/UK_lm04_ardd.evdl,N,2,6315,2652574,Atlantica Undersea Gorge Jammed by Ariel's Grotto Chest
+Atlantica,Undersea Gorge,Lodged Chest,Orichalcum,1,/remastered/lm04.ard/UK_lm04_ardd.evdl,N,3,6329,2652574,Atlantica Undersea Gorge Jammed by Ariel's Grotto Chest
+Atlantica,Undersea Gorge,Lodged Chest,Orichalcum,1,/remastered/lm04.ard/UK_lm04_arde.evdl,N,1,83E9,2652574,Atlantica Undersea Gorge Jammed by Ariel's Grotto Chest
+Atlantica,Undersea Gorge,Lodged Chest,Orichalcum,1,/remastered/lm04.ard/UK_lm04_arde.evdl,N,2,842D,2652574,Atlantica Undersea Gorge Jammed by Ariel's Grotto Chest
+Atlantica,Undersea Gorge,Lodged Chest,Orichalcum,1,/remastered/lm04.ard/UK_lm04_arde.evdl,N,3,8441,2652574,Atlantica Undersea Gorge Jammed by Ariel's Grotto Chest
+Atlantica,Undersea Gorge,Lodged Chest,Orichalcum,1,/remastered/lm04.ard/UK_lm04_ardf.evdl,N,1,62D1,2652574,Atlantica Undersea Gorge Jammed by Ariel's Grotto Chest
+Atlantica,Undersea Gorge,Lodged Chest,Orichalcum,1,/remastered/lm04.ard/UK_lm04_ardf.evdl,N,2,6315,2652574,Atlantica Undersea Gorge Jammed by Ariel's Grotto Chest
+Atlantica,Undersea Gorge,Lodged Chest,Orichalcum,1,/remastered/lm04.ard/UK_lm04_ardf.evdl,N,3,6329,2652574,Atlantica Undersea Gorge Jammed by Ariel's Grotto Chest
+Atlantica,Undersea Garden,Clam,Mega-Potion,1,/remastered/lm06.ard/UK_lm06_ard2.evdl,N,1,4F39,2656215,Atlantica Undersea Garden Clam
+Atlantica,Undersea Garden,Clam,Mega-Potion,1,/remastered/lm06.ard/UK_lm06_ard2.evdl,N,2,4F41,2656215,Atlantica Undersea Garden Clam
+Atlantica,Undersea Garden,Clam,Mega-Potion,1,/remastered/lm06.ard/UK_lm06_ard19.evdl,N,1,5005,2656215,Atlantica Undersea Garden Clam
+Atlantica,Undersea Garden,Clam,Mega-Potion,1,/remastered/lm06.ard/UK_lm06_ard19.evdl,N,2,500D,2656215,Atlantica Undersea Garden Clam
+Atlantica,Undersea Garden,Clam,Mega-Potion,1,/remastered/lm06.ard/UK_lm06_ardc.evdl,N,1,4FD1,2656215,Atlantica Undersea Garden Clam
+Atlantica,Undersea Garden,Clam,Mega-Potion,1,/remastered/lm06.ard/UK_lm06_ardc.evdl,N,2,4FD9,2656215,Atlantica Undersea Garden Clam
+Atlantica,Undersea Garden,Clam,Mega-Potion,1,/remastered/lm06.ard/UK_lm06_ardf.evdl,N,1,4F39,2656215,Atlantica Undersea Garden Clam
+Atlantica,Undersea Garden,Clam,Mega-Potion,1,/remastered/lm06.ard/UK_lm06_ardf.evdl,N,2,4F41,2656215,Atlantica Undersea Garden Clam
+Atlantica,Triton's Palace,Clam,Mega-Ether,1,/remastered/lm15.ard/UK_lm15_ard11.evdl,N,1,6019,2656210,Atlantica Triton's Palace Wall Right Clam
+Atlantica,Triton's Palace,Clam,Mega-Ether,1,/remastered/lm15.ard/UK_lm15_ard11.evdl,N,2,6021,2656210,Atlantica Triton's Palace Wall Right Clam
+Atlantica,Triton's Palace,Clam,Mega-Ether,1,/remastered/lm15.ard/UK_lm15_ard19.evdl,N,1,60E5,2656210,Atlantica Triton's Palace Wall Right Clam
+Atlantica,Triton's Palace,Clam,Mega-Ether,1,/remastered/lm15.ard/UK_lm15_ard19.evdl,N,2,60ED,2656210,Atlantica Triton's Palace Wall Right Clam
+Atlantica,Triton's Palace,Clam,Mega-Ether,1,/remastered/lm15.ard/UK_lm15_ardc.evdl,N,1,6219,2656210,Atlantica Triton's Palace Wall Right Clam
+Atlantica,Triton's Palace,Clam,Mega-Ether,1,/remastered/lm15.ard/UK_lm15_ardc.evdl,N,2,6221,2656210,Atlantica Triton's Palace Wall Right Clam
+Atlantica,Triton's Palace,Clam,Mega-Ether,1,/remastered/lm15.ard/UK_lm15_ardd.evdl,N,1,6019,2656210,Atlantica Triton's Palace Wall Right Clam
+Atlantica,Triton's Palace,Clam,Mega-Ether,1,/remastered/lm15.ard/UK_lm15_ardd.evdl,N,2,6021,2656210,Atlantica Triton's Palace Wall Right Clam
+Atlantica,Triton's Palace,Clam,Mega-Ether,1,/remastered/lm15.ard/UK_lm15_ardf.evdl,N,1,6019,2656210,Atlantica Triton's Palace Wall Right Clam
+Atlantica,Triton's Palace,Clam,Mega-Ether,1,/remastered/lm15.ard/UK_lm15_ardf.evdl,N,2,6021,2656210,Atlantica Triton's Palace Wall Right Clam
+Atlantica,Triton's Palace,Clam,Cottage,1,/remastered/lm15.ard/UK_lm15_ard11.evdl,N,1,5131,2656212,Atlantica Triton's Palace Wall Left Clam
+Atlantica,Triton's Palace,Clam,Cottage,1,/remastered/lm15.ard/UK_lm15_ard11.evdl,N,2,5139,2656212,Atlantica Triton's Palace Wall Left Clam
+Atlantica,Triton's Palace,Clam,Cottage,1,/remastered/lm15.ard/UK_lm15_ard19.evdl,N,1,51FD,2656212,Atlantica Triton's Palace Wall Left Clam
+Atlantica,Triton's Palace,Clam,Cottage,1,/remastered/lm15.ard/UK_lm15_ard19.evdl,N,2,5205,2656212,Atlantica Triton's Palace Wall Left Clam
+Atlantica,Triton's Palace,Clam,Cottage,1,/remastered/lm15.ard/UK_lm15_ardc.evdl,N,1,5331,2656212,Atlantica Triton's Palace Wall Left Clam
+Atlantica,Triton's Palace,Clam,Cottage,1,/remastered/lm15.ard/UK_lm15_ardc.evdl,N,2,5339,2656212,Atlantica Triton's Palace Wall Left Clam
+Atlantica,Triton's Palace,Clam,Cottage,1,/remastered/lm15.ard/UK_lm15_ardd.evdl,N,1,5131,2656212,Atlantica Triton's Palace Wall Left Clam
+Atlantica,Triton's Palace,Clam,Cottage,1,/remastered/lm15.ard/UK_lm15_ardd.evdl,N,2,5139,2656212,Atlantica Triton's Palace Wall Left Clam
+Atlantica,Triton's Palace,Clam,Cottage,1,/remastered/lm15.ard/UK_lm15_ardf.evdl,N,1,5131,2656212,Atlantica Triton's Palace Wall Left Clam
+Atlantica,Triton's Palace,Clam,Cottage,1,/remastered/lm15.ard/UK_lm15_ardf.evdl,N,2,5139,2656212,Atlantica Triton's Palace Wall Left Clam
+Atlantica,Triton's Palace,Clam,Elixir,1,/remastered/lm15.ard/UK_lm15_ard11.evdl,N,1,58A5,2656211,Atlantica Triton's Palace Near Path Clam
+Atlantica,Triton's Palace,Clam,Elixir,1,/remastered/lm15.ard/UK_lm15_ard11.evdl,N,2,58AD,2656211,Atlantica Triton's Palace Near Path Clam
+Atlantica,Triton's Palace,Clam,Elixir,1,/remastered/lm15.ard/UK_lm15_ard19.evdl,N,1,5971,2656211,Atlantica Triton's Palace Near Path Clam
+Atlantica,Triton's Palace,Clam,Elixir,1,/remastered/lm15.ard/UK_lm15_ard19.evdl,N,2,5979,2656211,Atlantica Triton's Palace Near Path Clam
+Atlantica,Triton's Palace,Clam,Elixir,1,/remastered/lm15.ard/UK_lm15_ardc.evdl,N,1,5AA5,2656211,Atlantica Triton's Palace Near Path Clam
+Atlantica,Triton's Palace,Clam,Elixir,1,/remastered/lm15.ard/UK_lm15_ardc.evdl,N,2,5AAD,2656211,Atlantica Triton's Palace Near Path Clam
+Atlantica,Triton's Palace,Clam,Elixir,1,/remastered/lm15.ard/UK_lm15_ardd.evdl,N,1,58A5,2656211,Atlantica Triton's Palace Near Path Clam
+Atlantica,Triton's Palace,Clam,Elixir,1,/remastered/lm15.ard/UK_lm15_ardd.evdl,N,2,58AD,2656211,Atlantica Triton's Palace Near Path Clam
+Atlantica,Triton's Palace,Clam,Elixir,1,/remastered/lm15.ard/UK_lm15_ardf.evdl,N,1,58A5,2656211,Atlantica Triton's Palace Near Path Clam
+Atlantica,Triton's Palace,Clam,Elixir,1,/remastered/lm15.ard/UK_lm15_ardf.evdl,N,2,58AD,2656211,Atlantica Triton's Palace Near Path Clam
+Atlantica,Triton's Palace,Thunder Clam,Mythril Shard,1,/remastered/lm15.ard/UK_lm15_ard11.evdl,N,1,6869,2656209,Atlantica Triton's Palace Thunder Clam
+Atlantica,Triton's Palace,Thunder Clam,Mythril Shard,1,/remastered/lm15.ard/UK_lm15_ard11.evdl,N,2,6871,2656209,Atlantica Triton's Palace Thunder Clam
+Atlantica,Triton's Palace,Thunder Clam,Mythril Shard,1,/remastered/lm15.ard/UK_lm15_ard19.evdl,N,1,6935,2656209,Atlantica Triton's Palace Thunder Clam
+Atlantica,Triton's Palace,Thunder Clam,Mythril Shard,1,/remastered/lm15.ard/UK_lm15_ard19.evdl,N,2,693D,2656209,Atlantica Triton's Palace Thunder Clam
+Atlantica,Triton's Palace,Thunder Clam,Mythril Shard,1,/remastered/lm15.ard/UK_lm15_ardc.evdl,N,1,6A69,2656209,Atlantica Triton's Palace Thunder Clam
+Atlantica,Triton's Palace,Thunder Clam,Mythril Shard,1,/remastered/lm15.ard/UK_lm15_ardc.evdl,N,2,6A71,2656209,Atlantica Triton's Palace Thunder Clam
+Atlantica,Triton's Palace,Thunder Clam,Mythril Shard,1,/remastered/lm15.ard/UK_lm15_ardd.evdl,N,1,6869,2656209,Atlantica Triton's Palace Thunder Clam
+Atlantica,Triton's Palace,Thunder Clam,Mythril Shard,1,/remastered/lm15.ard/UK_lm15_ardd.evdl,N,2,6871,2656209,Atlantica Triton's Palace Thunder Clam
+Atlantica,Triton's Palace,Thunder Clam,Mythril Shard,1,/remastered/lm15.ard/UK_lm15_ardf.evdl,N,1,6869,2656209,Atlantica Triton's Palace Thunder Clam
+Atlantica,Triton's Palace,Thunder Clam,Mythril Shard,1,/remastered/lm15.ard/UK_lm15_ardf.evdl,N,2,6871,2656209,Atlantica Triton's Palace Thunder Clam
+Atlantica,Triton's Palace,White Trinity,Orichalcum,1,/remastered/lm15.ard/UK_lm15_ard11.evdl,N,1,7429,2652611,Atlantica Triton's Palace White Trinity Chest
+Atlantica,Triton's Palace,White Trinity,Orichalcum,1,/remastered/lm15.ard/UK_lm15_ard11.evdl,N,2,746D,2652611,Atlantica Triton's Palace White Trinity Chest
+Atlantica,Triton's Palace,White Trinity,Orichalcum,1,/remastered/lm15.ard/UK_lm15_ard11.evdl,N,3,7481,2652611,Atlantica Triton's Palace White Trinity Chest
+Atlantica,Triton's Palace,White Trinity,Orichalcum,1,/remastered/lm15.ard/UK_lm15_ard11.evdl,N,1,7429,2652611,Atlantica Triton's Palace White Trinity Chest
+Atlantica,Triton's Palace,White Trinity,Orichalcum,1,/remastered/lm15.ard/UK_lm15_ard11.evdl,N,2,746D,2652611,Atlantica Triton's Palace White Trinity Chest
+Atlantica,Triton's Palace,White Trinity,Orichalcum,1,/remastered/lm15.ard/UK_lm15_ard11.evdl,N,3,7481,2652611,Atlantica Triton's Palace White Trinity Chest
+Atlantica,Triton's Palace,White Trinity,Orichalcum,1,/remastered/lm15.ard/UK_lm15_ard19.evdl,N,1,74F5,2652611,Atlantica Triton's Palace White Trinity Chest
+Atlantica,Triton's Palace,White Trinity,Orichalcum,1,/remastered/lm15.ard/UK_lm15_ard19.evdl,N,2,7539,2652611,Atlantica Triton's Palace White Trinity Chest
+Atlantica,Triton's Palace,White Trinity,Orichalcum,1,/remastered/lm15.ard/UK_lm15_ard19.evdl,N,3,754D,2652611,Atlantica Triton's Palace White Trinity Chest
+Atlantica,Triton's Palace,White Trinity,Orichalcum,1,/remastered/lm15.ard/UK_lm15_ardc.evdl,N,1,7629,2652611,Atlantica Triton's Palace White Trinity Chest
+Atlantica,Triton's Palace,White Trinity,Orichalcum,1,/remastered/lm15.ard/UK_lm15_ardc.evdl,N,2,766D,2652611,Atlantica Triton's Palace White Trinity Chest
+Atlantica,Triton's Palace,White Trinity,Orichalcum,1,/remastered/lm15.ard/UK_lm15_ardc.evdl,N,3,7681,2652611,Atlantica Triton's Palace White Trinity Chest
+Atlantica,Triton's Palace,White Trinity,Orichalcum,1,/remastered/lm15.ard/UK_lm15_ardd.evdl,N,1,7429,2652611,Atlantica Triton's Palace White Trinity Chest
+Atlantica,Triton's Palace,White Trinity,Orichalcum,1,/remastered/lm15.ard/UK_lm15_ardd.evdl,N,2,746D,2652611,Atlantica Triton's Palace White Trinity Chest
+Atlantica,Triton's Palace,White Trinity,Orichalcum,1,/remastered/lm15.ard/UK_lm15_ardd.evdl,N,3,7481,2652611,Atlantica Triton's Palace White Trinity Chest
+Atlantica,Triton's Palace,White Trinity,Orichalcum,1,/remastered/lm15.ard/UK_lm15_arde.evdl,N,1,7429,2652611,Atlantica Triton's Palace White Trinity Chest
+Atlantica,Triton's Palace,White Trinity,Orichalcum,1,/remastered/lm15.ard/UK_lm15_arde.evdl,N,2,746D,2652611,Atlantica Triton's Palace White Trinity Chest
+Atlantica,Triton's Palace,White Trinity,Orichalcum,1,/remastered/lm15.ard/UK_lm15_arde.evdl,N,3,7481,2652611,Atlantica Triton's Palace White Trinity Chest
+Atlantica,Triton's Palace,White Trinity,Orichalcum,1,/remastered/lm15.ard/UK_lm15_ardf.evdl,N,1,7429,2652611,Atlantica Triton's Palace White Trinity Chest
+Atlantica,Triton's Palace,White Trinity,Orichalcum,1,/remastered/lm15.ard/UK_lm15_ardf.evdl,N,2,746D,2652611,Atlantica Triton's Palace White Trinity Chest
+Atlantica,Triton's Palace,White Trinity,Orichalcum,1,/remastered/lm15.ard/UK_lm15_ardf.evdl,N,3,7481,2652611,Atlantica Triton's Palace White Trinity Chest
+Atlantica,Ariel's Grotto,Chest,Mega-Potion,1,/remastered/lm14.ard/UK_lm14_ard0.evdl,N,1,7A01,2652572,Atlantica Ariel's Grotto Low Chest
+Atlantica,Ariel's Grotto,Chest,Mega-Potion,1,/remastered/lm14.ard/UK_lm14_ard0.evdl,N,2,7A45,2652572,Atlantica Ariel's Grotto Low Chest
+Atlantica,Ariel's Grotto,Chest,Mega-Potion,1,/remastered/lm14.ard/UK_lm14_ard0.evdl,N,3,7A59,2652572,Atlantica Ariel's Grotto Low Chest
+Atlantica,Ariel's Grotto,Chest,Mega-Potion,1,/remastered/lm14.ard/UK_lm14_ard2.evdl,N,1,96AD,2652572,Atlantica Ariel's Grotto Low Chest
+Atlantica,Ariel's Grotto,Chest,Mega-Potion,1,/remastered/lm14.ard/UK_lm14_ard2.evdl,N,2,96F1,2652572,Atlantica Ariel's Grotto Low Chest
+Atlantica,Ariel's Grotto,Chest,Mega-Potion,1,/remastered/lm14.ard/UK_lm14_ard2.evdl,N,3,9705,2652572,Atlantica Ariel's Grotto Low Chest
+Atlantica,Ariel's Grotto,Chest,Mega-Potion,1,/remastered/lm14.ard/UK_lm14_ard3.evdl,N,1,8A91,2652572,Atlantica Ariel's Grotto Low Chest
+Atlantica,Ariel's Grotto,Chest,Mega-Potion,1,/remastered/lm14.ard/UK_lm14_ard3.evdl,N,2,8AD5,2652572,Atlantica Ariel's Grotto Low Chest
+Atlantica,Ariel's Grotto,Chest,Mega-Potion,1,/remastered/lm14.ard/UK_lm14_ard3.evdl,N,3,8AE9,2652572,Atlantica Ariel's Grotto Low Chest
+Atlantica,Ariel's Grotto,Chest,Mega-Potion,1,/remastered/lm14.ard/UK_lm14_ard11.evdl,N,1,63FD,2652572,Atlantica Ariel's Grotto Low Chest
+Atlantica,Ariel's Grotto,Chest,Mega-Potion,1,/remastered/lm14.ard/UK_lm14_ard11.evdl,N,2,6441,2652572,Atlantica Ariel's Grotto Low Chest
+Atlantica,Ariel's Grotto,Chest,Mega-Potion,1,/remastered/lm14.ard/UK_lm14_ard11.evdl,N,3,6455,2652572,Atlantica Ariel's Grotto Low Chest
+Atlantica,Ariel's Grotto,Chest,Mega-Potion,1,/remastered/lm14.ard/UK_lm14_ard19.evdl,N,1,5F0D,2652572,Atlantica Ariel's Grotto Low Chest
+Atlantica,Ariel's Grotto,Chest,Mega-Potion,1,/remastered/lm14.ard/UK_lm14_ard19.evdl,N,2,5F51,2652572,Atlantica Ariel's Grotto Low Chest
+Atlantica,Ariel's Grotto,Chest,Mega-Potion,1,/remastered/lm14.ard/UK_lm14_ard19.evdl,N,3,5F65,2652572,Atlantica Ariel's Grotto Low Chest
+Atlantica,Ariel's Grotto,Chest,Mega-Potion,1,/remastered/lm14.ard/UK_lm14_ardc.evdl,N,1,5ED9,2652572,Atlantica Ariel's Grotto Low Chest
+Atlantica,Ariel's Grotto,Chest,Mega-Potion,1,/remastered/lm14.ard/UK_lm14_ardc.evdl,N,2,5F1D,2652572,Atlantica Ariel's Grotto Low Chest
+Atlantica,Ariel's Grotto,Chest,Mega-Potion,1,/remastered/lm14.ard/UK_lm14_ardc.evdl,N,3,5F31,2652572,Atlantica Ariel's Grotto Low Chest
+Atlantica,Ariel's Grotto,Chest,Cottage,1,/remastered/lm14.ard/UK_lm14_ard0.evdl,N,1,710D,2652571,Atlantica Ariel's Grotto Middle Chest
+Atlantica,Ariel's Grotto,Chest,Cottage,1,/remastered/lm14.ard/UK_lm14_ard0.evdl,N,2,7151,2652571,Atlantica Ariel's Grotto Middle Chest
+Atlantica,Ariel's Grotto,Chest,Cottage,1,/remastered/lm14.ard/UK_lm14_ard0.evdl,N,3,7165,2652571,Atlantica Ariel's Grotto Middle Chest
+Atlantica,Ariel's Grotto,Chest,Cottage,1,/remastered/lm14.ard/UK_lm14_ard2.evdl,N,1,8DB9,2652571,Atlantica Ariel's Grotto Middle Chest
+Atlantica,Ariel's Grotto,Chest,Cottage,1,/remastered/lm14.ard/UK_lm14_ard2.evdl,N,2,8DFD,2652571,Atlantica Ariel's Grotto Middle Chest
+Atlantica,Ariel's Grotto,Chest,Cottage,1,/remastered/lm14.ard/UK_lm14_ard2.evdl,N,3,8E11,2652571,Atlantica Ariel's Grotto Middle Chest
+Atlantica,Ariel's Grotto,Chest,Cottage,1,/remastered/lm14.ard/UK_lm14_ard3.evdl,N,1,819D,2652571,Atlantica Ariel's Grotto Middle Chest
+Atlantica,Ariel's Grotto,Chest,Cottage,1,/remastered/lm14.ard/UK_lm14_ard3.evdl,N,2,81E1,2652571,Atlantica Ariel's Grotto Middle Chest
+Atlantica,Ariel's Grotto,Chest,Cottage,1,/remastered/lm14.ard/UK_lm14_ard3.evdl,N,3,81F5,2652571,Atlantica Ariel's Grotto Middle Chest
+Atlantica,Ariel's Grotto,Chest,Cottage,1,/remastered/lm14.ard/UK_lm14_ard11.evdl,N,1,5B09,2652571,Atlantica Ariel's Grotto Middle Chest
+Atlantica,Ariel's Grotto,Chest,Cottage,1,/remastered/lm14.ard/UK_lm14_ard11.evdl,N,2,5B4D,2652571,Atlantica Ariel's Grotto Middle Chest
+Atlantica,Ariel's Grotto,Chest,Cottage,1,/remastered/lm14.ard/UK_lm14_ard11.evdl,N,3,5B61,2652571,Atlantica Ariel's Grotto Middle Chest
+Atlantica,Ariel's Grotto,Chest,Cottage,1,/remastered/lm14.ard/UK_lm14_ard19.evdl,N,1,5619,2652571,Atlantica Ariel's Grotto Middle Chest
+Atlantica,Ariel's Grotto,Chest,Cottage,1,/remastered/lm14.ard/UK_lm14_ard19.evdl,N,2,565D,2652571,Atlantica Ariel's Grotto Middle Chest
+Atlantica,Ariel's Grotto,Chest,Cottage,1,/remastered/lm14.ard/UK_lm14_ard19.evdl,N,3,5671,2652571,Atlantica Ariel's Grotto Middle Chest
+Atlantica,Ariel's Grotto,Chest,Cottage,1,/remastered/lm14.ard/UK_lm14_ardc.evdl,N,1,55E5,2652571,Atlantica Ariel's Grotto Middle Chest
+Atlantica,Ariel's Grotto,Chest,Cottage,1,/remastered/lm14.ard/UK_lm14_ardc.evdl,N,2,5629,2652571,Atlantica Ariel's Grotto Middle Chest
+Atlantica,Ariel's Grotto,Chest,Cottage,1,/remastered/lm14.ard/UK_lm14_ardc.evdl,N,3,563D,2652571,Atlantica Ariel's Grotto Middle Chest
+Atlantica,Ariel's Grotto,Chest,Torn Page 1,1,/remastered/lm14.ard/UK_lm14_ard0.evdl,N,1,6819,2652534,Atlantica Ariel's Grotto High Chest
+Atlantica,Ariel's Grotto,Chest,Torn Page 1,1,/remastered/lm14.ard/UK_lm14_ard0.evdl,N,2,685D,2652534,Atlantica Ariel's Grotto High Chest
+Atlantica,Ariel's Grotto,Chest,Torn Page 1,1,/remastered/lm14.ard/UK_lm14_ard0.evdl,N,3,6871,2652534,Atlantica Ariel's Grotto High Chest
+Atlantica,Ariel's Grotto,Chest,Torn Page 1,1,/remastered/lm14.ard/UK_lm14_ard2.evdl,N,1,84C5,2652534,Atlantica Ariel's Grotto High Chest
+Atlantica,Ariel's Grotto,Chest,Torn Page 1,1,/remastered/lm14.ard/UK_lm14_ard2.evdl,N,2,8509,2652534,Atlantica Ariel's Grotto High Chest
+Atlantica,Ariel's Grotto,Chest,Torn Page 1,1,/remastered/lm14.ard/UK_lm14_ard2.evdl,N,3,851D,2652534,Atlantica Ariel's Grotto High Chest
+Atlantica,Ariel's Grotto,Chest,Torn Page 1,1,/remastered/lm14.ard/UK_lm14_ard3.evdl,N,1,78A9,2652534,Atlantica Ariel's Grotto High Chest
+Atlantica,Ariel's Grotto,Chest,Torn Page 1,1,/remastered/lm14.ard/UK_lm14_ard3.evdl,N,2,78ED,2652534,Atlantica Ariel's Grotto High Chest
+Atlantica,Ariel's Grotto,Chest,Torn Page 1,1,/remastered/lm14.ard/UK_lm14_ard3.evdl,N,3,7901,2652534,Atlantica Ariel's Grotto High Chest
+Atlantica,Ariel's Grotto,Chest,Torn Page 1,1,/remastered/lm14.ard/UK_lm14_ard11.evdl,N,1,5215,2652534,Atlantica Ariel's Grotto High Chest
+Atlantica,Ariel's Grotto,Chest,Torn Page 1,1,/remastered/lm14.ard/UK_lm14_ard11.evdl,N,2,5259,2652534,Atlantica Ariel's Grotto High Chest
+Atlantica,Ariel's Grotto,Chest,Torn Page 1,1,/remastered/lm14.ard/UK_lm14_ard11.evdl,N,3,526D,2652534,Atlantica Ariel's Grotto High Chest
+Atlantica,Ariel's Grotto,Chest,Torn Page 1,1,/remastered/lm14.ard/UK_lm14_ard19.evdl,N,1,4D25,2652534,Atlantica Ariel's Grotto High Chest
+Atlantica,Ariel's Grotto,Chest,Torn Page 1,1,/remastered/lm14.ard/UK_lm14_ard19.evdl,N,2,4D69,2652534,Atlantica Ariel's Grotto High Chest
+Atlantica,Ariel's Grotto,Chest,Torn Page 1,1,/remastered/lm14.ard/UK_lm14_ard19.evdl,N,3,4D7D,2652534,Atlantica Ariel's Grotto High Chest
+Atlantica,Ariel's Grotto,Chest,Torn Page 1,1,/remastered/lm14.ard/UK_lm14_ardc.evdl,N,1,4CF1,2652534,Atlantica Ariel's Grotto High Chest
+Atlantica,Ariel's Grotto,Chest,Torn Page 1,1,/remastered/lm14.ard/UK_lm14_ardc.evdl,N,2,4D35,2652534,Atlantica Ariel's Grotto High Chest
+Atlantica,Ariel's Grotto,Chest,Torn Page 1,1,/remastered/lm14.ard/UK_lm14_ardc.evdl,N,3,4D49,2652534,Atlantica Ariel's Grotto High Chest
+Atlantica,Sunken Ship,Chest,Mythril Shard,1,/remastered/lm07.ard/UK_lm07_ard0.evdl,N,1,64E1,2652533,Atlantica Sunken Ship Inside Ship Chest
+Atlantica,Sunken Ship,Chest,Mythril Shard,1,/remastered/lm07.ard/UK_lm07_ard0.evdl,N,2,6525,2652532,Atlantica Sunken Ship Seabed Chest
+Atlantica,Sunken Ship,Chest,Mythril Shard,1,/remastered/lm07.ard/UK_lm07_ard0.evdl,N,3,6539,2652532,Atlantica Sunken Ship Seabed Chest
+Atlantica,Sunken Ship,Chest,Mythril Shard,1,/remastered/lm07.ard/UK_lm07_ard2.evdl,N,1,6439,2652532,Atlantica Sunken Ship Seabed Chest
+Atlantica,Sunken Ship,Chest,Mythril Shard,1,/remastered/lm07.ard/UK_lm07_ard2.evdl,N,2,647D,2652532,Atlantica Sunken Ship Seabed Chest
+Atlantica,Sunken Ship,Chest,Mythril Shard,1,/remastered/lm07.ard/UK_lm07_ard2.evdl,N,3,6491,2652532,Atlantica Sunken Ship Seabed Chest
+Atlantica,Sunken Ship,Chest,Mythril Shard,1,/remastered/lm07.ard/UK_lm07_ard11.evdl,N,1,55D9,2652532,Atlantica Sunken Ship Seabed Chest
+Atlantica,Sunken Ship,Chest,Mythril Shard,1,/remastered/lm07.ard/UK_lm07_ard11.evdl,N,2,561D,2652532,Atlantica Sunken Ship Seabed Chest
+Atlantica,Sunken Ship,Chest,Mythril Shard,1,/remastered/lm07.ard/UK_lm07_ard11.evdl,N,3,5631,2652532,Atlantica Sunken Ship Seabed Chest
+Atlantica,Sunken Ship,Chest,Mythril Shard,1,/remastered/lm07.ard/UK_lm07_ard17.evdl,N,1,55D9,2652532,Atlantica Sunken Ship Seabed Chest
+Atlantica,Sunken Ship,Chest,Mythril Shard,1,/remastered/lm07.ard/UK_lm07_ard17.evdl,N,2,561D,2652532,Atlantica Sunken Ship Seabed Chest
+Atlantica,Sunken Ship,Chest,Mythril Shard,1,/remastered/lm07.ard/UK_lm07_ard17.evdl,N,3,5631,2652532,Atlantica Sunken Ship Seabed Chest
+Atlantica,Sunken Ship,Chest,Mythril Shard,1,/remastered/lm07.ard/UK_lm07_ard19.evdl,N,1,56B9,2652532,Atlantica Sunken Ship Seabed Chest
+Atlantica,Sunken Ship,Chest,Mythril Shard,1,/remastered/lm07.ard/UK_lm07_ard19.evdl,N,2,56FD,2652532,Atlantica Sunken Ship Seabed Chest
+Atlantica,Sunken Ship,Chest,Mythril Shard,1,/remastered/lm07.ard/UK_lm07_ard19.evdl,N,3,5711,2652532,Atlantica Sunken Ship Seabed Chest
+Atlantica,Sunken Ship,Chest,Mythril Shard,1,/remastered/lm07.ard/UK_lm07_ardc.evdl,N,1,560D,2652532,Atlantica Sunken Ship Seabed Chest
+Atlantica,Sunken Ship,Chest,Mythril Shard,1,/remastered/lm07.ard/UK_lm07_ardc.evdl,N,2,5651,2652532,Atlantica Sunken Ship Seabed Chest
+Atlantica,Sunken Ship,Chest,Mythril Shard,1,/remastered/lm07.ard/UK_lm07_ardc.evdl,N,3,5665,2652532,Atlantica Sunken Ship Seabed Chest
+Atlantica,Sunken Ship,Chest,Mythril Shard,1,/remastered/lm07.ard/UK_lm07_arde.evdl,N,1,5A1D,2652532,Atlantica Sunken Ship Seabed Chest
+Atlantica,Sunken Ship,Chest,Mythril Shard,1,/remastered/lm07.ard/UK_lm07_arde.evdl,N,2,5A61,2652532,Atlantica Sunken Ship Seabed Chest
+Atlantica,Sunken Ship,Chest,Mythril Shard,1,/remastered/lm07.ard/UK_lm07_arde.evdl,N,3,5A75,2652532,Atlantica Sunken Ship Seabed Chest
+Atlantica,Sunken Ship,Chest,Mythril Shard,1,/remastered/lm07.ard/UK_lm07_ardf.evdl,N,1,55D9,2652532,Atlantica Sunken Ship Seabed Chest
+Atlantica,Sunken Ship,Chest,Mythril Shard,1,/remastered/lm07.ard/UK_lm07_ardf.evdl,N,2,561D,2652532,Atlantica Sunken Ship Seabed Chest
+Atlantica,Sunken Ship,Chest,Mythril Shard,1,/remastered/lm07.ard/UK_lm07_ardf.evdl,N,3,5631,2652532,Atlantica Sunken Ship Seabed Chest
+Atlantica,Sunken Ship,Chest,Elixir,1,/remastered/lm07.ard/UK_lm07_ard0.evdl,N,1,5BED,2652531,Atlantica Sunken Ship In Flipped Boat Chest
+Atlantica,Sunken Ship,Chest,Elixir,1,/remastered/lm07.ard/UK_lm07_ard0.evdl,N,2,5C31,2652531,Atlantica Sunken Ship In Flipped Boat Chest
+Atlantica,Sunken Ship,Chest,Elixir,1,/remastered/lm07.ard/UK_lm07_ard0.evdl,N,3,5C45,2652531,Atlantica Sunken Ship In Flipped Boat Chest
+Atlantica,Sunken Ship,Chest,Elixir,1,/remastered/lm07.ard/UK_lm07_ard2.evdl,N,1,5B45,2652531,Atlantica Sunken Ship In Flipped Boat Chest
+Atlantica,Sunken Ship,Chest,Elixir,1,/remastered/lm07.ard/UK_lm07_ard2.evdl,N,2,5B89,2652531,Atlantica Sunken Ship In Flipped Boat Chest
+Atlantica,Sunken Ship,Chest,Elixir,1,/remastered/lm07.ard/UK_lm07_ard2.evdl,N,3,5B9D,2652531,Atlantica Sunken Ship In Flipped Boat Chest
+Atlantica,Sunken Ship,Chest,Elixir,1,/remastered/lm07.ard/UK_lm07_ard11.evdl,N,1,4CE5,2652531,Atlantica Sunken Ship In Flipped Boat Chest
+Atlantica,Sunken Ship,Chest,Elixir,1,/remastered/lm07.ard/UK_lm07_ard11.evdl,N,2,4D29,2652531,Atlantica Sunken Ship In Flipped Boat Chest
+Atlantica,Sunken Ship,Chest,Elixir,1,/remastered/lm07.ard/UK_lm07_ard11.evdl,N,3,4D3D,2652531,Atlantica Sunken Ship In Flipped Boat Chest
+Atlantica,Sunken Ship,Chest,Elixir,1,/remastered/lm07.ard/UK_lm07_ard17.evdl,N,1,4CE5,2652531,Atlantica Sunken Ship In Flipped Boat Chest
+Atlantica,Sunken Ship,Chest,Elixir,1,/remastered/lm07.ard/UK_lm07_ard17.evdl,N,2,4D29,2652531,Atlantica Sunken Ship In Flipped Boat Chest
+Atlantica,Sunken Ship,Chest,Elixir,1,/remastered/lm07.ard/UK_lm07_ard17.evdl,N,3,4D3D,2652531,Atlantica Sunken Ship In Flipped Boat Chest
+Atlantica,Sunken Ship,Chest,Elixir,1,/remastered/lm07.ard/UK_lm07_ard19.evdl,N,1,4DC5,2652531,Atlantica Sunken Ship In Flipped Boat Chest
+Atlantica,Sunken Ship,Chest,Elixir,1,/remastered/lm07.ard/UK_lm07_ard19.evdl,N,2,4E09,2652531,Atlantica Sunken Ship In Flipped Boat Chest
+Atlantica,Sunken Ship,Chest,Elixir,1,/remastered/lm07.ard/UK_lm07_ard19.evdl,N,3,4E1D,2652531,Atlantica Sunken Ship In Flipped Boat Chest
+Atlantica,Sunken Ship,Chest,Elixir,1,/remastered/lm07.ard/UK_lm07_ardc.evdl,N,1,4D19,2652531,Atlantica Sunken Ship In Flipped Boat Chest
+Atlantica,Sunken Ship,Chest,Elixir,1,/remastered/lm07.ard/UK_lm07_ardc.evdl,N,2,4D5D,2652531,Atlantica Sunken Ship In Flipped Boat Chest
+Atlantica,Sunken Ship,Chest,Elixir,1,/remastered/lm07.ard/UK_lm07_ardc.evdl,N,3,4D71,2652531,Atlantica Sunken Ship In Flipped Boat Chest
+Atlantica,Sunken Ship,Chest,Elixir,1,/remastered/lm07.ard/UK_lm07_arde.evdl,N,1,5129,2652531,Atlantica Sunken Ship In Flipped Boat Chest
+Atlantica,Sunken Ship,Chest,Elixir,1,/remastered/lm07.ard/UK_lm07_arde.evdl,N,2,516D,2652531,Atlantica Sunken Ship In Flipped Boat Chest
+Atlantica,Sunken Ship,Chest,Elixir,1,/remastered/lm07.ard/UK_lm07_arde.evdl,N,3,5181,2652531,Atlantica Sunken Ship In Flipped Boat Chest
+Atlantica,Sunken Ship,Chest,Elixir,1,/remastered/lm07.ard/UK_lm07_ardf.evdl,N,1,4CE5,2652531,Atlantica Sunken Ship In Flipped Boat Chest
+Atlantica,Sunken Ship,Chest,Elixir,1,/remastered/lm07.ard/UK_lm07_ardf.evdl,N,2,4D29,2652531,Atlantica Sunken Ship In Flipped Boat Chest
+Atlantica,Sunken Ship,Chest,Elixir,1,/remastered/lm07.ard/UK_lm07_ardf.evdl,N,3,4D3D,2652531,Atlantica Sunken Ship In Flipped Boat Chest
+Atlantica,Below Deck,Chest,Crystal Trident,1,/remastered/lm08.ard/UK_lm08_ard0.evdl,N,1,553D,2656381,Atlantica Sunken Ship Crystal Trident Event
+Atlantica,Below Deck,Chest,Crystal Trident,1,/remastered/lm08.ard/UK_lm08_ard0.evdl,N,2,5549,2656381,Atlantica Sunken Ship Crystal Trident Event
+Atlantica,Below Deck,Chest,Crystal Trident,1,/remastered/lm08.ard/UK_lm08_ard0.evdl,N,3,5555,2656381,Atlantica Sunken Ship Crystal Trident Event
+Atlantica,Below Deck,Chest,Mythril Shard,1,/remastered/lm08.ard/UK_lm08_ard0.evdl,N,1,6A05,2652533,Atlantica Sunken Ship Inside Ship Chest
+Atlantica,Below Deck,Chest,Mythril Shard,1,/remastered/lm08.ard/UK_lm08_ard0.evdl,N,2,6A49,2652533,Atlantica Sunken Ship Inside Ship Chest
+Atlantica,Below Deck,Chest,Mythril Shard,1,/remastered/lm08.ard/UK_lm08_ard0.evdl,N,3,6A5D,2652533,Atlantica Sunken Ship Inside Ship Chest
+Atlantica,Below Deck,Chest,Mythril Shard,1,/remastered/lm08.ard/UK_lm08_ard11.evdl,N,1,59DD,2652533,Atlantica Sunken Ship Inside Ship Chest
+Atlantica,Below Deck,Chest,Mythril Shard,1,/remastered/lm08.ard/UK_lm08_ard11.evdl,N,2,5A21,2652533,Atlantica Sunken Ship Inside Ship Chest
+Atlantica,Below Deck,Chest,Mythril Shard,1,/remastered/lm08.ard/UK_lm08_ard11.evdl,N,3,5A35,2652533,Atlantica Sunken Ship Inside Ship Chest
+Atlantica,Below Deck,Chest,Mythril Shard,1,/remastered/lm08.ard/UK_lm08_ard13.evdl,N,1,59DD,2652533,Atlantica Sunken Ship Inside Ship Chest
+Atlantica,Below Deck,Chest,Mythril Shard,1,/remastered/lm08.ard/UK_lm08_ard13.evdl,N,2,5A21,2652533,Atlantica Sunken Ship Inside Ship Chest
+Atlantica,Below Deck,Chest,Mythril Shard,1,/remastered/lm08.ard/UK_lm08_ard13.evdl,N,3,5A35,2652533,Atlantica Sunken Ship Inside Ship Chest
+Atlantica,Below Deck,Chest,Mythril Shard,1,/remastered/lm08.ard/UK_lm08_ard17.evdl,N,1,59DD,2652533,Atlantica Sunken Ship Inside Ship Chest
+Atlantica,Below Deck,Chest,Mythril Shard,1,/remastered/lm08.ard/UK_lm08_ard17.evdl,N,2,5A21,2652533,Atlantica Sunken Ship Inside Ship Chest
+Atlantica,Below Deck,Chest,Mythril Shard,1,/remastered/lm08.ard/UK_lm08_ard17.evdl,N,3,5A35,2652533,Atlantica Sunken Ship Inside Ship Chest
+Atlantica,Below Deck,Chest,Mythril Shard,1,/remastered/lm08.ard/UK_lm08_ard19.evdl,N,1,5A99,2652533,Atlantica Sunken Ship Inside Ship Chest
+Atlantica,Below Deck,Chest,Mythril Shard,1,/remastered/lm08.ard/UK_lm08_ard19.evdl,N,2,5ADD,2652533,Atlantica Sunken Ship Inside Ship Chest
+Atlantica,Below Deck,Chest,Mythril Shard,1,/remastered/lm08.ard/UK_lm08_ard19.evdl,N,3,5AF1,2652533,Atlantica Sunken Ship Inside Ship Chest
+Atlantica,Below Deck,Chest,Mythril Shard,1,/remastered/lm08.ard/UK_lm08_ardc.evdl,N,1,5A65,2652533,Atlantica Sunken Ship Inside Ship Chest
+Atlantica,Below Deck,Chest,Mythril Shard,1,/remastered/lm08.ard/UK_lm08_ardc.evdl,N,2,5AA9,2652533,Atlantica Sunken Ship Inside Ship Chest
+Atlantica,Below Deck,Chest,Mythril Shard,1,/remastered/lm08.ard/UK_lm08_ardc.evdl,N,3,5ABD,2652533,Atlantica Sunken Ship Inside Ship Chest
+Atlantica,Below Deck,Chest,Mythril Shard,1,/remastered/lm08.ard/UK_lm08_arde.evdl,N,1,59DD,2652533,Atlantica Sunken Ship Inside Ship Chest
+Atlantica,Below Deck,Chest,Mythril Shard,1,/remastered/lm08.ard/UK_lm08_arde.evdl,N,2,5A21,2652533,Atlantica Sunken Ship Inside Ship Chest
+Atlantica,Below Deck,Chest,Mythril Shard,1,/remastered/lm08.ard/UK_lm08_arde.evdl,N,3,5A35,2652533,Atlantica Sunken Ship Inside Ship Chest
+Atlantica,Below Deck,Chest,Mythril Shard,1,/remastered/lm08.ard/UK_lm08_ardf.evdl,N,1,59DD,2652533,Atlantica Sunken Ship Inside Ship Chest
+Atlantica,Below Deck,Chest,Mythril Shard,1,/remastered/lm08.ard/UK_lm08_ardf.evdl,N,2,5A21,2652533,Atlantica Sunken Ship Inside Ship Chest
+Atlantica,Below Deck,Chest,Mythril Shard,1,/remastered/lm08.ard/UK_lm08_ardf.evdl,N,3,5A35,2652533,Atlantica Sunken Ship Inside Ship Chest
+Atlantica,Below Deck,Clam,Mythril,1,/remastered/lm08.ard/UK_lm08_ard0.evdl,N,1,60A9,2656214,Atlantica Below Deck Clam
+Atlantica,Below Deck,Clam,Mythril,1,/remastered/lm08.ard/UK_lm08_ard0.evdl,N,2,60B1,2656214,Atlantica Below Deck Clam
+Atlantica,Below Deck,Clam,Mythril,1,/remastered/lm08.ard/UK_lm08_ard11.evdl,N,1,5081,2656214,Atlantica Below Deck Clam
+Atlantica,Below Deck,Clam,Mythril,1,/remastered/lm08.ard/UK_lm08_ard11.evdl,N,2,5089,2656214,Atlantica Below Deck Clam
+Atlantica,Below Deck,Clam,Mythril,1,/remastered/lm08.ard/UK_lm08_ard13.evdl,N,1,5081,2656214,Atlantica Below Deck Clam
+Atlantica,Below Deck,Clam,Mythril,1,/remastered/lm08.ard/UK_lm08_ard13.evdl,N,2,5089,2656214,Atlantica Below Deck Clam
+Atlantica,Below Deck,Clam,Mythril,1,/remastered/lm08.ard/UK_lm08_ard17.evdl,N,1,5081,2656214,Atlantica Below Deck Clam
+Atlantica,Below Deck,Clam,Mythril,1,/remastered/lm08.ard/UK_lm08_ard17.evdl,N,2,5089,2656214,Atlantica Below Deck Clam
+Atlantica,Below Deck,Clam,Mythril,1,/remastered/lm08.ard/UK_lm08_ard19.evdl,N,1,513D,2656214,Atlantica Below Deck Clam
+Atlantica,Below Deck,Clam,Mythril,1,/remastered/lm08.ard/UK_lm08_ard19.evdl,N,2,5145,2656214,Atlantica Below Deck Clam
+Atlantica,Below Deck,Clam,Mythril,1,/remastered/lm08.ard/UK_lm08_ardc.evdl,N,1,5109,2656214,Atlantica Below Deck Clam
+Atlantica,Below Deck,Clam,Mythril,1,/remastered/lm08.ard/UK_lm08_ardc.evdl,N,2,5111,2656214,Atlantica Below Deck Clam
+Atlantica,Below Deck,Clam,Mythril,1,/remastered/lm08.ard/UK_lm08_arde.evdl,N,1,5081,2656214,Atlantica Below Deck Clam
+Atlantica,Below Deck,Clam,Mythril,1,/remastered/lm08.ard/UK_lm08_arde.evdl,N,2,5089,2656214,Atlantica Below Deck Clam
+Atlantica,Below Deck,Clam,Mythril,1,/remastered/lm08.ard/UK_lm08_ardf.evdl,N,1,5081,2656214,Atlantica Below Deck Clam
+Atlantica,Below Deck,Clam,Mythril,1,/remastered/lm08.ard/UK_lm08_ardf.evdl,N,2,5089,2656214,Atlantica Below Deck Clam
+Atlantica,Cavern Nook,Clam,Mega-Ether,1,/remastered/lm11.ard/UK_lm11_ard19.evdl,N,1,569D,2656213,Atlantica Cavern Nook Clam
+Atlantica,Cavern Nook,Clam,Mega-Ether,1,/remastered/lm11.ard/UK_lm11_ard19.evdl,N,2,56A5,2656213,Atlantica Cavern Nook Clam
+Atlantica,Cavern Nook,Clam,Mega-Ether,1,/remastered/lm11.ard/UK_lm11_ardc.evdl,N,1,5669,2656213,Atlantica Cavern Nook Clam
+Atlantica,Cavern Nook,Clam,Mega-Ether,1,/remastered/lm11.ard/UK_lm11_ardc.evdl,N,2,5671,2656213,Atlantica Cavern Nook Clam
+Atlantica,Cavern Nook,Clam,Mega-Ether,1,/remastered/lm11.ard/UK_lm11_ardf.evdl,N,1,55D1,2656213,Atlantica Cavern Nook Clam
+Atlantica,Cavern Nook,Clam,Mega-Ether,1,/remastered/lm11.ard/UK_lm11_ardf.evdl,N,2,55D9,2656213,Atlantica Cavern Nook Clam
+Atlantica,Ursula's Lair,Urchin Chest,Mythril,1,/remastered/lm13.ard/UK_lm13_ard0.evdl,N,1,6331,2652573,Atlantica Ursula's Lair Use Fire on Urchin Chest
+Atlantica,Ursula's Lair,Urchin Chest,Mythril,1,/remastered/lm13.ard/UK_lm13_ard0.evdl,N,2,6375,2652573,Atlantica Ursula's Lair Use Fire on Urchin Chest
+Atlantica,Ursula's Lair,Urchin Chest,Mythril,1,/remastered/lm13.ard/UK_lm13_ard0.evdl,N,3,6389,2652573,Atlantica Ursula's Lair Use Fire on Urchin Chest
+Atlantica,Ursula's Lair,Urchin Chest,Mythril,1,/remastered/lm13.ard/UK_lm13_ard2.evdl,N,1,8F85,2652573,Atlantica Ursula's Lair Use Fire on Urchin Chest
+Atlantica,Ursula's Lair,Urchin Chest,Mythril,1,/remastered/lm13.ard/UK_lm13_ard2.evdl,N,2,8FC9,2652573,Atlantica Ursula's Lair Use Fire on Urchin Chest
+Atlantica,Ursula's Lair,Urchin Chest,Mythril,1,/remastered/lm13.ard/UK_lm13_ard2.evdl,N,3,8FDD,2652573,Atlantica Ursula's Lair Use Fire on Urchin Chest
+Atlantica,Ursula's Lair,Urchin Chest,Mythril,1,/remastered/lm13.ard/UK_lm13_ard3.evdl,N,1,5291,2652573,Atlantica Ursula's Lair Use Fire on Urchin Chest
+Atlantica,Ursula's Lair,Urchin Chest,Mythril,1,/remastered/lm13.ard/UK_lm13_ard3.evdl,N,2,52D5,2652573,Atlantica Ursula's Lair Use Fire on Urchin Chest
+Atlantica,Ursula's Lair,Urchin Chest,Mythril,1,/remastered/lm13.ard/UK_lm13_ard3.evdl,N,3,52E9,2652573,Atlantica Ursula's Lair Use Fire on Urchin Chest
+Atlantica,Ursula's Lair,Urchin Chest,Mythril,1,/remastered/lm13.ard/UK_lm13_ard17.evdl,N,1,514D,2652573,Atlantica Ursula's Lair Use Fire on Urchin Chest
+Atlantica,Ursula's Lair,Urchin Chest,Mythril,1,/remastered/lm13.ard/UK_lm13_ard17.evdl,N,2,5191,2652573,Atlantica Ursula's Lair Use Fire on Urchin Chest
+Atlantica,Ursula's Lair,Urchin Chest,Mythril,1,/remastered/lm13.ard/UK_lm13_ard17.evdl,N,3,51A5,2652573,Atlantica Ursula's Lair Use Fire on Urchin Chest
+Atlantica,Ursula's Lair,Urchin Chest,Mythril,1,/remastered/lm13.ard/UK_lm13_ard19.evdl,N,1,51C1,2652573,Atlantica Ursula's Lair Use Fire on Urchin Chest
+Atlantica,Ursula's Lair,Urchin Chest,Mythril,1,/remastered/lm13.ard/UK_lm13_ard19.evdl,N,2,5205,2652573,Atlantica Ursula's Lair Use Fire on Urchin Chest
+Atlantica,Ursula's Lair,Urchin Chest,Mythril,1,/remastered/lm13.ard/UK_lm13_ard19.evdl,N,3,5219,2652573,Atlantica Ursula's Lair Use Fire on Urchin Chest
+Atlantica,Ursula's Lair,Urchin Chest,Mythril,1,/remastered/lm13.ard/UK_lm13_ardc.evdl,N,1,5195,2652573,Atlantica Ursula's Lair Use Fire on Urchin Chest
+Atlantica,Ursula's Lair,Urchin Chest,Mythril,1,/remastered/lm13.ard/UK_lm13_ardc.evdl,N,2,51D9,2652573,Atlantica Ursula's Lair Use Fire on Urchin Chest
+Atlantica,Ursula's Lair,Urchin Chest,Mythril,1,/remastered/lm13.ard/UK_lm13_ardc.evdl,N,3,51ED,2652573,Atlantica Ursula's Lair Use Fire on Urchin Chest
+Atlantica,Triton's Throne,Defeat Ursula 2,Thunder,1,/remastered/lm16.ard/UK_lm16e.ev,Y,1,5BE5,2656072,Atlantica Defeat Ursula II Thunder Event
+Atlantica,Triton's Throne,Defeat Ursula 2,Thunder,1,/remastered/lm16.ard/UK_lm16e.ev,Y,2,5BF1,2656072,Atlantica Defeat Ursula II Thunder Event
+Atlantica,Triton's Throne,Defeat Ursula 2,Thunder,1,/remastered/lm16.ard/UK_lm16e.ev,Y,3,5BFD,2656072,Atlantica Defeat Ursula II Thunder Event
+Atlantica,Triton's Throne,Defeat Ursula 2,Ansem's Report 3,1,/remastered/lm16.ard/UK_lm16e.ev,Y,1,5E39,2656072,Atlantica Defeat Ursula II Thunder Event
+Atlantica,Triton's Throne,Defeat Ursula 2,Ansem's Report 3,1,/remastered/lm16.ard/UK_lm16e.ev,Y,2,5E45,2656072,Atlantica Defeat Ursula II Thunder Event
+Atlantica,Triton's Throne,Defeat Ursula 2,Ansem's Report 3,1,/remastered/lm16.ard/UK_lm16e.ev,Y,3,5E51,2656072,Atlantica Defeat Ursula II Thunder Event
+Hollow Bastion,Entrance Hall,Defeat Riku 1,White Trinity,1,/remastered/pc05.ard/UK_pc05_ard0.evdl,Y,1,B19D,2656101,Hollow Bastion Defeat Riku I White Trinity Event
+Hollow Bastion,Entrance Hall,Defeat Riku 1,White Trinity,1,/remastered/pc05.ard/UK_pc05_ard0.evdl,Y,2,B1A9,2656101,Hollow Bastion Defeat Riku I White Trinity Event
+Hollow Bastion,Entrance Hall,Defeat Riku 1,White Trinity,1,/remastered/pc05.ard/UK_pc05_ard0.evdl,Y,3,B1B5,2656101,Hollow Bastion Defeat Riku I White Trinity Event
+Hollow Bastion,Library,Carousel Chest,Elixir,1,/remastered/pc06.ard/UK_pc06_ard0.evdl,N,1,12211,2654214,Hollow Bastion Library 1st Floor Turn the Carousel Chest
+Hollow Bastion,Library,Carousel Chest,Elixir,1,/remastered/pc06.ard/UK_pc06_ard0.evdl,N,2,12255,2654214,Hollow Bastion Library 1st Floor Turn the Carousel Chest
+Hollow Bastion,Library,Carousel Chest,Elixir,1,/remastered/pc06.ard/UK_pc06_ard0.evdl,N,3,12269,2654214,Hollow Bastion Library 1st Floor Turn the Carousel Chest
+Hollow Bastion,Library,Carousel Chest,Elixir,1,/remastered/pc06.ard/UK_pc06_ard2.evdl,N,1,EC5D,2654214,Hollow Bastion Library 1st Floor Turn the Carousel Chest
+Hollow Bastion,Library,Carousel Chest,Elixir,1,/remastered/pc06.ard/UK_pc06_ard2.evdl,N,2,ECA1,2654214,Hollow Bastion Library 1st Floor Turn the Carousel Chest
+Hollow Bastion,Library,Carousel Chest,Elixir,1,/remastered/pc06.ard/UK_pc06_ard2.evdl,N,3,ECB5,2654214,Hollow Bastion Library 1st Floor Turn the Carousel Chest
+Hollow Bastion,Library,Carousel Chest,Elixir,1,/remastered/pc06.ard/UK_pc06_ard3.evdl,Y,1,14CE5,2654214,Hollow Bastion Library 1st Floor Turn the Carousel Chest
+Hollow Bastion,Library,Carousel Chest,Elixir,1,/remastered/pc06.ard/UK_pc06_ard3.evdl,Y,2,14D29,2654214,Hollow Bastion Library 1st Floor Turn the Carousel Chest
+Hollow Bastion,Library,Carousel Chest,Elixir,1,/remastered/pc06.ard/UK_pc06_ard3.evdl,Y,3,14D3D,2654214,Hollow Bastion Library 1st Floor Turn the Carousel Chest
+Hollow Bastion,Library,Carousel Chest,Elixir,1,/remastered/pc06.ard/UK_pc06_ard19.evdl,N,1,A905,2654214,Hollow Bastion Library 1st Floor Turn the Carousel Chest
+Hollow Bastion,Library,Carousel Chest,Elixir,1,/remastered/pc06.ard/UK_pc06_ard19.evdl,N,2,A949,2654214,Hollow Bastion Library 1st Floor Turn the Carousel Chest
+Hollow Bastion,Library,Carousel Chest,Elixir,1,/remastered/pc06.ard/UK_pc06_ard19.evdl,N,3,A95D,2654214,Hollow Bastion Library 1st Floor Turn the Carousel Chest
+Hollow Bastion,Library,Carousel Chest,Elixir,1,/remastered/pc06.ard/UK_pc06_arda.evdl,N,1,EC89,2654214,Hollow Bastion Library 1st Floor Turn the Carousel Chest
+Hollow Bastion,Library,Carousel Chest,Elixir,1,/remastered/pc06.ard/UK_pc06_arda.evdl,N,2,ECCD,2654214,Hollow Bastion Library 1st Floor Turn the Carousel Chest
+Hollow Bastion,Library,Carousel Chest,Elixir,1,/remastered/pc06.ard/UK_pc06_arda.evdl,N,3,ECE1,2654214,Hollow Bastion Library 1st Floor Turn the Carousel Chest
+Hollow Bastion,Library,Carousel Chest,Elixir,1,/remastered/pc06.ard/UK_pc06_ardc.evdl,N,1,AA29,2654214,Hollow Bastion Library 1st Floor Turn the Carousel Chest
+Hollow Bastion,Library,Carousel Chest,Elixir,1,/remastered/pc06.ard/UK_pc06_ardc.evdl,N,2,AA6D,2654214,Hollow Bastion Library 1st Floor Turn the Carousel Chest
+Hollow Bastion,Library,Carousel Chest,Elixir,1,/remastered/pc06.ard/UK_pc06_ardc.evdl,N,3,AA81,2654214,Hollow Bastion Library 1st Floor Turn the Carousel Chest
+Hollow Bastion,Library,Carousel Chest,AP Up,1,/remastered/pc06.ard/UK_pc06_ard0.evdl,N,1,1291D,2654251,Hollow Bastion Library Top of Bookshelf Turn the Carousel Chest
+Hollow Bastion,Library,Carousel Chest,AP Up,1,/remastered/pc06.ard/UK_pc06_ard0.evdl,N,2,12961,2654251,Hollow Bastion Library Top of Bookshelf Turn the Carousel Chest
+Hollow Bastion,Library,Carousel Chest,AP Up,1,/remastered/pc06.ard/UK_pc06_ard0.evdl,N,3,12975,2654251,Hollow Bastion Library Top of Bookshelf Turn the Carousel Chest
+Hollow Bastion,Library,Carousel Chest,AP Up,1,/remastered/pc06.ard/UK_pc06_ard2.evdl,N,1,F369,2654251,Hollow Bastion Library Top of Bookshelf Turn the Carousel Chest
+Hollow Bastion,Library,Carousel Chest,AP Up,1,/remastered/pc06.ard/UK_pc06_ard2.evdl,N,2,F3AD,2654251,Hollow Bastion Library Top of Bookshelf Turn the Carousel Chest
+Hollow Bastion,Library,Carousel Chest,AP Up,1,/remastered/pc06.ard/UK_pc06_ard2.evdl,N,3,F3C1,2654251,Hollow Bastion Library Top of Bookshelf Turn the Carousel Chest
+Hollow Bastion,Library,Carousel Chest,AP Up,1,/remastered/pc06.ard/UK_pc06_ard3.evdl,Y,1,153F1,2654251,Hollow Bastion Library Top of Bookshelf Turn the Carousel Chest
+Hollow Bastion,Library,Carousel Chest,AP Up,1,/remastered/pc06.ard/UK_pc06_ard3.evdl,Y,2,15435,2654251,Hollow Bastion Library Top of Bookshelf Turn the Carousel Chest
+Hollow Bastion,Library,Carousel Chest,AP Up,1,/remastered/pc06.ard/UK_pc06_ard3.evdl,Y,3,15449,2654251,Hollow Bastion Library Top of Bookshelf Turn the Carousel Chest
+Hollow Bastion,Library,Carousel Chest,AP Up,1,/remastered/pc06.ard/UK_pc06_ard19.evdl,N,1,B011,2654251,Hollow Bastion Library Top of Bookshelf Turn the Carousel Chest
+Hollow Bastion,Library,Carousel Chest,AP Up,1,/remastered/pc06.ard/UK_pc06_ard19.evdl,N,2,B055,2654251,Hollow Bastion Library Top of Bookshelf Turn the Carousel Chest
+Hollow Bastion,Library,Carousel Chest,AP Up,1,/remastered/pc06.ard/UK_pc06_ard19.evdl,N,3,B069,2654251,Hollow Bastion Library Top of Bookshelf Turn the Carousel Chest
+Hollow Bastion,Library,Carousel Chest,AP Up,1,/remastered/pc06.ard/UK_pc06_arda.evdl,N,1,F395,2654251,Hollow Bastion Library Top of Bookshelf Turn the Carousel Chest
+Hollow Bastion,Library,Carousel Chest,AP Up,1,/remastered/pc06.ard/UK_pc06_arda.evdl,N,2,F3D9,2654251,Hollow Bastion Library Top of Bookshelf Turn the Carousel Chest
+Hollow Bastion,Library,Carousel Chest,AP Up,1,/remastered/pc06.ard/UK_pc06_arda.evdl,N,3,F3ED,2654251,Hollow Bastion Library Top of Bookshelf Turn the Carousel Chest
+Hollow Bastion,Library,Carousel Chest,AP Up,1,/remastered/pc06.ard/UK_pc06_ardc.evdl,N,1,B135,2654251,Hollow Bastion Library Top of Bookshelf Turn the Carousel Chest
+Hollow Bastion,Library,Carousel Chest,AP Up,1,/remastered/pc06.ard/UK_pc06_ardc.evdl,N,2,B179,2654251,Hollow Bastion Library Top of Bookshelf Turn the Carousel Chest
+Hollow Bastion,Library,Carousel Chest,AP Up,1,/remastered/pc06.ard/UK_pc06_ardc.evdl,N,3,B18D,2654251,Hollow Bastion Library Top of Bookshelf Turn the Carousel Chest
+Hollow Bastion,Library,Carousel Chest,Mega-Potion,1,/remastered/pc06.ard/UK_pc06_ard0.evdl,N,1,13735,2654253,Hollow Bastion Library 2nd Floor Turn the Carousel 2nd Chest
+Hollow Bastion,Library,Carousel Chest,Mega-Potion,1,/remastered/pc06.ard/UK_pc06_ard0.evdl,N,2,13779,2654253,Hollow Bastion Library 2nd Floor Turn the Carousel 2nd Chest
+Hollow Bastion,Library,Carousel Chest,Mega-Potion,1,/remastered/pc06.ard/UK_pc06_ard0.evdl,N,3,1378D,2654253,Hollow Bastion Library 2nd Floor Turn the Carousel 2nd Chest
+Hollow Bastion,Library,Carousel Chest,Mega-Potion,1,/remastered/pc06.ard/UK_pc06_ard2.evdl,N,1,10181,2654253,Hollow Bastion Library 2nd Floor Turn the Carousel 2nd Chest
+Hollow Bastion,Library,Carousel Chest,Mega-Potion,1,/remastered/pc06.ard/UK_pc06_ard2.evdl,N,2,101C5,2654253,Hollow Bastion Library 2nd Floor Turn the Carousel 2nd Chest
+Hollow Bastion,Library,Carousel Chest,Mega-Potion,1,/remastered/pc06.ard/UK_pc06_ard2.evdl,N,3,101D9,2654253,Hollow Bastion Library 2nd Floor Turn the Carousel 2nd Chest
+Hollow Bastion,Library,Carousel Chest,Mega-Potion,1,/remastered/pc06.ard/UK_pc06_ard3.evdl,Y,1,16209,2654253,Hollow Bastion Library 2nd Floor Turn the Carousel 2nd Chest
+Hollow Bastion,Library,Carousel Chest,Mega-Potion,1,/remastered/pc06.ard/UK_pc06_ard3.evdl,Y,2,1624D,2654253,Hollow Bastion Library 2nd Floor Turn the Carousel 2nd Chest
+Hollow Bastion,Library,Carousel Chest,Mega-Potion,1,/remastered/pc06.ard/UK_pc06_ard3.evdl,Y,3,16261,2654253,Hollow Bastion Library 2nd Floor Turn the Carousel 2nd Chest
+Hollow Bastion,Library,Carousel Chest,Mega-Potion,1,/remastered/pc06.ard/UK_pc06_ard19.evdl,N,1,BE29,2654253,Hollow Bastion Library 2nd Floor Turn the Carousel 2nd Chest
+Hollow Bastion,Library,Carousel Chest,Mega-Potion,1,/remastered/pc06.ard/UK_pc06_ard19.evdl,N,2,BE6D,2654253,Hollow Bastion Library 2nd Floor Turn the Carousel 2nd Chest
+Hollow Bastion,Library,Carousel Chest,Mega-Potion,1,/remastered/pc06.ard/UK_pc06_ard19.evdl,N,3,BE81,2654253,Hollow Bastion Library 2nd Floor Turn the Carousel 2nd Chest
+Hollow Bastion,Library,Carousel Chest,Mega-Potion,1,/remastered/pc06.ard/UK_pc06_arda.evdl,N,1,101AD,2654253,Hollow Bastion Library 2nd Floor Turn the Carousel 2nd Chest
+Hollow Bastion,Library,Carousel Chest,Mega-Potion,1,/remastered/pc06.ard/UK_pc06_arda.evdl,N,2,101F1,2654253,Hollow Bastion Library 2nd Floor Turn the Carousel 2nd Chest
+Hollow Bastion,Library,Carousel Chest,Mega-Potion,1,/remastered/pc06.ard/UK_pc06_arda.evdl,N,3,10205,2654253,Hollow Bastion Library 2nd Floor Turn the Carousel 2nd Chest
+Hollow Bastion,Library,Carousel Chest,Mega-Potion,1,/remastered/pc06.ard/UK_pc06_ardc.evdl,N,1,BF4D,2654253,Hollow Bastion Library 2nd Floor Turn the Carousel 2nd Chest
+Hollow Bastion,Library,Carousel Chest,Mega-Potion,1,/remastered/pc06.ard/UK_pc06_ardc.evdl,N,2,BF91,2654253,Hollow Bastion Library 2nd Floor Turn the Carousel 2nd Chest
+Hollow Bastion,Library,Carousel Chest,Mega-Potion,1,/remastered/pc06.ard/UK_pc06_ardc.evdl,N,3,BFA5,2654253,Hollow Bastion Library 2nd Floor Turn the Carousel 2nd Chest
+Hollow Bastion,Library,Carousel Chest,Mythril,1,/remastered/pc06.ard/UK_pc06_ard0.evdl,N,1,13029,2654252,Hollow Bastion Library 2nd Floor Turn the Carousel 1st Chest
+Hollow Bastion,Library,Carousel Chest,Mythril,1,/remastered/pc06.ard/UK_pc06_ard0.evdl,N,2,1306D,2654252,Hollow Bastion Library 2nd Floor Turn the Carousel 1st Chest
+Hollow Bastion,Library,Carousel Chest,Mythril,1,/remastered/pc06.ard/UK_pc06_ard0.evdl,N,3,13081,2654252,Hollow Bastion Library 2nd Floor Turn the Carousel 1st Chest
+Hollow Bastion,Library,Carousel Chest,Mythril,1,/remastered/pc06.ard/UK_pc06_ard2.evdl,N,1,FA75,2654252,Hollow Bastion Library 2nd Floor Turn the Carousel 1st Chest
+Hollow Bastion,Library,Carousel Chest,Mythril,1,/remastered/pc06.ard/UK_pc06_ard2.evdl,N,2,FAB9,2654252,Hollow Bastion Library 2nd Floor Turn the Carousel 1st Chest
+Hollow Bastion,Library,Carousel Chest,Mythril,1,/remastered/pc06.ard/UK_pc06_ard2.evdl,N,3,FACD,2654252,Hollow Bastion Library 2nd Floor Turn the Carousel 1st Chest
+Hollow Bastion,Library,Carousel Chest,Mythril,1,/remastered/pc06.ard/UK_pc06_ard3.evdl,Y,1,15AFD,2654252,Hollow Bastion Library 2nd Floor Turn the Carousel 1st Chest
+Hollow Bastion,Library,Carousel Chest,Mythril,1,/remastered/pc06.ard/UK_pc06_ard3.evdl,Y,2,15B41,2654252,Hollow Bastion Library 2nd Floor Turn the Carousel 1st Chest
+Hollow Bastion,Library,Carousel Chest,Mythril,1,/remastered/pc06.ard/UK_pc06_ard3.evdl,Y,3,15B55,2654252,Hollow Bastion Library 2nd Floor Turn the Carousel 1st Chest
+Hollow Bastion,Library,Carousel Chest,Mythril,1,/remastered/pc06.ard/UK_pc06_ard19.evdl,N,1,B71D,2654252,Hollow Bastion Library 2nd Floor Turn the Carousel 1st Chest
+Hollow Bastion,Library,Carousel Chest,Mythril,1,/remastered/pc06.ard/UK_pc06_ard19.evdl,N,2,B761,2654252,Hollow Bastion Library 2nd Floor Turn the Carousel 1st Chest
+Hollow Bastion,Library,Carousel Chest,Mythril,1,/remastered/pc06.ard/UK_pc06_ard19.evdl,N,3,B775,2654252,Hollow Bastion Library 2nd Floor Turn the Carousel 1st Chest
+Hollow Bastion,Library,Carousel Chest,Mythril,1,/remastered/pc06.ard/UK_pc06_arda.evdl,N,1,FAA1,2654252,Hollow Bastion Library 2nd Floor Turn the Carousel 1st Chest
+Hollow Bastion,Library,Carousel Chest,Mythril,1,/remastered/pc06.ard/UK_pc06_arda.evdl,N,2,FAE5,2654252,Hollow Bastion Library 2nd Floor Turn the Carousel 1st Chest
+Hollow Bastion,Library,Carousel Chest,Mythril,1,/remastered/pc06.ard/UK_pc06_arda.evdl,N,3,FAF9,2654252,Hollow Bastion Library 2nd Floor Turn the Carousel 1st Chest
+Hollow Bastion,Library,Carousel Chest,Mythril,1,/remastered/pc06.ard/UK_pc06_ardc.evdl,N,1,B841,2654252,Hollow Bastion Library 2nd Floor Turn the Carousel 1st Chest
+Hollow Bastion,Library,Carousel Chest,Mythril,1,/remastered/pc06.ard/UK_pc06_ardc.evdl,N,2,B885,2654252,Hollow Bastion Library 2nd Floor Turn the Carousel 1st Chest
+Hollow Bastion,Library,Carousel Chest,Mythril,1,/remastered/pc06.ard/UK_pc06_ardc.evdl,N,3,B899,2654252,Hollow Bastion Library 2nd Floor Turn the Carousel 1st Chest
+Hollow Bastion,Entrance Hall,Flame,Emblem Piece,1,/remastered/pc05.ard/UK_pc05_ard0.evdl,Y,1,1389D,2656516,Hollow Bastion Entrance Hall Emblem Piece (Flame)
+Hollow Bastion,Entrance Hall,Flame,Emblem Piece,1,/remastered/pc05.ard/UK_pc05_ard0.evdl,Y,2,138A9,2656516,Hollow Bastion Entrance Hall Emblem Piece (Flame)
+Hollow Bastion,Entrance Hall,Flame,Emblem Piece,1,/remastered/pc05.ard/UK_pc05_ard2.evdl,N,1,A8E1,2656516,Hollow Bastion Entrance Hall Emblem Piece (Flame)
+Hollow Bastion,Entrance Hall,Flame,Emblem Piece,1,/remastered/pc05.ard/UK_pc05_ard2.evdl,N,2,A8ED,2656516,Hollow Bastion Entrance Hall Emblem Piece (Flame)
+Hollow Bastion,Entrance Hall,Flame,Emblem Piece,1,/remastered/pc05.ard/UK_pc05_ard19.evdl,N,1,6589,2656516,Hollow Bastion Entrance Hall Emblem Piece (Flame)
+Hollow Bastion,Entrance Hall,Flame,Emblem Piece,1,/remastered/pc05.ard/UK_pc05_ard19.evdl,N,2,6595,2656516,Hollow Bastion Entrance Hall Emblem Piece (Flame)
+Hollow Bastion,Entrance Hall,Flame,Emblem Piece,1,/remastered/pc05.ard/UK_pc05_arda.evdl,N,1,13125,2656516,Hollow Bastion Entrance Hall Emblem Piece (Flame)
+Hollow Bastion,Entrance Hall,Flame,Emblem Piece,1,/remastered/pc05.ard/UK_pc05_arda.evdl,N,2,13131,2656516,Hollow Bastion Entrance Hall Emblem Piece (Flame)
+Hollow Bastion,Entrance Hall,Flame,Emblem Piece,1,/remastered/pc05.ard/UK_pc05_ardc.evdl,N,1,66AD,2656516,Hollow Bastion Entrance Hall Emblem Piece (Flame)
+Hollow Bastion,Entrance Hall,Flame,Emblem Piece,1,/remastered/pc05.ard/UK_pc05_ardc.evdl,N,2,66B9,2656516,Hollow Bastion Entrance Hall Emblem Piece (Flame)
+Hollow Bastion,Entrance Hall,Flame,Emblem Piece,1,/remastered/pc05.ard/UK_pc05_ardd.evdl,N,1,A8E1,2656516,Hollow Bastion Entrance Hall Emblem Piece (Flame)
+Hollow Bastion,Entrance Hall,Flame,Emblem Piece,1,/remastered/pc05.ard/UK_pc05_ardd.evdl,N,2,A8ED,2656516,Hollow Bastion Entrance Hall Emblem Piece (Flame)
+Hollow Bastion,Entrance Hall,Flame,Emblem Piece,1,/remastered/pc05.ard/UK_pc05_arde.evdl,N,1,A8E1,2656516,Hollow Bastion Entrance Hall Emblem Piece (Flame)
+Hollow Bastion,Entrance Hall,Flame,Emblem Piece,1,/remastered/pc05.ard/UK_pc05_arde.evdl,N,2,A8ED,2656516,Hollow Bastion Entrance Hall Emblem Piece (Flame)
+Hollow Bastion,Entrance Hall,Chest,Emblem Piece,1,/remastered/pc05.ard/UK_pc05_ard0.evdl,Y,1,13D11,2656517,Hollow Bastion Entrance Hall Emblem Piece (Chest)
+Hollow Bastion,Entrance Hall,Chest,Emblem Piece,1,/remastered/pc05.ard/UK_pc05_ard0.evdl,Y,2,13D1D,2656517,Hollow Bastion Entrance Hall Emblem Piece (Chest)
+Hollow Bastion,Entrance Hall,Chest,Emblem Piece,1,/remastered/pc05.ard/UK_pc05_ard2.evdl,N,1,AD55,2656517,Hollow Bastion Entrance Hall Emblem Piece (Chest)
+Hollow Bastion,Entrance Hall,Chest,Emblem Piece,1,/remastered/pc05.ard/UK_pc05_ard2.evdl,N,2,AD61,2656517,Hollow Bastion Entrance Hall Emblem Piece (Chest)
+Hollow Bastion,Entrance Hall,Chest,Emblem Piece,1,/remastered/pc05.ard/UK_pc05_ard19.evdl,N,1,69FD,2656517,Hollow Bastion Entrance Hall Emblem Piece (Chest)
+Hollow Bastion,Entrance Hall,Chest,Emblem Piece,1,/remastered/pc05.ard/UK_pc05_ard19.evdl,N,2,6A09,2656517,Hollow Bastion Entrance Hall Emblem Piece (Chest)
+Hollow Bastion,Entrance Hall,Chest,Emblem Piece,1,/remastered/pc05.ard/UK_pc05_arda.evdl,N,1,13599,2656517,Hollow Bastion Entrance Hall Emblem Piece (Chest)
+Hollow Bastion,Entrance Hall,Chest,Emblem Piece,1,/remastered/pc05.ard/UK_pc05_arda.evdl,N,2,135A5,2656517,Hollow Bastion Entrance Hall Emblem Piece (Chest)
+Hollow Bastion,Entrance Hall,Chest,Emblem Piece,1,/remastered/pc05.ard/UK_pc05_ardc.evdl,N,1,6B21,2656517,Hollow Bastion Entrance Hall Emblem Piece (Chest)
+Hollow Bastion,Entrance Hall,Chest,Emblem Piece,1,/remastered/pc05.ard/UK_pc05_ardc.evdl,N,2,6B2D,2656517,Hollow Bastion Entrance Hall Emblem Piece (Chest)
+Hollow Bastion,Entrance Hall,Chest,Emblem Piece,1,/remastered/pc05.ard/UK_pc05_ardd.evdl,N,1,AD55,2656517,Hollow Bastion Entrance Hall Emblem Piece (Chest)
+Hollow Bastion,Entrance Hall,Chest,Emblem Piece,1,/remastered/pc05.ard/UK_pc05_ardd.evdl,N,2,AD61,2656517,Hollow Bastion Entrance Hall Emblem Piece (Chest)
+Hollow Bastion,Entrance Hall,Chest,Emblem Piece,1,/remastered/pc05.ard/UK_pc05_arde.evdl,N,1,AD55,2656517,Hollow Bastion Entrance Hall Emblem Piece (Chest)
+Hollow Bastion,Entrance Hall,Chest,Emblem Piece,1,/remastered/pc05.ard/UK_pc05_arde.evdl,N,2,AD61,2656517,Hollow Bastion Entrance Hall Emblem Piece (Chest)
+Hollow Bastion,Entrance Hall,Statue,Emblem Piece,1,/remastered/pc05.ard/UK_pc05_ard0.evdl,Y,1,140A9,2656518,Hollow Bastion Entrance Hall Emblem Piece (Statue)
+Hollow Bastion,Entrance Hall,Statue,Emblem Piece,1,/remastered/pc05.ard/UK_pc05_ard0.evdl,Y,2,140B5,2656518,Hollow Bastion Entrance Hall Emblem Piece (Statue)
+Hollow Bastion,Entrance Hall,Statue,Emblem Piece,1,/remastered/pc05.ard/UK_pc05_ard2.evdl,N,1,B0ED,2656518,Hollow Bastion Entrance Hall Emblem Piece (Statue)
+Hollow Bastion,Entrance Hall,Statue,Emblem Piece,1,/remastered/pc05.ard/UK_pc05_ard2.evdl,N,2,B0F9,2656518,Hollow Bastion Entrance Hall Emblem Piece (Statue)
+Hollow Bastion,Entrance Hall,Statue,Emblem Piece,1,/remastered/pc05.ard/UK_pc05_ard19.evdl,N,1,6D95,2656518,Hollow Bastion Entrance Hall Emblem Piece (Statue)
+Hollow Bastion,Entrance Hall,Statue,Emblem Piece,1,/remastered/pc05.ard/UK_pc05_ard19.evdl,N,2,6DA1,2656518,Hollow Bastion Entrance Hall Emblem Piece (Statue)
+Hollow Bastion,Entrance Hall,Statue,Emblem Piece,1,/remastered/pc05.ard/UK_pc05_arda.evdl,N,1,13931,2656518,Hollow Bastion Entrance Hall Emblem Piece (Statue)
+Hollow Bastion,Entrance Hall,Statue,Emblem Piece,1,/remastered/pc05.ard/UK_pc05_arda.evdl,N,2,1393D,2656518,Hollow Bastion Entrance Hall Emblem Piece (Statue)
+Hollow Bastion,Entrance Hall,Statue,Emblem Piece,1,/remastered/pc05.ard/UK_pc05_ardc.evdl,N,1,6EB9,2656518,Hollow Bastion Entrance Hall Emblem Piece (Statue)
+Hollow Bastion,Entrance Hall,Statue,Emblem Piece,1,/remastered/pc05.ard/UK_pc05_ardc.evdl,N,2,6EC5,2656518,Hollow Bastion Entrance Hall Emblem Piece (Statue)
+Hollow Bastion,Entrance Hall,Statue,Emblem Piece,1,/remastered/pc05.ard/UK_pc05_ardd.evdl,N,1,B0ED,2656518,Hollow Bastion Entrance Hall Emblem Piece (Statue)
+Hollow Bastion,Entrance Hall,Statue,Emblem Piece,1,/remastered/pc05.ard/UK_pc05_ardd.evdl,N,2,B0F9,2656518,Hollow Bastion Entrance Hall Emblem Piece (Statue)
+Hollow Bastion,Entrance Hall,Statue,Emblem Piece,1,/remastered/pc05.ard/UK_pc05_arde.evdl,N,1,B0ED,2656518,Hollow Bastion Entrance Hall Emblem Piece (Statue)
+Hollow Bastion,Entrance Hall,Statue,Emblem Piece,1,/remastered/pc05.ard/UK_pc05_arde.evdl,N,2,B0F9,2656518,Hollow Bastion Entrance Hall Emblem Piece (Statue)
+Hollow Bastion,Entrance Hall,Fountain,Emblem Piece,1,/remastered/pc05.ard/UK_pc05_ard0.evdl,Y,1,14509,2656519,Hollow Bastion Entrance Hall Emblem Piece (Fountain)
+Hollow Bastion,Entrance Hall,Fountain,Emblem Piece,1,/remastered/pc05.ard/UK_pc05_ard0.evdl,Y,2,14515,2656519,Hollow Bastion Entrance Hall Emblem Piece (Fountain)
+Hollow Bastion,Entrance Hall,Fountain,Emblem Piece,1,/remastered/pc05.ard/UK_pc05_ard2.evdl,N,1,B54D,2656519,Hollow Bastion Entrance Hall Emblem Piece (Fountain)
+Hollow Bastion,Entrance Hall,Fountain,Emblem Piece,1,/remastered/pc05.ard/UK_pc05_ard2.evdl,N,2,B559,2656519,Hollow Bastion Entrance Hall Emblem Piece (Fountain)
+Hollow Bastion,Entrance Hall,Fountain,Emblem Piece,1,/remastered/pc05.ard/UK_pc05_ard19.evdl,N,1,71F5,2656519,Hollow Bastion Entrance Hall Emblem Piece (Fountain)
+Hollow Bastion,Entrance Hall,Fountain,Emblem Piece,1,/remastered/pc05.ard/UK_pc05_ard19.evdl,N,2,7201,2656519,Hollow Bastion Entrance Hall Emblem Piece (Fountain)
+Hollow Bastion,Entrance Hall,Fountain,Emblem Piece,1,/remastered/pc05.ard/UK_pc05_arda.evdl,N,1,13D91,2656519,Hollow Bastion Entrance Hall Emblem Piece (Fountain)
+Hollow Bastion,Entrance Hall,Fountain,Emblem Piece,1,/remastered/pc05.ard/UK_pc05_arda.evdl,N,2,13D9D,2656519,Hollow Bastion Entrance Hall Emblem Piece (Fountain)
+Hollow Bastion,Entrance Hall,Fountain,Emblem Piece,1,/remastered/pc05.ard/UK_pc05_ardc.evdl,N,1,7319,2656519,Hollow Bastion Entrance Hall Emblem Piece (Fountain)
+Hollow Bastion,Entrance Hall,Fountain,Emblem Piece,1,/remastered/pc05.ard/UK_pc05_ardc.evdl,N,2,7325,2656519,Hollow Bastion Entrance Hall Emblem Piece (Fountain)
+Hollow Bastion,Entrance Hall,Fountain,Emblem Piece,1,/remastered/pc05.ard/UK_pc05_ardd.evdl,N,1,B54D,2656519,Hollow Bastion Entrance Hall Emblem Piece (Fountain)
+Hollow Bastion,Entrance Hall,Fountain,Emblem Piece,1,/remastered/pc05.ard/UK_pc05_ardd.evdl,N,2,B559,2656519,Hollow Bastion Entrance Hall Emblem Piece (Fountain)
+Hollow Bastion,Entrance Hall,Fountain,Emblem Piece,1,/remastered/pc05.ard/UK_pc05_arde.evdl,N,1,B54D,2656519,Hollow Bastion Entrance Hall Emblem Piece (Fountain)
+Hollow Bastion,Entrance Hall,Fountain,Emblem Piece,1,/remastered/pc05.ard/UK_pc05_arde.evdl,N,2,B559,2656519,Hollow Bastion Entrance Hall Emblem Piece (Fountain)
+Hollow Bastion,Castle Chapel,Defeat Maleficent 1,Ansem's Report 5,1,/remastered/pc12.ard/UK_pc12_ard2.evdl,Y,1,78F5,2657014,Hollow Bastion Defeat Maleficent Ansem's Report 5
+Hollow Bastion,Castle Chapel,Defeat Maleficent 1,Ansem's Report 5,1,/remastered/pc12.ard/UK_pc12_ard2.evdl,Y,2,7901,2657014,Hollow Bastion Defeat Maleficent Ansem's Report 5
+Hollow Bastion,Castle Chapel,Defeat Maleficent 1,Ansem's Report 5,1,/remastered/pc12.ard/UK_pc12_ard2.evdl,Y,3,790D,2657014,Hollow Bastion Defeat Maleficent Ansem's Report 5
+Hollow Bastion,Castle Chapel,Speak to Princesses,Fire,1,/remastered/pc12.ard/UK_pc12d.ev,Y,1,6721,2656106,Hollow Bastion Speak to Princesses Fire Event
+Hollow Bastion,Castle Chapel,Speak to Princesses,Fire,1,/remastered/pc12.ard/UK_pc12d.ev,Y,2,672D,2656106,Hollow Bastion Speak to Princesses Fire Event
+Hollow Bastion,Castle Chapel,Speak to Princesses,Fire,1,/remastered/pc12.ard/UK_pc12d.ev,Y,3,6739,2656106,Hollow Bastion Speak to Princesses Fire Event
+Hollow Bastion,Library,Speak with Aerith,Ansem's Report 2,1,/remastered/pc06.ard/UK_pc06_ard3.evdl,Y,1,81A9,2657017,Hollow Bastion Speak with Aerith Ansem's Report 2
+Hollow Bastion,Library,Speak with Aerith,Ansem's Report 2,1,/remastered/pc06.ard/UK_pc06_ard3.evdl,Y,2,81B5,2657017,Hollow Bastion Speak with Aerith Ansem's Report 2
+Hollow Bastion,Library,Speak with Aerith,Ansem's Report 2,1,/remastered/pc06.ard/UK_pc06_ard3.evdl,Y,3,81C1,2657017,Hollow Bastion Speak with Aerith Ansem's Report 2
+Hollow Bastion,Library,Speak with Aerith,Ansem's Report 4,1,/remastered/pc06.ard/UK_pc06_ard3.evdl,Y,1,8329,2657015,Hollow Bastion Speak with Aerith Ansem's Report 4
+Hollow Bastion,Library,Speak with Aerith,Ansem's Report 4,1,/remastered/pc06.ard/UK_pc06_ard3.evdl,Y,2,8335,2657015,Hollow Bastion Speak with Aerith Ansem's Report 4
+Hollow Bastion,Library,Speak with Aerith,Ansem's Report 4,1,/remastered/pc06.ard/UK_pc06_ard3.evdl,Y,3,8341,2657015,Hollow Bastion Speak with Aerith Ansem's Report 4
+Hollow Bastion,Library,Speak with Aerith,Ansem's Report 6,1,/remastered/pc06.ard/UK_pc06_ard3.evdl,Y,1,84A9,2657013,Hollow Bastion Speak with Aerith Ansem's Report 6
+Hollow Bastion,Library,Speak with Aerith,Ansem's Report 6,1,/remastered/pc06.ard/UK_pc06_ard3.evdl,Y,2,84B5,2657013,Hollow Bastion Speak with Aerith Ansem's Report 6
+Hollow Bastion,Library,Speak with Aerith,Ansem's Report 6,1,/remastered/pc06.ard/UK_pc06_ard3.evdl,Y,3,84C1,2657013,Hollow Bastion Speak with Aerith Ansem's Report 6
+Hollow Bastion,Library,Speak with Aerith,Ansem's Report 10,1,/remastered/pc06.ard/UK_pc06_ard3.evdl,Y,1,8629,2657027,Hollow Bastion Speak with Aerith Ansem's Report 10
+Hollow Bastion,Library,Speak with Aerith,Ansem's Report 10,1,/remastered/pc06.ard/UK_pc06_ard3.evdl,Y,2,8635,2657027,Hollow Bastion Speak with Aerith Ansem's Report 10
+Hollow Bastion,Library,Speak with Aerith,Ansem's Report 10,1,/remastered/pc06.ard/UK_pc06_ard3.evdl,Y,3,8641,2657027,Hollow Bastion Speak with Aerith Ansem's Report 10
+Hollow Bastion,Library,Speak with Aerith,Cure,1,/remastered/pc06.ard/UK_pc06_ard3.evdl,Y,1,A681,2656523,Hollow Bastion Library Speak to Aerith Cure
+Hollow Bastion,Library,Speak with Aerith,Cure,1,/remastered/pc06.ard/UK_pc06_ard3.evdl,Y,2,A68D,2656523,Hollow Bastion Library Speak to Aerith Cure
+Hollow Bastion,Library,Speak with Aerith,Cure,1,/remastered/pc06.ard/UK_pc06_ard3.evdl,Y,3,A699,2656523,Hollow Bastion Library Speak to Aerith Cure
+Hollow Bastion,Castle Chapel,Defeat Unknown,Ansem's Report 13,1,pc13.ard,Y,1,459E1,2657024,Hollow Bastion Defeat Unknown Ansem's Report 13
+Hollow Bastion,Castle Chapel,Defeat Unknown,Ansem's Report 13,1,pc13.ard,Y,2,459ED,2657024,Hollow Bastion Defeat Unknown Ansem's Report 13
+Hollow Bastion,Castle Chapel,Defeat Unknown,Ansem's Report 13,1,pc13.ard,Y,3,459F9,2657024,Hollow Bastion Defeat Unknown Ansem's Report 13
+Traverse Town,Dalmatian House,Return 10 Puppies,Curaga-G,1,/remastered/tw17.ard/UK_tw17_ard0.evdl,Y,1,74F5,2656314,Traverse Town Piano Room Return 10 Puppies
+Traverse Town,Dalmatian House,Return 10 Puppies,Curaga-G,1,/remastered/tw17.ard/UK_tw17_ard0.evdl,Y,2,7501,2656314,Traverse Town Piano Room Return 10 Puppies
+Traverse Town,Dalmatian House,Return 10 Puppies,Curaga-G,1,/remastered/tw17.ard/UK_tw17_ard0.evdl,Y,3,750D,2656314,Traverse Town Piano Room Return 10 Puppies
+Traverse Town,Dalmatian House,Return 20 Puppies,Firaga-G,1,/remastered/tw17.ard/UK_tw17_ard0.evdl,Y,1,7611,2656315,Traverse Town Piano Room Return 20 Puppies
+Traverse Town,Dalmatian House,Return 20 Puppies,Firaga-G,1,/remastered/tw17.ard/UK_tw17_ard0.evdl,Y,2,761D,2656315,Traverse Town Piano Room Return 20 Puppies
+Traverse Town,Dalmatian House,Return 20 Puppies,Firaga-G,1,/remastered/tw17.ard/UK_tw17_ard0.evdl,Y,3,7629,2656315,Traverse Town Piano Room Return 20 Puppies
+Traverse Town,Dalmatian House,Return 30 Puppies,Thundara-G,1,/remastered/tw17.ard/UK_tw17_ard0.evdl,Y,1,772D,2656316,Traverse Town Piano Room Return 30 Puppies
+Traverse Town,Dalmatian House,Return 30 Puppies,Thundara-G,1,/remastered/tw17.ard/UK_tw17_ard0.evdl,Y,2,7739,2656316,Traverse Town Piano Room Return 30 Puppies
+Traverse Town,Dalmatian House,Return 30 Puppies,Thundara-G,1,/remastered/tw17.ard/UK_tw17_ard0.evdl,Y,3,7745,2656316,Traverse Town Piano Room Return 30 Puppies
+Traverse Town,Dalmatian House,Return 50 Puppies,Torn Page 5,1,/remastered/tw17.ard/UK_tw17_ard0.evdl,Y,1,7979,2656318,Traverse Town Piano Room Return 50 Puppies Reward 1
+Traverse Town,Dalmatian House,Return 50 Puppies,Torn Page 5,1,/remastered/tw17.ard/UK_tw17_ard0.evdl,Y,2,7985,2656318,Traverse Town Piano Room Return 50 Puppies Reward 1
+Traverse Town,Dalmatian House,Return 50 Puppies,Torn Page 5,1,/remastered/tw17.ard/UK_tw17_ard0.evdl,Y,3,7991,2656318,Traverse Town Piano Room Return 50 Puppies Reward 1
+Traverse Town,Dalmatian House,Return 80 Puppies,Ultima-G,1,/remastered/tw17.ard/UK_tw17_ard0.evdl,Y,1,7E89,2656322,Traverse Town Piano Room Return 80 Puppies
+Traverse Town,Dalmatian House,Return 80 Puppies,Ultima-G,1,/remastered/tw17.ard/UK_tw17_ard0.evdl,Y,2,7E95,2656322,Traverse Town Piano Room Return 80 Puppies
+Traverse Town,Dalmatian House,Return 80 Puppies,Ultima-G,1,/remastered/tw17.ard/UK_tw17_ard0.evdl,Y,3,7EA1,2656322,Traverse Town Piano Room Return 80 Puppies
+Traverse Town,Dalmatian House,Return 99 Puppies,Aero,1,/remastered/tw17.ard/UK_tw17_ard0.evdl,Y,1,8209,2656326,Traverse Town Piano Room Return 99 Puppies Reward 1
+Traverse Town,Dalmatian House,Return 99 Puppies,Aero,1,/remastered/tw17.ard/UK_tw17_ard0.evdl,Y,2,8215,2656326,Traverse Town Piano Room Return 99 Puppies Reward 1
+Traverse Town,Dalmatian House,Return 99 Puppies,Aero,1,/remastered/tw17.ard/UK_tw17_ard0.evdl,Y,3,8221,2656326,Traverse Town Piano Room Return 99 Puppies Reward 1
+Traverse Town,Dalmatian House,Return 99 Puppies,Complete Gummi Collection,1,/remastered/tw17.ard/UK_tw17_ard0.evdl,Y,1,8485,2656327,Traverse Town Piano Room Return 99 Puppies Reward 2
+Traverse Town,Dalmatian House,Return 99 Puppies,Complete Gummi Collection,1,/remastered/tw17.ard/UK_tw17_ard0.evdl,Y,2,8491,2656327,Traverse Town Piano Room Return 99 Puppies Reward 2
+Traverse Town,Dalmatian House,Return 99 Puppies,Complete Gummi Collection,1,/remastered/tw17.ard/UK_tw17_ard0.evdl,Y,3,849D,2656327,Traverse Town Piano Room Return 99 Puppies Reward 2
+Traverse Town,2nd District,Defeat Opposite Armor,Aero,1,/remastered/tw02.ard/UK_tw02_ard3.evdl,Y,1,160D8,2656131,Traverse Town Defeat Opposite Armor Aero Event
+Traverse Town,2nd District,Defeat Opposite Armor,Aero,1,/remastered/tw02.ard/UK_tw02_ard3.evdl,Y,2,160E4,2656131,Traverse Town Defeat Opposite Armor Aero Event
+Traverse Town,2nd District,Defeat Opposite Armor,Aero,1,/remastered/tw02.ard/UK_tw02_ard3.evdl,Y,3,160F0,2656131,Traverse Town Defeat Opposite Armor Aero Event
+Traverse Town,2nd District,Defeat Opposite Armor,Navi-G Piece 3,1,/remastered/tw02.ard/UK_tw02_ard3.evdl,Y,1,176A6,,
+Traverse Town,2nd District,Defeat Opposite Armor,Navi-G Piece 3,1,/remastered/tw02.ard/UK_tw02_ard3.evdl,Y,2,176B2,,
+100 Acre Wood,Pooh's House,Strike Chimney,Mega-Ether,1,/remastered/po02.ard/UK_po02_ard0.evdl,N,1,82C1,2656358,100 Acre Wood Pooh's Room Chimney
+100 Acre Wood,Pooh's House,Strike Chimney,Mega-Ether,1,/remastered/po02.ard/UK_po02_ard0.evdl,N,2,82CD,2656358,100 Acre Wood Pooh's Room Chimney
+100 Acre Wood,Pooh's House,Strike Chimney,Mega-Ether,1,/remastered/po02.ard/UK_po02_ard0.evdl,N,3,82D9,2656358,100 Acre Wood Pooh's Room Chimney
+100 Acre Wood,Pooh's House,Strike Chimney,Mega-Ether,1,/remastered/po02.ard/UK_po02_ard19.evdl,N,1,6D0D,2656358,100 Acre Wood Pooh's Room Chimney
+100 Acre Wood,Pooh's House,Strike Chimney,Mega-Ether,1,/remastered/po02.ard/UK_po02_ard19.evdl,N,2,6D19,2656358,100 Acre Wood Pooh's Room Chimney
+100 Acre Wood,Pooh's House,Strike Chimney,Mega-Ether,1,/remastered/po02.ard/UK_po02_ard19.evdl,N,3,6D25,2656358,100 Acre Wood Pooh's Room Chimney
+100 Acre Wood,Pooh's House,Strike Chimney,Mega-Ether,1,/remastered/po02.ard/UK_po02_ardc.evdl,N,1,6D21,2656358,100 Acre Wood Pooh's Room Chimney
+100 Acre Wood,Pooh's House,Strike Chimney,Mega-Ether,1,/remastered/po02.ard/UK_po02_ardc.evdl,N,2,6D2D,2656358,100 Acre Wood Pooh's Room Chimney
+100 Acre Wood,Pooh's House,Strike Chimney,Mega-Ether,1,/remastered/po02.ard/UK_po02_ardc.evdl,N,3,6D39,2656358,100 Acre Wood Pooh's Room Chimney
+100 Acre Wood,Pooh's House,In Cabinet,Elixir,1,/remastered/po02.ard/UK_po02_ard0.evdl,N,1,7F41,2656357,100 Acre Wood Pooh's Room Cabinet
+100 Acre Wood,Pooh's House,In Cabinet,Elixir,1,/remastered/po02.ard/UK_po02_ard0.evdl,N,2,7F4D,2656357,100 Acre Wood Pooh's Room Cabinet
+100 Acre Wood,Pooh's House,In Cabinet,Elixir,1,/remastered/po02.ard/UK_po02_ard0.evdl,N,3,7F59,2656357,100 Acre Wood Pooh's Room Cabinet
+100 Acre Wood,Pooh's House,In Cabinet,Elixir,1,/remastered/po02.ard/UK_po02_ard19.evdl,N,1,698D,2656357,100 Acre Wood Pooh's Room Cabinet
+100 Acre Wood,Pooh's House,In Cabinet,Elixir,1,/remastered/po02.ard/UK_po02_ard19.evdl,N,2,6999,2656357,100 Acre Wood Pooh's Room Cabinet
+100 Acre Wood,Pooh's House,In Cabinet,Elixir,1,/remastered/po02.ard/UK_po02_ard19.evdl,N,3,69A5,2656357,100 Acre Wood Pooh's Room Cabinet
+100 Acre Wood,Pooh's House,In Cabinet,Elixir,1,/remastered/po02.ard/UK_po02_ardc.evdl,N,1,69A1,2656357,100 Acre Wood Pooh's Room Cabinet
+100 Acre Wood,Pooh's House,In Cabinet,Elixir,1,/remastered/po02.ard/UK_po02_ardc.evdl,N,2,69AD,2656357,100 Acre Wood Pooh's Room Cabinet
+100 Acre Wood,Pooh's House,In Cabinet,Elixir,1,/remastered/po02.ard/UK_po02_ardc.evdl,N,3,69B9,2656357,100 Acre Wood Pooh's Room Cabinet
+100 Acre Wood,100 Acre Wood,Convert Torn Page 3,Stop,1,/remastered/po11.ard/UK_po11_ard0.evdl,Y,1,7565,2656353,100 Acre Wood Convert Torn Page 3
+100 Acre Wood,100 Acre Wood,Convert Torn Page 3,Stop,1,/remastered/po11.ard/UK_po11_ard0.evdl,Y,2,7571,2656353,100 Acre Wood Convert Torn Page 3
+100 Acre Wood,100 Acre Wood,Convert Torn Page 3,Stop,1,/remastered/po11.ard/UK_po11_ard0.evdl,Y,3,757D,2656353,100 Acre Wood Convert Torn Page 3
+100 Acre Wood,Bouncing Spot,Inside Tree,Shield2-G,1,/remastered/po08.ard/UK_po08a.ev,Y,1,141F5,2656360,100 Acre Wood Bouncing Spot Fall Through Top of Tree Next to Pooh
+100 Acre Wood,Bouncing Spot,Inside Tree,Shield2-G,1,/remastered/po08.ard/UK_po08a.ev,Y,2,14201,2656360,100 Acre Wood Bouncing Spot Fall Through Top of Tree Next to Pooh
+100 Acre Wood,Bouncing Spot,Inside Tree,Shield2-G,1,/remastered/po08.ard/UK_po08a.ev,Y,3,1420D,2656360,100 Acre Wood Bouncing Spot Fall Through Top of Tree Next to Pooh
+100 Acre Wood,Bouncing Spot,Inside Log,Mythril,1,/remastered/po08.ard/UK_po08a.ev,Y,1,13E59,2656359,100 Acre Wood Bouncing Spot Break Log
+100 Acre Wood,Bouncing Spot,Inside Log,Mythril,1,/remastered/po08.ard/UK_po08a.ev,Y,2,13E65,2656359,100 Acre Wood Bouncing Spot Break Log
+100 Acre Wood,Bouncing Spot,Inside Log,Mythril,1,/remastered/po08.ard/UK_po08a.ev,Y,3,13E71,2656359,100 Acre Wood Bouncing Spot Break Log
+100 Acre Wood,Bouncing Spot,Return Rare Nut 1,Power Up,1,/remastered/po08.ard/UK_po08a.ev,Y,1,F701,2656345,100 Acre Wood Bouncing Spot Turn in Rare Nut 1
+100 Acre Wood,Bouncing Spot,Return Rare Nut 1,Power Up,1,/remastered/po08.ard/UK_po08a.ev,Y,2,F70D,2656345,100 Acre Wood Bouncing Spot Turn in Rare Nut 1
+100 Acre Wood,Bouncing Spot,Return Rare Nut 1,Power Up,1,/remastered/po08.ard/UK_po08a.ev,Y,3,F719,2656345,100 Acre Wood Bouncing Spot Turn in Rare Nut 1
+100 Acre Wood,Bouncing Spot,Return Rare Nut 2,Defense Up,1,/remastered/po08.ard/UK_po08a.ev,Y,1,F945,2656346,100 Acre Wood Bouncing Spot Turn in Rare Nut 2
+100 Acre Wood,Bouncing Spot,Return Rare Nut 2,Defense Up,1,/remastered/po08.ard/UK_po08a.ev,Y,2,F951,2656346,100 Acre Wood Bouncing Spot Turn in Rare Nut 2
+100 Acre Wood,Bouncing Spot,Return Rare Nut 2,Defense Up,1,/remastered/po08.ard/UK_po08a.ev,Y,3,F95D,2656346,100 Acre Wood Bouncing Spot Turn in Rare Nut 2
+100 Acre Wood,Bouncing Spot,Return Rare Nut 3,Mythril Shard,1,/remastered/po08.ard/UK_po08a.ev,Y,1,FB89,2656347,100 Acre Wood Bouncing Spot Turn in Rare Nut 3
+100 Acre Wood,Bouncing Spot,Return Rare Nut 3,Mythril Shard,1,/remastered/po08.ard/UK_po08a.ev,Y,2,FB95,2656347,100 Acre Wood Bouncing Spot Turn in Rare Nut 3
+100 Acre Wood,Bouncing Spot,Return Rare Nut 3,Mythril Shard,1,/remastered/po08.ard/UK_po08a.ev,Y,3,FBA1,2656347,100 Acre Wood Bouncing Spot Turn in Rare Nut 3
+100 Acre Wood,Bouncing Spot,Return Rare Nut 4,AP Up,1,/remastered/po08.ard/UK_po08a.ev,Y,1,FDCD,2656348,100 Acre Wood Bouncing Spot Turn in Rare Nut 4
+100 Acre Wood,Bouncing Spot,Return Rare Nut 4,AP Up,1,/remastered/po08.ard/UK_po08a.ev,Y,2,FDD9,2656348,100 Acre Wood Bouncing Spot Turn in Rare Nut 4
+100 Acre Wood,Bouncing Spot,Return Rare Nut 4,AP Up,1,/remastered/po08.ard/UK_po08a.ev,Y,3,FDE5,2656348,100 Acre Wood Bouncing Spot Turn in Rare Nut 4
+100 Acre Wood,Bouncing Spot,Return Rare Nut 5,Orichalcum,1,/remastered/po08.ard/UK_po08a.ev,Y,1,10001,2656349,100 Acre Wood Bouncing Spot Turn in Rare Nut 5
+100 Acre Wood,Bouncing Spot,Return Rare Nut 5,Orichalcum,1,/remastered/po08.ard/UK_po08a.ev,Y,2,1000D,2656349,100 Acre Wood Bouncing Spot Turn in Rare Nut 5
+100 Acre Wood,Bouncing Spot,Return Rare Nut 5,Orichalcum,1,/remastered/po08.ard/UK_po08a.ev,Y,3,10019,2656349,100 Acre Wood Bouncing Spot Turn in Rare Nut 5
+Agrabah,Lamp Chamber,Defeat Jafar,Blizzard,1,/remastered/al17.ard/UK_al17_ard3.evdl,Y,1,3E51,2656052,Agrabah Defeat Jafar Blizzard Event
+Agrabah,Lamp Chamber,Defeat Jafar,Blizzard,1,/remastered/al17.ard/UK_al17_ard3.evdl,Y,2,3E5D,2656052,Agrabah Defeat Jafar Blizzard Event
+Agrabah,Lamp Chamber,Defeat Jafar,Blizzard,1,/remastered/al17.ard/UK_al17_ard3.evdl,Y,3,3E69,2656052,Agrabah Defeat Jafar Blizzard Event
+Agrabah,Cave:Core,Defeat Genie Jafar,Fire,1,/remastered/al18.ard/UK_al18_ard0.evdl,Y,1,2E59,2656053,Agrabah Defeat Jafar Genie Fire Event
+Agrabah,Cave:Core,Defeat Genie Jafar,Fire,1,/remastered/al18.ard/UK_al18_ard0.evdl,Y,2,2E65,2656053,Agrabah Defeat Jafar Genie Fire Event
+Agrabah,Cave:Core,Defeat Genie Jafar,Fire,1,/remastered/al18.ard/UK_al18_ard0.evdl,Y,3,2E71,2656053,Agrabah Defeat Jafar Genie Fire Event
+Agrabah,Cave:Core,Defeat Genie Jafar,Ansem's Report 1,1,/remastered/al18.ard/UK_al18_ard0.evdl,Y,1,30BD,2657018,Agrabah Defeat Jafar Genie Ansem's Report 1
+Agrabah,Cave:Core,Defeat Genie Jafar,Ansem's Report 1,1,/remastered/al18.ard/UK_al18_ard0.evdl,Y,2,30C9,2657018,Agrabah Defeat Jafar Genie Ansem's Report 1
+Agrabah,Cave:Core,Defeat Genie Jafar,Ansem's Report 1,1,/remastered/al18.ard/UK_al18_ard0.evdl,Y,3,30D5,2657018,Agrabah Defeat Jafar Genie Ansem's Report 1
+Agrabah,Aladdin's House,Defeat Genie Jafar,Genie,1,/remastered/al19.ard/UK_al19_ard5.evdl,Y,1,2DCD,2656054,Agrabah Seal Keyhole Genie Event
+Agrabah,Aladdin's House,Defeat Genie Jafar,Genie,1,/remastered/al19.ard/UK_al19_ard5.evdl,Y,2,2DD9,2656054,Agrabah Seal Keyhole Genie Event
+Agrabah,Aladdin's House,Defeat Genie Jafar,Genie,1,/remastered/al19.ard/UK_al19_ard5.evdl,Y,3,2DE5,2656054,Agrabah Seal Keyhole Genie Event
+Agrabah,Aladdin's House,Defeat Genie Jafar,Green Trinity,1,/remastered/al19.ard/UK_al19_ard5.evdl,Y,1,3145,2656056,Agrabah Seal Keyhole Green Trinity Event
+Agrabah,Aladdin's House,Defeat Genie Jafar,Green Trinity,1,/remastered/al19.ard/UK_al19_ard5.evdl,Y,2,3151,2656056,Agrabah Seal Keyhole Green Trinity Event
+Agrabah,Aladdin's House,Defeat Genie Jafar,Green Trinity,1,/remastered/al19.ard/UK_al19_ard5.evdl,Y,3,315D,2656056,Agrabah Seal Keyhole Green Trinity Event
+Agrabah,Desert,Defeat Kurt Zisa,Ansem's Report 11,1,al01.ard,Y,1,241A7E,2657026,Agrabah Defeat Kurt Zisa Ansem's Report 11
+Agrabah,Desert,Defeat Kurt Zisa,Ansem's Report 11,1,al01.ard,Y,2,241A8A,2657026,Agrabah Defeat Kurt Zisa Ansem's Report 11
+Agrabah,Desert,Defeat Kurt Zisa,Ansem's Report 11,1,al01.ard,Y,3,241A96,2657026,Agrabah Defeat Kurt Zisa Ansem's Report 11
+Neverland,Ship:Hold,Chest,Aero,1,/remastered/pp03.ard/UK_pp03_ardd.evdl,Y,1,340D,2656344,Neverland Hold Aero Chest
+Neverland,Ship:Hold,Chest,Aero,1,/remastered/pp03.ard/UK_pp03_ardd.evdl,Y,2,3419,2656344,Neverland Hold Aero Chest
+Neverland,Ship:Hold,Chest,Aero,1,/remastered/pp03.ard/UK_pp03_ardd.evdl,Y,3,3425,2656344,Neverland Hold Aero Chest
+Neverland,Ship:Hold,Chest,Aero,1,/remastered/pp03.ard/UK_pp03_ard0.evdl,Y,1,335D,2656344,Neverland Hold Aero Chest
+Neverland,Ship:Hold,Chest,Aero,1,/remastered/pp03.ard/UK_pp03_ard0.evdl,Y,2,3369,2656344,Neverland Hold Aero Chest
+Neverland,Ship:Hold,Chest,Aero,1,/remastered/pp03.ard/UK_pp03_ard0.evdl,Y,3,3375,2656344,Neverland Hold Aero Chest
+Neverland,Ship:Hold,Chest,Aero,1,/remastered/pp03.ard/UK_pp03_ard11.evdl,Y,1,335D,2656344,Neverland Hold Aero Chest
+Neverland,Ship:Hold,Chest,Aero,1,/remastered/pp03.ard/UK_pp03_ard11.evdl,Y,2,3369,2656344,Neverland Hold Aero Chest
+Neverland,Ship:Hold,Chest,Aero,1,/remastered/pp03.ard/UK_pp03_ard11.evdl,Y,3,3375,2656344,Neverland Hold Aero Chest
+Neverland,Ship:Hold,Chest,Aero,1,/remastered/pp03.ard/UK_pp03_ard19.evdl,Y,1,1985,2656344,Neverland Hold Aero Chest
+Neverland,Ship:Hold,Chest,Aero,1,/remastered/pp03.ard/UK_pp03_ard19.evdl,Y,2,1991,2656344,Neverland Hold Aero Chest
+Neverland,Ship:Hold,Chest,Aero,1,/remastered/pp03.ard/UK_pp03_ard19.evdl,Y,3,199D,2656344,Neverland Hold Aero Chest
+Neverland,Ship:Hold,Chest,Aero,1,/remastered/pp03.ard/UK_pp03_ardc.evdl,Y,1,3389,2656344,Neverland Hold Aero Chest
+Neverland,Ship:Hold,Chest,Aero,1,/remastered/pp03.ard/UK_pp03_ardc.evdl,Y,2,3395,2656344,Neverland Hold Aero Chest
+Neverland,Ship:Hold,Chest,Aero,1,/remastered/pp03.ard/UK_pp03_ardc.evdl,Y,3,33A1,2656344,Neverland Hold Aero Chest
+Neverland,Ship:Hold,Chest,Aero,1,/remastered/pp03.ard/UK_pp03_arde.evdl,Y,1,335D,2656344,Neverland Hold Aero Chest
+Neverland,Ship:Hold,Chest,Aero,1,/remastered/pp03.ard/UK_pp03_arde.evdl,Y,2,3369,2656344,Neverland Hold Aero Chest
+Neverland,Ship:Hold,Chest,Aero,1,/remastered/pp03.ard/UK_pp03_arde.evdl,Y,3,3375,2656344,Neverland Hold Aero Chest
+Halloween Town,Guillotine Square,Ring Jack's Doorbell 3 Times,Elixir,1,/remastered/nm01.ard/UK_nm01_ard2.evdl,N,1,55D9,2656331,Halloween Town Guillotine Square Ring Jack's Doorbell 3 Times
+Halloween Town,Guillotine Square,Ring Jack's Doorbell 3 Times,Elixir,1,/remastered/nm01.ard/UK_nm01_ard2.evdl,N,2,55E5,2656331,Halloween Town Guillotine Square Ring Jack's Doorbell 3 Times
+Halloween Town,Guillotine Square,Ring Jack's Doorbell 3 Times,Elixir,1,/remastered/nm01.ard/UK_nm01_ard2.evdl,N,3,55F1,2656331,Halloween Town Guillotine Square Ring Jack's Doorbell 3 Times
+Halloween Town,Guillotine Square,Ring Jack's Doorbell 3 Times,Elixir,1,/remastered/nm01.ard/UK_nm01_ard0.evdl,N,1,2931,2656331,Halloween Town Guillotine Square Ring Jack's Doorbell 3 Times
+Halloween Town,Guillotine Square,Ring Jack's Doorbell 3 Times,Elixir,1,/remastered/nm01.ard/UK_nm01_ard0.evdl,N,2,293D,2656331,Halloween Town Guillotine Square Ring Jack's Doorbell 3 Times
+Halloween Town,Guillotine Square,Ring Jack's Doorbell 3 Times,Elixir,1,/remastered/nm01.ard/UK_nm01_ard0.evdl,N,3,2949,2656331,Halloween Town Guillotine Square Ring Jack's Doorbell 3 Times
+Halloween Town,Guillotine Square,Ring Jack's Doorbell 3 Times,Elixir,1,/remastered/nm01.ard/UK_nm01_ard1.evdl,N,1,32B9,2656331,Halloween Town Guillotine Square Ring Jack's Doorbell 3 Times
+Halloween Town,Guillotine Square,Ring Jack's Doorbell 3 Times,Elixir,1,/remastered/nm01.ard/UK_nm01_ard1.evdl,N,2,32C5,2656331,Halloween Town Guillotine Square Ring Jack's Doorbell 3 Times
+Halloween Town,Guillotine Square,Ring Jack's Doorbell 3 Times,Elixir,1,/remastered/nm01.ard/UK_nm01_ard1.evdl,N,3,32D1,2656331,Halloween Town Guillotine Square Ring Jack's Doorbell 3 Times
+Halloween Town,Guillotine Square,Ring Jack's Doorbell 3 Times,Elixir,1,/remastered/nm01.ard/UK_nm01_ard19.evdl,N,1,1835,2656331,Halloween Town Guillotine Square Ring Jack's Doorbell 3 Times
+Halloween Town,Guillotine Square,Ring Jack's Doorbell 3 Times,Elixir,1,/remastered/nm01.ard/UK_nm01_ard19.evdl,N,2,1841,2656331,Halloween Town Guillotine Square Ring Jack's Doorbell 3 Times
+Halloween Town,Guillotine Square,Ring Jack's Doorbell 3 Times,Elixir,1,/remastered/nm01.ard/UK_nm01_ard19.evdl,N,3,184D,2656331,Halloween Town Guillotine Square Ring Jack's Doorbell 3 Times
+Halloween Town,Guillotine Square,Ring Jack's Doorbell 3 Times,Elixir,1,/remastered/nm01.ard/UK_nm01_ardc.evdl,N,1,2731,2656331,Halloween Town Guillotine Square Ring Jack's Doorbell 3 Times
+Halloween Town,Guillotine Square,Ring Jack's Doorbell 3 Times,Elixir,1,/remastered/nm01.ard/UK_nm01_ardc.evdl,N,2,273D,2656331,Halloween Town Guillotine Square Ring Jack's Doorbell 3 Times
+Halloween Town,Guillotine Square,Ring Jack's Doorbell 3 Times,Elixir,1,/remastered/nm01.ard/UK_nm01_ardc.evdl,N,3,2749,2656331,Halloween Town Guillotine Square Ring Jack's Doorbell 3 Times
+Halloween Town,Guillotine Square,Ring Jack's Doorbell 3 Times,Elixir,1,/remastered/nm01.ard/UK_nm01_ardd.evdl,N,1,27A1,2656331,Halloween Town Guillotine Square Ring Jack's Doorbell 3 Times
+Halloween Town,Guillotine Square,Ring Jack's Doorbell 3 Times,Elixir,1,/remastered/nm01.ard/UK_nm01_ardd.evdl,N,2,27AD,2656331,Halloween Town Guillotine Square Ring Jack's Doorbell 3 Times
+Halloween Town,Guillotine Square,Ring Jack's Doorbell 3 Times,Elixir,1,/remastered/nm01.ard/UK_nm01_ardd.evdl,N,3,27B9,2656331,Halloween Town Guillotine Square Ring Jack's Doorbell 3 Times
+Halloween Town,Guillotine Square,Ring Jack's Doorbell 3 Times,Elixir,1,/remastered/nm01.ard/UK_nm01_arde.evdl,N,1,2931,2656331,Halloween Town Guillotine Square Ring Jack's Doorbell 3 Times
+Halloween Town,Guillotine Square,Ring Jack's Doorbell 3 Times,Elixir,1,/remastered/nm01.ard/UK_nm01_arde.evdl,N,2,293D,2656331,Halloween Town Guillotine Square Ring Jack's Doorbell 3 Times
+Halloween Town,Guillotine Square,Ring Jack's Doorbell 3 Times,Elixir,1,/remastered/nm01.ard/UK_nm01_arde.evdl,N,3,2949,2656331,Halloween Town Guillotine Square Ring Jack's Doorbell 3 Times
+Halloween Town,Guillotine Square,Ring Jack's Doorbell 3 Times,Elixir,1,/remastered/nm01.ard/UK_nm01_ardf.evdl,N,1,2931,2656331,Halloween Town Guillotine Square Ring Jack's Doorbell 3 Times
+Halloween Town,Guillotine Square,Ring Jack's Doorbell 3 Times,Elixir,1,/remastered/nm01.ard/UK_nm01_ardf.evdl,N,2,293D,2656331,Halloween Town Guillotine Square Ring Jack's Doorbell 3 Times
+Halloween Town,Guillotine Square,Ring Jack's Doorbell 3 Times,Elixir,1,/remastered/nm01.ard/UK_nm01_ardf.evdl,N,3,2949,2656331,Halloween Town Guillotine Square Ring Jack's Doorbell 3 Times
+Halloween Town,Research Lab,Examine Shelf,Torn Page 4,1,/remastered/nm11.ard/UK_nm11_ard0.evdl,N,1,6A39,2656508,Halloween Town Lab Torn Page
+Halloween Town,Research Lab,Examine Shelf,Torn Page 4,1,/remastered/nm11.ard/UK_nm11_ard0.evdl,N,2,6A45,2656508,Halloween Town Lab Torn Page
+Halloween Town,Research Lab,Examine Shelf,Torn Page 4,1,/remastered/nm11.ard/UK_nm11_ard0.evdl,N,3,6A51,2656508,Halloween Town Lab Torn Page
+Halloween Town,Research Lab,Examine Shelf,Torn Page 4,1,/remastered/nm11.ard/UK_nm11_ard2.evdl,N,1,C375,2656508,Halloween Town Lab Torn Page
+Halloween Town,Research Lab,Examine Shelf,Torn Page 4,1,/remastered/nm11.ard/UK_nm11_ard2.evdl,N,2,C381,2656508,Halloween Town Lab Torn Page
+Halloween Town,Research Lab,Examine Shelf,Torn Page 4,1,/remastered/nm11.ard/UK_nm11_ard2.evdl,N,3,C38D,2656508,Halloween Town Lab Torn Page
+Halloween Town,Research Lab,Examine Shelf,Torn Page 4,1,/remastered/nm11.ard/UK_nm11_ard3.evdl,N,1,63DD,2656508,Halloween Town Lab Torn Page
+Halloween Town,Research Lab,Examine Shelf,Torn Page 4,1,/remastered/nm11.ard/UK_nm11_ard3.evdl,N,2,63E9,2656508,Halloween Town Lab Torn Page
+Halloween Town,Research Lab,Examine Shelf,Torn Page 4,1,/remastered/nm11.ard/UK_nm11_ard3.evdl,N,3,63F5,2656508,Halloween Town Lab Torn Page
+Halloween Town,Research Lab,Examine Shelf,Torn Page 4,1,/remastered/nm11.ard/UK_nm11_ard19.evdl,N,1,14AD,2656508,Halloween Town Lab Torn Page
+Halloween Town,Research Lab,Examine Shelf,Torn Page 4,1,/remastered/nm11.ard/UK_nm11_ard19.evdl,N,2,14B9,2656508,Halloween Town Lab Torn Page
+Halloween Town,Research Lab,Examine Shelf,Torn Page 4,1,/remastered/nm11.ard/UK_nm11_ard19.evdl,N,3,14C5,2656508,Halloween Town Lab Torn Page
+Halloween Town,Research Lab,Examine Shelf,Torn Page 4,1,/remastered/nm11.ard/UK_nm11_ardc.evdl,N,1,23A9,2656508,Halloween Town Lab Torn Page
+Halloween Town,Research Lab,Examine Shelf,Torn Page 4,1,/remastered/nm11.ard/UK_nm11_ardc.evdl,N,2,23B5,2656508,Halloween Town Lab Torn Page
+Halloween Town,Research Lab,Examine Shelf,Torn Page 4,1,/remastered/nm11.ard/UK_nm11_ardc.evdl,N,3,23C1,2656508,Halloween Town Lab Torn Page
+Halloween Town,Graveyard,Defeat All Heartless,Forget-Me-Not,1,/remastered/nm03.ard/UK_nm03_ard1.evdl,N,1,8BEE,2656382,Halloween Town Graveyard Forget-Me-Not Event
+Halloween Town,Graveyard,Defeat All Heartless,Forget-Me-Not,1,/remastered/nm03.ard/UK_nm03_ard1.evdl,N,2,8BFA,2656382,Halloween Town Graveyard Forget-Me-Not Event
+Halloween Town ,Torture Chamber,Defeat Oogie Boogie 1,Ansem's Report 7,1,/remastered/nm08.ard/UK_nm08_ard1.evdl,Y,1,6015,2657012,Halloween Town Defeat Oogie Boogie Ansem's Report 7
+Halloween Town ,Torture Chamber,Defeat Oogie Boogie 1,Ansem's Report 7,1,/remastered/nm08.ard/UK_nm08_ard1.evdl,Y,2,6021,2657012,Halloween Town Defeat Oogie Boogie Ansem's Report 7
+Halloween Town ,Torture Chamber,Defeat Oogie Boogie 1,Ansem's Report 7,1,/remastered/nm08.ard/UK_nm08_ard1.evdl,Y,3,602D,2657012,Halloween Town Defeat Oogie Boogie Ansem's Report 7
+Halloween Town ,Torture Chamber,Defeat Oogie Boogie 2,Gravity,1,/remastered/nm09.ard/UK_nm09_ard1.evdl,Y,1,5D15,2656082,Halloween Town Defeat Oogie's Manor Gravity Event
+Halloween Town ,Torture Chamber,Defeat Oogie Boogie 2,Gravity,1,/remastered/nm09.ard/UK_nm09_ard1.evdl,Y,2,5D21,2656082,Halloween Town Defeat Oogie's Manor Gravity Event
+Halloween Town ,Torture Chamber,Defeat Oogie Boogie 2,Gravity,1,/remastered/nm09.ard/UK_nm09_ard1.evdl,Y,3,5D2D,2656082,Halloween Town Defeat Oogie's Manor Gravity Event
+Neverland,Pirate Ship,Defeat Captain Hook,Ansem's Report 9,1,/remastered/pp09.ard/UK_pp09_ard1.evdl,Y,1,940D,2657028,Neverland Defeat Hook Ansem's Report 9
+Neverland,Pirate Ship,Defeat Captain Hook,Ansem's Report 9,1,/remastered/pp09.ard/UK_pp09_ard1.evdl,Y,2,9419,2657028,Neverland Defeat Hook Ansem's Report 9
+Neverland,Pirate Ship,Defeat Captain Hook,Ansem's Report 9,1,/remastered/pp09.ard/UK_pp09_ard1.evdl,Y,3,9425,2657028,Neverland Defeat Hook Ansem's Report 9
+Neverland,Pirate Ship,Encounter Captain Hook,Cure,1,/remastered/pp09.ard/UK_pp09_ard1.evdl,Y,1,872D,2656092,Neverland Encounter Hook Cure Event
+Neverland,Pirate Ship,Encounter Captain Hook,Cure,1,/remastered/pp09.ard/UK_pp09_ard1.evdl,Y,2,8739,2656092,Neverland Encounter Hook Cure Event
+Neverland,Pirate Ship,Encounter Captain Hook,Cure,1,/remastered/pp09.ard/UK_pp09_ard1.evdl,Y,3,8745,2656092,Neverland Encounter Hook Cure Event
+Neverland,Clock Tower,Seal Keyhole,Navi-G Piece 4,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,1,4FB9,,
+Neverland,Clock Tower,Seal Keyhole,Navi-G Piece 4,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,2,4FC5,,
+Neverland,Clock Tower,Seal Keyhole,Navi-G Piece 4,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,3,4FD1,,
+Neverland,Clock Tower,Seal Keyhole,Tinker Bell,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,1,5BD9,2656094,Neverland Seal Keyhole Tinker Bell Event
+Neverland,Clock Tower,Seal Keyhole,Tinker Bell,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,2,5BE5,2656094,Neverland Seal Keyhole Tinker Bell Event
+Neverland,Clock Tower,Seal Keyhole,Tinker Bell,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,3,5BF1,2656094,Neverland Seal Keyhole Tinker Bell Event
+Neverland,Clock Tower,Defeat Phantom,Stop,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,1,2BE5,2656096,Neverland Defeat Phantom Stop Event
+Neverland,Clock Tower,Defeat Phantom,Stop,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,2,2BF1,2656096,Neverland Defeat Phantom Stop Event
+Neverland,Clock Tower,Defeat Phantom,Stop,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,3,2BFD,2656096,Neverland Defeat Phantom Stop Event
+Neverland,Clock Tower,Open 1:00 Door,Orichalcum,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,1,A33D,2656332,Neverland Clock Tower 01:00 Door
+Neverland,Clock Tower,Open 1:00 Door,Orichalcum,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,2,A349,2656332,Neverland Clock Tower 01:00 Door
+Neverland,Clock Tower,Open 1:00 Door,Orichalcum,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,3,A355,2656332,Neverland Clock Tower 01:00 Door
+Neverland,Clock Tower,Open 1:00 Door,Orichalcum,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,1,4991,2656332,Neverland Clock Tower 01:00 Door
+Neverland,Clock Tower,Open 1:00 Door,Orichalcum,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,2,499D,2656332,Neverland Clock Tower 01:00 Door
+Neverland,Clock Tower,Open 1:00 Door,Orichalcum,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,3,49A9,2656332,Neverland Clock Tower 01:00 Door
+Neverland,Clock Tower,Open 1:00 Door,Orichalcum,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,1,1F59,2656332,Neverland Clock Tower 01:00 Door
+Neverland,Clock Tower,Open 1:00 Door,Orichalcum,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,2,1F65,2656332,Neverland Clock Tower 01:00 Door
+Neverland,Clock Tower,Open 1:00 Door,Orichalcum,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,3,1F71,2656332,Neverland Clock Tower 01:00 Door
+Neverland,Clock Tower,Open 1:00 Door,Orichalcum,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,1,3969,2656332,Neverland Clock Tower 01:00 Door
+Neverland,Clock Tower,Open 1:00 Door,Orichalcum,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,2,3975,2656332,Neverland Clock Tower 01:00 Door
+Neverland,Clock Tower,Open 1:00 Door,Orichalcum,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,3,3981,2656332,Neverland Clock Tower 01:00 Door
+Neverland,Clock Tower,Open 2:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,1,A83D,2656333,Neverland Clock Tower 02:00 Door
+Neverland,Clock Tower,Open 2:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,2,A849,2656333,Neverland Clock Tower 02:00 Door
+Neverland,Clock Tower,Open 2:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,3,A855,2656333,Neverland Clock Tower 02:00 Door
+Neverland,Clock Tower,Open 2:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,1,4E91,2656333,Neverland Clock Tower 02:00 Door
+Neverland,Clock Tower,Open 2:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,2,4E9D,2656333,Neverland Clock Tower 02:00 Door
+Neverland,Clock Tower,Open 2:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,3,4EA9,2656333,Neverland Clock Tower 02:00 Door
+Neverland,Clock Tower,Open 2:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,1,2459,2656333,Neverland Clock Tower 02:00 Door
+Neverland,Clock Tower,Open 2:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,2,2465,2656333,Neverland Clock Tower 02:00 Door
+Neverland,Clock Tower,Open 2:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,3,2471,2656333,Neverland Clock Tower 02:00 Door
+Neverland,Clock Tower,Open 2:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,1,3E69,2656333,Neverland Clock Tower 02:00 Door
+Neverland,Clock Tower,Open 2:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,2,3E75,2656333,Neverland Clock Tower 02:00 Door
+Neverland,Clock Tower,Open 2:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,3,3E81,2656333,Neverland Clock Tower 02:00 Door
+Neverland,Clock Tower,Open 3:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,1,AD3D,2656334,Neverland Clock Tower 03:00 Door
+Neverland,Clock Tower,Open 3:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,2,AD49,2656334,Neverland Clock Tower 03:00 Door
+Neverland,Clock Tower,Open 3:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,3,AD55,2656334,Neverland Clock Tower 03:00 Door
+Neverland,Clock Tower,Open 3:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,1,5391,2656334,Neverland Clock Tower 03:00 Door
+Neverland,Clock Tower,Open 3:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,2,539D,2656334,Neverland Clock Tower 03:00 Door
+Neverland,Clock Tower,Open 3:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,3,53A9,2656334,Neverland Clock Tower 03:00 Door
+Neverland,Clock Tower,Open 3:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,1,2959,2656334,Neverland Clock Tower 03:00 Door
+Neverland,Clock Tower,Open 3:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,2,2965,2656334,Neverland Clock Tower 03:00 Door
+Neverland,Clock Tower,Open 3:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,3,2971,2656334,Neverland Clock Tower 03:00 Door
+Neverland,Clock Tower,Open 3:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,1,4369,2656334,Neverland Clock Tower 03:00 Door
+Neverland,Clock Tower,Open 3:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,2,4375,2656334,Neverland Clock Tower 03:00 Door
+Neverland,Clock Tower,Open 3:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,3,4381,2656334,Neverland Clock Tower 03:00 Door
+Neverland,Clock Tower,Open 4:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,1,B239,2656335,Neverland Clock Tower 04:00 Door
+Neverland,Clock Tower,Open 4:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,2,B245,2656335,Neverland Clock Tower 04:00 Door
+Neverland,Clock Tower,Open 4:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,3,B251,2656335,Neverland Clock Tower 04:00 Door
+Neverland,Clock Tower,Open 4:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,1,588D,2656335,Neverland Clock Tower 04:00 Door
+Neverland,Clock Tower,Open 4:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,2,5899,2656335,Neverland Clock Tower 04:00 Door
+Neverland,Clock Tower,Open 4:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,3,58A5,2656335,Neverland Clock Tower 04:00 Door
+Neverland,Clock Tower,Open 4:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,1,2E55,2656335,Neverland Clock Tower 04:00 Door
+Neverland,Clock Tower,Open 4:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,2,2E61,2656335,Neverland Clock Tower 04:00 Door
+Neverland,Clock Tower,Open 4:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,3,2E6D,2656335,Neverland Clock Tower 04:00 Door
+Neverland,Clock Tower,Open 4:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,1,4865,2656335,Neverland Clock Tower 04:00 Door
+Neverland,Clock Tower,Open 4:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,2,4871,2656335,Neverland Clock Tower 04:00 Door
+Neverland,Clock Tower,Open 4:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,3,487D,2656335,Neverland Clock Tower 04:00 Door
+Neverland,Clock Tower,Open 5:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,1,B735,2656336,Neverland Clock Tower 05:00 Door
+Neverland,Clock Tower,Open 5:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,2,B741,2656336,Neverland Clock Tower 05:00 Door
+Neverland,Clock Tower,Open 5:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,3,B74D,2656336,Neverland Clock Tower 05:00 Door
+Neverland,Clock Tower,Open 5:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,1,5D89,2656336,Neverland Clock Tower 05:00 Door
+Neverland,Clock Tower,Open 5:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,2,5D95,2656336,Neverland Clock Tower 05:00 Door
+Neverland,Clock Tower,Open 5:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,3,5DA1,2656336,Neverland Clock Tower 05:00 Door
+Neverland,Clock Tower,Open 5:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,1,3351,2656336,Neverland Clock Tower 05:00 Door
+Neverland,Clock Tower,Open 5:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,2,335D,2656336,Neverland Clock Tower 05:00 Door
+Neverland,Clock Tower,Open 5:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,3,3369,2656336,Neverland Clock Tower 05:00 Door
+Neverland,Clock Tower,Open 5:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,1,4D61,2656336,Neverland Clock Tower 05:00 Door
+Neverland,Clock Tower,Open 5:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,2,4D6D,2656336,Neverland Clock Tower 05:00 Door
+Neverland,Clock Tower,Open 5:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,3,4D79,2656336,Neverland Clock Tower 05:00 Door
+Neverland,Clock Tower,Open 6:00 Door,Mythril,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,1,BC35,2656337,Neverland Clock Tower 06:00 Door
+Neverland,Clock Tower,Open 6:00 Door,Mythril,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,2,BC41,2656337,Neverland Clock Tower 06:00 Door
+Neverland,Clock Tower,Open 6:00 Door,Mythril,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,3,BC4D,2656337,Neverland Clock Tower 06:00 Door
+Neverland,Clock Tower,Open 6:00 Door,Mythril,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,1,6289,2656337,Neverland Clock Tower 06:00 Door
+Neverland,Clock Tower,Open 6:00 Door,Mythril,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,2,6295,2656337,Neverland Clock Tower 06:00 Door
+Neverland,Clock Tower,Open 6:00 Door,Mythril,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,3,62A1,2656337,Neverland Clock Tower 06:00 Door
+Neverland,Clock Tower,Open 6:00 Door,Mythril,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,1,3851,2656337,Neverland Clock Tower 06:00 Door
+Neverland,Clock Tower,Open 6:00 Door,Mythril,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,2,385D,2656337,Neverland Clock Tower 06:00 Door
+Neverland,Clock Tower,Open 6:00 Door,Mythril,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,3,3869,2656337,Neverland Clock Tower 06:00 Door
+Neverland,Clock Tower,Open 6:00 Door,Mythril,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,1,5261,2656337,Neverland Clock Tower 06:00 Door
+Neverland,Clock Tower,Open 6:00 Door,Mythril,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,2,526D,2656337,Neverland Clock Tower 06:00 Door
+Neverland,Clock Tower,Open 6:00 Door,Mythril,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,3,5279,2656337,Neverland Clock Tower 06:00 Door
+Neverland,Clock Tower,Open 7:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,1,C135,2656338,Neverland Clock Tower 07:00 Door
+Neverland,Clock Tower,Open 7:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,2,C141,2656338,Neverland Clock Tower 07:00 Door
+Neverland,Clock Tower,Open 7:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,3,C14D,2656338,Neverland Clock Tower 07:00 Door
+Neverland,Clock Tower,Open 7:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,1,6789,2656338,Neverland Clock Tower 07:00 Door
+Neverland,Clock Tower,Open 7:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,2,6795,2656338,Neverland Clock Tower 07:00 Door
+Neverland,Clock Tower,Open 7:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,3,67A1,2656338,Neverland Clock Tower 07:00 Door
+Neverland,Clock Tower,Open 7:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,1,3D51,2656338,Neverland Clock Tower 07:00 Door
+Neverland,Clock Tower,Open 7:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,2,3D5D,2656338,Neverland Clock Tower 07:00 Door
+Neverland,Clock Tower,Open 7:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,3,3D69,2656338,Neverland Clock Tower 07:00 Door
+Neverland,Clock Tower,Open 7:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,1,5761,2656338,Neverland Clock Tower 07:00 Door
+Neverland,Clock Tower,Open 7:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,2,576D,2656338,Neverland Clock Tower 07:00 Door
+Neverland,Clock Tower,Open 7:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,3,5779,2656338,Neverland Clock Tower 07:00 Door
+Neverland,Clock Tower,Open 8:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,1,C635,2656339,Neverland Clock Tower 08:00 Door
+Neverland,Clock Tower,Open 8:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,2,C641,2656339,Neverland Clock Tower 08:00 Door
+Neverland,Clock Tower,Open 8:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,3,C64D,2656339,Neverland Clock Tower 08:00 Door
+Neverland,Clock Tower,Open 8:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,1,6C89,2656339,Neverland Clock Tower 08:00 Door
+Neverland,Clock Tower,Open 8:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,2,6C95,2656339,Neverland Clock Tower 08:00 Door
+Neverland,Clock Tower,Open 8:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,3,6CA1,2656339,Neverland Clock Tower 08:00 Door
+Neverland,Clock Tower,Open 8:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,1,4251,2656339,Neverland Clock Tower 08:00 Door
+Neverland,Clock Tower,Open 8:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,2,425D,2656339,Neverland Clock Tower 08:00 Door
+Neverland,Clock Tower,Open 8:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,3,4269,2656339,Neverland Clock Tower 08:00 Door
+Neverland,Clock Tower,Open 8:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,1,5C61,2656339,Neverland Clock Tower 08:00 Door
+Neverland,Clock Tower,Open 8:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,2,5C6D,2656339,Neverland Clock Tower 08:00 Door
+Neverland,Clock Tower,Open 8:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,3,5C79,2656339,Neverland Clock Tower 08:00 Door
+Neverland,Clock Tower,Open 9:00 Door,Orichalcum,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,1,CB31,2656340,Neverland Clock Tower 09:00 Door
+Neverland,Clock Tower,Open 9:00 Door,Orichalcum,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,2,CB31,2656340,Neverland Clock Tower 09:00 Door
+Neverland,Clock Tower,Open 9:00 Door,Orichalcum,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,3,CB49,2656340,Neverland Clock Tower 09:00 Door
+Neverland,Clock Tower,Open 9:00 Door,Orichalcum,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,1,7185,2656340,Neverland Clock Tower 09:00 Door
+Neverland,Clock Tower,Open 9:00 Door,Orichalcum,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,2,7191,2656340,Neverland Clock Tower 09:00 Door
+Neverland,Clock Tower,Open 9:00 Door,Orichalcum,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,3,719D,2656340,Neverland Clock Tower 09:00 Door
+Neverland,Clock Tower,Open 9:00 Door,Orichalcum,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,1,474D,2656340,Neverland Clock Tower 09:00 Door
+Neverland,Clock Tower,Open 9:00 Door,Orichalcum,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,2,4759,2656340,Neverland Clock Tower 09:00 Door
+Neverland,Clock Tower,Open 9:00 Door,Orichalcum,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,3,4765,2656340,Neverland Clock Tower 09:00 Door
+Neverland,Clock Tower,Open 9:00 Door,Orichalcum,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,1,615D,2656340,Neverland Clock Tower 09:00 Door
+Neverland,Clock Tower,Open 9:00 Door,Orichalcum,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,2,6169,2656340,Neverland Clock Tower 09:00 Door
+Neverland,Clock Tower,Open 9:00 Door,Orichalcum,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,3,6175,2656340,Neverland Clock Tower 09:00 Door
+Neverland,Clock Tower,Open 10:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,1,D02D,2656341,Neverland Clock Tower 10:00 Door
+Neverland,Clock Tower,Open 10:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,2,D039,2656341,Neverland Clock Tower 10:00 Door
+Neverland,Clock Tower,Open 10:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,3,D045,2656341,Neverland Clock Tower 10:00 Door
+Neverland,Clock Tower,Open 10:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,1,7681,2656341,Neverland Clock Tower 10:00 Door
+Neverland,Clock Tower,Open 10:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,2,768D,2656341,Neverland Clock Tower 10:00 Door
+Neverland,Clock Tower,Open 10:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,3,7699,2656341,Neverland Clock Tower 10:00 Door
+Neverland,Clock Tower,Open 10:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,1,4C49,2656341,Neverland Clock Tower 10:00 Door
+Neverland,Clock Tower,Open 10:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,2,4C55,2656341,Neverland Clock Tower 10:00 Door
+Neverland,Clock Tower,Open 10:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,3,4C61,2656341,Neverland Clock Tower 10:00 Door
+Neverland,Clock Tower,Open 10:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,1,6659,2656341,Neverland Clock Tower 10:00 Door
+Neverland,Clock Tower,Open 10:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,2,6665,2656341,Neverland Clock Tower 10:00 Door
+Neverland,Clock Tower,Open 10:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,3,6671,2656341,Neverland Clock Tower 10:00 Door
+Neverland,Clock Tower,Open 11:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,1,D529,2656342,Neverland Clock Tower 11:00 Door
+Neverland,Clock Tower,Open 11:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,2,D535,2656342,Neverland Clock Tower 11:00 Door
+Neverland,Clock Tower,Open 11:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,3,D541,2656342,Neverland Clock Tower 11:00 Door
+Neverland,Clock Tower,Open 11:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,1,7B7D,2656342,Neverland Clock Tower 11:00 Door
+Neverland,Clock Tower,Open 11:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,2,7B89,2656342,Neverland Clock Tower 11:00 Door
+Neverland,Clock Tower,Open 11:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,3,7B95,2656342,Neverland Clock Tower 11:00 Door
+Neverland,Clock Tower,Open 11:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,1,5145,2656342,Neverland Clock Tower 11:00 Door
+Neverland,Clock Tower,Open 11:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,2,5151,2656342,Neverland Clock Tower 11:00 Door
+Neverland,Clock Tower,Open 11:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,3,515D,2656342,Neverland Clock Tower 11:00 Door
+Neverland,Clock Tower,Open 11:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,1,6B55,2656342,Neverland Clock Tower 11:00 Door
+Neverland,Clock Tower,Open 11:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,2,6B61,2656342,Neverland Clock Tower 11:00 Door
+Neverland,Clock Tower,Open 11:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,3,6B6D,2656342,Neverland Clock Tower 11:00 Door
+Neverland,Clock Tower,Open 12:00 Door,Megalixir,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,1,DA25,2656343,Neverland Clock Tower 12:00 Door
+Neverland,Clock Tower,Open 12:00 Door,Megalixir,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,2,DA31,2656343,Neverland Clock Tower 12:00 Door
+Neverland,Clock Tower,Open 12:00 Door,Megalixir,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,3,DA3D,2656343,Neverland Clock Tower 12:00 Door
+Neverland,Clock Tower,Open 12:00 Door,Megalixir,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,1,8079,2656343,Neverland Clock Tower 12:00 Door
+Neverland,Clock Tower,Open 12:00 Door,Megalixir,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,2,8085,2656343,Neverland Clock Tower 12:00 Door
+Neverland,Clock Tower,Open 12:00 Door,Megalixir,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,3,8091,2656343,Neverland Clock Tower 12:00 Door
+Neverland,Clock Tower,Open 12:00 Door,Megalixir,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,1,5641,2656343,Neverland Clock Tower 12:00 Door
+Neverland,Clock Tower,Open 12:00 Door,Megalixir,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,2,564D,2656343,Neverland Clock Tower 12:00 Door
+Neverland,Clock Tower,Open 12:00 Door,Megalixir,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,3,5659,2656343,Neverland Clock Tower 12:00 Door
+Neverland,Clock Tower,Open 12:00 Door,Megalixir,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,1,7051,2656343,Neverland Clock Tower 12:00 Door
+Neverland,Clock Tower,Open 12:00 Door,Megalixir,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,2,705D,2656343,Neverland Clock Tower 12:00 Door
+Neverland,Clock Tower,Open 12:00 Door,Megalixir,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,3,7069,2656343,Neverland Clock Tower 12:00 Door
+Wonderland,Bizarre Room,Read Book,Mythril Shard,1,/remastered/aw03.ard/UK_aw03_ard0.evdl,N,1,9361,2656376,Wonderland Bizarre Room Read Book
+Wonderland,Bizarre Room,Read Book,Mythril Shard,1,/remastered/aw03.ard/UK_aw03_ard0.evdl,N,2,936D,2656376,Wonderland Bizarre Room Read Book
+Wonderland,Bizarre Room,Read Book,Mythril Shard,1,/remastered/aw03.ard/UK_aw03_ard0.evdl,N,3,9379,2656376,Wonderland Bizarre Room Read Book
+Wonderland,Bizarre Room,Read Book,Mythril Shard,1,/remastered/aw03.ard/UK_aw03_ard2.evdl,N,1,7CBD,2656376,Wonderland Bizarre Room Read Book
+Wonderland,Bizarre Room,Read Book,Mythril Shard,1,/remastered/aw03.ard/UK_aw03_ard2.evdl,N,2,7CC9,2656376,Wonderland Bizarre Room Read Book
+Wonderland,Bizarre Room,Read Book,Mythril Shard,1,/remastered/aw03.ard/UK_aw03_ard2.evdl,N,3,7CD5,2656376,Wonderland Bizarre Room Read Book
+Wonderland,Bizarre Room,Read Book,Mythril Shard,1,/remastered/aw03.ard/UK_aw03_ard19.evdl,N,1,4871,2656376,Wonderland Bizarre Room Read Book
+Wonderland,Bizarre Room,Read Book,Mythril Shard,1,/remastered/aw03.ard/UK_aw03_ard19.evdl,N,2,487D,2656376,Wonderland Bizarre Room Read Book
+Wonderland,Bizarre Room,Read Book,Mythril Shard,1,/remastered/aw03.ard/UK_aw03_ard19.evdl,N,3,4889,2656376,Wonderland Bizarre Room Read Book
+Wonderland,Bizarre Room,Read Book,Mythril Shard,1,/remastered/aw03.ard/UK_aw03_ardc.evdl,N,1,7C31,2656376,Wonderland Bizarre Room Read Book
+Wonderland,Bizarre Room,Read Book,Mythril Shard,1,/remastered/aw03.ard/UK_aw03_ardc.evdl,N,2,7C3D,2656376,Wonderland Bizarre Room Read Book
+Wonderland,Bizarre Room,Read Book,Mythril Shard,1,/remastered/aw03.ard/UK_aw03_ardc.evdl,N,3,7C49,2656376,Wonderland Bizarre Room Read Book
+Wonderland,Bizarre Room,Defeat Trickmaster,Blizzard,1,/remastered/aw02.ard/UK_aw02_ard0.evdl,Y,1,1118C,2656041,Wonderland Defeat Trickmaster Blizzard Event
+Wonderland,Bizarre Room,Defeat Trickmaster,Blizzard,1,/remastered/aw02.ard/UK_aw02_ard0.evdl,Y,2,11198,2656041,Wonderland Defeat Trickmaster Blizzard Event
+Wonderland,Bizarre Room,Defeat Trickmaster,Blizzard,1,/remastered/aw02.ard/UK_aw02_ard0.evdl,Y,3,111A4,2656041,Wonderland Defeat Trickmaster Blizzard Event
+Wonderland,Bizarre Room,Defeat Trickmaster,Navi-G Piece 2,1,/remastered/aw02.ard/UK_aw02_ard0.evdl,Y,1,10DFC,2656385,Wonderland Bizarre Room Navi-G Piece Event
+Wonderland,Bizarre Room,Defeat Trickmaster,Navi-G Piece 2,1,/remastered/aw02.ard/UK_aw02_ard0.evdl,Y,2,10E08,2656385,Wonderland Bizarre Room Navi-G Piece Event
+Wonderland,Bizarre Room,Defeat Trickmaster,Navi-G Piece 2,1,/remastered/aw02.ard/UK_aw02_ard0.evdl,Y,3,10E14,2656385,Wonderland Bizarre Room Navi-G Piece Event
+Monstro,Throat,Defeate Parasite Cage 2,Stop,1,/remastered/pi03.ard/UK_pi03_ard2.evdl,Y,1,5D39,2656062,Monstro Defeat Parasite Cage II Stop Event
+Monstro,Throat,Defeate Parasite Cage 2,Stop,1,/remastered/pi03.ard/UK_pi03_ard2.evdl,Y,2,5D45,2656062,Monstro Defeat Parasite Cage II Stop Event
+Monstro,Throat,Defeate Parasite Cage 2,Stop,1,/remastered/pi03.ard/UK_pi03_ard2.evdl,Y,3,5D51,2656062,Monstro Defeat Parasite Cage II Stop Event
+Monstro,Throat,Defeate Parasite Cage 2,Stop,1,/remastered/pi03.ard/UK_pi03_ard0.evdl,Y,1,6E5D,2656062,Monstro Defeat Parasite Cage II Stop Event
+Monstro,Throat,Defeate Parasite Cage 2,Stop,1,/remastered/pi03.ard/UK_pi03_ard0.evdl,Y,2,6E69,2656062,Monstro Defeat Parasite Cage II Stop Event
+Monstro,Throat,Defeate Parasite Cage 2,Stop,1,/remastered/pi03.ard/UK_pi03_ard0.evdl,Y,3,6E75,2656062,Monstro Defeat Parasite Cage II Stop Event
+End of the World,World Terminus: Atlantica,Chest,AP Up,1,/remastered/ew22.ard/UK_ew22_ard19.evdl,N,1,1B65,2654731,End of the World World Terminus Atlantica Chest
+End of the World,World Terminus: Atlantica,Chest,AP Up,1,/remastered/ew22.ard/UK_ew22_ard19.evdl,N,2,1B0D,2654731,End of the World World Terminus Atlantica Chest
+End of the World,World Terminus: Atlantica,Chest,AP Up,1,/remastered/ew22.ard/UK_ew22_ard19.evdl,N,3,1B15,2654731,End of the World World Terminus Atlantica Chest
+End of the World,World Terminus: Atlantica,Chest,AP Up,1,/remastered/ew22.ard/UK_ew22_ardc.evdl,N,1,1E19,2654731,End of the World World Terminus Atlantica Chest
+End of the World,World Terminus: Atlantica,Chest,AP Up,1,/remastered/ew22.ard/UK_ew22_ardc.evdl,N,2,1E5D,2654731,End of the World World Terminus Atlantica Chest
+End of the World,World Terminus: Atlantica,Chest,AP Up,1,/remastered/ew22.ard/UK_ew22_ardc.evdl,N,3,1E71,2654731,End of the World World Terminus Atlantica Chest
+End of the World,World Terminus: Atlantica,Chest,AP Up,1,/remastered/ew22.ard/UK_ew22_ardc.evdl,N,1,1E19,2654731,End of the World World Terminus Atlantica Chest
+End of the World,World Terminus: Atlantica,Chest,AP Up,1,/remastered/ew22.ard/UK_ew22_ardc.evdl,N,2,1E5D,2654731,End of the World World Terminus Atlantica Chest
+End of the World,World Terminus: Atlantica,Chest,AP Up,1,/remastered/ew22.ard/UK_ew22_ardc.evdl,N,3,1E71,2654731,End of the World World Terminus Atlantica Chest
+End of the World,World Terminus: Atlantica,Chest,AP Up,1,/remastered/ew22.ard/UK_ew22_ardd.evdl,N,1,1B65,2654731,End of the World World Terminus Atlantica Chest
+End of the World,World Terminus: Atlantica,Chest,AP Up,1,/remastered/ew22.ard/UK_ew22_ardd.evdl,N,2,1BA9,2654731,End of the World World Terminus Atlantica Chest
+End of the World,World Terminus: Atlantica,Chest,AP Up,1,/remastered/ew22.ard/UK_ew22_ardd.evdl,N,3,1BBD,2654731,End of the World World Terminus Atlantica Chest
+Olympus Coliseum,Lobby,Complete Hercules Cup Together,Yellow Trinity,1,/remastered/he02.ard/UK_he02e.ev,Y,1,7B8D,2659019,Hercules Cup Yellow Trinity Event
+Olympus Coliseum,Lobby,Complete Hercules Cup Together,Yellow Trinity,1,/remastered/he02.ard/UK_he02e.ev,Y,2,7B99,2659019,Hercules Cup Yellow Trinity Event
+Olympus Coliseum,Lobby,Complete Hercules Cup Together,Yellow Trinity,1,/remastered/he02.ard/UK_he02e.ev,Y,3,7BA5,2659019,Hercules Cup Yellow Trinity Event
+Olympus Coliseum,Lobby,Complete Hercules Cup Together,Yellow Trinity,1,/remastered/he02.ard/UK_he02e.ev,Y,4,7E99,2659019,Hercules Cup Yellow Trinity Event
+Olympus Coliseum,Lobby,Complete Hercules Cup Together,Yellow Trinity,1,/remastered/he02.ard/UK_he02e.ev,Y,5,7EA5,2659019,Hercules Cup Yellow Trinity Event
+Olympus Coliseum,Lobby,Complete Hercules Cup Together,Yellow Trinity,1,/remastered/he02.ard/UK_he02e.ev,Y,6,7EB1,2659019,Hercules Cup Yellow Trinity Event
+Olympus Coliseum,Lobby,Complete Hercules Cup Together,Yellow Trinity,1,/remastered/he02.ard/UK_he02e.ev,Y,7,81A5,2659019,Hercules Cup Yellow Trinity Event
+Olympus Coliseum,Lobby,Complete Hercules Cup Together,Yellow Trinity,1,/remastered/he02.ard/UK_he02e.ev,Y,8,81B1,2659019,Hercules Cup Yellow Trinity Event
+Olympus Coliseum,Lobby,Complete Hercules Cup Together,Yellow Trinity,1,/remastered/he02.ard/UK_he02e.ev,Y,9,81BD,2659019,Hercules Cup Yellow Trinity Event

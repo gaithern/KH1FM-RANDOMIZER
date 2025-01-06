@@ -1,0 +1,13 @@
+title: Test Enemy Stats and Drops
+originalAuthor: Gicu
+description: Testing Changing Enemy Stats and Drops
+assets:
+#Lua Script
+- name: scripts/1fmRandoChests.lua
+  method: copy
+  source:
+  - name: 1fmRandoChests.lua
+- name: remastered/btltbl.bin/UK_Word.bin
+  method: copy
+  source:
+  - name: Word.bin
