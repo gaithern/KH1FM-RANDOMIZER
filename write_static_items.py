@@ -81,10 +81,25 @@ def write_updated_evdl_files(sorted_evdl_location_data, seed_json_data, kh1_data
                 print("AP Location ID not found in replacement JSON, writing potion")
         write_evdl_bytes_to_file(file, evdl_bytes)
 
+def get_mod_yml_string(sorted_evdl_location_data):
+    mod_yml_str = ""
+    for file in sorted_evdl_location_data.keys():
+        mod_yml_str = mod_yml_str + """
+- name: """ + str(file) + """
+  method: copy
+  source:
+  - name: """ + file
+    return mod_yml_str
+
+def write_mod_yml_file(mod_yml_st):
+    with open("./Output/mod.yml", "w") as file:
+        file.write(mod_yml_st)
+
 if __name__=="__main__":
     kh1_data_path = "C:/OpenKH/OpenKHEGS/data/kh1/"
     seed_json_data = get_seed_json_data()
     evdl_locations = get_evdl_locations()
     sorted_evdl_location_data = sort_evdl_location_data(evdl_locations)
     write_updated_evdl_files(sorted_evdl_location_data, seed_json_data, kh1_data_path)
-    
+    mod_yml_string = get_mod_yml_string(sorted_evdl_location_data)
+    write_mod_yml_file(mod_yml_string)
