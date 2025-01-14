@@ -5,7 +5,7 @@ import json
 from pprint import pprint
 import os
 
-from definitions import synthesis_item_ids
+from definitions import repurposed_key_item_ids
 
 root = tk.Tk()
 root.withdraw()
@@ -33,7 +33,7 @@ def get_enemy_data(kh1_data_path, file_name):
 def remove_enemy_synth_drops(enemy_bytes, enemy_drop_definitions):
     for enemy_drop_definition in enemy_drop_definitions:
         if enemy_drop_definition["Notes"].startswith("Drop"):
-            if int(enemy_drop_definition["Value"]) in synthesis_item_ids:
+            if int(enemy_drop_definition["Value"]) in repurposed_key_item_ids:
                 offset = int(enemy_drop_definition["Offset"], 16)
                 enemy_bytes[offset-4] = 0
                 enemy_bytes[offset-3] = 0

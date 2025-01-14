@@ -1,4 +1,4 @@
-synthesis_item_ids = [
+repurposed_key_item_ids = [
     9,
     10,
     11,
@@ -20,6 +20,8 @@ synthesis_item_ids = [
     165,
     166,
     167,
+    230,
+    231,
     232,
     233,
     234,

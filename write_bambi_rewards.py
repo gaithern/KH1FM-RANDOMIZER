@@ -5,7 +5,7 @@ import json
 from pprint import pprint
 import os
 
-from definitions import synthesis_item_ids
+from definitions import repurposed_key_item_ids
 
 root = tk.Tk()
 root.withdraw()
@@ -33,7 +33,7 @@ def get_bambi_data(kh1_data_path):
 def remove_bambi_synth_drops(bambi_bytes, bambi_definitions):
     for bambi_definition in bambi_definitions:
         if bambi_definition["Notes"].startswith("Drop"):
-            if int(bambi_definition["Value"]) in synthesis_item_ids:
+            if int(bambi_definition["Value"]) in repurposed_key_item_ids:
                 offset = int(bambi_definition["Offset"], 16)
                 bambi_bytes[offset-4] = 0
                 bambi_bytes[offset-3] = 0
