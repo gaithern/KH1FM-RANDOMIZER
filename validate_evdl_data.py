@@ -56,7 +56,6 @@ def validate_data():
         elif use_corrected_evdl_dict[file_location["File"]] != file_location["Use Corrected File?"]:
             print("ERROR! Check " + file_location["File"] + " again!  Multiple Use Corrected File? values found")
             error = True
-    pprint.pprint(use_corrected_evdl_dict)
     if not error:
         print("All checks completed successfully!")
 
