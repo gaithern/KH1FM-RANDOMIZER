@@ -27,6 +27,7 @@ def validate_data():
     kh1_data_path = get_kh1_data_path()
     corrected_evdl_data = get_corrected_evdl_data()
     static_item_dict = {}
+    use_corrected_evdl_dict = {}
     for file_location in corrected_evdl_data:
         key = file_location["World"] + " " + file_location["Location"] + " " + file_location["Action"] + " " + file_location["Item"] + " " + file_location["Number"]
         if key not in static_item_dict.keys():
@@ -49,6 +50,13 @@ def validate_data():
             print("ERROR! Check " + item + " again!")
             print(bytes)
             error = True
+    for file_location in corrected_evdl_data:
+        if file_location["File"] not in use_corrected_evdl_dict.keys():
+            use_corrected_evdl_dict[file_location["File"]] = file_location["Use Corrected File?"]
+        elif use_corrected_evdl_dict[file_location["File"]] != file_location["Use Corrected File?"]:
+            print("ERROR! Check " + file_location["File"] + " again!  Multiple Use Corrected File? values found")
+            error = True
+    pprint.pprint(use_corrected_evdl_dict)
     if not error:
         print("All checks completed successfully!")
 

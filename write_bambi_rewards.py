@@ -55,23 +55,9 @@ def write_bambi_mdls(bambi_bytes):
     with safe_open_wb('./Output/' + "xa_ex_4030.mdls") as file:
         file.write(bambi_bytes)
 
-def get_mod_yml_string():
-    mod_yml_str = """
-- name: xa_ex_4030.mdls
-  method: copy
-  source:
-  - name: xa_ex_4030.mdls"""
-    return mod_yml_str
-
-def write_mod_yml_file(mod_yml_st):
-    with open("./Output/mod_bambi.yml", "w") as file:
-        file.write(mod_yml_st)
-
 if __name__=="__main__":
     kh1_data_path = "C:/OpenKH/OpenKHEGS/data/kh1/"
     bambi_definitions = get_bambi_definitions()
     bambi_bytes = get_bambi_data(kh1_data_path)
     bambi_bytes = remove_bambi_synth_drops(bambi_bytes, bambi_definitions)
     write_bambi_mdls(bambi_bytes)
-    mod_yml_string = get_mod_yml_string()
-    write_mod_yml_file(mod_yml_string)

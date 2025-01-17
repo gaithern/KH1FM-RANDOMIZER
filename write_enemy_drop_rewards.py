@@ -55,23 +55,6 @@ def write_enemy_mdls(enemy_bytes, file_name):
     with safe_open_wb('./Output/' + file_name) as file:
         file.write(enemy_bytes)
 
-def get_mod_yml_string(enemy_drop_definitions):
-    written_enemy_mdls_yaml_data = []
-    mod_yml_str = """"""
-    for enemy_drop_definition in enemy_drop_definitions:
-        if enemy_drop_definition["File"] not in written_enemy_mdls_yaml_data:
-            written_enemy_mdls_yaml_data.append(enemy_drop_definition["File"])
-            mod_yml_str = mod_yml_str + """
-- name: """ + enemy_drop_definition["File"] + """
-  method: copy
-  source:
-  - name: """ + enemy_drop_definition["File"]
-    return mod_yml_str
-
-def write_mod_yml_file(mod_yml_st):
-    with open("./Output/mod_enemies.yml", "w") as file:
-        file.write(mod_yml_st)
-
 def sort_enemy_drop_definitions(enemy_drop_definitions):
     sorted_enemy_drop_definitions = {}
     for enemy_drop_definition in enemy_drop_definitions:
@@ -88,5 +71,3 @@ if __name__=="__main__":
         enemy_bytes = get_enemy_data(kh1_data_path, file)
         enemy_bytes = remove_enemy_synth_drops(enemy_bytes, sorted_enemy_drop_definitions[file])
         write_enemy_mdls(enemy_bytes, file)
-    mod_yml_string = get_mod_yml_string(enemy_drop_definitions)
-    write_mod_yml_file(mod_yml_string)
