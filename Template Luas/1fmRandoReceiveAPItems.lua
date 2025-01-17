@@ -238,7 +238,7 @@ function define_items()
   { ID = 2641164, Name = "Aero Arts" ,              Usefulness = item_usefulness.progression },
   { ID = 2641165, Name = "Neverland" ,              Usefulness = item_usefulness.progression },
   { ID = 2641166, Name = "Halloween Town",          Usefulness = item_usefulness.progression },
-  { ID = 2641167, Name = "Puppy"                    Usefulness = item_usefulness.progression },
+  { ID = 2641167, Name = "Puppy",                   Usefulness = item_usefulness.progression },
   { ID = 2641168, Name = "Hollow Bastion",          Usefulness = item_usefulness.progression },
   { ID = 2641169, Name = "End of the World",        Usefulness = item_usefulness.progression },
   { ID = 2641170, Name = "Blue Trinity",            Usefulness = item_usefulness.progression },
@@ -513,6 +513,12 @@ function write_soras_stats(soras_stats_array)
     WriteByte(soras_stats_address[game_version] + sora_item_slots_offset      , soras_stats_array[7])
 end
 
+function write_item(item_offset)
+    --[[Grants the players a specific item defined by the offset]]
+    stock_address = {0x2DEA1F9, 0x2DE97F9}
+    WriteByte(stock_address[game_version] + item_offset, math.min(ReadByte(stock_address[game_version] + item_offset) + 1, 99))
+end
+
 function add_to_soras_stats(value)
     --[[Calculates sora's stats by incrementing the stat based on the stat_increases array]]
     stat_increases = {3, 1, 2, 2, 2, 1, 1}
@@ -528,6 +534,9 @@ function receive_items()
         file = io.open(client_communication_path .. "AP_" .. tostring(i) .. ".item", "r")
         io.input(file)
         received_item_id = tonumber(io.read())
+        if received_item_id == nil then
+            return
+        end
         io.close(file)
         if not initializing and read_world() ~= 0 then
             local item = get_item_by_id(received_item_id) or { Name = "UNKNOWN ITEM", ID = -1}
@@ -552,6 +561,340 @@ function receive_items()
     write_check_number(i - 1)
 end
 
+--MESSAGE HANDLING BLOCK BY KRUJO--
+
+function receive_sent_msgs()
+    --[[Written by Krujo.  Handles the messages coming directly from the server for 
+    messages involving sending items to other players]]
+    local filename = client_communication_path .. "sent"
+    if file_exists(filename) then
+        local lines = {}
+        local file = io.open(filename, "r")
+        local line = file:read("*line")
+        while line do
+            table.insert(lines, line)
+            line = file:read("*line")
+        end
+        file:close()
+        if message_cache.locationID ~= lines[4] then --If the last sent prompt we parsed does not share a location id with this prompt we're reading
+            table.insert(message_cache.sent, lines)
+            message_cache.locationID = lines[4]
+        end
+    end
+end
+
+function GetKHSCII(INPUT)
+    local _charTable = {
+        [' '] =  0x01,
+        ['\n'] =  0x02,
+        ['-'] =  0x6E,
+        ['!'] =  0x5F,
+        ['?'] =  0x60,
+        ['%'] =  0x62,
+        ['/'] =  0x66,
+        ['.'] =  0x68,
+        [','] =  0x69,
+        [';'] =  0x6C,
+        [':'] =  0x6B,
+        ['\''] =  0x71,
+        ['('] =  0x74,
+        [')'] =  0x75,
+        ['['] =  0x76,
+        [']'] =  0x77,
+        ['¡'] =  0xCA,
+        ['¿'] =  0xCB,
+        ['À'] =  0xCC,
+        ['Á'] =  0xCD,
+        ['Â'] =  0xCE,
+        ['Ä'] =  0xCF,
+        ['Ç'] =  0xD0,
+        ['È'] =  0xD1,
+        ['É'] =  0xD2,
+        ['Ê'] =  0xD3,
+        ['Ë'] =  0xD4,
+        ['Ì'] =  0xD5,
+        ['Í'] =  0xD6,
+        ['Î'] =  0xD7,
+        ['Ï'] =  0xD8,
+        ['Ñ'] =  0xD9,
+        ['Ò'] =  0xDA,
+        ['Ó'] =  0xDB,
+        ['Ô'] =  0xDC,
+        ['Ö'] =  0xDD,
+        ['Ù'] =  0xDE,
+        ['Ú'] =  0xDF,
+        ['Û'] =  0xE0,
+        ['Ü'] =  0xE1,
+        ['ß'] =  0xE2,
+        ['à'] =  0xE3,
+        ['á'] =  0xE4,
+        ['â'] =  0xE5,
+        ['ä'] =  0xE6,
+        ['ç'] =  0xE7,
+        ['è'] =  0xE8,
+        ['é'] =  0xE9,
+        ['ê'] =  0xEA,
+        ['ë'] =  0xEB,
+        ['ì'] =  0xEC,
+        ['í'] =  0xED,
+        ['î'] =  0xEE,
+        ['ï'] =  0xEF,
+        ['ñ'] =  0xF0,
+        ['ò'] =  0xF1,
+        ['ó'] =  0xF2,
+        ['ô'] =  0xF3,
+        ['ö'] =  0xF4,
+        ['ù'] =  0xF5,
+        ['ú'] =  0xF6,
+        ['û'] =  0xF7,
+        ['ü'] =  0xF8
+    }
+
+    local _returnArray = {}
+
+    local i = 1
+    local z = 1
+
+    while z <= #INPUT do
+        local _char = INPUT:sub(z, z)
+
+        if _char >= 'a' and _char <= 'z' then
+            _returnArray[i] = string.byte(_char) - 0x1C
+            z = z + 1
+        elseif _char >= 'A' and _char <= 'Z' then
+            _returnArray[i] = string.byte(_char) - 0x16
+            z = z + 1
+        elseif _char >= '0' and _char <= '9' then
+            _returnArray[i] = string.byte(_char) - 0x0F
+            z = z + 1
+        elseif _char == '{' then
+            local _str =
+            {
+                INPUT:sub(z + 1, z + 1),
+                INPUT:sub(z + 2, z + 2),
+                INPUT:sub(z + 3, z + 3),
+                INPUT:sub(z + 4, z + 4),
+                INPUT:sub(z + 5, z + 5)
+            }
+
+            if _str[1] == '0' and _str[2] == 'x' and _str[5] == '}' then
+
+                local _s = _str[3] .. _str[4]
+
+                _returnArray[i] = tonumber(_s, 16)
+                z = z + 6
+            end
+        else
+            if _charTable[_char] ~= nil then
+                _returnArray[i] = _charTable[_char]
+                z = z + 1
+            else
+                _returnArray[i] = 0x01
+                z = z + 1
+            end
+        end
+
+        i = i + 1
+    end
+
+    table.insert(_returnArray, 0x00)
+    return _returnArray
+end
+
+function usefulness_to_colour(usefulness)
+    --Written by Krujo.  Gets color values for a particular
+    --defined usefulness
+    if usefulness == item_usefulness.useless then
+        return prompt_colours.green_mint
+    elseif usefulness == item_usefulness.normal then
+        return prompt_colours.red_sora
+    elseif usefulness == item_usefulness.progression then
+        return prompt_colours.purple_evil
+    elseif usefulness == item_usefulness.special then
+        return prompt_colours.red_rose
+    elseif usefulness == item_usefulness.trap then
+        return prompt_colours.red_trap
+    end
+end
+
+function show_prompt_for_item(item)
+    --[[Written by Krujo.  Wrapper for show_prompt.  Pulls output
+    color information and formats text accordingly.]]
+    local text_1 = ""
+    local text_2 = { { item.Name } }
+    local category = item_categories.consumables;
+    local smallId = item.ID - 2640000
+    if smallId > 1000 and smallId < 1009 then
+        category = item_categories.consumable
+    elseif smallId > 1008 and smallId < 1017 then
+        category = item_categories.synthesis
+    elseif smallId > 1016 and smallId < 1136 then
+        category = item_categories.equipment
+    elseif smallId > 2000 and smallId < 4001 then
+        if smallId > 2100 and smallId < 2400 then
+            category = item_categories.unlock
+        else
+            category = item_categories.ability
+        end
+    elseif smallId > 4000 and smallId < 5000 then
+        category = item_categories.statsUp
+    elseif smallId > 5000 and smallId < 6000 then
+        category = item_categories.summon
+    elseif smallId > 6000 and smallId < 7000 then
+        category = item_categories.magic
+    elseif smallId > 8000 and smallId < 9000 then
+        category = item_categories.trinity
+    elseif smallId > 5000 and smallId < 6000 then
+        category = item_categories.summon
+    elseif smallId > 7000 and smallId < 10000 then
+        category = item_categories.unlock
+    end
+    local catUsefulness = item_usefulness.useless
+    if category == item_categories.consumable then
+        text_1 = "Consumable"
+        catUsefulness = item_usefulness.useless
+    elseif category == item_categories.synthesis then
+        text_1 = "Synthesis"
+        catUsefulness = item_usefulness.useless
+    elseif category == item_categories.equipment then
+        text_1 = "Equipment"
+        catUsefulness = item_usefulness.normal
+    elseif category == item_categories.ability then
+        text_1 = "Ability"
+        catUsefulness = item_usefulness.normal
+    elseif category == item_categories.statsUp then
+        text_1 = "Stat Up"
+        catUsefulness = item_usefulness.normal
+    elseif category == item_categories.summon then
+        text_1 = "Summon"
+        catUsefulness = item_usefulness.normal
+    elseif category == item_categories.magic then
+        text_1 = "Magic"
+        catUsefulness = item_usefulness.normal
+    elseif category == item_categories.trinity then
+        text_1 = "Trinity"
+        catUsefulness = item_usefulness.progression
+    elseif category == item_categories.unlock then
+        text_1 = "Unlock"
+        catUsefulness = item_usefulness.progression
+    end
+    local colour = prompt_colours.red_sora;
+    if item.Usefulness == nil then
+        item.Usefulness = catUsefulness
+    end
+    colour = usefulness_to_colour(item.Usefulness)
+    show_prompt({ text_1 }, text_2, null, colour)
+end
+
+function show_prompt(input_title, input_party, duration, colour)
+    --[[Writes to memory the message to be displayed in a Level Up prompt.]]
+    if colour == nil then
+        colour = prompt_colours.red_sora
+    end
+    local _boxMemory = {0x283BD90, 0x283B390} --changed for EGS 1.0.0.10
+    local _textMemory = {0x2DC3068, 0x2DC2668} --changed for EGS 1.0.0.10
+
+    local _partyOffset = 0x3A20
+
+    for i = 1, #input_title do
+        if input_title[i] then
+            WriteArray(_textMemory[game_version] + 0x20 * (i - 1), GetKHSCII(input_title[i]))
+        end
+    end
+
+    for z = 1, 3 do
+        local _boxArray = input_party[z];
+        
+        color_box_address = {0x528710, 0x527A10}
+        color_text_address = {0x528750, 0x527A50}
+        
+        local _colorBox  = color_box_address[game_version] + colour
+        local _colorText = color_text_address[game_version] + colour
+
+        if _boxArray then
+            local _textAddress = (_textMemory[game_version] + 0x70) + (0x140 * (z - 1)) + (0x40 * 0)
+            local _boxAddress = _boxMemory[game_version] + (_partyOffset * (z - 1)) + (0xBA0 * 0)
+
+            -- Write the box count.
+            WriteInt(_boxMemory[game_version] - 0x10 + 0x04 * (z - 1), 1)
+
+            -- Write the Title Pointer.
+            WriteLong(_boxAddress + 0x30, BASE_ADDR  + _textMemory[game_version] + 0x20 * (z - 1))
+
+            if _boxArray[2] then
+                -- String Count is 2.
+                WriteInt(_boxAddress + 0x18, 0x02)
+
+                -- Second Line Text.
+                WriteArray(_textAddress + 0x20, GetKHSCII(_boxArray[2]))
+                WriteLong(_boxAddress + 0x28, BASE_ADDR  + _textAddress + 0x20)
+            else
+                -- String Count is 1
+                WriteInt(_boxAddress + 0x18, 0x01)
+            end
+
+            -- First Line Text
+            WriteArray(_textAddress, GetKHSCII(_boxArray[1]))
+            WriteLong(_boxAddress + 0x20, BASE_ADDR  + _textAddress)
+
+            -- Reset box timers.
+            WriteInt(_boxAddress + 0x0C, duration)
+            WriteFloat(_boxAddress + 0xB80, 1)
+
+            -- Set box colors.
+            WriteLong(_boxAddress + 0xB88, BASE_ADDR  + _colorBox)
+            WriteLong(_boxAddress + 0xB90, BASE_ADDR  + _colorText)
+
+            -- Show the box.
+            WriteInt(_boxAddress, 0x01)
+        end
+    end
+end
+
+function handle_messages()
+    --[[Written by Krujo.  Handles received messages in a queue system,
+    sending 1 message in the message_cache every main() iteration and removing
+    it from the cache.]]
+    local msg = message_cache.items[1]
+    if msg ~= nil then
+        show_prompt_for_item(msg)
+        table.remove(message_cache.items, 1)
+        return
+    end
+    msg = message_cache.sent[1]
+    if msg ~= nil then
+        table.remove(message_cache.sent, 1)
+        local info = {
+            item = msg[1],
+            reciver = msg[2],
+            usefulness = math.tointeger(msg[3]),
+        }
+        --Link's Ocarina
+        local item_msg = tostring(info.reciver);
+        if (string.sub(item_msg, -1) == 's') then
+            item_msg = item_msg .. "'"
+        else
+            item_msg = item_msg .. "'s"
+        end
+        item_msg = item_msg .. ' ' .. info.item
+        local usefulness;
+        if info.usefulness == 0 then
+            usefulness = item_usefulness.useless
+        elseif info.usefulness == 1 then
+            usefulness = item_usefulness.progression
+        elseif info.usefulness == 2 then
+            usefulness = item_usefulness.normal
+        elseif info.usefulness == 3 then
+            usefulness = item_usefulness.trap
+        end
+        ConsolePrint('use multiwork ' .. info.usefulness)
+        local colour = usefulness_to_colour(usefulness)
+        show_prompt({ "Multiworld" }, { { item_msg } }, null, colour)
+    end
+end
+
+--END MESSAGE HANDLING BLOCK BY KRUJO--
+
 function _OnInit()
     IsEpicGLVersion  = 0x3A2B86
     IsSteamGLVersion = 0x3A29A6
@@ -570,5 +913,8 @@ function _OnInit()
 end
 
 function _OnFrame()
-    receive_items()
+    if canExecute then
+        receive_items()
+        handle_messages()
+    end
 end

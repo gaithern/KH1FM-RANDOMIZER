@@ -133,7 +133,7 @@ def update_battle_table(battle_table_bytes, replacements):
     return battle_table_bytes
 
 def output_chest_lua_file(chest_lua_str):
-    with open('./Output/1fmRandoChests.lua', mode = 'w') as file:
+    with open('./Output/scripts/1fmRandoChests.lua', mode = 'w') as file:
         file.write(chest_lua_str)
 
 def output_battle_table(battle_table_bytes):

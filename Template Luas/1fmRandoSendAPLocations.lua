@@ -9,6 +9,7 @@ LUAGUI_DESC = "Kingdom Hearts 1FM Randomizer Send AP Locations"
 
 canExecute = false
 game_version = 1
+frame_count = 0
 location_map = {}
 
 if os.getenv('LOCALAPPDATA') ~= nil then
@@ -26,14 +27,25 @@ function file_exists(name)
    if f~=nil then io.close(f) return true else return false end
 end
 
+function toBits(num)
+    -- returns a table of bits, least significant first.
+    local t={} -- will contain the bits
+    while num>0 do
+        rest=math.fmod(num,2)
+        t[#t+1]=rest
+        num=(num-rest)/2
+    end
+    return t
+end
+
 function fill_location_map()
     chests_opened_address        = {0x2DEA32C, 0x2DE992C}
     world_progress_array_address = {0x2DEB264, 0x2DEA864}
-    postcards_mailed_address     = {0x2DEBA1F, 0x2DEB01F}
     atlantica_clams_address      = {0x2DEBB09, 0x2DEB109}
-    world_flags                  = {0x2DEAA6D, 0x2DEA06D}
+    world_flags_address          = {0x2DEAA6D, 0x2DEA06D}
     soras_level_address          = {0x2DE9D98, 0x2DE9398}
     ansems_reports_address       = {0x2DEB720, 0x2DEAD20}
+    olympus_flags_address        = {0x2E01896, 0x2E00E96}
     --[[Each location is defined by the following values
         Location_ID
         Address
@@ -315,16 +327,16 @@ function fill_location_map()
     table.insert(location_map, {2656105, world_progress_array_address[game_version] +   10, 0, 0xB9, 0}) --Hollow Bastion Defeat Behemoth Omega Arts Event
     table.insert(location_map, {2656106, world_progress_array_address[game_version] +   10, 0, 0xC3, 0}) --Hollow Bastion Speak to Princesses Fire Event
     table.insert(location_map, {2656111, world_progress_array_address[game_version] +   11, 0, 0x33, 0}) --End of the World Defeat Chernabog Superglide Event
-    table.insert(location_map, {2656120, postcards_mailed_address[game_version]     +    0, 0, 0x01, 0}) --Traverse Town Mail Postcard 01 Event
-    table.insert(location_map, {2656121, postcards_mailed_address[game_version]     +    0, 0, 0x02, 0}) --Traverse Town Mail Postcard 02 Event
-    table.insert(location_map, {2656122, postcards_mailed_address[game_version]     +    0, 0, 0x03, 0}) --Traverse Town Mail Postcard 03 Event
-    table.insert(location_map, {2656123, postcards_mailed_address[game_version]     +    0, 0, 0x04, 0}) --Traverse Town Mail Postcard 04 Event
-    table.insert(location_map, {2656124, postcards_mailed_address[game_version]     +    0, 0, 0x05, 0}) --Traverse Town Mail Postcard 05 Event
-    table.insert(location_map, {2656125, postcards_mailed_address[game_version]     +    0, 0, 0x06, 0}) --Traverse Town Mail Postcard 06 Event
-    table.insert(location_map, {2656126, postcards_mailed_address[game_version]     +    0, 0, 0x07, 0}) --Traverse Town Mail Postcard 07 Event
-    table.insert(location_map, {2656127, postcards_mailed_address[game_version]     +    0, 0, 0x08, 0}) --Traverse Town Mail Postcard 08 Event
-    table.insert(location_map, {2656128, postcards_mailed_address[game_version]     +    0, 0, 0x09, 0}) --Traverse Town Mail Postcard 09 Event
-    table.insert(location_map, {2656129, postcards_mailed_address[game_version]     +    0, 0, 0x0A, 0}) --Traverse Town Mail Postcard 10 Event
+    table.insert(location_map, {2656120, world_flags_address[game_version]          + 4018, 0, 0x01, 0}) --Traverse Town Mail Postcard 01 Event
+    table.insert(location_map, {2656121, world_flags_address[game_version]          + 4018, 0, 0x02, 0}) --Traverse Town Mail Postcard 02 Event
+    table.insert(location_map, {2656122, world_flags_address[game_version]          + 4018, 0, 0x03, 0}) --Traverse Town Mail Postcard 03 Event
+    table.insert(location_map, {2656123, world_flags_address[game_version]          + 4018, 0, 0x04, 0}) --Traverse Town Mail Postcard 04 Event
+    table.insert(location_map, {2656124, world_flags_address[game_version]          + 4018, 0, 0x05, 0}) --Traverse Town Mail Postcard 05 Event
+    table.insert(location_map, {2656125, world_flags_address[game_version]          + 4018, 0, 0x06, 0}) --Traverse Town Mail Postcard 06 Event
+    table.insert(location_map, {2656126, world_flags_address[game_version]          + 4018, 0, 0x07, 0}) --Traverse Town Mail Postcard 07 Event
+    table.insert(location_map, {2656127, world_flags_address[game_version]          + 4018, 0, 0x08, 0}) --Traverse Town Mail Postcard 08 Event
+    table.insert(location_map, {2656128, world_flags_address[game_version]          + 4018, 0, 0x09, 0}) --Traverse Town Mail Postcard 09 Event
+    table.insert(location_map, {2656129, world_flags_address[game_version]          + 4018, 0, 0x0A, 0}) --Traverse Town Mail Postcard 10 Event
     table.insert(location_map, {2656131, world_progress_array_address[game_version] +   14, 0, 0x14, 0}) --Traverse Town Defeat Opposite Armor Aero Event
     table.insert(location_map, {2656201, atlantica_clams_address[game_version]      +    0, 1, 0x01, 0}) --Atlantica Undersea Gorge Blizzard Clam
     table.insert(location_map, {2656202, atlantica_clams_address[game_version]      +    0, 2, 0x01, 0}) --Atlantica Undersea Gorge Ocean Floor Clam
@@ -342,114 +354,115 @@ function fill_location_map()
     table.insert(location_map, {2656214, atlantica_clams_address[game_version]      +    1, 6, 0x01, 0}) --Atlantica Below Deck Clam
     table.insert(location_map, {2656215, atlantica_clams_address[game_version]      +    1, 7, 0x01, 0}) --Atlantica Undersea Garden Clam
     table.insert(location_map, {2656216, atlantica_clams_address[game_version]      +    1, 8, 0x01, 0}) --Atlantica Undersea Cave Clam
-    table.insert(location_map, {2656300, world_flags[game_version]                  +   27, 0, 0x01, 0}) --Traverse Town Magician's Study Turn in Naturespark
-    table.insert(location_map, {2656301, world_flags[game_version]                  +   28, 0, 0x01, 0}) --Traverse Town Magician's Study Turn in Watergleam
-    table.insert(location_map, {2656302, world_flags[game_version]                  +   29, 0, 0x01, 0}) --Traverse Town Magician's Study Turn in Fireglow
-    table.insert(location_map, {2656303, world_flags[game_version]                  +   34, 0, 0x01, 0}) --Traverse Town Magician's Study Turn in all Summon Gems
-    table.insert(location_map, {2656304, world_flags[game_version]                  +   35, 0, 0x01, 0}) --Traverse Town Geppetto's House Geppetto Reward 1
-    table.insert(location_map, {2656305, world_flags[game_version]                  +   36, 0, 0x01, 0}) --Traverse Town Geppetto's House Geppetto Reward 2
-    table.insert(location_map, {2656306, world_flags[game_version]                  +   37, 0, 0x01, 0}) --Traverse Town Geppetto's House Geppetto Reward 3
-    table.insert(location_map, {2656307, world_flags[game_version]                  +   38, 0, 0x01, 0}) --Traverse Town Geppetto's House Geppetto Reward 4
-    table.insert(location_map, {2656308, world_flags[game_version]                  +   39, 0, 0x01, 0}) --Traverse Town Geppetto's House Geppetto Reward 5
-    table.insert(location_map, {2656309, world_flags[game_version]                  +   41, 0, 0x01, 0}) --Traverse Town Geppetto's House Geppetto All Summons Reward
-    table.insert(location_map, {2656310, world_flags[game_version]                  +   40, 0, 0x01, 0}) --Traverse Town Geppetto's House Talk to Pinocchio
-    table.insert(location_map, {2656311, world_flags[game_version]                  +   43, 0, 0x01, 0}) --Traverse Town Magician's Study Obtained All Arts Items
-    table.insert(location_map, {2656312, world_flags[game_version]                  +   44, 0, 0x00, 0}) --Traverse Town Magician's Study Obtained All LV1 Magic
-    table.insert(location_map, {2656313, world_flags[game_version]                  +   45, 0, 0x00, 0}) --Traverse Town Magician's Study Obtained All LV3 Magic
-    table.insert(location_map, {2656314, ???[game_version]                          +    0, 0, 0x00, 0}) --Traverse Town Piano Room Return 10 Puppies
-    table.insert(location_map, {2656315, ???[game_version]                          +    0, 0, 0x00, 0}) --Traverse Town Piano Room Return 20 Puppies
-    table.insert(location_map, {2656316, ???[game_version]                          +    0, 0, 0x00, 0}) --Traverse Town Piano Room Return 30 Puppies
-    table.insert(location_map, {2656317, ???[game_version]                          +    0, 0, 0x00, 0}) --Traverse Town Piano Room Return 40 Puppies
-    table.insert(location_map, {2656318, ???[game_version]                          +    0, 0, 0x00, 0}) --Traverse Town Piano Room Return 50 Puppies Reward 1
-    table.insert(location_map, {2656319, ???[game_version]                          +    0, 0, 0x00, 0}) --Traverse Town Piano Room Return 50 Puppies Reward 2
-    table.insert(location_map, {2656320, ???[game_version]                          +    0, 0, 0x00, 0}) --Traverse Town Piano Room Return 60 Puppies
-    table.insert(location_map, {2656321, ???[game_version]                          +    0, 0, 0x00, 0}) --Traverse Town Piano Room Return 70 Puppies
-    table.insert(location_map, {2656322, ???[game_version]                          +    0, 0, 0x00, 0}) --Traverse Town Piano Room Return 80 Puppies
-    table.insert(location_map, {2656324, ???[game_version]                          +    0, 0, 0x00, 0}) --Traverse Town Piano Room Return 90 Puppies
-    table.insert(location_map, {2656326, ???[game_version]                          +    0, 0, 0x00, 0}) --Traverse Town Piano Room Return 99 Puppies Reward 1
-    table.insert(location_map, {2656327, ???[game_version]                          +    0, 0, 0x00, 0}) --Traverse Town Piano Room Return 99 Puppies Reward 2
-    table.insert(location_map, {2656032, ???[game_version]                          +    0, 0, 0x00, 0}) --Olympus Coliseum Cloud Sonic Blade Event
-    table.insert(location_map, {2656328, ???[game_version]                          +    0, 0, 0x00, 0}) --Olympus Coliseum Defeat Sephiroth One-Winged Angel Event
-    table.insert(location_map, {2656329, ???[game_version]                          +    0, 0, 0x00, 0}) --Olympus Coliseum Defeat Ice Titan Diamond Dust Event
-    table.insert(location_map, {2656330, ???[game_version]                          +    0, 0, 0x00, 0}) --Olympus Coliseum Gates Purple Jar After Defeating Hades
-    table.insert(location_map, {2656331, ???[game_version]                          +    0, 0, 0x00, 0}) --Halloween Town Guillotine Square Ring Jack's Doorbell 3 Times
-    table.insert(location_map, {2656332, ???[game_version]                          +    0, 0, 0x00, 0}) --Neverland Clock Tower 01:00 Door
-    table.insert(location_map, {2656333, ???[game_version]                          +    0, 0, 0x00, 0}) --Neverland Clock Tower 02:00 Door
-    table.insert(location_map, {2656334, ???[game_version]                          +    0, 0, 0x00, 0}) --Neverland Clock Tower 03:00 Door
-    table.insert(location_map, {2656335, ???[game_version]                          +    0, 0, 0x00, 0}) --Neverland Clock Tower 04:00 Door
-    table.insert(location_map, {2656336, ???[game_version]                          +    0, 0, 0x00, 0}) --Neverland Clock Tower 05:00 Door
-    table.insert(location_map, {2656337, ???[game_version]                          +    0, 0, 0x00, 0}) --Neverland Clock Tower 06:00 Door
-    table.insert(location_map, {2656338, ???[game_version]                          +    0, 0, 0x00, 0}) --Neverland Clock Tower 07:00 Door
-    table.insert(location_map, {2656339, ???[game_version]                          +    0, 0, 0x00, 0}) --Neverland Clock Tower 08:00 Door
-    table.insert(location_map, {2656340, ???[game_version]                          +    0, 0, 0x00, 0}) --Neverland Clock Tower 09:00 Door
-    table.insert(location_map, {2656341, ???[game_version]                          +    0, 0, 0x00, 0}) --Neverland Clock Tower 10:00 Door
-    table.insert(location_map, {2656342, ???[game_version]                          +    0, 0, 0x00, 0}) --Neverland Clock Tower 11:00 Door
-    table.insert(location_map, {2656343, ???[game_version]                          +    0, 0, 0x00, 0}) --Neverland Clock Tower 12:00 Door
-    table.insert(location_map, {2656344, ???[game_version]                          +    0, 0, 0x00, 0}) --Neverland Hold Aero Chest
-    table.insert(location_map, {2656345, ???[game_version]                          +    0, 0, 0x00, 0}) --100 Acre Wood Bouncing Spot Turn in Rare Nut 1
-    table.insert(location_map, {2656346, ???[game_version]                          +    0, 0, 0x00, 0}) --100 Acre Wood Bouncing Spot Turn in Rare Nut 2
-    table.insert(location_map, {2656347, ???[game_version]                          +    0, 0, 0x00, 0}) --100 Acre Wood Bouncing Spot Turn in Rare Nut 3
-    table.insert(location_map, {2656348, ???[game_version]                          +    0, 0, 0x00, 0}) --100 Acre Wood Bouncing Spot Turn in Rare Nut 4
-    table.insert(location_map, {2656349, ???[game_version]                          +    0, 0, 0x00, 0}) --100 Acre Wood Bouncing Spot Turn in Rare Nut 5
-    table.insert(location_map, {2656350, ???[game_version]                          +    0, 0, 0x00, 0}) --100 Acre Wood Pooh's House Owl Cheer
-    table.insert(location_map, {2656351, ???[game_version]                          +    0, 0, 0x00, 0}) --100 Acre Wood Convert Torn Page 1
-    table.insert(location_map, {2656352, ???[game_version]                          +    0, 0, 0x00, 0}) --100 Acre Wood Convert Torn Page 2
-    table.insert(location_map, {2656353, ???[game_version]                          +    0, 0, 0x00, 0}) --100 Acre Wood Convert Torn Page 3
-    table.insert(location_map, {2656354, ???[game_version]                          +    0, 0, 0x00, 0}) --100 Acre Wood Convert Torn Page 4
-    table.insert(location_map, {2656355, ???[game_version]                          +    0, 0, 0x00, 0}) --100 Acre Wood Convert Torn Page 5
-    table.insert(location_map, {2656356, ???[game_version]                          +    0, 0, 0x00, 0}) --100 Acre Wood Pooh's House Start Fire
-    table.insert(location_map, {2656357, ???[game_version]                          +    0, 0, 0x00, 0}) --100 Acre Wood Pooh's Room Cabinet
-    table.insert(location_map, {2656358, ???[game_version]                          +    0, 0, 0x00, 0}) --100 Acre Wood Pooh's Room Chimney
-    table.insert(location_map, {2656359, ???[game_version]                          +    0, 0, 0x00, 0}) --100 Acre Wood Bouncing Spot Break Log
-    table.insert(location_map, {2656360, ???[game_version]                          +    0, 0, 0x00, 0}) --100 Acre Wood Bouncing Spot Fall Through Top of Tree Next to Pooh
-    table.insert(location_map, {2656361, ???[game_version]                          +    0, 0, 0x00, 0}) --Deep Jungle Camp Hi-Potion Experiment
-    table.insert(location_map, {2656362, ???[game_version]                          +    0, 0, 0x00, 0}) --Deep Jungle Camp Ether Experiment
-    table.insert(location_map, {2656363, ???[game_version]                          +    0, 0, 0x00, 0}) --Deep Jungle Camp Replication Experiment
-    table.insert(location_map, {2656364, ???[game_version]                          +    0, 0, 0x00, 0}) --Deep Jungle Cliff Save Gorillas
-    table.insert(location_map, {2656365, ???[game_version]                          +    0, 0, 0x00, 0}) --Deep Jungle Tree House Save Gorillas
-    table.insert(location_map, {2656366, ???[game_version]                          +    0, 0, 0x00, 0}) --Deep Jungle Camp Save Gorillas
-    table.insert(location_map, {2656367, ???[game_version]                          +    0, 0, 0x00, 0}) --Deep Jungle Bamboo Thicket Save Gorillas
-    table.insert(location_map, {2656368, ???[game_version]                          +    0, 0, 0x00, 0}) --Deep Jungle Climbing Trees Save Gorillas
-    table.insert(location_map, {2656369, ???[game_version]                          +    0, 0, 0x00, 0}) --Olympus Coliseum Olympia Chest
-    table.insert(location_map, {2656370, ???[game_version]                          +    0, 0, 0x00, 0}) --Deep Jungle Jungle Slider 10 Fruits
-    table.insert(location_map, {2656371, ???[game_version]                          +    0, 0, 0x00, 0}) --Deep Jungle Jungle Slider 20 Fruits
-    table.insert(location_map, {2656372, ???[game_version]                          +    0, 0, 0x00, 0}) --Deep Jungle Jungle Slider 30 Fruits
-    table.insert(location_map, {2656373, ???[game_version]                          +    0, 0, 0x00, 0}) --Deep Jungle Jungle Slider 40 Fruits
-    table.insert(location_map, {2656374, ???[game_version]                          +    0, 0, 0x00, 0}) --Deep Jungle Jungle Slider 50 Fruits
-    table.insert(location_map, {2656375, ???[game_version]                          +    0, 0, 0x00, 0}) --Traverse Town 1st District Speak with Cid Event
-    table.insert(location_map, {2656376, ???[game_version]                          +    0, 0, 0x00, 0}) --Wonderland Bizarre Room Read Book
-    table.insert(location_map, {2656377, ???[game_version]                          +    0, 0, 0x00, 0}) --Olympus Coliseum Coliseum Gates Green Trinity
+    table.insert(location_map, {2656300, world_flags_address[game_version]          +   27, 0, 0x01, 0}) --Traverse Town Magician's Study Turn in Naturespark
+    table.insert(location_map, {2656301, world_flags_address[game_version]          +   28, 0, 0x01, 0}) --Traverse Town Magician's Study Turn in Watergleam
+    table.insert(location_map, {2656302, world_flags_address[game_version]          +   29, 0, 0x01, 0}) --Traverse Town Magician's Study Turn in Fireglow
+    table.insert(location_map, {2656303, world_flags_address[game_version]          +   34, 0, 0x01, 0}) --Traverse Town Magician's Study Turn in all Summon Gems
+    table.insert(location_map, {2656304, world_flags_address[game_version]          +   35, 0, 0x01, 0}) --Traverse Town Geppetto's House Geppetto Reward 1
+    table.insert(location_map, {2656305, world_flags_address[game_version]          +   36, 0, 0x01, 0}) --Traverse Town Geppetto's House Geppetto Reward 2
+    table.insert(location_map, {2656306, world_flags_address[game_version]          +   37, 0, 0x01, 0}) --Traverse Town Geppetto's House Geppetto Reward 3
+    table.insert(location_map, {2656307, world_flags_address[game_version]          +   38, 0, 0x01, 0}) --Traverse Town Geppetto's House Geppetto Reward 4
+    table.insert(location_map, {2656308, world_flags_address[game_version]          +   39, 0, 0x01, 0}) --Traverse Town Geppetto's House Geppetto Reward 5
+    table.insert(location_map, {2656309, world_flags_address[game_version]          +   41, 0, 0x01, 0}) --Traverse Town Geppetto's House Geppetto All Summons Reward
+    table.insert(location_map, {2656310, world_flags_address[game_version]          +   40, 0, 0x01, 0}) --Traverse Town Geppetto's House Talk to Pinocchio
+    table.insert(location_map, {2656311, world_flags_address[game_version]          +   43, 0, 0x01, 0}) --Traverse Town Magician's Study Obtained All Arts Items
+    table.insert(location_map, {2656312, world_flags_address[game_version]          +   44, 0, 0x01, 0}) --Traverse Town Magician's Study Obtained All LV1 Magic
+    table.insert(location_map, {2656313, world_flags_address[game_version]          +   45, 0, 0x01, 0}) --Traverse Town Magician's Study Obtained All LV3 Magic
+    table.insert(location_map, {2656314, world_flags_address[game_version]          +  303, 0, 0x01, 0}) --Traverse Town Piano Room Return 10 Puppies
+    table.insert(location_map, {2656315, world_flags_address[game_version]          +  304, 0, 0x01, 0}) --Traverse Town Piano Room Return 20 Puppies
+    table.insert(location_map, {2656316, world_flags_address[game_version]          +  305, 0, 0x01, 0}) --Traverse Town Piano Room Return 30 Puppies
+    table.insert(location_map, {2656317, world_flags_address[game_version]          +  306, 0, 0x01, 0}) --Traverse Town Piano Room Return 40 Puppies
+    table.insert(location_map, {2656318, world_flags_address[game_version]          +  307, 0, 0x01, 0}) --Traverse Town Piano Room Return 50 Puppies Reward 1
+    table.insert(location_map, {2656319, world_flags_address[game_version]          +  307, 0, 0x01, 0}) --Traverse Town Piano Room Return 50 Puppies Reward 2
+    table.insert(location_map, {2656320, world_flags_address[game_version]          +  308, 0, 0x01, 0}) --Traverse Town Piano Room Return 60 Puppies
+    table.insert(location_map, {2656321, world_flags_address[game_version]          +  309, 0, 0x01, 0}) --Traverse Town Piano Room Return 70 Puppies
+    table.insert(location_map, {2656322, world_flags_address[game_version]          +  310, 0, 0x01, 0}) --Traverse Town Piano Room Return 80 Puppies
+    table.insert(location_map, {2656324, world_flags_address[game_version]          +  311, 0, 0x01, 0}) --Traverse Town Piano Room Return 90 Puppies
+    table.insert(location_map, {2656326, world_flags_address[game_version]          +  312, 0, 0x01, 0}) --Traverse Town Piano Room Return 99 Puppies Reward 1
+    table.insert(location_map, {2656327, world_flags_address[game_version]          +  312, 0, 0x01, 0}) --Traverse Town Piano Room Return 99 Puppies Reward 2
+    table.insert(location_map, {2656032, world_flags_address[game_version]          +  501, 0, 0x0A, 0}) --Olympus Coliseum Cloud Sonic Blade Event
+    table.insert(location_map, {2656328, world_flags_address[game_version]          +  605, 0, 0x01, 0}) --Olympus Coliseum Defeat Sephiroth One-Winged Angel Event
+    table.insert(location_map, {2656329, world_flags_address[game_version]          +  604, 0, 0x01, 0}) --Olympus Coliseum Defeat Ice Titan Diamond Dust Event
+    table.insert(location_map, {2656330, world_flags_address[game_version]          + 4358, 0, 0x01, 0}) --Olympus Coliseum Gates Purple Jar After Defeating Hades
+    table.insert(location_map, {2656331, world_flags_address[game_version]          + 4291, 2, 0x01, 0}) --Halloween Town Guillotine Square Ring Jack's Doorbell 3 Times
+    table.insert(location_map, {2656332, world_flags_address[game_version]          + 4436, 8, 0x01, 0}) --Neverland Clock Tower 01:00 Door
+    table.insert(location_map, {2656333, world_flags_address[game_version]          + 4436, 7, 0x01, 0}) --Neverland Clock Tower 02:00 Door
+    table.insert(location_map, {2656334, world_flags_address[game_version]          + 4436, 6, 0x01, 0}) --Neverland Clock Tower 03:00 Door
+    table.insert(location_map, {2656335, world_flags_address[game_version]          + 4436, 5, 0x01, 0}) --Neverland Clock Tower 04:00 Door
+    table.insert(location_map, {2656336, world_flags_address[game_version]          + 4436, 4, 0x01, 0}) --Neverland Clock Tower 05:00 Door
+    table.insert(location_map, {2656337, world_flags_address[game_version]          + 4436, 3, 0x01, 0}) --Neverland Clock Tower 06:00 Door
+    table.insert(location_map, {2656338, world_flags_address[game_version]          + 4436, 2, 0x01, 0}) --Neverland Clock Tower 07:00 Door
+    table.insert(location_map, {2656339, world_flags_address[game_version]          + 4436, 1, 0x01, 0}) --Neverland Clock Tower 08:00 Door
+    table.insert(location_map, {2656340, world_flags_address[game_version]          + 4437, 8, 0x01, 0}) --Neverland Clock Tower 09:00 Door
+    table.insert(location_map, {2656341, world_flags_address[game_version]          + 4437, 7, 0x01, 0}) --Neverland Clock Tower 10:00 Door
+    table.insert(location_map, {2656342, world_flags_address[game_version]          + 4437, 6, 0x01, 0}) --Neverland Clock Tower 11:00 Door
+    table.insert(location_map, {2656343, world_flags_address[game_version]          + 4437, 5, 0x01, 0}) --Neverland Clock Tower 12:00 Door
+    table.insert(location_map, {2656344, world_flags_address[game_version]          + 4437, 2, 0x01, 0}) --Neverland Hold Aero Chest
+    table.insert(location_map, {2656345, world_flags_address[game_version]          + 1781, 0, 0x02, 0}) --100 Acre Wood Bouncing Spot Turn in Rare Nut 1
+    table.insert(location_map, {2656346, world_flags_address[game_version]          + 1782, 0, 0x02, 0}) --100 Acre Wood Bouncing Spot Turn in Rare Nut 2
+    table.insert(location_map, {2656347, world_flags_address[game_version]          + 1783, 0, 0x02, 0}) --100 Acre Wood Bouncing Spot Turn in Rare Nut 3
+    table.insert(location_map, {2656348, world_flags_address[game_version]          + 1784, 0, 0x02, 0}) --100 Acre Wood Bouncing Spot Turn in Rare Nut 4
+    table.insert(location_map, {2656349, world_flags_address[game_version]          + 1785, 0, 0x02, 0}) --100 Acre Wood Bouncing Spot Turn in Rare Nut 5
+    table.insert(location_map, {2656350, world_flags_address[game_version]          + 1794, 0, 0x01, 0}) --100 Acre Wood Pooh's House Owl Cheer
+    table.insert(location_map, {2656351, world_flags_address[game_version]          + 1795, 0, 0x01, 0}) --100 Acre Wood Convert Torn Page 1
+    table.insert(location_map, {2656352, world_flags_address[game_version]          + 1796, 0, 0x01, 0}) --100 Acre Wood Convert Torn Page 2
+    table.insert(location_map, {2656353, world_flags_address[game_version]          + 1797, 0, 0x01, 0}) --100 Acre Wood Convert Torn Page 3
+    table.insert(location_map, {2656354, world_flags_address[game_version]          + 1798, 0, 0x01, 0}) --100 Acre Wood Convert Torn Page 4
+    table.insert(location_map, {2656355, world_flags_address[game_version]          + 1799, 0, 0x01, 0}) --100 Acre Wood Convert Torn Page 5
+    table.insert(location_map, {2656356, world_flags_address[game_version]          + 1817, 0, 0x04, 0}) --100 Acre Wood Pooh's House Start Fire
+    table.insert(location_map, {2656357, world_flags_address[game_version]          + 4150, 0, 0x04, 0}) --100 Acre Wood Pooh's Room Cabinet
+    table.insert(location_map, {2656358, world_flags_address[game_version]          + 4151, 0, 0x04, 0}) --100 Acre Wood Pooh's Room Chimney
+    table.insert(location_map, {2656359, world_flags_address[game_version]          + 4152, 0, 0x04, 0}) --100 Acre Wood Bouncing Spot Break Log
+    table.insert(location_map, {2656360, world_flags_address[game_version]          + 4153, 0, 0x04, 0}) --100 Acre Wood Bouncing Spot Fall Through Top of Tree Next to Pooh
+    table.insert(location_map, {2656361, world_flags_address[game_version]          + 4114, 0, 0x01, 0}) --Deep Jungle Camp Hi-Potion Experiment
+    table.insert(location_map, {2656361, world_flags_address[game_version]          + 4113, 0, 0x01, 0}) --Deep Jungle Camp Hi-Potion Experiment
+    table.insert(location_map, {2656362, world_flags_address[game_version]          + 4108, 0, 0x01, 0}) --Deep Jungle Camp Ether Experiment
+    table.insert(location_map, {2656363, world_flags_address[game_version]          + 4122, 0, 0x01, 0}) --Deep Jungle Camp Replication Experiment
+    table.insert(location_map, {2656364, world_flags_address[game_version]          + 1280, 0, 0x01, 0}) --Deep Jungle Cliff Save Gorillas
+    table.insert(location_map, {2656365, world_flags_address[game_version]          + 1281, 0, 0x01, 0}) --Deep Jungle Tree House Save Gorillas
+    table.insert(location_map, {2656366, world_flags_address[game_version]          + 1282, 0, 0x01, 0}) --Deep Jungle Camp Save Gorillas
+    table.insert(location_map, {2656367, world_flags_address[game_version]          + 1283, 0, 0x01, 0}) --Deep Jungle Bamboo Thicket Save Gorillas
+    table.insert(location_map, {2656368, world_flags_address[game_version]          + 1284, 0, 0x01, 0}) --Deep Jungle Climbing Trees Save Gorillas
+    table.insert(location_map, {2656369, world_flags_address[game_version]          +  540, 2, 0x01, 0}) --Olympus Coliseum Olympia Chest
+    table.insert(location_map, {2656370, world_flags_address[game_version]          + 4140, 0, 0x01, 0}) --Deep Jungle Jungle Slider 10 Fruits
+    table.insert(location_map, {2656371, world_flags_address[game_version]          + 4141, 0, 0x01, 0}) --Deep Jungle Jungle Slider 20 Fruits
+    table.insert(location_map, {2656372, world_flags_address[game_version]          + 4142, 0, 0x01, 0}) --Deep Jungle Jungle Slider 30 Fruits
+    table.insert(location_map, {2656373, world_flags_address[game_version]          + 4143, 0, 0x01, 0}) --Deep Jungle Jungle Slider 40 Fruits
+    table.insert(location_map, {2656374, world_flags_address[game_version]          + 4136, 0, 0x01, 0}) --Deep Jungle Jungle Slider 50 Fruits
+    table.insert(location_map, {2656375, world_flags_address[game_version]          +   13, 0, 0x01, 0}) --Traverse Town 1st District Speak with Cid Event
+    table.insert(location_map, {2656376, world_flags_address[game_version]          + 4054, 8, 0x01, 0}) --Wonderland Bizarre Room Read Book
+    table.insert(location_map, {2656377, world_flags_address[game_version]          + 3939, 4, 0x01, 0}) --Olympus Coliseum Coliseum Gates Green Trinity
     table.insert(location_map, {2656378, ansems_reports_address[game_version]       +    1, 3, 0x01, 0}) --Agrabah Defeat Kurt Zisa Zantetsuken Event
     table.insert(location_map, {2656379, ansems_reports_address[game_version]       +    1, 5, 0x01, 0}) --Hollow Bastion Defeat Unknown EXP Necklace Event
-    table.insert(location_map, {2656380, ???[game_version]                          +    0, 0, 0x00, 0}) --Olympus Coliseum Coliseum Gates Hero's License Event
-    table.insert(location_map, {2656381, ???[game_version]                          +    0, 0, 0x00, 0}) --Atlantica Sunken Ship Crystal Trident Event
-    table.insert(location_map, {2656382, ???[game_version]                          +    0, 0, 0x00, 0}) --Halloween Town Graveyard Forget-Me-Not Event
-    table.insert(location_map, {2656383, ???[game_version]                          +    0, 0, 0x00, 0}) --Deep Jungle Tent Protect-G Event
-    table.insert(location_map, {2656384, ???[game_version]                          +    0, 0, 0x00, 0}) --Deep Jungle Cavern of Hearts Navi-G Piece Event
-    table.insert(location_map, {2656385, ???[game_version]                          +    0, 0, 0x00, 0}) --Wonderland Bizarre Room Navi-G Piece Event
-    table.insert(location_map, {2656386, ???[game_version]                          +    0, 0, 0x00, 0}) --Olympus Coliseum Coliseum Gates Entry Pass Event
-    table.insert(location_map, {2656401, ???[game_version]                          +    0, 0, 0x00, 0}) --Traverse Town Synth Log
-    table.insert(location_map, {2656402, ???[game_version]                          +    0, 0, 0x00, 0}) --Traverse Town Synth Cloth
-    table.insert(location_map, {2656403, ???[game_version]                          +    0, 0, 0x00, 0}) --Traverse Town Synth Rope
-    table.insert(location_map, {2656404, ???[game_version]                          +    0, 0, 0x00, 0}) --Traverse Town Synth Seagull Egg
-    table.insert(location_map, {2656405, ???[game_version]                          +    0, 0, 0x00, 0}) --Traverse Town Synth Fish
-    table.insert(location_map, {2656406, ???[game_version]                          +    0, 0, 0x00, 0}) --Traverse Town Synth Mushroom
-    table.insert(location_map, {2653134, ???[game_version]                          +    0, 0, 0x00, 0}) --Traverse Town Item Shop Postcard
-    table.insert(location_map, {2656500, ???[game_version]                          +    0, 0, 0x00, 0}) --Traverse Town 1st District Safe Postcard
-    table.insert(location_map, {2656501, ???[game_version]                          +    0, 0, 0x00, 0}) --Traverse Town Gizmo Shop Postcard 1
-    table.insert(location_map, {2656502, ???[game_version]                          +    0, 0, 0x00, 0}) --Traverse Town Gizmo Shop Postcard 2
-    table.insert(location_map, {2656503, ???[game_version]                          +    0, 0, 0x00, 0}) --Traverse Town Item Workshop Postcard
-    table.insert(location_map, {2656504, ???[game_version]                          +    0, 0, 0x00, 0}) --Traverse Town 3rd District Balcony Postcard
-    table.insert(location_map, {2656505, ???[game_version]                          +    0, 0, 0x00, 0}) --Traverse Town Geppetto's House Postcard
-    table.insert(location_map, {2656506, ???[game_version]                          +    0, 0, 0x00, 0}) --Halloween Town Lab Torn Page
-    table.insert(location_map, {2656508, ???[game_version]                          +    0, 0, 0x00, 0}) --Hollow Bastion Entrance Hall Emblem Piece (Flame)
-    table.insert(location_map, {2656516, ???[game_version]                          +    0, 0, 0x00, 0}) --Hollow Bastion Entrance Hall Emblem Piece (Chest)
-    table.insert(location_map, {2656517, ???[game_version]                          +    0, 0, 0x00, 0}) --Hollow Bastion Entrance Hall Emblem Piece (Statue)
-    table.insert(location_map, {2656518, ???[game_version]                          +    0, 0, 0x00, 0}) --Hollow Bastion Entrance Hall Emblem Piece (Fountain)
-    table.insert(location_map, {2656519, ???[game_version]                          +    0, 0, 0x00, 0}) --Traverse Town 1st District Leon Gift
-    table.insert(location_map, {2656520, ???[game_version]                          +    0, 0, 0x00, 0}) --Traverse Town 1st District Aerith Gift
-    table.insert(location_map, {2656521, ???[game_version]                          +    0, 0, 0x00, 0}) --Hollow Bastion Library Speak to Belle Divine Rose
-    table.insert(location_map, {2656522, ???[game_version]                          +    0, 0, 0x00, 0}) --Hollow Bastion Library Speak to Aerith Cure
+    table.insert(location_map, {2656380, world_progress_array_address[game_version] +    2, 0, 0x28, 0}) --Olympus Coliseum Coliseum Gates Hero's License Event
+    table.insert(location_map, {2656381, world_progress_array_address[game_version] +    6, 0, 0x32, 0}) --Atlantica Sunken Ship Crystal Trident Event
+    table.insert(location_map, {2656382, world_progress_array_address[game_version] +    8, 0, 0x1E, 0}) --Halloween Town Graveyard Forget-Me-Not Event
+    table.insert(location_map, {2656383, world_progress_array_address[game_version] +    1, 0, 0x17, 0}) --Deep Jungle Tent Protect-G Event
+    table.insert(location_map, {2656384, world_progress_array_address[game_version] +    1, 0, 0x5C, 0}) --Deep Jungle Cavern of Hearts Navi-G Piece Event
+    table.insert(location_map, {2656385, world_progress_array_address[game_version] +    3, 0, 0x30, 0}) --Wonderland Bizarre Room Navi-G Piece Event
+    table.insert(location_map, {2656386, world_progress_array_address[game_version] +    2, 0, 0x10, 0}) --Olympus Coliseum Coliseum Gates Entry Pass Event
+  --table.insert(location_map, {2656401, ???[game_version]                          +    0, 0, 0x00, 0}) --Traverse Town Synth Log
+  --table.insert(location_map, {2656402, ???[game_version]                          +    0, 0, 0x00, 0}) --Traverse Town Synth Cloth
+  --table.insert(location_map, {2656403, ???[game_version]                          +    0, 0, 0x00, 0}) --Traverse Town Synth Rope
+  --table.insert(location_map, {2656404, ???[game_version]                          +    0, 0, 0x00, 0}) --Traverse Town Synth Seagull Egg
+  --table.insert(location_map, {2656405, ???[game_version]                          +    0, 0, 0x00, 0}) --Traverse Town Synth Fish
+  --table.insert(location_map, {2656406, ???[game_version]                          +    0, 0, 0x00, 0}) --Traverse Town Synth Mushroom
+    table.insert(location_map, {2656500, world_flags_address[game_version]          + 4019, 8, 0x01, 0}) --Traverse Town Item Shop Postcard
+    table.insert(location_map, {2656501, world_flags_address[game_version]          + 4010, 0, 0x01, 0}) --Traverse Town 1st District Safe Postcard
+    table.insert(location_map, {2656502, world_flags_address[game_version]          + 4017, 6, 0x01, 0}) --Traverse Town Gizmo Shop Postcard 1
+    table.insert(location_map, {2656503, world_flags_address[game_version]          + 4017, 6, 0x01, 0}) --Traverse Town Gizmo Shop Postcard 2
+    table.insert(location_map, {2656504, world_flags_address[game_version]          + 4019, 5, 0x01, 0}) --Traverse Town Item Workshop Postcard
+    table.insert(location_map, {2656505, world_flags_address[game_version]          + 4019, 7, 0x01, 0}) --Traverse Town 3rd District Balcony Postcard
+    table.insert(location_map, {2656506, world_flags_address[game_version]          + 4019, 4, 0x01, 0}) --Traverse Town Geppetto's House Postcard
+    table.insert(location_map, {2656508, world_flags_address[game_version]          + 4291, 1, 0x01, 0}) --Halloween Town Lab Torn Page
+    table.insert(location_map, {2656516, world_flags_address[game_version]          + 4513, 0, 0x02, 0}) --Hollow Bastion Entrance Hall Emblem Piece (Flame)
+    table.insert(location_map, {2656517, world_flags_address[game_version]          + 4514, 0, 0x02, 0}) --Hollow Bastion Entrance Hall Emblem Piece (Chest)
+    table.insert(location_map, {2656518, world_flags_address[game_version]          + 4515, 0, 0x02, 0}) --Hollow Bastion Entrance Hall Emblem Piece (Statue)
+    table.insert(location_map, {2656519, world_flags_address[game_version]          + 4516, 0, 0x02, 0}) --Hollow Bastion Entrance Hall Emblem Piece (Fountain)
+    table.insert(location_map, {2656520, world_flags_address[game_version]          +    0, 0, 0x01, 1}) --Traverse Town 1st District Leon Gift
+    table.insert(location_map, {2656521, world_flags_address[game_version]          +    2, 0, 0x01, 0}) --Traverse Town 1st District Aerith Gift
+    table.insert(location_map, {2656522, world_flags_address[game_version]          + 1026, 0, 0x01, 0}) --Hollow Bastion Library Speak to Belle Divine Rose
+    table.insert(location_map, {2656523, world_flags_address[game_version]          + 1025, 0, 0x01, 0}) --Hollow Bastion Library Speak to Aerith Cure
     table.insert(location_map, {2657018, ansems_reports_address[game_version]       +    0, 1, 0x01, 0}) --Agrabah Defeat Jafar Genie Ansem's Report 1
     table.insert(location_map, {2657017, ansems_reports_address[game_version]       +    0, 2, 0x01, 0}) --Hollow Bastion Speak with Aerith Ansem's Report 2
     table.insert(location_map, {2657016, ansems_reports_address[game_version]       +    0, 3, 0x01, 0}) --Atlantica Defeat Ursula II Ansem's Report 3
@@ -563,25 +576,64 @@ function fill_location_map()
     table.insert(location_map, {2658098, soras_level_address[game_version]          +    0, 0, 0x62, 0}) --Level 098
     table.insert(location_map, {2658099, soras_level_address[game_version]          +    0, 0, 0x63, 0}) --Level 099
     table.insert(location_map, {2658100, soras_level_address[game_version]          +    0, 0, 0x64, 0}) --Level 100
-    table.insert(location_map, {2659001, ???[game_version]                          +    0, 0, 0x00, 0}) --Complete Phil Cup
-    table.insert(location_map, {2659002, ???[game_version]                          +    0, 0, 0x00, 0}) --Complete Phil Cup Solo
-    table.insert(location_map, {2659003, ???[game_version]                          +    0, 0, 0x00, 0}) --Complete Phil Cup Time Trial
-    table.insert(location_map, {2659004, ???[game_version]                          +    0, 0, 0x00, 0}) --Complete Pegasus Cup
-    table.insert(location_map, {2659005, ???[game_version]                          +    0, 0, 0x00, 0}) --Complete Pegasus Cup Solo
-    table.insert(location_map, {2659006, ???[game_version]                          +    0, 0, 0x00, 0}) --Complete Pegasus Cup Time Trial
-    table.insert(location_map, {2659007, ???[game_version]                          +    0, 0, 0x00, 0}) --Complete Hercules Cup
-    table.insert(location_map, {2659008, ???[game_version]                          +    0, 0, 0x00, 0}) --Complete Hercules Cup Solo
-    table.insert(location_map, {2659009, ???[game_version]                          +    0, 0, 0x00, 0}) --Complete Hercules Cup Time Trial
-    table.insert(location_map, {2659010, ???[game_version]                          +    0, 0, 0x00, 0}) --Complete Hades Cup
-    table.insert(location_map, {2659011, ???[game_version]                          +    0, 0, 0x00, 0}) --Complete Hades Cup Solo
-    table.insert(location_map, {2659012, ???[game_version]                          +    0, 0, 0x00, 0}) --Complete Hades Cup Time Trial
-    table.insert(location_map, {2659013, ???[game_version]                          +    0, 0, 0x00, 0}) --Hades Cup Defeat Cloud and Leon Event
-    table.insert(location_map, {2659014, ???[game_version]                          +    0, 0, 0x00, 0}) --Hades Cup Defeat Yuffie Event
-    table.insert(location_map, {2659015, ???[game_version]                          +    0, 0, 0x00, 0}) --Hades Cup Defeat Cerberus Event
-    table.insert(location_map, {2659016, ???[game_version]                          +    0, 0, 0x00, 0}) --Hades Cup Defeat Behemoth Event
-    table.insert(location_map, {2659017, ???[game_version]                          +    0, 0, 0x00, 0}) --Hades Cup Defeat Hades Event
-    table.insert(location_map, {2659018, ???[game_version]                          +    0, 0, 0x00, 0}) --Hercules Cup Defeat Cloud Event
-    table.insert(location_map, {2659019, ???[game_version]                          +    0, 0, 0x00, 0}) --Hercules Cup Yellow Trinity Event
+    table.insert(location_map, {2659001, olympus_flags_address[game_version]        +    0, 0, 0x01, 0}) --Complete Phil Cup
+    table.insert(location_map, {2659002, olympus_flags_address[game_version]        +    0, 0, 0x02, 0}) --Complete Phil Cup Solo
+    table.insert(location_map, {2659003, olympus_flags_address[game_version]        +    0, 0, 0x03, 0}) --Complete Phil Cup Time Trial
+    table.insert(location_map, {2659004, olympus_flags_address[game_version]        +    1, 0, 0x01, 0}) --Complete Pegasus Cup
+    table.insert(location_map, {2659005, olympus_flags_address[game_version]        +    1, 0, 0x02, 0}) --Complete Pegasus Cup Solo
+    table.insert(location_map, {2659006, olympus_flags_address[game_version]        +    1, 0, 0x03, 0}) --Complete Pegasus Cup Time Trial
+    table.insert(location_map, {2659007, olympus_flags_address[game_version]        +    2, 0, 0x01, 0}) --Complete Hercules Cup
+    table.insert(location_map, {2659008, olympus_flags_address[game_version]        +    2, 0, 0x02, 0}) --Complete Hercules Cup Solo
+    table.insert(location_map, {2659009, olympus_flags_address[game_version]        +    2, 0, 0x03, 0}) --Complete Hercules Cup Time Trial
+    table.insert(location_map, {2659010, olympus_flags_address[game_version]        +    3, 0, 0x01, 0}) --Complete Hades Cup
+    table.insert(location_map, {2659011, olympus_flags_address[game_version]        +    3, 0, 0x02, 0}) --Complete Hades Cup Solo
+    table.insert(location_map, {2659012, olympus_flags_address[game_version]        +    3, 0, 0x03, 0}) --Complete Hades Cup Time Trial
+    table.insert(location_map, {2659013, olympus_flags_address[game_version]        +   11, 0, 0x01, 0}) --Hades Cup Defeat Cloud and Leon Event
+    table.insert(location_map, {2659014, olympus_flags_address[game_version]        +   12, 0, 0x01, 0}) --Hades Cup Defeat Yuffie Event
+    table.insert(location_map, {2659015, olympus_flags_address[game_version]        +   13, 0, 0x01, 0}) --Hades Cup Defeat Cerberus Event
+    table.insert(location_map, {2659016, olympus_flags_address[game_version]        +   14, 0, 0x01, 0}) --Hades Cup Defeat Behemoth Event
+    table.insert(location_map, {2659017, ansems_reports_address[game_version]       +    0, 8, 0x01, 0}) --Hades Cup Defeat Hades Event
+    table.insert(location_map, {2659018, olympus_flags_address[game_version]        +    2, 0, 0x01, 0}) --Hercules Cup Defeat Cloud Event
+    table.insert(location_map, {2659019, olympus_flags_address[game_version]        +    2, 0, 0x01, 0}) --Hercules Cup Yellow Trinity Event
+end
+
+function write_location_file(location_id)
+    if not file_exists(client_communication_path .. "send" .. tostring(location_id)) then
+        file = io.open(client_communication_path .. "send" .. tostring(location_id), "w")
+        io.output(file)
+        io.write("")
+        io.close(file)
+    end
+end
+
+function send_locations(frame_count)
+    for index, data in pairs(location_map) do
+        if index % 60 == frame_count then
+            location_id      = data[1]
+            address          = data[2]
+            bit_num          = data[3]
+            compare_value    = data[4]
+            special_function = data[5]
+            if special_function == 0 then
+                if bit_num > 0 then
+                    value = toBits(ReadByte(address))[bit_num]
+                    if value == nil then
+                        value = 0
+                    end
+                else
+                    value = ReadByte(address)
+                end
+                if value >= compare_value then
+                    write_location_file(location_id)
+                end
+            elseif special_function == 1 then --Leon Gift
+                world_flags_address = {0x2DEAA6D, 0x2DEA06D}
+                if ReadByte(address) >= compare_value and ReadByte(world_flags_address[game_version]) >= 0x31 then
+                    write_location_file(location_id)
+                end
+            end
+        end
+    end
 end
 
 function _OnInit()
@@ -605,5 +657,8 @@ function _OnInit()
 end
 
 function _OnFrame()
-    receive_items()
+    if canExecute then
+        frame_count = (frame_count + 1) % 60
+        send_locations(frame_count)
+    end
 end

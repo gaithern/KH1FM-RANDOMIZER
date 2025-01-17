@@ -36,7 +36,9 @@ function _OnInit()
 end
 
 function _OnFrame()
-    if chests[0] ~= nil and not chests_written then
-        randomize_chests()
+    if canExecute then
+        if chests[0] ~= nil and not chests_written then
+            randomize_chests()
+        end
     end
 end
