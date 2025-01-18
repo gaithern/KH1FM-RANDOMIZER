@@ -291,7 +291,7 @@ function fill_location_map()
     table.insert(location_map, {2656014, world_progress_array_address[game_version] +    0, 0, 0x3E, 0}) --Traverse Town Leon Secret Waterway Earthshine Event
     table.insert(location_map, {2656015, world_progress_array_address[game_version] +    0, 0, 0x8C, 0}) --Traverse Town Kairi Secret Waterway Oathkeeper Event
     table.insert(location_map, {2656016, world_progress_array_address[game_version] +    0, 0, 0x2B, 0}) --Traverse Town Defeat Guard Armor Brave Warrior Event
-    table.insert(location_map, {2656021, world_progress_array_address[game_version] +    1, 0, 0x17, 0}) --Deep Jungle Defeat Sabor White Fang Event
+    table.insert(location_map, {2656021, world_progress_array_address[game_version] +    1, 0, 0x42, 0}) --Deep Jungle Defeat Sabor White Fang Event
     table.insert(location_map, {2656022, world_progress_array_address[game_version] +    1, 0, 0x56, 0}) --Deep Jungle Defeat Clayton Cure Event
     table.insert(location_map, {2656023, world_progress_array_address[game_version] +    1, 0, 0x6E, 0}) --Deep Jungle Seal Keyhole Jungle King Event
     table.insert(location_map, {2656024, world_progress_array_address[game_version] +    1, 0, 0x6E, 0}) --Deep Jungle Seal Keyhole Red Trinity Event
@@ -432,8 +432,8 @@ function fill_location_map()
     table.insert(location_map, {2656375, world_flags_address[game_version]          +   13, 0, 0x01, 0}) --Traverse Town 1st District Speak with Cid Event
     table.insert(location_map, {2656376, world_flags_address[game_version]          + 4054, 8, 0x01, 0}) --Wonderland Bizarre Room Read Book
     table.insert(location_map, {2656377, world_flags_address[game_version]          + 3939, 4, 0x01, 0}) --Olympus Coliseum Coliseum Gates Green Trinity
-    table.insert(location_map, {2656378, ansems_reports_address[game_version]       +    1, 3, 0x01, 0}) --Agrabah Defeat Kurt Zisa Zantetsuken Event
-    table.insert(location_map, {2656379, ansems_reports_address[game_version]       +    1, 5, 0x01, 0}) --Hollow Bastion Defeat Unknown EXP Necklace Event
+    table.insert(location_map, {2656378, ansems_reports_address[game_version]       +    1, 6, 0x01, 0}) --Agrabah Defeat Kurt Zisa Zantetsuken Event
+    table.insert(location_map, {2656379, ansems_reports_address[game_version]       +    1, 4, 0x01, 0}) --Hollow Bastion Defeat Unknown EXP Necklace Event
     table.insert(location_map, {2656380, world_progress_array_address[game_version] +    2, 0, 0x28, 0}) --Olympus Coliseum Coliseum Gates Hero's License Event
     table.insert(location_map, {2656381, world_progress_array_address[game_version] +    6, 0, 0x32, 0}) --Atlantica Sunken Ship Crystal Trident Event
     table.insert(location_map, {2656382, world_progress_array_address[game_version] +    8, 0, 0x1E, 0}) --Halloween Town Graveyard Forget-Me-Not Event
@@ -463,19 +463,19 @@ function fill_location_map()
     table.insert(location_map, {2656521, world_flags_address[game_version]          +    2, 0, 0x01, 0}) --Traverse Town 1st District Aerith Gift
     table.insert(location_map, {2656522, world_flags_address[game_version]          + 1026, 0, 0x01, 0}) --Hollow Bastion Library Speak to Belle Divine Rose
     table.insert(location_map, {2656523, world_flags_address[game_version]          + 1025, 0, 0x01, 0}) --Hollow Bastion Library Speak to Aerith Cure
-    table.insert(location_map, {2657018, ansems_reports_address[game_version]       +    0, 1, 0x01, 0}) --Agrabah Defeat Jafar Genie Ansem's Report 1
-    table.insert(location_map, {2657017, ansems_reports_address[game_version]       +    0, 2, 0x01, 0}) --Hollow Bastion Speak with Aerith Ansem's Report 2
-    table.insert(location_map, {2657016, ansems_reports_address[game_version]       +    0, 3, 0x01, 0}) --Atlantica Defeat Ursula II Ansem's Report 3
-    table.insert(location_map, {2657015, ansems_reports_address[game_version]       +    0, 4, 0x01, 0}) --Hollow Bastion Speak with Aerith Ansem's Report 4
-    table.insert(location_map, {2657014, ansems_reports_address[game_version]       +    0, 5, 0x01, 0}) --Hollow Bastion Defeat Maleficent Ansem's Report 5
-    table.insert(location_map, {2657013, ansems_reports_address[game_version]       +    0, 6, 0x01, 0}) --Hollow Bastion Speak with Aerith Ansem's Report 6
-    table.insert(location_map, {2657012, ansems_reports_address[game_version]       +    0, 7, 0x01, 0}) --Halloween Town Defeat Oogie Boogie Ansem's Report 7
-    table.insert(location_map, {2657011, ansems_reports_address[game_version]       +    0, 8, 0x01, 0}) --Olympus Coliseum Defeat Hades Ansem's Report 8
-    table.insert(location_map, {2657028, ansems_reports_address[game_version]       +    1, 1, 0x01, 0}) --Neverland Defeat Hook Ansem's Report 9
-    table.insert(location_map, {2657027, ansems_reports_address[game_version]       +    1, 2, 0x01, 0}) --Hollow Bastion Speak with Aerith Ansem's Report 10
-    table.insert(location_map, {2657026, ansems_reports_address[game_version]       +    1, 3, 0x01, 0}) --Agrabah Defeat Kurt Zisa Ansem's Report 11
-    table.insert(location_map, {2657025, ansems_reports_address[game_version]       +    1, 4, 0x01, 0}) --Olympus Coliseum Defeat Sephiroth Ansem's Report 12
-    table.insert(location_map, {2657024, ansems_reports_address[game_version]       +    1, 5, 0x01, 0}) --Hollow Bastion Defeat Unknown Ansem's Report 13
+    table.insert(location_map, {2657018, ansems_reports_address[game_version]       +    0, 8, 0x01, 0}) --Agrabah Defeat Jafar Genie Ansem's Report 1
+    table.insert(location_map, {2657017, ansems_reports_address[game_version]       +    0, 7, 0x01, 0}) --Hollow Bastion Speak with Aerith Ansem's Report 2
+    table.insert(location_map, {2657016, ansems_reports_address[game_version]       +    0, 6, 0x01, 0}) --Atlantica Defeat Ursula II Ansem's Report 3
+    table.insert(location_map, {2657015, ansems_reports_address[game_version]       +    0, 5, 0x01, 0}) --Hollow Bastion Speak with Aerith Ansem's Report 4
+    table.insert(location_map, {2657014, ansems_reports_address[game_version]       +    0, 4, 0x01, 0}) --Hollow Bastion Defeat Maleficent Ansem's Report 5
+    table.insert(location_map, {2657013, ansems_reports_address[game_version]       +    0, 3, 0x01, 0}) --Hollow Bastion Speak with Aerith Ansem's Report 6
+    table.insert(location_map, {2657012, ansems_reports_address[game_version]       +    0, 2, 0x01, 0}) --Halloween Town Defeat Oogie Boogie Ansem's Report 7
+    table.insert(location_map, {2657011, ansems_reports_address[game_version]       +    0, 1, 0x01, 0}) --Olympus Coliseum Defeat Hades Ansem's Report 8
+    table.insert(location_map, {2657028, ansems_reports_address[game_version]       +    1, 8, 0x01, 0}) --Neverland Defeat Hook Ansem's Report 9
+    table.insert(location_map, {2657027, ansems_reports_address[game_version]       +    1, 7, 0x01, 0}) --Hollow Bastion Speak with Aerith Ansem's Report 10
+    table.insert(location_map, {2657026, ansems_reports_address[game_version]       +    1, 6, 0x01, 0}) --Agrabah Defeat Kurt Zisa Ansem's Report 11
+    table.insert(location_map, {2657025, ansems_reports_address[game_version]       +    1, 5, 0x01, 0}) --Olympus Coliseum Defeat Sephiroth Ansem's Report 12
+    table.insert(location_map, {2657024, ansems_reports_address[game_version]       +    1, 4, 0x01, 0}) --Hollow Bastion Defeat Unknown Ansem's Report 13
     table.insert(location_map, {2658001, soras_level_address[game_version]          +    0, 0, 0x01, 0}) --Level 001
     table.insert(location_map, {2658002, soras_level_address[game_version]          +    0, 0, 0x02, 0}) --Level 002
     table.insert(location_map, {2658003, soras_level_address[game_version]          +    0, 0, 0x03, 0}) --Level 003

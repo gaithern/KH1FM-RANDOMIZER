@@ -807,6 +807,10 @@ assets:
   method: copy
   source:
   - name: scripts/1fmRandoSendAPLocations.lua
+- name: tw10.ard
+  method: copy
+  source:
+  - name: tw10.ard
 - name: tw25.ard
   method: copy
   source:

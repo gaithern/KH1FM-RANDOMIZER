@@ -12,11 +12,14 @@ stock_address = {0x2DEA1FA, 0x2DE97FA}
 
 function handle_slides(stock)
     if stock[217] > 0 and stock[218] == 0 then
-        WriteByte(stock_address[game_version] + 218, 1)
-        WriteByte(stock_address[game_version] + 219, 1)
-        WriteByte(stock_address[game_version] + 220, 1)
-        WriteByte(stock_address[game_version] + 221, 1)
-        WriteByte(stock_address[game_version] + 222, 1)
+        WriteByte(stock_address[game_version] + 218-1, 1)
+        WriteByte(stock_address[game_version] + 219-1, 1)
+        WriteByte(stock_address[game_version] + 220-1, 1)
+        WriteByte(stock_address[game_version] + 221-1, 1)
+        WriteByte(stock_address[game_version] + 222-1, 1)
+        slides_picked_up_array = {1,1,1,1,1,1}
+        slides_picked_up_array_address = {0x2DEAF67, 0x2DEA567}
+        WriteArray(slides_picked_up_array_address[game_version], slides_picked_up_array)
     end
 end
 
@@ -84,6 +87,7 @@ function handle_worlds(stock)
     monstro_status_addresss = world_status_address[game_version] + 0xA
     WriteArray(world_status_address[game_version], unlocked_worlds_array)
     WriteByte(monstro_status_addresss, monstro_unlocked)
+    write_world_lines()
 end
 
 function handle_trinities(stock)
@@ -148,6 +152,12 @@ function handle_puppies(stock)
         i = i + 1
     end
     WriteArray(puppy_array_address[game_version], puppies_array)
+end
+
+function write_world_lines()
+    --[[Opens all world connections on the world map]]
+    world_map_lines_address = {0x2DEBC72, 0x2DEB272}
+    WriteArray(world_map_lines_address[game_version], {0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF})
 end
 
 function _OnInit()

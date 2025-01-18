@@ -364,18 +364,18 @@ Large Body,Stat Page Pre Riku Ansem,xa_ex_2050.mdls,9B030,07 00 00 00,Int,7,EXP
 Large Body,Stat Page Post Riku Ansem,xa_ex_2050.mdls,9B080,2C 01 00 00,Int,300,HP
 Large Body,Stat Page Post Riku Ansem,xa_ex_2050.mdls,9B09C,B4 00 00 00,Int,180,EXP
 Large Body,Drop Table,xa_ex_2050.mdls,9B3FC,0F 00 00 00,Int,15,Small Munny
-Large Body,Drop Table,xa_ex_2050.mdls,9B340,00 00 00 00,Int,0,Medium Munny
-Large Body,Drop Table,xa_ex_2050.mdls,9B344,01 00 00 00,Int,1,Large Munny
-Large Body,Drop Table,xa_ex_2050.mdls,9B348,08 00 00 00,Int,8,Small HP
-Large Body,Drop Table,xa_ex_2050.mdls,9B34C,00 00 00 00,Int,0,Large HP
-Large Body,Drop Table,xa_ex_2050.mdls,9B350,00 00 00 00,Int,0,Small MP
-Large Body,Drop Table,xa_ex_2050.mdls,9B354,00 00 00 00,Int,0,Large MP
-Large Body,Drop Table,xa_ex_2050.mdls,9B358,0A D7 23 3D,Float,0.04,Chance Drop 1
-Large Body,Drop Table,xa_ex_2050.mdls,9B35C,02 00 00 00,Int,2,Drop 1
-Large Body,Drop Table,xa_ex_2050.mdls,9B360,0A D7 23 3C,Float,0.01,Chance Drop 2
-Large Body,Drop Table,xa_ex_2050.mdls,9B364,12 00 00 00,Int,12,Drop 2
-Large Body,Drop Table,xa_ex_2050.mdls,9B368,CD CC CC 3D,Float,0.1,Chance Drop 3
-Large Body,Drop Table,xa_ex_2050.mdls,9B36C,EC 00 00 00,Int,236,Drop 3
+Large Body,Drop Table,xa_ex_2050.mdls,9B400,00 00 00 00,Int,0,Medium Munny
+Large Body,Drop Table,xa_ex_2050.mdls,9B404,01 00 00 00,Int,1,Large Munny
+Large Body,Drop Table,xa_ex_2050.mdls,9B408,08 00 00 00,Int,8,Small HP
+Large Body,Drop Table,xa_ex_2050.mdls,9B40C,00 00 00 00,Int,0,Large HP
+Large Body,Drop Table,xa_ex_2050.mdls,9B410,00 00 00 00,Int,0,Small MP
+Large Body,Drop Table,xa_ex_2050.mdls,9B414,00 00 00 00,Int,0,Large MP
+Large Body,Drop Table,xa_ex_2050.mdls,9B418,0A D7 23 3D,Float,0.04,Chance Drop 1
+Large Body,Drop Table,xa_ex_2050.mdls,9B41C,02 00 00 00,Int,2,Drop 1
+Large Body,Drop Table,xa_ex_2050.mdls,9B420,0A D7 23 3C,Float,0.01,Chance Drop 2
+Large Body,Drop Table,xa_ex_2050.mdls,8B424,12 00 00 00,Int,12,Drop 2
+Large Body,Drop Table,xa_ex_2050.mdls,9B428,CD CC CC 3D,Float,0.1,Chance Drop 3
+Large Body,Drop Table,xa_ex_2050.mdls,9B42C,EC 00 00 00,Int,236,Drop 3
 Fat Bandit,Header,xa_ex_2060.mdls,8C784,65 78 5F 32 30 36 30 2E 62 64,String,ex_2060.bd,Start of stats header
 Fat Bandit,Stat Page Pre Riku Ansem,xa_ex_2060.mdls,8C794,F0 00 00 00,Int,240,HP
 Fat Bandit,Stat Page Pre Riku Ansem,xa_ex_2060.mdls,8C7B0,14 00 00 00,Int,20,EXP

@@ -1,13 +1,16 @@
 World,Location,Action,Item,Number,File,Use Corrected File?,Index,Offset,AP Location ID,AP Location Name
-Traverse Town,Item Shop,Hit Fan,Postcard,1,/remastered/tw10.ard/UK_tw10_ard2.evdl,N,1,D8C1,2656500,Traverse Town Item Shop Postcard
-Traverse Town,Item Shop,Hit Fan,Postcard,1,/remastered/tw10.ard/UK_tw10_ard2.evdl,N,2,D8CD,2656500,Traverse Town Item Shop Postcard
-Traverse Town,Item Shop,Hit Fan,Postcard,1,/remastered/tw10.ard/UK_tw10_ard2.evdl,N,3,D8D9,2656500,Traverse Town Item Shop Postcard
-Traverse Town,Item Shop,Hit Fan,Postcard,1,/remastered/tw10.ard/UK_tw10_ard19.evdl,N,1,1F3D,2656500,Traverse Town Item Shop Postcard
-Traverse Town,Item Shop,Hit Fan,Postcard,1,/remastered/tw10.ard/UK_tw10_ard19.evdl,N,2,1F49,2656500,Traverse Town Item Shop Postcard
-Traverse Town,Item Shop,Hit Fan,Postcard,1,/remastered/tw10.ard/UK_tw10_ard19.evdl,N,3,1F55,2656500,Traverse Town Item Shop Postcard
-Traverse Town,Item Shop,Hit Fan,Postcard,1,/remastered/tw10.ard/UK_tw10_ardc.evdl,N,1,B285,2656500,Traverse Town Item Shop Postcard
-Traverse Town,Item Shop,Hit Fan,Postcard,1,/remastered/tw10.ard/UK_tw10_ardc.evdl,N,2,B291,2656500,Traverse Town Item Shop Postcard
-Traverse Town,Item Shop,Hit Fan,Postcard,1,/remastered/tw10.ard/UK_tw10_ardc.evdl,N,3,B29D,2656500,Traverse Town Item Shop Postcard
+Traverse Town,Item Shop,Hit Fan,Postcard,1,/remastered/tw10.ard/UK_tw10_ard2.evdl,N,1,D8CD,2656500,Traverse Town Item Shop Postcard
+Traverse Town,Item Shop,Hit Fan,Postcard,1,/remastered/tw10.ard/UK_tw10_ard2.evdl,N,2,D8D9,2656500,Traverse Town Item Shop Postcard
+Traverse Town,Item Shop,Hit Fan,Postcard,1,/remastered/tw10.ard/UK_tw10_ard19.evdl,N,1,1F49,2656500,Traverse Town Item Shop Postcard
+Traverse Town,Item Shop,Hit Fan,Postcard,1,/remastered/tw10.ard/UK_tw10_ard19.evdl,N,2,1F55,2656500,Traverse Town Item Shop Postcard
+Traverse Town,Item Shop,Hit Fan,Postcard,1,/remastered/tw10.ard/UK_tw10_ardc.evdl,N,1,B291,2656500,Traverse Town Item Shop Postcard
+Traverse Town,Item Shop,Hit Fan,Postcard,1,/remastered/tw10.ard/UK_tw10_ardc.evdl,N,2,B29D,2656500,Traverse Town Item Shop Postcard
+Traverse Town,Item Shop,Hit Fan,Postcard,1,tw10.ard,N,1,5F815,2656500,Traverse Town Item Shop Postcard
+Traverse Town,Item Shop,Hit Fan,Postcard,1,tw10.ard,N,2,5F821,2656500,Traverse Town Item Shop Postcard
+Traverse Town,Item Shop,Hit Fan,Postcard,1,tw10.ard,N,3,6D951,2656500,Traverse Town Item Shop Postcard
+Traverse Town,Item Shop,Hit Fan,Postcard,1,tw10.ard,N,4,6D95D,2656500,Traverse Town Item Shop Postcard
+Traverse Town,Item Shop,Hit Fan,Postcard,1,tw10.ard,N,5,74F99,2656500,Traverse Town Item Shop Postcard
+Traverse Town,Item Shop,Hit Fan,Postcard,1,tw10.ard,N,6,74FA5,2656500,Traverse Town Item Shop Postcard
 Traverse Town,Item Workshop,Examine Poster,Postcard,1,/remastered/tw12.ard/UK_tw12_ard0.evdl,N,1,C3F1,2656504,Traverse Town Item Workshop Postcard
 Traverse Town,Item Workshop,Examine Poster,Postcard,1,/remastered/tw12.ard/UK_tw12_ard0.evdl,N,2,C3FD,2656504,Traverse Town Item Workshop Postcard
 Traverse Town,Item Workshop,Examine Poster,Postcard,1,/remastered/tw12.ard/UK_tw12_ard0.evdl,N,3,C409,2656504,Traverse Town Item Workshop Postcard
@@ -17,42 +20,30 @@ Traverse Town,Item Workshop,Examine Poster,Postcard,1,/remastered/tw12.ard/UK_tw
 Traverse Town,Item Workshop,Examine Poster,Postcard,1,/remastered/tw12.ard/UK_tw12_ardc.evdl,N,1,B369,2656504,Traverse Town Item Workshop Postcard
 Traverse Town,Item Workshop,Examine Poster,Postcard,1,/remastered/tw12.ard/UK_tw12_ardc.evdl,N,2,B375,2656504,Traverse Town Item Workshop Postcard
 Traverse Town,Item Workshop,Examine Poster,Postcard,1,/remastered/tw12.ard/UK_tw12_ardc.evdl,N,3,B381,2656504,Traverse Town Item Workshop Postcard
-Traverse Town,Gizmo Shop,Examine Clock,Postcard,1,/remastered/tw18.ard/UK_tw18_ard0.evdl,N,1,C035,2656502,Traverse Town Gizmo Shop Postcard 1
-Traverse Town,Gizmo Shop,Examine Clock,Postcard,1,/remastered/tw18.ard/UK_tw18_ard0.evdl,N,2,C041,2656502,Traverse Town Gizmo Shop Postcard 1
-Traverse Town,Gizmo Shop,Examine Clock,Postcard,1,/remastered/tw18.ard/UK_tw18_ard0.evdl,N,3,C04D,2656502,Traverse Town Gizmo Shop Postcard 1
-Traverse Town,Gizmo Shop,Examine Clock,Postcard,1,/remastered/tw18.ard/UK_tw18_ard10.evdl,N,1,C071,2656502,Traverse Town Gizmo Shop Postcard 1
-Traverse Town,Gizmo Shop,Examine Clock,Postcard,1,/remastered/tw18.ard/UK_tw18_ard10.evdl,N,2,C07D,2656502,Traverse Town Gizmo Shop Postcard 1
-Traverse Town,Gizmo Shop,Examine Clock,Postcard,1,/remastered/tw18.ard/UK_tw18_ard10.evdl,N,3,C089,2656502,Traverse Town Gizmo Shop Postcard 1
-Traverse Town,Gizmo Shop,Examine Clock,Postcard,1,/remastered/tw18.ard/UK_tw18_ard19.evdl,N,1,2EB5,2656502,Traverse Town Gizmo Shop Postcard 1
-Traverse Town,Gizmo Shop,Examine Clock,Postcard,1,/remastered/tw18.ard/UK_tw18_ard19.evdl,N,2,2EC1,2656502,Traverse Town Gizmo Shop Postcard 1
-Traverse Town,Gizmo Shop,Examine Clock,Postcard,1,/remastered/tw18.ard/UK_tw18_ard19.evdl,N,3,2ECD,2656502,Traverse Town Gizmo Shop Postcard 1
-Traverse Town,Gizmo Shop,Examine Clock,Postcard,1,/remastered/tw18.ard/UK_tw18_ardc.evdl,N,1,C1F9,2656502,Traverse Town Gizmo Shop Postcard 1
-Traverse Town,Gizmo Shop,Examine Clock,Postcard,1,/remastered/tw18.ard/UK_tw18_ardc.evdl,N,2,C205,2656502,Traverse Town Gizmo Shop Postcard 1
-Traverse Town,Gizmo Shop,Examine Clock,Postcard,1,/remastered/tw18.ard/UK_tw18_ardc.evdl,N,3,C211,2656502,Traverse Town Gizmo Shop Postcard 1
-Traverse Town,Gizmo Shop,Examine Clock,Postcard,1,/remastered/tw18.ard/UK_tw18_ardd.evdl,N,1,C0A1,2656502,Traverse Town Gizmo Shop Postcard 1
-Traverse Town,Gizmo Shop,Examine Clock,Postcard,1,/remastered/tw18.ard/UK_tw18_ardd.evdl,N,2,C0AD,2656502,Traverse Town Gizmo Shop Postcard 1
-Traverse Town,Gizmo Shop,Examine Clock,Postcard,1,/remastered/tw18.ard/UK_tw18_ardd.evdl,N,3,C0B9,2656502,Traverse Town Gizmo Shop Postcard 1
-Traverse Town,Gizmo Shop,Examine Clock,Postcard,1,/remastered/tw18.ard/UK_tw18_arde.evdl,N,1,BFAD,2656502,Traverse Town Gizmo Shop Postcard 1
-Traverse Town,Gizmo Shop,Examine Clock,Postcard,1,/remastered/tw18.ard/UK_tw18_arde.evdl,N,2,BFB9,2656502,Traverse Town Gizmo Shop Postcard 1
-Traverse Town,Gizmo Shop,Examine Clock,Postcard,1,/remastered/tw18.ard/UK_tw18_arde.evdl,N,3,BFC5,2656502,Traverse Town Gizmo Shop Postcard 1
-Traverse Town,Gizmo Shop,Examine Clock,Postcard,2,/remastered/tw18.ard/UK_tw18_ard0.evdl,N,1,C1C5,2656503,Traverse Town Gizmo Shop Postcard 2
-Traverse Town,Gizmo Shop,Examine Clock,Postcard,2,/remastered/tw18.ard/UK_tw18_ard0.evdl,N,2,C1D1,2656503,Traverse Town Gizmo Shop Postcard 2
-Traverse Town,Gizmo Shop,Examine Clock,Postcard,2,/remastered/tw18.ard/UK_tw18_ard0.evdl,N,3,C1DD,2656503,Traverse Town Gizmo Shop Postcard 2
-Traverse Town,Gizmo Shop,Examine Clock,Postcard,2,/remastered/tw18.ard/UK_tw18_ard10.evdl,N,1,C201,2656503,Traverse Town Gizmo Shop Postcard 2
-Traverse Town,Gizmo Shop,Examine Clock,Postcard,2,/remastered/tw18.ard/UK_tw18_ard10.evdl,N,2,C20D,2656503,Traverse Town Gizmo Shop Postcard 2
-Traverse Town,Gizmo Shop,Examine Clock,Postcard,2,/remastered/tw18.ard/UK_tw18_ard10.evdl,N,3,C219,2656503,Traverse Town Gizmo Shop Postcard 2
-Traverse Town,Gizmo Shop,Examine Clock,Postcard,2,/remastered/tw18.ard/UK_tw18_ard19.evdl,N,1,3045,2656503,Traverse Town Gizmo Shop Postcard 2
-Traverse Town,Gizmo Shop,Examine Clock,Postcard,2,/remastered/tw18.ard/UK_tw18_ard19.evdl,N,2,3051,2656503,Traverse Town Gizmo Shop Postcard 2
-Traverse Town,Gizmo Shop,Examine Clock,Postcard,2,/remastered/tw18.ard/UK_tw18_ard19.evdl,N,3,305D,2656503,Traverse Town Gizmo Shop Postcard 2
-Traverse Town,Gizmo Shop,Examine Clock,Postcard,2,/remastered/tw18.ard/UK_tw18_ardc.evdl,N,1,C389,2656503,Traverse Town Gizmo Shop Postcard 2
-Traverse Town,Gizmo Shop,Examine Clock,Postcard,2,/remastered/tw18.ard/UK_tw18_ardc.evdl,N,2,C395,2656503,Traverse Town Gizmo Shop Postcard 2
-Traverse Town,Gizmo Shop,Examine Clock,Postcard,2,/remastered/tw18.ard/UK_tw18_ardc.evdl,N,3,C3A1,2656503,Traverse Town Gizmo Shop Postcard 2
-Traverse Town,Gizmo Shop,Examine Clock,Postcard,2,/remastered/tw18.ard/UK_tw18_ardd.evdl,N,1,C231,2656503,Traverse Town Gizmo Shop Postcard 2
-Traverse Town,Gizmo Shop,Examine Clock,Postcard,2,/remastered/tw18.ard/UK_tw18_ardd.evdl,N,2,C23D,2656503,Traverse Town Gizmo Shop Postcard 2
-Traverse Town,Gizmo Shop,Examine Clock,Postcard,2,/remastered/tw18.ard/UK_tw18_ardd.evdl,N,3,C249,2656503,Traverse Town Gizmo Shop Postcard 2
-Traverse Town,Gizmo Shop,Examine Clock,Postcard,2,/remastered/tw18.ard/UK_tw18_arde.evdl,N,1,C13D,2656503,Traverse Town Gizmo Shop Postcard 2
-Traverse Town,Gizmo Shop,Examine Clock,Postcard,2,/remastered/tw18.ard/UK_tw18_arde.evdl,N,2,C149,2656503,Traverse Town Gizmo Shop Postcard 2
-Traverse Town,Gizmo Shop,Examine Clock,Postcard,2,/remastered/tw18.ard/UK_tw18_arde.evdl,N,3,C155,2656503,Traverse Town Gizmo Shop Postcard 2
+Traverse Town,Gizmo Shop,Examine Clock,Postcard,1,/remastered/tw18.ard/UK_tw18_ard0.evdl,N,1,C041,2656502,Traverse Town Gizmo Shop Postcard 1
+Traverse Town,Gizmo Shop,Examine Clock,Postcard,1,/remastered/tw18.ard/UK_tw18_ard0.evdl,N,2,C04D,2656502,Traverse Town Gizmo Shop Postcard 1
+Traverse Town,Gizmo Shop,Examine Clock,Postcard,1,/remastered/tw18.ard/UK_tw18_ard10.evdl,N,1,C07D,2656502,Traverse Town Gizmo Shop Postcard 1
+Traverse Town,Gizmo Shop,Examine Clock,Postcard,1,/remastered/tw18.ard/UK_tw18_ard10.evdl,N,2,C089,2656502,Traverse Town Gizmo Shop Postcard 1
+Traverse Town,Gizmo Shop,Examine Clock,Postcard,1,/remastered/tw18.ard/UK_tw18_ard19.evdl,N,1,2EC1,2656502,Traverse Town Gizmo Shop Postcard 1
+Traverse Town,Gizmo Shop,Examine Clock,Postcard,1,/remastered/tw18.ard/UK_tw18_ard19.evdl,N,2,2ECD,2656502,Traverse Town Gizmo Shop Postcard 1
+Traverse Town,Gizmo Shop,Examine Clock,Postcard,1,/remastered/tw18.ard/UK_tw18_ardc.evdl,N,1,C205,2656502,Traverse Town Gizmo Shop Postcard 1
+Traverse Town,Gizmo Shop,Examine Clock,Postcard,1,/remastered/tw18.ard/UK_tw18_ardc.evdl,N,2,C211,2656502,Traverse Town Gizmo Shop Postcard 1
+Traverse Town,Gizmo Shop,Examine Clock,Postcard,1,/remastered/tw18.ard/UK_tw18_ardd.evdl,N,1,C0AD,2656502,Traverse Town Gizmo Shop Postcard 1
+Traverse Town,Gizmo Shop,Examine Clock,Postcard,1,/remastered/tw18.ard/UK_tw18_ardd.evdl,N,2,C0B9,2656502,Traverse Town Gizmo Shop Postcard 1
+Traverse Town,Gizmo Shop,Examine Clock,Postcard,1,/remastered/tw18.ard/UK_tw18_arde.evdl,N,1,BFB9,2656502,Traverse Town Gizmo Shop Postcard 1
+Traverse Town,Gizmo Shop,Examine Clock,Postcard,1,/remastered/tw18.ard/UK_tw18_arde.evdl,N,2,BFC5,2656502,Traverse Town Gizmo Shop Postcard 1
+Traverse Town,Gizmo Shop,Examine Clock,Postcard,2,/remastered/tw18.ard/UK_tw18_ard0.evdl,N,1,C1D1,2656503,Traverse Town Gizmo Shop Postcard 2
+Traverse Town,Gizmo Shop,Examine Clock,Postcard,2,/remastered/tw18.ard/UK_tw18_ard0.evdl,N,2,C1DD,2656503,Traverse Town Gizmo Shop Postcard 2
+Traverse Town,Gizmo Shop,Examine Clock,Postcard,2,/remastered/tw18.ard/UK_tw18_ard10.evdl,N,1,C20D,2656503,Traverse Town Gizmo Shop Postcard 2
+Traverse Town,Gizmo Shop,Examine Clock,Postcard,2,/remastered/tw18.ard/UK_tw18_ard10.evdl,N,2,C219,2656503,Traverse Town Gizmo Shop Postcard 2
+Traverse Town,Gizmo Shop,Examine Clock,Postcard,2,/remastered/tw18.ard/UK_tw18_ard19.evdl,N,1,3051,2656503,Traverse Town Gizmo Shop Postcard 2
+Traverse Town,Gizmo Shop,Examine Clock,Postcard,2,/remastered/tw18.ard/UK_tw18_ard19.evdl,N,2,305D,2656503,Traverse Town Gizmo Shop Postcard 2
+Traverse Town,Gizmo Shop,Examine Clock,Postcard,2,/remastered/tw18.ard/UK_tw18_ardc.evdl,N,1,C395,2656503,Traverse Town Gizmo Shop Postcard 2
+Traverse Town,Gizmo Shop,Examine Clock,Postcard,2,/remastered/tw18.ard/UK_tw18_ardc.evdl,N,2,C3A1,2656503,Traverse Town Gizmo Shop Postcard 2
+Traverse Town,Gizmo Shop,Examine Clock,Postcard,2,/remastered/tw18.ard/UK_tw18_ardd.evdl,N,1,C23D,2656503,Traverse Town Gizmo Shop Postcard 2
+Traverse Town,Gizmo Shop,Examine Clock,Postcard,2,/remastered/tw18.ard/UK_tw18_ardd.evdl,N,2,C249,2656503,Traverse Town Gizmo Shop Postcard 2
+Traverse Town,Gizmo Shop,Examine Clock,Postcard,2,/remastered/tw18.ard/UK_tw18_arde.evdl,N,1,C149,2656503,Traverse Town Gizmo Shop Postcard 2
+Traverse Town,Gizmo Shop,Examine Clock,Postcard,2,/remastered/tw18.ard/UK_tw18_arde.evdl,N,2,C155,2656503,Traverse Town Gizmo Shop Postcard 2
 Traverse Town,3rd District,Examine Balcony Corner,Postcard,1,tw25.ard,N,1,B7079,2656505,Traverse Town 3rd District Balcony Postcard
 Traverse Town,3rd District,Examine Balcony Corner,Postcard,1,tw25.ard,N,2,B7085,2656505,Traverse Town 3rd District Balcony Postcard
 Traverse Town,3rd District,Examine Balcony Corner,Postcard,1,tw25.ard,N,3,B7091,2656505,Traverse Town 3rd District Balcony Postcard
@@ -159,52 +150,52 @@ Deep Jungle,Camp,Fire Experiment,Hi-Potion,1,/remastered/tz13.ard/UK_tz13_ardf.e
 Deep Jungle,Camp,Fire Experiment,Hi-Potion,1,/remastered/tz13.ard/UK_tz13_ardf.evdl,N,4,5599,2656361,Deep Jungle Camp Hi-Potion Experiment
 Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard0.evdl,N,1,7A2D,2656362,Deep Jungle Camp Ether Experiment
 Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard0.evdl,N,2,7A39,2656362,Deep Jungle Camp Ether Experiment
-Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard0.evdl,N,3,7B09,2656362,Deep Jungle Camp Ether Experiment
-Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard0.evdl,N,4,7B15,2656362,Deep Jungle Camp Ether Experiment
-Deep Jungle,Camp,Replication Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard0.evdl,N,1,7D19,2656363,Deep Jungle Camp Replication Experiment
-Deep Jungle,Camp,Replication Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard0.evdl,N,2,7D25,2656363,Deep Jungle Camp Replication Experiment
+Deep Jungle,Camp,Replication Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard0.evdl,N,1,7B09,2656363,Deep Jungle Camp Replication Experiment
+Deep Jungle,Camp,Replication Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard0.evdl,N,2,7B15,2656363,Deep Jungle Camp Replication Experiment
+Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard0.evdl,N,3,7D19,2656362,Deep Jungle Camp Ether Experiment
+Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard0.evdl,N,4,7D25,2656362,Deep Jungle Camp Ether Experiment
 Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard1.evdl,Y,1,7EF5,2656362,Deep Jungle Camp Ether Experiment
 Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard1.evdl,Y,2,7F01,2656362,Deep Jungle Camp Ether Experiment
-Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard1.evdl,Y,3,81E1,2656362,Deep Jungle Camp Ether Experiment
-Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard1.evdl,Y,4,81ED,2656362,Deep Jungle Camp Ether Experiment
-Deep Jungle,Camp,Replication Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard1.evdl,Y,1,7FD1,2656363,Deep Jungle Camp Replication Experiment
-Deep Jungle,Camp,Replication Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard1.evdl,Y,2,7FDD,2656363,Deep Jungle Camp Replication Experiment
+Deep Jungle,Camp,Replication Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard1.evdl,Y,1,81E1,2656363,Deep Jungle Camp Replication Experiment
+Deep Jungle,Camp,Replication Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard1.evdl,Y,2,81ED,2656363,Deep Jungle Camp Replication Experiment
+Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard1.evdl,Y,3,7FD1,2656362,Deep Jungle Camp Ether Experiment
+Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard1.evdl,Y,4,7FDD,2656362,Deep Jungle Camp Ether Experiment
 Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard2.evdl,N,1,6DD1,2656362,Deep Jungle Camp Ether Experiment
 Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard2.evdl,N,2,6DDD,2656362,Deep Jungle Camp Ether Experiment
-Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard2.evdl,N,3,6EAD,2656362,Deep Jungle Camp Ether Experiment
-Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard2.evdl,N,4,6EB9,2656362,Deep Jungle Camp Ether Experiment
-Deep Jungle,Camp,Replication Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard2.evdl,N,1,70BD,2656363,Deep Jungle Camp Replication Experiment
-Deep Jungle,Camp,Replication Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard2.evdl,N,2,70C9,2656363,Deep Jungle Camp Replication Experiment
+Deep Jungle,Camp,Replication Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard2.evdl,N,1,6EAD,2656363,Deep Jungle Camp Replication Experiment
+Deep Jungle,Camp,Replication Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard2.evdl,N,2,6EB9,2656363,Deep Jungle Camp Replication Experiment
+Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard2.evdl,N,3,70BD,2656362,Deep Jungle Camp Ether Experiment
+Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard2.evdl,N,4,70C9,2656362,Deep Jungle Camp Ether Experiment
 Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard11.evdl,N,1,66A9,2656362,Deep Jungle Camp Ether Experiment
 Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard11.evdl,N,2,66B5,2656362,Deep Jungle Camp Ether Experiment
-Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard11.evdl,N,3,6785,2656362,Deep Jungle Camp Ether Experiment
-Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard11.evdl,N,4,6791,2656362,Deep Jungle Camp Ether Experiment
-Deep Jungle,Camp,Replication Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard11.evdl,N,1,6995,2656363,Deep Jungle Camp Replication Experiment
-Deep Jungle,Camp,Replication Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard11.evdl,N,2,69A1,2656363,Deep Jungle Camp Replication Experiment
+Deep Jungle,Camp,Replication Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard11.evdl,N,1,6785,2656363,Deep Jungle Camp Replication Experiment
+Deep Jungle,Camp,Replication Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard11.evdl,N,2,6791,2656363,Deep Jungle Camp Replication Experiment
+Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard11.evdl,N,3,6995,2656362,Deep Jungle Camp Ether Experiment
+Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard11.evdl,N,4,69A1,2656362,Deep Jungle Camp Ether Experiment
 Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard13.evdl,N,1,66A9,2656362,Deep Jungle Camp Ether Experiment
 Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard13.evdl,N,2,66B5,2656362,Deep Jungle Camp Ether Experiment
-Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard13.evdl,N,3,6785,2656362,Deep Jungle Camp Ether Experiment
-Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard13.evdl,N,4,6791,2656362,Deep Jungle Camp Ether Experiment
-Deep Jungle,Camp,Replication Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard13.evdl,N,1,6995,2656363,Deep Jungle Camp Replication Experiment
-Deep Jungle,Camp,Replication Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard13.evdl,N,2,69A1,2656363,Deep Jungle Camp Replication Experiment
+Deep Jungle,Camp,Replication Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard13.evdl,N,1,6785,2656363,Deep Jungle Camp Replication Experiment
+Deep Jungle,Camp,Replication Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard13.evdl,N,2,6791,2656363,Deep Jungle Camp Replication Experiment
+Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard13.evdl,N,3,6995,2656362,Deep Jungle Camp Ether Experiment
+Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard13.evdl,N,4,69A1,2656362,Deep Jungle Camp Ether Experiment
 Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard19.evdl,N,1,4665,2656362,Deep Jungle Camp Ether Experiment
 Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard19.evdl,N,2,4671,2656362,Deep Jungle Camp Ether Experiment
-Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard19.evdl,N,3,4741,2656362,Deep Jungle Camp Ether Experiment
-Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard19.evdl,N,4,474D,2656362,Deep Jungle Camp Ether Experiment
-Deep Jungle,Camp,Replication Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard19.evdl,N,1,4951,2656363,Deep Jungle Camp Replication Experiment
-Deep Jungle,Camp,Replication Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard19.evdl,N,2,495D,2656363,Deep Jungle Camp Replication Experiment
+Deep Jungle,Camp,Replication Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard19.evdl,N,1,4741,2656363,Deep Jungle Camp Replication Experiment
+Deep Jungle,Camp,Replication Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard19.evdl,N,2,474D,2656363,Deep Jungle Camp Replication Experiment
+Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard19.evdl,N,3,4951,2656362,Deep Jungle Camp Ether Experiment
+Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ard19.evdl,N,4,495D,2656362,Deep Jungle Camp Ether Experiment
 Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_arde.evdl,N,1,66A9,2656362,Deep Jungle Camp Ether Experiment
 Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_arde.evdl,N,2,66B5,2656362,Deep Jungle Camp Ether Experiment
-Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_arde.evdl,N,3,6785,2656362,Deep Jungle Camp Ether Experiment
-Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_arde.evdl,N,4,6791,2656362,Deep Jungle Camp Ether Experiment
-Deep Jungle,Camp,Replication Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_arde.evdl,N,1,6995,2656363,Deep Jungle Camp Replication Experiment
-Deep Jungle,Camp,Replication Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_arde.evdl,N,2,69A1,2656363,Deep Jungle Camp Replication Experiment
+Deep Jungle,Camp,Replication Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_arde.evdl,N,1,6785,2656363,Deep Jungle Camp Replication Experiment
+Deep Jungle,Camp,Replication Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_arde.evdl,N,2,6791,2656363,Deep Jungle Camp Replication Experiment
+Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_arde.evdl,N,3,6995,2656362,Deep Jungle Camp Ether Experiment
+Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_arde.evdl,N,4,69A1,2656362,Deep Jungle Camp Ether Experiment
 Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ardf.evdl,N,1,6735,2656362,Deep Jungle Camp Ether Experiment
 Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ardf.evdl,N,2,6741,2656362,Deep Jungle Camp Ether Experiment
-Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ardf.evdl,N,3,6811,2656362,Deep Jungle Camp Ether Experiment
-Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ardf.evdl,N,4,681D,2656362,Deep Jungle Camp Ether Experiment
-Deep Jungle,Camp,Replication Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ardf.evdl,N,1,6A21,2656363,Deep Jungle Camp Replication Experiment
-Deep Jungle,Camp,Replication Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ardf.evdl,N,2,6A2D,2656363,Deep Jungle Camp Replication Experiment
+Deep Jungle,Camp,Replication Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ardf.evdl,N,1,6811,2656363,Deep Jungle Camp Replication Experiment
+Deep Jungle,Camp,Replication Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ardf.evdl,N,2,681D,2656363,Deep Jungle Camp Replication Experiment
+Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ardf.evdl,N,3,6A21,2656362,Deep Jungle Camp Ether Experiment
+Deep Jungle,Camp,Blizzard Experiment,Ether,1,/remastered/tz13.ard/UK_tz13_ardf.evdl,N,4,6A2D,2656362,Deep Jungle Camp Ether Experiment
 Deep Jungle,Bamboo Thicket,Rescue Gorillas,Fire-G,1,/remastered/tz03.ard/UK_tz03_ard2.evdl,Y,1,444D,2656367,Deep Jungle Bamboo Thicket Save Gorillas
 Deep Jungle,Bamboo Thicket,Rescue Gorillas,Fire-G,1,/remastered/tz03.ard/UK_tz03_ard2.evdl,Y,2,4459,2656367,Deep Jungle Bamboo Thicket Save Gorillas
 Deep Jungle,Bamboo Thicket,Rescue Gorillas,Fire-G,1,/remastered/tz03.ard/UK_tz03_ard2.evdl,Y,3,4465,2656367,Deep Jungle Bamboo Thicket Save Gorillas
@@ -1218,12 +1209,12 @@ Wonderland,Bizarre Room,Defeat Trickmaster,Blizzard,1,/remastered/aw02.ard/UK_aw
 Wonderland,Bizarre Room,Defeat Trickmaster,Navi-G Piece 2,1,/remastered/aw02.ard/UK_aw02_ard0.evdl,Y,1,10DFC,2656385,Wonderland Bizarre Room Navi-G Piece Event
 Wonderland,Bizarre Room,Defeat Trickmaster,Navi-G Piece 2,1,/remastered/aw02.ard/UK_aw02_ard0.evdl,Y,2,10E08,2656385,Wonderland Bizarre Room Navi-G Piece Event
 Wonderland,Bizarre Room,Defeat Trickmaster,Navi-G Piece 2,1,/remastered/aw02.ard/UK_aw02_ard0.evdl,Y,3,10E14,2656385,Wonderland Bizarre Room Navi-G Piece Event
-Monstro,Throat,Defeate Parasite Cage 2,Stop,1,/remastered/pi03.ard/UK_pi03_ard2.evdl,Y,1,5D39,2656062,Monstro Defeat Parasite Cage II Stop Event
-Monstro,Throat,Defeate Parasite Cage 2,Stop,1,/remastered/pi03.ard/UK_pi03_ard2.evdl,Y,2,5D45,2656062,Monstro Defeat Parasite Cage II Stop Event
-Monstro,Throat,Defeate Parasite Cage 2,Stop,1,/remastered/pi03.ard/UK_pi03_ard2.evdl,Y,3,5D51,2656062,Monstro Defeat Parasite Cage II Stop Event
-Monstro,Throat,Defeate Parasite Cage 2,Stop,1,/remastered/pi03.ard/UK_pi03_ard0.evdl,Y,1,6E5D,2656062,Monstro Defeat Parasite Cage II Stop Event
-Monstro,Throat,Defeate Parasite Cage 2,Stop,1,/remastered/pi03.ard/UK_pi03_ard0.evdl,Y,2,6E69,2656062,Monstro Defeat Parasite Cage II Stop Event
-Monstro,Throat,Defeate Parasite Cage 2,Stop,1,/remastered/pi03.ard/UK_pi03_ard0.evdl,Y,3,6E75,2656062,Monstro Defeat Parasite Cage II Stop Event
+Monstro,Throat,Defeat Parasite Cage 2,Stop,1,/remastered/pi03.ard/UK_pi03_ard2.evdl,Y,1,5D39,2656062,Monstro Defeat Parasite Cage II Stop Event
+Monstro,Throat,Defeat Parasite Cage 2,Stop,1,/remastered/pi03.ard/UK_pi03_ard2.evdl,Y,2,5D45,2656062,Monstro Defeat Parasite Cage II Stop Event
+Monstro,Throat,Defeat Parasite Cage 2,Stop,1,/remastered/pi03.ard/UK_pi03_ard2.evdl,Y,3,5D51,2656062,Monstro Defeat Parasite Cage II Stop Event
+Monstro,Throat,Defeat Parasite Cage 2,Stop,1,/remastered/pi03.ard/UK_pi03_ard0.evdl,Y,1,6E5D,2656062,Monstro Defeat Parasite Cage II Stop Event
+Monstro,Throat,Defeat Parasite Cage 2,Stop,1,/remastered/pi03.ard/UK_pi03_ard0.evdl,Y,2,6E69,2656062,Monstro Defeat Parasite Cage II Stop Event
+Monstro,Throat,Defeat Parasite Cage 2,Stop,1,/remastered/pi03.ard/UK_pi03_ard0.evdl,Y,3,6E75,2656062,Monstro Defeat Parasite Cage II Stop Event
 End of the World,World Terminus: Atlantica,Chest,AP Up,1,/remastered/ew22.ard/UK_ew22_ard19.evdl,N,1,1B65,2654731,End of the World World Terminus Atlantica Chest
 End of the World,World Terminus: Atlantica,Chest,AP Up,1,/remastered/ew22.ard/UK_ew22_ard19.evdl,N,2,1B0D,2654731,End of the World World Terminus Atlantica Chest
 End of the World,World Terminus: Atlantica,Chest,AP Up,1,/remastered/ew22.ard/UK_ew22_ard19.evdl,N,3,1B15,2654731,End of the World World Terminus Atlantica Chest
