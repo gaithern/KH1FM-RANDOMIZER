@@ -44,8 +44,11 @@ def create_mod_yaml():
 """
     write_mod_yaml_file(mod_yaml_str)
 
-if __name__=="__main__":
+def write_mod_zip():
     create_mod_yaml()
     directory_to_zip = './Output/'
     output_zip_file = './Output'
     zip_directory(directory_to_zip, output_zip_file)
+
+if __name__=="__main__":
+    write_mod_zip()

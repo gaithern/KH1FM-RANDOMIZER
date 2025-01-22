@@ -10,14 +10,6 @@ from definitions import repurposed_key_item_ids
 root = tk.Tk()
 root.withdraw()
 
-def get_kh1_data_path():
-    kh1_data_path = None
-    while not kh1_data_path:
-        kh1_data_path = filedialog.askdirectory()
-        if not kh1_data_path:
-            print("Error, please select a valid KH1 data path")
-    return kh1_data_path
-
 def get_bambi_definitions():
     with open('./KH1FM Documentation - Bambi Drops.csv', mode = 'r') as file:
         bambi_definitions = []
@@ -55,9 +47,12 @@ def write_bambi_mdls(bambi_bytes):
     with safe_open_wb('./Output/' + "xa_ex_4030.mdls") as file:
         file.write(bambi_bytes)
 
-if __name__=="__main__":
-    kh1_data_path = "C:/OpenKH/OpenKHEGS/data/kh1/"
+def write_bambi_rewards():
+    kh1_data_path = "./Output/"
     bambi_definitions = get_bambi_definitions()
     bambi_bytes = get_bambi_data(kh1_data_path)
     bambi_bytes = remove_bambi_synth_drops(bambi_bytes, bambi_definitions)
     write_bambi_mdls(bambi_bytes)
+
+if __name__=="__main__":
+    write_bambi_rewards()

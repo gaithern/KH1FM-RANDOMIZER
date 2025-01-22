@@ -8,14 +8,6 @@ import os
 root = tk.Tk()
 root.withdraw()
 
-def get_kh1_data_path():
-    kh1_data_path = None
-    while not kh1_data_path:
-        kh1_data_path = filedialog.askdirectory()
-        if not kh1_data_path:
-            print("Error, please select a valid KH1 data path")
-    return kh1_data_path
-
 def get_evdl_locations():
     with open('./KH1FM Documentation - Static Items.csv', mode = 'r') as file:
         evdl_locations = []
@@ -81,9 +73,12 @@ def write_updated_evdl_files(sorted_evdl_location_data, seed_json_data, kh1_data
                 print("AP Location ID not found in replacement JSON, writing potion")
         write_evdl_bytes_to_file(file, evdl_bytes)
 
-if __name__=="__main__":
-    kh1_data_path = "C:/OpenKH/OpenKHEGS/data/kh1/"
+def write_static_items():
+    kh1_data_path = "./Output/"
     seed_json_data = get_seed_json_data()
     evdl_locations = get_evdl_locations()
     sorted_evdl_location_data = sort_evdl_location_data(evdl_locations)
     write_updated_evdl_files(sorted_evdl_location_data, seed_json_data, kh1_data_path)
+
+if __name__=="__main__":
+    write_static_items()

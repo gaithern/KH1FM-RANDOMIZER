@@ -22,7 +22,7 @@ def get_corrected_evdl_data():
             corrected_evdl_data.append(line)
     return corrected_evdl_data
 
-def validate_data():
+def validate_evdl_data():
     error = False
     kh1_data_path = get_kh1_data_path()
     corrected_evdl_data = get_corrected_evdl_data()
@@ -60,4 +60,4 @@ def validate_data():
         print("All checks completed successfully!")
 
 if __name__=="__main__":
-    validate_data()
+    validate_evdl_data()

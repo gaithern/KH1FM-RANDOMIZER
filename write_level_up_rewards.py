@@ -1,0 +1,88 @@
+import tkinter as tk
+from tkinter import filedialog
+import csv
+import json
+from pprint import pprint
+
+from definitions import sora_ability_item_ids
+
+root = tk.Tk()
+root.withdraw()
+
+def get_level_up_stats_definitions():
+    with open('./KH1FM Documentation - Battle Table Sora Level Up Stats.csv', mode = 'r') as file:
+        level_up_stats_definitions = []
+        level_up_stats_data = csv.DictReader(file)
+        for line in level_up_stats_data:
+            level_up_stats_definitions.append(line)
+    return level_up_stats_definitions
+
+def get_level_up_abilities_definitions():
+    with open('./KH1FM Documentation - Battle Table Sora Level Up Abilities.csv', mode = 'r') as file:
+        level_up_abilities_definitions = []
+        level_up_abilities_data = csv.DictReader(file)
+        for line in level_up_abilities_data:
+            level_up_abilities_definitions.append(line)
+    return level_up_abilities_definitions
+
+def get_seed_json_data():
+    seed_json_file = None
+    while not seed_json_file:
+        seed_json_file = filedialog.askopenfile(mode ='r', filetypes =[('JSON', '*.json')], title = "KH1 Randomizer Seed JSON")
+        if not seed_json_file:
+            print("Error, please select a valid KH1 seed file")
+        else:
+            seed_json_data = json.load(seed_json_file)
+    return seed_json_data
+
+def get_battle_table(kh1_data_path):
+    with open(kh1_data_path + "/btltbl.bin", mode = 'rb') as file:
+        return bytearray(file.read())
+
+def update_battle_table(battle_table_bytes, replacements):
+    for replacement_offset in replacements.keys():
+        battle_table_bytes[replacement_offset] = replacements[replacement_offset]
+    return battle_table_bytes
+
+def get_battle_table_replacements(level_up_stats_definitions, level_up_abilities_definitions, seed_json_data):
+    replacements = {}
+    for level_up_stats_definition in level_up_stats_definitions:
+        location_id = level_up_stats_definition["AP Location ID"]
+        offset = int(level_up_stats_definition["Offset"],16)
+        print("Getting replacement byte for level up location: " + level_up_stats_definition["AP Location Name"] + " with offset " + level_up_stats_definition["Offset"])
+        replacements[offset] = 0
+        if location_id in seed_json_data.keys():
+            item_id = seed_json_data[location_id]
+            if item_id >= 2644001 and item_id <= 2644007:
+                replacements[offset] = item_id % 2644000
+        print("New value for level up location: " + level_up_stats_definition["AP Location Name"] + " with offset " + level_up_stats_definition["Offset"] + " is " + str(replacements[offset]))
+    for level_up_abilities_definition in level_up_abilities_definitions:
+        location_id = level_up_abilities_definition["AP Location ID"]
+        offset = int(level_up_abilities_definition["Offset"],16)
+        print("Getting replacement byte for level up location: " + level_up_abilities_definition["AP Location Name"] + " with offset " + level_up_abilities_definition["Offset"])
+        replacements[offset] = 0
+        if location_id in seed_json_data.keys():
+            item_id = seed_json_data[location_id]
+            if item_id >= 2644001 and item_id <= 2644007:
+                replacements[offset] = item_id % 2644000
+            elif item_id in sora_ability_item_ids:
+                replacements[offset] = item_id % 2643000 + 0x80
+        print("New value for level up location: " + level_up_abilities_definition["AP Location Name"] + " with offset " + level_up_abilities_definition["Offset"] + " is " + str(replacements[offset]))
+    return replacements
+
+def output_battle_table(battle_table_bytes):
+    with open('./Output/btltbl.bin', mode = 'wb') as file:
+        file.write(battle_table_bytes)
+
+def write_level_up_rewards():
+    kh1_data_path = "./Output/"
+    level_up_abilities_definitions = get_level_up_abilities_definitions()
+    level_up_stats_definitions = get_level_up_stats_definitions()
+    seed_json_data = get_seed_json_data()
+    replacements = get_battle_table_replacements(level_up_stats_definitions, level_up_abilities_definitions, seed_json_data)
+    battle_table_bytes = get_battle_table(kh1_data_path)
+    battle_table_bytes = update_battle_table(battle_table_bytes, replacements)
+    output_battle_table(battle_table_bytes)
+
+if __name__ == "__main__":
+    write_level_up_rewards()

@@ -10,14 +10,6 @@ from definitions import repurposed_key_item_ids
 root = tk.Tk()
 root.withdraw()
 
-def get_kh1_data_path():
-    kh1_data_path = None
-    while not kh1_data_path:
-        kh1_data_path = filedialog.askdirectory()
-        if not kh1_data_path:
-            print("Error, please select a valid KH1 data path")
-    return kh1_data_path
-
 def get_enemy_drop_definitions():
     with open('./KH1FM Documentation - Enemy Stats and Drops.csv', mode = 'r') as file:
         enemy_drop_definitions = []
@@ -63,11 +55,14 @@ def sort_enemy_drop_definitions(enemy_drop_definitions):
         sorted_enemy_drop_definitions[enemy_drop_definition["File"]].append(enemy_drop_definition)
     return sorted_enemy_drop_definitions
 
-if __name__=="__main__":
-    kh1_data_path = "C:/OpenKH/OpenKHEGS/data/kh1/"
+def write_enemy_drop_rewards():
+    kh1_data_path = "./Output/"
     enemy_drop_definitions = get_enemy_drop_definitions()
     sorted_enemy_drop_definitions = sort_enemy_drop_definitions(enemy_drop_definitions)
     for file in sorted_enemy_drop_definitions.keys():
         enemy_bytes = get_enemy_data(kh1_data_path, file)
         enemy_bytes = remove_enemy_synth_drops(enemy_bytes, sorted_enemy_drop_definitions[file])
         write_enemy_mdls(enemy_bytes, file)
+
+if __name__=="__main__":
+    write_enemy_drop_rewards()

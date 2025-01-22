@@ -7,14 +7,6 @@ from pprint import pprint
 root = tk.Tk()
 root.withdraw()
 
-def get_kh1_data_path():
-    kh1_data_path = None
-    while not kh1_data_path:
-        kh1_data_path = filedialog.askdirectory()
-        if not kh1_data_path:
-            print("Error, please select a valid KH1 data path")
-    return kh1_data_path
-
 def get_chest_definitions():
     with open('./KH1FM Documentation - Chest Items.csv', mode = 'r') as file:
         chest_definitions = []
@@ -140,8 +132,8 @@ def output_battle_table(battle_table_bytes):
     with open('./Output/btltbl.bin', mode = 'wb') as file:
         file.write(battle_table_bytes)
 
-if __name__=="__main__":
-    kh1_data_path = "C:/OpenKH/OpenKHEGS/data/kh1"
+def write_chests_and_rewards():
+    kh1_data_path = "./Output/"
     chest_definitions = get_chest_definitions()
     reward_definitions = get_rewards_definitions()
     seed_json_data = get_seed_json_data()
@@ -153,4 +145,6 @@ if __name__=="__main__":
     battle_table_bytes = get_battle_table(kh1_data_path)
     updated_battle_table = update_battle_table(battle_table_bytes, reward_replacements)
     output_battle_table(updated_battle_table)
-    
+
+if __name__=="__main__":
+    write_chests_and_rewards()

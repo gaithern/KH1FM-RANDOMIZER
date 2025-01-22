@@ -23,6 +23,14 @@ assets:
   method: copy
   source:
   - name: pc13.ard
+- name: po01.ard
+  method: copy
+  source:
+  - name: po01.ard
+- name: pp10.ard
+  method: copy
+  source:
+  - name: pp10.ard
 - name: remastered/al17.ard/UK_al17_ard3.evdl
   method: copy
   source:
@@ -55,6 +63,10 @@ assets:
   method: copy
   source:
   - name: remastered/aw03.ard/UK_aw03_ardc.evdl
+- name: remastered/btltbl.bin/UK_ItemHelp.bin
+  method: copy
+  source:
+  - name: remastered/btltbl.bin/UK_ItemHelp.bin
 - name: remastered/btltbl.bin/UK_Word.bin
   method: copy
   source:
@@ -511,6 +523,14 @@ assets:
   method: copy
   source:
   - name: remastered/pi03.ard/UK_pi03_ard2.evdl
+- name: remastered/po01.ard/UK_po01a.ev
+  method: copy
+  source:
+  - name: remastered/po01.ard/UK_po01a.ev
+- name: remastered/po01.ard/UK_po01_ard0.evdl
+  method: copy
+  source:
+  - name: remastered/po01.ard/UK_po01_ard0.evdl
 - name: remastered/po02.ard/UK_po02_ard0.evdl
   method: copy
   source:
@@ -571,6 +591,10 @@ assets:
   method: copy
   source:
   - name: remastered/pp10.ard/UK_pp10_ard19.evdl
+- name: remastered/pp10.ard/UK_pp10_ard2.evdl
+  method: copy
+  source:
+  - name: remastered/pp10.ard/UK_pp10_ard2.evdl
 - name: remastered/pp10.ard/UK_pp10_ardc.evdl
   method: copy
   source:
@@ -783,22 +807,42 @@ assets:
   method: copy
   source:
   - name: remastered/tz15.ard/UK_tz15_ard0.evdl
-- name: scripts/1fmAPFlagFixes.lua
+- name: scripts/1fmRandoBoardGummi.lua
   method: copy
   source:
-  - name: scripts/1fmAPFlagFixes.lua
-- name: scripts/1fmAPInstantGummi.lua
-  method: copy
-  source:
-  - name: scripts/1fmAPInstantGummi.lua
+  - name: scripts/1fmRandoBoardGummi.lua
 - name: scripts/1fmRandoChests.lua
   method: copy
   source:
   - name: scripts/1fmRandoChests.lua
+- name: scripts/1fmRandoEndoftheWorldUnlock.lua
+  method: copy
+  source:
+  - name: scripts/1fmRandoEndoftheWorldUnlock.lua
+- name: scripts/1fmRandoFixRiku2.lua
+  method: copy
+  source:
+  - name: scripts/1fmRandoFixRiku2.lua
+- name: scripts/1fmRandoFixWarps.lua
+  method: copy
+  source:
+  - name: scripts/1fmRandoFixWarps.lua
+- name: scripts/1fmRandoFlagFixes.lua
+  method: copy
+  source:
+  - name: scripts/1fmRandoFlagFixes.lua
 - name: scripts/1fmRandoHandleItems.lua
   method: copy
   source:
   - name: scripts/1fmRandoHandleItems.lua
+- name: scripts/1fmRandoInstantGummi.lua
+  method: copy
+  source:
+  - name: scripts/1fmRandoInstantGummi.lua
+- name: scripts/1fmRandoQualityOfLife.lua
+  method: copy
+  source:
+  - name: scripts/1fmRandoQualityOfLife.lua
 - name: scripts/1fmRandoReceiveAPItems.lua
   method: copy
   source:
@@ -807,10 +851,18 @@ assets:
   method: copy
   source:
   - name: scripts/1fmRandoSendAPLocations.lua
+- name: scripts/1fmRandoStackableGrowth.lua
+  method: copy
+  source:
+  - name: scripts/1fmRandoStackableGrowth.lua
 - name: tw10.ard
   method: copy
   source:
   - name: tw10.ard
+- name: tw12.ard
+  method: copy
+  source:
+  - name: tw12.ard
 - name: tw25.ard
   method: copy
   source:
