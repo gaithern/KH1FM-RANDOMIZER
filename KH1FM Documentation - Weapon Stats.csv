@@ -1,0 +1,541 @@
+Keyblade,User,File,Offset,Value (HEX),Value Type,Value,Notes
+Kingdom Key,Sora,btltbl.bin,94F8,78 77 5F 65 78 5F 35 30 31 30,String,xw_ex_5010,Weapon Header
+Kingdom Key,Sora,btltbl.bin,9524,CC CC 4C 3F,Float,0.8,???
+Kingdom Key,Sora,btltbl.bin,9528,03,Byte,3,Strength
+Kingdom Key,Sora,btltbl.bin,9529,14,Byte,20,Crit Percentage
+Kingdom Key,Sora,btltbl.bin,952A,00,Byte,0,Crit Bonus
+Kingdom Key,Sora,btltbl.bin,952B,1E,Byte,30,Recoil
+Kingdom Key,Sora,btltbl.bin,952C,10,Byte,16,Sound 1
+Kingdom Key,Sora,btltbl.bin,952D,2B,Byte,43,Sound 2
+Kingdom Key,Sora,btltbl.bin,9530,00,Byte,0,MP
+Dream Sword,Sora,btltbl.bin,9550,78 77 5F 65 78 5F 35 30 31 30,String,xw_dh_5000,Weapon Header
+Dream Sword,Sora,btltbl.bin,957C,CC CC 4C 3F,Float,0.8,???
+Dream Sword,Sora,btltbl.bin,9580,01,Byte,1,Strength
+Dream Sword,Sora,btltbl.bin,9581,14,Byte,20,Crit Percentage
+Dream Sword,Sora,btltbl.bin,9582,00,Byte,0,Crit Bonus
+Dream Sword,Sora,btltbl.bin,9583,1E,Byte,30,Recoil
+Dream Sword,Sora,btltbl.bin,9584,28,Byte,40,Sound 1
+Dream Sword,Sora,btltbl.bin,9585,2C,Byte,44,Sound 2
+Dream Sword,Sora,btltbl.bin,9588,00,Byte,0,MP
+Dream Shield,Sora,btltbl.bin,95A8,78 77 5F 64 68 5F 35 30 31 30,String,xw_dh_5010,Weapon Header
+Dream Shield,Sora,btltbl.bin,95D4,00 00 00 3F,Float,0.5,???
+Dream Shield,Sora,btltbl.bin,95D8,01,Byte,1,Strength
+Dream Shield,Sora,btltbl.bin,95D9,00,Byte,0,Crit Percentage
+Dream Shield,Sora,btltbl.bin,95DA,00,Byte,0,Crit Bonus
+Dream Shield,Sora,btltbl.bin,95DB,3C,Byte,60,Recoil
+Dream Shield,Sora,btltbl.bin,95DC,50,Byte,80,Sound 1
+Dream Shield,Sora,btltbl.bin,95DD,2C,Byte,44,Sound 2
+Dream Shield,Sora,btltbl.bin,95E0,00,Byte,0,MP
+Dream Rod,Sora,btltbl.bin,9600,78 77 5F 64 68 5F 35 30 32 30,String,xw_dh_5020,Weapon Header
+Dream Rod,Sora,btltbl.bin,962C,00 00 80 3F,Float,1,???
+Dream Rod,Sora,btltbl.bin,9630,01,Byte,1,Strength
+Dream Rod,Sora,btltbl.bin,9631,0A,Byte,10,Crit Percentage
+Dream Rod,Sora,btltbl.bin,9632,00,Byte,0,Crit Bonus
+Dream Rod,Sora,btltbl.bin,9633,1E,Byte,30,Recoil
+Dream Rod,Sora,btltbl.bin,9634,78,Byte,120,Sound 1
+Dream Rod,Sora,btltbl.bin,9635,2C,Byte,44,Sound 2
+Dream Rod,Sora,btltbl.bin,9638,00,Byte,0,MP
+Wooden Sword,Sora,btltbl.bin,9658,78 77 5F 64 69 5F 35 30 30 30,String,xw_di_5000,Weapon Header
+Wooden Sword,Sora,btltbl.bin,9684,CC CC 4C 3F,Float,0.8,???
+Wooden Sword,Sora,btltbl.bin,9688,00,Byte,0,Strength
+Wooden Sword,Sora,btltbl.bin,9689,14,Byte,20,Crit Percentage
+Wooden Sword,Sora,btltbl.bin,968A,00,Byte,0,Crit Bonus
+Wooden Sword,Sora,btltbl.bin,968B,1E,Byte,30,Recoil
+Wooden Sword,Sora,btltbl.bin,968C,38,Byte,56,Sound 1
+Wooden Sword,Sora,btltbl.bin,968D,2B,Byte,43,Sound 2
+Wooden Sword,Sora,btltbl.bin,9690,00,Byte,0,MP
+Jungle King,Sora,btltbl.bin,96B0,78 77 5F 65 78 5F 35 30 32 30,String,xw_ex_5020,Weapon Header
+Jungle King,Sora,btltbl.bin,96DC,CC CC 4C 3F,Float,0.9,???
+Jungle King,Sora,btltbl.bin,96E0,05,Byte,5,Strength
+Jungle King,Sora,btltbl.bin,96E1,0A,Byte,10,Crit Percentage
+Jungle King,Sora,btltbl.bin,96E2,00,Byte,0,Crit Bonus
+Jungle King,Sora,btltbl.bin,96E3,01,Byte,1,Recoil
+Jungle King,Sora,btltbl.bin,96E4,A0,Byte,160,Sound 1
+Jungle King,Sora,btltbl.bin,96E5,2C,Byte,44,Sound 2
+Jungle King,Sora,btltbl.bin,96E8,00,Byte,0,MP
+Three Wishes,Sora,btltbl.bin,96B0,78 77 5F 65 78 5F 35 30 33 30,String,xw_ex_5030,Weapon Header
+Three Wishes,Sora,btltbl.bin,96DC,CC CC 4C 3F,Float,0.9,???
+Three Wishes,Sora,btltbl.bin,96E0,06,Byte,6,Strength
+Three Wishes,Sora,btltbl.bin,96E1,14,Byte,20,Crit Percentage
+Three Wishes,Sora,btltbl.bin,96E2,00,Byte,0,Crit Bonus
+Three Wishes,Sora,btltbl.bin,96E3,3C,Byte,60,Recoil
+Three Wishes,Sora,btltbl.bin,96E4,C8,Byte,200,Sound 1
+Three Wishes,Sora,btltbl.bin,96E5,2C,Byte,44,Sound 2
+Three Wishes,Sora,btltbl.bin,96E8,00,Byte,0,MP
+Fairy Harp,Sora,btltbl.bin,9760,78 77 5F 65 78 5F 35 30 34 30,String,xw_ex_5040,Weapon Header
+Fairy Harp,Sora,btltbl.bin,978C,CC CC 4C 3F,Float,0.8,???
+Fairy Harp,Sora,btltbl.bin,9790,08,Byte,8,Strength
+Fairy Harp,Sora,btltbl.bin,9791,0A,Byte,10,Crit Percentage
+Fairy Harp,Sora,btltbl.bin,9792,02,Byte,2,Crit Bonus
+Fairy Harp,Sora,btltbl.bin,9793,1E,Byte,30,Recoil
+Fairy Harp,Sora,btltbl.bin,9794,BB,Byte,187,Sound 1
+Fairy Harp,Sora,btltbl.bin,9795,36,Byte,54,Sound 2
+Fairy Harp,Sora,btltbl.bin,9798,01,Byte,1,MP
+Pumpkinhead,Sora,btltbl.bin,97B8,78 77 5F 65 78 5F 35 30 35 30,String,xw_ex_5050,Weapon Header
+Pumpkinhead,Sora,btltbl.bin,97E4,66 66 66 3F,Float,0.9,???
+Pumpkinhead,Sora,btltbl.bin,97E8,07,Byte,7,Strength
+Pumpkinhead,Sora,btltbl.bin,97E9,28,Byte,40,Crit Percentage
+Pumpkinhead,Sora,btltbl.bin,97EA,00,Byte,0,Crit Bonus
+Pumpkinhead,Sora,btltbl.bin,97EB,01,Byte,1,Recoil
+Pumpkinhead,Sora,btltbl.bin,97EC,E3,Byte,227,Sound 1
+Pumpkinhead,Sora,btltbl.bin,97ED,36,Byte,54,Sound 2
+Pumpkinhead,Sora,btltbl.bin,97F0,00,Byte,0,MP
+Crabclaw,Sora,btltbl.bin,9810,78 77 5F 65 78 5F 35 30 36 30,String,xw_ex_5060,Weapon Header
+Crabclaw,Sora,btltbl.bin,983C,CC CC 4C 3F,Float,0.8,???
+Crabclaw,Sora,btltbl.bin,9840,06,Byte,6,Strength
+Crabclaw,Sora,btltbl.bin,9841,14,Byte,20,Crit Percentage
+Crabclaw,Sora,btltbl.bin,9842,00,Byte,0,Crit Bonus
+Crabclaw,Sora,btltbl.bin,9843,1E,Byte,30,Recoil
+Crabclaw,Sora,btltbl.bin,9844,0B,Byte,11,Sound 1
+Crabclaw,Sora,btltbl.bin,9845,37,Byte,55,Sound 2
+Crabclaw,Sora,btltbl.bin,9848,01,Byte,1,MP
+Divine Rose,Sora,btltbl.bin,9868,78 77 5F 65 78 5F 35 30 37 30,String,xw_ex_5070,Weapon Header
+Divine Rose,Sora,btltbl.bin,9894,66 66 26 3F,Float,0.65,???
+Divine Rose,Sora,btltbl.bin,9898,0D,Byte,13,Strength
+Divine Rose,Sora,btltbl.bin,9899,28,Byte,40,Crit Percentage
+Divine Rose,Sora,btltbl.bin,989A,00,Byte,0,Crit Bonus
+Divine Rose,Sora,btltbl.bin,989B,3C,Byte,60,Recoil
+Divine Rose,Sora,btltbl.bin,989C,33,Byte,51,Sound 1
+Divine Rose,Sora,btltbl.bin,989D,37,Byte,55,Sound 2
+Divine Rose,Sora,btltbl.bin,98A0,00,Byte,0,MP
+Spellbinder,Sora,btltbl.bin,9868,78 77 5F 65 78 5F 35 30 38 30,String,xw_ex_5080,Weapon Header
+Spellbinder,Sora,btltbl.bin,9894,CC CC 4C 3F,Float,0.8,???
+Spellbinder,Sora,btltbl.bin,9898,04,Byte,4,Strength
+Spellbinder,Sora,btltbl.bin,9899,14,Byte,20,Crit Percentage
+Spellbinder,Sora,btltbl.bin,989A,00,Byte,0,Crit Bonus
+Spellbinder,Sora,btltbl.bin,989B,1E,Byte,30,Recoil
+Spellbinder,Sora,btltbl.bin,989C,60,Byte,96,Sound 1
+Spellbinder,Sora,btltbl.bin,989D,2B,Byte,43,Sound 2
+Spellbinder,Sora,btltbl.bin,98A0,02,Byte,2,MP
+Olympia,Sora,btltbl.bin,9918,78 77 5F 65 78 5F 35 30 39 30,String,xw_ex_5090,Weapon Header
+Olympia,Sora,btltbl.bin,9944,CC CC 4C 3F,Float,0.8,???
+Olympia,Sora,btltbl.bin,9948,0A,Byte,10,Strength
+Olympia,Sora,btltbl.bin,9949,14,Byte,20,Crit Percentage
+Olympia,Sora,btltbl.bin,994A,02,Byte,2,Crit Bonus
+Olympia,Sora,btltbl.bin,994B,5A,Byte,90,Recoil
+Olympia,Sora,btltbl.bin,994C,88,Byte,136,Sound 1
+Olympia,Sora,btltbl.bin,994D,2B,Byte,43,Sound 2
+Olympia,Sora,btltbl.bin,9950,00,Byte,0,MP
+Lionheart,Sora,btltbl.bin,9970,78 77 5F 65 78 5F 35 31 30 30,String,xw_ex_5100,Weapon Header
+Lionheart,Sora,btltbl.bin,999C,CC CC 4C 3F,Float,0.8,???
+Lionheart,Sora,btltbl.bin,99A0,0A,Byte,10,Strength
+Lionheart,Sora,btltbl.bin,99A1,14,Byte,20,Crit Percentage
+Lionheart,Sora,btltbl.bin,99A2,00,Byte,0,Crit Bonus
+Lionheart,Sora,btltbl.bin,99A3,1E,Byte,30,Recoil
+Lionheart,Sora,btltbl.bin,99A4,5B,Byte,91,Sound 1
+Lionheart,Sora,btltbl.bin,99A5,37,Byte,55,Sound 2
+Lionheart,Sora,btltbl.bin,99A8,01,Byte,1,MP
+Metal Chocobo,Sora,btltbl.bin,99C8,78 77 5F 65 78 5F 35 31 31 30,String,xw_ex_5110,Weapon Header
+Metal Chocobo,Sora,btltbl.bin,99F4,CC CC 4C 3F,Float,0.8,???
+Metal Chocobo,Sora,btltbl.bin,99F8,09,Byte,9,Strength
+Metal Chocobo,Sora,btltbl.bin,99F9,02,Byte,2,Crit Percentage
+Metal Chocobo,Sora,btltbl.bin,99FA,00,Byte,0,Crit Bonus
+Metal Chocobo,Sora,btltbl.bin,99FB,5A,Byte,90,Recoil
+Metal Chocobo,Sora,btltbl.bin,99FC,83,Byte,131,Sound 1
+Metal Chocobo,Sora,btltbl.bin,99FD,37,Byte,55,Sound 2
+Metal Chocobo,Sora,btltbl.bin,9A00,FF,Byte,-1,MP
+Oathkeeper,Sora,btltbl.bin,9A20,78 77 5F 65 78 5F 35 31 32 30,String,xw_ex_5120,Weapon Header
+Oathkeeper,Sora,btltbl.bin,9A4C,CC CC 4C 3F,Float,0.8,???
+Oathkeeper,Sora,btltbl.bin,9A50,09,Byte,9,Strength
+Oathkeeper,Sora,btltbl.bin,9A51,28,Byte,40,Crit Percentage
+Oathkeeper,Sora,btltbl.bin,9A52,00,Byte,0,Crit Bonus
+Oathkeeper,Sora,btltbl.bin,9A53,01,Byte,1,Recoil
+Oathkeeper,Sora,btltbl.bin,9A54,0E,Byte,14,Sound 1
+Oathkeeper,Sora,btltbl.bin,9A55,38,Byte,56,Sound 2
+Oathkeeper,Sora,btltbl.bin,9A58,01,Byte,1,MP
+Oblivion,Sora,btltbl.bin,9A78,78 77 5F 65 78 5F 35 31 33 30,String,xw_ex_5130,Weapon Header
+Oblivion,Sora,btltbl.bin,9AA4,CC CC 4C 3F,Float,0.8,???
+Oblivion,Sora,btltbl.bin,9AA8,0B,Byte,11,Strength
+Oblivion,Sora,btltbl.bin,9AA9,14,Byte,20,Crit Percentage
+Oblivion,Sora,btltbl.bin,9AAA,02,Byte,2,Crit Bonus
+Oblivion,Sora,btltbl.bin,9AAB,1E,Byte,30,Recoil
+Oblivion,Sora,btltbl.bin,9AAC,36,Byte,54,Sound 1
+Oblivion,Sora,btltbl.bin,9AAD,38,Byte,56,Sound 2
+Oblivion,Sora,btltbl.bin,9AB0,FF,Byte,-1,MP
+Lady Luck,Sora,btltbl.bin,9AD0,78 77 5F 65 78 5F 35 31 34 30,String,xw_ex_5140,Weapon Header
+Lady Luck,Sora,btltbl.bin,9AFC,CC CC 4C 3F,Float,0.8,???
+Lady Luck,Sora,btltbl.bin,9B00,07,Byte,7,Strength
+Lady Luck,Sora,btltbl.bin,9B01,14,Byte,20,Crit Percentage
+Lady Luck,Sora,btltbl.bin,9B02,00,Byte,0,Crit Bonus
+Lady Luck,Sora,btltbl.bin,9B03,01,Byte,1,Recoil
+Lady Luck,Sora,btltbl.bin,9B04,B0,Byte,176,Sound 1
+Lady Luck,Sora,btltbl.bin,9B05,2B,Byte,43,Sound 2
+Lady Luck,Sora,btltbl.bin,9B08,02,Byte,2,MP
+Wishing Star,Sora,btltbl.bin,9B28,78 77 5F 65 78 5F 35 31 35 30,String,xw_ex_5150,Weapon Header
+Wishing Star,Sora,btltbl.bin,9B54,CC CC 4C 3F,Float,0.8,???
+Wishing Star,Sora,btltbl.bin,9B58,05,Byte,5,Strength
+Wishing Star,Sora,btltbl.bin,9B59,C8,Byte,200,Crit Percentage
+Wishing Star,Sora,btltbl.bin,9B5A,02,Byte,2,Crit Bonus
+Wishing Star,Sora,btltbl.bin,9B5B,01,Byte,1,Recoil
+Wishing Star,Sora,btltbl.bin,9B5C,D8,Byte,216,Sound 1
+Wishing Star,Sora,btltbl.bin,9B5D,2B,Byte,43,Sound 2
+Wishing Star,Sora,btltbl.bin,9B60,00,Byte,0,MP
+Ultima Weapon,Sora,btltbl.bin,9B80,78 77 5F 65 78 5F 35 31 36 30,String,xw_ex_5160,Weapon Header
+Ultima Weapon,Sora,btltbl.bin,9BAC,CC CC 4C 3F,Float,0.8,???
+Ultima Weapon,Sora,btltbl.bin,9BB0,0E,Byte,14,Strength
+Ultima Weapon,Sora,btltbl.bin,9BB1,28,Byte,40,Crit Percentage
+Ultima Weapon,Sora,btltbl.bin,9BB2,02,Byte,2,Crit Bonus
+Ultima Weapon,Sora,btltbl.bin,9BB3,5A,Byte,90,Recoil
+Ultima Weapon,Sora,btltbl.bin,9BB4,00,Byte,0,Sound 1
+Ultima Weapon,Sora,btltbl.bin,9BB5,2C,Byte,44,Sound 2
+Ultima Weapon,Sora,btltbl.bin,9BB8,02,Byte,2,MP
+Diamond Dust,Sora,btltbl.bin,9BD8,78 77 5F 65 78 5F 35 31 39 30,String,xw_ex_5190,Weapon Header
+Diamond Dust,Sora,btltbl.bin,9C04,CC CC 4C 3F,Float,0.8,???
+Diamond Dust,Sora,btltbl.bin,9C08,03,Byte,3,Strength
+Diamond Dust,Sora,btltbl.bin,9C09,14,Byte,20,Crit Percentage
+Diamond Dust,Sora,btltbl.bin,9C0A,00,Byte,0,Crit Bonus
+Diamond Dust,Sora,btltbl.bin,9C0B,01,Byte,1,Recoil
+Diamond Dust,Sora,btltbl.bin,9C0C,5F,Byte,95,Sound 1
+Diamond Dust,Sora,btltbl.bin,9C0D,38,Byte,56,Sound 2
+Diamond Dust,Sora,btltbl.bin,9C10,03,Byte,3,MP
+One-Winged Angel,Sora,btltbl.bin,9C30,78 77 5F 65 78 5F 35 32 30 30,String,xw_ex_5200,Weapon Header
+One-Winged Angel,Sora,btltbl.bin,9C5C,CC CC 4C 3F,Float,0.8,???
+One-Winged Angel,Sora,btltbl.bin,9C60,08,Byte,8,Strength
+One-Winged Angel,Sora,btltbl.bin,9C61,0A,Byte,10,Crit Percentage
+One-Winged Angel,Sora,btltbl.bin,9C62,10,Byte,16,Crit Bonus
+One-Winged Angel,Sora,btltbl.bin,9C63,5A,Byte,90,Recoil
+One-Winged Angel,Sora,btltbl.bin,9C64,87,Byte,135,Sound 1
+One-Winged Angel,Sora,btltbl.bin,9C65,38,Byte,56,Sound 2
+One-Winged Angel,Sora,btltbl.bin,9C68,FE,Byte,-2,MP
+Mage's Staff,Donald,btltbl.bin,9C88,78 77 5F 65 78 5F 35 32 31 30,String,xw_ex_5210,Weapon Header
+Mage's Staff,Donald,btltbl.bin,9CB4,66 66 A6 3F,Float,1.3,???
+Mage's Staff,Donald,btltbl.bin,9CB8,01,Byte,1,Strength
+Mage's Staff,Donald,btltbl.bin,9CB9,00,Byte,0,Crit Percentage
+Mage's Staff,Donald,btltbl.bin,9CBA,00,Byte,0,Crit Bonus
+Mage's Staff,Donald,btltbl.bin,9CBB,1E,Byte,30,Recoil
+Mage's Staff,Donald,btltbl.bin,9CBC,E3,Byte,227,Sound 1
+Mage's Staff,Donald,btltbl.bin,9CBD,2E,Byte,46,Sound 2
+Mage's Staff,Donald,btltbl.bin,9CC0,00,Byte,0,MP
+Morning Star,Donald,btltbl.bin,9CE0,78 77 5F 65 78 5F 35 32 32 30,String,xw_ex_5220,Weapon Header
+Morning Star,Donald,btltbl.bin,9D0C,00 00 80 3F,Float,1,???
+Morning Star,Donald,btltbl.bin,9D10,02,Byte,2,Strength
+Morning Star,Donald,btltbl.bin,9D11,00,Byte,0,Crit Percentage
+Morning Star,Donald,btltbl.bin,9D12,00,Byte,0,Crit Bonus
+Morning Star,Donald,btltbl.bin,9D13,1E,Byte,30,Recoil
+Morning Star,Donald,btltbl.bin,9D14,01,Byte,1,Sound 1
+Morning Star,Donald,btltbl.bin,9D15,2F,Byte,47,Sound 2
+Morning Star,Donald,btltbl.bin,9D18,00,Byte,0,MP
+Shooting Star,Donald,btltbl.bin,9D38,78 77 5F 65 78 5F 35 32 33 30,String,xw_ex_5230,Weapon Header
+Shooting Star,Donald,btltbl.bin,9D64,00 00 80 3F,Float,1,???
+Shooting Star,Donald,btltbl.bin,9D68,04,Byte,4,Strength
+Shooting Star,Donald,btltbl.bin,9D69,00,Byte,0,Crit Percentage
+Shooting Star,Donald,btltbl.bin,9D6A,00,Byte,0,Crit Bonus
+Shooting Star,Donald,btltbl.bin,9D6B,1E,Byte,30,Recoil
+Shooting Star,Donald,btltbl.bin,9D6C,01,Byte,1,Sound 1
+Shooting Star,Donald,btltbl.bin,9D6D,2F,Byte,47,Sound 2
+Shooting Star,Donald,btltbl.bin,9D70,00,Byte,0,MP
+Magus Staff,Donald,btltbl.bin,9D90,78 77 5F 65 78 5F 35 32 34 30,String,xw_ex_5240,Weapon Header
+Magus Staff,Donald,btltbl.bin,9DBC,00 00 80 3F,Float,1,???
+Magus Staff,Donald,btltbl.bin,9DC0,04,Byte,4,Strength
+Magus Staff,Donald,btltbl.bin,9DC1,00,Byte,0,Crit Percentage
+Magus Staff,Donald,btltbl.bin,9DC2,00,Byte,0,Crit Bonus
+Magus Staff,Donald,btltbl.bin,9DC3,1E,Byte,30,Recoil
+Magus Staff,Donald,btltbl.bin,9DC4,01,Byte,1,Sound 1
+Magus Staff,Donald,btltbl.bin,9DC5,2F,Byte,47,Sound 2
+Magus Staff,Donald,btltbl.bin,9DC8,00,Byte,0,MP
+Wisdom Staff,Donald,btltbl.bin,9D90,78 77 5F 65 78 5F 35 32 35 30,String,xw_ex_5250,Weapon Header
+Wisdom Staff,Donald,btltbl.bin,9DBC,66 66 A6 3F,Float,1.3,???
+Wisdom Staff,Donald,btltbl.bin,9DC0,05,Byte,5,Strength
+Wisdom Staff,Donald,btltbl.bin,9DC1,00,Byte,0,Crit Percentage
+Wisdom Staff,Donald,btltbl.bin,9DC2,00,Byte,0,Crit Bonus
+Wisdom Staff,Donald,btltbl.bin,9DC3,01,Byte,1,Recoil
+Wisdom Staff,Donald,btltbl.bin,9DC4,E3,Byte,227,Sound 1
+Wisdom Staff,Donald,btltbl.bin,9DC5,2E,Byte,46,Sound 2
+Wisdom Staff,Donald,btltbl.bin,9DC8,01,Byte,1,MP
+Warhammer,Donald,btltbl.bin,9E40,78 77 5F 65 78 5F 35 32 36 30,String,xw_ex_5260,Weapon Header
+Warhammer,Donald,btltbl.bin,9E6C,66 66 66 3F,Float,0.9,???
+Warhammer,Donald,btltbl.bin,9E70,04,Byte,4,Strength
+Warhammer,Donald,btltbl.bin,9E71,00,Byte,0,Crit Percentage
+Warhammer,Donald,btltbl.bin,9E72,00,Byte,0,Crit Bonus
+Warhammer,Donald,btltbl.bin,9E73,3C,Byte,60,Recoil
+Warhammer,Donald,btltbl.bin,9E74,1F,Byte,31,Sound 1
+Warhammer,Donald,btltbl.bin,9E75,2F,Byte,47,Sound 2
+Warhammer,Donald,btltbl.bin,9E78,FF,Byte,-1,MP
+Silver Mallet,Donald,btltbl.bin,9E98,78 77 5F 65 78 5F 35 32 37 30,String,xw_ex_5270,Weapon Header
+Silver Mallet,Donald,btltbl.bin,9EC4,66 66 66 3F,Float,0.9,???
+Silver Mallet,Donald,btltbl.bin,9EC8,04,Byte,4,Strength
+Silver Mallet,Donald,btltbl.bin,9EC9,00,Byte,0,Crit Percentage
+Silver Mallet,Donald,btltbl.bin,9ECA,00,Byte,0,Crit Bonus
+Silver Mallet,Donald,btltbl.bin,9ECB,3C,Byte,60,Recoil
+Silver Mallet,Donald,btltbl.bin,9ECC,1F,Byte,31,Sound 1
+Silver Mallet,Donald,btltbl.bin,9ECD,2F,Byte,47,Sound 2
+Silver Mallet,Donald,btltbl.bin,9ED0,FF,Byte,-1,MP
+Grand Mallet,Donald,btltbl.bin,9EF0,78 77 5F 65 78 5F 35 32 38 30,String,xw_ex_5280,Weapon Header
+Grand Mallet,Donald,btltbl.bin,9F1C,66 66 66 3F,Float,0.9,???
+Grand Mallet,Donald,btltbl.bin,9F20,04,Byte,4,Strength
+Grand Mallet,Donald,btltbl.bin,9F21,00,Byte,0,Crit Percentage
+Grand Mallet,Donald,btltbl.bin,9F22,00,Byte,0,Crit Bonus
+Grand Mallet,Donald,btltbl.bin,9F23,3C,Byte,60,Recoil
+Grand Mallet,Donald,btltbl.bin,9F24,1F,Byte,31,Sound 1
+Grand Mallet,Donald,btltbl.bin,9F25,2F,Byte,47,Sound 2
+Grand Mallet,Donald,btltbl.bin,9F28,FF,Byte,-1,MP
+Lord Fortune,Donald,btltbl.bin,9F48,78 77 5F 65 78 5F 35 32 39 30,String,xw_ex_5290,Weapon Header
+Lord Fortune,Donald,btltbl.bin,9F74,00 00 80 3F,Float,1,???
+Lord Fortune,Donald,btltbl.bin,9F78,07,Byte,7,Strength
+Lord Fortune,Donald,btltbl.bin,9F79,00,Byte,0,Crit Percentage
+Lord Fortune,Donald,btltbl.bin,9F7A,00,Byte,0,Crit Bonus
+Lord Fortune,Donald,btltbl.bin,9F7B,1E,Byte,30,Recoil
+Lord Fortune,Donald,btltbl.bin,9F7C,3D,Byte,61,Sound 1
+Lord Fortune,Donald,btltbl.bin,9F7D,2F,Byte,47,Sound 2
+Lord Fortune,Donald,btltbl.bin,9F80,01,Byte,1,MP
+Violetta,Donald,btltbl.bin,9FA0,78 77 5F 65 78 5F 35 33 30 30,String,xw_ex_5300,Weapon Header
+Violetta,Donald,btltbl.bin,9FCC,CC CC 8C 3F,Float,1.1,???
+Violetta,Donald,btltbl.bin,9FD0,0B,Byte,11,Strength
+Violetta,Donald,btltbl.bin,9FD1,05,Byte,5,Crit Percentage
+Violetta,Donald,btltbl.bin,9FD2,07,Byte,7,Crit Bonus
+Violetta,Donald,btltbl.bin,9FD3,1E,Byte,30,Recoil
+Violetta,Donald,btltbl.bin,9FD4,5B,Byte,91,Sound 1
+Violetta,Donald,btltbl.bin,9FD5,2F,Byte,47,Sound 2
+Violetta,Donald,btltbl.bin,9FD8,FF,Byte,-1,MP
+Dream Rod,Donald,btltbl.bin,9FF8,78 77 5F 65 78 5F 35 33 31 30,String,xw_ex_5310,Weapon Header
+Dream Rod,Donald,btltbl.bin,A024,CC CC 8C 3F,Float,1.1,???
+Dream Rod,Donald,btltbl.bin,A028,05,Byte,5,Strength
+Dream Rod,Donald,btltbl.bin,A029,00,Byte,0,Crit Percentage
+Dream Rod,Donald,btltbl.bin,A02A,00,Byte,0,Crit Bonus
+Dream Rod,Donald,btltbl.bin,A02B,3C,Byte,60,Recoil
+Dream Rod,Donald,btltbl.bin,A02C,79,Byte,121,Sound 1
+Dream Rod,Donald,btltbl.bin,A02D,2F,Byte,47,Sound 2
+Dream Rod,Donald,btltbl.bin,A030,02,Byte,2,MP
+Save the Queen,Donald,btltbl.bin,A050,78 77 5F 65 78 5F 35 33 32 30,String,xw_ex_5320,Weapon Header
+Save the Queen,Donald,btltbl.bin,A07C,CC CC 8C 3F,Float,1.1,???
+Save the Queen,Donald,btltbl.bin,A080,0A,Byte,10,Strength
+Save the Queen,Donald,btltbl.bin,A081,00,Byte,0,Crit Percentage
+Save the Queen,Donald,btltbl.bin,A082,00,Byte,0,Crit Bonus
+Save the Queen,Donald,btltbl.bin,A083,3C,Byte,60,Recoil
+Save the Queen,Donald,btltbl.bin,A084,97,Byte,151,Sound 1
+Save the Queen,Donald,btltbl.bin,A085,2F,Byte,47,Sound 2
+Save the Queen,Donald,btltbl.bin,A088,02,Byte,2,MP
+Wizard's Relic,Donald,btltbl.bin,A0A8,78 77 5F 65 78 5F 35 33 33 30,String,xw_ex_5330,Weapon Header
+Wizard's Relic,Donald,btltbl.bin,A0D4,66 66 66 3F,Float,0.9,???
+Wizard's Relic,Donald,btltbl.bin,A0D8,08,Byte,8,Strength
+Wizard's Relic,Donald,btltbl.bin,A0D9,00,Byte,0,Crit Percentage
+Wizard's Relic,Donald,btltbl.bin,A0DA,00,Byte,0,Crit Bonus
+Wizard's Relic,Donald,btltbl.bin,A0DB,01,Byte,1,Recoil
+Wizard's Relic,Donald,btltbl.bin,A0DC,B5,Byte,181,Sound 1
+Wizard's Relic,Donald,btltbl.bin,A0DD,2F,Byte,47,Sound 2
+Wizard's Relic,Donald,btltbl.bin,A0E0,02,Byte,2,MP
+Meteor Strike,Donald,btltbl.bin,A100,78 77 5F 65 78 5F 35 33 35 30,String,xw_ex_5350,Weapon Header
+Meteor Strike,Donald,btltbl.bin,A12C,99 99 99 3F,Float,1.2,???
+Meteor Strike,Donald,btltbl.bin,A130,0D,Byte,13,Strength
+Meteor Strike,Donald,btltbl.bin,A131,05,Byte,5,Crit Percentage
+Meteor Strike,Donald,btltbl.bin,A132,04,Byte,4,Crit Bonus
+Meteor Strike,Donald,btltbl.bin,A133,5A,Byte,90,Recoil
+Meteor Strike,Donald,btltbl.bin,A134,D6,Byte,214,Sound 1
+Meteor Strike,Donald,btltbl.bin,A135,2F,Byte,47,Sound 2
+Meteor Strike,Donald,btltbl.bin,A138,00,Byte,0,MP
+Fantasista,Donald,btltbl.bin,A158,78 77 5F 65 78 5F 35 33 36 30,String,xw_ex_5360,Weapon Header
+Fantasista,Donald,btltbl.bin,A184,99 99 99 3F,Float,1.2,???
+Fantasista,Donald,btltbl.bin,A188,0D,Byte,13,Strength
+Fantasista,Donald,btltbl.bin,A189,05,Byte,5,Crit Percentage
+Fantasista,Donald,btltbl.bin,A18A,04,Byte,4,Crit Bonus
+Fantasista,Donald,btltbl.bin,A18B,5A,Byte,90,Recoil
+Fantasista,Donald,btltbl.bin,A18C,D6,Byte,214,Sound 1
+Fantasista,Donald,btltbl.bin,A18D,2F,Byte,47,Sound 2
+Fantasista,Donald,btltbl.bin,A190,00,Byte,0,MP
+???,???,btltbl.bin,A1B0,78 77 5F 65 78 5F 35 33 34 30,String,xw_ex_5340,Weapon Header
+???,???,btltbl.bin,A1DC,00 00 80 3F,Float,1,???
+???,???,btltbl.bin,A1E0,00,Byte,0,Strength
+???,???,btltbl.bin,A1E1,00,Byte,0,Crit Percentage
+???,???,btltbl.bin,A1E2,00,Byte,0,Crit Bonus
+???,???,btltbl.bin,A1E3,1E,Byte,30,Recoil
+???,???,btltbl.bin,A1E4,E3,Byte,227,Sound 1
+???,???,btltbl.bin,A1E5,2E,Byte,46,Sound 2
+???,???,btltbl.bin,A1E8,00,Byte,0,MP
+Knight's Shield,Goofy,btltbl.bin,A208,78 77 5F 65 78 5F 35 34 31 30,String,xw_ex_5410,Weapon Header
+Knight's Shield,Goofy,btltbl.bin,A234,00 00 80 3F,Float,1,???
+Knight's Shield,Goofy,btltbl.bin,A238,01,Byte,1,Strength
+Knight's Shield,Goofy,btltbl.bin,A239,00,Byte,0,Crit Percentage
+Knight's Shield,Goofy,btltbl.bin,A23A,00,Byte,0,Crit Bonus
+Knight's Shield,Goofy,btltbl.bin,A23B,1E,Byte,30,Recoil
+Knight's Shield,Goofy,btltbl.bin,A23C,CB,Byte,203,Sound 1
+Knight's Shield,Goofy,btltbl.bin,A23D,32,Byte,50,Sound 2
+Knight's Shield,Goofy,btltbl.bin,A240,00,Byte,0,MP
+Mythril Shield,Goofy,btltbl.bin,A260,78 77 5F 65 78 5F 35 34 32 30,String,xw_ex_5420,Weapon Header
+Mythril Shield,Goofy,btltbl.bin,A28C,00 00 80 3F,Float,1,???
+Mythril Shield,Goofy,btltbl.bin,A290,04,Byte,4,Strength
+Mythril Shield,Goofy,btltbl.bin,A291,00,Byte,0,Crit Percentage
+Mythril Shield,Goofy,btltbl.bin,A292,00,Byte,0,Crit Bonus
+Mythril Shield,Goofy,btltbl.bin,A293,1E,Byte,30,Recoil
+Mythril Shield,Goofy,btltbl.bin,A294,E9,Byte,233,Sound 1
+Mythril Shield,Goofy,btltbl.bin,A295,32,Byte,50,Sound 2
+Mythril Shield,Goofy,btltbl.bin,A298,00,Byte,0,MP
+Onyx Shield,Goofy,btltbl.bin,A2B8,78 77 5F 65 78 5F 35 34 33 30,String,xw_ex_5430,Weapon Header
+Onyx Shield,Goofy,btltbl.bin,A2E4,00 00 80 3F,Float,1,???
+Onyx Shield,Goofy,btltbl.bin,A2E8,06,Byte,4,Strength
+Onyx Shield,Goofy,btltbl.bin,A2E9,00,Byte,0,Crit Percentage
+Onyx Shield,Goofy,btltbl.bin,A2EA,00,Byte,0,Crit Bonus
+Onyx Shield,Goofy,btltbl.bin,A2EB,1E,Byte,30,Recoil
+Onyx Shield,Goofy,btltbl.bin,A2EC,E9,Byte,233,Sound 1
+Onyx Shield,Goofy,btltbl.bin,A2ED,32,Byte,50,Sound 2
+Onyx Shield,Goofy,btltbl.bin,A2F0,00,Byte,0,MP
+Stout Shield,Goofy,btltbl.bin,A310,78 77 5F 65 78 5F 35 34 34 30,String,xw_ex_5440,Weapon Header
+Stout Shield,Goofy,btltbl.bin,A33C,00 00 80 3F,Float,1,???
+Stout Shield,Goofy,btltbl.bin,A340,01,Byte,1,Strength
+Stout Shield,Goofy,btltbl.bin,A341,00,Byte,0,Crit Percentage
+Stout Shield,Goofy,btltbl.bin,A342,00,Byte,0,Crit Bonus
+Stout Shield,Goofy,btltbl.bin,A343,3C,Byte,60,Recoil
+Stout Shield,Goofy,btltbl.bin,A344,07,Byte,7,Sound 1
+Stout Shield,Goofy,btltbl.bin,A345,33,Byte,51,Sound 2
+Stout Shield,Goofy,btltbl.bin,A348,00,Byte,0,MP
+Golem Shield,Goofy,btltbl.bin,A368,78 77 5F 65 78 5F 35 34 35 30,String,xw_ex_5450,Weapon Header
+Golem Shield,Goofy,btltbl.bin,A394,00 00 80 3F,Float,1,???
+Golem Shield,Goofy,btltbl.bin,A398,03,Byte,1,Strength
+Golem Shield,Goofy,btltbl.bin,A399,00,Byte,0,Crit Percentage
+Golem Shield,Goofy,btltbl.bin,A39A,00,Byte,0,Crit Bonus
+Golem Shield,Goofy,btltbl.bin,A39B,3C,Byte,60,Recoil
+Golem Shield,Goofy,btltbl.bin,A39C,07,Byte,7,Sound 1
+Golem Shield,Goofy,btltbl.bin,A39D,33,Byte,51,Sound 2
+Golem Shield,Goofy,btltbl.bin,A3A0,00,Byte,0,MP
+Adamant Shield,Goofy,btltbl.bin,A368,78 77 5F 65 78 5F 35 34 36 30,String,xw_ex_5460,Weapon Header
+Adamant Shield,Goofy,btltbl.bin,A394,00 00 80 3F,Float,1,???
+Adamant Shield,Goofy,btltbl.bin,A398,05,Byte,5,Strength
+Adamant Shield,Goofy,btltbl.bin,A399,00,Byte,0,Crit Percentage
+Adamant Shield,Goofy,btltbl.bin,A39A,00,Byte,0,Crit Bonus
+Adamant Shield,Goofy,btltbl.bin,A39B,3C,Byte,60,Recoil
+Adamant Shield,Goofy,btltbl.bin,A39C,07,Byte,7,Sound 1
+Adamant Shield,Goofy,btltbl.bin,A39D,33,Byte,51,Sound 2
+Adamant Shield,Goofy,btltbl.bin,A3A0,00,Byte,0,MP
+Smasher,Goofy,btltbl.bin,A418,78 77 5F 65 78 5F 35 34 37 30,String,xw_ex_5470,Weapon Header
+Smasher,Goofy,btltbl.bin,A444,00 00 80 3F,Float,1,???
+Smasher,Goofy,btltbl.bin,A448,03,Byte,3,Strength
+Smasher,Goofy,btltbl.bin,A449,00,Byte,0,Crit Percentage
+Smasher,Goofy,btltbl.bin,A44A,00,Byte,0,Crit Bonus
+Smasher,Goofy,btltbl.bin,A44B,01,Byte,1,Recoil
+Smasher,Goofy,btltbl.bin,A44C,25,Byte,37,Sound 1
+Smasher,Goofy,btltbl.bin,A44D,33,Byte,51,Sound 2
+Smasher,Goofy,btltbl.bin,A450,00,Byte,0,MP
+Gigas Fist,Goofy,btltbl.bin,A470,78 77 5F 65 78 5F 35 34 38 30,String,xw_ex_5480,Weapon Header
+Gigas Fist,Goofy,btltbl.bin,A49C,00 00 80 3F,Float,1,???
+Gigas Fist,Goofy,btltbl.bin,A4A0,07,Byte,7,Strength
+Gigas Fist,Goofy,btltbl.bin,A4A1,00,Byte,0,Crit Percentage
+Gigas Fist,Goofy,btltbl.bin,A4A2,00,Byte,0,Crit Bonus
+Gigas Fist,Goofy,btltbl.bin,A4A3,01,Byte,1,Recoil
+Gigas Fist,Goofy,btltbl.bin,A4A4,25,Byte,37,Sound 1
+Gigas Fist,Goofy,btltbl.bin,A4A5,33,Byte,51,Sound 2
+Gigas Fist,Goofy,btltbl.bin,A4A8,00,Byte,0,MP
+Genji Shield,Goofy,btltbl.bin,A4C8,78 77 5F 65 78 5F 35 34 39 30,String,xw_ex_5490,Weapon Header
+Genji Shield,Goofy,btltbl.bin,A4F4,00 00 80 3F,Float,1,???
+Genji Shield,Goofy,btltbl.bin,A4F8,0A,Byte,10,Strength
+Genji Shield,Goofy,btltbl.bin,A4F9,00,Byte,0,Crit Percentage
+Genji Shield,Goofy,btltbl.bin,A4FA,00,Byte,0,Crit Bonus
+Genji Shield,Goofy,btltbl.bin,A4FB,3C,Byte,60,Recoil
+Genji Shield,Goofy,btltbl.bin,A4FC,43,Byte,67,Sound 1
+Genji Shield,Goofy,btltbl.bin,A4FD,33,Byte,51,Sound 2
+Genji Shield,Goofy,btltbl.bin,A500,00,Byte,0,MP
+Herc's Shield,Goofy,btltbl.bin,A520,78 77 5F 65 78 5F 35 35 30 30,String,xw_ex_5500,Weapon Header
+Herc's Shield,Goofy,btltbl.bin,A54C,00 00 80 3F,Float,1,???
+Herc's Shield,Goofy,btltbl.bin,A550,09,Byte,9,Strength
+Herc's Shield,Goofy,btltbl.bin,A551,00,Byte,0,Crit Percentage
+Herc's Shield,Goofy,btltbl.bin,A552,00,Byte,0,Crit Bonus
+Herc's Shield,Goofy,btltbl.bin,A553,1E,Byte,30,Recoil
+Herc's Shield,Goofy,btltbl.bin,A554,61,Byte,97,Sound 1
+Herc's Shield,Goofy,btltbl.bin,A555,33,Byte,51,Sound 2
+Herc's Shield,Goofy,btltbl.bin,A558,00,Byte,0,MP
+Dream Shield,Goofy,btltbl.bin,A578,78 77 5F 65 78 5F 35 35 31 30,String,xw_ex_5510,Weapon Header
+Dream Shield,Goofy,btltbl.bin,A5A4,00 00 80 3F,Float,1,???
+Dream Shield,Goofy,btltbl.bin,A5A8,06,Byte,6,Strength
+Dream Shield,Goofy,btltbl.bin,A5A9,00,Byte,0,Crit Percentage
+Dream Shield,Goofy,btltbl.bin,A5AA,00,Byte,0,Crit Bonus
+Dream Shield,Goofy,btltbl.bin,A5AB,1E,Byte,30,Recoil
+Dream Shield,Goofy,btltbl.bin,A5AC,7F,Byte,127,Sound 1
+Dream Shield,Goofy,btltbl.bin,A5AD,33,Byte,51,Sound 2
+Dream Shield,Goofy,btltbl.bin,A5B0,01,Byte,1,MP
+Save the King,Goofy,btltbl.bin,A5D0,78 77 5F 65 78 5F 35 35 32 30,String,xw_ex_5520,Weapon Header
+Save the King,Goofy,btltbl.bin,A5FC,00 00 80 3F,Float,1,???
+Save the King,Goofy,btltbl.bin,A600,0B,Byte,11,Strength
+Save the King,Goofy,btltbl.bin,A601,00,Byte,0,Crit Percentage
+Save the King,Goofy,btltbl.bin,A602,00,Byte,0,Crit Bonus
+Save the King,Goofy,btltbl.bin,A603,5A,Byte,90,Recoil
+Save the King,Goofy,btltbl.bin,A604,9D,Byte,157,Sound 1
+Save the King,Goofy,btltbl.bin,A605,33,Byte,51,Sound 2
+Save the King,Goofy,btltbl.bin,A608,02,Byte,2,MP
+Defender,Goofy,btltbl.bin,A628,78 77 5F 65 78 5F 35 35 33 30,String,xw_ex_5530,Weapon Header
+Defender,Goofy,btltbl.bin,A654,00 00 80 3F,Float,1,???
+Defender,Goofy,btltbl.bin,A658,0D,Byte,13,Strength
+Defender,Goofy,btltbl.bin,A659,00,Byte,0,Crit Percentage
+Defender,Goofy,btltbl.bin,A65A,00,Byte,0,Crit Bonus
+Defender,Goofy,btltbl.bin,A65B,3C,Byte,60,Recoil
+Defender,Goofy,btltbl.bin,A65C,BB,Byte,187,Sound 1
+Defender,Goofy,btltbl.bin,A65D,33,Byte,51,Sound 2
+Defender,Goofy,btltbl.bin,A660,01,Byte,1,MP
+Mighty Shield,Goofy,btltbl.bin,A680,78 77 5F 65 78 5F 35 35 36 30,String,xw_ex_5560,Weapon Header
+Mighty Shield,Goofy,btltbl.bin,A6AC,00 00 80 3F,Float,1,???
+Mighty Shield,Goofy,btltbl.bin,A6B0,0F,Byte,15,Strength
+Mighty Shield,Goofy,btltbl.bin,A6B1,00,Byte,0,Crit Percentage
+Mighty Shield,Goofy,btltbl.bin,A6B2,00,Byte,0,Crit Bonus
+Mighty Shield,Goofy,btltbl.bin,A6B3,5A,Byte,90,Recoil
+Mighty Shield,Goofy,btltbl.bin,A6B4,DE,Byte,222,Sound 1
+Mighty Shield,Goofy,btltbl.bin,A6B5,33,Byte,51,Sound 2
+Mighty Shield,Goofy,btltbl.bin,A6B8,00,Byte,0,MP
+Seven Elements,Goofy,btltbl.bin,A6D8,78 77 5F 65 78 5F 35 35 37 30,String,xw_ex_5570,Weapon Header
+Seven Elements,Goofy,btltbl.bin,A704,00 00 80 3F,Float,1,???
+Seven Elements,Goofy,btltbl.bin,A708,04,Byte,4,Strength
+Seven Elements,Goofy,btltbl.bin,A709,00,Byte,0,Crit Percentage
+Seven Elements,Goofy,btltbl.bin,A70A,00,Byte,0,Crit Bonus
+Seven Elements,Goofy,btltbl.bin,A70B,01,Byte,1,Recoil
+Seven Elements,Goofy,btltbl.bin,A70C,FC,Byte,252,Sound 1
+Seven Elements,Goofy,btltbl.bin,A70D,33,Byte,51,Sound 2
+Seven Elements,Goofy,btltbl.bin,A710,03,Byte,3,MP
+Spear,Tarzan,btltbl.bin,A788,78 77 5F 74 7A 5F 35 30 30 30,String,xw_tz_5000,Weapon Header
+Spear,Tarzan,btltbl.bin,A7B4,00 00 40 3F,Float,0.75,???
+Spear,Tarzan,btltbl.bin,A7B8,03,Byte,3,Strength
+Spear,Tarzan,btltbl.bin,A7B9,14,Byte,20,Crit Percentage
+Spear,Tarzan,btltbl.bin,A7BA,00,Byte,0,Crit Bonus
+Spear,Tarzan,btltbl.bin,A7BB,01,Byte,1,Recoil
+Spear,Tarzan,btltbl.bin,A7BC,B4,Byte,180,Sound 1
+Spear,Tarzan,btltbl.bin,A7BD,36,Byte,54,Sound 2
+Spear,Tarzan,btltbl.bin,A7C0,00,Byte,0,MP
+Scimitar,Aladdin,btltbl.bin,A7E0,78 77 5F 61 6C 5F 35 30 30 30,String,xw_al_5000,Weapon Header
+Scimitar,Aladdin,btltbl.bin,A80C,66 66 66 3F,Float,0.9,???
+Scimitar,Aladdin,btltbl.bin,A810,05,Byte,5,Strength
+Scimitar,Aladdin,btltbl.bin,A811,14,Byte,20,Crit Percentage
+Scimitar,Aladdin,btltbl.bin,A812,00,Byte,0,Crit Bonus
+Scimitar,Aladdin,btltbl.bin,A813,1E,Byte,30,Recoil
+Scimitar,Aladdin,btltbl.bin,A814,B5,Byte,181,Sound 1
+Scimitar,Aladdin,btltbl.bin,A815,37,Byte,55,Sound 2
+Scimitar,Aladdin,btltbl.bin,A818,00,Byte,0,MP
+No Weapon,Ariel,btltbl.bin,A838,78 77 5F 6C 6D 5F 35 30 33 30,String,xw_lm_5030,Weapon Header
+No Weapon,Ariel,btltbl.bin,A864,00 00 80 3F,Float,1,???
+No Weapon,Ariel,btltbl.bin,A868,00,Byte,0,Strength
+No Weapon,Ariel,btltbl.bin,A869,00,Byte,0,Crit Percentage
+No Weapon,Ariel,btltbl.bin,A86A,00,Byte,0,Crit Bonus
+No Weapon,Ariel,btltbl.bin,A86B,00,Byte,0,Recoil
+No Weapon,Ariel,btltbl.bin,A86C,BF,Byte,191,Sound 1
+No Weapon,Ariel,btltbl.bin,A86D,37,Byte,55,Sound 2
+No Weapon,Ariel,btltbl.bin,A870,00,Byte,0,MP
+No Weapon,Jack,btltbl.bin,A890,78 77 5F 6E 6D 5F 35 30 30 30,String,xw_nm_5000,Weapon Header
+No Weapon,Jack,btltbl.bin,A8BC,00 00 80 3F,Float,1,???
+No Weapon,Jack,btltbl.bin,A8C0,00,Byte,0,Strength
+No Weapon,Jack,btltbl.bin,A8C1,00,Byte,0,Crit Percentage
+No Weapon,Jack,btltbl.bin,A8C2,00,Byte,0,Crit Bonus
+No Weapon,Jack,btltbl.bin,A8C3,00,Byte,0,Recoil
+No Weapon,Jack,btltbl.bin,A8C4,C9,Byte,201,Sound 1
+No Weapon,Jack,btltbl.bin,A8C5,37,Byte,55,Sound 2
+No Weapon,Jack,btltbl.bin,A8C8,00,Byte,0,MP
+Dagger,Peter Pan,btltbl.bin,A8E8,78 77 5F 70 70 5F 35 30 30 30,String,xw_pp_5000,Weapon Header
+Dagger,Peter Pan,btltbl.bin,A914,00 00 80 3F,Float,1,???
+Dagger,Peter Pan,btltbl.bin,A918,01,Byte,1,Strength
+Dagger,Peter Pan,btltbl.bin,A919,14,Byte,20,Crit Percentage
+Dagger,Peter Pan,btltbl.bin,A91A,00,Byte,0,Crit Bonus
+Dagger,Peter Pan,btltbl.bin,A91B,5A,Byte,90,Recoil
+Dagger,Peter Pan,btltbl.bin,A91C,AB,Byte,171,Sound 1
+Dagger,Peter Pan,btltbl.bin,A91D,37,Byte,55,Sound 2
+Dagger,Peter Pan,btltbl.bin,A920,00,Byte,0,MP
+Claw,Beast,btltbl.bin,A940,78 77 5F 70 63 5F 35 30 30 30,String,xw_pc_5000,Weapon Header
+Claw,Beast,btltbl.bin,A96C,00 00 80 3F,Float,1,???
+Claw,Beast,btltbl.bin,A970,00,Byte,0,Strength
+Claw,Beast,btltbl.bin,A971,00,Byte,0,Crit Percentage
+Claw,Beast,btltbl.bin,A972,00,Byte,0,Crit Bonus
+Claw,Beast,btltbl.bin,A973,00,Byte,0,Recoil
+Claw,Beast,btltbl.bin,A974,D3,Byte,211,Sound 1
+Claw,Beast,btltbl.bin,A975,37,Byte,55,Sound 2
+Claw,Beast,btltbl.bin,A978,00,Byte,0,MP
+No Weapon,Pooh,btltbl.bin,A998,78 77 5F 6E 6F 74 68 69 6E 67,String,xw_nothing,Weapon Header
+No Weapon,Pooh,btltbl.bin,A9C4,00 00 80 3F,Float,1,???
+No Weapon,Pooh,btltbl.bin,A9C8,00,Byte,0,Strength
+No Weapon,Pooh,btltbl.bin,A9C9,00,Byte,0,Crit Percentage
+No Weapon,Pooh,btltbl.bin,A9CA,00,Byte,0,Crit Bonus
+No Weapon,Pooh,btltbl.bin,A9CB,00,Byte,0,Recoil
+No Weapon,Pooh,btltbl.bin,A9CC,00,Byte,0,Sound 1
+No Weapon,Pooh,btltbl.bin,A9CD,00,Byte,0,Sound 2
+No Weapon,Pooh,btltbl.bin,A9D0,00,Byte,0,MP

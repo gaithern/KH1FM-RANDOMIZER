@@ -400,3 +400,28 @@ new_item_descriptions = {
     237: "Allows summoning Simba.",
     238: "A macguffin.\nSomething will happen if you acquire enough."
     }
+
+keyblade_list = [
+      "Kingdom Key"
+    , "Dream Sword"
+    , "Dream Shield"
+    , "Dream Rod"
+    , "Wooden Sword"
+    , "Jungle King"
+    , "Three Wishes"
+    , "Fairy Harp"
+    , "Pumpkinhead"
+    , "Crabclaw"
+    , "Divine Rose"
+    , "Spellbinder"
+    , "Olympia"
+    , "Lionheart"
+    , "Metal Chocobo"
+    , "Oathkeeper"
+    , "Oblivion"
+    , "Lady Luck"
+    , "Wishing Star"
+    , "Ultima Weapon"
+    , "Diamond Dust"
+    , "One-Winged Angel"
+]

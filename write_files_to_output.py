@@ -16,7 +16,7 @@ def get_kh1_data_path():
 def write_static_files():
     shutil.copytree("./Static Files/",  "./Output/", dirs_exist_ok=True)
 
-def list_defintion_files_in_current_directory():
+def list_definition_files_in_current_directory():
     files = []
     for file in os.listdir("./"):
         if "KH1FM Documentation" in file:
@@ -54,7 +54,7 @@ def copy_src_kh1_files_to_output(kh1_data_path, csv_lines):
 def write_files_to_output():
     kh1_data_path = get_kh1_data_path()
     csv_lines = []
-    for file in list_defintion_files_in_current_directory():
+    for file in list_definition_files_in_current_directory():
         csv_lines = csv_lines + read_csv_data(file)
     copy_src_kh1_files_to_output(kh1_data_path, csv_lines)
     write_static_files()

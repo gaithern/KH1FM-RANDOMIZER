@@ -1,0 +1,1045 @@
+﻿Archipelago Version 0.6.0  -  Seed: 7126269461399906812
+
+Filling Algorithm:               balanced
+Players:                         1
+Plando Options:                  connections, texts, bosses
+Game:                            Kingdom Hearts
+Progression Balancing:           50
+Accessibility:                   Full
+Local Items:                     
+Non-local Items:                 
+Start Inventory:                 
+Start Hints:                     
+Start Location Hints:            
+Excluded Locations:              
+Priority Locations:              
+Item Links:                      
+Goal:                            Final Ansem
+End of the World Unlock:         Lucky Emblems
+Final Rest Door:                 Lucky Emblems
+Lucky Emblems to Open End of the World:7
+Lucky Emblems to Open Final Rest Door:10
+Lucky Emblems in Pool:           13
+Required Postcards:              8
+Required Puppies:                80
+Super Bosses:                    Yes
+Atlantica:                       Yes
+100 Acre Wood:                   Yes
+Cups:                            Yes
+Puppies:                         Triplets
+Starting Worlds:                 0
+Keyblades Unlock Chests:         No
+Interact in Battle:              No
+EXP Multiplier:                  16
+Advanced Logic:                  No
+Extra Shared Abilities:          Yes
+EXP Zero in Pool:                No
+Randomize Emblem Pieces:         Yes
+Randomize Postcards:             All
+Donald Death Link:               No
+Goofy Death Link:                No
+Keyblade Stats:                  Shuffle
+Bad Starting Weapons:            Yes
+Keyblade Minimum STR Bonus:      3
+Keyblade Maximum STR Bonus:      14
+Keyblade Minimum Crit Rate Bonus:0
+Keyblade Maximum Crit Rate Bonus:200
+Keyblade Minimum Crit Rate Bonus:0
+Keyblade Maximum Crit Rate Bonus:16
+Keyblade Minimum Recoil:         1
+Keyblade Maximum Recoil:         90
+Keyblade Minimum MP Bonus:       -2
+Keyblade Maximum MP Bonus:       3
+Level Checks:                    99
+Slot 2 Level Checks:             33
+Force Stats on Level Starting From:2
+STR Increases:                   24
+DEF Increases:                   24
+HP Increases:                    23
+AP Increases:                    18
+MP Increases:                    7
+Accessory Slot Increases:        1
+Item Slot Increases:             3
+Start Inventory from Pool:       
+Jungle Slider:                   Yes
+Starting Tools:                  Yes
+Remote Items:                    No
+
+
+Starting Items:
+
+Scan
+Dodge Roll
+
+Locations:
+
+Traverse Town 1st District Accessory Shop Roof Chest: Postcard
+Traverse Town 1st District Blue Trinity Balcony Chest: Royal Crown
+Traverse Town 1st District Candle Puzzle Chest: Ether
+Traverse Town 1st District Safe Postcard: Deep Jungle
+Traverse Town 2nd District Boots and Shoes Awning Chest: Progressive Glide
+Traverse Town 2nd District Gizmo Shop Facade Chest: Divine Rose
+Traverse Town 2nd District Rooftop Chest: Puppy
+Traverse Town 3rd District Balcony Postcard: Monstro
+Traverse Town Accessory Shop Chest: Postcard
+Traverse Town Alleyway Balcony Chest: Postcard
+Traverse Town Alleyway Behind Crates Chest: Vortex
+Traverse Town Alleyway Blue Room Awning Chest: Olympus Coliseum
+Traverse Town Alleyway Corner Chest: Puppy
+Traverse Town Defeat Guard Armor Blue Trinity Event: Puppy
+Traverse Town Defeat Guard Armor Brave Warrior Event: Progressive Stop
+Traverse Town Defeat Guard Armor Dodge Roll Event: Mega-Potion
+Traverse Town Defeat Guard Armor Fire Event: Puppy
+Traverse Town Defeat Opposite Armor Aero Event: Green Trinity
+Traverse Town Geppetto's House Chest: Progressive Thunder
+Traverse Town Geppetto's House Geppetto All Summons Reward: Progressive Cure
+Traverse Town Geppetto's House Geppetto Reward 1: Morning Star
+Traverse Town Geppetto's House Geppetto Reward 2: Empty Bottle
+Traverse Town Geppetto's House Geppetto Reward 3: Potion
+Traverse Town Geppetto's House Geppetto Reward 4: Smasher
+Traverse Town Geppetto's House Geppetto Reward 5: Empty Bottle
+Traverse Town Geppetto's House Postcard: Elixir
+Traverse Town Geppetto's House Talk to Pinocchio: Elixir
+Traverse Town Gizmo Shop Postcard 1: Puppy
+Traverse Town Gizmo Shop Postcard 2: AP Up
+Traverse Town Green Room Clock Puzzle Chest: Puppy
+Traverse Town Green Room Table Chest: Puppy
+Traverse Town Item Shop Postcard: Postcard
+Traverse Town Item Workshop Left Chest: AP Up
+Traverse Town Item Workshop Postcard: Mega-Ether
+Traverse Town Item Workshop Right Chest: EXP Bracelet
+Traverse Town Kairi Secret Waterway Oathkeeper Event: Tent
+Traverse Town Leon Secret Waterway Earthshine Event: Potion
+Traverse Town Magician's Study Obtained All Arts Items: Heartguard
+Traverse Town Magician's Study Obtained All LV1 Magic: Puppy
+Traverse Town Magician's Study Obtained All LV3 Magic: Torn Page
+Traverse Town Mail Postcard 01 Event: Ether
+Traverse Town Mail Postcard 02 Event: Puppy
+Traverse Town Mail Postcard 03 Event: Cottage
+Traverse Town Mail Postcard 04 Event: Elixir
+Traverse Town Mail Postcard 05 Event: Progressive Fire
+Traverse Town Mail Postcard 06 Event: Puppy
+Traverse Town Mail Postcard 07 Event: Megalixir
+Traverse Town Mail Postcard 08 Event: Forget-Me-Not
+Traverse Town Mail Postcard 09 Event: Diamond Dust
+Traverse Town Mail Postcard 10 Event: Save the Queen
+Traverse Town Mystical House Glide Chest: AP Up
+Traverse Town Mystical House Yellow Trinity Chest: Silver Mallet
+Traverse Town Piano Room Return 10 Puppies: Puppy
+Traverse Town Piano Room Return 20 Puppies: Progressive Cure
+Traverse Town Piano Room Return 30 Puppies: Progressive Aero
+Traverse Town Piano Room Return 40 Puppies: Neverland
+Traverse Town Piano Room Return 50 Puppies Reward 1: Progressive Gravity
+Traverse Town Piano Room Return 50 Puppies Reward 2: Puppy
+Traverse Town Piano Room Return 60 Puppies: Hollow Bastion
+Traverse Town Piano Room Return 70 Puppies: Red Trinity
+Traverse Town Piano Room Return 80 Puppies: Torn Page
+Traverse Town Piano Room Return 90 Puppies: Ether
+Traverse Town Piano Room Return 99 Puppies Reward 1: Power Up
+Traverse Town Piano Room Return 99 Puppies Reward 2: Hi-Potion
+Traverse Town Red Room Chest: Puppy
+Traverse Town Secret Waterway Near Stairs Chest: AP Up
+Traverse Town Secret Waterway White Trinity Chest: Wooden Sword
+Traverse Town Synth Cloth: Puppy
+Traverse Town Synth Fish: Lucky Emblem
+Traverse Town Synth Log: Ether
+Traverse Town Synth Mushroom: Fantasista
+Traverse Town Synth Rope: Elixir
+Traverse Town Synth Seagull Egg: Critical Plus
+Wonderland Bizarre Room Green Trinity Chest: Megalixir
+Wonderland Bizarre Room Lamp Chest: Hurricane Blast
+Wonderland Bizarre Room Navi-G Piece Event: Camping Set
+Wonderland Bizarre Room Read Book: AP Up
+Wonderland Defeat Trickmaster Blizzard Event: Blizzara Ring
+Wonderland Defeat Trickmaster Ifrit's Horn Event: Seven Elements
+Wonderland Lotus Forest Corner Chest: Empty Bottle
+Wonderland Lotus Forest Glide Chest: Ether
+Wonderland Lotus Forest Nut Chest: Mega-Ether
+Wonderland Lotus Forest Through the Painting Thunder Plant Chest: Metal Chocobo
+Wonderland Lotus Forest Through the Painting White Trinity Chest: Gaia Bangle
+Wonderland Lotus Forest Thunder Plant Chest: Emblem Piece (Fountain)
+Wonderland Queen's Castle Hedge Left Red Chest: Elixir
+Wonderland Queen's Castle Hedge Right Blue Chest: Empty Bottle
+Wonderland Queen's Castle Hedge Right Red Chest: Power Up
+Wonderland Rabbit Hole Defeat Heartless 1 Chest: Defense Up
+Wonderland Rabbit Hole Defeat Heartless 2 Chest: Phil Cup
+Wonderland Rabbit Hole Defeat Heartless 3 Chest: Megalixir
+Wonderland Rabbit Hole Green Trinity Chest: Mega-Potion
+Wonderland Tea Party Garden Above Lotus Forest Entrance 1st Chest: Firaga Ring
+Wonderland Tea Party Garden Above Lotus Forest Entrance 2nd Chest: Tent
+Wonderland Tea Party Garden Across From Bizarre Room Entrance Chest: Defender
+Wonderland Tea Party Garden Bear and Clock Puzzle Chest: Progressive Fire
+Olympus Coliseum Clear Phil's Training Thunder Event: Puppy
+Olympus Coliseum Cloud Sonic Blade Event: Shiva Belt
+Olympus Coliseum Coliseum Gates Blizzaga Chest: Defense Up
+Olympus Coliseum Coliseum Gates Blizzara Chest: Wishing Star
+Olympus Coliseum Coliseum Gates Entry Pass Event: Lucky Emblem
+Olympus Coliseum Coliseum Gates Green Trinity: Defense Up
+Olympus Coliseum Coliseum Gates Hero's License Event: Mega-Potion
+Olympus Coliseum Coliseum Gates Left Behind Columns Chest: Megalixir
+Olympus Coliseum Coliseum Gates Left Blue Trinity Chest: Ray of Light
+Olympus Coliseum Coliseum Gates Right Blue Trinity Chest: Onyx Shield
+Olympus Coliseum Coliseum Gates White Trinity Chest: Mermaid Kick
+Olympus Coliseum Defeat Cerberus Inferno Band Event: Combo Plus
+Complete Phil Cup: Adamant Shield
+Complete Phil Cup Solo: White Fang
+Complete Phil Cup Time Trial: Progressive Blizzard
+Complete Pegasus Cup: Ether
+Complete Pegasus Cup Solo: Progressive Aero
+Complete Pegasus Cup Time Trial: Power Up
+Complete Hercules Cup: Elixir
+Complete Hercules Cup Solo: Air Combo Plus
+Complete Hercules Cup Time Trial: Brave Warrior
+Complete Hades Cup: Prime Cap
+Complete Hades Cup Solo: AP Up
+Complete Hades Cup Time Trial: Blizzagun Band
+Hades Cup Defeat Cloud and Leon Event: Cottage
+Hades Cup Defeat Yuffie Event: Blizzard Ring
+Hades Cup Defeat Cerberus Event: Ability Stud
+Hades Cup Defeat Behemoth Event: Gigas Fist
+Hades Cup Defeat Hades Event: Jungle King
+Hercules Cup Defeat Cloud Event: Thundara Ring
+Hercules Cup Yellow Trinity Event: Power Up
+Olympus Coliseum Defeat Hades Ansem's Report 8: Ether
+Olympus Coliseum Olympia Chest: Puppy
+Olympus Coliseum Defeat Ice Titan Diamond Dust Event: Ultima Weapon
+Olympus Coliseum Gates Purple Jar After Defeating Hades: Ether
+Olympus Coliseum Defeat Sephiroth Ansem's Report 12: Three Wishes
+Olympus Coliseum Defeat Sephiroth One-Winged Angel Event: Elixir
+Deep Jungle Bamboo Thicket Save Gorillas: Golem Chain
+Deep Jungle Camp Blue Trinity Chest: Thunder Ring
+Deep Jungle Camp Ether Experiment: Angel Bangle
+Deep Jungle Camp Hi-Potion Experiment: Megalixir
+Deep Jungle Camp Replication Experiment: Puppy
+Deep Jungle Camp Save Gorillas: Puppy
+Deep Jungle Cavern of Hearts Navi-G Piece Event: Hi-Potion
+Deep Jungle Cavern of Hearts White Trinity Chest: Elixir
+Deep Jungle Cliff Right Cliff Left Chest: Power Up
+Deep Jungle Cliff Right Cliff Right Chest: Tent
+Deep Jungle Cliff Save Gorillas: Chaos Ring
+Deep Jungle Climbing Trees Blue Trinity Chest: High Jump
+Deep Jungle Climbing Trees Save Gorillas: Defense Up
+Deep Jungle Defeat Clayton Cure Event: Dumbo
+Deep Jungle Defeat Sabor White Fang Event: Progressive Glide
+Deep Jungle Hippo's Lagoon Center Chest: Gravity Arts
+Deep Jungle Hippo's Lagoon Left Chest: Potion
+Deep Jungle Hippo's Lagoon Right Chest: Elixir
+Deep Jungle Seal Keyhole Jungle King Event: Puppy
+Deep Jungle Seal Keyhole Red Trinity Event: Crystal Crown
+Deep Jungle Tent Chest: Potion
+Deep Jungle Tent Protect-G Event: Postcard
+Deep Jungle Tree House Beneath Tree House Chest: Hi-Potion
+Deep Jungle Tree House Rooftop Chest: Puppy
+Deep Jungle Tree House Save Gorillas: Cottage
+Deep Jungle Tree House Suspended Boat Chest: Cottage
+Deep Jungle Tunnel Chest: Megalixir
+Deep Jungle Vines 2 Chest: Progressive Blizzard
+Deep Jungle Vines Chest: Ether
+Deep Jungle Waterfall Cavern High Middle Chest: Tent
+Deep Jungle Waterfall Cavern High Wall Chest: Meteor Strike
+Deep Jungle Waterfall Cavern Low Chest: Potion
+Deep Jungle Waterfall Cavern Middle Chest: Progressive Stop
+Deep Jungle Jungle Slider 10 Fruits: Torn Page
+Deep Jungle Jungle Slider 20 Fruits: Lucky Emblem
+Deep Jungle Jungle Slider 30 Fruits: Progressive Stop
+Deep Jungle Jungle Slider 40 Fruits: Progressive Cure
+Deep Jungle Jungle Slider 50 Fruits: Cure Arts
+Agrabah Aladdin's House Main Street Entrance Chest: Torn Page
+Agrabah Aladdin's House Plaza Entrance Chest: Puppy
+Agrabah Alley Chest: Inferno Band
+Agrabah Bazaar Across Windows Chest: Puppy
+Agrabah Bazaar High Corner Chest: Potion
+Agrabah Cave of Wonders Bottomless Hall Across Chasm Chest: Protect Chain
+Agrabah Cave of Wonders Bottomless Hall Pillar Chest: Camping Set
+Agrabah Cave of Wonders Bottomless Hall Raised Platform Chest: AP Up
+Agrabah Cave of Wonders Dark Chamber Abu Gem Chest: High Jump
+Agrabah Cave of Wonders Dark Chamber Across from Relic Chamber Entrance Chest: Trinity Limit
+Agrabah Cave of Wonders Dark Chamber Bridge Chest: Emblem Piece (Statue)
+Agrabah Cave of Wonders Dark Chamber Near Save Chest: Hi-Potion
+Agrabah Cave of Wonders Entrance Left Chest: Puppy
+Agrabah Cave of Wonders Entrance Tall Tower Chest: Crystal Trident
+Agrabah Cave of Wonders Entrance White Trinity Chest: Elixir
+Agrabah Cave of Wonders Hall High Left Chest: Lucky Emblem
+Agrabah Cave of Wonders Hall Near Bottomless Hall Chest: Ether
+Agrabah Cave of Wonders Hidden Room Left Chest: Atlantica
+Agrabah Cave of Wonders Hidden Room Right Chest: Defense Up
+Agrabah Cave of Wonders Relic Chamber Jump from Stairs Chest: Energy Bangle
+Agrabah Cave of Wonders Relic Chamber Stairs Chest: Lady Luck
+Agrabah Cave of Wonders Silent Chamber Blue Trinity Chest: Cottage
+Agrabah Cave of Wonders Treasure Room Above Fire Chest: EXP Necklace
+Agrabah Cave of Wonders Treasure Room Across Platforms Chest: Elixir
+Agrabah Cave of Wonders Treasure Room Large Treasure Pile Chest: Omega Arts
+Agrabah Cave of Wonders Treasure Room Small Treasure Pile Chest: AP Up
+Agrabah Defeat Jafar Blizzard Event: Bambi
+Agrabah Defeat Jafar Genie Ansem's Report 1: Mega-Ether
+Agrabah Defeat Jafar Genie Fire Event: Dream Shield (Goofy)
+Agrabah Defeat Pot Centipede Ray of Light Event: Dark Ring
+Agrabah Main Street High Above Alley Entrance Chest: Cottage
+Agrabah Main Street High Above Palace Gates Entrance Chest: Mighty Shield
+Agrabah Main Street Right Palace Entrance Chest: Tent
+Agrabah Palace Gates High Close to Palace Chest: Postcard
+Agrabah Palace Gates High Opposite Palace Chest: Torn Page
+Agrabah Palace Gates Low Chest: Spellbinder
+Agrabah Plaza By Storage Chest: Cottage
+Agrabah Plaza Raised Terrace Chest: Puppy
+Agrabah Plaza Top Corner Chest: Blue Trinity
+Agrabah Seal Keyhole Genie Event: Slides
+Agrabah Seal Keyhole Green Trinity Event: Lucky Emblem
+Agrabah Seal Keyhole Three Wishes Event: Tent
+Agrabah Storage Behind Barrel Chest: Grand Mallet
+Agrabah Storage Green Trinity Chest: Atlas Armlet
+Agrabah Defeat Kurt Zisa Zantetsuken Event: Progressive Gravity
+Agrabah Defeat Kurt Zisa Ansem's Report 11: Lucky Emblem
+Monstro Chamber 2 Ground Chest: Ether
+Monstro Chamber 2 Platform Chest: Tent
+Monstro Chamber 3 Ground Chest: Puppy
+Monstro Chamber 3 Near Chamber 6 Entrance Chest: Elixir
+Monstro Chamber 3 Platform Above Chamber 2 Entrance Chest: High Jump
+Monstro Chamber 3 Platform Near Chamber 6 Entrance Chest: Cottage
+Monstro Chamber 5 Atop Barrel Chest: Mega-Ether
+Monstro Chamber 5 Low 1st Chest: Puppy
+Monstro Chamber 5 Low 2nd Chest: Megalixir
+Monstro Chamber 5 Platform Chest: Tent
+Monstro Chamber 6 Low Chest: Hercules Cup
+Monstro Chamber 6 Other Platform Chest: Magus Staff
+Monstro Chamber 6 Platform Near Chamber 5 Entrance Chest: Cottage
+Monstro Chamber 6 Raised Area Near Chamber 1 Entrance Chest: Postcard
+Monstro Chamber 6 White Trinity Chest: Theon Vol. 6
+Monstro Defeat Parasite Cage I Goofy Cheer Event: Lucky Emblem
+Monstro Defeat Parasite Cage II Stop Event: Lucky Emblem
+Monstro Mouth Boat Deck Chest: Elixir
+Monstro Mouth Green Trinity Top of Boat Chest: Moogle Badge
+Monstro Mouth High Platform Across from Boat Chest: Postcard
+Monstro Mouth High Platform Boat Side Chest: Potion
+Monstro Mouth High Platform Near Teeth Chest: Defense Up
+Monstro Mouth Near Ship Chest: Puppy
+Atlantica Sunken Ship In Flipped Boat Chest: Ether
+Atlantica Sunken Ship Seabed Chest: Elixir
+Atlantica Sunken Ship Inside Ship Chest: Pegasus Cup
+Atlantica Ariel's Grotto High Chest: Mushu
+Atlantica Ariel's Grotto Middle Chest: Megalixir
+Atlantica Ariel's Grotto Low Chest: Guard Earring
+Atlantica Ursula's Lair Use Fire on Urchin Chest: Lucky Strike
+Atlantica Undersea Gorge Jammed by Ariel's Grotto Chest: Lucky Emblem
+Atlantica Triton's Palace White Trinity Chest: Lucky Emblem
+Atlantica Defeat Ursula I Mermaid Kick Event: Ribbon
+Atlantica Defeat Ursula II Thunder Event: Cottage
+Atlantica Seal Keyhole Crabclaw Event: Progressive Thunder
+Atlantica Undersea Gorge Blizzard Clam: Hi-Potion
+Atlantica Undersea Gorge Ocean Floor Clam: Jack-In-The-Box
+Atlantica Undersea Valley Higher Cave Clam: Shooting Star
+Atlantica Undersea Valley Lower Cave Clam: Tent
+Atlantica Undersea Valley Fire Clam: Potion
+Atlantica Undersea Valley Wall Clam: Mega-Potion
+Atlantica Undersea Valley Pillar Clam: Mega-Potion
+Atlantica Undersea Valley Ocean Floor Clam: Potion
+Atlantica Triton's Palace Thunder Clam: Cottage
+Atlantica Triton's Palace Wall Right Clam: Tent
+Atlantica Triton's Palace Near Path Clam: Protera Chain
+Atlantica Triton's Palace Wall Left Clam: Emblem Piece (Flame)
+Atlantica Cavern Nook Clam: Defense Up
+Atlantica Below Deck Clam: Ether
+Atlantica Undersea Garden Clam: One-Winged Angel
+Atlantica Undersea Cave Clam: Power Up
+Atlantica Sunken Ship Crystal Trident Event: Puppy
+Atlantica Defeat Ursula II Ansem's Report 3: Mega-Potion
+Halloween Town Boneyard Tombstone Puzzle Chest: Thunder Arts
+Halloween Town Bridge Left of Gate Chest: Genji Shield
+Halloween Town Bridge Right of Gate Chest: Golem Shield
+Halloween Town Bridge Under Bridge: Blitz
+Halloween Town Cemetery Behind Grave Chest: Fire Ring
+Halloween Town Cemetery Between Graves Chest: AP Up
+Halloween Town Cemetery By Cat Shape Chest: Potion
+Halloween Town Cemetery By Striped Grave Chest: Three Stars
+Halloween Town Defeat Oogie Boogie Ansem's Report 7: Potion
+Halloween Town Defeat Oogie Boogie Holy Circlet Event: Lucky Emblem
+Halloween Town Defeat Oogie's Manor Gravity Event: Mega-Potion
+Halloween Town Graveyard Forget-Me-Not Event: Stop Arts
+Halloween Town Guillotine Square High Tower Chest: Ramuh Belt
+Halloween Town Guillotine Square Pumpkin Structure Left Chest: Megalixir
+Halloween Town Guillotine Square Pumpkin Structure Right Chest: Herc's Shield
+Halloween Town Guillotine Square Ring Jack's Doorbell 3 Times: Potion
+Halloween Town Guillotine Square Under Jack's House Stairs Chest: Aero Arts
+Halloween Town Lab Torn Page: EXP Earring
+Halloween Town Moonlight Hill White Trinity Chest: Puppy
+Halloween Town Oogie's Manor Entrance Steps Chest: Ether
+Halloween Town Oogie's Manor Grounds Red Trinity Chest: Cosmic Arts
+Halloween Town Oogie's Manor Hollow Chest: Lucky Emblem
+Halloween Town Oogie's Manor Inside Entrance Chest: Mega-Ether
+Halloween Town Oogie's Manor Lower Iron Cage Chest: Elixir
+Halloween Town Oogie's Manor Upper Iron Cage Chest: AP Up
+Halloween Town Seal Keyhole Pumpkinhead Event: Cottage
+Neverland Cabin Chest: Mega-Ether
+Neverland Captain's Cabin Chest: Ars Arcanum
+Neverland Clock Tower Chest: Potion
+Neverland Defeat Anti Sora Raven's Claw Event: Cottage
+Neverland Defeat Captain Hook Ars Arcanum Event: Power Up
+Neverland Defeat Hook Ansem's Report 9: Fire Arts
+Neverland Encounter Hook Cure Event: Mega-Ether
+Neverland Galley Chest: Elixir
+Neverland Hold Aero Chest: Lord Fortune
+Neverland Hold Flight 1st Chest: Puppy
+Neverland Hold Flight 2nd Chest: Progressive Thunder
+Neverland Hold Yellow Trinity Green Chest: Postcard
+Neverland Hold Yellow Trinity Left Blue Chest: Ether
+Neverland Hold Yellow Trinity Right Blue Chest: Dream Rod (Donald)
+Neverland Pirate Ship Crows Nest Chest: Tent
+Neverland Pirate Ship Deck White Trinity Chest: Warhammer
+Neverland Seal Keyhole Fairy Harp Event: Thundaga Ring
+Neverland Seal Keyhole Glide Event: Yellow Trinity
+Neverland Seal Keyhole Tinker Bell Event: Halloween Town
+Neverland Defeat Phantom Stop Event: Oblivion
+Hollow Bastion Base Level Bubble Under the Wall Platform Chest: Save the King
+Hollow Bastion Base Level Near Crystal Switch Chest: Rune Armlet
+Hollow Bastion Base Level Platform Near Entrance Chest: Mega-Potion
+Hollow Bastion Castle Gates Freestanding Pillar Chest: Progressive Glide
+Hollow Bastion Castle Gates Gravity Chest: Progressive Glide
+Hollow Bastion Castle Gates High Pillar Chest: Tent
+Hollow Bastion Defeat Behemoth Omega Arts Event: Empty Bottle
+Hollow Bastion Defeat Dragon Maleficent Fireglow Event: Titan Chain
+Hollow Bastion Defeat Maleficent Ansem's Report 5: Fairy Harp
+Hollow Bastion Defeat Maleficent Donald Cheer Event: Puppy
+Hollow Bastion Defeat Riku I White Trinity Event: Cottage
+Hollow Bastion Defeat Riku II Ragnarok Event: Master Earring
+Hollow Bastion Dungeon By Candles Chest: Camping Set
+Hollow Bastion Dungeon Corner Chest: Camping Set
+Hollow Bastion Entrance Hall Emblem Piece (Chest): Megalixir
+Hollow Bastion Entrance Hall Emblem Piece (Flame): Defense Up
+Hollow Bastion Entrance Hall Emblem Piece (Fountain): Megalixir
+Hollow Bastion Entrance Hall Emblem Piece (Statue): Power Up
+Hollow Bastion Entrance Hall Left of Emblem Door Chest: Camping Set
+Hollow Bastion Grand Hall Left of Gate Chest: Holy Circlet
+Hollow Bastion Grand Hall Oblivion Chest: Obsidian Ring
+Hollow Bastion Grand Hall Steps Right Side Chest: Camping Set
+Hollow Bastion Great Crest After Battle Platform Chest: Megalixir
+Hollow Bastion Great Crest Lower Chest: Ifrit's Horn
+Hollow Bastion High Tower 1st Gravity Chest: Puppy
+Hollow Bastion High Tower 2nd Gravity Chest: Olympia
+Hollow Bastion High Tower Above Sliding Blocks Chest: Potion
+Hollow Bastion Library 1st Floor Turn the Carousel Chest: Progressive Blizzard
+Hollow Bastion Library 2nd Floor Turn the Carousel 1st Chest: White Trinity
+Hollow Bastion Library 2nd Floor Turn the Carousel 2nd Chest: Agrabah
+Hollow Bastion Library Speak to Aerith Cure: Lionheart
+Hollow Bastion Library Speak to Belle Divine Rose: Pumpkinhead
+Hollow Bastion Library Top of Bookshelf Chest: Emblem Piece (Chest)
+Hollow Bastion Library Top of Bookshelf Turn the Carousel Chest: AP Up
+Hollow Bastion Lift Stop Heartless Sigil Door Gravity Chest: Genie
+Hollow Bastion Lift Stop Library Node After High Tower Switch Gravity Chest: Megalixir
+Hollow Bastion Lift Stop Library Node Gravity Chest: Puppy
+Hollow Bastion Lift Stop Outside Library Gravity Chest: Ether
+Hollow Bastion Lift Stop Under High Tower Sliding Blocks Chest: Potion
+Hollow Bastion Rising Falls Floating Platform Near Bubble Chest: Power Up
+Hollow Bastion Rising Falls Floating Platform Near Save Chest: Ether
+Hollow Bastion Rising Falls High Platform Chest: Mega-Ether
+Hollow Bastion Rising Falls Under Water 1st Chest: Tent
+Hollow Bastion Rising Falls Under Water 2nd Chest: Protega Chain
+Hollow Bastion Rising Falls Water's Surface Chest: Cottage
+Hollow Bastion Rising Falls White Trinity Chest: Defense Up
+Hollow Bastion Speak to Princesses Fire Event: Camping Set
+Hollow Bastion Speak with Aerith Ansem's Report 10: Thundagun Band
+Hollow Bastion Speak with Aerith Ansem's Report 2: Ifrit Belt
+Hollow Bastion Speak with Aerith Ansem's Report 4: Postcard
+Hollow Bastion Speak with Aerith Ansem's Report 6: Megalixir
+Hollow Bastion Waterway Blizzard on Bubble Chest: Megalixir
+Hollow Bastion Waterway Near Save Chest: Entry Pass
+Hollow Bastion Waterway Unlock Passage from Base Level Chest: Raven's Claw
+Hollow Bastion Defeat Unknown Ansem's Report 13: Elixir
+Hollow Bastion Defeat Unknown EXP Necklace Event: Mermaid Kick
+End of the World Defeat Chernabog Superglide Event: Power Up
+End of the World Final Dimension 10th Chest: Mega-Potion
+End of the World Final Dimension 1st Chest: Defense Up
+End of the World Final Dimension 2nd Chest: Tinker Bell
+End of the World Final Dimension 3rd Chest: Elixir
+End of the World Final Dimension 4th Chest: Lucky Emblem
+End of the World Final Dimension 5th Chest: Wonderland
+End of the World Final Dimension 6th Chest: Element Ring
+End of the World Final Dimension 7th Chest: AP Up
+End of the World Final Dimension 8th Chest: Ether
+End of the World Final Dimension 9th Chest: Progressive Fire
+End of the World Final Rest Chest: Wizard's Relic
+End of the World Giant Crevasse 1st Chest: Cottage
+End of the World Giant Crevasse 2nd Chest: Fira Ring
+End of the World Giant Crevasse 3rd Chest: Power Up
+End of the World Giant Crevasse 4th Chest: Lucky Emblem
+End of the World Giant Crevasse 5th Chest: Mythril Shield
+End of the World World Terminus 100 Acre Wood Chest: Ether
+End of the World World Terminus Agrabah Chest: EXP Ring
+End of the World World Terminus Atlantica Chest: Magic Armlet
+End of the World World Terminus Deep Jungle Chest: Oathkeeper
+End of the World World Terminus Halloween Town Chest: Blizzard Arts
+End of the World World Terminus Neverland Chest: Stout Shield
+End of the World World Terminus Olympus Coliseum Chest: Progressive Gravity
+End of the World World Terminus Traverse Town Chest: Mega-Potion
+End of the World World Terminus Wonderland Chest: Potion
+Final Ansem: Victory
+100 Acre Wood Meadow Inside Log Chest: Mega-Ether
+100 Acre Wood Bouncing Spot Left Cliff Chest: Megalixir
+100 Acre Wood Bouncing Spot Right Tree Alcove Chest: Megalixir
+100 Acre Wood Bouncing Spot Under Giant Pot Chest: Elixir
+100 Acre Wood Bouncing Spot Turn in Rare Nut 1: Simba
+100 Acre Wood Bouncing Spot Turn in Rare Nut 2: Wisdom Staff
+100 Acre Wood Bouncing Spot Turn in Rare Nut 3: Mega-Potion
+100 Acre Wood Bouncing Spot Turn in Rare Nut 4: Mega-Potion
+100 Acre Wood Bouncing Spot Turn in Rare Nut 5: Footprints
+100 Acre Wood Pooh's House Owl Cheer: Potion
+100 Acre Wood Convert Torn Page 1: AP Up
+100 Acre Wood Convert Torn Page 2: Power Chain
+100 Acre Wood Convert Torn Page 3: Empty Bottle
+100 Acre Wood Convert Torn Page 4: Progressive Aero
+100 Acre Wood Convert Torn Page 5: Violetta
+100 Acre Wood Pooh's House Start Fire: Blizzaga Ring
+100 Acre Wood Pooh's Room Cabinet: Tent
+100 Acre Wood Pooh's Room Chimney: Defense Up
+100 Acre Wood Bouncing Spot Break Log: Firagun Band
+100 Acre Wood Bouncing Spot Fall Through Top of Tree Next to Pooh: Crabclaw
+Level 002 (Slot 1): Strength Increase
+Level 003 (Slot 1): Max HP Increase
+Level 004 (Slot 1): Max AP Increase
+Level 005 (Slot 1): Max HP Increase
+Level 006 (Slot 1): Item Slot Increase
+Level 007 (Slot 1): Defense Increase
+Level 008 (Slot 1): Max HP Increase
+Level 009 (Slot 1): Max HP Increase
+Level 009 (Slot 2): Guard
+Level 010 (Slot 1): Strength Increase
+Level 010 (Slot 2): Ripple Drive
+Level 011 (Slot 1): Max HP Increase
+Level 011 (Slot 2): Combo Plus
+Level 012 (Slot 1): Max AP Increase
+Level 012 (Slot 2): Critical Plus
+Level 013 (Slot 1): Defense Increase
+Level 013 (Slot 2): Tech Boost
+Level 014 (Slot 1): Max HP Increase
+Level 015 (Slot 1): Max AP Increase
+Level 015 (Slot 2): Tech Boost
+Level 016 (Slot 1): Defense Increase
+Level 017 (Slot 1): Max AP Increase
+Level 018 (Slot 1): Max MP Increase
+Level 019 (Slot 1): Strength Increase
+Level 020 (Slot 1): Strength Increase
+Level 021 (Slot 1): Max HP Increase
+Level 021 (Slot 2): Sonic Blade
+Level 022 (Slot 1): Defense Increase
+Level 023 (Slot 1): Max HP Increase
+Level 023 (Slot 2): Berserk
+Level 024 (Slot 1): Defense Increase
+Level 025 (Slot 1): Defense Increase
+Level 026 (Slot 1): Max AP Increase
+Level 027 (Slot 1): Max HP Increase
+Level 028 (Slot 1): Max HP Increase
+Level 029 (Slot 1): Defense Increase
+Level 029 (Slot 2): Combo Plus
+Level 030 (Slot 1): Max AP Increase
+Level 030 (Slot 2): Strike Raid
+Level 031 (Slot 1): Defense Increase
+Level 032 (Slot 1): Defense Increase
+Level 033 (Slot 1): Strength Increase
+Level 034 (Slot 1): Max AP Increase
+Level 035 (Slot 1): Defense Increase
+Level 036 (Slot 1): Max HP Increase
+Level 037 (Slot 1): Max HP Increase
+Level 037 (Slot 2): Treasure Magnet
+Level 038 (Slot 1): Strength Increase
+Level 039 (Slot 1): Defense Increase
+Level 039 (Slot 2): Aerial Sweep
+Level 040 (Slot 1): Max AP Increase
+Level 040 (Slot 2): Second Chance
+Level 041 (Slot 1): Defense Increase
+Level 042 (Slot 1): Strength Increase
+Level 043 (Slot 1): Max AP Increase
+Level 044 (Slot 1): Defense Increase
+Level 045 (Slot 1): Defense Increase
+Level 046 (Slot 1): Max HP Increase
+Level 046 (Slot 2): Treasure Magnet
+Level 047 (Slot 1): Max MP Increase
+Level 047 (Slot 2): Ragnarok
+Level 048 (Slot 1): Strength Increase
+Level 049 (Slot 1): Max MP Increase
+Level 049 (Slot 2): Tech Boost
+Level 050 (Slot 1): Strength Increase
+Level 051 (Slot 1): Defense Increase
+Level 052 (Slot 1): Max HP Increase
+Level 052 (Slot 2): Leaf Bracer
+Level 053 (Slot 1): Max HP Increase
+Level 054 (Slot 1): Defense Increase
+Level 054 (Slot 2): Combo Master
+Level 055 (Slot 1): Strength Increase
+Level 056 (Slot 1): Defense Increase
+Level 057 (Slot 1): Strength Increase
+Level 058 (Slot 1): Max MP Increase
+Level 058 (Slot 2): MP Haste
+Level 059 (Slot 1): Max HP Increase
+Level 059 (Slot 2): MP Rage
+Level 060 (Slot 1): Item Slot Increase
+Level 060 (Slot 2): Cheer
+Level 061 (Slot 1): Max AP Increase
+Level 062 (Slot 1): Defense Increase
+Level 063 (Slot 1): Max HP Increase
+Level 064 (Slot 1): Max HP Increase
+Level 064 (Slot 2): Jackpot
+Level 065 (Slot 1): Max AP Increase
+Level 066 (Slot 1): Strength Increase
+Level 067 (Slot 1): Max MP Increase
+Level 068 (Slot 1): Max HP Increase
+Level 069 (Slot 1): Strength Increase
+Level 070 (Slot 1): Strength Increase
+Level 071 (Slot 1): Max AP Increase
+Level 072 (Slot 1): Max HP Increase
+Level 073 (Slot 1): Strength Increase
+Level 073 (Slot 2): Sliding Dash
+Level 074 (Slot 1): Strength Increase
+Level 075 (Slot 1): Strength Increase
+Level 075 (Slot 2): Critical Plus
+Level 076 (Slot 1): Strength Increase
+Level 076 (Slot 2): Air Combo Plus
+Level 077 (Slot 1): Defense Increase
+Level 077 (Slot 2): Tech Boost
+Level 078 (Slot 1): Strength Increase
+Level 079 (Slot 1): Max MP Increase
+Level 080 (Slot 1): Max HP Increase
+Level 081 (Slot 1): Defense Increase
+Level 082 (Slot 1): Strength Increase
+Level 083 (Slot 1): Strength Increase
+Level 083 (Slot 2): Slapshot
+Level 084 (Slot 1): Max AP Increase
+Level 084 (Slot 2): Encounter Plus
+Level 085 (Slot 1): Max HP Increase
+Level 085 (Slot 2): Zantetsuken
+Level 086 (Slot 1): Strength Increase
+Level 087 (Slot 1): Max AP Increase
+Level 088 (Slot 1): Defense Increase
+Level 088 (Slot 2): Combo Plus
+Level 089 (Slot 1): Max AP Increase
+Level 090 (Slot 1): Max MP Increase
+Level 091 (Slot 1): Accessory Slot Increase
+Level 092 (Slot 1): Max AP Increase
+Level 093 (Slot 1): Max HP Increase
+Level 094 (Slot 1): Item Slot Increase
+Level 095 (Slot 1): Strength Increase
+Level 096 (Slot 1): Defense Increase
+Level 096 (Slot 2): Gravity Break
+Level 097 (Slot 1): Defense Increase
+Level 097 (Slot 2): Counterattack
+Level 098 (Slot 1): Max AP Increase
+Level 098 (Slot 2): Stun Impact
+Level 099 (Slot 1): Max AP Increase
+Level 100 (Slot 1): Defense Increase
+
+Playthrough:
+
+0: {
+
+}
+1: {
+  Traverse Town 1st District Accessory Shop Roof Chest: Postcard
+  Traverse Town 1st District Safe Postcard: Deep Jungle
+  Traverse Town 2nd District Boots and Shoes Awning Chest: Progressive Glide
+  Traverse Town 2nd District Rooftop Chest: Puppy
+  Traverse Town 3rd District Balcony Postcard: Monstro
+  Traverse Town Accessory Shop Chest: Postcard
+  Traverse Town Alleyway Balcony Chest: Postcard
+  Traverse Town Alleyway Blue Room Awning Chest: Olympus Coliseum
+  Traverse Town Alleyway Corner Chest: Puppy
+  Traverse Town Defeat Guard Armor Blue Trinity Event: Puppy
+  Traverse Town Defeat Guard Armor Brave Warrior Event: Progressive Stop
+  Traverse Town Defeat Guard Armor Fire Event: Puppy
+  Traverse Town Green Room Clock Puzzle Chest: Puppy
+  Traverse Town Green Room Table Chest: Puppy
+  Traverse Town Item Shop Postcard: Postcard
+  Traverse Town Red Room Chest: Puppy
+}
+2: {
+  Deep Jungle Tent Protect-G Event: Postcard
+  Deep Jungle Tree House Rooftop Chest: Puppy
+  Deep Jungle Vines 2 Chest: Progressive Blizzard
+  Monstro Chamber 3 Ground Chest: Puppy
+  Monstro Chamber 5 Low 1st Chest: Puppy
+  Monstro Defeat Parasite Cage I Goofy Cheer Event: Lucky Emblem
+  Monstro Mouth High Platform Across from Boat Chest: Postcard
+  Monstro Mouth Near Ship Chest: Puppy
+  Olympus Coliseum Clear Phil's Training Thunder Event: Puppy
+  Olympus Coliseum Coliseum Gates Entry Pass Event: Lucky Emblem
+  Traverse Town Mail Postcard 02 Event: Puppy
+  Traverse Town Piano Room Return 10 Puppies: Puppy
+  Traverse Town Piano Room Return 20 Puppies: Progressive Cure
+}
+3: {
+  Deep Jungle Camp Replication Experiment: Puppy
+  Traverse Town Mail Postcard 05 Event: Progressive Fire
+  Traverse Town Mail Postcard 06 Event: Puppy
+  Traverse Town Piano Room Return 30 Puppies: Progressive Aero
+  Traverse Town Piano Room Return 40 Puppies: Neverland
+}
+4: {
+  Neverland Hold Flight 1st Chest: Puppy
+  Neverland Hold Flight 2nd Chest: Progressive Thunder
+}
+5: {
+  Traverse Town Gizmo Shop Postcard 1: Puppy
+  Traverse Town Piano Room Return 50 Puppies Reward 1: Progressive Gravity
+  Traverse Town Piano Room Return 50 Puppies Reward 2: Puppy
+}
+6: {
+  Traverse Town Magician's Study Obtained All LV1 Magic: Puppy
+}
+7: {
+  Traverse Town Piano Room Return 60 Puppies: Hollow Bastion
+}
+8: {
+  Hollow Bastion Library 2nd Floor Turn the Carousel 1st Chest: White Trinity
+  Hollow Bastion Library 2nd Floor Turn the Carousel 2nd Chest: Agrabah
+}
+9: {
+  Agrabah Cave of Wonders Dark Chamber Abu Gem Chest: High Jump
+  Agrabah Cave of Wonders Hall High Left Chest: Lucky Emblem
+  Agrabah Seal Keyhole Genie Event: Slides
+  Agrabah Seal Keyhole Green Trinity Event: Lucky Emblem
+}
+10: {
+  Agrabah Cave of Wonders Hidden Room Left Chest: Atlantica
+  Deep Jungle Jungle Slider 20 Fruits: Lucky Emblem
+  Monstro Defeat Parasite Cage II Stop Event: Lucky Emblem
+}
+11: {
+  Atlantica Triton's Palace White Trinity Chest: Lucky Emblem
+  Atlantica Undersea Gorge Jammed by Ariel's Grotto Chest: Lucky Emblem
+}
+12: {
+  End of the World Final Dimension 4th Chest: Lucky Emblem
+  End of the World Giant Crevasse 4th Chest: Lucky Emblem
+}
+13: {
+  Final Ansem: Victory
+}
+
+Paths:
+
+Agrabah Cave of Wonders Dark Chamber Abu Gem Chest
+        Menu -> Awakening
+   =>   Awakening -> Destiny Islands
+   =>   Destiny Islands -> Traverse Town
+   =>   Traverse Town -> World Map
+   =>   World Map -> Agrabah
+   =>   Agrabah
+Agrabah Cave of Wonders Hall High Left Chest
+        Menu -> Awakening
+   =>   Awakening -> Destiny Islands
+   =>   Destiny Islands -> Traverse Town
+   =>   Traverse Town -> World Map
+   =>   World Map -> Agrabah
+   =>   Agrabah
+Agrabah Cave of Wonders Hidden Room Left Chest
+        Menu -> Awakening
+   =>   Awakening -> Destiny Islands
+   =>   Destiny Islands -> Traverse Town
+   =>   Traverse Town -> World Map
+   =>   World Map -> Agrabah
+   =>   Agrabah
+Agrabah Seal Keyhole Genie Event
+        Menu -> Awakening
+   =>   Awakening -> Destiny Islands
+   =>   Destiny Islands -> Traverse Town
+   =>   Traverse Town -> World Map
+   =>   World Map -> Agrabah
+   =>   Agrabah
+Agrabah Seal Keyhole Green Trinity Event
+        Menu -> Awakening
+   =>   Awakening -> Destiny Islands
+   =>   Destiny Islands -> Traverse Town
+   =>   Traverse Town -> World Map
+   =>   World Map -> Agrabah
+   =>   Agrabah
+Atlantica Triton's Palace White Trinity Chest
+        Menu -> Awakening
+   =>   Awakening -> Destiny Islands
+   =>   Destiny Islands -> Traverse Town
+   =>   Traverse Town -> World Map
+   =>   World Map -> Atlantica
+   =>   Atlantica
+Atlantica Undersea Gorge Jammed by Ariel's Grotto Chest
+        Menu -> Awakening
+   =>   Awakening -> Destiny Islands
+   =>   Destiny Islands -> Traverse Town
+   =>   Traverse Town -> World Map
+   =>   World Map -> Atlantica
+   =>   Atlantica
+Deep Jungle Camp Replication Experiment
+        Menu -> Awakening
+   =>   Awakening -> Destiny Islands
+   =>   Destiny Islands -> Traverse Town
+   =>   Traverse Town -> World Map
+   =>   World Map -> Deep Jungle
+   =>   Deep Jungle
+Deep Jungle Jungle Slider 20 Fruits
+        Menu -> Awakening
+   =>   Awakening -> Destiny Islands
+   =>   Destiny Islands -> Traverse Town
+   =>   Traverse Town -> World Map
+   =>   World Map -> Deep Jungle
+   =>   Deep Jungle
+Deep Jungle Tent Protect-G Event
+        Menu -> Awakening
+   =>   Awakening -> Destiny Islands
+   =>   Destiny Islands -> Traverse Town
+   =>   Traverse Town -> World Map
+   =>   World Map -> Deep Jungle
+   =>   Deep Jungle
+Deep Jungle Tree House Rooftop Chest
+        Menu -> Awakening
+   =>   Awakening -> Destiny Islands
+   =>   Destiny Islands -> Traverse Town
+   =>   Traverse Town -> World Map
+   =>   World Map -> Deep Jungle
+   =>   Deep Jungle
+Deep Jungle Vines 2 Chest
+        Menu -> Awakening
+   =>   Awakening -> Destiny Islands
+   =>   Destiny Islands -> Traverse Town
+   =>   Traverse Town -> World Map
+   =>   World Map -> Deep Jungle
+   =>   Deep Jungle
+End of the World Final Dimension 4th Chest
+        Menu -> Awakening
+   =>   Awakening -> Destiny Islands
+   =>   Destiny Islands -> Traverse Town
+   =>   Traverse Town -> World Map
+   =>   World Map -> End of the World
+   =>   End of the World
+End of the World Giant Crevasse 4th Chest
+        Menu -> Awakening
+   =>   Awakening -> Destiny Islands
+   =>   Destiny Islands -> Traverse Town
+   =>   Traverse Town -> World Map
+   =>   World Map -> End of the World
+   =>   End of the World
+Final Ansem
+        Menu -> Awakening
+   =>   Awakening -> Destiny Islands
+   =>   Destiny Islands -> Traverse Town
+   =>   Traverse Town -> World Map
+   =>   World Map -> End of the World
+   =>   End of the World
+Hollow Bastion Library 2nd Floor Turn the Carousel 1st Chest
+        Menu -> Awakening
+   =>   Awakening -> Destiny Islands
+   =>   Destiny Islands -> Traverse Town
+   =>   Traverse Town -> World Map
+   =>   World Map -> Hollow Bastion
+   =>   Hollow Bastion
+Hollow Bastion Library 2nd Floor Turn the Carousel 2nd Chest
+        Menu -> Awakening
+   =>   Awakening -> Destiny Islands
+   =>   Destiny Islands -> Traverse Town
+   =>   Traverse Town -> World Map
+   =>   World Map -> Hollow Bastion
+   =>   Hollow Bastion
+Monstro Chamber 3 Ground Chest
+        Menu -> Awakening
+   =>   Awakening -> Destiny Islands
+   =>   Destiny Islands -> Traverse Town
+   =>   Traverse Town -> World Map
+   =>   World Map -> Monstro
+   =>   Monstro
+Monstro Chamber 5 Low 1st Chest
+        Menu -> Awakening
+   =>   Awakening -> Destiny Islands
+   =>   Destiny Islands -> Traverse Town
+   =>   Traverse Town -> World Map
+   =>   World Map -> Monstro
+   =>   Monstro
+Monstro Defeat Parasite Cage I Goofy Cheer Event
+        Menu -> Awakening
+   =>   Awakening -> Destiny Islands
+   =>   Destiny Islands -> Traverse Town
+   =>   Traverse Town -> World Map
+   =>   World Map -> Monstro
+   =>   Monstro
+Monstro Defeat Parasite Cage II Stop Event
+        Menu -> Awakening
+   =>   Awakening -> Destiny Islands
+   =>   Destiny Islands -> Traverse Town
+   =>   Traverse Town -> World Map
+   =>   World Map -> Monstro
+   =>   Monstro
+Monstro Mouth High Platform Across from Boat Chest
+        Menu -> Awakening
+   =>   Awakening -> Destiny Islands
+   =>   Destiny Islands -> Traverse Town
+   =>   Traverse Town -> World Map
+   =>   World Map -> Monstro
+   =>   Monstro
+Monstro Mouth Near Ship Chest
+        Menu -> Awakening
+   =>   Awakening -> Destiny Islands
+   =>   Destiny Islands -> Traverse Town
+   =>   Traverse Town -> World Map
+   =>   World Map -> Monstro
+   =>   Monstro
+Neverland Hold Flight 1st Chest
+        Menu -> Awakening
+   =>   Awakening -> Destiny Islands
+   =>   Destiny Islands -> Traverse Town
+   =>   Traverse Town -> World Map
+   =>   World Map -> Neverland
+   =>   Neverland
+Neverland Hold Flight 2nd Chest
+        Menu -> Awakening
+   =>   Awakening -> Destiny Islands
+   =>   Destiny Islands -> Traverse Town
+   =>   Traverse Town -> World Map
+   =>   World Map -> Neverland
+   =>   Neverland
+Olympus Coliseum Clear Phil's Training Thunder Event
+        Menu -> Awakening
+   =>   Awakening -> Destiny Islands
+   =>   Destiny Islands -> Traverse Town
+   =>   Traverse Town -> World Map
+   =>   World Map -> Olympus Coliseum
+   =>   Olympus Coliseum
+Olympus Coliseum Coliseum Gates Entry Pass Event
+        Menu -> Awakening
+   =>   Awakening -> Destiny Islands
+   =>   Destiny Islands -> Traverse Town
+   =>   Traverse Town -> World Map
+   =>   World Map -> Olympus Coliseum
+   =>   Olympus Coliseum
+Traverse Town 1st District Accessory Shop Roof Chest
+        Menu -> Awakening
+   =>   Awakening -> Destiny Islands
+   =>   Destiny Islands -> Traverse Town
+   =>   Traverse Town
+Traverse Town 1st District Safe Postcard
+        Menu -> Awakening
+   =>   Awakening -> Destiny Islands
+   =>   Destiny Islands -> Traverse Town
+   =>   Traverse Town
+Traverse Town 2nd District Boots and Shoes Awning Chest
+        Menu -> Awakening
+   =>   Awakening -> Destiny Islands
+   =>   Destiny Islands -> Traverse Town
+   =>   Traverse Town
+Traverse Town 2nd District Rooftop Chest
+        Menu -> Awakening
+   =>   Awakening -> Destiny Islands
+   =>   Destiny Islands -> Traverse Town
+   =>   Traverse Town
+Traverse Town 3rd District Balcony Postcard
+        Menu -> Awakening
+   =>   Awakening -> Destiny Islands
+   =>   Destiny Islands -> Traverse Town
+   =>   Traverse Town
+Traverse Town Accessory Shop Chest
+        Menu -> Awakening
+   =>   Awakening -> Destiny Islands
+   =>   Destiny Islands -> Traverse Town
+   =>   Traverse Town
+Traverse Town Alleyway Balcony Chest
+        Menu -> Awakening
+   =>   Awakening -> Destiny Islands
+   =>   Destiny Islands -> Traverse Town
+   =>   Traverse Town
+Traverse Town Alleyway Blue Room Awning Chest
+        Menu -> Awakening
+   =>   Awakening -> Destiny Islands
+   =>   Destiny Islands -> Traverse Town
+   =>   Traverse Town
+Traverse Town Alleyway Corner Chest
+        Menu -> Awakening
+   =>   Awakening -> Destiny Islands
+   =>   Destiny Islands -> Traverse Town
+   =>   Traverse Town
+Traverse Town Defeat Guard Armor Blue Trinity Event
+        Menu -> Awakening
+   =>   Awakening -> Destiny Islands
+   =>   Destiny Islands -> Traverse Town
+   =>   Traverse Town
+Traverse Town Defeat Guard Armor Brave Warrior Event
+        Menu -> Awakening
+   =>   Awakening -> Destiny Islands
+   =>   Destiny Islands -> Traverse Town
+   =>   Traverse Town
+Traverse Town Defeat Guard Armor Fire Event
+        Menu -> Awakening
+   =>   Awakening -> Destiny Islands
+   =>   Destiny Islands -> Traverse Town
+   =>   Traverse Town
+Traverse Town Gizmo Shop Postcard 1
+        Menu -> Awakening
+   =>   Awakening -> Destiny Islands
+   =>   Destiny Islands -> Traverse Town
+   =>   Traverse Town
+Traverse Town Green Room Clock Puzzle Chest
+        Menu -> Awakening
+   =>   Awakening -> Destiny Islands
+   =>   Destiny Islands -> Traverse Town
+   =>   Traverse Town
+Traverse Town Green Room Table Chest
+        Menu -> Awakening
+   =>   Awakening -> Destiny Islands
+   =>   Destiny Islands -> Traverse Town
+   =>   Traverse Town
+Traverse Town Item Shop Postcard
+        Menu -> Awakening
+   =>   Awakening -> Destiny Islands
+   =>   Destiny Islands -> Traverse Town
+   =>   Traverse Town
+Traverse Town Magician's Study Obtained All LV1 Magic
+        Menu -> Awakening
+   =>   Awakening -> Destiny Islands
+   =>   Destiny Islands -> Traverse Town
+   =>   Traverse Town
+Traverse Town Mail Postcard 02 Event
+        Menu -> Awakening
+   =>   Awakening -> Destiny Islands
+   =>   Destiny Islands -> Traverse Town
+   =>   Traverse Town
+Traverse Town Mail Postcard 05 Event
+        Menu -> Awakening
+   =>   Awakening -> Destiny Islands
+   =>   Destiny Islands -> Traverse Town
+   =>   Traverse Town
+Traverse Town Mail Postcard 06 Event
+        Menu -> Awakening
+   =>   Awakening -> Destiny Islands
+   =>   Destiny Islands -> Traverse Town
+   =>   Traverse Town
+Traverse Town Piano Room Return 10 Puppies
+        Menu -> Awakening
+   =>   Awakening -> Destiny Islands
+   =>   Destiny Islands -> Traverse Town
+   =>   Traverse Town
+Traverse Town Piano Room Return 20 Puppies
+        Menu -> Awakening
+   =>   Awakening -> Destiny Islands
+   =>   Destiny Islands -> Traverse Town
+   =>   Traverse Town
+Traverse Town Piano Room Return 30 Puppies
+        Menu -> Awakening
+   =>   Awakening -> Destiny Islands
+   =>   Destiny Islands -> Traverse Town
+   =>   Traverse Town
+Traverse Town Piano Room Return 40 Puppies
+        Menu -> Awakening
+   =>   Awakening -> Destiny Islands
+   =>   Destiny Islands -> Traverse Town
+   =>   Traverse Town
+Traverse Town Piano Room Return 50 Puppies Reward 1
+        Menu -> Awakening
+   =>   Awakening -> Destiny Islands
+   =>   Destiny Islands -> Traverse Town
+   =>   Traverse Town
+Traverse Town Piano Room Return 50 Puppies Reward 2
+        Menu -> Awakening
+   =>   Awakening -> Destiny Islands
+   =>   Destiny Islands -> Traverse Town
+   =>   Traverse Town
+Traverse Town Piano Room Return 60 Puppies
+        Menu -> Awakening
+   =>   Awakening -> Destiny Islands
+   =>   Destiny Islands -> Traverse Town
+   =>   Traverse Town
+Traverse Town Red Room Chest
+        Menu -> Awakening
+   =>   Awakening -> Destiny Islands
+   =>   Destiny Islands -> Traverse Town
+   =>   Traverse Town
