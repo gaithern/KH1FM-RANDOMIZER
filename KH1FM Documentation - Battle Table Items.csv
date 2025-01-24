@@ -1,0 +1,2551 @@
+Item Index,Item Name,File,Offset,Value (HEX),Value,Notes
+1,Potion,btltbl.bin,1A58,1F 00,31,Item Name
+1,Potion,btltbl.bin,1A5A,00,0,Item Icon
+1,Potion,btltbl.bin,1A5B,00,0,???
+1,Potion,btltbl.bin,1A5C,00 00,0,???
+1,Potion,btltbl.bin,1A5E,1E 00,30,???
+1,Potion,btltbl.bin,1A60,3C 00,60,Buy Price
+1,Potion,btltbl.bin,1A62,0C 00,12,Sell Price
+1,Potion,btltbl.bin,1A64,70 DA,55920,???
+1,Potion,btltbl.bin,1A66,00 00,0,???
+1,Potion,btltbl.bin,1A68,01 00 00 00,1,Sort Order
+2,Hi-Potion,btltbl.bin,1A6C,20 00,32,Item Name
+2,Hi-Potion,btltbl.bin,1A6E,00,0,Item Icon
+2,Hi-Potion,btltbl.bin,1A6F,01,1,???
+2,Hi-Potion,btltbl.bin,1A70,00 00,0,???
+2,Hi-Potion,btltbl.bin,1A72,3C 00,60,???
+2,Hi-Potion,btltbl.bin,1A74,96 00,150,Buy Price
+2,Hi-Potion,btltbl.bin,1A76,1E 00,30,Sell Price
+2,Hi-Potion,btltbl.bin,1A78,98 DA,55960,???
+2,Hi-Potion,btltbl.bin,1A7A,00 00,0,???
+2,Hi-Potion,btltbl.bin,1A7C,02 00 00 00,2,Sort Order
+3,Ether,btltbl.bin,1A80,21 00,33,Item Name
+3,Ether,btltbl.bin,1A82,00,0,Item Icon
+3,Ether,btltbl.bin,1A83,00,0,???
+3,Ether,btltbl.bin,1A84,00 00,0,???
+3,Ether,btltbl.bin,1A86,03 00,3,???
+3,Ether,btltbl.bin,1A88,C8 00,200,Buy Price
+3,Ether,btltbl.bin,1A8A,28 00,40,Sell Price
+3,Ether,btltbl.bin,1A8C,C0 DA,56000,???
+3,Ether,btltbl.bin,1A8E,00 00,0,???
+3,Ether,btltbl.bin,1A90,03 00 00 00,3,Sort Order
+4,Elixir,btltbl.bin,1A94,22 00,34,Item Name
+4,Elixir,btltbl.bin,1A96,00,0,Item Icon
+4,Elixir,btltbl.bin,1A97,02,2,???
+4,Elixir,btltbl.bin,1A98,00 00,0,???
+4,Elixir,btltbl.bin,1A9A,FF 00,255,???
+4,Elixir,btltbl.bin,1A9C,00 00,0,Buy Price
+4,Elixir,btltbl.bin,1A9E,50 00,80,Sell Price
+4,Elixir,btltbl.bin,1AA0,E8 DA,56040,???
+4,Elixir,btltbl.bin,1AA2,00 00,0,???
+4,Elixir,btltbl.bin,1AA4,04 00 00 00,4,Sort Order
+5,BO5,btltbl.bin,1AA8,23 00,35,Item Name
+5,BO5,btltbl.bin,1AAA,00,0,Item Icon
+5,BO5,btltbl.bin,1AAB,00,0,???
+5,BO5,btltbl.bin,1AAC,00 00,0,???
+5,BO5,btltbl.bin,1AAE,00 00,0,???
+5,BO5,btltbl.bin,1AB0,00 00,0,Buy Price
+5,BO5,btltbl.bin,1AB2,00 00,0,Sell Price
+5,BO5,btltbl.bin,1AB4,40 CC,52288,???
+5,BO5,btltbl.bin,1AB6,00 00,0,???
+5,BO5,btltbl.bin,1AB8,10 27 00 00,10000,Sort Order
+6,Mega-Potion,btltbl.bin,1ABC,24 00,36,Item Name
+6,Mega-Potion,btltbl.bin,1ABE,00,0,Item Icon
+6,Mega-Potion,btltbl.bin,1ABF,01,1,???
+6,Mega-Potion,btltbl.bin,1AC0,01 00,1,???
+6,Mega-Potion,btltbl.bin,1AC2,1E 00,30,???
+6,Mega-Potion,btltbl.bin,1AC4,00 00,0,Buy Price
+6,Mega-Potion,btltbl.bin,1AC6,28 00,40,Sell Price
+6,Mega-Potion,btltbl.bin,1AC8,18 DB,56088,???
+6,Mega-Potion,btltbl.bin,1ACA,00 00,0,???
+6,Mega-Potion,btltbl.bin,1ACC,06 00 00 00,6,Sort Order
+7,Mega-Ether,btltbl.bin,1AD0,25 00,37,Item Name
+7,Mega-Ether,btltbl.bin,1AD2,00,0,Item Icon
+7,Mega-Ether,btltbl.bin,1AD3,01,1,???
+7,Mega-Ether,btltbl.bin,1AD4,01 00,1,???
+7,Mega-Ether,btltbl.bin,1AD6,03 00,3,???
+7,Mega-Ether,btltbl.bin,1AD8,00 00,0,Buy Price
+7,Mega-Ether,btltbl.bin,1ADA,3C 00,60,Sell Price
+7,Mega-Ether,btltbl.bin,1ADC,48 DB,56136,???
+7,Mega-Ether,btltbl.bin,1ADE,00 00,0,???
+7,Mega-Ether,btltbl.bin,1AE0,07 00 00 00,7,Sort Order
+8,Megalixir,btltbl.bin,1AE4,26 00,38,Item Name
+8,Megalixir,btltbl.bin,1AE6,00,0,Item Icon
+8,Megalixir,btltbl.bin,1AE7,02,2,???
+8,Megalixir,btltbl.bin,1AE8,01 00,1,???
+8,Megalixir,btltbl.bin,1AEA,FF 00,255,???
+8,Megalixir,btltbl.bin,1AEC,00 00,0,Buy Price
+8,Megalixir,btltbl.bin,1AEE,64 00,100,Sell Price
+8,Megalixir,btltbl.bin,1AF0,78 DB,56184,???
+8,Megalixir,btltbl.bin,1AF2,00 00,0,???
+8,Megalixir,btltbl.bin,1AF4,08 00 00 00,8,Sort Order
+9,Fury Stone,btltbl.bin,1AF8,27 00,39,Item Name
+9,Fury Stone,btltbl.bin,1AFA,0D,13,Item Icon
+9,Fury Stone,btltbl.bin,1AFB,05,5,???
+9,Fury Stone,btltbl.bin,1AFC,00 00,0,???
+9,Fury Stone,btltbl.bin,1AFE,00 00,0,???
+9,Fury Stone,btltbl.bin,1B00,00 00,0,Buy Price
+9,Fury Stone,btltbl.bin,1B02,00 00,0,Sell Price
+9,Fury Stone,btltbl.bin,1B04,B0 DB,56240,???
+9,Fury Stone,btltbl.bin,1B06,00 00,0,???
+9,Fury Stone,btltbl.bin,1B08,C7 0B 00 00,3015,Sort Order
+10,Power Stone,btltbl.bin,1B0C,28 00,40,Item Name
+10,Power Stone,btltbl.bin,1B0E,0D,13,Item Icon
+10,Power Stone,btltbl.bin,1B0F,05,5,???
+10,Power Stone,btltbl.bin,1B10,00 00,0,???
+10,Power Stone,btltbl.bin,1B12,00 00,0,???
+10,Power Stone,btltbl.bin,1B14,00 00,0,Buy Price
+10,Power Stone,btltbl.bin,1B16,00 00,0,Sell Price
+10,Power Stone,btltbl.bin,1B18,F0 DB,56304,???
+10,Power Stone,btltbl.bin,1B1A,00 00,0,???
+10,Power Stone,btltbl.bin,1B1C,D1 0B 00 00,3025,Sort Order
+11,Energy Stone,btltbl.bin,1B20,29 00,41,Item Name
+11,Energy Stone,btltbl.bin,1B22,0D,13,Item Icon
+11,Energy Stone,btltbl.bin,1B23,05,5,???
+11,Energy Stone,btltbl.bin,1B24,00 00,0,???
+11,Energy Stone,btltbl.bin,1B26,00 00,0,???
+11,Energy Stone,btltbl.bin,1B28,00 00,0,Buy Price
+11,Energy Stone,btltbl.bin,1B2A,00 00,0,Sell Price
+11,Energy Stone,btltbl.bin,1B2C,30 DC,56368,???
+11,Energy Stone,btltbl.bin,1B2E,00 00,0,???
+11,Energy Stone,btltbl.bin,1B30,DB 0B 00 00,3035,Sort Order
+12,Blazing Stone,btltbl.bin,1B34,2A 00,42,Item Name
+12,Blazing Stone,btltbl.bin,1B36,0D,13,Item Icon
+12,Blazing Stone,btltbl.bin,1B37,05,5,???
+12,Blazing Stone,btltbl.bin,1B38,00 00,0,???
+12,Blazing Stone,btltbl.bin,1B3A,00 00,0,???
+12,Blazing Stone,btltbl.bin,1B3C,00 00,0,Buy Price
+12,Blazing Stone,btltbl.bin,1B3E,00 00,0,Sell Price
+12,Blazing Stone,btltbl.bin,1B40,70 DC,56432,???
+12,Blazing Stone,btltbl.bin,1B42,00 00,0,???
+12,Blazing Stone,btltbl.bin,1B44,E5 0B 00 00,3045,Sort Order
+13,Frost Stone,btltbl.bin,1B48,2B 00,43,Item Name
+13,Frost Stone,btltbl.bin,1B4A,0D,13,Item Icon
+13,Frost Stone,btltbl.bin,1B4B,05,5,???
+13,Frost Stone,btltbl.bin,1B4C,00 00,0,???
+13,Frost Stone,btltbl.bin,1B4E,00 00,0,???
+13,Frost Stone,btltbl.bin,1B50,00 00,0,Buy Price
+13,Frost Stone,btltbl.bin,1B52,00 00,0,Sell Price
+13,Frost Stone,btltbl.bin,1B54,B0 DC,56496,???
+13,Frost Stone,btltbl.bin,1B56,00 00,0,???
+13,Frost Stone,btltbl.bin,1B58,EF 0B 00 00,3055,Sort Order
+14,Lightning Stone,btltbl.bin,1B5C,2C 00,44,Item Name
+14,Lightning Stone,btltbl.bin,1B5E,0D,13,Item Icon
+14,Lightning Stone,btltbl.bin,1B5F,05,5,???
+14,Lightning Stone,btltbl.bin,1B60,00 00,0,???
+14,Lightning Stone,btltbl.bin,1B62,00 00,0,???
+14,Lightning Stone,btltbl.bin,1B64,00 00,0,Buy Price
+14,Lightning Stone,btltbl.bin,1B66,00 00,0,Sell Price
+14,Lightning Stone,btltbl.bin,1B68,F0 DC,56560,???
+14,Lightning Stone,btltbl.bin,1B6A,00 00,0,???
+14,Lightning Stone,btltbl.bin,1B6C,F9 0B 00 00,3065,Sort Order
+15,Dazzling Stone,btltbl.bin,1B70,2D 00,45,Item Name
+15,Dazzling Stone,btltbl.bin,1B72,0D,13,Item Icon
+15,Dazzling Stone,btltbl.bin,1B73,05,5,???
+15,Dazzling Stone,btltbl.bin,1B74,00 00,0,???
+15,Dazzling Stone,btltbl.bin,1B76,00 00,0,???
+15,Dazzling Stone,btltbl.bin,1B78,00 00,0,Buy Price
+15,Dazzling Stone,btltbl.bin,1B7A,00 00,0,Sell Price
+15,Dazzling Stone,btltbl.bin,1B7C,30 DD,56624,???
+15,Dazzling Stone,btltbl.bin,1B7E,00 00,0,???
+15,Dazzling Stone,btltbl.bin,1B80,03 0C 00 00,3075,Sort Order
+16,Stormy Stone,btltbl.bin,1B84,2E 00,46,Item Name
+16,Stormy Stone,btltbl.bin,1B86,0D,13,Item Icon
+16,Stormy Stone,btltbl.bin,1B87,05,5,???
+16,Stormy Stone,btltbl.bin,1B88,00 00,0,???
+16,Stormy Stone,btltbl.bin,1B8A,00 00,0,???
+16,Stormy Stone,btltbl.bin,1B8C,00 00,0,Buy Price
+16,Stormy Stone,btltbl.bin,1B8E,00 00,0,Sell Price
+16,Stormy Stone,btltbl.bin,1B90,70 DD,56688,???
+16,Stormy Stone,btltbl.bin,1B92,00 00,0,???
+16,Stormy Stone,btltbl.bin,1B94,21 0C 00 00,3105,Sort Order
+17,Protect Chain,btltbl.bin,1B98,2F 00,47,Item Name
+17,Protect Chain,btltbl.bin,1B9A,01,1,Item Icon
+17,Protect Chain,btltbl.bin,1B9B,06,6,???
+17,Protect Chain,btltbl.bin,1B9C,00 00,0,???
+17,Protect Chain,btltbl.bin,1B9E,00 00,0,???
+17,Protect Chain,btltbl.bin,1BA0,2C 01,300,Buy Price
+17,Protect Chain,btltbl.bin,1BA2,3C 00,60,Sell Price
+17,Protect Chain,btltbl.bin,1BA4,B8 DD,56760,???
+17,Protect Chain,btltbl.bin,1BA6,00 00,0,???
+17,Protect Chain,btltbl.bin,1BA8,E9 03 00 00,1001,Sort Order
+18,Protera Chain,btltbl.bin,1BAC,30 00,48,Item Name
+18,Protera Chain,btltbl.bin,1BAE,01,1,Item Icon
+18,Protera Chain,btltbl.bin,1BAF,06,6,???
+18,Protera Chain,btltbl.bin,1BB0,00 00,0,???
+18,Protera Chain,btltbl.bin,1BB2,01 00,1,???
+18,Protera Chain,btltbl.bin,1BB4,20 03,800,Buy Price
+18,Protera Chain,btltbl.bin,1BB6,A0 00,160,Sell Price
+18,Protera Chain,btltbl.bin,1BB8,D0 DD,56784,???
+18,Protera Chain,btltbl.bin,1BBA,00 00,0,???
+18,Protera Chain,btltbl.bin,1BBC,EA 03 00 00,1002,Sort Order
+19,Protega Chain,btltbl.bin,1BC0,31 00,49,Item Name
+19,Protega Chain,btltbl.bin,1BC2,01,1,Item Icon
+19,Protega Chain,btltbl.bin,1BC3,07,7,???
+19,Protega Chain,btltbl.bin,1BC4,00 00,0,???
+19,Protega Chain,btltbl.bin,1BC6,02 00,2,???
+19,Protega Chain,btltbl.bin,1BC8,F0 0A,2800,Buy Price
+19,Protega Chain,btltbl.bin,1BCA,DC 00,220,Sell Price
+19,Protega Chain,btltbl.bin,1BCC,E0 DD,56800,???
+19,Protega Chain,btltbl.bin,1BCE,00 00,0,???
+19,Protega Chain,btltbl.bin,1BD0,EB 03 00 00,1003,Sort Order
+20,Fire Ring,btltbl.bin,1BD4,32 00,50,Item Name
+20,Fire Ring,btltbl.bin,1BD6,01,1,Item Icon
+20,Fire Ring,btltbl.bin,1BD7,06,6,???
+20,Fire Ring,btltbl.bin,1BD8,00 00,0,???
+20,Fire Ring,btltbl.bin,1BDA,03 00,3,???
+20,Fire Ring,btltbl.bin,1BDC,C2 01,450,Buy Price
+20,Fire Ring,btltbl.bin,1BDE,5A 00,90,Sell Price
+20,Fire Ring,btltbl.bin,1BE0,F8 DD,56824,???
+20,Fire Ring,btltbl.bin,1BE2,00 00,0,???
+20,Fire Ring,btltbl.bin,1BE4,F3 03 00 00,1011,Sort Order
+21,Fira Ring,btltbl.bin,1BE8,33 00,51,Item Name
+21,Fira Ring,btltbl.bin,1BEA,01,1,Item Icon
+21,Fira Ring,btltbl.bin,1BEB,06,6,???
+21,Fira Ring,btltbl.bin,1BEC,00 00,0,???
+21,Fira Ring,btltbl.bin,1BEE,04 00,4,???
+21,Fira Ring,btltbl.bin,1BF0,B0 04,1200,Buy Price
+21,Fira Ring,btltbl.bin,1BF2,C8 00,200,Sell Price
+21,Fira Ring,btltbl.bin,1BF4,40 DE,56896,???
+21,Fira Ring,btltbl.bin,1BF6,00 00,0,???
+21,Fira Ring,btltbl.bin,1BF8,F4 03 00 00,1012,Sort Order
+22,Firaga Ring,btltbl.bin,1BFC,34 00,52,Item Name
+22,Firaga Ring,btltbl.bin,1BFE,01,1,Item Icon
+22,Firaga Ring,btltbl.bin,1BFF,07,7,???
+22,Firaga Ring,btltbl.bin,1C00,00 00,0,???
+22,Firaga Ring,btltbl.bin,1C02,05 00,5,???
+22,Firaga Ring,btltbl.bin,1C04,A0 0F,4000,Buy Price
+22,Firaga Ring,btltbl.bin,1C06,04 01,260,Sell Price
+22,Firaga Ring,btltbl.bin,1C08,88 DE,56968,???
+22,Firaga Ring,btltbl.bin,1C0A,00 00,0,???
+22,Firaga Ring,btltbl.bin,1C0C,F5 03 00 00,1013,Sort Order
+23,Blizzard Ring,btltbl.bin,1C10,35 00,53,Item Name
+23,Blizzard Ring,btltbl.bin,1C12,01,1,Item Icon
+23,Blizzard Ring,btltbl.bin,1C13,06,6,???
+23,Blizzard Ring,btltbl.bin,1C14,00 00,0,???
+23,Blizzard Ring,btltbl.bin,1C16,06 00,6,???
+23,Blizzard Ring,btltbl.bin,1C18,C2 01,450,Buy Price
+23,Blizzard Ring,btltbl.bin,1C1A,5A 00,90,Sell Price
+23,Blizzard Ring,btltbl.bin,1C1C,D0 DE,57040,???
+23,Blizzard Ring,btltbl.bin,1C1E,00 00,0,???
+23,Blizzard Ring,btltbl.bin,1C20,FD 03 00 00,1021,Sort Order
+24,Blizzara Ring,btltbl.bin,1C24,36 00,54,Item Name
+24,Blizzara Ring,btltbl.bin,1C26,01,1,Item Icon
+24,Blizzara Ring,btltbl.bin,1C27,06,6,???
+24,Blizzara Ring,btltbl.bin,1C28,00 00,0,???
+24,Blizzara Ring,btltbl.bin,1C2A,07 00,7,???
+24,Blizzara Ring,btltbl.bin,1C2C,B0 04,1200,Buy Price
+24,Blizzara Ring,btltbl.bin,1C2E,C8 00,200,Sell Price
+24,Blizzara Ring,btltbl.bin,1C30,20 DF,57120,???
+24,Blizzara Ring,btltbl.bin,1C32,00 00,0,???
+24,Blizzara Ring,btltbl.bin,1C34,FE 03 00 00,1022,Sort Order
+25,Blizzaga Ring,btltbl.bin,1C38,37 00,55,Item Name
+25,Blizzaga Ring,btltbl.bin,1C3A,01,1,Item Icon
+25,Blizzaga Ring,btltbl.bin,1C3B,07,7,???
+25,Blizzaga Ring,btltbl.bin,1C3C,00 00,0,???
+25,Blizzaga Ring,btltbl.bin,1C3E,08 00,8,???
+25,Blizzaga Ring,btltbl.bin,1C40,A0 0F,4000,Buy Price
+25,Blizzaga Ring,btltbl.bin,1C42,04 01,260,Sell Price
+25,Blizzaga Ring,btltbl.bin,1C44,68 DF,57192,???
+25,Blizzaga Ring,btltbl.bin,1C46,00 00,0,???
+25,Blizzaga Ring,btltbl.bin,1C48,FF 03 00 00,1023,Sort Order
+26,Thunder Ring,btltbl.bin,1C4C,38 00,56,Item Name
+26,Thunder Ring,btltbl.bin,1C4E,01,1,Item Icon
+26,Thunder Ring,btltbl.bin,1C4F,06,6,???
+26,Thunder Ring,btltbl.bin,1C50,00 00,0,???
+26,Thunder Ring,btltbl.bin,1C52,09 00,9,???
+26,Thunder Ring,btltbl.bin,1C54,C2 01,450,Buy Price
+26,Thunder Ring,btltbl.bin,1C56,5A 00,90,Sell Price
+26,Thunder Ring,btltbl.bin,1C58,B8 DF,57272,???
+26,Thunder Ring,btltbl.bin,1C5A,00 00,0,???
+26,Thunder Ring,btltbl.bin,1C5C,07 04 00 00,1031,Sort Order
+27,Thundara Ring,btltbl.bin,1C60,39 00,57,Item Name
+27,Thundara Ring,btltbl.bin,1C62,01,1,Item Icon
+27,Thundara Ring,btltbl.bin,1C63,06,6,???
+27,Thundara Ring,btltbl.bin,1C64,00 00,0,???
+27,Thundara Ring,btltbl.bin,1C66,0A 00,10,???
+27,Thundara Ring,btltbl.bin,1C68,B0 04,1200,Buy Price
+27,Thundara Ring,btltbl.bin,1C6A,C8 00,200,Sell Price
+27,Thundara Ring,btltbl.bin,1C6C,08 E0,57352,???
+27,Thundara Ring,btltbl.bin,1C6E,00 00,0,???
+27,Thundara Ring,btltbl.bin,1C70,08 04 00 00,1032,Sort Order
+28,Thundaga Ring,btltbl.bin,1C74,3A 00,58,Item Name
+28,Thundaga Ring,btltbl.bin,1C76,01,1,Item Icon
+28,Thundaga Ring,btltbl.bin,1C77,07,7,???
+28,Thundaga Ring,btltbl.bin,1C78,00 00,0,???
+28,Thundaga Ring,btltbl.bin,1C7A,0B 00,11,???
+28,Thundaga Ring,btltbl.bin,1C7C,A0 0F,4000,Buy Price
+28,Thundaga Ring,btltbl.bin,1C7E,04 01,260,Sell Price
+28,Thundaga Ring,btltbl.bin,1C80,50 E0,57424,???
+28,Thundaga Ring,btltbl.bin,1C82,00 00,0,???
+28,Thundaga Ring,btltbl.bin,1C84,09 04 00 00,1033,Sort Order
+29,Ability Stud,btltbl.bin,1C88,3B 00,59,Item Name
+29,Ability Stud,btltbl.bin,1C8A,01,1,Item Icon
+29,Ability Stud,btltbl.bin,1C8B,06,6,???
+29,Ability Stud,btltbl.bin,1C8C,00 00,0,???
+29,Ability Stud,btltbl.bin,1C8E,0C 00,12,???
+29,Ability Stud,btltbl.bin,1C90,58 02,600,Buy Price
+29,Ability Stud,btltbl.bin,1C92,78 00,120,Sell Price
+29,Ability Stud,btltbl.bin,1C94,A0 E0,57504,???
+29,Ability Stud,btltbl.bin,1C96,00 00,0,???
+29,Ability Stud,btltbl.bin,1C98,25 04 00 00,1061,Sort Order
+30,Guard Earring,btltbl.bin,1C9C,3C 00,60,Item Name
+30,Guard Earring,btltbl.bin,1C9E,01,1,Item Icon
+30,Guard Earring,btltbl.bin,1C9F,07,7,???
+30,Guard Earring,btltbl.bin,1CA0,00 00,0,???
+30,Guard Earring,btltbl.bin,1CA2,0D 00,13,???
+30,Guard Earring,btltbl.bin,1CA4,00 00,0,Buy Price
+30,Guard Earring,btltbl.bin,1CA6,96 00,150,Sell Price
+30,Guard Earring,btltbl.bin,1CA8,B8 E0,57528,???
+30,Guard Earring,btltbl.bin,1CAA,00 00,0,???
+30,Guard Earring,btltbl.bin,1CAC,26 04 00 00,1062,Sort Order
+31,Master Earring,btltbl.bin,1CB0,3D 00,61,Item Name
+31,Master Earring,btltbl.bin,1CB2,01,1,Item Icon
+31,Master Earring,btltbl.bin,1CB3,07,7,???
+31,Master Earring,btltbl.bin,1CB4,00 00,0,???
+31,Master Earring,btltbl.bin,1CB6,0E 00,14,???
+31,Master Earring,btltbl.bin,1CB8,00 00,0,Buy Price
+31,Master Earring,btltbl.bin,1CBA,C8 00,200,Sell Price
+31,Master Earring,btltbl.bin,1CBC,D0 E0,57552,???
+31,Master Earring,btltbl.bin,1CBE,00 00,0,???
+31,Master Earring,btltbl.bin,1CC0,27 04 00 00,1063,Sort Order
+32,Chaos Ring,btltbl.bin,1CC4,3E 00,62,Item Name
+32,Chaos Ring,btltbl.bin,1CC6,01,1,Item Icon
+32,Chaos Ring,btltbl.bin,1CC7,06,6,???
+32,Chaos Ring,btltbl.bin,1CC8,00 00,0,???
+32,Chaos Ring,btltbl.bin,1CCA,0F 00,15,???
+32,Chaos Ring,btltbl.bin,1CCC,08 07,1800,Buy Price
+32,Chaos Ring,btltbl.bin,1CCE,C8 00,200,Sell Price
+32,Chaos Ring,btltbl.bin,1CD0,F0 E0,57584,???
+32,Chaos Ring,btltbl.bin,1CD2,00 00,0,???
+32,Chaos Ring,btltbl.bin,1CD4,1B 04 00 00,1051,Sort Order
+33,Dark Ring,btltbl.bin,1CD8,3F 00,63,Item Name
+33,Dark Ring,btltbl.bin,1CDA,01,1,Item Icon
+33,Dark Ring,btltbl.bin,1CDB,07,7,???
+33,Dark Ring,btltbl.bin,1CDC,00 00,0,???
+33,Dark Ring,btltbl.bin,1CDE,10 00,16,???
+33,Dark Ring,btltbl.bin,1CE0,00 00,0,Buy Price
+33,Dark Ring,btltbl.bin,1CE2,FA 00,250,Sell Price
+33,Dark Ring,btltbl.bin,1CE4,38 E1,57656,???
+33,Dark Ring,btltbl.bin,1CE6,00 00,0,???
+33,Dark Ring,btltbl.bin,1CE8,1D 04 00 00,1053,Sort Order
+34,Element Ring,btltbl.bin,1CEC,40 00,64,Item Name
+34,Element Ring,btltbl.bin,1CEE,01,1,Item Icon
+34,Element Ring,btltbl.bin,1CEF,07,7,???
+34,Element Ring,btltbl.bin,1CF0,00 00,0,???
+34,Element Ring,btltbl.bin,1CF2,11 00,17,???
+34,Element Ring,btltbl.bin,1CF4,C0 12,4800,Buy Price
+34,Element Ring,btltbl.bin,1CF6,04 01,260,Sell Price
+34,Element Ring,btltbl.bin,1CF8,80 E1,57728,???
+34,Element Ring,btltbl.bin,1CFA,00 00,0,???
+34,Element Ring,btltbl.bin,1CFC,11 04 00 00,1041,Sort Order
+35,Three Stars,btltbl.bin,1D00,41 00,65,Item Name
+35,Three Stars,btltbl.bin,1D02,01,1,Item Icon
+35,Three Stars,btltbl.bin,1D03,07,7,???
+35,Three Stars,btltbl.bin,1D04,00 00,0,???
+35,Three Stars,btltbl.bin,1D06,12 00,18,???
+35,Three Stars,btltbl.bin,1D08,00 00,0,Buy Price
+35,Three Stars,btltbl.bin,1D0A,2C 01,300,Sell Price
+35,Three Stars,btltbl.bin,1D0C,D8 E1,57816,???
+35,Three Stars,btltbl.bin,1D0E,00 00,0,???
+35,Three Stars,btltbl.bin,1D10,13 04 00 00,1043,Sort Order
+36,Power Chain,btltbl.bin,1D14,42 00,66,Item Name
+36,Power Chain,btltbl.bin,1D16,01,1,Item Icon
+36,Power Chain,btltbl.bin,1D17,07,7,???
+36,Power Chain,btltbl.bin,1D18,00 00,0,???
+36,Power Chain,btltbl.bin,1D1A,13 00,19,???
+36,Power Chain,btltbl.bin,1D1C,00 00,0,Buy Price
+36,Power Chain,btltbl.bin,1D1E,32 00,50,Sell Price
+36,Power Chain,btltbl.bin,1D20,38 E2,57912,???
+36,Power Chain,btltbl.bin,1D22,00 00,0,???
+36,Power Chain,btltbl.bin,1D24,2F 04 00 00,1071,Sort Order
+37,Golem Chain,btltbl.bin,1D28,43 00,67,Item Name
+37,Golem Chain,btltbl.bin,1D2A,01,1,Item Icon
+37,Golem Chain,btltbl.bin,1D2B,07,7,???
+37,Golem Chain,btltbl.bin,1D2C,00 00,0,???
+37,Golem Chain,btltbl.bin,1D2E,14 00,20,???
+37,Golem Chain,btltbl.bin,1D30,00 00,0,Buy Price
+37,Golem Chain,btltbl.bin,1D32,64 00,100,Sell Price
+37,Golem Chain,btltbl.bin,1D34,50 E2,57936,???
+37,Golem Chain,btltbl.bin,1D36,00 00,0,???
+37,Golem Chain,btltbl.bin,1D38,30 04 00 00,1072,Sort Order
+38,Titan Chain,btltbl.bin,1D3C,44 00,68,Item Name
+38,Titan Chain,btltbl.bin,1D3E,01,1,Item Icon
+38,Titan Chain,btltbl.bin,1D3F,07,7,???
+38,Titan Chain,btltbl.bin,1D40,00 00,0,???
+38,Titan Chain,btltbl.bin,1D42,15 00,21,???
+38,Titan Chain,btltbl.bin,1D44,00 00,0,Buy Price
+38,Titan Chain,btltbl.bin,1D46,96 00,150,Sell Price
+38,Titan Chain,btltbl.bin,1D48,68 E2,57960,???
+38,Titan Chain,btltbl.bin,1D4A,00 00,0,???
+38,Titan Chain,btltbl.bin,1D4C,31 04 00 00,1073,Sort Order
+39,Energy Bangle,btltbl.bin,1D50,45 00,69,Item Name
+39,Energy Bangle,btltbl.bin,1D52,01,1,Item Icon
+39,Energy Bangle,btltbl.bin,1D53,07,7,???
+39,Energy Bangle,btltbl.bin,1D54,00 00,0,???
+39,Energy Bangle,btltbl.bin,1D56,16 00,22,???
+39,Energy Bangle,btltbl.bin,1D58,00 00,0,Buy Price
+39,Energy Bangle,btltbl.bin,1D5A,32 00,50,Sell Price
+39,Energy Bangle,btltbl.bin,1D5C,88 E2,57992,???
+39,Energy Bangle,btltbl.bin,1D5E,00 00,0,???
+39,Energy Bangle,btltbl.bin,1D60,39 04 00 00,1081,Sort Order
+40,Angel Bangle,btltbl.bin,1D64,46 00,70,Item Name
+40,Angel Bangle,btltbl.bin,1D66,01,1,Item Icon
+40,Angel Bangle,btltbl.bin,1D67,07,7,???
+40,Angel Bangle,btltbl.bin,1D68,00 00,0,???
+40,Angel Bangle,btltbl.bin,1D6A,17 00,23,???
+40,Angel Bangle,btltbl.bin,1D6C,00 00,0,Buy Price
+40,Angel Bangle,btltbl.bin,1D6E,64 00,100,Sell Price
+40,Angel Bangle,btltbl.bin,1D70,A8 E2,58024,???
+40,Angel Bangle,btltbl.bin,1D72,00 00,0,???
+40,Angel Bangle,btltbl.bin,1D74,3A 04 00 00,1082,Sort Order
+41,Gaia Bangle,btltbl.bin,1D78,47 00,71,Item Name
+41,Gaia Bangle,btltbl.bin,1D7A,01,1,Item Icon
+41,Gaia Bangle,btltbl.bin,1D7B,07,7,???
+41,Gaia Bangle,btltbl.bin,1D7C,00 00,0,???
+41,Gaia Bangle,btltbl.bin,1D7E,18 00,24,???
+41,Gaia Bangle,btltbl.bin,1D80,00 00,0,Buy Price
+41,Gaia Bangle,btltbl.bin,1D82,96 00,150,Sell Price
+41,Gaia Bangle,btltbl.bin,1D84,C0 E2,58048,???
+41,Gaia Bangle,btltbl.bin,1D86,00 00,0,???
+41,Gaia Bangle,btltbl.bin,1D88,3B 04 00 00,1083,Sort Order
+42,Magic Armlet,btltbl.bin,1D8C,48 00,72,Item Name
+42,Magic Armlet,btltbl.bin,1D8E,01,1,Item Icon
+42,Magic Armlet,btltbl.bin,1D8F,07,7,???
+42,Magic Armlet,btltbl.bin,1D90,00 00,0,???
+42,Magic Armlet,btltbl.bin,1D92,19 00,25,???
+42,Magic Armlet,btltbl.bin,1D94,00 00,0,Buy Price
+42,Magic Armlet,btltbl.bin,1D96,32 00,50,Sell Price
+42,Magic Armlet,btltbl.bin,1D98,E0 E2,58080,???
+42,Magic Armlet,btltbl.bin,1D9A,00 00,0,???
+42,Magic Armlet,btltbl.bin,1D9C,43 04 00 00,1091,Sort Order
+43,Rune Armlet,btltbl.bin,1DA0,49 00,73,Item Name
+43,Rune Armlet,btltbl.bin,1DA2,01,1,Item Icon
+43,Rune Armlet,btltbl.bin,1DA3,07,7,???
+43,Rune Armlet,btltbl.bin,1DA4,00 00,0,???
+43,Rune Armlet,btltbl.bin,1DA6,1A 00,26,???
+43,Rune Armlet,btltbl.bin,1DA8,00 00,0,Buy Price
+43,Rune Armlet,btltbl.bin,1DAA,64 00,100,Sell Price
+43,Rune Armlet,btltbl.bin,1DAC,10 E3,58128,???
+43,Rune Armlet,btltbl.bin,1DAE,00 00,0,???
+43,Rune Armlet,btltbl.bin,1DB0,44 04 00 00,1092,Sort Order
+44,Atlas Armlet,btltbl.bin,1DB4,4A 00,74,Item Name
+44,Atlas Armlet,btltbl.bin,1DB6,01,1,Item Icon
+44,Atlas Armlet,btltbl.bin,1DB7,07,7,???
+44,Atlas Armlet,btltbl.bin,1DB8,00 00,0,???
+44,Atlas Armlet,btltbl.bin,1DBA,1B 00,27,???
+44,Atlas Armlet,btltbl.bin,1DBC,00 00,0,Buy Price
+44,Atlas Armlet,btltbl.bin,1DBE,96 00,150,Sell Price
+44,Atlas Armlet,btltbl.bin,1DC0,48 E3,58184,???
+44,Atlas Armlet,btltbl.bin,1DC2,00 00,0,???
+44,Atlas Armlet,btltbl.bin,1DC4,45 04 00 00,1093,Sort Order
+45,Heartguard,btltbl.bin,1DC8,4B 00,75,Item Name
+45,Heartguard,btltbl.bin,1DCA,01,1,Item Icon
+45,Heartguard,btltbl.bin,1DCB,07,7,???
+45,Heartguard,btltbl.bin,1DCC,00 00,0,???
+45,Heartguard,btltbl.bin,1DCE,1C 00,28,???
+45,Heartguard,btltbl.bin,1DD0,00 00,0,Buy Price
+45,Heartguard,btltbl.bin,1DD2,FA 00,250,Sell Price
+45,Heartguard,btltbl.bin,1DD4,80 E3,58240,???
+45,Heartguard,btltbl.bin,1DD6,00 00,0,???
+45,Heartguard,btltbl.bin,1DD8,57 04 00 00,1111,Sort Order
+46,Ribbon,btltbl.bin,1DDC,4C 00,76,Item Name
+46,Ribbon,btltbl.bin,1DDE,01,1,Item Icon
+46,Ribbon,btltbl.bin,1DDF,07,7,???
+46,Ribbon,btltbl.bin,1DE0,00 00,0,???
+46,Ribbon,btltbl.bin,1DE2,1D 00,29,???
+46,Ribbon,btltbl.bin,1DE4,00 00,0,Buy Price
+46,Ribbon,btltbl.bin,1DE6,2C 01,300,Sell Price
+46,Ribbon,btltbl.bin,1DE8,D0 E3,58320,???
+46,Ribbon,btltbl.bin,1DEA,00 00,0,???
+46,Ribbon,btltbl.bin,1DEC,59 04 00 00,1113,Sort Order
+47,Crystal Crown,btltbl.bin,1DF0,4D 00,77,Item Name
+47,Crystal Crown,btltbl.bin,1DF2,01,1,Item Icon
+47,Crystal Crown,btltbl.bin,1DF3,07,7,???
+47,Crystal Crown,btltbl.bin,1DF4,00 00,0,???
+47,Crystal Crown,btltbl.bin,1DF6,1E 00,30,???
+47,Crystal Crown,btltbl.bin,1DF8,00 00,0,Buy Price
+47,Crystal Crown,btltbl.bin,1DFA,FA 00,250,Sell Price
+47,Crystal Crown,btltbl.bin,1DFC,08 E4,58376,???
+47,Crystal Crown,btltbl.bin,1DFE,00 00,0,???
+47,Crystal Crown,btltbl.bin,1E00,58 04 00 00,1112,Sort Order
+48,Brave Warrior,btltbl.bin,1E04,4E 00,78,Item Name
+48,Brave Warrior,btltbl.bin,1E06,01,1,Item Icon
+48,Brave Warrior,btltbl.bin,1E07,07,7,???
+48,Brave Warrior,btltbl.bin,1E08,00 00,0,???
+48,Brave Warrior,btltbl.bin,1E0A,1F 00,31,???
+48,Brave Warrior,btltbl.bin,1E0C,00 00,0,Buy Price
+48,Brave Warrior,btltbl.bin,1E0E,0A 00,10,Sell Price
+48,Brave Warrior,btltbl.bin,1E10,50 E4,58448,???
+48,Brave Warrior,btltbl.bin,1E12,00 00,0,???
+48,Brave Warrior,btltbl.bin,1E14,B1 04 00 00,1201,Sort Order
+49,Ifrit's Horn,btltbl.bin,1E18,4F 00,79,Item Name
+49,Ifrit's Horn,btltbl.bin,1E1A,01,1,Item Icon
+49,Ifrit's Horn,btltbl.bin,1E1B,07,7,???
+49,Ifrit's Horn,btltbl.bin,1E1C,00 00,0,???
+49,Ifrit's Horn,btltbl.bin,1E1E,20 00,32,???
+49,Ifrit's Horn,btltbl.bin,1E20,00 00,0,Buy Price
+49,Ifrit's Horn,btltbl.bin,1E22,0A 00,10,Sell Price
+49,Ifrit's Horn,btltbl.bin,1E24,70 E4,58480,???
+49,Ifrit's Horn,btltbl.bin,1E26,00 00,0,???
+49,Ifrit's Horn,btltbl.bin,1E28,B2 04 00 00,1202,Sort Order
+50,Inferno Band,btltbl.bin,1E2C,50 00,80,Item Name
+50,Inferno Band,btltbl.bin,1E2E,01,1,Item Icon
+50,Inferno Band,btltbl.bin,1E2F,07,7,???
+50,Inferno Band,btltbl.bin,1E30,00 00,0,???
+50,Inferno Band,btltbl.bin,1E32,21 00,33,???
+50,Inferno Band,btltbl.bin,1E34,00 00,0,Buy Price
+50,Inferno Band,btltbl.bin,1E36,0A 00,10,Sell Price
+50,Inferno Band,btltbl.bin,1E38,A8 E4,58536,???
+50,Inferno Band,btltbl.bin,1E3A,00 00,0,???
+50,Inferno Band,btltbl.bin,1E3C,B3 04 00 00,1203,Sort Order
+51,White Fang,btltbl.bin,1E40,51 00,81,Item Name
+51,White Fang,btltbl.bin,1E42,01,1,Item Icon
+51,White Fang,btltbl.bin,1E43,07,7,???
+51,White Fang,btltbl.bin,1E44,00 00,0,???
+51,White Fang,btltbl.bin,1E46,22 00,34,???
+51,White Fang,btltbl.bin,1E48,00 00,0,Buy Price
+51,White Fang,btltbl.bin,1E4A,0A 00,10,Sell Price
+51,White Fang,btltbl.bin,1E4C,D8 E4,58584,???
+51,White Fang,btltbl.bin,1E4E,00 00,0,???
+51,White Fang,btltbl.bin,1E50,B4 04 00 00,1204,Sort Order
+52,Ray of Light,btltbl.bin,1E54,52 00,82,Item Name
+52,Ray of Light,btltbl.bin,1E56,01,1,Item Icon
+52,Ray of Light,btltbl.bin,1E57,07,7,???
+52,Ray of Light,btltbl.bin,1E58,00 00,0,???
+52,Ray of Light,btltbl.bin,1E5A,23 00,35,???
+52,Ray of Light,btltbl.bin,1E5C,00 00,0,Buy Price
+52,Ray of Light,btltbl.bin,1E5E,0A 00,10,Sell Price
+52,Ray of Light,btltbl.bin,1E60,00 E5,58624,???
+52,Ray of Light,btltbl.bin,1E62,00 00,0,???
+52,Ray of Light,btltbl.bin,1E64,B5 04 00 00,1205,Sort Order
+53,Holy Circlet,btltbl.bin,1E68,53 00,83,Item Name
+53,Holy Circlet,btltbl.bin,1E6A,01,1,Item Icon
+53,Holy Circlet,btltbl.bin,1E6B,07,7,???
+53,Holy Circlet,btltbl.bin,1E6C,00 00,0,???
+53,Holy Circlet,btltbl.bin,1E6E,24 00,36,???
+53,Holy Circlet,btltbl.bin,1E70,00 00,0,Buy Price
+53,Holy Circlet,btltbl.bin,1E72,0A 00,10,Sell Price
+53,Holy Circlet,btltbl.bin,1E74,38 E5,58680,???
+53,Holy Circlet,btltbl.bin,1E76,00 00,0,???
+53,Holy Circlet,btltbl.bin,1E78,B6 04 00 00,1206,Sort Order
+54,Raven's Claw,btltbl.bin,1E7C,54 00,84,Item Name
+54,Raven's Claw,btltbl.bin,1E7E,01,1,Item Icon
+54,Raven's Claw,btltbl.bin,1E7F,07,7,???
+54,Raven's Claw,btltbl.bin,1E80,00 00,0,???
+54,Raven's Claw,btltbl.bin,1E82,25 00,37,???
+54,Raven's Claw,btltbl.bin,1E84,00 00,0,Buy Price
+54,Raven's Claw,btltbl.bin,1E86,0A 00,10,Sell Price
+54,Raven's Claw,btltbl.bin,1E88,78 E5,58744,???
+54,Raven's Claw,btltbl.bin,1E8A,00 00,0,???
+54,Raven's Claw,btltbl.bin,1E8C,B7 04 00 00,1207,Sort Order
+55,Omega Arts,btltbl.bin,1E90,55 00,85,Item Name
+55,Omega Arts,btltbl.bin,1E92,01,1,Item Icon
+55,Omega Arts,btltbl.bin,1E93,08,8,???
+55,Omega Arts,btltbl.bin,1E94,00 00,0,???
+55,Omega Arts,btltbl.bin,1E96,26 00,38,???
+55,Omega Arts,btltbl.bin,1E98,00 00,0,Buy Price
+55,Omega Arts,btltbl.bin,1E9A,96 00,150,Sell Price
+55,Omega Arts,btltbl.bin,1E9C,A8 E5,58792,???
+55,Omega Arts,btltbl.bin,1E9E,00 00,0,???
+55,Omega Arts,btltbl.bin,1EA0,B8 04 00 00,1208,Sort Order
+56,EXP Earring,btltbl.bin,1EA4,56 00,86,Item Name
+56,EXP Earring,btltbl.bin,1EA6,01,1,Item Icon
+56,EXP Earring,btltbl.bin,1EA7,08,8,???
+56,EXP Earring,btltbl.bin,1EA8,00 00,0,???
+56,EXP Earring,btltbl.bin,1EAA,27 00,39,???
+56,EXP Earring,btltbl.bin,1EAC,00 00,0,Buy Price
+56,EXP Earring,btltbl.bin,1EAE,C8 00,200,Sell Price
+56,EXP Earring,btltbl.bin,1EB0,C8 E5,58824,???
+56,EXP Earring,btltbl.bin,1EB2,00 00,0,???
+56,EXP Earring,btltbl.bin,1EB4,79 05 00 00,1401,Sort Order
+57,A41,btltbl.bin,1EB8,57 00,87,Item Name
+57,A41,btltbl.bin,1EBA,01,1,Item Icon
+57,A41,btltbl.bin,1EBB,08,8,???
+57,A41,btltbl.bin,1EBC,00 00,0,???
+57,A41,btltbl.bin,1EBE,28 00,40,???
+57,A41,btltbl.bin,1EC0,00 00,0,Buy Price
+57,A41,btltbl.bin,1EC2,00 00,0,Sell Price
+57,A41,btltbl.bin,1EC4,40 CC,52288,???
+57,A41,btltbl.bin,1EC6,00 00,0,???
+57,A41,btltbl.bin,1EC8,10 27 00 00,10000,Sort Order
+58,EXP Ring,btltbl.bin,1ECC,58 00,88,Item Name
+58,EXP Ring,btltbl.bin,1ECE,01,1,Item Icon
+58,EXP Ring,btltbl.bin,1ECF,08,8,???
+58,EXP Ring,btltbl.bin,1ED0,00 00,0,???
+58,EXP Ring,btltbl.bin,1ED2,29 00,41,???
+58,EXP Ring,btltbl.bin,1ED4,00 00,0,Buy Price
+58,EXP Ring,btltbl.bin,1ED6,0A 00,10,Sell Price
+58,EXP Ring,btltbl.bin,1ED8,08 E6,58888,???
+58,EXP Ring,btltbl.bin,1EDA,00 00,0,???
+58,EXP Ring,btltbl.bin,1EDC,7B 05 00 00,1403,Sort Order
+59,EXP Bracelet,btltbl.bin,1EE0,59 00,89,Item Name
+59,EXP Bracelet,btltbl.bin,1EE2,01,1,Item Icon
+59,EXP Bracelet,btltbl.bin,1EE3,08,8,???
+59,EXP Bracelet,btltbl.bin,1EE4,00 00,0,???
+59,EXP Bracelet,btltbl.bin,1EE6,2A 00,42,???
+59,EXP Bracelet,btltbl.bin,1EE8,00 00,0,Buy Price
+59,EXP Bracelet,btltbl.bin,1EEA,2C 01,300,Sell Price
+59,EXP Bracelet,btltbl.bin,1EEC,40 E6,58944,???
+59,EXP Bracelet,btltbl.bin,1EEE,00 00,0,???
+59,EXP Bracelet,btltbl.bin,1EF0,7C 05 00 00,1404,Sort Order
+60,EXP Necklace,btltbl.bin,1EF4,5A 00,90,Item Name
+60,EXP Necklace,btltbl.bin,1EF6,01,1,Item Icon
+60,EXP Necklace,btltbl.bin,1EF7,08,8,???
+60,EXP Necklace,btltbl.bin,1EF8,00 00,0,???
+60,EXP Necklace,btltbl.bin,1EFA,2B 00,43,???
+60,EXP Necklace,btltbl.bin,1EFC,00 00,0,Buy Price
+60,EXP Necklace,btltbl.bin,1EFE,0A 00,10,Sell Price
+60,EXP Necklace,btltbl.bin,1F00,98 E6,59032,???
+60,EXP Necklace,btltbl.bin,1F02,00 00,0,???
+60,EXP Necklace,btltbl.bin,1F04,7D 05 00 00,1405,Sort Order
+61,Firagun Band,btltbl.bin,1F08,5B 00,91,Item Name
+61,Firagun Band,btltbl.bin,1F0A,01,1,Item Icon
+61,Firagun Band,btltbl.bin,1F0B,08,8,???
+61,Firagun Band,btltbl.bin,1F0C,00 00,0,???
+61,Firagun Band,btltbl.bin,1F0E,2C 00,44,???
+61,Firagun Band,btltbl.bin,1F10,40 1F,8000,Buy Price
+61,Firagun Band,btltbl.bin,1F12,54 01,340,Sell Price
+61,Firagun Band,btltbl.bin,1F14,D0 E6,59088,???
+61,Firagun Band,btltbl.bin,1F16,00 00,0,???
+61,Firagun Band,btltbl.bin,1F18,F6 03 00 00,1014,Sort Order
+62,Blizzagun Band,btltbl.bin,1F1C,5C 00,92,Item Name
+62,Blizzagun Band,btltbl.bin,1F1E,01,1,Item Icon
+62,Blizzagun Band,btltbl.bin,1F1F,08,8,???
+62,Blizzagun Band,btltbl.bin,1F20,00 00,0,???
+62,Blizzagun Band,btltbl.bin,1F22,2D 00,45,???
+62,Blizzagun Band,btltbl.bin,1F24,40 1F,8000,Buy Price
+62,Blizzagun Band,btltbl.bin,1F26,54 01,340,Sell Price
+62,Blizzagun Band,btltbl.bin,1F28,20 E7,59168,???
+62,Blizzagun Band,btltbl.bin,1F2A,00 00,0,???
+62,Blizzagun Band,btltbl.bin,1F2C,00 04 00 00,1024,Sort Order
+63,Thundagun Band,btltbl.bin,1F30,5D 00,93,Item Name
+63,Thundagun Band,btltbl.bin,1F32,01,1,Item Icon
+63,Thundagun Band,btltbl.bin,1F33,08,8,???
+63,Thundagun Band,btltbl.bin,1F34,00 00,0,???
+63,Thundagun Band,btltbl.bin,1F36,2E 00,46,???
+63,Thundagun Band,btltbl.bin,1F38,40 1F,8000,Buy Price
+63,Thundagun Band,btltbl.bin,1F3A,54 01,340,Sell Price
+63,Thundagun Band,btltbl.bin,1F3C,70 E7,59248,???
+63,Thundagun Band,btltbl.bin,1F3E,00 00,0,???
+63,Thundagun Band,btltbl.bin,1F40,0A 04 00 00,1034,Sort Order
+64,Ifrit Belt,btltbl.bin,1F44,5E 00,94,Item Name
+64,Ifrit Belt,btltbl.bin,1F46,01,1,Item Icon
+64,Ifrit Belt,btltbl.bin,1F47,08,8,???
+64,Ifrit Belt,btltbl.bin,1F48,00 00,0,???
+64,Ifrit Belt,btltbl.bin,1F4A,2F 00,47,???
+64,Ifrit Belt,btltbl.bin,1F4C,00 00,0,Buy Price
+64,Ifrit Belt,btltbl.bin,1F4E,0A 00,10,Sell Price
+64,Ifrit Belt,btltbl.bin,1F50,C0 E7,59328,???
+64,Ifrit Belt,btltbl.bin,1F52,00 00,0,???
+64,Ifrit Belt,btltbl.bin,1F54,BB 04 00 00,1211,Sort Order
+65,Shiva Belt,btltbl.bin,1F58,5F 00,95,Item Name
+65,Shiva Belt,btltbl.bin,1F5A,01,1,Item Icon
+65,Shiva Belt,btltbl.bin,1F5B,08,8,???
+65,Shiva Belt,btltbl.bin,1F5C,00 00,0,???
+65,Shiva Belt,btltbl.bin,1F5E,30 00,48,???
+65,Shiva Belt,btltbl.bin,1F60,00 00,0,Buy Price
+65,Shiva Belt,btltbl.bin,1F62,0A 00,10,Sell Price
+65,Shiva Belt,btltbl.bin,1F64,F0 E7,59376,???
+65,Shiva Belt,btltbl.bin,1F66,00 00,0,???
+65,Shiva Belt,btltbl.bin,1F68,BC 04 00 00,1212,Sort Order
+66,Ramuh Belt,btltbl.bin,1F6C,60 00,96,Item Name
+66,Ramuh Belt,btltbl.bin,1F6E,01,1,Item Icon
+66,Ramuh Belt,btltbl.bin,1F6F,08,8,???
+66,Ramuh Belt,btltbl.bin,1F70,00 00,0,???
+66,Ramuh Belt,btltbl.bin,1F72,31 00,49,???
+66,Ramuh Belt,btltbl.bin,1F74,00 00,0,Buy Price
+66,Ramuh Belt,btltbl.bin,1F76,0A 00,10,Sell Price
+66,Ramuh Belt,btltbl.bin,1F78,38 E8,59448,???
+66,Ramuh Belt,btltbl.bin,1F7A,00 00,0,???
+66,Ramuh Belt,btltbl.bin,1F7C,BD 04 00 00,1213,Sort Order
+67,Moogle Badge,btltbl.bin,1F80,61 00,97,Item Name
+67,Moogle Badge,btltbl.bin,1F82,01,1,Item Icon
+67,Moogle Badge,btltbl.bin,1F83,07,7,???
+67,Moogle Badge,btltbl.bin,1F84,00 00,0,???
+67,Moogle Badge,btltbl.bin,1F86,32 00,50,???
+67,Moogle Badge,btltbl.bin,1F88,00 00,0,Buy Price
+67,Moogle Badge,btltbl.bin,1F8A,C8 00,200,Sell Price
+67,Moogle Badge,btltbl.bin,1F8C,68 E8,59496,???
+67,Moogle Badge,btltbl.bin,1F8E,00 00,0,???
+67,Moogle Badge,btltbl.bin,1F90,4D 04 00 00,1101,Sort Order
+68,Cosmic Arts,btltbl.bin,1F94,62 00,98,Item Name
+68,Cosmic Arts,btltbl.bin,1F96,01,1,Item Icon
+68,Cosmic Arts,btltbl.bin,1F97,08,8,???
+68,Cosmic Arts,btltbl.bin,1F98,00 00,0,???
+68,Cosmic Arts,btltbl.bin,1F9A,33 00,51,???
+68,Cosmic Arts,btltbl.bin,1F9C,00 00,0,Buy Price
+68,Cosmic Arts,btltbl.bin,1F9E,2C 01,300,Sell Price
+68,Cosmic Arts,btltbl.bin,1FA0,A0 E8,59552,???
+68,Cosmic Arts,btltbl.bin,1FA2,00 00,0,???
+68,Cosmic Arts,btltbl.bin,1FA4,4E 04 00 00,1102,Sort Order
+69,Royal Crown,btltbl.bin,1FA8,63 00,99,Item Name
+69,Royal Crown,btltbl.bin,1FAA,01,1,Item Icon
+69,Royal Crown,btltbl.bin,1FAB,08,8,???
+69,Royal Crown,btltbl.bin,1FAC,00 00,0,???
+69,Royal Crown,btltbl.bin,1FAE,34 00,52,???
+69,Royal Crown,btltbl.bin,1FB0,00 00,0,Buy Price
+69,Royal Crown,btltbl.bin,1FB2,0A 00,10,Sell Price
+69,Royal Crown,btltbl.bin,1FB4,D8 E8,59608,???
+69,Royal Crown,btltbl.bin,1FB6,00 00,0,???
+69,Royal Crown,btltbl.bin,1FB8,B9 04 00 00,1209,Sort Order
+70,Prime Cap,btltbl.bin,1FBC,64 00,100,Item Name
+70,Prime Cap,btltbl.bin,1FBE,01,1,Item Icon
+70,Prime Cap,btltbl.bin,1FBF,08,8,???
+70,Prime Cap,btltbl.bin,1FC0,00 00,0,???
+70,Prime Cap,btltbl.bin,1FC2,35 00,53,???
+70,Prime Cap,btltbl.bin,1FC4,00 00,0,Buy Price
+70,Prime Cap,btltbl.bin,1FC6,64 00,100,Sell Price
+70,Prime Cap,btltbl.bin,1FC8,28 E9,59688,???
+70,Prime Cap,btltbl.bin,1FCA,00 00,0,???
+70,Prime Cap,btltbl.bin,1FCC,BA 04 00 00,1210,Sort Order
+71,Obsidian Ring,btltbl.bin,1FD0,65 00,101,Item Name
+71,Obsidian Ring,btltbl.bin,1FD2,01,1,Item Icon
+71,Obsidian Ring,btltbl.bin,1FD3,07,7,???
+71,Obsidian Ring,btltbl.bin,1FD4,00 00,0,???
+71,Obsidian Ring,btltbl.bin,1FD6,36 00,54,???
+71,Obsidian Ring,btltbl.bin,1FD8,E8 03,1000,Buy Price
+71,Obsidian Ring,btltbl.bin,1FDA,C8 00,200,Sell Price
+71,Obsidian Ring,btltbl.bin,1FDC,58 E9,59736,???
+71,Obsidian Ring,btltbl.bin,1FDE,00 00,0,???
+71,Obsidian Ring,btltbl.bin,1FE0,1A 04 00 00,1050,Sort Order
+72,A56,btltbl.bin,1FE4,66 00,102,Item Name
+72,A56,btltbl.bin,1FE6,01,1,Item Icon
+72,A56,btltbl.bin,1FE7,07,7,???
+72,A56,btltbl.bin,1FE8,00 00,0,???
+72,A56,btltbl.bin,1FEA,37 00,55,???
+72,A56,btltbl.bin,1FEC,00 00,0,Buy Price
+72,A56,btltbl.bin,1FEE,00 00,0,Sell Price
+72,A56,btltbl.bin,1FF0,40 CC,52288,???
+72,A56,btltbl.bin,1FF2,00 00,0,???
+72,A56,btltbl.bin,1FF4,10 27 00 00,10000,Sort Order
+73,A57,btltbl.bin,1FF8,67 00,103,Item Name
+73,A57,btltbl.bin,1FFA,01,1,Item Icon
+73,A57,btltbl.bin,1FFB,07,7,???
+73,A57,btltbl.bin,1FFC,00 00,0,???
+73,A57,btltbl.bin,1FFE,38 00,56,???
+73,A57,btltbl.bin,2000,00 00,0,Buy Price
+73,A57,btltbl.bin,2002,00 00,0,Sell Price
+73,A57,btltbl.bin,2004,40 CC,52288,???
+73,A57,btltbl.bin,2006,00 00,0,???
+73,A57,btltbl.bin,2008,10 27 00 00,10000,Sort Order
+74,A58,btltbl.bin,200C,68 00,104,Item Name
+74,A58,btltbl.bin,200E,01,1,Item Icon
+74,A58,btltbl.bin,200F,07,7,???
+74,A58,btltbl.bin,2010,00 00,0,???
+74,A58,btltbl.bin,2012,39 00,57,???
+74,A58,btltbl.bin,2014,00 00,0,Buy Price
+74,A58,btltbl.bin,2016,00 00,0,Sell Price
+74,A58,btltbl.bin,2018,40 CC,52288,???
+74,A58,btltbl.bin,201A,00 00,0,???
+74,A58,btltbl.bin,201C,10 27 00 00,10000,Sort Order
+75,A59,btltbl.bin,2020,69 00,105,Item Name
+75,A59,btltbl.bin,2022,01,1,Item Icon
+75,A59,btltbl.bin,2023,07,7,???
+75,A59,btltbl.bin,2024,00 00,0,???
+75,A59,btltbl.bin,2026,3A 00,58,???
+75,A59,btltbl.bin,2028,00 00,0,Buy Price
+75,A59,btltbl.bin,202A,00 00,0,Sell Price
+75,A59,btltbl.bin,202C,40 CC,52288,???
+75,A59,btltbl.bin,202E,00 00,0,???
+75,A59,btltbl.bin,2030,10 27 00 00,10000,Sort Order
+76,A60,btltbl.bin,2034,6A 00,106,Item Name
+76,A60,btltbl.bin,2036,01,1,Item Icon
+76,A60,btltbl.bin,2037,07,7,???
+76,A60,btltbl.bin,2038,00 00,0,???
+76,A60,btltbl.bin,203A,3B 00,59,???
+76,A60,btltbl.bin,203C,00 00,0,Buy Price
+76,A60,btltbl.bin,203E,00 00,0,Sell Price
+76,A60,btltbl.bin,2040,40 CC,52288,???
+76,A60,btltbl.bin,2042,00 00,0,???
+76,A60,btltbl.bin,2044,10 27 00 00,10000,Sort Order
+77,A61,btltbl.bin,2048,6B 00,107,Item Name
+77,A61,btltbl.bin,204A,01,1,Item Icon
+77,A61,btltbl.bin,204B,07,7,???
+77,A61,btltbl.bin,204C,00 00,0,???
+77,A61,btltbl.bin,204E,3C 00,60,???
+77,A61,btltbl.bin,2050,00 00,0,Buy Price
+77,A61,btltbl.bin,2052,00 00,0,Sell Price
+77,A61,btltbl.bin,2054,40 CC,52288,???
+77,A61,btltbl.bin,2056,00 00,0,???
+77,A61,btltbl.bin,2058,10 27 00 00,10000,Sort Order
+78,A62,btltbl.bin,205C,6C 00,108,Item Name
+78,A62,btltbl.bin,205E,01,1,Item Icon
+78,A62,btltbl.bin,205F,07,7,???
+78,A62,btltbl.bin,2060,00 00,0,???
+78,A62,btltbl.bin,2062,3D 00,61,???
+78,A62,btltbl.bin,2064,00 00,0,Buy Price
+78,A62,btltbl.bin,2066,00 00,0,Sell Price
+78,A62,btltbl.bin,2068,40 CC,52288,???
+78,A62,btltbl.bin,206A,00 00,0,???
+78,A62,btltbl.bin,206C,10 27 00 00,10000,Sort Order
+79,A63,btltbl.bin,2070,6D 00,109,Item Name
+79,A63,btltbl.bin,2072,01,1,Item Icon
+79,A63,btltbl.bin,2073,07,7,???
+79,A63,btltbl.bin,2074,00 00,0,???
+79,A63,btltbl.bin,2076,3E 00,62,???
+79,A63,btltbl.bin,2078,00 00,0,Buy Price
+79,A63,btltbl.bin,207A,00 00,0,Sell Price
+79,A63,btltbl.bin,207C,40 CC,52288,???
+79,A63,btltbl.bin,207E,00 00,0,???
+79,A63,btltbl.bin,2080,10 27 00 00,10000,Sort Order
+80,A64,btltbl.bin,2084,6E 00,110,Item Name
+80,A64,btltbl.bin,2086,01,1,Item Icon
+80,A64,btltbl.bin,2087,07,7,???
+80,A64,btltbl.bin,2088,00 00,0,???
+80,A64,btltbl.bin,208A,3F 00,63,???
+80,A64,btltbl.bin,208C,00 00,0,Buy Price
+80,A64,btltbl.bin,208E,00 00,0,Sell Price
+80,A64,btltbl.bin,2090,40 CC,52288,???
+80,A64,btltbl.bin,2092,00 00,0,???
+80,A64,btltbl.bin,2094,10 27 00 00,10000,Sort Order
+81,Kingdom Key,btltbl.bin,2098,6F 00,111,Item Name
+81,Kingdom Key,btltbl.bin,209A,02,2,Item Icon
+81,Kingdom Key,btltbl.bin,209B,08,8,???
+81,Kingdom Key,btltbl.bin,209C,00 00,0,???
+81,Kingdom Key,btltbl.bin,209E,01 00,1,???
+81,Kingdom Key,btltbl.bin,20A0,00 00,0,Buy Price
+81,Kingdom Key,btltbl.bin,20A2,00 00,0,Sell Price
+81,Kingdom Key,btltbl.bin,20A4,A0 E9,59808,???
+81,Kingdom Key,btltbl.bin,20A6,00 00,0,???
+81,Kingdom Key,btltbl.bin,20A8,DD 05 00 00,1501,Sort Order
+82,Dream Sword,btltbl.bin,20AC,70 00,112,Item Name
+82,Dream Sword,btltbl.bin,20AE,02,2,Item Icon
+82,Dream Sword,btltbl.bin,20AF,08,8,???
+82,Dream Sword,btltbl.bin,20B0,00 00,0,???
+82,Dream Sword,btltbl.bin,20B2,02 00,2,???
+82,Dream Sword,btltbl.bin,20B4,00 00,0,Buy Price
+82,Dream Sword,btltbl.bin,20B6,00 00,0,Sell Price
+82,Dream Sword,btltbl.bin,20B8,B8 CD,52664,???
+82,Dream Sword,btltbl.bin,20BA,00 00,0,???
+82,Dream Sword,btltbl.bin,20BC,DE 05 00 00,1502,Sort Order
+83,Dream Shield,btltbl.bin,20C0,71 00,113,Item Name
+83,Dream Shield,btltbl.bin,20C2,02,2,Item Icon
+83,Dream Shield,btltbl.bin,20C3,08,8,???
+83,Dream Shield,btltbl.bin,20C4,00 00,0,???
+83,Dream Shield,btltbl.bin,20C6,03 00,3,???
+83,Dream Shield,btltbl.bin,20C8,00 00,0,Buy Price
+83,Dream Shield,btltbl.bin,20CA,00 00,0,Sell Price
+83,Dream Shield,btltbl.bin,20CC,B8 CD,52664,???
+83,Dream Shield,btltbl.bin,20CE,00 00,0,???
+83,Dream Shield,btltbl.bin,20D0,DF 05 00 00,1503,Sort Order
+84,Dream Rod,btltbl.bin,20D4,72 00,114,Item Name
+84,Dream Rod,btltbl.bin,20D6,02,2,Item Icon
+84,Dream Rod,btltbl.bin,20D7,08,8,???
+84,Dream Rod,btltbl.bin,20D8,00 00,0,???
+84,Dream Rod,btltbl.bin,20DA,04 00,4,???
+84,Dream Rod,btltbl.bin,20DC,00 00,0,Buy Price
+84,Dream Rod,btltbl.bin,20DE,00 00,0,Sell Price
+84,Dream Rod,btltbl.bin,20E0,B8 CD,52664,???
+84,Dream Rod,btltbl.bin,20E2,00 00,0,???
+84,Dream Rod,btltbl.bin,20E4,E0 05 00 00,1504,Sort Order
+85,Wooden Sword,btltbl.bin,20E8,73 00,115,Item Name
+85,Wooden Sword,btltbl.bin,20EA,02,2,Item Icon
+85,Wooden Sword,btltbl.bin,20EB,08,8,???
+85,Wooden Sword,btltbl.bin,20EC,00 00,0,???
+85,Wooden Sword,btltbl.bin,20EE,05 00,5,???
+85,Wooden Sword,btltbl.bin,20F0,00 00,0,Buy Price
+85,Wooden Sword,btltbl.bin,20F2,00 00,0,Sell Price
+85,Wooden Sword,btltbl.bin,20F4,E0 E9,59872,???
+85,Wooden Sword,btltbl.bin,20F6,00 00,0,???
+85,Wooden Sword,btltbl.bin,20F8,E1 05 00 00,1505,Sort Order
+86,Jungle King,btltbl.bin,20FC,74 00,116,Item Name
+86,Jungle King,btltbl.bin,20FE,02,2,Item Icon
+86,Jungle King,btltbl.bin,20FF,08,8,???
+86,Jungle King,btltbl.bin,2100,00 00,0,???
+86,Jungle King,btltbl.bin,2102,06 00,6,???
+86,Jungle King,btltbl.bin,2104,00 00,0,Buy Price
+86,Jungle King,btltbl.bin,2106,00 00,0,Sell Price
+86,Jungle King,btltbl.bin,2108,F0 E9,59888,???
+86,Jungle King,btltbl.bin,210A,00 00,0,???
+86,Jungle King,btltbl.bin,210C,E2 05 00 00,1506,Sort Order
+87,Three Wishes,btltbl.bin,2110,75 00,117,Item Name
+87,Three Wishes,btltbl.bin,2112,02,2,Item Icon
+87,Three Wishes,btltbl.bin,2113,08,8,???
+87,Three Wishes,btltbl.bin,2114,00 00,0,???
+87,Three Wishes,btltbl.bin,2116,07 00,7,???
+87,Three Wishes,btltbl.bin,2118,00 00,0,Buy Price
+87,Three Wishes,btltbl.bin,211A,00 00,0,Sell Price
+87,Three Wishes,btltbl.bin,211C,20 EA,59936,???
+87,Three Wishes,btltbl.bin,211E,00 00,0,???
+87,Three Wishes,btltbl.bin,2120,E3 05 00 00,1507,Sort Order
+88,Fairy Harp,btltbl.bin,2124,76 00,118,Item Name
+88,Fairy Harp,btltbl.bin,2126,02,2,Item Icon
+88,Fairy Harp,btltbl.bin,2127,08,8,???
+88,Fairy Harp,btltbl.bin,2128,00 00,0,???
+88,Fairy Harp,btltbl.bin,212A,08 00,8,???
+88,Fairy Harp,btltbl.bin,212C,00 00,0,Buy Price
+88,Fairy Harp,btltbl.bin,212E,00 00,0,Sell Price
+88,Fairy Harp,btltbl.bin,2130,40 EA,59968,???
+88,Fairy Harp,btltbl.bin,2132,00 00,0,???
+88,Fairy Harp,btltbl.bin,2134,E6 05 00 00,1510,Sort Order
+89,Pumpkinhead,btltbl.bin,2138,77 00,119,Item Name
+89,Pumpkinhead,btltbl.bin,213A,02,2,Item Icon
+89,Pumpkinhead,btltbl.bin,213B,08,8,???
+89,Pumpkinhead,btltbl.bin,213C,00 00,0,???
+89,Pumpkinhead,btltbl.bin,213E,09 00,9,???
+89,Pumpkinhead,btltbl.bin,2140,00 00,0,Buy Price
+89,Pumpkinhead,btltbl.bin,2142,00 00,0,Sell Price
+89,Pumpkinhead,btltbl.bin,2144,88 EA,60040,???
+89,Pumpkinhead,btltbl.bin,2146,00 00,0,???
+89,Pumpkinhead,btltbl.bin,2148,E5 05 00 00,1509,Sort Order
+90,Crabclaw,btltbl.bin,214C,78 00,120,Item Name
+90,Crabclaw,btltbl.bin,214E,02,2,Item Icon
+90,Crabclaw,btltbl.bin,214F,08,8,???
+90,Crabclaw,btltbl.bin,2150,00 00,0,???
+90,Crabclaw,btltbl.bin,2152,0A 00,10,???
+90,Crabclaw,btltbl.bin,2154,00 00,0,Buy Price
+90,Crabclaw,btltbl.bin,2156,00 00,0,Sell Price
+90,Crabclaw,btltbl.bin,2158,A8 EA,60072,???
+90,Crabclaw,btltbl.bin,215A,00 00,0,???
+90,Crabclaw,btltbl.bin,215C,E4 05 00 00,1508,Sort Order
+91,Divine Rose,btltbl.bin,2160,79 00,121,Item Name
+91,Divine Rose,btltbl.bin,2162,02,2,Item Icon
+91,Divine Rose,btltbl.bin,2163,08,8,???
+91,Divine Rose,btltbl.bin,2164,00 00,0,???
+91,Divine Rose,btltbl.bin,2166,0B 00,11,???
+91,Divine Rose,btltbl.bin,2168,00 00,0,Buy Price
+91,Divine Rose,btltbl.bin,216A,00 00,0,Sell Price
+91,Divine Rose,btltbl.bin,216C,E0 EA,60128,???
+91,Divine Rose,btltbl.bin,216E,00 00,0,???
+91,Divine Rose,btltbl.bin,2170,ED 05 00 00,1517,Sort Order
+92,Spellbinder,btltbl.bin,2174,7A 00,122,Item Name
+92,Spellbinder,btltbl.bin,2176,02,2,Item Icon
+92,Spellbinder,btltbl.bin,2177,08,8,???
+92,Spellbinder,btltbl.bin,2178,00 00,0,???
+92,Spellbinder,btltbl.bin,217A,0C 00,12,???
+92,Spellbinder,btltbl.bin,217C,00 00,0,Buy Price
+92,Spellbinder,btltbl.bin,217E,00 00,0,Sell Price
+92,Spellbinder,btltbl.bin,2180,18 EB,60184,???
+92,Spellbinder,btltbl.bin,2182,00 00,0,???
+92,Spellbinder,btltbl.bin,2184,E8 05 00 00,1512,Sort Order
+93,Olympia,btltbl.bin,2188,7B 00,123,Item Name
+93,Olympia,btltbl.bin,218A,02,2,Item Icon
+93,Olympia,btltbl.bin,218B,08,8,???
+93,Olympia,btltbl.bin,218C,00 00,0,???
+93,Olympia,btltbl.bin,218E,0D 00,13,???
+93,Olympia,btltbl.bin,2190,00 00,0,Buy Price
+93,Olympia,btltbl.bin,2192,00 00,0,Sell Price
+93,Olympia,btltbl.bin,2194,48 EB,60232,???
+93,Olympia,btltbl.bin,2196,00 00,0,???
+93,Olympia,btltbl.bin,2198,EA 05 00 00,1514,Sort Order
+94,Lionheart,btltbl.bin,219C,7C 00,124,Item Name
+94,Lionheart,btltbl.bin,219E,02,2,Item Icon
+94,Lionheart,btltbl.bin,219F,08,8,???
+94,Lionheart,btltbl.bin,21A0,00 00,0,???
+94,Lionheart,btltbl.bin,21A2,0E 00,14,???
+94,Lionheart,btltbl.bin,21A4,00 00,0,Buy Price
+94,Lionheart,btltbl.bin,21A6,00 00,0,Sell Price
+94,Lionheart,btltbl.bin,21A8,88 EB,60296,???
+94,Lionheart,btltbl.bin,21AA,00 00,0,???
+94,Lionheart,btltbl.bin,21AC,EB 05 00 00,1515,Sort Order
+95,Metal Chocobo,btltbl.bin,21B0,7D 00,125,Item Name
+95,Metal Chocobo,btltbl.bin,21B2,02,2,Item Icon
+95,Metal Chocobo,btltbl.bin,21B3,08,8,???
+95,Metal Chocobo,btltbl.bin,21B4,00 00,0,???
+95,Metal Chocobo,btltbl.bin,21B6,0F 00,15,???
+95,Metal Chocobo,btltbl.bin,21B8,00 00,0,Buy Price
+95,Metal Chocobo,btltbl.bin,21BA,00 00,0,Sell Price
+95,Metal Chocobo,btltbl.bin,21BC,D0 EB,60368,???
+95,Metal Chocobo,btltbl.bin,21BE,00 00,0,???
+95,Metal Chocobo,btltbl.bin,21C0,E9 05 00 00,1513,Sort Order
+96,Oathkeeper,btltbl.bin,21C4,7E 00,126,Item Name
+96,Oathkeeper,btltbl.bin,21C6,02,2,Item Icon
+96,Oathkeeper,btltbl.bin,21C7,08,8,???
+96,Oathkeeper,btltbl.bin,21C8,00 00,0,???
+96,Oathkeeper,btltbl.bin,21CA,10 00,16,???
+96,Oathkeeper,btltbl.bin,21CC,00 00,0,Buy Price
+96,Oathkeeper,btltbl.bin,21CE,00 00,0,Sell Price
+96,Oathkeeper,btltbl.bin,21D0,10 EC,60432,???
+96,Oathkeeper,btltbl.bin,21D2,00 00,0,???
+96,Oathkeeper,btltbl.bin,21D4,EE 05 00 00,1518,Sort Order
+97,Oblivion,btltbl.bin,21D8,7F 00,127,Item Name
+97,Oblivion,btltbl.bin,21DA,02,2,Item Icon
+97,Oblivion,btltbl.bin,21DB,08,8,???
+97,Oblivion,btltbl.bin,21DC,00 00,0,???
+97,Oblivion,btltbl.bin,21DE,11 00,17,???
+97,Oblivion,btltbl.bin,21E0,00 00,0,Buy Price
+97,Oblivion,btltbl.bin,21E2,00 00,0,Sell Price
+97,Oblivion,btltbl.bin,21E4,58 EC,60504,???
+97,Oblivion,btltbl.bin,21E6,00 00,0,???
+97,Oblivion,btltbl.bin,21E8,EF 05 00 00,1519,Sort Order
+98,Lady Luck,btltbl.bin,21EC,80 00,128,Item Name
+98,Lady Luck,btltbl.bin,21EE,02,2,Item Icon
+98,Lady Luck,btltbl.bin,21EF,08,8,???
+98,Lady Luck,btltbl.bin,21F0,00 00,0,???
+98,Lady Luck,btltbl.bin,21F2,12 00,18,???
+98,Lady Luck,btltbl.bin,21F4,00 00,0,Buy Price
+98,Lady Luck,btltbl.bin,21F6,00 00,0,Sell Price
+98,Lady Luck,btltbl.bin,21F8,80 EC,60544,???
+98,Lady Luck,btltbl.bin,21FA,00 00,0,???
+98,Lady Luck,btltbl.bin,21FC,EC 05 00 00,1516,Sort Order
+99,Wishing Star,btltbl.bin,2200,81 00,129,Item Name
+99,Wishing Star,btltbl.bin,2202,02,2,Item Icon
+99,Wishing Star,btltbl.bin,2203,08,8,???
+99,Wishing Star,btltbl.bin,2204,00 00,0,???
+99,Wishing Star,btltbl.bin,2206,13 00,19,???
+99,Wishing Star,btltbl.bin,2208,00 00,0,Buy Price
+99,Wishing Star,btltbl.bin,220A,00 00,0,Sell Price
+99,Wishing Star,btltbl.bin,220C,C0 EC,60608,???
+99,Wishing Star,btltbl.bin,220E,00 00,0,???
+99,Wishing Star,btltbl.bin,2210,E7 05 00 00,1511,Sort Order
+100,Ultima Weapon,btltbl.bin,2214,82 00,130,Item Name
+100,Ultima Weapon,btltbl.bin,2216,02,2,Item Icon
+100,Ultima Weapon,btltbl.bin,2217,08,8,???
+100,Ultima Weapon,btltbl.bin,2218,00 00,0,???
+100,Ultima Weapon,btltbl.bin,221A,14 00,20,???
+100,Ultima Weapon,btltbl.bin,221C,00 00,0,Buy Price
+100,Ultima Weapon,btltbl.bin,221E,00 00,0,Sell Price
+100,Ultima Weapon,btltbl.bin,2220,F8 EC,60664,???
+100,Ultima Weapon,btltbl.bin,2222,00 00,0,???
+100,Ultima Weapon,btltbl.bin,2224,F2 05 00 00,1522,Sort Order
+101,Diamond Dust,btltbl.bin,2228,83 00,131,Item Name
+101,Diamond Dust,btltbl.bin,222A,02,2,Item Icon
+101,Diamond Dust,btltbl.bin,222B,08,8,???
+101,Diamond Dust,btltbl.bin,222C,00 00,0,???
+101,Diamond Dust,btltbl.bin,222E,15 00,21,???
+101,Diamond Dust,btltbl.bin,2230,00 00,0,Buy Price
+101,Diamond Dust,btltbl.bin,2232,00 00,0,Sell Price
+101,Diamond Dust,btltbl.bin,2234,38 ED,60728,???
+101,Diamond Dust,btltbl.bin,2236,00 00,0,???
+101,Diamond Dust,btltbl.bin,2238,F0 05 00 00,1520,Sort Order
+102,One-Winged Angel,btltbl.bin,223C,84 00,132,Item Name
+102,One-Winged Angel,btltbl.bin,223E,02,2,Item Icon
+102,One-Winged Angel,btltbl.bin,223F,08,8,???
+102,One-Winged Angel,btltbl.bin,2240,00 00,0,???
+102,One-Winged Angel,btltbl.bin,2242,16 00,22,???
+102,One-Winged Angel,btltbl.bin,2244,00 00,0,Buy Price
+102,One-Winged Angel,btltbl.bin,2246,00 00,0,Sell Price
+102,One-Winged Angel,btltbl.bin,2248,68 ED,60776,???
+102,One-Winged Angel,btltbl.bin,224A,00 00,0,???
+102,One-Winged Angel,btltbl.bin,224C,F1 05 00 00,1521,Sort Order
+103,Mage's Staff,btltbl.bin,2250,85 00,133,Item Name
+103,Mage's Staff,btltbl.bin,2252,03,3,Item Icon
+103,Mage's Staff,btltbl.bin,2253,08,8,???
+103,Mage's Staff,btltbl.bin,2254,00 00,0,???
+103,Mage's Staff,btltbl.bin,2256,01 00,1,???
+103,Mage's Staff,btltbl.bin,2258,00 00,0,Buy Price
+103,Mage's Staff,btltbl.bin,225A,00 00,0,Sell Price
+103,Mage's Staff,btltbl.bin,225C,B0 ED,60848,???
+103,Mage's Staff,btltbl.bin,225E,00 00,0,???
+103,Mage's Staff,btltbl.bin,2260,41 06 00 00,1601,Sort Order
+104,Morning Star,btltbl.bin,2264,86 00,134,Item Name
+104,Morning Star,btltbl.bin,2266,03,3,Item Icon
+104,Morning Star,btltbl.bin,2267,08,8,???
+104,Morning Star,btltbl.bin,2268,00 00,0,???
+104,Morning Star,btltbl.bin,226A,02 00,2,???
+104,Morning Star,btltbl.bin,226C,2C 01,300,Buy Price
+104,Morning Star,btltbl.bin,226E,3C 00,60,Sell Price
+104,Morning Star,btltbl.bin,2270,C0 ED,60864,???
+104,Morning Star,btltbl.bin,2272,00 00,0,???
+104,Morning Star,btltbl.bin,2274,42 06 00 00,1602,Sort Order
+105,Shooting Star,btltbl.bin,2278,87 00,135,Item Name
+105,Shooting Star,btltbl.bin,227A,03,3,Item Icon
+105,Shooting Star,btltbl.bin,227B,08,8,???
+105,Shooting Star,btltbl.bin,227C,00 00,0,???
+105,Shooting Star,btltbl.bin,227E,03 00,3,???
+105,Shooting Star,btltbl.bin,2280,20 03,800,Buy Price
+105,Shooting Star,btltbl.bin,2282,A0 00,160,Sell Price
+105,Shooting Star,btltbl.bin,2284,E0 ED,60896,???
+105,Shooting Star,btltbl.bin,2286,00 00,0,???
+105,Shooting Star,btltbl.bin,2288,43 06 00 00,1603,Sort Order
+106,Magus Staff,btltbl.bin,228C,88 00,136,Item Name
+106,Magus Staff,btltbl.bin,228E,03,3,Item Icon
+106,Magus Staff,btltbl.bin,228F,08,8,???
+106,Magus Staff,btltbl.bin,2290,00 00,0,???
+106,Magus Staff,btltbl.bin,2292,04 00,4,???
+106,Magus Staff,btltbl.bin,2294,B0 04,1200,Buy Price
+106,Magus Staff,btltbl.bin,2296,C8 00,200,Sell Price
+106,Magus Staff,btltbl.bin,2298,08 EE,60936,???
+106,Magus Staff,btltbl.bin,229A,00 00,0,???
+106,Magus Staff,btltbl.bin,229C,44 06 00 00,1604,Sort Order
+107,Wisdom Staff,btltbl.bin,22A0,89 00,137,Item Name
+107,Wisdom Staff,btltbl.bin,22A2,03,3,Item Icon
+107,Wisdom Staff,btltbl.bin,22A3,08,8,???
+107,Wisdom Staff,btltbl.bin,22A4,00 00,0,???
+107,Wisdom Staff,btltbl.bin,22A6,05 00,5,???
+107,Wisdom Staff,btltbl.bin,22A8,A0 0F,4000,Buy Price
+107,Wisdom Staff,btltbl.bin,22AA,04 01,260,Sell Price
+107,Wisdom Staff,btltbl.bin,22AC,30 EE,60976,???
+107,Wisdom Staff,btltbl.bin,22AE,00 00,0,???
+107,Wisdom Staff,btltbl.bin,22B0,45 06 00 00,1605,Sort Order
+108,Warhammer,btltbl.bin,22B4,8A 00,138,Item Name
+108,Warhammer,btltbl.bin,22B6,03,3,Item Icon
+108,Warhammer,btltbl.bin,22B7,08,8,???
+108,Warhammer,btltbl.bin,22B8,00 00,0,???
+108,Warhammer,btltbl.bin,22BA,06 00,6,???
+108,Warhammer,btltbl.bin,22BC,C2 01,450,Buy Price
+108,Warhammer,btltbl.bin,22BE,5A 00,90,Sell Price
+108,Warhammer,btltbl.bin,22C0,68 EE,61032,???
+108,Warhammer,btltbl.bin,22C2,00 00,0,???
+108,Warhammer,btltbl.bin,22C4,46 06 00 00,1606,Sort Order
+109,Silver Mallet,btltbl.bin,22C8,8B 00,139,Item Name
+109,Silver Mallet,btltbl.bin,22CA,03,3,Item Icon
+109,Silver Mallet,btltbl.bin,22CB,08,8,???
+109,Silver Mallet,btltbl.bin,22CC,00 00,0,???
+109,Silver Mallet,btltbl.bin,22CE,07 00,7,???
+109,Silver Mallet,btltbl.bin,22D0,B0 04,1200,Buy Price
+109,Silver Mallet,btltbl.bin,22D2,C8 00,200,Sell Price
+109,Silver Mallet,btltbl.bin,22D4,98 EE,61080,???
+109,Silver Mallet,btltbl.bin,22D6,00 00,0,???
+109,Silver Mallet,btltbl.bin,22D8,47 06 00 00,1607,Sort Order
+110,Grand Mallet,btltbl.bin,22DC,8C 00,140,Item Name
+110,Grand Mallet,btltbl.bin,22DE,03,3,Item Icon
+110,Grand Mallet,btltbl.bin,22DF,08,8,???
+110,Grand Mallet,btltbl.bin,22E0,00 00,0,???
+110,Grand Mallet,btltbl.bin,22E2,08 00,8,???
+110,Grand Mallet,btltbl.bin,22E4,A0 0F,4000,Buy Price
+110,Grand Mallet,btltbl.bin,22E6,04 01,260,Sell Price
+110,Grand Mallet,btltbl.bin,22E8,D0 EE,61136,???
+110,Grand Mallet,btltbl.bin,22EA,00 00,0,???
+110,Grand Mallet,btltbl.bin,22EC,48 06 00 00,1608,Sort Order
+111,Lord Fortune,btltbl.bin,22F0,8D 00,141,Item Name
+111,Lord Fortune,btltbl.bin,22F2,03,3,Item Icon
+111,Lord Fortune,btltbl.bin,22F3,08,8,???
+111,Lord Fortune,btltbl.bin,22F4,00 00,0,???
+111,Lord Fortune,btltbl.bin,22F6,09 00,9,???
+111,Lord Fortune,btltbl.bin,22F8,00 00,0,Buy Price
+111,Lord Fortune,btltbl.bin,22FA,00 00,0,Sell Price
+111,Lord Fortune,btltbl.bin,22FC,10 EF,61200,???
+111,Lord Fortune,btltbl.bin,22FE,00 00,0,???
+111,Lord Fortune,btltbl.bin,2300,49 06 00 00,1609,Sort Order
+112,Violetta,btltbl.bin,2304,8E 00,142,Item Name
+112,Violetta,btltbl.bin,2306,03,3,Item Icon
+112,Violetta,btltbl.bin,2307,08,8,???
+112,Violetta,btltbl.bin,2308,00 00,0,???
+112,Violetta,btltbl.bin,230A,0A 00,10,???
+112,Violetta,btltbl.bin,230C,00 00,0,Buy Price
+112,Violetta,btltbl.bin,230E,00 00,0,Sell Price
+112,Violetta,btltbl.bin,2310,40 EF,61248,???
+112,Violetta,btltbl.bin,2312,00 00,0,???
+112,Violetta,btltbl.bin,2314,4A 06 00 00,1610,Sort Order
+113,Dream Rod (Donald),btltbl.bin,2318,8F 00,143,Item Name
+113,Dream Rod (Donald),btltbl.bin,231A,03,3,Item Icon
+113,Dream Rod (Donald),btltbl.bin,231B,08,8,???
+113,Dream Rod (Donald),btltbl.bin,231C,00 00,0,???
+113,Dream Rod (Donald),btltbl.bin,231E,0B 00,11,???
+113,Dream Rod (Donald),btltbl.bin,2320,00 00,0,Buy Price
+113,Dream Rod (Donald),btltbl.bin,2322,00 00,0,Sell Price
+113,Dream Rod (Donald),btltbl.bin,2324,78 EF,61304,???
+113,Dream Rod (Donald),btltbl.bin,2326,00 00,0,???
+113,Dream Rod (Donald),btltbl.bin,2328,4C 06 00 00,1612,Sort Order
+114,Save the Queen,btltbl.bin,232C,90 00,144,Item Name
+114,Save the Queen,btltbl.bin,232E,03,3,Item Icon
+114,Save the Queen,btltbl.bin,232F,08,8,???
+114,Save the Queen,btltbl.bin,2330,00 00,0,???
+114,Save the Queen,btltbl.bin,2332,0C 00,12,???
+114,Save the Queen,btltbl.bin,2334,00 00,0,Buy Price
+114,Save the Queen,btltbl.bin,2336,00 00,0,Sell Price
+114,Save the Queen,btltbl.bin,2338,A8 EF,61352,???
+114,Save the Queen,btltbl.bin,233A,00 00,0,???
+114,Save the Queen,btltbl.bin,233C,4F 06 00 00,1615,Sort Order
+115,Wizard's Relic,btltbl.bin,2340,91 00,145,Item Name
+115,Wizard's Relic,btltbl.bin,2342,03,3,Item Icon
+115,Wizard's Relic,btltbl.bin,2343,08,8,???
+115,Wizard's Relic,btltbl.bin,2344,00 00,0,???
+115,Wizard's Relic,btltbl.bin,2346,0D 00,13,???
+115,Wizard's Relic,btltbl.bin,2348,00 00,0,Buy Price
+115,Wizard's Relic,btltbl.bin,234A,E8 03,1000,Sell Price
+115,Wizard's Relic,btltbl.bin,234C,E8 EF,61416,???
+115,Wizard's Relic,btltbl.bin,234E,00 00,0,???
+115,Wizard's Relic,btltbl.bin,2350,4B 06 00 00,1611,Sort Order
+116,Meteor Strike,btltbl.bin,2354,92 00,146,Item Name
+116,Meteor Strike,btltbl.bin,2356,03,3,Item Icon
+116,Meteor Strike,btltbl.bin,2357,08,8,???
+116,Meteor Strike,btltbl.bin,2358,00 00,0,???
+116,Meteor Strike,btltbl.bin,235A,0E 00,14,???
+116,Meteor Strike,btltbl.bin,235C,00 00,0,Buy Price
+116,Meteor Strike,btltbl.bin,235E,00 00,0,Sell Price
+116,Meteor Strike,btltbl.bin,2360,20 F0,61472,???
+116,Meteor Strike,btltbl.bin,2362,00 00,0,???
+116,Meteor Strike,btltbl.bin,2364,4D 06 00 00,1613,Sort Order
+117,Fantasista,btltbl.bin,2368,93 00,147,Item Name
+117,Fantasista,btltbl.bin,236A,03,3,Item Icon
+117,Fantasista,btltbl.bin,236B,08,8,???
+117,Fantasista,btltbl.bin,236C,00 00,0,???
+117,Fantasista,btltbl.bin,236E,0F 00,15,???
+117,Fantasista,btltbl.bin,2370,00 00,0,Buy Price
+117,Fantasista,btltbl.bin,2372,2C 01,300,Sell Price
+117,Fantasista,btltbl.bin,2374,60 F0,61536,???
+117,Fantasista,btltbl.bin,2376,00 00,0,???
+117,Fantasista,btltbl.bin,2378,4E 06 00 00,1614,Sort Order
+118,Unused (Donald),btltbl.bin,237C,94 00,148,Item Name
+118,Unused (Donald),btltbl.bin,237E,03,3,Item Icon
+118,Unused (Donald),btltbl.bin,237F,08,8,???
+118,Unused (Donald),btltbl.bin,2380,00 00,0,???
+118,Unused (Donald),btltbl.bin,2382,01 00,1,???
+118,Unused (Donald),btltbl.bin,2384,00 00,0,Buy Price
+118,Unused (Donald),btltbl.bin,2386,00 00,0,Sell Price
+118,Unused (Donald),btltbl.bin,2388,40 CC,52288,???
+118,Unused (Donald),btltbl.bin,238A,00 00,0,???
+118,Unused (Donald),btltbl.bin,238C,10 27 00 00,10000,Sort Order
+119,Knight's Shield,btltbl.bin,2390,95 00,149,Item Name
+119,Knight's Shield,btltbl.bin,2392,04,4,Item Icon
+119,Knight's Shield,btltbl.bin,2393,08,8,???
+119,Knight's Shield,btltbl.bin,2394,00 00,0,???
+119,Knight's Shield,btltbl.bin,2396,01 00,1,???
+119,Knight's Shield,btltbl.bin,2398,00 00,0,Buy Price
+119,Knight's Shield,btltbl.bin,239A,00 00,0,Sell Price
+119,Knight's Shield,btltbl.bin,239C,90 F0,61584,???
+119,Knight's Shield,btltbl.bin,239E,00 00,0,???
+119,Knight's Shield,btltbl.bin,23A0,A5 06 00 00,1701,Sort Order
+120,Mythril Shield,btltbl.bin,23A4,96 00,150,Item Name
+120,Mythril Shield,btltbl.bin,23A6,04,4,Item Icon
+120,Mythril Shield,btltbl.bin,23A7,08,8,???
+120,Mythril Shield,btltbl.bin,23A8,00 00,0,???
+120,Mythril Shield,btltbl.bin,23AA,02 00,2,???
+120,Mythril Shield,btltbl.bin,23AC,20 03,800,Buy Price
+120,Mythril Shield,btltbl.bin,23AE,A0 00,160,Sell Price
+120,Mythril Shield,btltbl.bin,23B0,A8 F0,61608,???
+120,Mythril Shield,btltbl.bin,23B2,00 00,0,???
+120,Mythril Shield,btltbl.bin,23B4,A6 06 00 00,1702,Sort Order
+121,Onyx Shield,btltbl.bin,23B8,97 00,151,Item Name
+121,Onyx Shield,btltbl.bin,23BA,04,4,Item Icon
+121,Onyx Shield,btltbl.bin,23BB,08,8,???
+121,Onyx Shield,btltbl.bin,23BC,00 00,0,???
+121,Onyx Shield,btltbl.bin,23BE,03 00,3,???
+121,Onyx Shield,btltbl.bin,23C0,F0 0A,2800,Buy Price
+121,Onyx Shield,btltbl.bin,23C2,DC 00,220,Sell Price
+121,Onyx Shield,btltbl.bin,23C4,D0 F0,61648,???
+121,Onyx Shield,btltbl.bin,23C6,00 00,0,???
+121,Onyx Shield,btltbl.bin,23C8,A7 06 00 00,1703,Sort Order
+122,Stout Shield,btltbl.bin,23CC,98 00,152,Item Name
+122,Stout Shield,btltbl.bin,23CE,04,4,Item Icon
+122,Stout Shield,btltbl.bin,23CF,08,8,???
+122,Stout Shield,btltbl.bin,23D0,00 00,0,???
+122,Stout Shield,btltbl.bin,23D2,04 00,4,???
+122,Stout Shield,btltbl.bin,23D4,C2 01,450,Buy Price
+122,Stout Shield,btltbl.bin,23D6,5A 00,90,Sell Price
+122,Stout Shield,btltbl.bin,23D8,00 F1,61696,???
+122,Stout Shield,btltbl.bin,23DA,00 00,0,???
+122,Stout Shield,btltbl.bin,23DC,AA 06 00 00,1706,Sort Order
+123,Golem Shield,btltbl.bin,23E0,99 00,153,Item Name
+123,Golem Shield,btltbl.bin,23E2,04,4,Item Icon
+123,Golem Shield,btltbl.bin,23E3,08,8,???
+123,Golem Shield,btltbl.bin,23E4,00 00,0,???
+123,Golem Shield,btltbl.bin,23E6,05 00,5,???
+123,Golem Shield,btltbl.bin,23E8,B0 04,1200,Buy Price
+123,Golem Shield,btltbl.bin,23EA,C8 00,200,Sell Price
+123,Golem Shield,btltbl.bin,23EC,30 F1,61744,???
+123,Golem Shield,btltbl.bin,23EE,00 00,0,???
+123,Golem Shield,btltbl.bin,23F0,AB 06 00 00,1707,Sort Order
+124,Adamant Shield,btltbl.bin,23F4,9A 00,154,Item Name
+124,Adamant Shield,btltbl.bin,23F6,04,4,Item Icon
+124,Adamant Shield,btltbl.bin,23F7,08,8,???
+124,Adamant Shield,btltbl.bin,23F8,00 00,0,???
+124,Adamant Shield,btltbl.bin,23FA,06 00,6,???
+124,Adamant Shield,btltbl.bin,23FC,A0 0F,4000,Buy Price
+124,Adamant Shield,btltbl.bin,23FE,04 01,260,Sell Price
+124,Adamant Shield,btltbl.bin,2400,68 F1,61800,???
+124,Adamant Shield,btltbl.bin,2402,00 00,0,???
+124,Adamant Shield,btltbl.bin,2404,AC 06 00 00,1708,Sort Order
+125,Smasher,btltbl.bin,2408,9B 00,155,Item Name
+125,Smasher,btltbl.bin,240A,04,4,Item Icon
+125,Smasher,btltbl.bin,240B,08,8,???
+125,Smasher,btltbl.bin,240C,00 00,0,???
+125,Smasher,btltbl.bin,240E,07 00,7,???
+125,Smasher,btltbl.bin,2410,C2 01,450,Buy Price
+125,Smasher,btltbl.bin,2412,5A 00,90,Sell Price
+125,Smasher,btltbl.bin,2414,A8 F1,61864,???
+125,Smasher,btltbl.bin,2416,00 00,0,???
+125,Smasher,btltbl.bin,2418,A8 06 00 00,1704,Sort Order
+126,Gigas Fist,btltbl.bin,241C,9C 00,156,Item Name
+126,Gigas Fist,btltbl.bin,241E,04,4,Item Icon
+126,Gigas Fist,btltbl.bin,241F,08,8,???
+126,Gigas Fist,btltbl.bin,2420,00 00,0,???
+126,Gigas Fist,btltbl.bin,2422,08 00,8,???
+126,Gigas Fist,btltbl.bin,2424,B0 04,1200,Buy Price
+126,Gigas Fist,btltbl.bin,2426,C8 00,200,Sell Price
+126,Gigas Fist,btltbl.bin,2428,D0 F1,61904,???
+126,Gigas Fist,btltbl.bin,242A,00 00,0,???
+126,Gigas Fist,btltbl.bin,242C,A9 06 00 00,1705,Sort Order
+127,Genji Shield,btltbl.bin,2430,9D 00,157,Item Name
+127,Genji Shield,btltbl.bin,2432,04,4,Item Icon
+127,Genji Shield,btltbl.bin,2433,08,8,???
+127,Genji Shield,btltbl.bin,2434,00 00,0,???
+127,Genji Shield,btltbl.bin,2436,09 00,9,???
+127,Genji Shield,btltbl.bin,2438,00 00,0,Buy Price
+127,Genji Shield,btltbl.bin,243A,00 00,0,Sell Price
+127,Genji Shield,btltbl.bin,243C,00 F2,61952,???
+127,Genji Shield,btltbl.bin,243E,00 00,0,???
+127,Genji Shield,btltbl.bin,2440,AE 06 00 00,1710,Sort Order
+128,Herc's Shield,btltbl.bin,2444,9E 00,158,Item Name
+128,Herc's Shield,btltbl.bin,2446,04,4,Item Icon
+128,Herc's Shield,btltbl.bin,2447,08,8,???
+128,Herc's Shield,btltbl.bin,2448,00 00,0,???
+128,Herc's Shield,btltbl.bin,244A,0A 00,10,???
+128,Herc's Shield,btltbl.bin,244C,00 00,0,Buy Price
+128,Herc's Shield,btltbl.bin,244E,00 00,0,Sell Price
+128,Herc's Shield,btltbl.bin,2450,18 F2,61976,???
+128,Herc's Shield,btltbl.bin,2452,00 00,0,???
+128,Herc's Shield,btltbl.bin,2454,AD 06 00 00,1709,Sort Order
+129,Dream Shield,btltbl.bin,2458,9F 00,159,Item Name
+129,Dream Shield,btltbl.bin,245A,04,4,Item Icon
+129,Dream Shield,btltbl.bin,245B,08,8,???
+129,Dream Shield,btltbl.bin,245C,00 00,0,???
+129,Dream Shield,btltbl.bin,245E,0B 00,11,???
+129,Dream Shield,btltbl.bin,2460,00 00,0,Buy Price
+129,Dream Shield,btltbl.bin,2462,00 00,0,Sell Price
+129,Dream Shield,btltbl.bin,2464,38 F2,62008,???
+129,Dream Shield,btltbl.bin,2466,00 00,0,???
+129,Dream Shield,btltbl.bin,2468,B0 06 00 00,1712,Sort Order
+130,Save the King,btltbl.bin,246C,A0 00,160,Item Name
+130,Save the King,btltbl.bin,246E,04,4,Item Icon
+130,Save the King,btltbl.bin,246F,08,8,???
+130,Save the King,btltbl.bin,2470,00 00,0,???
+130,Save the King,btltbl.bin,2472,0C 00,12,???
+130,Save the King,btltbl.bin,2474,00 00,0,Buy Price
+130,Save the King,btltbl.bin,2476,00 00,0,Sell Price
+130,Save the King,btltbl.bin,2478,68 F2,62056,???
+130,Save the King,btltbl.bin,247A,00 00,0,???
+130,Save the King,btltbl.bin,247C,B3 06 00 00,1715,Sort Order
+131,Defender,btltbl.bin,2480,A1 00,161,Item Name
+131,Defender,btltbl.bin,2482,04,4,Item Icon
+131,Defender,btltbl.bin,2483,08,8,???
+131,Defender,btltbl.bin,2484,00 00,0,???
+131,Defender,btltbl.bin,2486,0D 00,13,???
+131,Defender,btltbl.bin,2488,00 00,0,Buy Price
+131,Defender,btltbl.bin,248A,E8 03,1000,Sell Price
+131,Defender,btltbl.bin,248C,90 F2,62096,???
+131,Defender,btltbl.bin,248E,00 00,0,???
+131,Defender,btltbl.bin,2490,AF 06 00 00,1711,Sort Order
+132,Mighty Shield,btltbl.bin,2494,A2 00,162,Item Name
+132,Mighty Shield,btltbl.bin,2496,04,4,Item Icon
+132,Mighty Shield,btltbl.bin,2497,08,8,???
+132,Mighty Shield,btltbl.bin,2498,00 00,0,???
+132,Mighty Shield,btltbl.bin,249A,0E 00,14,???
+132,Mighty Shield,btltbl.bin,249C,00 00,0,Buy Price
+132,Mighty Shield,btltbl.bin,249E,00 00,0,Sell Price
+132,Mighty Shield,btltbl.bin,24A0,D0 F2,62160,???
+132,Mighty Shield,btltbl.bin,24A2,00 00,0,???
+132,Mighty Shield,btltbl.bin,24A4,B1 06 00 00,1713,Sort Order
+133,Seven Elements,btltbl.bin,24A8,A3 00,163,Item Name
+133,Seven Elements,btltbl.bin,24AA,04,4,Item Icon
+133,Seven Elements,btltbl.bin,24AB,08,8,???
+133,Seven Elements,btltbl.bin,24AC,00 00,0,???
+133,Seven Elements,btltbl.bin,24AE,0F 00,15,???
+133,Seven Elements,btltbl.bin,24B0,00 00,0,Buy Price
+133,Seven Elements,btltbl.bin,24B2,2C 01,300,Sell Price
+133,Seven Elements,btltbl.bin,24B4,F0 F2,62192,???
+133,Seven Elements,btltbl.bin,24B6,00 00,0,???
+133,Seven Elements,btltbl.bin,24B8,B2 06 00 00,1714,Sort Order
+134,Unused (Goofy),btltbl.bin,24BC,A4 00,164,Item Name
+134,Unused (Goofy),btltbl.bin,24BE,04,4,Item Icon
+134,Unused (Goofy),btltbl.bin,24BF,08,8,???
+134,Unused (Goofy),btltbl.bin,24C0,00 00,0,???
+134,Unused (Goofy),btltbl.bin,24C2,01 00,1,???
+134,Unused (Goofy),btltbl.bin,24C4,00 00,0,Buy Price
+134,Unused (Goofy),btltbl.bin,24C6,00 00,0,Sell Price
+134,Unused (Goofy),btltbl.bin,24C8,40 CC,52288,???
+134,Unused (Goofy),btltbl.bin,24CA,00 00,0,???
+134,Unused (Goofy),btltbl.bin,24CC,10 27 00 00,10000,Sort Order
+135,Spear,btltbl.bin,24D0,A5 00,165,Item Name
+135,Spear,btltbl.bin,24D2,05,5,Item Icon
+135,Spear,btltbl.bin,24D3,08,8,???
+135,Spear,btltbl.bin,24D4,00 00,0,???
+135,Spear,btltbl.bin,24D6,01 00,1,???
+135,Spear,btltbl.bin,24D8,00 00,0,Buy Price
+135,Spear,btltbl.bin,24DA,00 00,0,Sell Price
+135,Spear,btltbl.bin,24DC,20 F3,62240,???
+135,Spear,btltbl.bin,24DE,00 00,0,???
+135,Spear,btltbl.bin,24E0,10 27 00 00,10000,Sort Order
+136,No Weapon,btltbl.bin,24E4,A6 00,166,Item Name
+136,No Weapon,btltbl.bin,24E6,06,6,Item Icon
+136,No Weapon,btltbl.bin,24E7,08,8,???
+136,No Weapon,btltbl.bin,24E8,00 00,0,???
+136,No Weapon,btltbl.bin,24EA,01 00,1,???
+136,No Weapon,btltbl.bin,24EC,00 00,0,Buy Price
+136,No Weapon,btltbl.bin,24EE,00 00,0,Sell Price
+136,No Weapon,btltbl.bin,24F0,40 CC,52288,???
+136,No Weapon,btltbl.bin,24F2,00 00,0,???
+136,No Weapon,btltbl.bin,24F4,10 27 00 00,10000,Sort Order
+137,Genie,btltbl.bin,24F8,A7 00,167,Item Name
+137,Genie,btltbl.bin,24FA,07,7,Item Icon
+137,Genie,btltbl.bin,24FB,08,8,???
+137,Genie,btltbl.bin,24FC,00 00,0,???
+137,Genie,btltbl.bin,24FE,01 00,1,???
+137,Genie,btltbl.bin,2500,00 00,0,Buy Price
+137,Genie,btltbl.bin,2502,00 00,0,Sell Price
+137,Genie,btltbl.bin,2504,48 F3,62280,???
+137,Genie,btltbl.bin,2506,00 00,0,???
+137,Genie,btltbl.bin,2508,10 27 00 00,10000,Sort Order
+138,No Weapon,btltbl.bin,250C,A8 00,168,Item Name
+138,No Weapon,btltbl.bin,250E,08,8,Item Icon
+138,No Weapon,btltbl.bin,250F,08,8,???
+138,No Weapon,btltbl.bin,2510,00 00,0,???
+138,No Weapon,btltbl.bin,2512,01 00,1,???
+138,No Weapon,btltbl.bin,2514,00 00,0,Buy Price
+138,No Weapon,btltbl.bin,2516,00 00,0,Sell Price
+138,No Weapon,btltbl.bin,2518,40 CC,52288,???
+138,No Weapon,btltbl.bin,251A,00 00,0,???
+138,No Weapon,btltbl.bin,251C,10 27 00 00,10000,Sort Order
+139,No Weapon,btltbl.bin,2520,A9 00,169,Item Name
+139,No Weapon,btltbl.bin,2522,09,9,Item Icon
+139,No Weapon,btltbl.bin,2523,08,8,???
+139,No Weapon,btltbl.bin,2524,00 00,0,???
+139,No Weapon,btltbl.bin,2526,01 00,1,???
+139,No Weapon,btltbl.bin,2528,00 00,0,Buy Price
+139,No Weapon,btltbl.bin,252A,00 00,0,Sell Price
+139,No Weapon,btltbl.bin,252C,40 CC,52288,???
+139,No Weapon,btltbl.bin,252E,00 00,0,???
+139,No Weapon,btltbl.bin,2530,10 27 00 00,10000,Sort Order
+140,Tinker Bell,btltbl.bin,2534,AA 00,170,Item Name
+140,Tinker Bell,btltbl.bin,2536,0A,10,Item Icon
+140,Tinker Bell,btltbl.bin,2537,08,8,???
+140,Tinker Bell,btltbl.bin,2538,00 00,0,???
+140,Tinker Bell,btltbl.bin,253A,01 00,1,???
+140,Tinker Bell,btltbl.bin,253C,00 00,0,Buy Price
+140,Tinker Bell,btltbl.bin,253E,00 00,0,Sell Price
+140,Tinker Bell,btltbl.bin,2540,68 F3,62312,???
+140,Tinker Bell,btltbl.bin,2542,00 00,0,???
+140,Tinker Bell,btltbl.bin,2544,10 27 00 00,10000,Sort Order
+141,Claws,btltbl.bin,2548,AB 00,171,Item Name
+141,Claws,btltbl.bin,254A,0B,11,Item Icon
+141,Claws,btltbl.bin,254B,08,8,???
+141,Claws,btltbl.bin,254C,00 00,0,???
+141,Claws,btltbl.bin,254E,01 00,1,???
+141,Claws,btltbl.bin,2550,00 00,0,Buy Price
+141,Claws,btltbl.bin,2552,00 00,0,Sell Price
+141,Claws,btltbl.bin,2554,40 CC,52288,???
+141,Claws,btltbl.bin,2556,00 00,0,???
+141,Claws,btltbl.bin,2558,10 27 00 00,10000,Sort Order
+142,Tent,btltbl.bin,255C,AC 00,172,Item Name
+142,Tent,btltbl.bin,255E,0C,12,Item Icon
+142,Tent,btltbl.bin,255F,06,6,???
+142,Tent,btltbl.bin,2560,01 00,1,???
+142,Tent,btltbl.bin,2562,FF 00,255,???
+142,Tent,btltbl.bin,2564,FA 00,250,Buy Price
+142,Tent,btltbl.bin,2566,32 00,50,Sell Price
+142,Tent,btltbl.bin,2568,98 F3,62360,???
+142,Tent,btltbl.bin,256A,00 00,0,???
+142,Tent,btltbl.bin,256C,65 00 00 00,101,Sort Order
+143,Camping Set,btltbl.bin,2570,AD 00,173,Item Name
+143,Camping Set,btltbl.bin,2572,0C,12,Item Icon
+143,Camping Set,btltbl.bin,2573,06,6,???
+143,Camping Set,btltbl.bin,2574,01 00,1,???
+143,Camping Set,btltbl.bin,2576,03 00,3,???
+143,Camping Set,btltbl.bin,2578,F4 01,500,Buy Price
+143,Camping Set,btltbl.bin,257A,64 00,100,Sell Price
+143,Camping Set,btltbl.bin,257C,C8 F3,62408,???
+143,Camping Set,btltbl.bin,257E,00 00,0,???
+143,Camping Set,btltbl.bin,2580,66 00 00 00,102,Sort Order
+144,Cottage,btltbl.bin,2584,AE 00,174,Item Name
+144,Cottage,btltbl.bin,2586,0C,12,Item Icon
+144,Cottage,btltbl.bin,2587,07,7,???
+144,Cottage,btltbl.bin,2588,01 00,1,???
+144,Cottage,btltbl.bin,258A,FF 00,255,???
+144,Cottage,btltbl.bin,258C,00 00,0,Buy Price
+144,Cottage,btltbl.bin,258E,96 00,150,Sell Price
+144,Cottage,btltbl.bin,2590,08 F4,62472,???
+144,Cottage,btltbl.bin,2592,00 00,0,???
+144,Cottage,btltbl.bin,2594,67 00 00 00,103,Sort Order
+145,C04,btltbl.bin,2598,AF 00,175,Item Name
+145,C04,btltbl.bin,259A,0C,12,Item Icon
+145,C04,btltbl.bin,259B,06,6,???
+145,C04,btltbl.bin,259C,00 00,0,???
+145,C04,btltbl.bin,259E,00 00,0,???
+145,C04,btltbl.bin,25A0,00 00,0,Buy Price
+145,C04,btltbl.bin,25A2,00 00,0,Sell Price
+145,C04,btltbl.bin,25A4,40 CC,52288,???
+145,C04,btltbl.bin,25A6,00 00,0,???
+145,C04,btltbl.bin,25A8,10 27 00 00,10000,Sort Order
+146,C05,btltbl.bin,25AC,B0 00,176,Item Name
+146,C05,btltbl.bin,25AE,0C,12,Item Icon
+146,C05,btltbl.bin,25AF,06,6,???
+146,C05,btltbl.bin,25B0,00 00,0,???
+146,C05,btltbl.bin,25B2,00 00,0,???
+146,C05,btltbl.bin,25B4,00 00,0,Buy Price
+146,C05,btltbl.bin,25B6,00 00,0,Sell Price
+146,C05,btltbl.bin,25B8,40 CC,52288,???
+146,C05,btltbl.bin,25BA,00 00,0,???
+146,C05,btltbl.bin,25BC,10 27 00 00,10000,Sort Order
+147,C06,btltbl.bin,25C0,B1 00,177,Item Name
+147,C06,btltbl.bin,25C2,0C,12,Item Icon
+147,C06,btltbl.bin,25C3,06,6,???
+147,C06,btltbl.bin,25C4,00 00,0,???
+147,C06,btltbl.bin,25C6,00 00,0,???
+147,C06,btltbl.bin,25C8,00 00,0,Buy Price
+147,C06,btltbl.bin,25CA,00 00,0,Sell Price
+147,C06,btltbl.bin,25CC,40 CC,52288,???
+147,C06,btltbl.bin,25CE,00 00,0,???
+147,C06,btltbl.bin,25D0,10 27 00 00,10000,Sort Order
+148,C07,btltbl.bin,25D4,B2 00,178,Item Name
+148,C07,btltbl.bin,25D6,0C,12,Item Icon
+148,C07,btltbl.bin,25D7,06,6,???
+148,C07,btltbl.bin,25D8,00 00,0,???
+148,C07,btltbl.bin,25DA,00 00,0,???
+148,C07,btltbl.bin,25DC,00 00,0,Buy Price
+148,C07,btltbl.bin,25DE,00 00,0,Sell Price
+148,C07,btltbl.bin,25E0,40 CC,52288,???
+148,C07,btltbl.bin,25E2,00 00,0,???
+148,C07,btltbl.bin,25E4,10 27 00 00,10000,Sort Order
+149,Ansem's Report 11,btltbl.bin,25E8,B3 00,179,Item Name
+149,Ansem's Report 11,btltbl.bin,25EA,0D,13,Item Icon
+149,Ansem's Report 11,btltbl.bin,25EB,03,3,???
+149,Ansem's Report 11,btltbl.bin,25EC,00 00,0,???
+149,Ansem's Report 11,btltbl.bin,25EE,00 00,0,???
+149,Ansem's Report 11,btltbl.bin,25F0,00 00,0,Buy Price
+149,Ansem's Report 11,btltbl.bin,25F2,00 00,0,Sell Price
+149,Ansem's Report 11,btltbl.bin,25F4,40 CC,52288,???
+149,Ansem's Report 11,btltbl.bin,25F6,00 00,0,???
+149,Ansem's Report 11,btltbl.bin,25F8,96 0A 00 00,2710,Sort Order
+150,Ansem's Report 12,btltbl.bin,25FC,B4 00,180,Item Name
+150,Ansem's Report 12,btltbl.bin,25FE,0D,13,Item Icon
+150,Ansem's Report 12,btltbl.bin,25FF,03,3,???
+150,Ansem's Report 12,btltbl.bin,2600,00 00,0,???
+150,Ansem's Report 12,btltbl.bin,2602,00 00,0,???
+150,Ansem's Report 12,btltbl.bin,2604,00 00,0,Buy Price
+150,Ansem's Report 12,btltbl.bin,2606,00 00,0,Sell Price
+150,Ansem's Report 12,btltbl.bin,2608,40 CC,52288,???
+150,Ansem's Report 12,btltbl.bin,260A,00 00,0,???
+150,Ansem's Report 12,btltbl.bin,260C,97 0A 00 00,2711,Sort Order
+151,Ansem's Report 13,btltbl.bin,2610,B5 00,181,Item Name
+151,Ansem's Report 13,btltbl.bin,2612,0D,13,Item Icon
+151,Ansem's Report 13,btltbl.bin,2613,03,3,???
+151,Ansem's Report 13,btltbl.bin,2614,00 00,0,???
+151,Ansem's Report 13,btltbl.bin,2616,00 00,0,???
+151,Ansem's Report 13,btltbl.bin,2618,00 00,0,Buy Price
+151,Ansem's Report 13,btltbl.bin,261A,00 00,0,Sell Price
+151,Ansem's Report 13,btltbl.bin,261C,40 CC,52288,???
+151,Ansem's Report 13,btltbl.bin,261E,00 00,0,???
+151,Ansem's Report 13,btltbl.bin,2620,98 0A 00 00,2712,Sort Order
+152,Power Up,btltbl.bin,2624,B6 00,182,Item Name
+152,Power Up,btltbl.bin,2626,0C,12,Item Icon
+152,Power Up,btltbl.bin,2627,07,7,???
+152,Power Up,btltbl.bin,2628,00 00,0,???
+152,Power Up,btltbl.bin,262A,01 00,1,???
+152,Power Up,btltbl.bin,262C,00 00,0,Buy Price
+152,Power Up,btltbl.bin,262E,32 00,50,Sell Price
+152,Power Up,btltbl.bin,2630,38 F4,62520,???
+152,Power Up,btltbl.bin,2632,00 00,0,???
+152,Power Up,btltbl.bin,2634,6F 00 00 00,111,Sort Order
+153,Defense Up,btltbl.bin,2638,B7 00,183,Item Name
+153,Defense Up,btltbl.bin,263A,0C,12,Item Icon
+153,Defense Up,btltbl.bin,263B,07,7,???
+153,Defense Up,btltbl.bin,263C,00 00,0,???
+153,Defense Up,btltbl.bin,263E,01 00,1,???
+153,Defense Up,btltbl.bin,2640,00 00,0,Buy Price
+153,Defense Up,btltbl.bin,2642,32 00,50,Sell Price
+153,Defense Up,btltbl.bin,2644,60 F4,62560,???
+153,Defense Up,btltbl.bin,2646,00 00,0,???
+153,Defense Up,btltbl.bin,2648,70 00 00 00,112,Sort Order
+154,AP Up,btltbl.bin,264C,B8 00,184,Item Name
+154,AP Up,btltbl.bin,264E,0C,12,Item Icon
+154,AP Up,btltbl.bin,264F,07,7,???
+154,AP Up,btltbl.bin,2650,00 00,0,???
+154,AP Up,btltbl.bin,2652,01 00,1,???
+154,AP Up,btltbl.bin,2654,00 00,0,Buy Price
+154,AP Up,btltbl.bin,2656,32 00,50,Sell Price
+154,AP Up,btltbl.bin,2658,88 F4,62600,???
+154,AP Up,btltbl.bin,265A,00 00,0,???
+154,AP Up,btltbl.bin,265C,71 00 00 00,113,Sort Order
+155,Serenity Power,btltbl.bin,2660,B9 00,185,Item Name
+155,Serenity Power,btltbl.bin,2662,0D,13,Item Icon
+155,Serenity Power,btltbl.bin,2663,05,5,???
+155,Serenity Power,btltbl.bin,2664,00 00,0,???
+155,Serenity Power,btltbl.bin,2666,00 00,0,???
+155,Serenity Power,btltbl.bin,2668,00 00,0,Buy Price
+155,Serenity Power,btltbl.bin,266A,00 00,0,Sell Price
+155,Serenity Power,btltbl.bin,266C,B0 F4,62640,???
+155,Serenity Power,btltbl.bin,266E,00 00,0,???
+155,Serenity Power,btltbl.bin,2670,17 0C 00 00,3095,Sort Order
+156,Dark Matter,btltbl.bin,2674,BA 00,186,Item Name
+156,Dark Matter,btltbl.bin,2676,0D,13,Item Icon
+156,Dark Matter,btltbl.bin,2677,05,5,???
+156,Dark Matter,btltbl.bin,2678,00 00,0,???
+156,Dark Matter,btltbl.bin,267A,00 00,0,???
+156,Dark Matter,btltbl.bin,267C,00 00,0,Buy Price
+156,Dark Matter,btltbl.bin,267E,F4 01,500,Sell Price
+156,Dark Matter,btltbl.bin,2680,F8 F4,62712,???
+156,Dark Matter,btltbl.bin,2682,00 00,0,???
+156,Dark Matter,btltbl.bin,2684,2B 0C 00 00,3115,Sort Order
+157,Mythril Stone,btltbl.bin,2688,BB 00,187,Item Name
+157,Mythril Stone,btltbl.bin,268A,0D,13,Item Icon
+157,Mythril Stone,btltbl.bin,268B,05,5,???
+157,Mythril Stone,btltbl.bin,268C,00 00,0,???
+157,Mythril Stone,btltbl.bin,268E,00 00,0,???
+157,Mythril Stone,btltbl.bin,2690,00 00,0,Buy Price
+157,Mythril Stone,btltbl.bin,2692,00 00,0,Sell Price
+157,Mythril Stone,btltbl.bin,2694,38 F5,62776,???
+157,Mythril Stone,btltbl.bin,2696,00 00,0,???
+157,Mythril Stone,btltbl.bin,2698,29 0C 00 00,3113,Sort Order
+158,Fire Arts,btltbl.bin,269C,BC 00,188,Item Name
+158,Fire Arts,btltbl.bin,269E,0D,13,Item Icon
+158,Fire Arts,btltbl.bin,269F,08,8,???
+158,Fire Arts,btltbl.bin,26A0,00 00,0,???
+158,Fire Arts,btltbl.bin,26A2,00 00,0,???
+158,Fire Arts,btltbl.bin,26A4,00 00,0,Buy Price
+158,Fire Arts,btltbl.bin,26A6,64 00,100,Sell Price
+158,Fire Arts,btltbl.bin,26A8,80 F5,62848,???
+158,Fire Arts,btltbl.bin,26AA,00 00,0,???
+158,Fire Arts,btltbl.bin,26AC,99 08 00 00,2201,Sort Order
+159,Blizzard Arts,btltbl.bin,26B0,BD 00,189,Item Name
+159,Blizzard Arts,btltbl.bin,26B2,0D,13,Item Icon
+159,Blizzard Arts,btltbl.bin,26B3,08,8,???
+159,Blizzard Arts,btltbl.bin,26B4,00 00,0,???
+159,Blizzard Arts,btltbl.bin,26B6,00 00,0,???
+159,Blizzard Arts,btltbl.bin,26B8,00 00,0,Buy Price
+159,Blizzard Arts,btltbl.bin,26BA,64 00,100,Sell Price
+159,Blizzard Arts,btltbl.bin,26BC,C0 F5,62912,???
+159,Blizzard Arts,btltbl.bin,26BE,00 00,0,???
+159,Blizzard Arts,btltbl.bin,26C0,9A 08 00 00,2202,Sort Order
+160,Thunder Arts,btltbl.bin,26C4,BE 00,190,Item Name
+160,Thunder Arts,btltbl.bin,26C6,0D,13,Item Icon
+160,Thunder Arts,btltbl.bin,26C7,08,8,???
+160,Thunder Arts,btltbl.bin,26C8,00 00,0,???
+160,Thunder Arts,btltbl.bin,26CA,00 00,0,???
+160,Thunder Arts,btltbl.bin,26CC,00 00,0,Buy Price
+160,Thunder Arts,btltbl.bin,26CE,64 00,100,Sell Price
+160,Thunder Arts,btltbl.bin,26D0,00 F6,62976,???
+160,Thunder Arts,btltbl.bin,26D2,00 00,0,???
+160,Thunder Arts,btltbl.bin,26D4,9B 08 00 00,2203,Sort Order
+161,Cure Arts,btltbl.bin,26D8,BF 00,191,Item Name
+161,Cure Arts,btltbl.bin,26DA,0D,13,Item Icon
+161,Cure Arts,btltbl.bin,26DB,08,8,???
+161,Cure Arts,btltbl.bin,26DC,00 00,0,???
+161,Cure Arts,btltbl.bin,26DE,00 00,0,???
+161,Cure Arts,btltbl.bin,26E0,00 00,0,Buy Price
+161,Cure Arts,btltbl.bin,26E2,64 00,100,Sell Price
+161,Cure Arts,btltbl.bin,26E4,40 F6,63040,???
+161,Cure Arts,btltbl.bin,26E6,00 00,0,???
+161,Cure Arts,btltbl.bin,26E8,9C 08 00 00,2204,Sort Order
+162,Gravity Arts,btltbl.bin,26EC,C0 00,192,Item Name
+162,Gravity Arts,btltbl.bin,26EE,0D,13,Item Icon
+162,Gravity Arts,btltbl.bin,26EF,08,8,???
+162,Gravity Arts,btltbl.bin,26F0,00 00,0,???
+162,Gravity Arts,btltbl.bin,26F2,00 00,0,???
+162,Gravity Arts,btltbl.bin,26F4,00 00,0,Buy Price
+162,Gravity Arts,btltbl.bin,26F6,64 00,100,Sell Price
+162,Gravity Arts,btltbl.bin,26F8,80 F6,63104,???
+162,Gravity Arts,btltbl.bin,26FA,00 00,0,???
+162,Gravity Arts,btltbl.bin,26FC,9D 08 00 00,2205,Sort Order
+163,Stop Arts,btltbl.bin,2700,C1 00,193,Item Name
+163,Stop Arts,btltbl.bin,2702,0D,13,Item Icon
+163,Stop Arts,btltbl.bin,2703,08,8,???
+163,Stop Arts,btltbl.bin,2704,00 00,0,???
+163,Stop Arts,btltbl.bin,2706,00 00,0,???
+163,Stop Arts,btltbl.bin,2708,00 00,0,Buy Price
+163,Stop Arts,btltbl.bin,270A,64 00,100,Sell Price
+163,Stop Arts,btltbl.bin,270C,C0 F6,63168,???
+163,Stop Arts,btltbl.bin,270E,00 00,0,???
+163,Stop Arts,btltbl.bin,2710,9E 08 00 00,2206,Sort Order
+164,Aero Arts,btltbl.bin,2714,C2 00,194,Item Name
+164,Aero Arts,btltbl.bin,2716,0D,13,Item Icon
+164,Aero Arts,btltbl.bin,2717,08,8,???
+164,Aero Arts,btltbl.bin,2718,00 00,0,???
+164,Aero Arts,btltbl.bin,271A,00 00,0,???
+164,Aero Arts,btltbl.bin,271C,00 00,0,Buy Price
+164,Aero Arts,btltbl.bin,271E,64 00,100,Sell Price
+164,Aero Arts,btltbl.bin,2720,00 F7,63232,???
+164,Aero Arts,btltbl.bin,2722,00 00,0,???
+164,Aero Arts,btltbl.bin,2724,9F 08 00 00,2207,Sort Order
+165,Shiitank Rank,btltbl.bin,2728,C3 00,195,Item Name
+165,Shiitank Rank,btltbl.bin,272A,0D,13,Item Icon
+165,Shiitank Rank,btltbl.bin,272B,07,7,???
+165,Shiitank Rank,btltbl.bin,272C,00 00,0,???
+165,Shiitank Rank,btltbl.bin,272E,00 00,0,???
+165,Shiitank Rank,btltbl.bin,2730,00 00,0,Buy Price
+165,Shiitank Rank,btltbl.bin,2732,C8 00,200,Sell Price
+165,Shiitank Rank,btltbl.bin,2734,40 F7,63296,???
+165,Shiitank Rank,btltbl.bin,2736,00 00,0,???
+165,Shiitank Rank,btltbl.bin,2738,A0 08 00 00,2208,Sort Order
+166,Matsutake Rank,btltbl.bin,273C,C4 00,196,Item Name
+166,Matsutake Rank,btltbl.bin,273E,0D,13,Item Icon
+166,Matsutake Rank,btltbl.bin,273F,08,8,???
+166,Matsutake Rank,btltbl.bin,2740,00 00,0,???
+166,Matsutake Rank,btltbl.bin,2742,00 00,0,???
+166,Matsutake Rank,btltbl.bin,2744,00 00,0,Buy Price
+166,Matsutake Rank,btltbl.bin,2746,2C 01,300,Sell Price
+166,Matsutake Rank,btltbl.bin,2748,78 F7,63352,???
+166,Matsutake Rank,btltbl.bin,274A,00 00,0,???
+166,Matsutake Rank,btltbl.bin,274C,A1 08 00 00,2209,Sort Order
+167,Mystery Mold,btltbl.bin,2750,C5 00,197,Item Name
+167,Mystery Mold,btltbl.bin,2752,0D,13,Item Icon
+167,Mystery Mold,btltbl.bin,2753,08,8,???
+167,Mystery Mold,btltbl.bin,2754,00 00,0,???
+167,Mystery Mold,btltbl.bin,2756,00 00,0,???
+167,Mystery Mold,btltbl.bin,2758,00 00,0,Buy Price
+167,Mystery Mold,btltbl.bin,275A,B8 0B,3000,Sell Price
+167,Mystery Mold,btltbl.bin,275C,B8 F7,63416,???
+167,Mystery Mold,btltbl.bin,275E,00 00,0,???
+167,Mystery Mold,btltbl.bin,2760,A2 08 00 00,2210,Sort Order
+168,Ansem's Report 1,btltbl.bin,2764,C6 00,198,Item Name
+168,Ansem's Report 1,btltbl.bin,2766,0D,13,Item Icon
+168,Ansem's Report 1,btltbl.bin,2767,03,3,???
+168,Ansem's Report 1,btltbl.bin,2768,00 00,0,???
+168,Ansem's Report 1,btltbl.bin,276A,00 00,0,???
+168,Ansem's Report 1,btltbl.bin,276C,00 00,0,Buy Price
+168,Ansem's Report 1,btltbl.bin,276E,00 00,0,Sell Price
+168,Ansem's Report 1,btltbl.bin,2770,40 CC,52288,???
+168,Ansem's Report 1,btltbl.bin,2772,00 00,0,???
+168,Ansem's Report 1,btltbl.bin,2774,8C 0A 00 00,2700,Sort Order
+169,Ansem's Report 2,btltbl.bin,2778,C7 00,199,Item Name
+169,Ansem's Report 2,btltbl.bin,277A,0D,13,Item Icon
+169,Ansem's Report 2,btltbl.bin,277B,03,3,???
+169,Ansem's Report 2,btltbl.bin,277C,00 00,0,???
+169,Ansem's Report 2,btltbl.bin,277E,00 00,0,???
+169,Ansem's Report 2,btltbl.bin,2780,00 00,0,Buy Price
+169,Ansem's Report 2,btltbl.bin,2782,00 00,0,Sell Price
+169,Ansem's Report 2,btltbl.bin,2784,40 CC,52288,???
+169,Ansem's Report 2,btltbl.bin,2786,00 00,0,???
+169,Ansem's Report 2,btltbl.bin,2788,8D 0A 00 00,2701,Sort Order
+170,Ansem's Report 3,btltbl.bin,278C,C8 00,200,Item Name
+170,Ansem's Report 3,btltbl.bin,278E,0D,13,Item Icon
+170,Ansem's Report 3,btltbl.bin,278F,03,3,???
+170,Ansem's Report 3,btltbl.bin,2790,00 00,0,???
+170,Ansem's Report 3,btltbl.bin,2792,00 00,0,???
+170,Ansem's Report 3,btltbl.bin,2794,00 00,0,Buy Price
+170,Ansem's Report 3,btltbl.bin,2796,00 00,0,Sell Price
+170,Ansem's Report 3,btltbl.bin,2798,40 CC,52288,???
+170,Ansem's Report 3,btltbl.bin,279A,00 00,0,???
+170,Ansem's Report 3,btltbl.bin,279C,8E 0A 00 00,2702,Sort Order
+171,Ansem's Report 4,btltbl.bin,27A0,C9 00,201,Item Name
+171,Ansem's Report 4,btltbl.bin,27A2,0D,13,Item Icon
+171,Ansem's Report 4,btltbl.bin,27A3,03,3,???
+171,Ansem's Report 4,btltbl.bin,27A4,00 00,0,???
+171,Ansem's Report 4,btltbl.bin,27A6,00 00,0,???
+171,Ansem's Report 4,btltbl.bin,27A8,00 00,0,Buy Price
+171,Ansem's Report 4,btltbl.bin,27AA,00 00,0,Sell Price
+171,Ansem's Report 4,btltbl.bin,27AC,40 CC,52288,???
+171,Ansem's Report 4,btltbl.bin,27AE,00 00,0,???
+171,Ansem's Report 4,btltbl.bin,27B0,8F 0A 00 00,2703,Sort Order
+172,Ansem's Report 5,btltbl.bin,27B4,CA 00,202,Item Name
+172,Ansem's Report 5,btltbl.bin,27B6,0D,13,Item Icon
+172,Ansem's Report 5,btltbl.bin,27B7,03,3,???
+172,Ansem's Report 5,btltbl.bin,27B8,00 00,0,???
+172,Ansem's Report 5,btltbl.bin,27BA,00 00,0,???
+172,Ansem's Report 5,btltbl.bin,27BC,00 00,0,Buy Price
+172,Ansem's Report 5,btltbl.bin,27BE,00 00,0,Sell Price
+172,Ansem's Report 5,btltbl.bin,27C0,40 CC,52288,???
+172,Ansem's Report 5,btltbl.bin,27C2,00 00,0,???
+172,Ansem's Report 5,btltbl.bin,27C4,90 0A 00 00,2704,Sort Order
+173,Ansem's Report 6,btltbl.bin,27C8,CB 00,203,Item Name
+173,Ansem's Report 6,btltbl.bin,27CA,0D,13,Item Icon
+173,Ansem's Report 6,btltbl.bin,27CB,03,3,???
+173,Ansem's Report 6,btltbl.bin,27CC,00 00,0,???
+173,Ansem's Report 6,btltbl.bin,27CE,00 00,0,???
+173,Ansem's Report 6,btltbl.bin,27D0,00 00,0,Buy Price
+173,Ansem's Report 6,btltbl.bin,27D2,00 00,0,Sell Price
+173,Ansem's Report 6,btltbl.bin,27D4,40 CC,52288,???
+173,Ansem's Report 6,btltbl.bin,27D6,00 00,0,???
+173,Ansem's Report 6,btltbl.bin,27D8,91 0A 00 00,2705,Sort Order
+174,Ansem's Report 7,btltbl.bin,27DC,CC 00,204,Item Name
+174,Ansem's Report 7,btltbl.bin,27DE,0D,13,Item Icon
+174,Ansem's Report 7,btltbl.bin,27DF,03,3,???
+174,Ansem's Report 7,btltbl.bin,27E0,00 00,0,???
+174,Ansem's Report 7,btltbl.bin,27E2,00 00,0,???
+174,Ansem's Report 7,btltbl.bin,27E4,00 00,0,Buy Price
+174,Ansem's Report 7,btltbl.bin,27E6,00 00,0,Sell Price
+174,Ansem's Report 7,btltbl.bin,27E8,40 CC,52288,???
+174,Ansem's Report 7,btltbl.bin,27EA,00 00,0,???
+174,Ansem's Report 7,btltbl.bin,27EC,92 0A 00 00,2706,Sort Order
+175,Ansem's Report 8,btltbl.bin,27F0,CD 00,205,Item Name
+175,Ansem's Report 8,btltbl.bin,27F2,0D,13,Item Icon
+175,Ansem's Report 8,btltbl.bin,27F3,03,3,???
+175,Ansem's Report 8,btltbl.bin,27F4,00 00,0,???
+175,Ansem's Report 8,btltbl.bin,27F6,00 00,0,???
+175,Ansem's Report 8,btltbl.bin,27F8,00 00,0,Buy Price
+175,Ansem's Report 8,btltbl.bin,27FA,00 00,0,Sell Price
+175,Ansem's Report 8,btltbl.bin,27FC,40 CC,52288,???
+175,Ansem's Report 8,btltbl.bin,27FE,00 00,0,???
+175,Ansem's Report 8,btltbl.bin,2800,93 0A 00 00,2707,Sort Order
+176,Ansem's Report 9,btltbl.bin,2804,CE 00,206,Item Name
+176,Ansem's Report 9,btltbl.bin,2806,0D,13,Item Icon
+176,Ansem's Report 9,btltbl.bin,2807,03,3,???
+176,Ansem's Report 9,btltbl.bin,2808,00 00,0,???
+176,Ansem's Report 9,btltbl.bin,280A,00 00,0,???
+176,Ansem's Report 9,btltbl.bin,280C,00 00,0,Buy Price
+176,Ansem's Report 9,btltbl.bin,280E,00 00,0,Sell Price
+176,Ansem's Report 9,btltbl.bin,2810,40 CC,52288,???
+176,Ansem's Report 9,btltbl.bin,2812,00 00,0,???
+176,Ansem's Report 9,btltbl.bin,2814,94 0A 00 00,2708,Sort Order
+177,Ansem's Report 10,btltbl.bin,2818,CF 00,207,Item Name
+177,Ansem's Report 10,btltbl.bin,281A,0D,13,Item Icon
+177,Ansem's Report 10,btltbl.bin,281B,03,3,???
+177,Ansem's Report 10,btltbl.bin,281C,00 00,0,???
+177,Ansem's Report 10,btltbl.bin,281E,00 00,0,???
+177,Ansem's Report 10,btltbl.bin,2820,00 00,0,Buy Price
+177,Ansem's Report 10,btltbl.bin,2822,00 00,0,Sell Price
+177,Ansem's Report 10,btltbl.bin,2824,40 CC,52288,???
+177,Ansem's Report 10,btltbl.bin,2826,00 00,0,???
+177,Ansem's Report 10,btltbl.bin,2828,95 0A 00 00,2709,Sort Order
+178,Khama Vol. 8,btltbl.bin,282C,D0 00,208,Item Name
+178,Khama Vol. 8,btltbl.bin,282E,0D,13,Item Icon
+178,Khama Vol. 8,btltbl.bin,282F,03,3,???
+178,Khama Vol. 8,btltbl.bin,2830,00 00,0,???
+178,Khama Vol. 8,btltbl.bin,2832,00 00,0,???
+178,Khama Vol. 8,btltbl.bin,2834,00 00,0,Buy Price
+178,Khama Vol. 8,btltbl.bin,2836,00 00,0,Sell Price
+178,Khama Vol. 8,btltbl.bin,2838,F0 F7,63472,???
+178,Khama Vol. 8,btltbl.bin,283A,00 00,0,???
+178,Khama Vol. 8,btltbl.bin,283C,F1 0A 00 00,2801,Sort Order
+179,Salegg Vol. 6,btltbl.bin,2840,D1 00,209,Item Name
+179,Salegg Vol. 6,btltbl.bin,2842,0D,13,Item Icon
+179,Salegg Vol. 6,btltbl.bin,2843,03,3,???
+179,Salegg Vol. 6,btltbl.bin,2844,00 00,0,???
+179,Salegg Vol. 6,btltbl.bin,2846,00 00,0,???
+179,Salegg Vol. 6,btltbl.bin,2848,00 00,0,Buy Price
+179,Salegg Vol. 6,btltbl.bin,284A,00 00,0,Sell Price
+179,Salegg Vol. 6,btltbl.bin,284C,F0 F7,63472,???
+179,Salegg Vol. 6,btltbl.bin,284E,00 00,0,???
+179,Salegg Vol. 6,btltbl.bin,2850,F2 0A 00 00,2802,Sort Order
+180,Azal Vol. 3,btltbl.bin,2854,D2 00,210,Item Name
+180,Azal Vol. 3,btltbl.bin,2856,0D,13,Item Icon
+180,Azal Vol. 3,btltbl.bin,2857,03,3,???
+180,Azal Vol. 3,btltbl.bin,2858,00 00,0,???
+180,Azal Vol. 3,btltbl.bin,285A,00 00,0,???
+180,Azal Vol. 3,btltbl.bin,285C,00 00,0,Buy Price
+180,Azal Vol. 3,btltbl.bin,285E,00 00,0,Sell Price
+180,Azal Vol. 3,btltbl.bin,2860,F0 F7,63472,???
+180,Azal Vol. 3,btltbl.bin,2862,00 00,0,???
+180,Azal Vol. 3,btltbl.bin,2864,F3 0A 00 00,2803,Sort Order
+181,Mava Vol. 3,btltbl.bin,2868,D3 00,211,Item Name
+181,Mava Vol. 3,btltbl.bin,286A,0D,13,Item Icon
+181,Mava Vol. 3,btltbl.bin,286B,03,3,???
+181,Mava Vol. 3,btltbl.bin,286C,00 00,0,???
+181,Mava Vol. 3,btltbl.bin,286E,00 00,0,???
+181,Mava Vol. 3,btltbl.bin,2870,00 00,0,Buy Price
+181,Mava Vol. 3,btltbl.bin,2872,00 00,0,Sell Price
+181,Mava Vol. 3,btltbl.bin,2874,F0 F7,63472,???
+181,Mava Vol. 3,btltbl.bin,2876,00 00,0,???
+181,Mava Vol. 3,btltbl.bin,2878,F4 0A 00 00,2804,Sort Order
+182,Mava Vol. 6,btltbl.bin,287C,D4 00,212,Item Name
+182,Mava Vol. 6,btltbl.bin,287E,0D,13,Item Icon
+182,Mava Vol. 6,btltbl.bin,287F,03,3,???
+182,Mava Vol. 6,btltbl.bin,2880,00 00,0,???
+182,Mava Vol. 6,btltbl.bin,2882,00 00,0,???
+182,Mava Vol. 6,btltbl.bin,2884,00 00,0,Buy Price
+182,Mava Vol. 6,btltbl.bin,2886,00 00,0,Sell Price
+182,Mava Vol. 6,btltbl.bin,2888,F0 F7,63472,???
+182,Mava Vol. 6,btltbl.bin,288A,00 00,0,???
+182,Mava Vol. 6,btltbl.bin,288C,F5 0A 00 00,2805,Sort Order
+183,Theon Vol. 6,btltbl.bin,2890,D5 00,213,Item Name
+183,Theon Vol. 6,btltbl.bin,2892,0D,13,Item Icon
+183,Theon Vol. 6,btltbl.bin,2893,03,3,???
+183,Theon Vol. 6,btltbl.bin,2894,00 00,0,???
+183,Theon Vol. 6,btltbl.bin,2896,00 00,0,???
+183,Theon Vol. 6,btltbl.bin,2898,00 00,0,Buy Price
+183,Theon Vol. 6,btltbl.bin,289A,00 00,0,Sell Price
+183,Theon Vol. 6,btltbl.bin,289C,F0 F7,63472,???
+183,Theon Vol. 6,btltbl.bin,289E,00 00,0,???
+183,Theon Vol. 6,btltbl.bin,28A0,F6 0A 00 00,2806,Sort Order
+184,Nahara Vol. 5,btltbl.bin,28A4,D6 00,214,Item Name
+184,Nahara Vol. 5,btltbl.bin,28A6,0D,13,Item Icon
+184,Nahara Vol. 5,btltbl.bin,28A7,03,3,???
+184,Nahara Vol. 5,btltbl.bin,28A8,00 00,0,???
+184,Nahara Vol. 5,btltbl.bin,28AA,00 00,0,???
+184,Nahara Vol. 5,btltbl.bin,28AC,00 00,0,Buy Price
+184,Nahara Vol. 5,btltbl.bin,28AE,00 00,0,Sell Price
+184,Nahara Vol. 5,btltbl.bin,28B0,F0 F7,63472,???
+184,Nahara Vol. 5,btltbl.bin,28B2,00 00,0,???
+184,Nahara Vol. 5,btltbl.bin,28B4,F7 0A 00 00,2807,Sort Order
+185,Hafet Vol. 4,btltbl.bin,28B8,D7 00,215,Item Name
+185,Hafet Vol. 4,btltbl.bin,28BA,0D,13,Item Icon
+185,Hafet Vol. 4,btltbl.bin,28BB,03,3,???
+185,Hafet Vol. 4,btltbl.bin,28BC,00 00,0,???
+185,Hafet Vol. 4,btltbl.bin,28BE,00 00,0,???
+185,Hafet Vol. 4,btltbl.bin,28C0,00 00,0,Buy Price
+185,Hafet Vol. 4,btltbl.bin,28C2,00 00,0,Sell Price
+185,Hafet Vol. 4,btltbl.bin,28C4,F0 F7,63472,???
+185,Hafet Vol. 4,btltbl.bin,28C6,00 00,0,???
+185,Hafet Vol. 4,btltbl.bin,28C8,F8 0A 00 00,2808,Sort Order
+186,Empty Bottle,btltbl.bin,28CC,D8 00,216,Item Name
+186,Empty Bottle,btltbl.bin,28CE,0D,13,Item Icon
+186,Empty Bottle,btltbl.bin,28CF,03,3,???
+186,Empty Bottle,btltbl.bin,28D0,00 00,0,???
+186,Empty Bottle,btltbl.bin,28D2,00 00,0,???
+186,Empty Bottle,btltbl.bin,28D4,00 00,0,Buy Price
+186,Empty Bottle,btltbl.bin,28D6,00 00,0,Sell Price
+186,Empty Bottle,btltbl.bin,28D8,18 F8,63512,???
+186,Empty Bottle,btltbl.bin,28DA,00 00,0,???
+186,Empty Bottle,btltbl.bin,28DC,69 09 00 00,2409,Sort Order
+187,Old Book,btltbl.bin,28E0,D9 00,217,Item Name
+187,Old Book,btltbl.bin,28E2,0D,13,Item Icon
+187,Old Book,btltbl.bin,28E3,03,3,???
+187,Old Book,btltbl.bin,28E4,00 00,0,???
+187,Old Book,btltbl.bin,28E6,00 00,0,???
+187,Old Book,btltbl.bin,28E8,00 00,0,Buy Price
+187,Old Book,btltbl.bin,28EA,00 00,0,Sell Price
+187,Old Book,btltbl.bin,28EC,48 F8,63560,???
+187,Old Book,btltbl.bin,28EE,00 00,0,???
+187,Old Book,btltbl.bin,28F0,60 09 00 00,2400,Sort Order
+188,Emblem Piece (Flame),btltbl.bin,28F4,DA 00,218,Item Name
+188,Emblem Piece (Flame),btltbl.bin,28F6,0D,13,Item Icon
+188,Emblem Piece (Flame),btltbl.bin,28F7,03,3,???
+188,Emblem Piece (Flame),btltbl.bin,28F8,00 00,0,???
+188,Emblem Piece (Flame),btltbl.bin,28FA,00 00,0,???
+188,Emblem Piece (Flame),btltbl.bin,28FC,00 00,0,Buy Price
+188,Emblem Piece (Flame),btltbl.bin,28FE,00 00,0,Sell Price
+188,Emblem Piece (Flame),btltbl.bin,2900,80 F8,63616,???
+188,Emblem Piece (Flame),btltbl.bin,2902,00 00,0,???
+188,Emblem Piece (Flame),btltbl.bin,2904,FB 0A 00 00,2811,Sort Order
+189,Emblem Piece (Chest),btltbl.bin,2908,DB 00,219,Item Name
+189,Emblem Piece (Chest),btltbl.bin,290A,0D,13,Item Icon
+189,Emblem Piece (Chest),btltbl.bin,290B,03,3,???
+189,Emblem Piece (Chest),btltbl.bin,290C,00 00,0,???
+189,Emblem Piece (Chest),btltbl.bin,290E,00 00,0,???
+189,Emblem Piece (Chest),btltbl.bin,2910,00 00,0,Buy Price
+189,Emblem Piece (Chest),btltbl.bin,2912,00 00,0,Sell Price
+189,Emblem Piece (Chest),btltbl.bin,2914,B8 F8,63672,???
+189,Emblem Piece (Chest),btltbl.bin,2916,00 00,0,???
+189,Emblem Piece (Chest),btltbl.bin,2918,FC 0A 00 00,2812,Sort Order
+190,Emblem Piece (Statue),btltbl.bin,291C,DC 00,220,Item Name
+190,Emblem Piece (Statue),btltbl.bin,291E,0D,13,Item Icon
+190,Emblem Piece (Statue),btltbl.bin,291F,03,3,???
+190,Emblem Piece (Statue),btltbl.bin,2920,00 00,0,???
+190,Emblem Piece (Statue),btltbl.bin,2922,00 00,0,???
+190,Emblem Piece (Statue),btltbl.bin,2924,00 00,0,Buy Price
+190,Emblem Piece (Statue),btltbl.bin,2926,00 00,0,Sell Price
+190,Emblem Piece (Statue),btltbl.bin,2928,E8 F8,63720,???
+190,Emblem Piece (Statue),btltbl.bin,292A,00 00,0,???
+190,Emblem Piece (Statue),btltbl.bin,292C,FD 0A 00 00,2813,Sort Order
+191,Emblem Piece (Fountain),btltbl.bin,2930,DD 00,221,Item Name
+191,Emblem Piece (Fountain),btltbl.bin,2932,0D,13,Item Icon
+191,Emblem Piece (Fountain),btltbl.bin,2933,03,3,???
+191,Emblem Piece (Fountain),btltbl.bin,2934,00 00,0,???
+191,Emblem Piece (Fountain),btltbl.bin,2936,00 00,0,???
+191,Emblem Piece (Fountain),btltbl.bin,2938,00 00,0,Buy Price
+191,Emblem Piece (Fountain),btltbl.bin,293A,00 00,0,Sell Price
+191,Emblem Piece (Fountain),btltbl.bin,293C,18 F9,63768,???
+191,Emblem Piece (Fountain),btltbl.bin,293E,00 00,0,???
+191,Emblem Piece (Fountain),btltbl.bin,2940,FE 0A 00 00,2814,Sort Order
+192,Log,btltbl.bin,2944,DE 00,222,Item Name
+192,Log,btltbl.bin,2946,0D,13,Item Icon
+192,Log,btltbl.bin,2947,03,3,???
+192,Log,btltbl.bin,2948,00 00,0,???
+192,Log,btltbl.bin,294A,00 00,0,???
+192,Log,btltbl.bin,294C,00 00,0,Buy Price
+192,Log,btltbl.bin,294E,00 00,0,Sell Price
+192,Log,btltbl.bin,2950,48 F9,63816,???
+192,Log,btltbl.bin,2952,00 00,0,???
+192,Log,btltbl.bin,2954,6F 09 00 00,2415,Sort Order
+193,Cloth,btltbl.bin,2958,DF 00,223,Item Name
+193,Cloth,btltbl.bin,295A,0D,13,Item Icon
+193,Cloth,btltbl.bin,295B,03,3,???
+193,Cloth,btltbl.bin,295C,00 00,0,???
+193,Cloth,btltbl.bin,295E,00 00,0,???
+193,Cloth,btltbl.bin,2960,00 00,0,Buy Price
+193,Cloth,btltbl.bin,2962,00 00,0,Sell Price
+193,Cloth,btltbl.bin,2964,68 F9,63848,???
+193,Cloth,btltbl.bin,2966,00 00,0,???
+193,Cloth,btltbl.bin,2968,70 09 00 00,2416,Sort Order
+194,Rope,btltbl.bin,296C,E0 00,224,Item Name
+194,Rope,btltbl.bin,296E,0D,13,Item Icon
+194,Rope,btltbl.bin,296F,03,3,???
+194,Rope,btltbl.bin,2970,00 00,0,???
+194,Rope,btltbl.bin,2972,00 00,0,???
+194,Rope,btltbl.bin,2974,00 00,0,Buy Price
+194,Rope,btltbl.bin,2976,00 00,0,Sell Price
+194,Rope,btltbl.bin,2978,88 F9,63880,???
+194,Rope,btltbl.bin,297A,00 00,0,???
+194,Rope,btltbl.bin,297C,71 09 00 00,2417,Sort Order
+195,Seagull Egg,btltbl.bin,2980,E1 00,225,Item Name
+195,Seagull Egg,btltbl.bin,2982,0D,13,Item Icon
+195,Seagull Egg,btltbl.bin,2983,03,3,???
+195,Seagull Egg,btltbl.bin,2984,00 00,0,???
+195,Seagull Egg,btltbl.bin,2986,00 00,0,???
+195,Seagull Egg,btltbl.bin,2988,00 00,0,Buy Price
+195,Seagull Egg,btltbl.bin,298A,00 00,0,Sell Price
+195,Seagull Egg,btltbl.bin,298C,B0 F9,63920,???
+195,Seagull Egg,btltbl.bin,298E,00 00,0,???
+195,Seagull Egg,btltbl.bin,2990,72 09 00 00,2418,Sort Order
+196,Fish,btltbl.bin,2994,E2 00,226,Item Name
+196,Fish,btltbl.bin,2996,0D,13,Item Icon
+196,Fish,btltbl.bin,2997,03,3,???
+196,Fish,btltbl.bin,2998,00 00,0,???
+196,Fish,btltbl.bin,299A,00 00,0,???
+196,Fish,btltbl.bin,299C,00 00,0,Buy Price
+196,Fish,btltbl.bin,299E,00 00,0,Sell Price
+196,Fish,btltbl.bin,29A0,D8 F9,63960,???
+196,Fish,btltbl.bin,29A2,00 00,0,???
+196,Fish,btltbl.bin,29A4,73 09 00 00,2419,Sort Order
+197,Mushroom,btltbl.bin,29A8,E3 00,227,Item Name
+197,Mushroom,btltbl.bin,29AA,0D,13,Item Icon
+197,Mushroom,btltbl.bin,29AB,03,3,???
+197,Mushroom,btltbl.bin,29AC,00 00,0,???
+197,Mushroom,btltbl.bin,29AE,00 00,0,???
+197,Mushroom,btltbl.bin,29B0,00 00,0,Buy Price
+197,Mushroom,btltbl.bin,29B2,00 00,0,Sell Price
+197,Mushroom,btltbl.bin,29B4,00 FA,64000,???
+197,Mushroom,btltbl.bin,29B6,00 00,0,???
+197,Mushroom,btltbl.bin,29B8,74 09 00 00,2420,Sort Order
+198,Coconut,btltbl.bin,29BC,E4 00,228,Item Name
+198,Coconut,btltbl.bin,29BE,0D,13,Item Icon
+198,Coconut,btltbl.bin,29BF,03,3,???
+198,Coconut,btltbl.bin,29C0,00 00,0,???
+198,Coconut,btltbl.bin,29C2,00 00,0,???
+198,Coconut,btltbl.bin,29C4,00 00,0,Buy Price
+198,Coconut,btltbl.bin,29C6,00 00,0,Sell Price
+198,Coconut,btltbl.bin,29C8,28 FA,64040,???
+198,Coconut,btltbl.bin,29CA,00 00,0,???
+198,Coconut,btltbl.bin,29CC,75 09 00 00,2421,Sort Order
+199,Drinking Water,btltbl.bin,29D0,E5 00,229,Item Name
+199,Drinking Water,btltbl.bin,29D2,0D,13,Item Icon
+199,Drinking Water,btltbl.bin,29D3,03,3,???
+199,Drinking Water,btltbl.bin,29D4,00 00,0,???
+199,Drinking Water,btltbl.bin,29D6,00 00,0,???
+199,Drinking Water,btltbl.bin,29D8,00 00,0,Buy Price
+199,Drinking Water,btltbl.bin,29DA,00 00,0,Sell Price
+199,Drinking Water,btltbl.bin,29DC,50 FA,64080,???
+199,Drinking Water,btltbl.bin,29DE,00 00,0,???
+199,Drinking Water,btltbl.bin,29E0,76 09 00 00,2422,Sort Order
+200,Navi-G Piece 1,btltbl.bin,29E4,E6 00,230,Item Name
+200,Navi-G Piece 1,btltbl.bin,29E6,0D,13,Item Icon
+200,Navi-G Piece 1,btltbl.bin,29E7,03,3,???
+200,Navi-G Piece 1,btltbl.bin,29E8,00 00,0,???
+200,Navi-G Piece 1,btltbl.bin,29EA,00 00,0,???
+200,Navi-G Piece 1,btltbl.bin,29EC,00 00,0,Buy Price
+200,Navi-G Piece 1,btltbl.bin,29EE,00 00,0,Sell Price
+200,Navi-G Piece 1,btltbl.bin,29F0,78 FA,64120,???
+200,Navi-G Piece 1,btltbl.bin,29F2,00 00,0,???
+200,Navi-G Piece 1,btltbl.bin,29F4,06 09 00 00,2310,Sort Order
+201,Navi-G Piece 2,btltbl.bin,29F8,E7 00,231,Item Name
+201,Navi-G Piece 2,btltbl.bin,29FA,0D,13,Item Icon
+201,Navi-G Piece 2,btltbl.bin,29FB,03,3,???
+201,Navi-G Piece 2,btltbl.bin,29FC,00 00,0,???
+201,Navi-G Piece 2,btltbl.bin,29FE,00 00,0,???
+201,Navi-G Piece 2,btltbl.bin,2A00,00 00,0,Buy Price
+201,Navi-G Piece 2,btltbl.bin,2A02,00 00,0,Sell Price
+201,Navi-G Piece 2,btltbl.bin,2A04,B8 FA,64184,???
+201,Navi-G Piece 2,btltbl.bin,2A06,00 00,0,???
+201,Navi-G Piece 2,btltbl.bin,2A08,07 09 00 00,2311,Sort Order
+202,Navi-Gummi Unused,btltbl.bin,2A0C,E8 00,232,Item Name
+202,Navi-Gummi Unused,btltbl.bin,2A0E,0D,13,Item Icon
+202,Navi-Gummi Unused,btltbl.bin,2A0F,03,3,???
+202,Navi-Gummi Unused,btltbl.bin,2A10,00 00,0,???
+202,Navi-Gummi Unused,btltbl.bin,2A12,00 00,0,???
+202,Navi-Gummi Unused,btltbl.bin,2A14,00 00,0,Buy Price
+202,Navi-Gummi Unused,btltbl.bin,2A16,00 00,0,Sell Price
+202,Navi-Gummi Unused,btltbl.bin,2A18,F8 FA,64248,???
+202,Navi-Gummi Unused,btltbl.bin,2A1A,00 00,0,???
+202,Navi-Gummi Unused,btltbl.bin,2A1C,08 09 00 00,2312,Sort Order
+203,Navi-G Piece 3,btltbl.bin,2A20,E9 00,233,Item Name
+203,Navi-G Piece 3,btltbl.bin,2A22,0D,13,Item Icon
+203,Navi-G Piece 3,btltbl.bin,2A23,03,3,???
+203,Navi-G Piece 3,btltbl.bin,2A24,00 00,0,???
+203,Navi-G Piece 3,btltbl.bin,2A26,00 00,0,???
+203,Navi-G Piece 3,btltbl.bin,2A28,00 00,0,Buy Price
+203,Navi-G Piece 3,btltbl.bin,2A2A,00 00,0,Sell Price
+203,Navi-G Piece 3,btltbl.bin,2A2C,10 FB,64272,???
+203,Navi-G Piece 3,btltbl.bin,2A2E,00 00,0,???
+203,Navi-G Piece 3,btltbl.bin,2A30,09 09 00 00,2313,Sort Order
+204,Navi-G Piece 4,btltbl.bin,2A34,EA 00,234,Item Name
+204,Navi-G Piece 4,btltbl.bin,2A36,0D,13,Item Icon
+204,Navi-G Piece 4,btltbl.bin,2A37,03,3,???
+204,Navi-G Piece 4,btltbl.bin,2A38,00 00,0,???
+204,Navi-G Piece 4,btltbl.bin,2A3A,00 00,0,???
+204,Navi-G Piece 4,btltbl.bin,2A3C,00 00,0,Buy Price
+204,Navi-G Piece 4,btltbl.bin,2A3E,00 00,0,Sell Price
+204,Navi-G Piece 4,btltbl.bin,2A40,50 FB,64336,???
+204,Navi-G Piece 4,btltbl.bin,2A42,00 00,0,???
+204,Navi-G Piece 4,btltbl.bin,2A44,0A 09 00 00,2314,Sort Order
+205,Navi-Gummi,btltbl.bin,2A48,EB 00,235,Item Name
+205,Navi-Gummi,btltbl.bin,2A4A,0D,13,Item Icon
+205,Navi-Gummi,btltbl.bin,2A4B,03,3,???
+205,Navi-Gummi,btltbl.bin,2A4C,00 00,0,???
+205,Navi-Gummi,btltbl.bin,2A4E,00 00,0,???
+205,Navi-Gummi,btltbl.bin,2A50,00 00,0,Buy Price
+205,Navi-Gummi,btltbl.bin,2A52,00 00,0,Sell Price
+205,Navi-Gummi,btltbl.bin,2A54,F8 FA,64248,???
+205,Navi-Gummi,btltbl.bin,2A56,00 00,0,???
+205,Navi-Gummi,btltbl.bin,2A58,0B 09 00 00,2315,Sort Order
+206,Watergleam,btltbl.bin,2A5C,EC 00,236,Item Name
+206,Watergleam,btltbl.bin,2A5E,0D,13,Item Icon
+206,Watergleam,btltbl.bin,2A5F,03,3,???
+206,Watergleam,btltbl.bin,2A60,00 00,0,???
+206,Watergleam,btltbl.bin,2A62,00 00,0,???
+206,Watergleam,btltbl.bin,2A64,00 00,0,Buy Price
+206,Watergleam,btltbl.bin,2A66,00 00,0,Sell Price
+206,Watergleam,btltbl.bin,2A68,88 FB,64392,???
+206,Watergleam,btltbl.bin,2A6A,00 00,0,???
+206,Watergleam,btltbl.bin,2A6C,FD 08 00 00,2301,Sort Order
+207,Naturespark,btltbl.bin,2A70,ED 00,237,Item Name
+207,Naturespark,btltbl.bin,2A72,0D,13,Item Icon
+207,Naturespark,btltbl.bin,2A73,03,3,???
+207,Naturespark,btltbl.bin,2A74,00 00,0,???
+207,Naturespark,btltbl.bin,2A76,00 00,0,???
+207,Naturespark,btltbl.bin,2A78,00 00,0,Buy Price
+207,Naturespark,btltbl.bin,2A7A,00 00,0,Sell Price
+207,Naturespark,btltbl.bin,2A7C,88 FB,64392,???
+207,Naturespark,btltbl.bin,2A7E,00 00,0,???
+207,Naturespark,btltbl.bin,2A80,FE 08 00 00,2302,Sort Order
+208,Fireglow,btltbl.bin,2A84,EE 00,238,Item Name
+208,Fireglow,btltbl.bin,2A86,0D,13,Item Icon
+208,Fireglow,btltbl.bin,2A87,03,3,???
+208,Fireglow,btltbl.bin,2A88,00 00,0,???
+208,Fireglow,btltbl.bin,2A8A,00 00,0,???
+208,Fireglow,btltbl.bin,2A8C,00 00,0,Buy Price
+208,Fireglow,btltbl.bin,2A8E,00 00,0,Sell Price
+208,Fireglow,btltbl.bin,2A90,88 FB,64392,???
+208,Fireglow,btltbl.bin,2A92,00 00,0,???
+208,Fireglow,btltbl.bin,2A94,FF 08 00 00,2303,Sort Order
+209,Earthshine,btltbl.bin,2A98,EF 00,239,Item Name
+209,Earthshine,btltbl.bin,2A9A,0D,13,Item Icon
+209,Earthshine,btltbl.bin,2A9B,03,3,???
+209,Earthshine,btltbl.bin,2A9C,00 00,0,???
+209,Earthshine,btltbl.bin,2A9E,00 00,0,???
+209,Earthshine,btltbl.bin,2AA0,00 00,0,Buy Price
+209,Earthshine,btltbl.bin,2AA2,00 00,0,Sell Price
+209,Earthshine,btltbl.bin,2AA4,B8 FB,64440,???
+209,Earthshine,btltbl.bin,2AA6,00 00,0,???
+209,Earthshine,btltbl.bin,2AA8,00 09 00 00,2304,Sort Order
+210,Crystal Trident,btltbl.bin,2AAC,F0 00,240,Item Name
+210,Crystal Trident,btltbl.bin,2AAE,0D,13,Item Icon
+210,Crystal Trident,btltbl.bin,2AAF,03,3,???
+210,Crystal Trident,btltbl.bin,2AB0,00 00,0,???
+210,Crystal Trident,btltbl.bin,2AB2,00 00,0,???
+210,Crystal Trident,btltbl.bin,2AB4,00 00,0,Buy Price
+210,Crystal Trident,btltbl.bin,2AB6,00 00,0,Sell Price
+210,Crystal Trident,btltbl.bin,2AB8,D8 FB,64472,???
+210,Crystal Trident,btltbl.bin,2ABA,00 00,0,???
+210,Crystal Trident,btltbl.bin,2ABC,11 0B 00 00,2833,Sort Order
+211,Postcard,btltbl.bin,2AC0,F1 00,241,Item Name
+211,Postcard,btltbl.bin,2AC2,0D,13,Item Icon
+211,Postcard,btltbl.bin,2AC3,03,3,???
+211,Postcard,btltbl.bin,2AC4,00 00,0,???
+211,Postcard,btltbl.bin,2AC6,00 00,0,???
+211,Postcard,btltbl.bin,2AC8,00 00,0,Buy Price
+211,Postcard,btltbl.bin,2ACA,00 00,0,Sell Price
+211,Postcard,btltbl.bin,2ACC,F0 FB,64496,???
+211,Postcard,btltbl.bin,2ACE,00 00,0,???
+211,Postcard,btltbl.bin,2AD0,12 0B 00 00,2834,Sort Order
+212,Torn Page 1,btltbl.bin,2AD4,F2 00,242,Item Name
+212,Torn Page 1,btltbl.bin,2AD6,0D,13,Item Icon
+212,Torn Page 1,btltbl.bin,2AD7,03,3,???
+212,Torn Page 1,btltbl.bin,2AD8,00 00,0,???
+212,Torn Page 1,btltbl.bin,2ADA,00 00,0,???
+212,Torn Page 1,btltbl.bin,2ADC,00 00,0,Buy Price
+212,Torn Page 1,btltbl.bin,2ADE,00 00,0,Sell Price
+212,Torn Page 1,btltbl.bin,2AE0,00 FC,64512,???
+212,Torn Page 1,btltbl.bin,2AE2,00 00,0,???
+212,Torn Page 1,btltbl.bin,2AE4,13 0B 00 00,2835,Sort Order
+213,Torn Page 2,btltbl.bin,2AE8,F3 00,243,Item Name
+213,Torn Page 2,btltbl.bin,2AEA,0D,13,Item Icon
+213,Torn Page 2,btltbl.bin,2AEB,03,3,???
+213,Torn Page 2,btltbl.bin,2AEC,00 00,0,???
+213,Torn Page 2,btltbl.bin,2AEE,00 00,0,???
+213,Torn Page 2,btltbl.bin,2AF0,00 00,0,Buy Price
+213,Torn Page 2,btltbl.bin,2AF2,00 00,0,Sell Price
+213,Torn Page 2,btltbl.bin,2AF4,00 FC,64512,???
+213,Torn Page 2,btltbl.bin,2AF6,00 00,0,???
+213,Torn Page 2,btltbl.bin,2AF8,14 0B 00 00,2836,Sort Order
+214,Torn Page 3,btltbl.bin,2AFC,F4 00,244,Item Name
+214,Torn Page 3,btltbl.bin,2AFE,0D,13,Item Icon
+214,Torn Page 3,btltbl.bin,2AFF,03,3,???
+214,Torn Page 3,btltbl.bin,2B00,00 00,0,???
+214,Torn Page 3,btltbl.bin,2B02,00 00,0,???
+214,Torn Page 3,btltbl.bin,2B04,00 00,0,Buy Price
+214,Torn Page 3,btltbl.bin,2B06,00 00,0,Sell Price
+214,Torn Page 3,btltbl.bin,2B08,00 FC,64512,???
+214,Torn Page 3,btltbl.bin,2B0A,00 00,0,???
+214,Torn Page 3,btltbl.bin,2B0C,15 0B 00 00,2837,Sort Order
+215,Torn Page 4,btltbl.bin,2B10,F5 00,245,Item Name
+215,Torn Page 4,btltbl.bin,2B12,0D,13,Item Icon
+215,Torn Page 4,btltbl.bin,2B13,03,3,???
+215,Torn Page 4,btltbl.bin,2B14,00 00,0,???
+215,Torn Page 4,btltbl.bin,2B16,00 00,0,???
+215,Torn Page 4,btltbl.bin,2B18,00 00,0,Buy Price
+215,Torn Page 4,btltbl.bin,2B1A,00 00,0,Sell Price
+215,Torn Page 4,btltbl.bin,2B1C,00 FC,64512,???
+215,Torn Page 4,btltbl.bin,2B1E,00 00,0,???
+215,Torn Page 4,btltbl.bin,2B20,16 0B 00 00,2838,Sort Order
+216,Torn Page 5,btltbl.bin,2B24,F6 00,246,Item Name
+216,Torn Page 5,btltbl.bin,2B26,0D,13,Item Icon
+216,Torn Page 5,btltbl.bin,2B27,03,3,???
+216,Torn Page 5,btltbl.bin,2B28,00 00,0,???
+216,Torn Page 5,btltbl.bin,2B2A,00 00,0,???
+216,Torn Page 5,btltbl.bin,2B2C,00 00,0,Buy Price
+216,Torn Page 5,btltbl.bin,2B2E,00 00,0,Sell Price
+216,Torn Page 5,btltbl.bin,2B30,00 FC,64512,???
+216,Torn Page 5,btltbl.bin,2B32,00 00,0,???
+216,Torn Page 5,btltbl.bin,2B34,17 0B 00 00,2839,Sort Order
+217,Slide 1,btltbl.bin,2B38,F7 00,247,Item Name
+217,Slide 1,btltbl.bin,2B3A,0D,13,Item Icon
+217,Slide 1,btltbl.bin,2B3B,03,3,???
+217,Slide 1,btltbl.bin,2B3C,00 00,0,???
+217,Slide 1,btltbl.bin,2B3E,00 00,0,???
+217,Slide 1,btltbl.bin,2B40,00 00,0,Buy Price
+217,Slide 1,btltbl.bin,2B42,00 00,0,Sell Price
+217,Slide 1,btltbl.bin,2B44,30 FC,64560,???
+217,Slide 1,btltbl.bin,2B46,00 00,0,???
+217,Slide 1,btltbl.bin,2B48,18 0B 00 00,2840,Sort Order
+218,Slide 2,btltbl.bin,2B4C,F8 00,248,Item Name
+218,Slide 2,btltbl.bin,2B4E,0D,13,Item Icon
+218,Slide 2,btltbl.bin,2B4F,03,3,???
+218,Slide 2,btltbl.bin,2B50,00 00,0,???
+218,Slide 2,btltbl.bin,2B52,00 00,0,???
+218,Slide 2,btltbl.bin,2B54,00 00,0,Buy Price
+218,Slide 2,btltbl.bin,2B56,00 00,0,Sell Price
+218,Slide 2,btltbl.bin,2B58,30 FC,64560,???
+218,Slide 2,btltbl.bin,2B5A,00 00,0,???
+218,Slide 2,btltbl.bin,2B5C,19 0B 00 00,2841,Sort Order
+219,Slide 3,btltbl.bin,2B60,F9 00,249,Item Name
+219,Slide 3,btltbl.bin,2B62,0D,13,Item Icon
+219,Slide 3,btltbl.bin,2B63,03,3,???
+219,Slide 3,btltbl.bin,2B64,00 00,0,???
+219,Slide 3,btltbl.bin,2B66,00 00,0,???
+219,Slide 3,btltbl.bin,2B68,00 00,0,Buy Price
+219,Slide 3,btltbl.bin,2B6A,00 00,0,Sell Price
+219,Slide 3,btltbl.bin,2B6C,30 FC,64560,???
+219,Slide 3,btltbl.bin,2B6E,00 00,0,???
+219,Slide 3,btltbl.bin,2B70,1A 0B 00 00,2842,Sort Order
+220,Slide 4,btltbl.bin,2B74,FA 00,250,Item Name
+220,Slide 4,btltbl.bin,2B76,0D,13,Item Icon
+220,Slide 4,btltbl.bin,2B77,03,3,???
+220,Slide 4,btltbl.bin,2B78,00 00,0,???
+220,Slide 4,btltbl.bin,2B7A,00 00,0,???
+220,Slide 4,btltbl.bin,2B7C,00 00,0,Buy Price
+220,Slide 4,btltbl.bin,2B7E,00 00,0,Sell Price
+220,Slide 4,btltbl.bin,2B80,30 FC,64560,???
+220,Slide 4,btltbl.bin,2B82,00 00,0,???
+220,Slide 4,btltbl.bin,2B84,1B 0B 00 00,2843,Sort Order
+221,Slide 5,btltbl.bin,2B88,FB 00,251,Item Name
+221,Slide 5,btltbl.bin,2B8A,0D,13,Item Icon
+221,Slide 5,btltbl.bin,2B8B,03,3,???
+221,Slide 5,btltbl.bin,2B8C,00 00,0,???
+221,Slide 5,btltbl.bin,2B8E,00 00,0,???
+221,Slide 5,btltbl.bin,2B90,00 00,0,Buy Price
+221,Slide 5,btltbl.bin,2B92,00 00,0,Sell Price
+221,Slide 5,btltbl.bin,2B94,30 FC,64560,???
+221,Slide 5,btltbl.bin,2B96,00 00,0,???
+221,Slide 5,btltbl.bin,2B98,1C 0B 00 00,2844,Sort Order
+222,Slide 6,btltbl.bin,2B9C,FC 00,252,Item Name
+222,Slide 6,btltbl.bin,2B9E,0D,13,Item Icon
+222,Slide 6,btltbl.bin,2B9F,03,3,???
+222,Slide 6,btltbl.bin,2BA0,00 00,0,???
+222,Slide 6,btltbl.bin,2BA2,00 00,0,???
+222,Slide 6,btltbl.bin,2BA4,00 00,0,Buy Price
+222,Slide 6,btltbl.bin,2BA6,00 00,0,Sell Price
+222,Slide 6,btltbl.bin,2BA8,30 FC,64560,???
+222,Slide 6,btltbl.bin,2BAA,00 00,0,???
+222,Slide 6,btltbl.bin,2BAC,1D 0B 00 00,2845,Sort Order
+223,Footprints,btltbl.bin,2BB0,FD 00,253,Item Name
+223,Footprints,btltbl.bin,2BB2,0D,13,Item Icon
+223,Footprints,btltbl.bin,2BB3,03,3,???
+223,Footprints,btltbl.bin,2BB4,00 00,0,???
+223,Footprints,btltbl.bin,2BB6,00 00,0,???
+223,Footprints,btltbl.bin,2BB8,00 00,0,Buy Price
+223,Footprints,btltbl.bin,2BBA,00 00,0,Sell Price
+223,Footprints,btltbl.bin,2BBC,60 FC,64608,???
+223,Footprints,btltbl.bin,2BBE,00 00,0,???
+223,Footprints,btltbl.bin,2BC0,1E 0B 00 00,2846,Sort Order
+224,Claw Marks,btltbl.bin,2BC4,FE 00,254,Item Name
+224,Claw Marks,btltbl.bin,2BC6,0D,13,Item Icon
+224,Claw Marks,btltbl.bin,2BC7,03,3,???
+224,Claw Marks,btltbl.bin,2BC8,00 00,0,???
+224,Claw Marks,btltbl.bin,2BCA,00 00,0,???
+224,Claw Marks,btltbl.bin,2BCC,00 00,0,Buy Price
+224,Claw Marks,btltbl.bin,2BCE,00 00,0,Sell Price
+224,Claw Marks,btltbl.bin,2BD0,60 FC,64608,???
+224,Claw Marks,btltbl.bin,2BD2,00 00,0,???
+224,Claw Marks,btltbl.bin,2BD4,1F 0B 00 00,2847,Sort Order
+225,Stench,btltbl.bin,2BD8,FF 00,255,Item Name
+225,Stench,btltbl.bin,2BDA,0D,13,Item Icon
+225,Stench,btltbl.bin,2BDB,03,3,???
+225,Stench,btltbl.bin,2BDC,00 00,0,???
+225,Stench,btltbl.bin,2BDE,00 00,0,???
+225,Stench,btltbl.bin,2BE0,00 00,0,Buy Price
+225,Stench,btltbl.bin,2BE2,00 00,0,Sell Price
+225,Stench,btltbl.bin,2BE4,60 FC,64608,???
+225,Stench,btltbl.bin,2BE6,00 00,0,???
+225,Stench,btltbl.bin,2BE8,20 0B 00 00,2848,Sort Order
+226,Antenna,btltbl.bin,2BEC,00 01,256,Item Name
+226,Antenna,btltbl.bin,2BEE,0D,13,Item Icon
+226,Antenna,btltbl.bin,2BEF,03,3,???
+226,Antenna,btltbl.bin,2BF0,00 00,0,???
+226,Antenna,btltbl.bin,2BF2,00 00,0,???
+226,Antenna,btltbl.bin,2BF4,00 00,0,Buy Price
+226,Antenna,btltbl.bin,2BF6,00 00,0,Sell Price
+226,Antenna,btltbl.bin,2BF8,60 FC,64608,???
+226,Antenna,btltbl.bin,2BFA,00 00,0,???
+226,Antenna,btltbl.bin,2BFC,21 0B 00 00,2849,Sort Order
+227,Forget-Me-Not,btltbl.bin,2C00,01 01,257,Item Name
+227,Forget-Me-Not,btltbl.bin,2C02,0D,13,Item Icon
+227,Forget-Me-Not,btltbl.bin,2C03,03,3,???
+227,Forget-Me-Not,btltbl.bin,2C04,00 00,0,???
+227,Forget-Me-Not,btltbl.bin,2C06,00 00,0,???
+227,Forget-Me-Not,btltbl.bin,2C08,00 00,0,Buy Price
+227,Forget-Me-Not,btltbl.bin,2C0A,00 00,0,Sell Price
+227,Forget-Me-Not,btltbl.bin,2C0C,90 FC,64656,???
+227,Forget-Me-Not,btltbl.bin,2C0E,00 00,0,???
+227,Forget-Me-Not,btltbl.bin,2C10,22 0B 00 00,2850,Sort Order
+228,Jack-In-The-Box,btltbl.bin,2C14,02 01,258,Item Name
+228,Jack-In-The-Box,btltbl.bin,2C16,0D,13,Item Icon
+228,Jack-In-The-Box,btltbl.bin,2C17,03,3,???
+228,Jack-In-The-Box,btltbl.bin,2C18,00 00,0,???
+228,Jack-In-The-Box,btltbl.bin,2C1A,00 00,0,???
+228,Jack-In-The-Box,btltbl.bin,2C1C,00 00,0,Buy Price
+228,Jack-In-The-Box,btltbl.bin,2C1E,00 00,0,Sell Price
+228,Jack-In-The-Box,btltbl.bin,2C20,B8 FC,64696,???
+228,Jack-In-The-Box,btltbl.bin,2C22,00 00,0,???
+228,Jack-In-The-Box,btltbl.bin,2C24,23 0B 00 00,2851,Sort Order
+229,Entry Pass,btltbl.bin,2C28,03 01,259,Item Name
+229,Entry Pass,btltbl.bin,2C2A,0D,13,Item Icon
+229,Entry Pass,btltbl.bin,2C2B,03,3,???
+229,Entry Pass,btltbl.bin,2C2C,00 00,0,???
+229,Entry Pass,btltbl.bin,2C2E,00 00,0,???
+229,Entry Pass,btltbl.bin,2C30,00 00,0,Buy Price
+229,Entry Pass,btltbl.bin,2C32,00 00,0,Sell Price
+229,Entry Pass,btltbl.bin,2C34,E0 FC,64736,???
+229,Entry Pass,btltbl.bin,2C36,00 00,0,???
+229,Entry Pass,btltbl.bin,2C38,24 0B 00 00,2852,Sort Order
+230,Hero License,btltbl.bin,2C3C,04 01,260,Item Name
+230,Hero License,btltbl.bin,2C3E,0D,13,Item Icon
+230,Hero License,btltbl.bin,2C3F,03,3,???
+230,Hero License,btltbl.bin,2C40,00 00,0,???
+230,Hero License,btltbl.bin,2C42,00 00,0,???
+230,Hero License,btltbl.bin,2C44,00 00,0,Buy Price
+230,Hero License,btltbl.bin,2C46,00 00,0,Sell Price
+230,Hero License,btltbl.bin,2C48,00 FD,64768,???
+230,Hero License,btltbl.bin,2C4A,00 00,0,???
+230,Hero License,btltbl.bin,2C4C,25 0B 00 00,2853,Sort Order
+231,Pretty Stone,btltbl.bin,2C50,05 01,261,Item Name
+231,Pretty Stone,btltbl.bin,2C52,0D,13,Item Icon
+231,Pretty Stone,btltbl.bin,2C53,03,3,???
+231,Pretty Stone,btltbl.bin,2C54,00 00,0,???
+231,Pretty Stone,btltbl.bin,2C56,00 00,0,???
+231,Pretty Stone,btltbl.bin,2C58,00 00,0,Buy Price
+231,Pretty Stone,btltbl.bin,2C5A,64 00,100,Sell Price
+231,Pretty Stone,btltbl.bin,2C5C,20 FD,64800,???
+231,Pretty Stone,btltbl.bin,2C5E,00 00,0,???
+231,Pretty Stone,btltbl.bin,2C60,26 0B 00 00,2854,Sort Order
+232,N41,btltbl.bin,2C64,06 01,262,Item Name
+232,N41,btltbl.bin,2C66,0D,13,Item Icon
+232,N41,btltbl.bin,2C67,03,3,???
+232,N41,btltbl.bin,2C68,00 00,0,???
+232,N41,btltbl.bin,2C6A,00 00,0,???
+232,N41,btltbl.bin,2C6C,00 00,0,Buy Price
+232,N41,btltbl.bin,2C6E,00 00,0,Sell Price
+232,N41,btltbl.bin,2C70,40 CC,52288,???
+232,N41,btltbl.bin,2C72,00 00,0,???
+232,N41,btltbl.bin,2C74,10 27 00 00,10000,Sort Order
+233,Lucid Shard,btltbl.bin,2C78,07 01,263,Item Name
+233,Lucid Shard,btltbl.bin,2C7A,0D,13,Item Icon
+233,Lucid Shard,btltbl.bin,2C7B,03,3,???
+233,Lucid Shard,btltbl.bin,2C7C,00 00,0,???
+233,Lucid Shard,btltbl.bin,2C7E,00 00,0,???
+233,Lucid Shard,btltbl.bin,2C80,00 00,0,Buy Price
+233,Lucid Shard,btltbl.bin,2C82,00 00,0,Sell Price
+233,Lucid Shard,btltbl.bin,2C84,58 FD,64856,???
+233,Lucid Shard,btltbl.bin,2C86,00 00,0,???
+233,Lucid Shard,btltbl.bin,2C88,B9 0B 00 00,3001,Sort Order
+234,Lucid Gem,btltbl.bin,2C8C,08 01,264,Item Name
+234,Lucid Gem,btltbl.bin,2C8E,0D,13,Item Icon
+234,Lucid Gem,btltbl.bin,2C8F,04,4,???
+234,Lucid Gem,btltbl.bin,2C90,00 00,0,???
+234,Lucid Gem,btltbl.bin,2C92,00 00,0,???
+234,Lucid Gem,btltbl.bin,2C94,00 00,0,Buy Price
+234,Lucid Gem,btltbl.bin,2C96,00 00,0,Sell Price
+234,Lucid Gem,btltbl.bin,2C98,98 FD,64920,???
+234,Lucid Gem,btltbl.bin,2C9A,00 00,0,???
+234,Lucid Gem,btltbl.bin,2C9C,BA 0B 00 00,3002,Sort Order
+235,Lucid Crystal,btltbl.bin,2CA0,09 01,265,Item Name
+235,Lucid Crystal,btltbl.bin,2CA2,0D,13,Item Icon
+235,Lucid Crystal,btltbl.bin,2CA3,05,5,???
+235,Lucid Crystal,btltbl.bin,2CA4,00 00,0,???
+235,Lucid Crystal,btltbl.bin,2CA6,00 00,0,???
+235,Lucid Crystal,btltbl.bin,2CA8,00 00,0,Buy Price
+235,Lucid Crystal,btltbl.bin,2CAA,00 00,0,Sell Price
+235,Lucid Crystal,btltbl.bin,2CAC,D0 FD,64976,???
+235,Lucid Crystal,btltbl.bin,2CAE,00 00,0,???
+235,Lucid Crystal,btltbl.bin,2CB0,BB 0B 00 00,3003,Sort Order
+236,Spirit Shard,btltbl.bin,2CB4,0A 01,266,Item Name
+236,Spirit Shard,btltbl.bin,2CB6,0D,13,Item Icon
+236,Spirit Shard,btltbl.bin,2CB7,03,3,???
+236,Spirit Shard,btltbl.bin,2CB8,00 00,0,???
+236,Spirit Shard,btltbl.bin,2CBA,00 00,0,???
+236,Spirit Shard,btltbl.bin,2CBC,00 00,0,Buy Price
+236,Spirit Shard,btltbl.bin,2CBE,00 00,0,Sell Price
+236,Spirit Shard,btltbl.bin,2CC0,10 FE,65040,???
+236,Spirit Shard,btltbl.bin,2CC2,00 00,0,???
+236,Spirit Shard,btltbl.bin,2CC4,C3 0B 00 00,3011,Sort Order
+237,Spirit Gem,btltbl.bin,2CC8,0B 01,267,Item Name
+237,Spirit Gem,btltbl.bin,2CCA,0D,13,Item Icon
+237,Spirit Gem,btltbl.bin,2CCB,04,4,???
+237,Spirit Gem,btltbl.bin,2CCC,00 00,0,???
+237,Spirit Gem,btltbl.bin,2CCE,00 00,0,???
+237,Spirit Gem,btltbl.bin,2CD0,00 00,0,Buy Price
+237,Spirit Gem,btltbl.bin,2CD2,00 00,0,Sell Price
+237,Spirit Gem,btltbl.bin,2CD4,50 FE,65104,???
+237,Spirit Gem,btltbl.bin,2CD6,00 00,0,???
+237,Spirit Gem,btltbl.bin,2CD8,C4 0B 00 00,3012,Sort Order
+238,Power Shard,btltbl.bin,2CDC,0C 01,268,Item Name
+238,Power Shard,btltbl.bin,2CDE,0D,13,Item Icon
+238,Power Shard,btltbl.bin,2CDF,03,3,???
+238,Power Shard,btltbl.bin,2CE0,00 00,0,???
+238,Power Shard,btltbl.bin,2CE2,00 00,0,???
+238,Power Shard,btltbl.bin,2CE4,00 00,0,Buy Price
+238,Power Shard,btltbl.bin,2CE6,00 00,0,Sell Price
+238,Power Shard,btltbl.bin,2CE8,88 FE,65160,???
+238,Power Shard,btltbl.bin,2CEA,00 00,0,???
+238,Power Shard,btltbl.bin,2CEC,CD 0B 00 00,3021,Sort Order
+239,Power Gem,btltbl.bin,2CF0,0D 01,269,Item Name
+239,Power Gem,btltbl.bin,2CF2,0D,13,Item Icon
+239,Power Gem,btltbl.bin,2CF3,04,4,???
+239,Power Gem,btltbl.bin,2CF4,00 00,0,???
+239,Power Gem,btltbl.bin,2CF6,00 00,0,???
+239,Power Gem,btltbl.bin,2CF8,00 00,0,Buy Price
+239,Power Gem,btltbl.bin,2CFA,00 00,0,Sell Price
+239,Power Gem,btltbl.bin,2CFC,C8 FE,65224,???
+239,Power Gem,btltbl.bin,2CFE,00 00,0,???
+239,Power Gem,btltbl.bin,2D00,CE 0B 00 00,3022,Sort Order
+240,Power Crystal,btltbl.bin,2D04,0E 01,270,Item Name
+240,Power Crystal,btltbl.bin,2D06,0D,13,Item Icon
+240,Power Crystal,btltbl.bin,2D07,05,5,???
+240,Power Crystal,btltbl.bin,2D08,00 00,0,???
+240,Power Crystal,btltbl.bin,2D0A,00 00,0,???
+240,Power Crystal,btltbl.bin,2D0C,00 00,0,Buy Price
+240,Power Crystal,btltbl.bin,2D0E,00 00,0,Sell Price
+240,Power Crystal,btltbl.bin,2D10,00 FF,65280,???
+240,Power Crystal,btltbl.bin,2D12,00 00,0,???
+240,Power Crystal,btltbl.bin,2D14,D9 0B 00 00,3033,Sort Order
+241,Blaze Shard,btltbl.bin,2D18,0F 01,271,Item Name
+241,Blaze Shard,btltbl.bin,2D1A,0D,13,Item Icon
+241,Blaze Shard,btltbl.bin,2D1B,03,3,???
+241,Blaze Shard,btltbl.bin,2D1C,00 00,0,???
+241,Blaze Shard,btltbl.bin,2D1E,00 00,0,???
+241,Blaze Shard,btltbl.bin,2D20,00 00,0,Buy Price
+241,Blaze Shard,btltbl.bin,2D22,00 00,0,Sell Price
+241,Blaze Shard,btltbl.bin,2D24,48 FF,65352,???
+241,Blaze Shard,btltbl.bin,2D26,00 00,0,???
+241,Blaze Shard,btltbl.bin,2D28,E1 0B 00 00,3041,Sort Order
+242,Blaze Gem,btltbl.bin,2D2C,10 01,272,Item Name
+242,Blaze Gem,btltbl.bin,2D2E,0D,13,Item Icon
+242,Blaze Gem,btltbl.bin,2D2F,04,4,???
+242,Blaze Gem,btltbl.bin,2D30,00 00,0,???
+242,Blaze Gem,btltbl.bin,2D32,00 00,0,???
+242,Blaze Gem,btltbl.bin,2D34,00 00,0,Buy Price
+242,Blaze Gem,btltbl.bin,2D36,00 00,0,Sell Price
+242,Blaze Gem,btltbl.bin,2D38,88 FF,65416,???
+242,Blaze Gem,btltbl.bin,2D3A,00 00,0,???
+242,Blaze Gem,btltbl.bin,2D3C,E2 0B 00 00,3042,Sort Order
+243,Frost Shard,btltbl.bin,2D40,11 01,273,Item Name
+243,Frost Shard,btltbl.bin,2D42,0D,13,Item Icon
+243,Frost Shard,btltbl.bin,2D43,03,3,???
+243,Frost Shard,btltbl.bin,2D44,00 00,0,???
+243,Frost Shard,btltbl.bin,2D46,00 00,0,???
+243,Frost Shard,btltbl.bin,2D48,00 00,0,Buy Price
+243,Frost Shard,btltbl.bin,2D4A,00 00,0,Sell Price
+243,Frost Shard,btltbl.bin,2D4C,C0 FF,65472,???
+243,Frost Shard,btltbl.bin,2D4E,00 00,0,???
+243,Frost Shard,btltbl.bin,2D50,EB 0B 00 00,3051,Sort Order
+244,Frost Gem,btltbl.bin,2D54,12 01,274,Item Name
+244,Frost Gem,btltbl.bin,2D56,0D,13,Item Icon
+244,Frost Gem,btltbl.bin,2D57,04,4,???
+244,Frost Gem,btltbl.bin,2D58,00 00,0,???
+244,Frost Gem,btltbl.bin,2D5A,00 00,0,???
+244,Frost Gem,btltbl.bin,2D5C,00 00,0,Buy Price
+244,Frost Gem,btltbl.bin,2D5E,00 00,0,Sell Price
+244,Frost Gem,btltbl.bin,2D60,00 00,0,???
+244,Frost Gem,btltbl.bin,2D62,01 00,1,???
+244,Frost Gem,btltbl.bin,2D64,EC 0B 00 00,3052,Sort Order
+245,Thunder Shard,btltbl.bin,2D68,13 01,275,Item Name
+245,Thunder Shard,btltbl.bin,2D6A,0D,13,Item Icon
+245,Thunder Shard,btltbl.bin,2D6B,03,3,???
+245,Thunder Shard,btltbl.bin,2D6C,00 00,0,???
+245,Thunder Shard,btltbl.bin,2D6E,00 00,0,???
+245,Thunder Shard,btltbl.bin,2D70,00 00,0,Buy Price
+245,Thunder Shard,btltbl.bin,2D72,00 00,0,Sell Price
+245,Thunder Shard,btltbl.bin,2D74,38 00,56,???
+245,Thunder Shard,btltbl.bin,2D76,01 00,1,???
+245,Thunder Shard,btltbl.bin,2D78,F5 0B 00 00,3061,Sort Order
+246,Thunder Gem,btltbl.bin,2D7C,14 01,276,Item Name
+246,Thunder Gem,btltbl.bin,2D7E,0D,13,Item Icon
+246,Thunder Gem,btltbl.bin,2D7F,04,4,???
+246,Thunder Gem,btltbl.bin,2D80,00 00,0,???
+246,Thunder Gem,btltbl.bin,2D82,00 00,0,???
+246,Thunder Gem,btltbl.bin,2D84,00 00,0,Buy Price
+246,Thunder Gem,btltbl.bin,2D86,00 00,0,Sell Price
+246,Thunder Gem,btltbl.bin,2D88,78 00,120,???
+246,Thunder Gem,btltbl.bin,2D8A,01 00,1,???
+246,Thunder Gem,btltbl.bin,2D8C,F6 0B 00 00,3062,Sort Order
+247,Shiny Crystal,btltbl.bin,2D90,15 01,277,Item Name
+247,Shiny Crystal,btltbl.bin,2D92,0D,13,Item Icon
+247,Shiny Crystal,btltbl.bin,2D93,05,5,???
+247,Shiny Crystal,btltbl.bin,2D94,00 00,0,???
+247,Shiny Crystal,btltbl.bin,2D96,00 00,0,???
+247,Shiny Crystal,btltbl.bin,2D98,00 00,0,Buy Price
+247,Shiny Crystal,btltbl.bin,2D9A,00 00,0,Sell Price
+247,Shiny Crystal,btltbl.bin,2D9C,B0 00,176,???
+247,Shiny Crystal,btltbl.bin,2D9E,01 00,1,???
+247,Shiny Crystal,btltbl.bin,2DA0,01 0C 00 00,3073,Sort Order
+248,Bright Shard,btltbl.bin,2DA4,16 01,278,Item Name
+248,Bright Shard,btltbl.bin,2DA6,0D,13,Item Icon
+248,Bright Shard,btltbl.bin,2DA7,03,3,???
+248,Bright Shard,btltbl.bin,2DA8,00 00,0,???
+248,Bright Shard,btltbl.bin,2DAA,00 00,0,???
+248,Bright Shard,btltbl.bin,2DAC,00 00,0,Buy Price
+248,Bright Shard,btltbl.bin,2DAE,00 00,0,Sell Price
+248,Bright Shard,btltbl.bin,2DB0,F8 00,248,???
+248,Bright Shard,btltbl.bin,2DB2,01 00,1,???
+248,Bright Shard,btltbl.bin,2DB4,09 0C 00 00,3081,Sort Order
+249,Bright Gem,btltbl.bin,2DB8,17 01,279,Item Name
+249,Bright Gem,btltbl.bin,2DBA,0D,13,Item Icon
+249,Bright Gem,btltbl.bin,2DBB,04,4,???
+249,Bright Gem,btltbl.bin,2DBC,00 00,0,???
+249,Bright Gem,btltbl.bin,2DBE,00 00,0,???
+249,Bright Gem,btltbl.bin,2DC0,00 00,0,Buy Price
+249,Bright Gem,btltbl.bin,2DC2,00 00,0,Sell Price
+249,Bright Gem,btltbl.bin,2DC4,38 01,312,???
+249,Bright Gem,btltbl.bin,2DC6,01 00,1,???
+249,Bright Gem,btltbl.bin,2DC8,0A 0C 00 00,3082,Sort Order
+250,Bright Crystal,btltbl.bin,2DCC,18 01,280,Item Name
+250,Bright Crystal,btltbl.bin,2DCE,0D,13,Item Icon
+250,Bright Crystal,btltbl.bin,2DCF,05,5,???
+250,Bright Crystal,btltbl.bin,2DD0,00 00,0,???
+250,Bright Crystal,btltbl.bin,2DD2,00 00,0,???
+250,Bright Crystal,btltbl.bin,2DD4,00 00,0,Buy Price
+250,Bright Crystal,btltbl.bin,2DD6,00 00,0,Sell Price
+250,Bright Crystal,btltbl.bin,2DD8,70 01,368,???
+250,Bright Crystal,btltbl.bin,2DDA,01 00,1,???
+250,Bright Crystal,btltbl.bin,2DDC,0B 0C 00 00,3083,Sort Order
+251,Mystery Goo,btltbl.bin,2DE0,19 01,281,Item Name
+251,Mystery Goo,btltbl.bin,2DE2,0D,13,Item Icon
+251,Mystery Goo,btltbl.bin,2DE3,05,5,???
+251,Mystery Goo,btltbl.bin,2DE4,00 00,0,???
+251,Mystery Goo,btltbl.bin,2DE6,00 00,0,???
+251,Mystery Goo,btltbl.bin,2DE8,00 00,0,Buy Price
+251,Mystery Goo,btltbl.bin,2DEA,00 00,0,Sell Price
+251,Mystery Goo,btltbl.bin,2DEC,B0 01,432,???
+251,Mystery Goo,btltbl.bin,2DEE,01 00,1,???
+251,Mystery Goo,btltbl.bin,2DF0,15 0C 00 00,3093,Sort Order
+252,Gale,btltbl.bin,2DF4,1A 01,282,Item Name
+252,Gale,btltbl.bin,2DF6,0D,13,Item Icon
+252,Gale,btltbl.bin,2DF7,05,5,???
+252,Gale,btltbl.bin,2DF8,00 00,0,???
+252,Gale,btltbl.bin,2DFA,00 00,0,???
+252,Gale,btltbl.bin,2DFC,00 00,0,Buy Price
+252,Gale,btltbl.bin,2DFE,00 00,0,Sell Price
+252,Gale,btltbl.bin,2E00,F8 01,504,???
+252,Gale,btltbl.bin,2E02,01 00,1,???
+252,Gale,btltbl.bin,2E04,20 0C 00 00,3104,Sort Order
+253,Mythril Shard,btltbl.bin,2E08,1B 01,283,Item Name
+253,Mythril Shard,btltbl.bin,2E0A,0D,13,Item Icon
+253,Mythril Shard,btltbl.bin,2E0B,03,3,???
+253,Mythril Shard,btltbl.bin,2E0C,00 00,0,???
+253,Mythril Shard,btltbl.bin,2E0E,00 00,0,???
+253,Mythril Shard,btltbl.bin,2E10,00 00,0,Buy Price
+253,Mythril Shard,btltbl.bin,2E12,96 00,150,Sell Price
+253,Mythril Shard,btltbl.bin,2E14,40 02,576,???
+253,Mythril Shard,btltbl.bin,2E16,01 00,1,???
+253,Mythril Shard,btltbl.bin,2E18,27 0C 00 00,3111,Sort Order
+254,Mythril,btltbl.bin,2E1C,1C 01,284,Item Name
+254,Mythril,btltbl.bin,2E1E,0D,13,Item Icon
+254,Mythril,btltbl.bin,2E1F,04,4,???
+254,Mythril,btltbl.bin,2E20,00 00,0,???
+254,Mythril,btltbl.bin,2E22,00 00,0,???
+254,Mythril,btltbl.bin,2E24,00 00,0,Buy Price
+254,Mythril,btltbl.bin,2E26,C8 00,200,Sell Price
+254,Mythril,btltbl.bin,2E28,78 02,632,???
+254,Mythril,btltbl.bin,2E2A,01 00,1,???
+254,Mythril,btltbl.bin,2E2C,28 0C 00 00,3112,Sort Order
+255,Orichalcum,btltbl.bin,2E30,1D 01,285,Item Name
+255,Orichalcum,btltbl.bin,2E32,0D,13,Item Icon
+255,Orichalcum,btltbl.bin,2E33,05,5,???
+255,Orichalcum,btltbl.bin,2E34,00 00,0,???
+255,Orichalcum,btltbl.bin,2E36,00 00,0,???
+255,Orichalcum,btltbl.bin,2E38,88 13,5000,Buy Price
+255,Orichalcum,btltbl.bin,2E3A,18 01,280,Sell Price
+255,Orichalcum,btltbl.bin,2E3C,B0 02,688,???
+255,Orichalcum,btltbl.bin,2E3E,01 00,1,???
+255,Orichalcum,btltbl.bin,2E40,2A 0C 00 00,3114,Sort Order

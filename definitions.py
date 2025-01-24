@@ -425,3 +425,518 @@ keyblade_list = [
     , "Diamond Dust"
     , "One-Winged Angel"
 ]
+
+item_list = [
+    "Potion",
+    "Hi-Potion",
+    "Ether",
+    "Elixir",
+    "BO5",
+    "Mega-Potion",
+    "Mega-Ether",
+    "Megalixir",
+    "Fury Stone",
+    "Power Stone",
+    "Energy Stone",
+    "Blazing Stone",
+    "Frost Stone",
+    "Lightning Stone",
+    "Dazzling Stone",
+    "Stormy Stone",
+    "Protect Chain",
+    "Protera Chain",
+    "Protega Chain",
+    "Fire Ring",
+    "Fira Ring",
+    "Firaga Ring",
+    "Blizzard Ring",
+    "Blizzara Ring",
+    "Blizzaga Ring",
+    "Thunder Ring",
+    "Thundara Ring",
+    "Thundaga Ring",
+    "Ability Stud",
+    "Guard Earring",
+    "Master Earring",
+    "Chaos Ring",
+    "Dark Ring",
+    "Element Ring",
+    "Three Stars",
+    "Power Chain",
+    "Golem Chain",
+    "Titan Chain",
+    "Energy Bangle",
+    "Angel Bangle",
+    "Gaia Bangle",
+    "Magic Armlet",
+    "Rune Armlet",
+    "Atlas Armlet",
+    "Heartguard",
+    "Ribbon",
+    "Crystal Crown",
+    "Brave Warrior",
+    "Ifrit's Horn",
+    "Inferno Band",
+    "White Fang",
+    "Ray of Light",
+    "Holy Circlet",
+    "Raven's Claw",
+    "Omega Arts",
+    "EXP Earring",
+    "A41",
+    "EXP Ring",
+    "EXP Bracelet",
+    "EXP Necklace",
+    "Firagun Band",
+    "Blizzagun Band",
+    "Thundagun Band",
+    "Ifrit Belt",
+    "Shiva Belt",
+    "Ramuh Belt",
+    "Moogle Badge",
+    "Cosmic Arts",
+    "Royal Crown",
+    "Prime Cap",
+    "Obsidian Ring",
+    "A56",
+    "A57",
+    "A58",
+    "A59",
+    "A60",
+    "A61",
+    "A62",
+    "A63",
+    "A64",
+    "Kingdom Key",
+    "Dream Sword",
+    "Dream Shield",
+    "Dream Rod",
+    "Wooden Sword",
+    "Jungle King",
+    "Three Wishes",
+    "Fairy Harp",
+    "Pumpkinhead",
+    "Crabclaw",
+    "Divine Rose",
+    "Spellbinder",
+    "Olympia",
+    "Lionheart",
+    "Metal Chocobo",
+    "Oathkeeper",
+    "Oblivion",
+    "Lady Luck",
+    "Wishing Star",
+    "Ultima Weapon",
+    "Diamond Dust",
+    "One-Winged Angel",
+    "Mage's Staff",
+    "Morning Star",
+    "Shooting Star",
+    "Magus Staff",
+    "Wisdom Staff",
+    "Warhammer",
+    "Silver Mallet",
+    "Grand Mallet",
+    "Lord Fortune",
+    "Violetta",
+    "Dream Rod (Donald)",
+    "Save the Queen",
+    "Wizard's Relic",
+    "Meteor Strike",
+    "Fantasista",
+    "Unused (Donald)",
+    "Knight's Shield",
+    "Mythril Shield",
+    "Onyx Shield",
+    "Stout Shield",
+    "Golem Shield",
+    "Adamant Shield",
+    "Smasher",
+    "Gigas Fist",
+    "Genji Shield",
+    "Herc's Shield",
+    "Dream Shield",
+    "Save the King",
+    "Defender",
+    "Mighty Shield",
+    "Seven Elements",
+    "Unused (Goofy)",
+    "Spear",
+    "No Weapon",
+    "Genie",
+    "No Weapon",
+    "No Weapon",
+    "Tinker Bell",
+    "Claws",
+    "Tent",
+    "Camping Set",
+    "Cottage",
+    "C04",
+    "C05",
+    "C06",
+    "C07",
+    "Ansem's Report 11",
+    "Ansem's Report 12",
+    "Ansem's Report 13",
+    "Power Up",
+    "Defense Up",
+    "AP Up",
+    "Serenity Power",
+    "Dark Matter",
+    "Mythril Stone",
+    "Fire Arts",
+    "Blizzard Arts",
+    "Thunder Arts",
+    "Cure Arts",
+    "Gravity Arts",
+    "Stop Arts",
+    "Aero Arts",
+    "Shiitank Rank",
+    "Matsutake Rank",
+    "Mystery Mold",
+    "Ansem's Report 1",
+    "Ansem's Report 2",
+    "Ansem's Report 3",
+    "Ansem's Report 4",
+    "Ansem's Report 5",
+    "Ansem's Report 6",
+    "Ansem's Report 7",
+    "Ansem's Report 8",
+    "Ansem's Report 9",
+    "Ansem's Report 10",
+    "Khama Vol. 8",
+    "Salegg Vol. 6",
+    "Azal Vol. 3",
+    "Mava Vol. 3",
+    "Mava Vol. 6",
+    "Theon Vol. 6",
+    "Nahara Vol. 5",
+    "Hafet Vol. 4",
+    "Empty Bottle",
+    "Old Book",
+    "Emblem Piece (Flame)",
+    "Emblem Piece (Chest)",
+    "Emblem Piece (Statue)",
+    "Emblem Piece (Fountain)",
+    "Log",
+    "Cloth",
+    "Rope",
+    "Seagull Egg",
+    "Fish",
+    "Mushroom",
+    "Coconut",
+    "Drinking Water",
+    "Navi-G Piece 1",
+    "Navi-G Piece 2",
+    "Navi-Gummi Unused",
+    "Navi-G Piece 3",
+    "Navi-G Piece 4",
+    "Navi-Gummi",
+    "Watergleam",
+    "Naturespark",
+    "Fireglow",
+    "Earthshine",
+    "Crystal Trident",
+    "Postcard",
+    "Torn Page 1",
+    "Torn Page 2",
+    "Torn Page 3",
+    "Torn Page 4",
+    "Torn Page 5",
+    "Slide 1",
+    "Slide 2",
+    "Slide 3",
+    "Slide 4",
+    "Slide 5",
+    "Slide 6",
+    "Footprints",
+    "Claw Marks",
+    "Stench",
+    "Antenna",
+    "Forget-Me-Not",
+    "Jack-In-The-Box",
+    "Entry Pass",
+    "Hero License",
+    "Pretty Stone",
+    "N41",
+    "Lucid Shard",
+    "Lucid Gem",
+    "Lucid Crystal",
+    "Spirit Shard",
+    "Spirit Gem",
+    "Power Shard",
+    "Power Gem",
+    "Power Crystal",
+    "Blaze Shard",
+    "Blaze Gem",
+    "Frost Shard",
+    "Frost Gem",
+    "Thunder Shard",
+    "Thunder Gem",
+    "Shiny Crystal",
+    "Bright Shard",
+    "Bright Gem",
+    "Bright Crystal",
+    "Mystery Goo",
+    "Gale",
+    "Mythril Shard",
+    "Mythril",
+    "Orichalcum"]
+
+sort_order = [
+      1     # Potion
+    , 2     # Hi-Potion
+    , 3     # Ether
+    , 4     # Elixir
+    , 10000 # BO5
+    , 6     # Mega-Potion
+    , 7     # Mega-Ether
+    , 8     # Megalixir
+    , 5003  # Fury Stone (Becomes Torn Page)
+    , 3025  # Power Stone
+    , 3035  # Energy Stone
+    , 3045  # Blazing Stone
+    , 3055  # Frost Stone
+    , 3065  # Lightning Stone
+    , 3075  # Dazzling Stone
+    , 3105  # Stormy Stone
+    , 1001  # Protect Chain
+    , 1002  # Protera Chain
+    , 1003  # Protega Chain
+    , 1011  # Fire Ring
+    , 1012  # Fira Ring
+    , 1013  # Firaga Ring
+    , 1021  # Blizzard Ring
+    , 1022  # Blizzara Ring
+    , 1023  # Blizzaga Ring
+    , 1031  # Thunder Ring
+    , 1032  # Thundara Ring
+    , 1033  # Thundaga Ring
+    , 1061  # Ability Stud
+    , 1062  # Guard Earring
+    , 1063  # Master Earring
+    , 1051  # Chaos Ring
+    , 1053  # Dark Ring
+    , 1041  # Element Ring
+    , 1043  # Three Stars
+    , 1071  # Power Chain
+    , 1072  # Golem Chain
+    , 1073  # Titan Chain
+    , 1081  # Energy Bangle
+    , 1082  # Angel Bangle
+    , 1083  # Gaia Bangle
+    , 1091  # Magic Armlet
+    , 1092  # Rune Armlet
+    , 1093  # Atlas Armlet
+    , 1111  # Heartguard
+    , 1113  # Ribbon
+    , 1112  # Crystal Crown
+    , 1201  # Brave Warrior
+    , 1202  # Ifrit's Horn
+    , 1203  # Inferno Band
+    , 1204  # White Fang
+    , 1205  # Ray of Light
+    , 1206  # Holy Circlet
+    , 1207  # Raven's Claw
+    , 1208  # Omega Arts
+    , 1401  # EXP Earring
+    , 10000 # A41
+    , 1403  # EXP Ring
+    , 1404  # EXP Bracelet
+    , 1405  # EXP Necklace
+    , 1014  # Firagun Band
+    , 1024  # Blizzagun Band
+    , 1034  # Thundagun Band
+    , 1211  # Ifrit Belt
+    , 1212  # Shiva Belt
+    , 1213  # Ramuh Belt
+    , 1101  # Moogle Badge
+    , 1102  # Cosmic Arts
+    , 1209  # Royal Crown
+    , 1210  # Prime Cap
+    , 1050  # Obsidian Ring
+    , 10000 # A56
+    , 10000 # A57
+    , 10000 # A58
+    , 10000 # A59
+    , 10000 # A60
+    , 10000 # A61
+    , 10000 # A62
+    , 10000 # A63
+    , 10000 # A64
+    , 1501  # Kingdom Key
+    , 1502  # Dream Sword
+    , 1503  # Dream Shield
+    , 1504  # Dream Rod
+    , 1505  # Wooden Sword
+    , 1506  # Jungle King
+    , 1507  # Three Wishes
+    , 1510  # Fairy Harp
+    , 1509  # Pumpkinhead
+    , 1508  # Crabclaw
+    , 1517  # Divine Rose
+    , 1512  # Spellbinder
+    , 1514  # Olympia
+    , 1515  # Lionheart
+    , 1513  # Metal Chocobo
+    , 1518  # Oathkeeper
+    , 1519  # Oblivion
+    , 1516  # Lady Luck
+    , 1511  # Wishing Star
+    , 1522  # Ultima Weapon
+    , 1520  # Diamond Dust
+    , 1521  # One-Winged Angel
+    , 1601  # Mage's Staff
+    , 1602  # Morning Star
+    , 1603  # Shooting Star
+    , 1604  # Magus Staff
+    , 1605  # Wisdom Staff
+    , 1606  # Warhammer
+    , 1607  # Silver Mallet
+    , 1608  # Grand Mallet
+    , 1609  # Lord Fortune
+    , 1610  # Violetta
+    , 1612  # Dream Rod (Donald)
+    , 1615  # Save the Queen
+    , 1611  # Wizard's Relic
+    , 1613  # Meteor Strike
+    , 1614  # Fantasista
+    , 10000 # Unused (Donald)
+    , 1701  # Knight's Shield
+    , 1702  # Mythril Shield
+    , 1703  # Onyx Shield
+    , 1706  # Stout Shield
+    , 1707  # Golem Shield
+    , 1708  # Adamant Shield
+    , 1704  # Smasher
+    , 1705  # Gigas Fist
+    , 1710  # Genji Shield
+    , 1709  # Herc's Shield
+    , 1712  # Dream Shield
+    , 1715  # Save the King
+    , 1711  # Defender
+    , 1713  # Mighty Shield
+    , 1714  # Seven Elements
+    , 10000 # Unused (Goofy)
+    , 10000 # Spear
+    , 10000 # No Weapon
+    , 10000 # Genie
+    , 10000 # No Weapon
+    , 10000 # No Weapon
+    , 10000 # Tinker Bell
+    , 10000 # Claws
+    , 101   # Tent
+    , 102   # Camping Set
+    , 103   # Cottage
+    , 10000 # C04
+    , 10000 # C05
+    , 10000 # C06
+    , 10000 # C07
+    , 4001  # Ansem's Report 11 (Becomes Wonderland)
+    , 4002  # Ansem's Report 12 (Becomes Olympus Coliseum)
+    , 4003  # Ansem's Report 13 (Becomes Deep Jungle)
+    , 111   # Power Up
+    , 112   # Defense Up
+    , 113   # AP Up
+    , 4004  # Serenity Power (Becomes Agrabah)
+    , 4005  # Dark Matter (Becomes Monstro)
+    , 4006  # Mythril Stone (Becomes Alantica)
+    , 2201  # Fire Arts
+    , 2202  # Blizzard Arts
+    , 2203  # Thunder Arts
+    , 2204  # Cure Arts
+    , 2205  # Gravity Arts
+    , 2206  # Stop Arts
+    , 2207  # Aero Arts
+    , 4007  # Shiitank Rank (Becomes Neverland)
+    , 4008  # Matsutake Rank (Becomes Halloween Town)
+    , 5002  # Mystery Mold (Becomes Puppy)
+    , 4009  # Ansem's Report 1 (Becomes Hollow Bastion)
+    , 4010  # Ansem's Report 2 (Becomes End of the World)
+    , 6001  # Ansem's Report 3 (Becomes Blue Trinity)
+    , 6002  # Ansem's Report 4 (Becomes Red Trinity)
+    , 6003  # Ansem's Report 5 (Becomes Green Trinity)
+    , 6004  # Ansem's Report 6 (Becomes Yellow Trinity)
+    , 6005  # Ansem's Report 7 (Becomes White Trinity)
+    , 7001  # Ansem's Report 8 (Becomes Fire)
+    , 7002  # Ansem's Report 9 (Becomes Blizzard)
+    , 7003  # Ansem's Report 10 (Becomes Thunder)
+    , 7004  # Khama Vol. 8 (Becomes Cure)
+    , 7005  # Salegg Vol. 6 (Becomes Gravity)
+    , 7006  # Azal Vol. 3 (Becomes Stop)
+    , 7007  # Mava Vol. 3 (Becomes Aero)
+    , 8001  # Mava Vol. 6 (Becomes Phil Cup)
+    , 2806  # Theon Vol. 6
+    , 8002  # Nahara Vol. 5 (Becomes Pegasus Cup)
+    , 8003  # Hafet Vol. 4 (Becomes Hercules Cup)
+    , 2409  # Empty Bottle
+    , 2400  # Old Book
+    , 2811  # Emblem Piece (Flame)
+    , 2812  # Emblem Piece (Chest)
+    , 2813  # Emblem Piece (Statue)
+    , 2814  # Emblem Piece (Fountain)
+    , 2415  # Log
+    , 2416  # Cloth
+    , 2417  # Rope
+    , 2418  # Seagull Egg
+    , 2419  # Fish
+    , 2420  # Mushroom
+    , 2421  # Coconut
+    , 2422  # Drinking Water
+    , 2310  # Navi-G Piece 1
+    , 2311  # Navi-G Piece 2
+    , 2312  # Navi-Gummi Unused
+    , 2313  # Navi-G Piece 3
+    , 2314  # Navi-G Piece 4
+    , 2315  # Navi-Gummi
+    , 2301  # Watergleam
+    , 2302  # Naturespark
+    , 2303  # Fireglow
+    , 2304  # Earthshine
+    , 2833  # Crystal Trident
+    , 2834  # Postcard
+    , 2835  # Torn Page 1
+    , 2836  # Torn Page 2
+    , 2837  # Torn Page 3
+    , 2838  # Torn Page 4
+    , 2839  # Torn Page 5
+    , 2840  # Slide 1
+    , 2841  # Slide 2
+    , 2842  # Slide 3
+    , 2843  # Slide 4
+    , 2844  # Slide 5
+    , 2845  # Slide 6
+    , 2846  # Footprints
+    , 2847  # Claw Marks
+    , 2848  # Stench
+    , 2849  # Antenna
+    , 2850  # Forget-Me-Not
+    , 2851  # Jack-In-The-Box
+    , 2852  # Entry Pass
+    , 10001  # Hero License (Becomes AP Item)
+    , 9001  # Pretty Stone (Becomes Dumbo)
+    , 10000 # N41
+    , 9002  # Lucid Shard (Becomes Bambi)
+    , 9003  # Lucid Gem (Becomes Genie)
+    , 9004  # Lucid Crystal (Becomes Tinker Bell)
+    , 9005  # Spirit Shard (Becomes Mushu)
+    , 9006  # Spirit Gem (Becomes Simba)
+    , 5001  # Power Shard (Becomes Lucky Emblem)
+    , 3022  # Power Gem
+    , 3033  # Power Crystal
+    , 3041  # Blaze Shard
+    , 3042  # Blaze Gem
+    , 3051  # Frost Shard
+    , 3052  # Frost Gem
+    , 3061  # Thunder Shard
+    , 3062  # Thunder Gem
+    , 3073  # Shiny Crystal
+    , 3081  # Bright Shard
+    , 3082  # Bright Gem
+    , 3083  # Bright Crystal
+    , 3093  # Mystery Goo
+    , 3104  # Gale
+    , 3111  # Mythril Shard
+    , 3112  # Mythril
+    , 3114  # Orichalcum
+]

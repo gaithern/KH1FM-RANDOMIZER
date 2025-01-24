@@ -695,6 +695,10 @@ assets:
   method: copy
   source:
   - name: remastered/tw12.ard/UK_tw12_ardc.evdl
+- name: remastered/tw13.ard/UK_tw13_ard0.evdl
+  method: copy
+  source:
+  - name: remastered/tw13.ard/UK_tw13_ard0.evdl
 - name: remastered/tw17.ard/UK_tw17_ard0.evdl
   method: copy
   source:
@@ -855,6 +859,10 @@ assets:
   method: copy
   source:
   - name: scripts/1fmRandoStackableGrowth.lua
+- name: scripts/1fmRandoWriteGeppettoConditions.lua
+  method: copy
+  source:
+  - name: scripts/1fmRandoWriteGeppettoConditions.lua
 - name: tw10.ard
   method: copy
   source:

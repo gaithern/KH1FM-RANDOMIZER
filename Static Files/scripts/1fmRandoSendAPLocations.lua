@@ -692,7 +692,7 @@ function fill_location_map()
     table.insert(location_map, {2659014, olympus_flags_address[game_version]        +   12, 0, 0x01, 0}) --Hades Cup Defeat Yuffie Event
     table.insert(location_map, {2659015, olympus_flags_address[game_version]        +   13, 0, 0x01, 0}) --Hades Cup Defeat Cerberus Event
     table.insert(location_map, {2659016, olympus_flags_address[game_version]        +   14, 0, 0x01, 0}) --Hades Cup Defeat Behemoth Event
-    table.insert(location_map, {2659017, ansems_reports_address[game_version]       +    0, 8, 0x01, 0}) --Hades Cup Defeat Hades Event
+    table.insert(location_map, {2659017, ansems_reports_address[game_version]       +    0, 1, 0x01, 0}) --Hades Cup Defeat Hades Event
     table.insert(location_map, {2659018, olympus_flags_address[game_version]        +    2, 0, 0x01, 0}) --Hercules Cup Defeat Cloud Event
     table.insert(location_map, {2659019, olympus_flags_address[game_version]        +    2, 0, 0x01, 0}) --Hercules Cup Yellow Trinity Event
 end

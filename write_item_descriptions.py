@@ -26,37 +26,68 @@ def output_item_descriptions(new_item_description_bytes):
     with safe_open_wb('./Output/remastered/btltbl.bin/UK_ItemHelp.bin') as file:
         file.write(new_item_description_bytes)
 
-def write_item_descriptions():
-    kh1_data_path = "./Output/"
-    item_description_bytes = get_item_description_bytes(kh1_data_path)
+def build_item_description_string(item_description_bytes):
     item_description_string = ""
     for byte in item_description_bytes:
         item_description_string = item_description_string + kh1_hex_to_char_map[byte]
+    return item_description_string
+
+def replace_escape_character_byte_substring(item_description_string):
     item_description_string = item_description_string.replace("{0x0D} {eol}", "{escape character}")
+    return item_description_string
+
+def build_item_description_string_array(item_description_string):
+    item_description_string = replace_escape_character_byte_substring(item_description_string)
     item_descriptions = item_description_string.replace("{lf}", "\n").split("{eol}")
-    new_item_description_string = ""
+    return item_descriptions
+
+def replace_item_descriptions_with_definitions_new_item_descriptions(item_descriptions):
     for i in range(len(item_descriptions)):
         if i+1 in new_item_descriptions.keys():
-            new_item_description_string = new_item_description_string + new_item_descriptions[i+1] + "{eol}"
-        else:
-            new_item_description_string = new_item_description_string + item_descriptions[i] + "{eol}"
-    new_item_description_string = new_item_description_string[:-5]
-    new_item_description_string = new_item_description_string.replace("{escape character}","{0x0D} {eol}").replace("\n", "{lf}")
-    new_item_description_bytes = []
+            item_descriptions[i] = new_item_descriptions[i+1]
+
+def concat_item_descriptions(item_descriptions):
+    item_description_string = ""
+    for item_description in item_descriptions:
+        item_description_string = item_description_string + item_description + "{eol}"
+    return item_description_string[:-5].replace("{escape character}","{0x0D} {eol}").replace("\n", "{lf}")
+
+def build_item_description_bytes(item_description_string):
+    item_description_bytes = []
     i = 0
-    while i < len(new_item_description_string):
-        if new_item_description_string[i] == "{":
+    while i < len(item_description_string):
+        if item_description_string[i] == "{":
             j = 0
             char = "{"
-            while new_item_description_string[i + j] != "}":
+            while item_description_string[i + j] != "}":
                 j = j + 1
-                char = char + new_item_description_string[i + j]
+                char = char + item_description_string[i + j]
             i = i + j
         else:
-            char = new_item_description_string[i]
+            char = item_description_string[i]
         replacement_byte = get_replacement_byte(char)
-        new_item_description_bytes.append(replacement_byte)
+        item_description_bytes.append(replacement_byte)
         i = i + 1
+    return item_description_bytes
+
+def replace_specific_item_description(item_num, description):
+    kh1_data_path = "./Output/"
+    item_description_bytes = get_item_description_bytes(kh1_data_path)
+    item_description_string = build_item_description_string(item_description_bytes)
+    item_descriptions = build_item_description_string_array(item_description_string)
+    item_descriptions[item_num-1] = description
+    new_item_description_string = concat_item_descriptions(item_descriptions)
+    new_item_description_bytes = build_item_description_bytes(new_item_description_string)
+    output_item_descriptions(bytes(new_item_description_bytes))
+
+def write_item_descriptions():
+    kh1_data_path = "./Output/"
+    item_description_bytes = get_item_description_bytes(kh1_data_path)
+    item_description_string = build_item_description_string(item_description_bytes)
+    item_descriptions = build_item_description_string_array(item_description_string)
+    item_descriptions = replace_item_descriptions_with_definitions_new_item_descriptions(item_descriptions)
+    new_item_description_string = concat_item_descriptions(item_descriptions)
+    new_item_description_bytes = build_item_description_bytes(new_item_description_string)
     output_item_descriptions(bytes(new_item_description_bytes))
 
 if __name__ == "__main__":

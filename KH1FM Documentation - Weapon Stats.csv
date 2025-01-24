@@ -98,15 +98,15 @@ Divine Rose,Sora,btltbl.bin,989B,3C,Byte,60,Recoil
 Divine Rose,Sora,btltbl.bin,989C,33,Byte,51,Sound 1
 Divine Rose,Sora,btltbl.bin,989D,37,Byte,55,Sound 2
 Divine Rose,Sora,btltbl.bin,98A0,00,Byte,0,MP
-Spellbinder,Sora,btltbl.bin,9868,78 77 5F 65 78 5F 35 30 38 30,String,xw_ex_5080,Weapon Header
-Spellbinder,Sora,btltbl.bin,9894,CC CC 4C 3F,Float,0.8,???
-Spellbinder,Sora,btltbl.bin,9898,04,Byte,4,Strength
-Spellbinder,Sora,btltbl.bin,9899,14,Byte,20,Crit Percentage
-Spellbinder,Sora,btltbl.bin,989A,00,Byte,0,Crit Bonus
-Spellbinder,Sora,btltbl.bin,989B,1E,Byte,30,Recoil
-Spellbinder,Sora,btltbl.bin,989C,60,Byte,96,Sound 1
-Spellbinder,Sora,btltbl.bin,989D,2B,Byte,43,Sound 2
-Spellbinder,Sora,btltbl.bin,98A0,02,Byte,2,MP
+Spellbinder,Sora,btltbl.bin,98C0,78 77 5F 65 78 5F 35 30 38 30,String,xw_ex_5080,Weapon Header
+Spellbinder,Sora,btltbl.bin,98EC,CC CC 4C 3F,Float,0.8,???
+Spellbinder,Sora,btltbl.bin,98F0,04,Byte,4,Strength
+Spellbinder,Sora,btltbl.bin,98F1,14,Byte,20,Crit Percentage
+Spellbinder,Sora,btltbl.bin,98F2,00,Byte,0,Crit Bonus
+Spellbinder,Sora,btltbl.bin,98F3,1E,Byte,30,Recoil
+Spellbinder,Sora,btltbl.bin,98F4,60,Byte,96,Sound 1
+Spellbinder,Sora,btltbl.bin,98F5,2B,Byte,43,Sound 2
+Spellbinder,Sora,btltbl.bin,98F8,02,Byte,2,MP
 Olympia,Sora,btltbl.bin,9918,78 77 5F 65 78 5F 35 30 39 30,String,xw_ex_5090,Weapon Header
 Olympia,Sora,btltbl.bin,9944,CC CC 4C 3F,Float,0.8,???
 Olympia,Sora,btltbl.bin,9948,0A,Byte,10,Strength

@@ -914,15 +914,12 @@ Traverse Town,2nd District,Defeat Opposite Armor,Navi-G Piece 3,1,/remastered/tw
 100 Acre Wood,Pooh's House,Strike Chimney,Mega-Ether,1,/remastered/po02.ard/UK_po02_ardc.evdl,N,1,6D21,2656358,100 Acre Wood Pooh's Room Chimney
 100 Acre Wood,Pooh's House,Strike Chimney,Mega-Ether,1,/remastered/po02.ard/UK_po02_ardc.evdl,N,2,6D2D,2656358,100 Acre Wood Pooh's Room Chimney
 100 Acre Wood,Pooh's House,Strike Chimney,Mega-Ether,1,/remastered/po02.ard/UK_po02_ardc.evdl,N,3,6D39,2656358,100 Acre Wood Pooh's Room Chimney
-100 Acre Wood,Pooh's House,In Cabinet,Elixir,1,/remastered/po02.ard/UK_po02_ard0.evdl,N,1,7F41,2656357,100 Acre Wood Pooh's Room Cabinet
-100 Acre Wood,Pooh's House,In Cabinet,Elixir,1,/remastered/po02.ard/UK_po02_ard0.evdl,N,2,7F4D,2656357,100 Acre Wood Pooh's Room Cabinet
-100 Acre Wood,Pooh's House,In Cabinet,Elixir,1,/remastered/po02.ard/UK_po02_ard0.evdl,N,3,7F59,2656357,100 Acre Wood Pooh's Room Cabinet
-100 Acre Wood,Pooh's House,In Cabinet,Elixir,1,/remastered/po02.ard/UK_po02_ard19.evdl,N,1,698D,2656357,100 Acre Wood Pooh's Room Cabinet
-100 Acre Wood,Pooh's House,In Cabinet,Elixir,1,/remastered/po02.ard/UK_po02_ard19.evdl,N,2,6999,2656357,100 Acre Wood Pooh's Room Cabinet
-100 Acre Wood,Pooh's House,In Cabinet,Elixir,1,/remastered/po02.ard/UK_po02_ard19.evdl,N,3,69A5,2656357,100 Acre Wood Pooh's Room Cabinet
-100 Acre Wood,Pooh's House,In Cabinet,Elixir,1,/remastered/po02.ard/UK_po02_ardc.evdl,N,1,69A1,2656357,100 Acre Wood Pooh's Room Cabinet
-100 Acre Wood,Pooh's House,In Cabinet,Elixir,1,/remastered/po02.ard/UK_po02_ardc.evdl,N,2,69AD,2656357,100 Acre Wood Pooh's Room Cabinet
-100 Acre Wood,Pooh's House,In Cabinet,Elixir,1,/remastered/po02.ard/UK_po02_ardc.evdl,N,3,69B9,2656357,100 Acre Wood Pooh's Room Cabinet
+100 Acre Wood,Pooh's House,In Cabinet,Elixir,1,/remastered/po02.ard/UK_po02_ard0.evdl,N,1,7F4D,2656357,100 Acre Wood Pooh's Room Cabinet
+100 Acre Wood,Pooh's House,In Cabinet,Elixir,1,/remastered/po02.ard/UK_po02_ard0.evdl,N,2,7F59,2656357,100 Acre Wood Pooh's Room Cabinet
+100 Acre Wood,Pooh's House,In Cabinet,Elixir,1,/remastered/po02.ard/UK_po02_ard19.evdl,N,1,6999,2656357,100 Acre Wood Pooh's Room Cabinet
+100 Acre Wood,Pooh's House,In Cabinet,Elixir,1,/remastered/po02.ard/UK_po02_ard19.evdl,N,2,69A5,2656357,100 Acre Wood Pooh's Room Cabinet
+100 Acre Wood,Pooh's House,In Cabinet,Elixir,1,/remastered/po02.ard/UK_po02_ardc.evdl,N,1,69AD,2656357,100 Acre Wood Pooh's Room Cabinet
+100 Acre Wood,Pooh's House,In Cabinet,Elixir,1,/remastered/po02.ard/UK_po02_ardc.evdl,N,2,69B9,2656357,100 Acre Wood Pooh's Room Cabinet
 100 Acre Wood,100 Acre Wood,Convert Torn Page 3,Stop,1,/remastered/po11.ard/UK_po11_ard0.evdl,Y,1,7565,2656353,100 Acre Wood Convert Torn Page 3
 100 Acre Wood,100 Acre Wood,Convert Torn Page 3,Stop,1,/remastered/po11.ard/UK_po11_ard0.evdl,Y,2,7571,2656353,100 Acre Wood Convert Torn Page 3
 100 Acre Wood,100 Acre Wood,Convert Torn Page 3,Stop,1,/remastered/po11.ard/UK_po11_ard0.evdl,Y,3,757D,2656353,100 Acre Wood Convert Torn Page 3
@@ -1271,3 +1268,26 @@ Olympus Coliseum,Lobby,Complete Hercules Cup Together,Yellow Trinity,1,/remaster
 100 Acre Wood,Pooh's House,Start Fire,Mythril,1,po01.ard,N,1,15E281,2656356,100 Acre Wood Pooh's House Start Fire
 100 Acre Wood,Pooh's House,Start Fire,Mythril,1,po01.ard,N,2,15E28D,2656356,100 Acre Wood Pooh's House Start Fire
 100 Acre Wood,Pooh's House,Start Fire,Mythril,1,po01.ard,N,3,15E299,2656356,100 Acre Wood Pooh's House Start Fire
+Traverse Town,Geppetto's House,Enter House,Geppetto,1,/remastered/tw13.ard/UK_tw13_ard0.evdl,Y,1,CF22,2656304,Traverse Town Geppetto's House Geppetto Reward 1
+Traverse Town,Geppetto's House,Enter House,Geppetto,1,/remastered/tw13.ard/UK_tw13_ard0.evdl,Y,2,CF2E,2656304,Traverse Town Geppetto's House Geppetto Reward 1
+Traverse Town,Geppetto's House,Enter House,Geppetto,1,/remastered/tw13.ard/UK_tw13_ard0.evdl,Y,3,CF3A,2656304,Traverse Town Geppetto's House Geppetto Reward 1
+Traverse Town,Geppetto's House,Talk to Geppetto 1,Cactaur,1,/remastered/tw13.ard/UK_tw13_ard0.evdl,Y,1,BC81,2656308,Traverse Town Geppetto's House Geppetto Reward 2
+Traverse Town,Geppetto's House,Talk to Geppetto 1,Cactaur,1,/remastered/tw13.ard/UK_tw13_ard0.evdl,Y,2,BC8D,2656308,Traverse Town Geppetto's House Geppetto Reward 2
+Traverse Town,Geppetto's House,Talk to Geppetto 1,Cactaur,1,/remastered/tw13.ard/UK_tw13_ard0.evdl,Y,3,BC99,2656308,Traverse Town Geppetto's House Geppetto Reward 2
+Traverse Town,Geppetto's House,Talk to Geppetto 2,Yuffie,1,/remastered/tw13.ard/UK_tw13_ard0.evdl,Y,1,BDC9,2656306,Traverse Town Geppetto's House Geppetto Reward 3
+Traverse Town,Geppetto's House,Talk to Geppetto 2,Yuffie,1,/remastered/tw13.ard/UK_tw13_ard0.evdl,Y,2,BDD5,2656306,Traverse Town Geppetto's House Geppetto Reward 3
+Traverse Town,Geppetto's House,Talk to Geppetto 2,Yuffie,1,/remastered/tw13.ard/UK_tw13_ard0.evdl,Y,3,BDE1,2656306,Traverse Town Geppetto's House Geppetto Reward 3
+Traverse Town,Geppetto's House,Talk to Geppetto 3,Aerith,1,/remastered/tw13.ard/UK_tw13_ard0.evdl,Y,1,BF11,2656305,Traverse Town Geppetto's House Geppetto Reward 4
+Traverse Town,Geppetto's House,Talk to Geppetto 3,Aerith,1,/remastered/tw13.ard/UK_tw13_ard0.evdl,Y,2,BF1D,2656305,Traverse Town Geppetto's House Geppetto Reward 4
+Traverse Town,Geppetto's House,Talk to Geppetto 3,Aerith,1,/remastered/tw13.ard/UK_tw13_ard0.evdl,Y,3,BF29,2656305,Traverse Town Geppetto's House Geppetto Reward 4
+Traverse Town,Geppetto's House,Talk to Geppetto 4,Leon,1,/remastered/tw13.ard/UK_tw13_ard0.evdl,Y,1,C059,2656307,Traverse Town Geppetto's House Geppetto Reward 5
+Traverse Town,Geppetto's House,Talk to Geppetto 4,Leon,1,/remastered/tw13.ard/UK_tw13_ard0.evdl,Y,2,C065,2656307,Traverse Town Geppetto's House Geppetto Reward 5
+Traverse Town,Geppetto's House,Talk to Geppetto 4,Leon,1,/remastered/tw13.ard/UK_tw13_ard0.evdl,Y,3,C071,2656307,Traverse Town Geppetto's House Geppetto Reward 5
+Traverse Town,Geppetto's House,Talk to Geppetto with All Summons,Hyperion,1,/remastered/tw13.ard/UK_tw13_ard0.evdl,Y,1,C1B1,2656309,Traverse Town Geppetto's House Geppetto Reward 5
+Traverse Town,Geppetto's House,Talk to Geppetto with All Summons,Hyperion,1,/remastered/tw13.ard/UK_tw13_ard0.evdl,Y,2,C1BD,2656309,Traverse Town Geppetto's House Geppetto Reward 5
+Traverse Town,Geppetto's House,Talk to Geppetto with All Summons,Hyperion,1,/remastered/tw13.ard/UK_tw13_ard0.evdl,Y,3,C1C9,2656309,Traverse Town Geppetto's House Geppetto Reward 5
+Traverse Town,Geppetto's House,Talk to Pinocchio,Chocobo,1,/remastered/tw13.ard/UK_tw13_ard0.evdl,Y,1,B7F1,2656310,Traverse Town Geppetto's House Geppetto All Summons Reward
+Traverse Town,Geppetto's House,Talk to Pinocchio,Chocobo,1,/remastered/tw13.ard/UK_tw13_ard0.evdl,Y,2,B7FD,2656310,Traverse Town Geppetto's House Geppetto All Summons Reward
+Traverse Town,Geppetto's House,Talk to Pinocchio,Chocobo,1,/remastered/tw13.ard/UK_tw13_ard0.evdl,Y,3,B809,2656310,Traverse Town Geppetto's House Geppetto All Summons Reward
+Traverse Town,Geppetto's House,Examine Shelf,Postcard,1,/remastered/tw13.ard/UK_tw13_ard0.evdl,Y,1,C8AD,2656506,Traverse Town Geppetto's House Postcard
+Traverse Town,Geppetto's House,Examine Shelf,Postcard,1,/remastered/tw13.ard/UK_tw13_ard0.evdl,Y,2,C8B9,2656506,Traverse Town Geppetto's House Postcard
