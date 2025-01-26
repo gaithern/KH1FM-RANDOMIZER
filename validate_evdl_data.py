@@ -6,8 +6,7 @@ import pprint
 root = tk.Tk()
 root.withdraw()
 
-def get_kh1_data_path():
-    kh1_data_path = None
+def get_kh1_data_path(kh1_data_path = None):
     while not kh1_data_path:
         kh1_data_path = filedialog.askdirectory()
         if not kh1_data_path:
@@ -22,9 +21,9 @@ def get_corrected_evdl_data():
             corrected_evdl_data.append(line)
     return corrected_evdl_data
 
-def validate_evdl_data():
+def validate_evdl_data(kh1_data_path = None):
+    kh1_data_path = get_kh1_data_path(kh1_data_path)
     error = False
-    kh1_data_path = get_kh1_data_path()
     corrected_evdl_data = get_corrected_evdl_data()
     static_item_dict = {}
     use_corrected_evdl_dict = {}

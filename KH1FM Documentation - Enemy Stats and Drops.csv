@@ -429,15 +429,15 @@ Sea Neon,Drop Table,xa_ex_2070.mdls,50C3C,00 00 00 00,Int,0,Small Munny
 Sea Neon,Drop Table,xa_ex_2070.mdls,50C40,01 00 00 00,Int,1,Medium Munny
 Sea Neon,Drop Table,xa_ex_2070.mdls,50C44,00 00 00 00,Int,0,Large Munny
 Sea Neon,Drop Table,xa_ex_2070.mdls,50C48,00 00 00 00,Int,0,Small HP
-Sea Neon,Drop Table,xa_ex_2070.mdls,50C50,00 00 00 00,Int,0,Large HP
-Sea Neon,Drop Table,xa_ex_2070.mdls,50C54,01 00 00 00,Int,1,Small MP
-Sea Neon,Drop Table,xa_ex_2070.mdls,50C58,02 00 00 00,Int,2,Large MP
-Sea Neon,Drop Table,xa_ex_2070.mdls,50C5C,0A D7 A3 3B,Float,0.005,Chance Drop 1
-Sea Neon,Drop Table,xa_ex_2070.mdls,50C60,03 00 00 00,Int,3,Drop 1
-Sea Neon,Drop Table,xa_ex_2070.mdls,50C64,6F 12 83 3A,Float,0.001,Chance Drop 2
-Sea Neon,Drop Table,xa_ex_2070.mdls,50C68,19 00 00 00,Int,19,Drop 2
-Sea Neon,Drop Table,xa_ex_2070.mdls,50C6C,0A D7 A3 3C,Float,0.02,Chance Drop 3
-Sea Neon,Drop Table,xa_ex_2070.mdls,50C70,F4 00 00 00,Int,244,Drop 3
+Sea Neon,Drop Table,xa_ex_2070.mdls,50C4C,00 00 00 00,Int,0,Large HP
+Sea Neon,Drop Table,xa_ex_2070.mdls,50C50,01 00 00 00,Int,1,Small MP
+Sea Neon,Drop Table,xa_ex_2070.mdls,50C54,02 00 00 00,Int,2,Large MP
+Sea Neon,Drop Table,xa_ex_2070.mdls,50C58,0A D7 A3 3B,Float,0.005,Chance Drop 1
+Sea Neon,Drop Table,xa_ex_2070.mdls,50C5C,03 00 00 00,Int,3,Drop 1
+Sea Neon,Drop Table,xa_ex_2070.mdls,50C60,6F 12 83 3A,Float,0.001,Chance Drop 2
+Sea Neon,Drop Table,xa_ex_2070.mdls,50C64,19 00 00 00,Int,19,Drop 2
+Sea Neon,Drop Table,xa_ex_2070.mdls,50C68,0A D7 A3 3C,Float,0.02,Chance Drop 3
+Sea Neon,Drop Table,xa_ex_2070.mdls,50C6C,F4 00 00 00,Int,244,Drop 3
 Sheltering Zone,Header,xa_ex_2080.mdls,5C784,65 78 5F 32 30 38 30 2E 62 64,String,ex_2080.bd,Start of stats header
 Sheltering Zone,Stat Page Pre Riku Ansem,xa_ex_2080.mdls,5C794,5A 00 00 00,Int,90,HP
 Sheltering Zone,Stat Page Pre Riku Ansem,xa_ex_2080.mdls,5C7B0,14 00 00 00,Int,20,EXP

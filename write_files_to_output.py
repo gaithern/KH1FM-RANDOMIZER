@@ -5,8 +5,7 @@ from tkinter import filedialog
 import csv
 import json
 
-def get_kh1_data_path():
-    kh1_data_path = None
+def get_kh1_data_path(kh1_data_path = None):
     while not kh1_data_path:
         kh1_data_path = filedialog.askdirectory()
         if not kh1_data_path:
@@ -51,8 +50,8 @@ def copy_src_kh1_files_to_output(kh1_data_path, csv_lines):
                 shutil.copyfile(input_full_path, output_full_path)
                 copied_files.append(line["File"])
 
-def write_files_to_output():
-    kh1_data_path = get_kh1_data_path()
+def write_files_to_output(kh1_data_path = None):
+    kh1_data_path = get_kh1_data_path(kh1_data_path)
     csv_lines = []
     for file in list_definition_files_in_current_directory():
         csv_lines = csv_lines + read_csv_data(file)

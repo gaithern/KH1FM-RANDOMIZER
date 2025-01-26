@@ -19,6 +19,10 @@ assets:
   method: copy
   source:
   - name: he07.ard
+- name: map_prize.bin
+  method: copy
+  source:
+  - name: map_prize.bin
 - name: pc13.ard
   method: copy
   source:
@@ -339,6 +343,10 @@ assets:
   method: copy
   source:
   - name: remastered/lm13.ard/UK_lm13_ardc.evdl
+- name: remastered/lm14.ard/UK_lm14a.ev
+  method: copy
+  source:
+  - name: remastered/lm14.ard/UK_lm14a.ev
 - name: remastered/lm14.ard/UK_lm14_ard0.evdl
   method: copy
   source:
@@ -823,6 +831,10 @@ assets:
   method: copy
   source:
   - name: scripts/1fmRandoEndoftheWorldUnlock.lua
+- name: scripts/1fmRandoEotWFlagFixes.lua
+  method: copy
+  source:
+  - name: scripts/1fmRandoEotWFlagFixes.lua
 - name: scripts/1fmRandoFixRiku2.lua
   method: copy
   source:
@@ -839,10 +851,18 @@ assets:
   method: copy
   source:
   - name: scripts/1fmRandoHandleItems.lua
+- name: scripts/1fmRandoHandleLuckyEmblems.lua
+  method: copy
+  source:
+  - name: scripts/1fmRandoHandleLuckyEmblems.lua
 - name: scripts/1fmRandoInstantGummi.lua
   method: copy
   source:
   - name: scripts/1fmRandoInstantGummi.lua
+- name: scripts/1fmRandoInteraction.lua
+  method: copy
+  source:
+  - name: scripts/1fmRandoInteraction.lua
 - name: scripts/1fmRandoQualityOfLife.lua
   method: copy
   source:
@@ -859,6 +879,10 @@ assets:
   method: copy
   source:
   - name: scripts/1fmRandoStackableGrowth.lua
+- name: scripts/1fmRandoSynthesis.lua
+  method: copy
+  source:
+  - name: scripts/1fmRandoSynthesis.lua
 - name: scripts/1fmRandoWriteGeppettoConditions.lua
   method: copy
   source:

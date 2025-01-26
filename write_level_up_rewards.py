@@ -25,14 +25,13 @@ def get_level_up_abilities_definitions():
             level_up_abilities_definitions.append(line)
     return level_up_abilities_definitions
 
-def get_seed_json_data():
-    seed_json_file = None
+def get_seed_json_data(seed_json_file = None):
     while not seed_json_file:
-        seed_json_file = filedialog.askopenfile(mode ='r', filetypes =[('JSON', '*.json')], title = "KH1 Randomizer Seed JSON")
+        seed_json_file = filedialog.askopenfilename(filetypes =[('JSON', '*.json')], title = "KH1 Randomizer Seed JSON")
         if not seed_json_file:
             print("Error, please select a valid KH1 seed file")
-        else:
-            seed_json_data = json.load(seed_json_file)
+    with open(seed_json_file, mode='r') as file:
+        seed_json_data = json.load(file)
     return seed_json_data
 
 def get_battle_table(kh1_data_path):
@@ -74,11 +73,11 @@ def output_battle_table(battle_table_bytes):
     with open('./Output/btltbl.bin', mode = 'wb') as file:
         file.write(battle_table_bytes)
 
-def write_level_up_rewards():
+def write_level_up_rewards(seed_json_file = None):
     kh1_data_path = "./Output/"
     level_up_abilities_definitions = get_level_up_abilities_definitions()
     level_up_stats_definitions = get_level_up_stats_definitions()
-    seed_json_data = get_seed_json_data()
+    seed_json_data = get_seed_json_data(seed_json_file)
     replacements = get_battle_table_replacements(level_up_stats_definitions, level_up_abilities_definitions, seed_json_data)
     battle_table_bytes = get_battle_table(kh1_data_path)
     battle_table_bytes = update_battle_table(battle_table_bytes, replacements)

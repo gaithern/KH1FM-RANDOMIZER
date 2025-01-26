@@ -1,0 +1,33 @@
+Index,File,Offset,World,Map,Trigger,AP Location ID,AP Location Name,Small Munny Orbs,Medium Munny Orbs,Large Munny Orbs,Small HP Orbs,Large HP Orbs,Small MP Orbs,Large MP Orbs,Drops Item 1,Item 1,Drops Item 2,Item 2,Drops Item 3,Item 2,Byte 1,Byte 2,Byte 3,Byte 4,Byte 5,Byte 6,Byte 7,Byte 8 ,Byte 9,Byte 10,Byte 11,Byte 12,Byte 13
+0,map_prize.bin,618,Traverse Town,1st District,Blue Trinity by Exit Door,2656600,Traverse Town 1st District Blue Trinity by Exit Door,35,5,16,0,0,0,0,0%,NA,0%,NA,0%,NA,23,05,10,00,00,00,00,00,00,00,00,00,00
+1,map_prize.bin,625,Traverse Town,3rd District,Blue Trinity,2656601,Traverse Town 3rd District Blue Trinity,40,4,0,0,0,0,0,100%,Camping Set,0%,NA,0%,NA,28,04,00,00,00,00,00,64,8F,00,00,00,00
+2,map_prize.bin,632,Traverse Town,Magician's Study,Blue Trinity,2656602,Traverse Town Magician's Study Blue Trinity,40,2,0,0,0,0,0,100%,Mega-Ether,0%,NA,0%,NA,28,02,00,00,00,00,00,64,07,00,00,00,00
+3,map_prize.bin,63F,Wonderland,Lotus Forest,Blue Trinity in Alcove,2656603,Wonderland Lotus Forest Blue Trinity in Alcove,0,0,0,0,0,40,0,100%,Potion,100%,Ether,100%,Tent,00,00,00,00,00,28,00,64,01,64,03,64,8E
+4,map_prize.bin,64C,Wonderland,Lotus Forest,Blue Trinity by Moving Boulder,2656604,Wonderland Lotus Forest Blue Trinity by Moving Boulder,0,0,0,0,0,40,5,100%,Camping Set,0%,NA,0%,NA,00,00,00,00,00,28,05,64,8F,00,00,00,00
+5,map_prize.bin,659,Agrabah,Bazaar,Blue Trinity,2656605,Agrabah Bazaar Blue Trinity,25,15,5,0,0,0,0,100%,Mega-Ether,0%,NA,0%,NA,19,0F,05,00,00,00,00,64,07,00,00,00,00
+6,map_prize.bin,666,Monstro,Mouth,Blue Trinity,2656606,Monstro Mouth Blue Trinity,0,10,0,0,0,0,0,100%,Potion,100%,Potion,100%,Cottage,00,0A,00,00,00,00,00,64,01,64,01,64,90
+7,map_prize.bin,673,Monstro,Chamber 5,Blue Trinity,2656607,Monstro Chamber 5 Blue Trinity,18,15,12,0,0,0,0,100%,Cottage,0%,NA,0%,NA,12,0F,0C,00,00,00,00,64,90,00,00,00,00
+8,map_prize.bin,680,Hollow Bastion,Great Crest,Blue Trinity,2656608,Hollow Bastion Great Crest Blue Trinity,0,0,0,0,0,20,20,100%,Megalixir,100%,Cottage,100%,Cottage,00,00,00,00,00,14,14,64,08,64,90,64,90
+9,map_prize.bin,68D,Hollow Bastion,Dungeon,Blue Trinity,2656609,Hollow Bastion Dungeon Blue Trinity,0,0,0,40,0,0,0,100%,Cottage,100%,Mega-Potion,100%,Mega-Ether,00,00,00,28,00,00,00,64,90,64,06,64,07
+10,map_prize.bin,69A,Deep Jungle,Treetop,Green Trinity,2656610,Deep Jungle Treetop Green Trinity,0,0,0,40,0,0,0,100%,Mythril Shard,0%,NA,0%,NA,00,00,00,28,00,00,00,64,FD,00,00,00,00
+11,map_prize.bin,6A7,Agrabah,Treasure Room,Red Trinity,2656611,Agrabah Treasure Room Red Trinity,18,15,12,0,0,0,0,100%,Mythril Shard,0%,NA,0%,NA,12,0F,0C,00,00,00,00,64,FD,00,00,00,00
+12,map_prize.bin,6B4,???,???,???,-,-,0,0,0,30,0,0,0,100%,Mythril Shard,100%,Potion,100%,Potion,00,00,00,1E,00,00,00,64,FD,64,01,64,01
+13,map_prize.bin,6C1,???,???,???,-,-,20,0,0,5,0,0,0,0%,NA,0%,NA,0%,NA,14,00,00,05,00,00,00,00,00,00,00,00,00
+14,map_prize.bin,6CE,???,???,???,-,-,0,0,0,3,0,10,0,0%,NA,0%,NA,0%,NA,00,00,00,03,00,0A,00,00,00,00,00,00,00
+15,map_prize.bin,6DB,Wonderland,Lotus Forest,Both Yellow Flowers in Middle Clearing and Through Painting,-,-,0,0,0,0,0,40,0,100%,Hi-Potion,0%,NA,0%,NA,00,00,00,00,00,28,00,64,02,00,00,00,00
+16,map_prize.bin,6E8,Wonderland,Lotus Forest,Both Red Flowers on the Main Path,-,-,0,0,0,40,0,0,0,100%,Camping Set,0%,NA,0%,NA,00,00,00,28,00,00,00,64,8F,00,00,00,00
+17,map_prize.bin,6F5,Wonderland,Lotus Forest,Red Flower Raise Lily Pads,-,-,0,0,0,0,0,30,10,100%,Mega-Potion,0%,NA,0%,NA,00,00,00,00,00,1E,0A,64,06,00,00,00,00
+18,map_prize.bin,702,Wonderland,Lotus Forest,Yellow Flower through Painting (Elixir),-,-,40,0,4,0,0,0,0,100%,Mythril Shard,0%,NA,0%,NA,28,00,04,00,00,00,00,64,FD,00,00,00,00
+19,map_prize.bin,70F,Wonderland,Tea Party Garden,Left Cushioned Chair,-,-,0,0,0,40,0,0,0,100%,Potion,0%,NA,0%,NA,00,00,00,28,00,00,00,64,01,00,00,00,00
+20,map_prize.bin,71C,Wonderland,Tea Party Garden,Left Pink Chair,-,-,0,0,0,0,0,40,0,100%,Potion,0%,NA,0%,NA,00,00,00,00,00,28,00,64,01,00,00,00,00
+21,map_prize.bin,729,Wonderland,Tea Party Garden,Right Yellow Chair,-,-,40,4,0,0,0,0,0,100%,Potion,0%,NA,0%,NA,28,04,00,00,00,00,00,64,01,00,00,00,00
+22,map_prize.bin,736,Wonderland,Tea Party Garden,Left Gray Chair,-,-,0,0,0,0,0,30,10,100%,Ether,0%,NA,0%,NA,00,00,00,00,00,1E,0A,64,03,00,00,00,00
+23,map_prize.bin,743,Wonderland,Tea Party Garden,Right Brown Chair,-,-,20,0,0,10,0,10,0,100%,Elixir,0%,NA,0%,NA,14,00,00,0A,00,0A,00,64,04,00,00,00,00
+24,map_prize.bin,750,???,???,???,-,-,0,0,0,6,0,0,0,20%,Potion,0%,NA,0%,NA,00,00,00,06,00,00,00,14,01,00,00,00,00
+25,map_prize.bin,75D,???,???,???,-,-,5,0,1,0,0,0,0,0%,NA,0%,NA,0%,NA,05,00,01,00,00,00,00,00,00,00,00,00,00
+26,map_prize.bin,76A,???,???,???,-,-,0,0,0,0,0,40,0,100%,Potion,0%,NA,0%,NA,00,00,00,00,00,28,00,64,01,00,00,00,00
+27,map_prize.bin,777,???,???,???,-,-,0,0,0,0,0,6,1,20%,Ether,0%,NA,0%,NA,00,00,00,00,00,06,01,14,03,00,00,00,00
+28,map_prize.bin,784,???,???,???,-,-,0,0,0,3,0,6,0,5%,Potion,5%,Ether,0%,NA,00,00,00,03,00,06,00,05,01,05,03,00,00
+29,map_prize.bin,791,???,???,???,-,-,0,0,0,6,0,0,0,10%,Hi-Potion,0%,NA,0%,NA,00,00,00,06,00,00,00,0A,02,00,00,00,00
+30,map_prize.bin,79E,???,???,???,-,-,0,0,0,0,0,20,20,100%,Mythril,0%,NA,0%,NA,00,00,00,00,00,14,14,64,FE,00,00,00,00
+31,map_prize.bin,7AB,???,???,???,-,-,40,0,3,0,0,0,0,100%,Mythril Shard,0%,NA,0%,NA,28,00,03,00,00,00,00,64,FD,00,00,00,00

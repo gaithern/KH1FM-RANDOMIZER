@@ -43,6 +43,9 @@ function handle_magic(stock)
         if v == 0 then
             magic_levels_array[k] = 1
         end
+        if v > 3 then
+            magic_levels_array[k] = 3
+        end
     end
     WriteByte(magic_unlocked_address[game_version],
         (1 * magic_unlocked_bits[1]) + (2 * magic_unlocked_bits[2]) + (4 * magic_unlocked_bits[3]) + (8 * magic_unlocked_bits[4])
@@ -150,8 +153,18 @@ end
 
 function handle_torn_pages(stock)
     torn_pages_available_address = {0x2DEB160, 0x2DEA760}
-    WriteByte(torn_pages_available_address[game_version], stock[9])
+    WriteByte(torn_pages_available_address[game_version], math.min(stock[9],5))
 end
+
+function handle_final_door(stock)
+    final_rest = {0x2DEBEAC, 0x2DEB4AC}
+    if stock[10] > 0 then
+        WriteByte(final_rest[game_version], 0)
+    else
+        WriteByte(final_rest[game_version], 1)
+    end
+end
+
 
 function write_world_lines()
     --[[Opens all world connections on the world map]]
@@ -186,5 +199,6 @@ function _OnFrame()
         handle_summons(stock)
         handle_puppies(stock)
         handle_torn_pages(stock)
+        handle_final_door(stock)
     end
 end

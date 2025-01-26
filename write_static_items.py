@@ -16,14 +16,13 @@ def get_evdl_locations():
             evdl_locations.append(line)
     return evdl_locations
 
-def get_seed_json_data():
-    seed_json_file = None
+def get_seed_json_data(seed_json_file = None):
     while not seed_json_file:
-        seed_json_file = filedialog.askopenfile(mode ='r', filetypes =[('JSON', '*.json')], title = "KH1 Randomizer Seed JSON")
+        seed_json_file = filedialog.askopenfilename(filetypes =[('JSON', '*.json')], title = "KH1 Randomizer Seed JSON")
         if not seed_json_file:
             print("Error, please select a valid KH1 seed file")
-        else:
-            seed_json_data = json.load(seed_json_file)
+    with open(seed_json_file, mode='r') as file:
+        seed_json_data = json.load(file)
     return seed_json_data
 
 def get_evdl_bytes(file_path):
@@ -73,9 +72,9 @@ def write_updated_evdl_files(sorted_evdl_location_data, seed_json_data, kh1_data
                 print("AP Location ID not found in replacement JSON, writing potion")
         write_evdl_bytes_to_file(file, evdl_bytes)
 
-def write_static_items():
+def write_static_items(seed_json_file = None):
     kh1_data_path = "./Output/"
-    seed_json_data = get_seed_json_data()
+    seed_json_data = get_seed_json_data(seed_json_file)
     evdl_locations = get_evdl_locations()
     sorted_evdl_location_data = sort_evdl_location_data(evdl_locations)
     write_updated_evdl_files(sorted_evdl_location_data, seed_json_data, kh1_data_path)

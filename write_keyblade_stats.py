@@ -10,14 +10,13 @@ from write_item_descriptions import replace_specific_item_description
 root = tk.Tk()
 root.withdraw()
 
-def get_seed_keyblade_stats_data():
-    seed_json_file = None
+def get_seed_keyblade_stats_data(seed_json_file = None):
     while not seed_json_file:
-        seed_json_file = filedialog.askopenfile(mode ='r', filetypes =[('JSON', '*.json')], title = "KH1 Keyblade Stats JSON File")
+        seed_json_file = filedialog.askopenfilename(filetypes =[('JSON', '*.json')], title = "KH1 Keyblade Stats JSON File")
         if not seed_json_file:
             print("Error, please select a valid KH1 keyblade stats json file")
-        else:
-            seed_json_data = json.load(seed_json_file)
+    with open(seed_json_file, mode='r') as file:
+        seed_json_data = json.load(file)
     return seed_json_data
 
 def get_battle_table(kh1_data_path):
@@ -89,9 +88,9 @@ def output_battle_table(battle_table_bytes):
     with open('./Output/btltbl.bin', mode = 'wb') as file:
         file.write(battle_table_bytes)
 
-def write_keyblade_stats():
+def write_keyblade_stats(seed_json_file = None):
     kh1_data_path = "./Output/"
-    keyblade_stats_data = get_seed_keyblade_stats_data()
+    keyblade_stats_data = get_seed_keyblade_stats_data(seed_json_file)
     battle_table_bytes = get_battle_table(kh1_data_path)
     weapon_definitions = get_weapon_stat_definitions()
     battle_table_bytes = write_weapon_stats(battle_table_bytes, weapon_definitions, keyblade_stats_data)

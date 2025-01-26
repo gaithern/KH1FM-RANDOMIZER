@@ -347,6 +347,7 @@ kh1_hex_to_char_map = [
 
 new_item_descriptions = {
     9: "Allows progression in 100 Acre Wood.",
+    10: "Manifests the Door in Final Rest.",
     149: "Allows travel to Wonderland.",
     150: "Allows travel to Olympus Coliseum.",
     151: "Allows travel to Deep Jungle.",
@@ -693,7 +694,7 @@ sort_order = [
     , 7     # Mega-Ether
     , 8     # Megalixir
     , 5003  # Fury Stone (Becomes Torn Page)
-    , 3025  # Power Stone
+    , 5004  # Power Stone (Becomes Final Door Key)
     , 3035  # Energy Stone
     , 3045  # Blazing Stone
     , 3055  # Frost Stone
@@ -940,3 +941,21 @@ sort_order = [
     , 3112  # Mythril
     , 3114  # Orichalcum
 ]
+
+filler_item_ids = [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    142,
+    143,
+    144,
+    152,
+    153,
+    154
+]
+    

@@ -32,14 +32,13 @@ def get_battle_table(kh1_data_path):
     with open(kh1_data_path + "/btltbl.bin", mode = 'rb') as file:
         return bytearray(file.read())
 
-def get_seed_json_data():
-    seed_json_file = None
+def get_seed_json_data(seed_json_file = None):
     while not seed_json_file:
-        seed_json_file = filedialog.askopenfile(mode ='r', filetypes =[('JSON', '*.json')], title = "KH1 Randomizer Seed JSON")
+        seed_json_file = filedialog.askopenfilename(filetypes =[('JSON', '*.json')], title = "KH1 Randomizer Seed JSON")
         if not seed_json_file:
             print("Error, please select a valid KH1 seed file")
-        else:
-            seed_json_data = json.load(seed_json_file)
+    with open(seed_json_file, mode='r') as file:
+        seed_json_data = json.load(file)
     return seed_json_data
 
 def get_replacement_short_item(item_index):
@@ -132,11 +131,11 @@ def output_battle_table(battle_table_bytes):
     with open('./Output/btltbl.bin', mode = 'wb') as file:
         file.write(battle_table_bytes)
 
-def write_chests_and_rewards():
+def write_chests_and_rewards(seed_json_file = None):
     kh1_data_path = "./Output/"
     chest_definitions = get_chest_definitions()
     reward_definitions = get_rewards_definitions()
-    seed_json_data = get_seed_json_data()
+    seed_json_data = get_seed_json_data(seed_json_file = seed_json_file)
     chest_replacements, reward_definitions = get_all_chest_replacements(chest_definitions, reward_definitions, seed_json_data)
     reward_replacements = get_all_reward_replacements(reward_definitions, seed_json_data)
     chest_template_lua = get_chest_template_lua()
