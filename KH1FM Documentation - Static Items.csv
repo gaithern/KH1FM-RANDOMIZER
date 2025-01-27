@@ -105,12 +105,10 @@ Traverse Town,1st District,Examine Safe,Postcard,1,/remastered/tw01.ard/UK_tw01_
 Traverse Town,1st District,Examine Safe,Postcard,1,/remastered/tw01.ard/UK_tw01_ardd.evdl,N,2,B9B9,2656501,Traverse Town 1st District Safe Postcard
 Traverse Town,1st District,Examine Safe,Postcard,1,/remastered/tw01.ard/UK_tw01a.ev,N,1,D9B1,2656501,Traverse Town 1st District Safe Postcard
 Traverse Town,1st District,Examine Safe,Postcard,1,/remastered/tw01.ard/UK_tw01a.ev,N,2,D9BD,2656501,Traverse Town 1st District Safe Postcard
-Traverse Town,1st District,Defeat Guard Armor,Fire,1,/remastered/tw01.ard/UK_tw01_ard4.evdl,Y,1,1336A,2656012,Traverse Town Defeat Guard Armor Fire Event
-Traverse Town,1st District,Defeat Guard Armor,Fire,1,/remastered/tw01.ard/UK_tw01_ard4.evdl,Y,2,13376,2656012,Traverse Town Defeat Guard Armor Fire Event
-Traverse Town,1st District,Defeat Guard Armor,Fire,1,/remastered/tw01.ard/UK_tw01_ard4.evdl,Y,3,13382,2656012,Traverse Town Defeat Guard Armor Fire Event
-Traverse Town,1st District,Defeat Guard Armor,Blue Trinity,1,/remastered/tw01.ard/UK_tw01_ard4.evdl,Y,1,134FA,2656013,Traverse Town Defeat Guard Armor Blue Trinity Event
-Traverse Town,1st District,Defeat Guard Armor,Blue Trinity,1,/remastered/tw01.ard/UK_tw01_ard4.evdl,Y,2,13506,2656013,Traverse Town Defeat Guard Armor Blue Trinity Event
-Traverse Town,1st District,Defeat Guard Armor,Blue Trinity,1,/remastered/tw01.ard/UK_tw01_ard4.evdl,Y,3,13512,2656013,Traverse Town Defeat Guard Armor Blue Trinity Event
+Traverse Town,1st District,Defeat Guard Armor,Fire,1,/remastered/tw01.ard/UK_tw01_ard4.evdl,Y,1,13376,2656012,Traverse Town Defeat Guard Armor Fire Event
+Traverse Town,1st District,Defeat Guard Armor,Fire,1,/remastered/tw01.ard/UK_tw01_ard4.evdl,Y,2,13382,2656012,Traverse Town Defeat Guard Armor Fire Event
+Traverse Town,1st District,Defeat Guard Armor,Blue Trinity,1,/remastered/tw01.ard/UK_tw01_ard4.evdl,Y,1,13506,2656013,Traverse Town Defeat Guard Armor Blue Trinity Event
+Traverse Town,1st District,Defeat Guard Armor,Blue Trinity,1,/remastered/tw01.ard/UK_tw01_ard4.evdl,Y,2,13512,2656013,Traverse Town Defeat Guard Armor Blue Trinity Event
 Deep Jungle,Camp,Rescue Gorillas,Protect-G,1,/remastered/tz13.ard/UK_tz13_ard1.evdl,Y,1,5071,2656366,Deep Jungle Camp Save Gorillas
 Deep Jungle,Camp,Rescue Gorillas,Protect-G,1,/remastered/tz13.ard/UK_tz13_ard1.evdl,Y,2,507D,2656366,Deep Jungle Camp Save Gorillas
 Deep Jungle,Camp,Rescue Gorillas,Protect-G,1,/remastered/tz13.ard/UK_tz13_ard1.evdl,Y,3,5089,2656366,Deep Jungle Camp Save Gorillas
@@ -496,6 +494,8 @@ Atlantica,Triton's Palace,Clam,Mega-Ether,1,/remastered/lm15.ard/UK_lm15_ardc.ev
 Atlantica,Triton's Palace,Clam,Mega-Ether,1,/remastered/lm15.ard/UK_lm15_ardc.evdl,N,2,6221,2656210,Atlantica Triton's Palace Wall Right Clam
 Atlantica,Triton's Palace,Clam,Mega-Ether,1,/remastered/lm15.ard/UK_lm15_ardd.evdl,N,1,6019,2656210,Atlantica Triton's Palace Wall Right Clam
 Atlantica,Triton's Palace,Clam,Mega-Ether,1,/remastered/lm15.ard/UK_lm15_ardd.evdl,N,2,6021,2656210,Atlantica Triton's Palace Wall Right Clam
+Atlantica,Triton's Palace,Clam,Mega-Ether,1,/remastered/lm15.ard/UK_lm15_arde.evdl,N,1,6019,2656210,Atlantica Triton's Palace Wall Right Clam
+Atlantica,Triton's Palace,Clam,Mega-Ether,1,/remastered/lm15.ard/UK_lm15_arde.evdl,N,2,6021,2656210,Atlantica Triton's Palace Wall Right Clam
 Atlantica,Triton's Palace,Clam,Mega-Ether,1,/remastered/lm15.ard/UK_lm15_ardf.evdl,N,1,6019,2656210,Atlantica Triton's Palace Wall Right Clam
 Atlantica,Triton's Palace,Clam,Mega-Ether,1,/remastered/lm15.ard/UK_lm15_ardf.evdl,N,2,6021,2656210,Atlantica Triton's Palace Wall Right Clam
 Atlantica,Triton's Palace,Clam,Cottage,1,/remastered/lm15.ard/UK_lm15_ard11.evdl,N,1,5131,2656212,Atlantica Triton's Palace Wall Left Clam
@@ -506,6 +506,8 @@ Atlantica,Triton's Palace,Clam,Cottage,1,/remastered/lm15.ard/UK_lm15_ardc.evdl,
 Atlantica,Triton's Palace,Clam,Cottage,1,/remastered/lm15.ard/UK_lm15_ardc.evdl,N,2,5339,2656212,Atlantica Triton's Palace Wall Left Clam
 Atlantica,Triton's Palace,Clam,Cottage,1,/remastered/lm15.ard/UK_lm15_ardd.evdl,N,1,5131,2656212,Atlantica Triton's Palace Wall Left Clam
 Atlantica,Triton's Palace,Clam,Cottage,1,/remastered/lm15.ard/UK_lm15_ardd.evdl,N,2,5139,2656212,Atlantica Triton's Palace Wall Left Clam
+Atlantica,Triton's Palace,Clam,Cottage,1,/remastered/lm15.ard/UK_lm15_arde.evdl,N,1,5131,2656212,Atlantica Triton's Palace Wall Left Clam
+Atlantica,Triton's Palace,Clam,Cottage,1,/remastered/lm15.ard/UK_lm15_arde.evdl,N,2,5139,2656212,Atlantica Triton's Palace Wall Left Clam
 Atlantica,Triton's Palace,Clam,Cottage,1,/remastered/lm15.ard/UK_lm15_ardf.evdl,N,1,5131,2656212,Atlantica Triton's Palace Wall Left Clam
 Atlantica,Triton's Palace,Clam,Cottage,1,/remastered/lm15.ard/UK_lm15_ardf.evdl,N,2,5139,2656212,Atlantica Triton's Palace Wall Left Clam
 Atlantica,Triton's Palace,Clam,Elixir,1,/remastered/lm15.ard/UK_lm15_ard11.evdl,N,1,58A5,2656211,Atlantica Triton's Palace Near Path Clam
@@ -516,6 +518,8 @@ Atlantica,Triton's Palace,Clam,Elixir,1,/remastered/lm15.ard/UK_lm15_ardc.evdl,N
 Atlantica,Triton's Palace,Clam,Elixir,1,/remastered/lm15.ard/UK_lm15_ardc.evdl,N,2,5AAD,2656211,Atlantica Triton's Palace Near Path Clam
 Atlantica,Triton's Palace,Clam,Elixir,1,/remastered/lm15.ard/UK_lm15_ardd.evdl,N,1,58A5,2656211,Atlantica Triton's Palace Near Path Clam
 Atlantica,Triton's Palace,Clam,Elixir,1,/remastered/lm15.ard/UK_lm15_ardd.evdl,N,2,58AD,2656211,Atlantica Triton's Palace Near Path Clam
+Atlantica,Triton's Palace,Clam,Elixir,1,/remastered/lm15.ard/UK_lm15_arde.evdl,N,1,58A5,2656211,Atlantica Triton's Palace Near Path Clam
+Atlantica,Triton's Palace,Clam,Elixir,1,/remastered/lm15.ard/UK_lm15_arde.evdl,N,2,58AD,2656211,Atlantica Triton's Palace Near Path Clam
 Atlantica,Triton's Palace,Clam,Elixir,1,/remastered/lm15.ard/UK_lm15_ardf.evdl,N,1,58A5,2656211,Atlantica Triton's Palace Near Path Clam
 Atlantica,Triton's Palace,Clam,Elixir,1,/remastered/lm15.ard/UK_lm15_ardf.evdl,N,2,58AD,2656211,Atlantica Triton's Palace Near Path Clam
 Atlantica,Triton's Palace,Thunder Clam,Mythril Shard,1,/remastered/lm15.ard/UK_lm15_ard11.evdl,N,1,6869,2656209,Atlantica Triton's Palace Thunder Clam
@@ -526,6 +530,8 @@ Atlantica,Triton's Palace,Thunder Clam,Mythril Shard,1,/remastered/lm15.ard/UK_l
 Atlantica,Triton's Palace,Thunder Clam,Mythril Shard,1,/remastered/lm15.ard/UK_lm15_ardc.evdl,N,2,6A71,2656209,Atlantica Triton's Palace Thunder Clam
 Atlantica,Triton's Palace,Thunder Clam,Mythril Shard,1,/remastered/lm15.ard/UK_lm15_ardd.evdl,N,1,6869,2656209,Atlantica Triton's Palace Thunder Clam
 Atlantica,Triton's Palace,Thunder Clam,Mythril Shard,1,/remastered/lm15.ard/UK_lm15_ardd.evdl,N,2,6871,2656209,Atlantica Triton's Palace Thunder Clam
+Atlantica,Triton's Palace,Thunder Clam,Mythril Shard,1,/remastered/lm15.ard/UK_lm15_arde.evdl,N,1,6869,2656209,Atlantica Triton's Palace Thunder Clam
+Atlantica,Triton's Palace,Thunder Clam,Mythril Shard,1,/remastered/lm15.ard/UK_lm15_arde.evdl,N,2,6871,2656209,Atlantica Triton's Palace Thunder Clam
 Atlantica,Triton's Palace,Thunder Clam,Mythril Shard,1,/remastered/lm15.ard/UK_lm15_ardf.evdl,N,1,6869,2656209,Atlantica Triton's Palace Thunder Clam
 Atlantica,Triton's Palace,Thunder Clam,Mythril Shard,1,/remastered/lm15.ard/UK_lm15_ardf.evdl,N,2,6871,2656209,Atlantica Triton's Palace Thunder Clam
 Atlantica,Triton's Palace,White Trinity,Orichalcum,1,/remastered/lm15.ard/UK_lm15_ard11.evdl,N,1,7429,2652611,Atlantica Triton's Palace White Trinity Chest
@@ -612,7 +618,7 @@ Atlantica,Ariel's Grotto,Chest,Torn Page 1,1,/remastered/lm14.ard/UK_lm14_ardc.e
 Atlantica,Ariel's Grotto,Chest,Torn Page 1,1,/remastered/lm14.ard/UK_lm14a.ev,N,1,6821,2652534,Atlantica Ariel's Grotto High Chest
 Atlantica,Ariel's Grotto,Chest,Torn Page 1,1,/remastered/lm14.ard/UK_lm14a.ev,N,2,6865,2652534,Atlantica Ariel's Grotto High Chest
 Atlantica,Ariel's Grotto,Chest,Torn Page 1,1,/remastered/lm14.ard/UK_lm14a.ev,N,3,6879,2652534,Atlantica Ariel's Grotto High Chest
-Atlantica,Sunken Ship,Chest,Mythril Shard,1,/remastered/lm07.ard/UK_lm07_ard0.evdl,N,1,64E1,2652533,Atlantica Sunken Ship Inside Ship Chest
+Atlantica,Sunken Ship,Chest,Mythril Shard,1,/remastered/lm07.ard/UK_lm07_ard0.evdl,N,1,64E1,2652532,Atlantica Sunken Ship Seabed Chest
 Atlantica,Sunken Ship,Chest,Mythril Shard,1,/remastered/lm07.ard/UK_lm07_ard0.evdl,N,2,6525,2652532,Atlantica Sunken Ship Seabed Chest
 Atlantica,Sunken Ship,Chest,Mythril Shard,1,/remastered/lm07.ard/UK_lm07_ard0.evdl,N,3,6539,2652532,Atlantica Sunken Ship Seabed Chest
 Atlantica,Sunken Ship,Chest,Mythril Shard,1,/remastered/lm07.ard/UK_lm07_ard2.evdl,N,1,6439,2652532,Atlantica Sunken Ship Seabed Chest
@@ -660,9 +666,8 @@ Atlantica,Sunken Ship,Chest,Elixir,1,/remastered/lm07.ard/UK_lm07_arde.evdl,N,3,
 Atlantica,Sunken Ship,Chest,Elixir,1,/remastered/lm07.ard/UK_lm07_ardf.evdl,N,1,4CE5,2652531,Atlantica Sunken Ship In Flipped Boat Chest
 Atlantica,Sunken Ship,Chest,Elixir,1,/remastered/lm07.ard/UK_lm07_ardf.evdl,N,2,4D29,2652531,Atlantica Sunken Ship In Flipped Boat Chest
 Atlantica,Sunken Ship,Chest,Elixir,1,/remastered/lm07.ard/UK_lm07_ardf.evdl,N,3,4D3D,2652531,Atlantica Sunken Ship In Flipped Boat Chest
-Atlantica,Below Deck,Chest,Crystal Trident,1,/remastered/lm08.ard/UK_lm08_ard0.evdl,N,1,553D,2656381,Atlantica Sunken Ship Crystal Trident Event
-Atlantica,Below Deck,Chest,Crystal Trident,1,/remastered/lm08.ard/UK_lm08_ard0.evdl,N,2,5549,2656381,Atlantica Sunken Ship Crystal Trident Event
-Atlantica,Below Deck,Chest,Crystal Trident,1,/remastered/lm08.ard/UK_lm08_ard0.evdl,N,3,5555,2656381,Atlantica Sunken Ship Crystal Trident Event
+Atlantica,Below Deck,Chest,Crystal Trident,1,/remastered/lm08.ard/UK_lm08_ard0.evdl,N,1,5549,2656381,Atlantica Sunken Ship Crystal Trident Event
+Atlantica,Below Deck,Chest,Crystal Trident,1,/remastered/lm08.ard/UK_lm08_ard0.evdl,N,2,5555,2656381,Atlantica Sunken Ship Crystal Trident Event
 Atlantica,Below Deck,Chest,Mythril Shard,1,/remastered/lm08.ard/UK_lm08_ard0.evdl,N,1,6A05,2652533,Atlantica Sunken Ship Inside Ship Chest
 Atlantica,Below Deck,Chest,Mythril Shard,1,/remastered/lm08.ard/UK_lm08_ard0.evdl,N,2,6A49,2652533,Atlantica Sunken Ship Inside Ship Chest
 Atlantica,Below Deck,Chest,Mythril Shard,1,/remastered/lm08.ard/UK_lm08_ard0.evdl,N,3,6A5D,2652533,Atlantica Sunken Ship Inside Ship Chest
@@ -968,9 +973,8 @@ Agrabah,Aladdin's House,Defeat Genie Jafar,Genie,1,/remastered/al19.ard/UK_al19_
 Agrabah,Aladdin's House,Defeat Genie Jafar,Green Trinity,1,/remastered/al19.ard/UK_al19_ard5.evdl,Y,1,3145,2656056,Agrabah Seal Keyhole Green Trinity Event
 Agrabah,Aladdin's House,Defeat Genie Jafar,Green Trinity,1,/remastered/al19.ard/UK_al19_ard5.evdl,Y,2,3151,2656056,Agrabah Seal Keyhole Green Trinity Event
 Agrabah,Aladdin's House,Defeat Genie Jafar,Green Trinity,1,/remastered/al19.ard/UK_al19_ard5.evdl,Y,3,315D,2656056,Agrabah Seal Keyhole Green Trinity Event
-Agrabah,Desert,Defeat Kurt Zisa,Ansem's Report 11,1,al01.ard,Y,1,241A7E,2657026,Agrabah Defeat Kurt Zisa Ansem's Report 11
-Agrabah,Desert,Defeat Kurt Zisa,Ansem's Report 11,1,al01.ard,Y,2,241A8A,2657026,Agrabah Defeat Kurt Zisa Ansem's Report 11
-Agrabah,Desert,Defeat Kurt Zisa,Ansem's Report 11,1,al01.ard,Y,3,241A96,2657026,Agrabah Defeat Kurt Zisa Ansem's Report 11
+Agrabah,Desert,Defeat Kurt Zisa,Ansem's Report 11,1,al01.ard,Y,1,241A8A,2657026,Agrabah Defeat Kurt Zisa Ansem's Report 11
+Agrabah,Desert,Defeat Kurt Zisa,Ansem's Report 11,1,al01.ard,Y,2,241A96,2657026,Agrabah Defeat Kurt Zisa Ansem's Report 11
 Neverland,Ship:Hold,Chest,Aero,1,/remastered/pp03.ard/UK_pp03_ardd.evdl,Y,1,340D,2656344,Neverland Hold Aero Chest
 Neverland,Ship:Hold,Chest,Aero,1,/remastered/pp03.ard/UK_pp03_ardd.evdl,Y,2,3419,2656344,Neverland Hold Aero Chest
 Neverland,Ship:Hold,Chest,Aero,1,/remastered/pp03.ard/UK_pp03_ardd.evdl,Y,3,3425,2656344,Neverland Hold Aero Chest

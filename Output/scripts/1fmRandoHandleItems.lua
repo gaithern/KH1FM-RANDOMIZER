@@ -165,11 +165,36 @@ function handle_final_door(stock)
     end
 end
 
+function handle_olympus_cups(stock)
+    --[[Writes the player's unlocked Olympus Coliseum cups]]
+    olympus_cups_array = {0,0,0,0}
+    olympus_cups_array[1] = math.min(stock[182], 1) * 10
+    olympus_cups_array[2] = math.min(stock[184], 1) * 10
+    olympus_cups_array[3] = math.min(stock[185], 1) * 10
+    if olympus_cups_array[1] == 10 and olympus_cups_array[2] == 10 and olympus_cups_array[3] == 10 then
+        olympus_cups_array[4] = 10
+    end
+    olympus_cups_address = {0x2DEBB60, 0x2DEB160}
+    current_olympus_cups_array = read_olympus_cups_array()
+    for k,v in pairs(current_olympus_cups_array) do
+        if v == 1 then
+            olympus_cups_array[k] = v
+        end
+    end
+    WriteArray(olympus_cups_address[game_version], olympus_cups_array)
+end
 
 function write_world_lines()
     --[[Opens all world connections on the world map]]
     world_map_lines_address = {0x2DEBC72, 0x2DEB272}
     WriteArray(world_map_lines_address[game_version], {0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF})
+end
+
+function read_olympus_cups_array()
+    --[[Reads an array of the bytes which correspond to which Olympus Coliseum
+    cups have been unlocked.]]
+    olympus_cups_address = {0x2DEBB60, 0x2DEB160} --changed for EGS 1.0.0.10
+    return ReadArray(olympus_cups_address[game_version], 4)
 end
 
 function _OnInit()
@@ -200,5 +225,6 @@ function _OnFrame()
         handle_puppies(stock)
         handle_torn_pages(stock)
         handle_final_door(stock)
+        handle_olympus_cups(stock)
     end
 end

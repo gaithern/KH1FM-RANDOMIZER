@@ -126,11 +126,72 @@
       <Address>"KINGDOM HEARTS FINAL MIX.exe" +0x2DEAB68 + 0xE6A</Address>
     </CheatEntry>
     <CheatEntry>
-      <ID>21</ID>
+      <ID>22</ID>
+      <Description>"Monstro Chamber 5 Blue Trinity"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Binary</VariableType>
+      <BitStart>3</BitStart>
+      <BitLength>1</BitLength>
+      <ShowAsBinary>0</ShowAsBinary>
+      <Address>"KINGDOM HEARTS FINAL MIX.exe" +0x2DEAB68 + 0xE6E</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>23</ID>
+      <Description>"Monstro Mouth Blue Trinity"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Binary</VariableType>
+      <BitStart>5</BitStart>
+      <BitLength>1</BitLength>
+      <ShowAsBinary>0</ShowAsBinary>
+      <Address>"KINGDOM HEARTS FINAL MIX.exe" +0x2DEAB68 + 0xE6E</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>24</ID>
       <Description>"No description"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Byte</VariableType>
-      <Address>7FF67554B9D2</Address>
+      <Address>"KINGDOM HEARTS FINAL MIX.exe" + 0x2DEA1F9 + E6</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>25</ID>
+      <Description>"None"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>7FF67554B9DB</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>26</ID>
+      <Description>"Hollow Bastion Dungeon Blue Trinity"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Binary</VariableType>
+      <BitStart>5</BitStart>
+      <BitLength>1</BitLength>
+      <ShowAsBinary>0</ShowAsBinary>
+      <Address>"KINGDOM HEARTS FINAL MIX.exe" +0x2DEAB68 + 0xE73</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>27</ID>
+      <Description>"Hollow Bastion Great Crest Blue Trinity"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Binary</VariableType>
+      <BitStart>6</BitStart>
+      <BitLength>1</BitLength>
+      <ShowAsBinary>0</ShowAsBinary>
+      <Address>"KINGDOM HEARTS FINAL MIX.exe" +0x2DEAB68 + 0xE73</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>28</ID>
+      <Description>"No description"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>"KINGDOM HEARTS FINAL MIX.exe" + 0x2E01896 + 0x0C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>29</ID>
+      <Description>"No description"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Byte</VariableType>
+      <Address>"KINGDOM HEARTS FINAL MIX.exe" + 0x2DEAA6D + 0xCBF</Address>
     </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>

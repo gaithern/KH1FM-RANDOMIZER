@@ -14,11 +14,11 @@ map_prize_array = {
     [2656602] = {0xEA9, 1, replace_2656602}, --Traverse Town Magician's Study Blue Trinity
     [2656603] = {0xE66, 7, replace_2656603}, --Wonderland Lotus Forest Blue Trinity in Alcove
     [2656604] = {0xE66, 6, replace_2656604}, --Wonderland Lotus Forest Blue Trinity by Moving Boulder
-    [2656605] = {0xE6C, 7, replace_2656605},
-    [2656606] = {0xE64, 7, replace_2656606},
-    [2656607] = {0xE64, 7, replace_2656607},
-    [2656608] = {0xE64, 7, replace_2656608},
-    [2656609] = {0xE64, 7, replace_2656609},
+    [2656605] = {0xE6C, 7, replace_2656605}, --Agrabah Bazaar Blue Trinity
+    [2656606] = {0xE6E, 6, replace_2656606}, --Monstro Mouth Blue Trinity
+    [2656607] = {0xE6E, 4, replace_2656607}, --Monstro Chamber 5 Blue Trinity
+    [2656608] = {0xE73, 7, replace_2656608}, --Hollow Bastion Great Crest Blue Trinity
+    [2656609] = {0xE73, 6, replace_2656609}, --Hollow Bastion Dungeon Blue Trinity
     [2656610] = {0xE6A, 4, replace_2656610}, --Deep Jungle Treetop Green Trinity
     [2656611] = {0xE6C, 4, replace_2656611}, --Agrabah Treasure Room Red Trinity
 }

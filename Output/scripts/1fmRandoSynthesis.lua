@@ -8,7 +8,7 @@ LUAGUI_AUTH = "Gicu"
 LUAGUI_DESC = "Kingdom Hearts 1FM Randomizer Synthesis"
 
 canExecute = false
-synth_items = {44, 167, 8, 177, 6, 152}
+synth_items = {131, 167, 44, 167, 167, 51, 153, 167, 2, 183, 3, 1, 233, 8, 6, 113, 142, 8, 49, 153, 238, 167, 211, 2, 236, 143, 26, 3, 142, 143, 144, 88, 101}
 synth_written = false
 synth_address = {0x5483A0, 0x5476C0}
 
@@ -17,7 +17,11 @@ function write_synth_items()
     for k,item_value in pairs(synth_items) do
         base_address = synth_address[game_version] + synth_items_offset + ((k-1)*10)
         WriteByte(base_address, item_value) --Item
-        WriteByte(base_address + 0x2, 0x0) --Requirements Offset
+        if k % 2 == 1 then
+            WriteByte(base_address + 0x2, 0x0) --Requirements Offset
+        else
+            WriteByte(base_address + 0x2, 0x1) --Requirements Offset
+        end
         WriteByte(base_address + 0x3, 0x1) --Number of Requirements
         WriteByte(base_address + 0x4, 0x1) --Unique Synth
     end
@@ -34,6 +38,7 @@ end
 
 function write_synth_requirements()
     WriteByte(synth_address[game_version], 0xFF)
+    WriteByte(synth_address[game_version] + 4, 0xFE)
 end
 
 function _OnInit()

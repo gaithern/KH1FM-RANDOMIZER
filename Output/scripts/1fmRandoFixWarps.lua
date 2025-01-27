@@ -21,6 +21,15 @@ local EventFlag = {0x2DEBBB6, 0x2DEB1B6}
 local soraHUD = {0x2812E9C, 0x281249C}
 local spawn = {0x2DEBDA8, 0x2DEB3A8}
 
+function BitOr(Address,Bit,Abs)
+    WriteByte(Address,ReadByte(Address)|Bit,Abs and OnPC)
+end
+
+function BitNot(Address,Bit,Abs)
+    WriteByte(Address,ReadByte(Address)&~Bit,Abs and OnPC)
+end
+
+
 function fix_world_states()
     if ReadByte(StoryProgress[game_version]+3) == 0x01 and ReadShort(stateFlag[game_version]) == 0x04 then --During Start of TT1
         WriteByte(StoryProgress[game_version]+3, 0x00)

@@ -17,7 +17,11 @@ function write_synth_items()
     for k,item_value in pairs(synth_items) do
         base_address = synth_address[game_version] + synth_items_offset + ((k-1)*10)
         WriteByte(base_address, item_value) --Item
-        WriteByte(base_address + 0x2, 0x0) --Requirements Offset
+        if k % 2 == 1 then
+            WriteByte(base_address + 0x2, 0x0) --Requirements Offset
+        else
+            WriteByte(base_address + 0x2, 0x1) --Requirements Offset
+        end
         WriteByte(base_address + 0x3, 0x1) --Number of Requirements
         WriteByte(base_address + 0x4, 0x1) --Unique Synth
     end
@@ -34,6 +38,7 @@ end
 
 function write_synth_requirements()
     WriteByte(synth_address[game_version], 0xFF)
+    WriteByte(synth_address[game_version] + 4, 0xFE)
 end
 
 function _OnInit()

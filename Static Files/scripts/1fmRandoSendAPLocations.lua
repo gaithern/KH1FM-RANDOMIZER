@@ -441,12 +441,40 @@ function fill_location_map()
     table.insert(location_map, {2656384, world_progress_array_address[game_version] +    1, 0, 0x5C, 0}) --Deep Jungle Cavern of Hearts Navi-G Piece Event
     table.insert(location_map, {2656385, world_progress_array_address[game_version] +    3, 0, 0x30, 0}) --Wonderland Bizarre Room Navi-G Piece Event
     table.insert(location_map, {2656386, world_progress_array_address[game_version] +    2, 0, 0x10, 0}) --Olympus Coliseum Coliseum Gates Entry Pass Event
-    table.insert(location_map, {2656401, world_flags_address[game_version]          + 3259, 8, 0x01, 0}) --Traverse Town Synth Item 1
-    table.insert(location_map, {2656402, world_flags_address[game_version]          + 3259, 7, 0x01, 0}) --Traverse Town Synth Item 2
-    table.insert(location_map, {2656403, world_flags_address[game_version]          + 3259, 6, 0x01, 0}) --Traverse Town Synth Item 3
-    table.insert(location_map, {2656404, world_flags_address[game_version]          + 3259, 5, 0x01, 0}) --Traverse Town Synth Item 4
-    table.insert(location_map, {2656405, world_flags_address[game_version]          + 3259, 4, 0x01, 0}) --Traverse Town Synth Item 5
-    table.insert(location_map, {2656406, world_flags_address[game_version]          + 3259, 3, 0x01, 0}) --Traverse Town Synth Item 6
+    table.insert(location_map, {2656400, world_flags_address[game_version]          + 3267, 0, 0x03, 0}) --Traverse Town Synth 15 Items
+    table.insert(location_map, {2656401, world_flags_address[game_version]          + 3259, 8, 0x01, 0}) --Traverse Town Synth Item 01
+    table.insert(location_map, {2656402, world_flags_address[game_version]          + 3259, 7, 0x01, 0}) --Traverse Town Synth Item 02
+    table.insert(location_map, {2656403, world_flags_address[game_version]          + 3259, 6, 0x01, 0}) --Traverse Town Synth Item 03
+    table.insert(location_map, {2656404, world_flags_address[game_version]          + 3259, 5, 0x01, 0}) --Traverse Town Synth Item 04
+    table.insert(location_map, {2656405, world_flags_address[game_version]          + 3259, 4, 0x01, 0}) --Traverse Town Synth Item 05
+    table.insert(location_map, {2656406, world_flags_address[game_version]          + 3259, 3, 0x01, 0}) --Traverse Town Synth Item 06
+    table.insert(location_map, {2656407, world_flags_address[game_version]          + 3259, 2, 0x01, 0}) --Traverse Town Synth Item 07
+    table.insert(location_map, {2656408, world_flags_address[game_version]          + 3259, 1, 0x01, 0}) --Traverse Town Synth Item 08
+    table.insert(location_map, {2656409, world_flags_address[game_version]          + 3260, 8, 0x01, 0}) --Traverse Town Synth Item 09
+    table.insert(location_map, {2656410, world_flags_address[game_version]          + 3260, 7, 0x01, 0}) --Traverse Town Synth Item 10
+    table.insert(location_map, {2656411, world_flags_address[game_version]          + 3260, 6, 0x01, 0}) --Traverse Town Synth Item 11
+    table.insert(location_map, {2656412, world_flags_address[game_version]          + 3260, 5, 0x01, 0}) --Traverse Town Synth Item 12
+    table.insert(location_map, {2656413, world_flags_address[game_version]          + 3260, 4, 0x01, 0}) --Traverse Town Synth Item 13
+    table.insert(location_map, {2656414, world_flags_address[game_version]          + 3260, 3, 0x01, 0}) --Traverse Town Synth Item 14
+    table.insert(location_map, {2656415, world_flags_address[game_version]          + 3260, 2, 0x01, 0}) --Traverse Town Synth Item 15
+    table.insert(location_map, {2656416, world_flags_address[game_version]          + 3260, 1, 0x01, 0}) --Traverse Town Synth Item 16
+    table.insert(location_map, {2656417, world_flags_address[game_version]          + 3261, 8, 0x01, 0}) --Traverse Town Synth Item 17
+    table.insert(location_map, {2656418, world_flags_address[game_version]          + 3261, 7, 0x01, 0}) --Traverse Town Synth Item 18
+    table.insert(location_map, {2656419, world_flags_address[game_version]          + 3261, 6, 0x01, 0}) --Traverse Town Synth Item 19
+    table.insert(location_map, {2656420, world_flags_address[game_version]          + 3261, 5, 0x01, 0}) --Traverse Town Synth Item 20
+    table.insert(location_map, {2656421, world_flags_address[game_version]          + 3261, 4, 0x01, 0}) --Traverse Town Synth Item 21
+    table.insert(location_map, {2656422, world_flags_address[game_version]          + 3261, 3, 0x01, 0}) --Traverse Town Synth Item 22
+    table.insert(location_map, {2656423, world_flags_address[game_version]          + 3261, 2, 0x01, 0}) --Traverse Town Synth Item 23
+    table.insert(location_map, {2656424, world_flags_address[game_version]          + 3261, 1, 0x01, 0}) --Traverse Town Synth Item 24
+    table.insert(location_map, {2656425, world_flags_address[game_version]          + 3262, 8, 0x01, 0}) --Traverse Town Synth Item 25
+    table.insert(location_map, {2656426, world_flags_address[game_version]          + 3262, 7, 0x01, 0}) --Traverse Town Synth Item 26
+    table.insert(location_map, {2656427, world_flags_address[game_version]          + 3262, 6, 0x01, 0}) --Traverse Town Synth Item 27
+    table.insert(location_map, {2656428, world_flags_address[game_version]          + 3262, 5, 0x01, 0}) --Traverse Town Synth Item 28
+    table.insert(location_map, {2656429, world_flags_address[game_version]          + 3262, 4, 0x01, 0}) --Traverse Town Synth Item 29
+    table.insert(location_map, {2656430, world_flags_address[game_version]          + 3262, 3, 0x01, 0}) --Traverse Town Synth Item 30
+    table.insert(location_map, {2656431, world_flags_address[game_version]          + 3262, 2, 0x01, 0}) --Traverse Town Synth Item 31
+    table.insert(location_map, {2656432, world_flags_address[game_version]          + 3262, 1, 0x01, 0}) --Traverse Town Synth Item 32
+    table.insert(location_map, {2656433, world_flags_address[game_version]          + 3263, 8, 0x01, 0}) --Traverse Town Synth Item 33
     table.insert(location_map, {2656500, world_flags_address[game_version]          + 4019, 8, 0x01, 0}) --Traverse Town Item Shop Postcard
     table.insert(location_map, {2656501, world_flags_address[game_version]          + 4010, 0, 0x01, 0}) --Traverse Town 1st District Safe Postcard
     table.insert(location_map, {2656502, world_flags_address[game_version]          + 4017, 6, 0x01, 0}) --Traverse Town Gizmo Shop Postcard 1

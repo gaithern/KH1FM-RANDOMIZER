@@ -17,13 +17,12 @@ def get_seed_json_data(seed_json_file = None):
     return seed_json_data
 
 def get_synth_items(seed_json_data):
-    return [
-        seed_json_data["2656401"] % 2641000,
-        seed_json_data["2656402"] % 2641000,
-        seed_json_data["2656403"] % 2641000,
-        seed_json_data["2656404"] % 2641000,
-        seed_json_data["2656405"] % 2641000,
-        seed_json_data["2656406"] % 2641000]
+    synth_items = []
+    i = 1
+    while i <= 33:
+        synth_items.append(seed_json_data[str(2656400 + i)] % 2641000)
+        i = i + 1
+    return synth_items
 
 def get_synth_template_lua():
     with open('./Template Luas/1fmRandoSynthesis.lua', mode = 'r') as file:

@@ -45,6 +45,7 @@ def replace_item_descriptions_with_definitions_new_item_descriptions(item_descri
     for i in range(len(item_descriptions)):
         if i+1 in new_item_descriptions.keys():
             item_descriptions[i] = new_item_descriptions[i+1]
+    return item_descriptions
 
 def concat_item_descriptions(item_descriptions):
     item_description_string = ""
