@@ -14,6 +14,8 @@ from write_synthesis_items import write_synthesis_items
 from write_lucky_emblems_lua import write_lucky_emblems_lua
 from write_interaction_lua import write_interaction_lua
 from write_map_prizes import write_map_prizes
+from write_exp_chart import write_exp_chart
+from write_fix_combo_master import write_fix_combo_master
 from validate_evdl_data import validate_evdl_data
 from unzip_ap_output import unzip_ap_output
 
@@ -82,6 +84,12 @@ if __name__ == "__main__":
     
     print("Writing map prizes...")
     write_map_prizes(seed_json_file = item_location_map_file)
+    
+    print("Writing EXP chart...")
+    write_exp_chart(settings_file = settings_file)
+    
+    print("Writing combo master lua...")
+    write_fix_combo_master(seed_json_file = item_location_map_file)
     
     print("Writing Output.zip...")
     write_mod_zip()
