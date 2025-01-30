@@ -17,6 +17,7 @@ from write_map_prizes import write_map_prizes
 from write_exp_chart import write_exp_chart
 from write_fix_combo_master import write_fix_combo_master
 from write_map_prize_lua import write_map_prize_lua
+from write_shorten_go_mode_lua import write_shorten_go_mode_lua
 from validate_evdl_data import validate_evdl_data
 from unzip_ap_output import unzip_ap_output
 
@@ -94,6 +95,9 @@ if __name__ == "__main__":
     
     print("Writing map prize lua...")
     write_map_prize_lua(seed_json_file = item_location_map_file)
+    
+    print("Writing shorten go mode lua...")
+    write_shorten_go_mode_lua(settings_file = settings_file)
     
     print("Writing Output.zip...")
     write_mod_zip()

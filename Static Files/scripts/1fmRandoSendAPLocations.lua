@@ -38,6 +38,26 @@ function toBits(num)
     return t
 end
 
+function final_ansem_defeated()
+    --[[Checks if the player is on the results screen, meaning that they defeated Final Ansem]]
+    world = {0x2340E5C, 0x233FE84}
+    room_offset = {0x68, 0x8}
+    room = world[game_version] + room_offset[game_version]
+    cutscene_flags_address = {0x2DEB264, 0x2DEA864}
+    return (ReadByte(world[game_version]) == 0x10 and ReadByte(room) == 0x20 and ReadByte(cutscene_flags_address[game_version] + 0xB) == 0x9B)
+end
+
+function send_victory_status()
+    if final_ansem_defeated() then
+        if not file_exists(client_communication_path .. "victory") then
+            file = io.open(client_communication_path .. "victory", "w")
+            io.output(file)
+            io.write("")
+            io.close(file)
+        end
+    end
+end
+
 function fill_location_map()
     chests_opened_address        = {0x2DEA32C, 0x2DE992C}
     world_progress_array_address = {0x2DEB264, 0x2DEA864}
@@ -804,5 +824,6 @@ function _OnFrame()
     if canExecute then
         frame_count = (frame_count + 1) % 60
         send_locations(frame_count)
+        send_victory_status()
     end
 end
