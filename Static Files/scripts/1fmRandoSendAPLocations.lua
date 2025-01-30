@@ -317,6 +317,7 @@ function fill_location_map()
     table.insert(location_map, {2656091, world_progress_array_address[game_version] + 0x9,    0, 0x35, 0}) --Neverland Defeat Anti Sora Raven's Claw Event
     table.insert(location_map, {2656092, world_progress_array_address[game_version] + 0x9,    0, 0x3F, 0}) --Neverland Encounter Hook Cure Event
     table.insert(location_map, {2656093, world_progress_array_address[game_version] + 0x9,    0, 0x6E, 0}) --Neverland Seal Keyhole Fairy Harp Event
+    table.insert(location_map, {2656112, world_progress_array_address[game_version] + 0x9,    0, 0x6E, 0}) --Neverland Seal Keyhole Navi-G Piece Event
     table.insert(location_map, {2656094, world_progress_array_address[game_version] + 0x9,    0, 0x6E, 0}) --Neverland Seal Keyhole Tinker Bell Event
     table.insert(location_map, {2656095, world_progress_array_address[game_version] + 0x9,    0, 0x6E, 0}) --Neverland Seal Keyhole Glide Event
     table.insert(location_map, {2656096, world_progress_array_address[game_version] + 0x9,    0, 0x96, 0}) --Neverland Defeat Phantom Stop Event
@@ -339,6 +340,7 @@ function fill_location_map()
     table.insert(location_map, {2656128, world_flags_address[game_version]          + 0xFB2,  0, 0x09, 0}) --Traverse Town Mail Postcard 09 Event
     table.insert(location_map, {2656129, world_flags_address[game_version]          + 0xFB2,  0, 0x0A, 0}) --Traverse Town Mail Postcard 10 Event
     table.insert(location_map, {2656131, world_progress_array_address[game_version] + 0xE,    0, 0x14, 0}) --Traverse Town Defeat Opposite Armor Aero Event
+    table.insert(location_map, {2656132, world_progress_array_address[game_version] + 0xE,    0, 0x14, 0}) --Traverse Town Defeat Opposite Armor Navi-G Piece Event
     table.insert(location_map, {2656201, atlantica_clams_address[game_version]      + 0x0,    1, 0x01, 0}) --Atlantica Undersea Gorge Blizzard Clam
     table.insert(location_map, {2656202, atlantica_clams_address[game_version]      + 0x0,    2, 0x01, 0}) --Atlantica Undersea Gorge Ocean Floor Clam
     table.insert(location_map, {2656203, atlantica_clams_address[game_version]      + 0x0,    3, 0x01, 0}) --Atlantica Undersea Valley Higher Cave Clam

@@ -781,18 +781,18 @@ Air Pirate,Stat Page Pre Riku Ansem,xa_ex_2210.mdls,6B730,28 00 00 00,Int,40,EXP
 Air Pirate,Stat Page Post Riku Ansem,xa_ex_2210.mdls,6B780,87 00 00 00,Int,135,HP
 Air Pirate,Stat Page Post Riku Ansem,xa_ex_2210.mdls,6B79C,78 00 00 00,Int,120,EXP
 Air Pirate,Drop Table,xa_ex_2210.mdls,6B8CC,00 00 00 00,Int,0,Small Munny
-Air Pirate,Drop Table,xa_ex_2210.mdls,6B8D0,00 00 00 00,Int,0,Medium Munny
-Air Pirate,Drop Table,xa_ex_2210.mdls,6B8D4,00 00 00 00,Int,0,Large Munny
-Air Pirate,Drop Table,xa_ex_2210.mdls,6B8D8,05 00 00 00,Int,5,Small HP
-Air Pirate,Drop Table,xa_ex_2210.mdls,6B8DC,00 00 00 00,Int,0,Large HP
-Air Pirate,Drop Table,xa_ex_2210.mdls,6B8F0,00 00 00 00,Int,0,Small MP
-Air Pirate,Drop Table,xa_ex_2210.mdls,6B8F4,00 00 00 00,Int,0,Large MP
-Air Pirate,Drop Table,xa_ex_2210.mdls,6B8F8,0A D7 23 3C,Float,0.01,Chance Drop 1
-Air Pirate,Drop Table,xa_ex_2210.mdls,6B8FC,02 00 00 00,Int,2,Drop 1
-Air Pirate,Drop Table,xa_ex_2210.mdls,6B900,0A D7 A3 3B,Float,0.005,Chance Drop 2
-Air Pirate,Drop Table,xa_ex_2210.mdls,6B904,06 00 00 00,Int,6,Drop 2
-Air Pirate,Drop Table,xa_ex_2210.mdls,6B908,0A D7 A3 3C,Float,0.02,Chance Drop 3
-Air Pirate,Drop Table,xa_ex_2210.mdls,6B90C,EA 00 00 00,Int,234,Drop 3
+Air Pirate,Drop Table,xa_ex_2210.mdls,6B8D0,02 00 00 00,Int,2,Medium Munny
+Air Pirate,Drop Table,xa_ex_2210.mdls,6B8D4,01 00 00 00,Int,1,Large Munny
+Air Pirate,Drop Table,xa_ex_2210.mdls,6B8D8,00 00 00 00,Int,0,Small HP
+Air Pirate,Drop Table,xa_ex_2210.mdls,6B8DC,01 00 00 00,Int,1,Large HP
+Air Pirate,Drop Table,xa_ex_2210.mdls,6B8E0,00 00 00 00,Int,0,Small MP
+Air Pirate,Drop Table,xa_ex_2210.mdls,6B8E4,00 00 00 00,Int,0,Large MP
+Air Pirate,Drop Table,xa_ex_2210.mdls,6B8E8,0A D7 A3 3C,Float,0.02,Chance Drop 1
+Air Pirate,Drop Table,xa_ex_2210.mdls,6B8EC,02 00 00 00,Int,2,Drop 1
+Air Pirate,Drop Table,xa_ex_2210.mdls,6B8F0,0A D7 23 3C,Float,0.01,Chance Drop 2
+Air Pirate,Drop Table,xa_ex_2210.mdls,6B8F4,06 00 00 00,Int,6,Drop 2
+Air Pirate,Drop Table,xa_ex_2210.mdls,6B8F8,0A D7 23 3D,Float,0.04,Chance Drop 3
+Air Pirate,Drop Table,xa_ex_2210.mdls,6B8FC,EF 00 00 00,Int,239,Drop 3
 Gargoyle,Header,xa_ex_2220.mdls,71704,65 78 5F 32 32 32 30 2E 62 64,String,ex_2220.bd,Start of stats header
 Gargoyle,Stat Page Pre Riku Ansem,xa_ex_2220.mdls,71714,46 00 00 00,Int,70,HP
 Gargoyle,Stat Page Pre Riku Ansem,xa_ex_2220.mdls,71730,14 00 00 00,Int,20,EXP

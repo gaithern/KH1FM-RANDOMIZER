@@ -23,10 +23,53 @@ map_prize_array = {
     [2656611] = {0xE6C, 4, replace_2656611}, --Agrabah Treasure Room Red Trinity
 }
 
+function toBits(num)
+    -- returns a table of bits, least significant first.
+    local t={} -- will contain the bits
+    while num>0 do
+        rest=math.fmod(num,2)
+        t[#t+1]=rest
+        num=(num-rest)/2
+    end
+    return t
+end
+
+function bitstonum(bits)
+    val = 0
+    for k,v in pairs(bits) do
+        if v > 0 then
+            val = val + 2^(k-1)
+        end
+    end
+    return val
+end
+
 function restart_map_prizes()
-    EventFlags = {0x2DEAB68, 0x2DEA168}
-    for offset,chest_short in pairs(chests) do
-        WriteShort(chest_table_address[game_version] + offset, chest_short)
+    event_flags = {0x2DEAB68, 0x2DEA168}
+    stock_address = {0x2DEA1FA, 0x2DE97FA}
+    stock = ReadArray(stock_address[game_version], 255)
+    for ap_location_id,map_prize_data in pairs(map_prize_array) do
+        if map_prize_data[3] ~= 0 then
+            offset = map_prize_data[1]
+            bit_num = map_prize_data[2]
+            item_index = map_prize_data[3]
+            bits = toBits(ReadByte(event_flags[game_version] + offset))
+            i = 1
+            while i <= 8 do
+                if bits[i] == nil then
+                    bits[i] = 0
+                end
+                i = i + 1
+            end
+            if stock[item_index] == 0 and bits[bit_num] == 1 then
+                bits[bit_num] = 0
+                WriteByte(event_flags[game_version] + offset, bitstonum(bits))
+            end
+            if stock[item_index] > 0 and bits[bit_num] == 0 then
+                bits[bit_num] = 1
+                WriteByte(event_flags[game_version] + offset, bitstonum(bits))
+            end
+        end
     end
 end
 
@@ -49,8 +92,6 @@ end
 
 function _OnFrame()
     if canExecute then
-        if chests[0] ~= nil then
-            randomize_chests()
-        end
+        restart_map_prizes()
     end
 end

@@ -210,9 +210,8 @@ Deep Jungle,Cliff,Defeat Clayton,Cure,1,/remastered/tz12.ard/UK_tz12_ard1.evdl,Y
 Deep Jungle,Cliff,Defeat Clayton,Cure,1,/remastered/tz12.ard/UK_tz12_ard1.evdl,Y,4,8AF1,2656022,Deep Jungle Defeat Clayton Cure Event
 Deep Jungle,Cliff,Defeat Clayton,Cure,1,/remastered/tz12.ard/UK_tz12_ard1.evdl,Y,5,8AFD,2656022,Deep Jungle Defeat Clayton Cure Event
 Deep Jungle,Cliff,Defeat Clayton,Cure,1,/remastered/tz12.ard/UK_tz12_ard1.evdl,Y,6,8B09,2656022,Deep Jungle Defeat Clayton Cure Event
-Deep Jungle,Cavern of Hearts,Seal Keyhole,Navi-G Piece,1,/remastered/tz11.ard/UK_tz11_ard0.evdl,N,1,79F5,2656384,Deep Jungle Cavern of Hearts Navi-G Piece Event
-Deep Jungle,Cavern of Hearts,Seal Keyhole,Navi-G Piece,1,/remastered/tz11.ard/UK_tz11_ard0.evdl,N,2,7A01,2656384,Deep Jungle Cavern of Hearts Navi-G Piece Event
-Deep Jungle,Cavern of Hearts,Seal Keyhole,Navi-G Piece,1,/remastered/tz11.ard/UK_tz11_ard0.evdl,N,3,7A0D,2656384,Deep Jungle Cavern of Hearts Navi-G Piece Event
+Deep Jungle,Cavern of Hearts,Seal Keyhole,Navi-G Piece,1,/remastered/tz11.ard/UK_tz11_ard0.evdl,N,1,7A01,2656384,Deep Jungle Cavern of Hearts Navi-G Piece Event
+Deep Jungle,Cavern of Hearts,Seal Keyhole,Navi-G Piece,1,/remastered/tz11.ard/UK_tz11_ard0.evdl,N,2,7A0D,2656384,Deep Jungle Cavern of Hearts Navi-G Piece Event
 Deep Jungle,Tent,Seal Keyhole,Red Trinity,1,/remastered/tz15.ard/UK_tz15_ard0.evdl,Y,1,B531,2656024,Deep Jungle Seal Keyhole Red Trinity Event
 Deep Jungle,Tent,Seal Keyhole,Red Trinity,1,/remastered/tz15.ard/UK_tz15_ard0.evdl,Y,2,B53D,2656024,Deep Jungle Seal Keyhole Red Trinity Event
 Deep Jungle,Tent,Seal Keyhole,Red Trinity,1,/remastered/tz15.ard/UK_tz15_ard0.evdl,Y,3,B549,2656024,Deep Jungle Seal Keyhole Red Trinity Event
@@ -916,8 +915,8 @@ Traverse Town,Dalmatian House,Return 99 Puppies,Complete Gummi Collection,1,/rem
 Traverse Town,2nd District,Defeat Opposite Armor,Aero,1,/remastered/tw02.ard/UK_tw02_ard3.evdl,Y,1,160D8,2656131,Traverse Town Defeat Opposite Armor Aero Event
 Traverse Town,2nd District,Defeat Opposite Armor,Aero,1,/remastered/tw02.ard/UK_tw02_ard3.evdl,Y,2,160E4,2656131,Traverse Town Defeat Opposite Armor Aero Event
 Traverse Town,2nd District,Defeat Opposite Armor,Aero,1,/remastered/tw02.ard/UK_tw02_ard3.evdl,Y,3,160F0,2656131,Traverse Town Defeat Opposite Armor Aero Event
-Traverse Town,2nd District,Defeat Opposite Armor,Navi-G Piece 3,1,/remastered/tw02.ard/UK_tw02_ard3.evdl,Y,1,176A6,,
-Traverse Town,2nd District,Defeat Opposite Armor,Navi-G Piece 3,1,/remastered/tw02.ard/UK_tw02_ard3.evdl,Y,2,176B2,,
+Traverse Town,2nd District,Defeat Opposite Armor,Navi-G Piece 3,1,/remastered/tw02.ard/UK_tw02_ard3.evdl,Y,1,176A6,2656132,Traverse Town Defeat Opposite Armor Navi-G Piece Event
+Traverse Town,2nd District,Defeat Opposite Armor,Navi-G Piece 3,1,/remastered/tw02.ard/UK_tw02_ard3.evdl,Y,2,176B2,2656132,Traverse Town Defeat Opposite Armor Navi-G Piece Event
 100 Acre Wood,Pooh's House,Strike Chimney,Mega-Ether,1,/remastered/po02.ard/UK_po02_ard0.evdl,N,1,82C1,2656358,100 Acre Wood Pooh's Room Chimney
 100 Acre Wood,Pooh's House,Strike Chimney,Mega-Ether,1,/remastered/po02.ard/UK_po02_ard0.evdl,N,2,82CD,2656358,100 Acre Wood Pooh's Room Chimney
 100 Acre Wood,Pooh's House,Strike Chimney,Mega-Ether,1,/remastered/po02.ard/UK_po02_ard0.evdl,N,3,82D9,2656358,100 Acre Wood Pooh's Room Chimney
@@ -1037,9 +1036,9 @@ Neverland,Pirate Ship,Defeat Captain Hook,Ansem's Report 9,1,/remastered/pp09.ar
 Neverland,Pirate Ship,Encounter Captain Hook,Cure,1,/remastered/pp09.ard/UK_pp09_ard1.evdl,Y,1,872D,2656092,Neverland Encounter Hook Cure Event
 Neverland,Pirate Ship,Encounter Captain Hook,Cure,1,/remastered/pp09.ard/UK_pp09_ard1.evdl,Y,2,8739,2656092,Neverland Encounter Hook Cure Event
 Neverland,Pirate Ship,Encounter Captain Hook,Cure,1,/remastered/pp09.ard/UK_pp09_ard1.evdl,Y,3,8745,2656092,Neverland Encounter Hook Cure Event
-Neverland,Clock Tower,Seal Keyhole,Navi-G Piece 4,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,1,4FB9,,
-Neverland,Clock Tower,Seal Keyhole,Navi-G Piece 4,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,2,4FC5,,
-Neverland,Clock Tower,Seal Keyhole,Navi-G Piece 4,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,3,4FD1,,
+Neverland,Clock Tower,Seal Keyhole,Navi-G Piece 4,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,1,4FB9,2656112,Neverland Seal Keyhole Navi-G Piece Event
+Neverland,Clock Tower,Seal Keyhole,Navi-G Piece 4,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,2,4FC5,2656112,Neverland Seal Keyhole Navi-G Piece Event
+Neverland,Clock Tower,Seal Keyhole,Navi-G Piece 4,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,3,4FD1,2656112,Neverland Seal Keyhole Navi-G Piece Event
 Neverland,Clock Tower,Seal Keyhole,Tinker Bell,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,1,5BD9,2656094,Neverland Seal Keyhole Tinker Bell Event
 Neverland,Clock Tower,Seal Keyhole,Tinker Bell,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,2,5BE5,2656094,Neverland Seal Keyhole Tinker Bell Event
 Neverland,Clock Tower,Seal Keyhole,Tinker Bell,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,3,5BF1,2656094,Neverland Seal Keyhole Tinker Bell Event
