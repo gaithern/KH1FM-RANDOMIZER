@@ -329,6 +329,7 @@ function fill_location_map()
     table.insert(location_map, {2656105, world_progress_array_address[game_version] + 0xA,    0, 0xB9, 0}) --Hollow Bastion Defeat Behemoth Omega Arts Event
     table.insert(location_map, {2656106, world_progress_array_address[game_version] + 0xA,    0, 0xC3, 0}) --Hollow Bastion Speak to Princesses Fire Event
     table.insert(location_map, {2656111, world_progress_array_address[game_version] + 0xB,    0, 0x33, 0}) --End of the World Defeat Chernabog Superglide Event
+    table.insert(location_map, {2656113, world_progress_array_address[game_version] + 0x0,    0, 0x8C, 0}) --Traverse Town Secret Waterway Navi Gummi Event
     table.insert(location_map, {2656120, world_flags_address[game_version]          + 0xFB2,  0, 0x01, 0}) --Traverse Town Mail Postcard 01 Event
     table.insert(location_map, {2656121, world_flags_address[game_version]          + 0xFB2,  0, 0x02, 0}) --Traverse Town Mail Postcard 02 Event
     table.insert(location_map, {2656122, world_flags_address[game_version]          + 0xFB2,  0, 0x03, 0}) --Traverse Town Mail Postcard 03 Event

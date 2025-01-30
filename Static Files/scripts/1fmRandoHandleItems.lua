@@ -184,6 +184,13 @@ function handle_olympus_cups(stock)
     WriteArray(olympus_cups_address[game_version], olympus_cups_array)
 end
 
+function handle_ap_item(stock)
+    --[[Removes any received "AP Items"]]
+    if stock[230] > 0 then
+        WriteByte(stock_address[game_version] + 230 - 1, 0)
+    end
+end
+
 function write_world_lines()
     --[[Opens all world connections on the world map]]
     world_map_lines_address = {0x2DEBC72, 0x2DEB272}
@@ -226,5 +233,6 @@ function _OnFrame()
         handle_torn_pages(stock)
         handle_final_door(stock)
         handle_olympus_cups(stock)
+        handle_ap_item(stock)
     end
 end

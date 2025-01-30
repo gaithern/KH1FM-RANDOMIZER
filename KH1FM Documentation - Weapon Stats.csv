@@ -53,15 +53,15 @@ Jungle King,Sora,btltbl.bin,96E3,01,Byte,1,Recoil
 Jungle King,Sora,btltbl.bin,96E4,A0,Byte,160,Sound 1
 Jungle King,Sora,btltbl.bin,96E5,2C,Byte,44,Sound 2
 Jungle King,Sora,btltbl.bin,96E8,00,Byte,0,MP
-Three Wishes,Sora,btltbl.bin,96B0,78 77 5F 65 78 5F 35 30 33 30,String,xw_ex_5030,Weapon Header
-Three Wishes,Sora,btltbl.bin,96DC,CC CC 4C 3F,Float,0.9,???
-Three Wishes,Sora,btltbl.bin,96E0,06,Byte,6,Strength
-Three Wishes,Sora,btltbl.bin,96E1,14,Byte,20,Crit Percentage
-Three Wishes,Sora,btltbl.bin,96E2,00,Byte,0,Crit Bonus
-Three Wishes,Sora,btltbl.bin,96E3,3C,Byte,60,Recoil
-Three Wishes,Sora,btltbl.bin,96E4,C8,Byte,200,Sound 1
-Three Wishes,Sora,btltbl.bin,96E5,2C,Byte,44,Sound 2
-Three Wishes,Sora,btltbl.bin,96E8,00,Byte,0,MP
+Three Wishes,Sora,btltbl.bin,9708,78 77 5F 65 78 5F 35 30 33 30,String,xw_ex_5030,Weapon Header
+Three Wishes,Sora,btltbl.bin,9734,CC CC 4C 3F,Float,0.9,???
+Three Wishes,Sora,btltbl.bin,9738,06,Byte,6,Strength
+Three Wishes,Sora,btltbl.bin,9739,14,Byte,20,Crit Percentage
+Three Wishes,Sora,btltbl.bin,973A,00,Byte,0,Crit Bonus
+Three Wishes,Sora,btltbl.bin,973B,3C,Byte,60,Recoil
+Three Wishes,Sora,btltbl.bin,973C,C8,Byte,200,Sound 1
+Three Wishes,Sora,btltbl.bin,973D,2C,Byte,44,Sound 2
+Three Wishes,Sora,btltbl.bin,9740,00,Byte,0,MP
 Fairy Harp,Sora,btltbl.bin,9760,78 77 5F 65 78 5F 35 30 34 30,String,xw_ex_5040,Weapon Header
 Fairy Harp,Sora,btltbl.bin,978C,CC CC 4C 3F,Float,0.8,???
 Fairy Harp,Sora,btltbl.bin,9790,08,Byte,8,Strength
