@@ -1,6 +1,7 @@
 import tkinter as tk
 from tkinter import filedialog
 
+from clear_output_folder import clear_output_folder
 from write_files_to_output import write_files_to_output
 from write_enemy_drop_rewards import write_enemy_drop_rewards
 from write_bambi_rewards import write_bambi_rewards
@@ -18,6 +19,8 @@ from write_exp_chart import write_exp_chart
 from write_fix_combo_master import write_fix_combo_master
 from write_map_prize_lua import write_map_prize_lua
 from write_shorten_go_mode_lua import write_shorten_go_mode_lua
+from write_handle_items_lua import write_handle_items_lua
+from write_death_link_lua import write_death_link_lua
 from validate_evdl_data import validate_evdl_data
 from unzip_ap_output import unzip_ap_output
 
@@ -50,6 +53,9 @@ if __name__ == "__main__":
     
     print("Validating KH1 data...")
     validate_evdl_data(kh1_data_path = kh1_data_path)
+    
+    print("Clearing output folder...")
+    clear_output_folder()
     
     print("Writing necessary files to Output directory...")
     write_files_to_output(kh1_data_path = kh1_data_path)
@@ -98,6 +104,12 @@ if __name__ == "__main__":
     
     print("Writing shorten go mode lua...")
     write_shorten_go_mode_lua(settings_file = settings_file)
+    
+    print("Writing handle items lua...")
+    write_handle_items_lua(settings_file = settings_file)
+    
+    print("Writing death link lua...")
+    write_death_link_lua(settings_file = settings_file)
     
     print("Writing Output.zip...")
     write_mod_zip()

@@ -23,7 +23,7 @@ def get_shorten_go_mode_lua_str():
 
 def output_shorten_go_mode_lua_file(shorten_go_mode_lua_str):
     with open('./Output/scripts/1fmRandoShortenGoMode.lua', mode = 'w') as file:
-        file.write(interaction_lua_str)
+        file.write(shorten_go_mode_lua_str)
 
 def write_shorten_go_mode_lua(settings_file = None):
     settings_data = get_settings_data(settings_file)

@@ -127,13 +127,14 @@ function handle_summons(stock)
 end
 
 function handle_puppies(stock)
+    puppy_value = 3
     puppy_array_address = {0x2DEB463, 0x2DEAA63}
-    puppies_item = stock[167] * 3
+    puppies_item = stock[167] * puppy_value
     puppies_array = {0x0}
     i = 0
     j = 1
     k = 7
-    while i < puppies_item do
+    while i < math.min(puppies_item, 99) do
         if puppies_array[j] == nil then
             puppies_array[j] = 0x0
         end

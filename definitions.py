@@ -958,4 +958,7 @@ filler_item_ids = [
     153,
     154
 ]
-    
+
+buy_prices = {
+    254: 5000
+}

@@ -2,7 +2,7 @@ import json
 import csv
 import pandas as pd
 
-from definitions import item_list, sort_order, repurposed_key_item_ids
+from definitions import item_list, sort_order, filler_item_ids, buy_prices
 
 def get_battle_table(kh1_data_path):
     with open(kh1_data_path + "/btltbl.bin", mode = 'rb') as file:
@@ -167,9 +167,23 @@ def write_item_sell_price():
     battle_table_item_definitions = get_battle_table_item_definitions()
     for battle_table_item_definition in battle_table_item_definitions:
         if battle_table_item_definition["Notes"] == "Sell Price":
-            if int(battle_table_item_definition["Item Index"]) in repurposed_key_item_ids:
+            if int(battle_table_item_definition["Item Index"]) not in filler_item_ids:
                 offset = int(battle_table_item_definition["Offset"], 16)
                 replacement = 0
+                replacement_byte_array = replacement.to_bytes(2, byteorder = "little")
+                battle_table_bytes[offset] = replacement_byte_array[0]
+                battle_table_bytes[offset + 1] = replacement_byte_array[1]
+    output_battle_table(battle_table_bytes)
+
+def write_item_buy_price():
+    kh1_data_path = "./Output/"
+    battle_table_bytes = get_battle_table(kh1_data_path)
+    battle_table_item_definitions = get_battle_table_item_definitions()
+    for battle_table_item_definition in battle_table_item_definitions:
+        if battle_table_item_definition["Notes"] == "Buy Price":
+            if int(battle_table_item_definition["Item Index"]) in buy_prices.keys():
+                offset = int(battle_table_item_definition["Offset"], 16)
+                replacement = buy_prices[int(battle_table_item_definition["Item Index"])]
                 replacement_byte_array = replacement.to_bytes(2, byteorder = "little")
                 battle_table_bytes[offset] = replacement_byte_array[0]
                 battle_table_bytes[offset + 1] = replacement_byte_array[1]
@@ -178,6 +192,7 @@ def write_item_sell_price():
 def write_item_sort_order_and_sell_price():
     write_item_sort_order()
     write_item_sell_price()
+    write_item_buy_price()
 
 if __name__ == "__main__":
     write_item_sort_order_and_sell_price()
