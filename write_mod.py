@@ -35,10 +35,9 @@ def get_kh1_data_path():
             print("Error, please select a valid KH1 data path")
     return kh1_data_path
 
-
-if __name__ == "__main__":
+def write_mod(ap_zip_file_name = None, kh1_data_path = None):
     print("Unzipping AP Output File...")
-    json_path = unzip_ap_output()
+    json_path = unzip_ap_output(ap_zip_file_name)
     item_location_map_file = json_path + "/item_location_map.json"
     keyblade_stats_file = json_path + "/keyblade_stats.json"
     settings_file = json_path + "/settings.json"
@@ -47,9 +46,9 @@ if __name__ == "__main__":
     print("Keyblade Stats File: " + str(keyblade_stats_file))
     print("Settings File: " + str(settings_file))
     
-    
-    print("Getting KH1 data path...")
-    kh1_data_path = get_kh1_data_path()
+    if kh1_data_path is None:
+        print("Getting KH1 data path...")
+        kh1_data_path = get_kh1_data_path()
     
     print("Validating KH1 data...")
     validate_evdl_data(kh1_data_path = kh1_data_path)
@@ -115,3 +114,6 @@ if __name__ == "__main__":
     write_mod_zip()
     
     print("All jobs complete!  Enjoy!")
+
+if __name__ == "__main__":
+    write_mod()

@@ -27,9 +27,10 @@ def get_ap_zip_file_name():
             print("Error, please select a valid KH1 AP output zip file")
     return ap_zip_file
 
-def unzip_ap_output():
+def unzip_ap_output(ap_zip_file_name = None):
     cwd = os.getcwd().replace("\\", "/")
-    ap_zip_file_name = get_ap_zip_file_name()
+    if ap_zip_file_name is None:
+        ap_zip_file_name = get_ap_zip_file_name()
     extract_zip(ap_zip_file_name)
     extract_folder_name = ap_zip_file_name.replace(".zip", "").replace(cwd, "")
     for file in os.listdir('./' + extract_folder_name + '/'):
