@@ -1,8 +1,8 @@
 import tkinter as tk
 from tkinter import filedialog
 
-from clear_output_folder import clear_output_folder
-from write_files_to_output import write_files_to_output
+from clear_working_folder import clear_working_folder
+from write_files_to_working import write_files_to_working
 from write_enemy_drop_rewards import write_enemy_drop_rewards
 from write_bambi_rewards import write_bambi_rewards
 from write_chests_and_rewards import write_chests_and_rewards
@@ -53,11 +53,11 @@ def write_mod(ap_zip_file_name = None, kh1_data_path = None):
     print("Validating KH1 data...")
     validate_evdl_data(kh1_data_path = kh1_data_path)
     
-    print("Clearing output folder...")
-    clear_output_folder()
+    print("Clearing working folder...")
+    clear_working_folder()
     
-    print("Writing necessary files to Output directory...")
-    write_files_to_output(kh1_data_path = kh1_data_path)
+    print("Writing necessary files to working directory...")
+    write_files_to_working(kh1_data_path = kh1_data_path)
     
     print("Writing static items...")
     write_static_items(seed_json_file = item_location_map_file)
@@ -110,7 +110,7 @@ def write_mod(ap_zip_file_name = None, kh1_data_path = None):
     print("Writing death link lua...")
     write_death_link_lua(settings_file = settings_file)
     
-    print("Writing Output.zip...")
+    print("Writing mod zip...")
     write_mod_zip()
     
     print("All jobs complete!  Enjoy!")

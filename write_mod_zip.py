@@ -1,6 +1,7 @@
 import os
 import shutil
 from pprint import pprint
+from datetime import datetime
 
 def list_files_recursive(path='.', filenames=[]):
     for entry in os.listdir(path):
@@ -24,7 +25,7 @@ def remove_path(files, path):
         files[i] = files[i].replace(path, "")
 
 def write_mod_yaml_file(mod_yaml_str):
-    with open("./Output/mod.yml", "w") as f:
+    with open("./Working/mod.yml", "w") as f:
         f.write(mod_yaml_str)
 
 def zip_directory(directory_path, zip_file_path):
@@ -32,7 +33,7 @@ def zip_directory(directory_path, zip_file_path):
 
 def create_mod_yaml():
     mod_yaml_str = get_mod_yaml_header()
-    directory_path = './Output/'
+    directory_path = './Working/'
     files = list_files_recursive(directory_path)
     remove_path(files, directory_path)
     for file in files:
@@ -45,9 +46,10 @@ def create_mod_yaml():
     write_mod_yaml_file(mod_yaml_str)
 
 def write_mod_zip():
+    now = datetime.now()
     create_mod_yaml()
-    directory_to_zip = './Output/'
-    output_zip_file = './Output'
+    directory_to_zip = './Working/'
+    output_zip_file = './Output/mod_' + now.strftime("%Y%m%d%H%M%S")
     zip_directory(directory_to_zip, output_zip_file)
 
 if __name__=="__main__":

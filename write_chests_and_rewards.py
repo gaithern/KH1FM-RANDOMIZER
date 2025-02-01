@@ -8,7 +8,7 @@ root = tk.Tk()
 root.withdraw()
 
 def get_chest_definitions():
-    with open('./KH1FM Documentation - Chest Items.csv', mode = 'r') as file:
+    with open('./Documentation/KH1FM Documentation - Chest Items.csv', mode = 'r') as file:
         chest_definitions = []
         chest_data = csv.DictReader(file)
         for line in chest_data:
@@ -16,7 +16,7 @@ def get_chest_definitions():
     return chest_definitions
 
 def get_rewards_definitions():
-    with open('./KH1FM Documentation - Battle Table Reward Items.csv', mode = 'r') as file:
+    with open('./Documentation/KH1FM Documentation - Battle Table Reward Items.csv', mode = 'r') as file:
         reward_definitions = []
         reward_data = csv.DictReader(file)
         for line in reward_data:
@@ -124,15 +124,15 @@ def update_battle_table(battle_table_bytes, replacements):
     return battle_table_bytes
 
 def output_chest_lua_file(chest_lua_str):
-    with open('./Output/scripts/1fmRandoChests.lua', mode = 'w') as file:
+    with open('./Working/scripts/1fmRandoChests.lua', mode = 'w') as file:
         file.write(chest_lua_str)
 
 def output_battle_table(battle_table_bytes):
-    with open('./Output/btltbl.bin', mode = 'wb') as file:
+    with open('./Working/btltbl.bin', mode = 'wb') as file:
         file.write(battle_table_bytes)
 
 def write_chests_and_rewards(seed_json_file = None):
-    kh1_data_path = "./Output/"
+    kh1_data_path = "./Working/"
     chest_definitions = get_chest_definitions()
     reward_definitions = get_rewards_definitions()
     seed_json_data = get_seed_json_data(seed_json_file = seed_json_file)

@@ -29,7 +29,7 @@ def update_fix_combo_master_template_lua(fix_combo_master_lua_str, seed_json_dat
     return fix_combo_master_lua_str
 
 def output_fix_combo_master_lua_file(fix_combo_master_lua_str):
-    with open('./Output/scripts/1fmRandoFixComboMaster.lua', mode = 'w') as file:
+    with open('./Working/scripts/1fmRandoFixComboMaster.lua', mode = 'w') as file:
         file.write(fix_combo_master_lua_str)
 
 def write_fix_combo_master(seed_json_file = None):

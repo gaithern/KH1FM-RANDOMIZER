@@ -9,7 +9,7 @@ root = tk.Tk()
 root.withdraw()
 
 def get_evdl_locations():
-    with open('./KH1FM Documentation - Static Items.csv', mode = 'r') as file:
+    with open('./Documentation/KH1FM Documentation - Static Items.csv', mode = 'r') as file:
         evdl_locations = []
         evdl_location_data = csv.DictReader(file)
         for line in evdl_location_data:
@@ -44,7 +44,7 @@ def safe_open_wb(path):
     return open(path, 'wb')
 
 def write_evdl_bytes_to_file(evdl_file, evdl_bytes):
-    with safe_open_wb('./Output/' + evdl_file) as file:
+    with safe_open_wb('./Working/' + evdl_file) as file:
         file.write(evdl_bytes)
 
 def write_updated_evdl_files(sorted_evdl_location_data, seed_json_data, kh1_data_path):
@@ -73,7 +73,7 @@ def write_updated_evdl_files(sorted_evdl_location_data, seed_json_data, kh1_data
         write_evdl_bytes_to_file(file, evdl_bytes)
 
 def write_static_items(seed_json_file = None):
-    kh1_data_path = "./Output/"
+    kh1_data_path = "./Working/"
     seed_json_data = get_seed_json_data(seed_json_file)
     evdl_locations = get_evdl_locations()
     sorted_evdl_location_data = sort_evdl_location_data(evdl_locations)

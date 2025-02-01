@@ -11,7 +11,7 @@ root = tk.Tk()
 root.withdraw()
 
 def get_enemy_drop_definitions():
-    with open('./KH1FM Documentation - Enemy Stats and Drops.csv', mode = 'r') as file:
+    with open('./Documentation/KH1FM Documentation - Enemy Stats and Drops.csv', mode = 'r') as file:
         enemy_drop_definitions = []
         enemy_drop_data = csv.DictReader(file)
         for line in enemy_drop_data:
@@ -44,7 +44,7 @@ def safe_open_wb(path):
     return open(path, 'wb')
 
 def write_enemy_mdls(enemy_bytes, file_name):
-    with safe_open_wb('./Output/' + file_name) as file:
+    with safe_open_wb('./Working/' + file_name) as file:
         file.write(enemy_bytes)
 
 def sort_enemy_drop_definitions(enemy_drop_definitions):
@@ -56,7 +56,7 @@ def sort_enemy_drop_definitions(enemy_drop_definitions):
     return sorted_enemy_drop_definitions
 
 def write_enemy_drop_rewards():
-    kh1_data_path = "./Output/"
+    kh1_data_path = "./Working/"
     enemy_drop_definitions = get_enemy_drop_definitions()
     sorted_enemy_drop_definitions = sort_enemy_drop_definitions(enemy_drop_definitions)
     for file in sorted_enemy_drop_definitions.keys():

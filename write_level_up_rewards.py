@@ -10,7 +10,7 @@ root = tk.Tk()
 root.withdraw()
 
 def get_level_up_stats_definitions():
-    with open('./KH1FM Documentation - Battle Table Sora Level Up Stats.csv', mode = 'r') as file:
+    with open('./Documentation/KH1FM Documentation - Battle Table Sora Level Up Stats.csv', mode = 'r') as file:
         level_up_stats_definitions = []
         level_up_stats_data = csv.DictReader(file)
         for line in level_up_stats_data:
@@ -18,7 +18,7 @@ def get_level_up_stats_definitions():
     return level_up_stats_definitions
 
 def get_level_up_abilities_definitions():
-    with open('./KH1FM Documentation - Battle Table Sora Level Up Abilities.csv', mode = 'r') as file:
+    with open('./Documentation/KH1FM Documentation - Battle Table Sora Level Up Abilities.csv', mode = 'r') as file:
         level_up_abilities_definitions = []
         level_up_abilities_data = csv.DictReader(file)
         for line in level_up_abilities_data:
@@ -70,11 +70,11 @@ def get_battle_table_replacements(level_up_stats_definitions, level_up_abilities
     return replacements
 
 def output_battle_table(battle_table_bytes):
-    with open('./Output/btltbl.bin', mode = 'wb') as file:
+    with open('./Working/btltbl.bin', mode = 'wb') as file:
         file.write(battle_table_bytes)
 
 def write_level_up_rewards(seed_json_file = None):
-    kh1_data_path = "./Output/"
+    kh1_data_path = "./Working/"
     level_up_abilities_definitions = get_level_up_abilities_definitions()
     level_up_stats_definitions = get_level_up_stats_definitions()
     seed_json_data = get_seed_json_data(seed_json_file)

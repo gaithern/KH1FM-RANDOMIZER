@@ -47,7 +47,7 @@ def update_map_prize_template_lua(map_prize_lua_str, seed_json_data):
     return map_prize_lua_str
 
 def output_map_prize_lua_file(map_prize_lua_str):
-    with open('./Output/scripts/1fmRandoMapPrizes.lua', mode = 'w') as file:
+    with open('./Working/scripts/1fmRandoMapPrizes.lua', mode = 'w') as file:
         file.write(map_prize_lua_str)
 
 def write_map_prize_lua(seed_json_file = None):

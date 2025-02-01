@@ -30,7 +30,7 @@ def update_lucky_emblems_door_lua(lucky_emblems_lua_str, settings_data):
     return lucky_emblems_lua_str
 
 def output_lucky_emblems_lua_file(lucky_emblems_lua_str):
-    with open('./Output/scripts/1fmRandoHandleLuckyEmblems.lua', mode = 'w') as file:
+    with open('./Working/scripts/1fmRandoHandleLuckyEmblems.lua', mode = 'w') as file:
         file.write(lucky_emblems_lua_str)
 
 def write_lucky_emblems_lua(settings_file = None):

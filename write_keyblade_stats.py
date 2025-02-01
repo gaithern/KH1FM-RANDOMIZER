@@ -24,7 +24,7 @@ def get_battle_table(kh1_data_path):
         return bytearray(file.read())
 
 def get_weapon_stat_definitions():
-    with open('./KH1FM Documentation - Weapon Stats.csv', mode = 'r') as file:
+    with open('./Documentation/KH1FM Documentation - Weapon Stats.csv', mode = 'r') as file:
         weapon_definitions = []
         weapon_data = csv.DictReader(file)
         for line in weapon_data:
@@ -85,11 +85,11 @@ def write_weapon_stats(battle_table_data, weapon_definitions, keyblade_stats_dat
     return battle_table_data
 
 def output_battle_table(battle_table_bytes):
-    with open('./Output/btltbl.bin', mode = 'wb') as file:
+    with open('./Working/btltbl.bin', mode = 'wb') as file:
         file.write(battle_table_bytes)
 
 def write_keyblade_stats(seed_json_file = None):
-    kh1_data_path = "./Output/"
+    kh1_data_path = "./Working/"
     keyblade_stats_data = get_seed_keyblade_stats_data(seed_json_file)
     battle_table_bytes = get_battle_table(kh1_data_path)
     weapon_definitions = get_weapon_stat_definitions()

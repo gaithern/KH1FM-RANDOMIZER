@@ -31,7 +31,7 @@ def update_death_link_lua(death_link_lua_str, settings_data):
     return death_link_lua_str
 
 def output_death_link_lua_file(death_link_lua_str):
-    with open('./Output/scripts/1fmRandoHandleDeathLink.lua', mode = 'w') as file:
+    with open('./Working/scripts/1fmRandoHandleDeathLink.lua', mode = 'w') as file:
         file.write(death_link_lua_str)
 
 def write_death_link_lua(settings_file = None):

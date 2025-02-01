@@ -19,8 +19,8 @@ def clear_folder(folder_path):
         except Exception as e:
             print(f"Failed to delete {file_path}. Reason: {e}")
 
-def clear_output_folder():
-    output_folder = "./Output"
+def clear_working_folder():
+    output_folder = "./Working"
     if not os.path.exists(output_folder):
         os.makedirs(output_folder)
     clear_folder(output_folder)

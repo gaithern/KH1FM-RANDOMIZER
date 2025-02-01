@@ -11,7 +11,7 @@ root = tk.Tk()
 root.withdraw()
 
 def get_bambi_definitions():
-    with open('./KH1FM Documentation - Bambi Drops.csv', mode = 'r') as file:
+    with open('./Documentation/KH1FM Documentation - Bambi Drops.csv', mode = 'r') as file:
         bambi_definitions = []
         bambi_data = csv.DictReader(file)
         for line in bambi_data:
@@ -44,11 +44,11 @@ def safe_open_wb(path):
     return open(path, 'wb')
 
 def write_bambi_mdls(bambi_bytes):
-    with safe_open_wb('./Output/' + "xa_ex_4030.mdls") as file:
+    with safe_open_wb('./Working/' + "xa_ex_4030.mdls") as file:
         file.write(bambi_bytes)
 
 def write_bambi_rewards():
-    kh1_data_path = "./Output/"
+    kh1_data_path = "./Working/"
     bambi_definitions = get_bambi_definitions()
     bambi_bytes = get_bambi_data(kh1_data_path)
     bambi_bytes = remove_bambi_synth_drops(bambi_bytes, bambi_definitions)

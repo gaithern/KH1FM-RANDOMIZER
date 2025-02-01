@@ -37,7 +37,7 @@ def update_synth_lua(synth_lua_str, synth_items):
     return synth_lua_str.replace("synth_items = {}", replace_string)
 
 def output_synth_lua_file(synth_lua_str):
-    with open('./Output/scripts/1fmRandoSynthesis.lua', mode = 'w') as file:
+    with open('./Working/scripts/1fmRandoSynthesis.lua', mode = 'w') as file:
         file.write(synth_lua_str)
 
 def write_synthesis_items(seed_json_file = None):

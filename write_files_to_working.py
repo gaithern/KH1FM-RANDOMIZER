@@ -13,11 +13,11 @@ def get_kh1_data_path(kh1_data_path = None):
     return kh1_data_path
 
 def write_static_files():
-    shutil.copytree("./Static Files/",  "./Output/", dirs_exist_ok=True)
+    shutil.copytree("./Static Files/",  "./Working/", dirs_exist_ok=True)
 
 def list_definition_files_in_current_directory():
     files = []
-    for file in os.listdir("./"):
+    for file in os.listdir("./Documentation/"):
         if "KH1FM Documentation" in file:
             files.append(file)
     return files
@@ -43,20 +43,20 @@ def copy_src_kh1_files_to_output(kh1_data_path, csv_lines):
                     if line["Use Corrected File?"] == "Y":
                         source_path = "./Corrected EVDLs/"
                 input_full_path = source_path + "/" +  line["File"]
-                output_full_path = "./Output/" + "/" + line["File"]
+                output_full_path = "./Working/" + "/" + line["File"]
                 print("Copying " + input_full_path + " to " + output_full_path)
                 if not os.path.exists(get_directory(output_full_path)):
                     os.makedirs(get_directory(output_full_path))
                 shutil.copyfile(input_full_path, output_full_path)
                 copied_files.append(line["File"])
 
-def write_files_to_output(kh1_data_path = None):
+def write_files_to_working(kh1_data_path = None):
     kh1_data_path = get_kh1_data_path(kh1_data_path)
     csv_lines = []
     for file in list_definition_files_in_current_directory():
-        csv_lines = csv_lines + read_csv_data(file)
+        csv_lines = csv_lines + read_csv_data("./Documentation/" + file)
     copy_src_kh1_files_to_output(kh1_data_path, csv_lines)
     write_static_files()
 
 if __name__=="__main__":
-    write_files_to_output()
+    write_files_to_working()

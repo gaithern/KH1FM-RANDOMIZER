@@ -32,7 +32,7 @@ def update_interaction_interact_in_battle_lua(interaction_lua_str, settings_data
     return interaction_lua_str
 
 def output_interaction_lua_file(interaction_lua_str):
-    with open('./Output/scripts/1fmRandoInteraction.lua', mode = 'w') as file:
+    with open('./Working/scripts/1fmRandoInteraction.lua', mode = 'w') as file:
         file.write(interaction_lua_str)
 
 def write_interaction_lua(settings_file = None):

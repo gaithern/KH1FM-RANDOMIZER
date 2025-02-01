@@ -24,7 +24,7 @@ def convert_byte_array_to_string(byte_array):
     return output_string[:-1]
 
 def write_item_csv():
-    kh1_data_path = "./Output/"
+    kh1_data_path = "./Working/"
     battle_table_bytes = get_battle_table(kh1_data_path)
     per_item_bytes = 20
     items = 255
@@ -135,7 +135,7 @@ def write_item_csv():
         df.to_csv("Battle Table Items.csv", index=False, quoting=csv.QUOTE_ALL)
 
 def get_battle_table_item_definitions():
-    with open('./KH1FM Documentation - Battle Table Items.csv', mode = 'r') as file:
+    with open('./Documentation/KH1FM Documentation - Battle Table Items.csv', mode = 'r') as file:
         battle_table_item_definitions = []
         battle_table_item_data = csv.DictReader(file)
         for line in battle_table_item_data:
@@ -143,11 +143,11 @@ def get_battle_table_item_definitions():
     return battle_table_item_definitions
 
 def output_battle_table(battle_table_bytes):
-    with open('./Output/btltbl.bin', mode = 'wb') as file:
+    with open('./Working/btltbl.bin', mode = 'wb') as file:
         file.write(battle_table_bytes)
 
 def write_item_sort_order():
-    kh1_data_path = "./Output/"
+    kh1_data_path = "./Working/"
     battle_table_bytes = get_battle_table(kh1_data_path)
     battle_table_item_definitions = get_battle_table_item_definitions()
     for battle_table_item_definition in battle_table_item_definitions:
@@ -162,7 +162,7 @@ def write_item_sort_order():
     output_battle_table(battle_table_bytes)
 
 def write_item_sell_price():
-    kh1_data_path = "./Output/"
+    kh1_data_path = "./Working/"
     battle_table_bytes = get_battle_table(kh1_data_path)
     battle_table_item_definitions = get_battle_table_item_definitions()
     for battle_table_item_definition in battle_table_item_definitions:
@@ -176,7 +176,7 @@ def write_item_sell_price():
     output_battle_table(battle_table_bytes)
 
 def write_item_buy_price():
-    kh1_data_path = "./Output/"
+    kh1_data_path = "./Working/"
     battle_table_bytes = get_battle_table(kh1_data_path)
     battle_table_item_definitions = get_battle_table_item_definitions()
     for battle_table_item_definition in battle_table_item_definitions:

@@ -26,7 +26,7 @@ def update_puppies_handle_items_lua(handle_items_lua_str, settings_data):
     return handle_items_lua_str
 
 def output_handle_items_lua_file(handle_items_lua_str):
-    with open('./Output/scripts/1fmRandoHandleItems.lua', mode = 'w') as file:
+    with open('./Working/scripts/1fmRandoHandleItems.lua', mode = 'w') as file:
         file.write(handle_items_lua_str)
 
 def write_handle_items_lua(settings_file = None):

@@ -23,7 +23,7 @@ def safe_open_wb(path):
     return open(path, 'wb')
 
 def output_item_descriptions(new_item_description_bytes):
-    with safe_open_wb('./Output/remastered/btltbl.bin/UK_ItemHelp.bin') as file:
+    with safe_open_wb('./Working/remastered/btltbl.bin/UK_ItemHelp.bin') as file:
         file.write(new_item_description_bytes)
 
 def build_item_description_string(item_description_bytes):
@@ -72,7 +72,7 @@ def build_item_description_bytes(item_description_string):
     return item_description_bytes
 
 def replace_specific_item_description(item_num, description):
-    kh1_data_path = "./Output/"
+    kh1_data_path = "./Working/"
     item_description_bytes = get_item_description_bytes(kh1_data_path)
     item_description_string = build_item_description_string(item_description_bytes)
     item_descriptions = build_item_description_string_array(item_description_string)
@@ -82,7 +82,7 @@ def replace_specific_item_description(item_num, description):
     output_item_descriptions(bytes(new_item_description_bytes))
 
 def write_item_descriptions():
-    kh1_data_path = "./Output/"
+    kh1_data_path = "./Working/"
     item_description_bytes = get_item_description_bytes(kh1_data_path)
     item_description_string = build_item_description_string(item_description_bytes)
     item_descriptions = build_item_description_string_array(item_description_string)

@@ -14,7 +14,7 @@ def get_kh1_data_path(kh1_data_path = None):
     return kh1_data_path
 
 def get_corrected_evdl_data():
-    with open('./KH1FM Documentation - Static Items.csv', mode = 'r') as file:
+    with open('./Documentation/KH1FM Documentation - Static Items.csv', mode = 'r') as file:
         corrected_evdl_data = []
         corrected_evdl_csv_file_data = csv.DictReader(file)
         for line in corrected_evdl_csv_file_data:
