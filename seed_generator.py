@@ -28,9 +28,13 @@ def main():
         help = "Determines whether to replace the AP World in the specified Archipelago installation.  If unsure, set this to \"Yes\".")
     
     args = parser.parse_args()
+    print("Handling moving AP World...")
     handle_replacing_ap_world(args.archipelago_directory, args.replace_ap_world)
+    print("Handling moving YAML...")
     move_settings_file_to_players_folder(args.archipelago_directory, args.settings_file)
+    print("Generating AP game...")
     generated_seed_zip = generate_ap_game(args.archipelago_directory)
+    print("Moving generated game back to files...")
     move_generated_seed_zip_to_files(args.archipelago_directory, generated_seed_zip)
 
 def copy_and_replace(source_path, destination_path):

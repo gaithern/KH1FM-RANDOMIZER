@@ -9,13 +9,13 @@ Kingdom Hearts:
   required_postcards: 8
   required_puppies: 80
   super_bosses: false
-  atlantica: false
-  cups: off
+  atlantica: true
+  cups: cups
   hundred_acre_wood: false
-  jungle_slider: false
-  randomize_emblem_pieces: false
+  jungle_slider: true
+  randomize_emblem_pieces: true
   randomize_postcards: all
-  exp_multiplier: 1x
+  exp_multiplier: 4x
   level_checks: 99
   slot_2_level_checks: 10
   force_stats_on_levels: 1
@@ -27,7 +27,7 @@ Kingdom Hearts:
   accessory_slot_increase: 1
   item_slot_increase: 3
   keyblades_unlock_chests: false
-  keyblade_stats: shuffle
+  keyblade_stats: randomize
   bad_starting_weapons: true
   keyblade_max_str: 14
   keyblade_min_str: 3
@@ -43,12 +43,12 @@ Kingdom Hearts:
   starting_tools: true
   randomize_puppies: true
   puppy_value: 3
-  interact_in_battle: false
-  advanced_logic: false
-  extra_shared_abilities: false
-  exp_zero_in_pool: false
+  interact_in_battle: true
+  advanced_logic: true
+  extra_shared_abilities: true
+  exp_zero_in_pool: true
   death_link: false
   donald_death_link: false
   goofy_death_link: false
   remote_items: true
-  shorten_go_mode: false
+  shorten_go_mode: true

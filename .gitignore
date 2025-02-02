@@ -12,3 +12,5 @@ settings_generator.exe
 mod_generator.spec
 seed_generator.spec
 /bld
+/Settings
+/Settings

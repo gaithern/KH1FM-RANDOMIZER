@@ -493,6 +493,10 @@ def get_atlantica_line(atlantica):
     return "  atlantica: " + str(atlantica).replace("Yes", "true").replace("No", "false") + "\n"
 
 def get_cups_line(cups):
+    if cups == "All Cups":
+        cups = "hades_cup"
+    if cups == "No Hades Cup":
+        cups = "cups"
     return "  cups: " + str(cups).replace(" ", "_").lower() + "\n"
 
 def get_hundred_acre_wood_line(hundred_acre_wood):
