@@ -8,3 +8,6 @@
 /dist
 settings_generator.spec
 settings_generator.exe
+*.exe
+mod_generator.spec
+seed_generator.spec
