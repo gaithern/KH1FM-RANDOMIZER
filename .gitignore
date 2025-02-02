@@ -4,3 +4,7 @@
 /Files
 /Output
 /Working
+/build
+/dist
+settings_generator.spec
+settings_generator.exe
