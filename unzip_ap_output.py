@@ -32,12 +32,7 @@ def unzip_ap_output(ap_zip_file_name = None):
     if ap_zip_file_name is None:
         ap_zip_file_name = get_ap_zip_file_name()
     extract_zip(ap_zip_file_name)
-    extract_folder_name = ap_zip_file_name.replace(".zip","") + "/"
-    for file in os.listdir(extract_folder_name):
-        if file.endswith(".zip"):
-            inner_extract_folder_name_path = file.replace(".zip", "")
-            json_path = extract_folder_name + "/" + inner_extract_folder_name_path
-            extract_zip(extract_folder_name + '/' + file)
+    json_path = ap_zip_file_name.replace(".zip","") + "/"
     print(json_path)
     return json_path
 

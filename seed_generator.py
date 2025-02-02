@@ -6,24 +6,44 @@ import re
 
 @Gooey(program_name='KH1 Randomizer Seed Generator',
         image_dir='./Images/',
+        program_description = "Program to generate KH1 Randomizer seed.",
         header_bg_color="#efcf78")
 
 def main():
     parser = GooeyParser()
     
-    parser.add_argument("--archipelago_directory",
+    parser.add_argument("archipelago_directory",
         widget = "DirChooser",
         metavar = "Archipelago Directory",
         help = "The directory where Archipelago is installed, which will be used for generation.")
-    parser.add_argument("--settings_file",
+    parser.add_argument("settings_file",
         widget = "FileChooser",
         metavar = "Settings File",
         help = "The settings file (yaml) to be used in generation.")
+    parser.add_argument("--replace_ap_world",
+        choices = ["Yes",
+            "No"],
+        default = "Yes",
+        metavar = "Replace AP World",
+        help = "Determines whether to replace the AP World in the specified Archipelago installation.  If unsure, set this to \"Yes\".")
     
     args = parser.parse_args()
+    handle_replacing_ap_world(args.archipelago_directory, args.replace_ap_world)
     move_settings_file_to_players_folder(args.archipelago_directory, args.settings_file)
     generated_seed_zip = generate_ap_game(args.archipelago_directory)
     move_generated_seed_zip_to_files(args.archipelago_directory, generated_seed_zip)
+
+def copy_and_replace(source_path, destination_path):
+    if os.path.exists(destination_path):
+        os.remove(destination_path)
+    shutil.copy2(source_path, destination_path)
+
+def handle_replacing_ap_world(archipelago_directory, replace_ap_world):
+    if replace_ap_world  == "Yes":
+        ap_world_file = "./AP World/kh1.apworld"
+        destination_path = archipelago_directory + "/lib/worlds/kh1.apworld"
+        copy_and_replace(ap_world_file, destination_path)
+        print("Placed " + ap_world_file + " in " + destination_path)
 
 def clear_folder(folder_path):
     """
