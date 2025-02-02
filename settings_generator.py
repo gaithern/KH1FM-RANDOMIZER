@@ -1,7 +1,7 @@
 from gooey import Gooey,GooeyParser
 import os
 
-@Gooey(program_name='KH1 Randomizer Settings Creator',
+@Gooey(program_name='KH1 Randomizer Settings Generator',
         image_dir='./Images/',
         tabbed_groups=True,
         header_bg_color="#efcf78")
@@ -562,10 +562,10 @@ def get_keyblade_min_crit_rate_line(keyblade_min_crit_rate):
     return "  keyblade_min_crit_rate: " + str(keyblade_min_crit_rate) + "\n"
 
 def get_keyblade_max_crit_bonus_line(keyblade_max_crit_bonus):
-    return "  keyblade_max_crit_bonus: " + str(keyblade_max_crit_bonus) + "\n"
+    return "  keyblade_max_crit_str: " + str(keyblade_max_crit_bonus) + "\n"
 
 def get_keyblade_min_crit_bonus_line(keyblade_min_crit_bonus):
-    return "  keyblade_min_crit_bonus: " + str(keyblade_min_crit_bonus) + "\n"
+    return "  keyblade_min_crit_str: " + str(keyblade_min_crit_bonus) + "\n"
 
 def get_keyblade_max_recoil_line(keyblade_max_recoil):
     return "  keyblade_max_recoil: " + str(keyblade_max_recoil) + "\n"
