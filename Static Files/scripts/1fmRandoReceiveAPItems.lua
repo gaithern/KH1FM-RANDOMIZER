@@ -405,6 +405,11 @@ end
 
 local items = define_items()
 
+function in_gummi_garage()
+    in_gummi_address = {0x508778, 0x507C08}
+    return ReadInt(in_gummi_address[game_version]) > 0
+end
+
 function get_item_by_id(item_id)
   for i = 1, #items do
     if items[i].ID == item_id then
@@ -933,7 +938,9 @@ end
 
 function _OnFrame()
     if canExecute then
-        receive_items()
-        handle_messages()
+        if not in_gummi_garage() then
+            receive_items()
+            handle_messages()
+        end
     end
 end
