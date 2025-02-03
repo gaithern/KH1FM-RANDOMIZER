@@ -387,12 +387,6 @@ def main():
         default = "No",
         metavar = "Goofy Death Link",
         help = "If Goofy is KO'ed, so is Sora.")
-    misc_group.add_argument('--remote_items',
-        choices = ["Yes",
-        "No"],
-        default = "Yes",
-        metavar = "Remote Items",
-        help = "Determines if generation will only place items in locations that can be granted to the player locally.  If this option is set to \"Yes\" the player is expected to be connected to the game's server.")
     misc_group.add_argument('--shorten_go_mode',
         choices = ["Yes",
         "No"],
@@ -455,7 +449,6 @@ def create_yaml(args):
     yaml_str = yaml_str + get_death_link_line(args.death_link)
     yaml_str = yaml_str + get_donald_death_link_line(args.donald_death_link)
     yaml_str = yaml_str + get_goofy_death_link_line(args.goofy_death_link)
-    yaml_str = yaml_str + get_remote_items_line(args.remote_items)
     yaml_str = yaml_str + get_shorten_go_mode_line(args.shorten_go_mode)
     output_yaml(yaml_str, args.slot_name)
 
@@ -615,9 +608,6 @@ def get_donald_death_link_line(donald_death_link):
 
 def get_goofy_death_link_line(goofy_death_link):
     return "  goofy_death_link: " + str(goofy_death_link).replace("Yes", "true").replace("No", "false") + "\n"
-
-def get_remote_items_line(remote_items):
-    return "  remote_items: " + str(remote_items).replace("Yes", "true").replace("No", "false") + "\n"
 
 def get_shorten_go_mode_line(shorten_go_mode):
     return "  shorten_go_mode: " + str(shorten_go_mode).replace("Yes", "true").replace("No", "false") + "\n"
