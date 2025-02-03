@@ -154,14 +154,14 @@ def main():
         default = 10,
         metavar = "Slot 2 Level Checks",
         help = "Determines the amount of secondary bonuses are found on levels.")
-    levels_group.add_argument('--force_stats_on_levels_starting_at_level',
+    levels_group.add_argument('--force_stats_and_abilities_on_levels',
         widget='Slider',
         gooey_options={'min': 1,
         'max': 100,
         'increment': 1},
         default = 1,
-        metavar = "Force Stats on Levels Starting at Level",
-        help = "Determines at which level can only stat increases be found.")
+        metavar = "Force Stats and Abilities on Levels Starting at Level",
+        help = "Determines at which level can only stat increases or abilities can be found.")
     levels_group.add_argument('--strength_increases',
         widget='Slider',
         gooey_options={'min': 0,
@@ -387,6 +387,12 @@ def main():
         default = "No",
         metavar = "Goofy Death Link",
         help = "If Goofy is KO'ed, so is Sora.")
+    misc_group.add_argument('--remote_items',
+        choices = ["Yes",
+        "No"],
+        default = "Yes",
+        metavar = "Remote Items",
+        help = "Determines if generation will only place items in locations that can be granted to the player locally.  If this option is set to \"Yes\" the player is expected to be connected to the game's server.")
     misc_group.add_argument('--shorten_go_mode',
         choices = ["Yes",
         "No"],
@@ -417,7 +423,7 @@ def create_yaml(args):
     yaml_str = yaml_str + get_exp_multiplier_line(args.exp_multiplier)
     yaml_str = yaml_str + get_level_checks_line(args.level_checks)
     yaml_str = yaml_str + get_slot_2_level_checks_line(args.slot_2_level_checks)
-    yaml_str = yaml_str + get_force_stats_on_levels_line(args.force_stats_on_levels_starting_at_level)
+    yaml_str = yaml_str + get_force_stats_and_abilities_on_levels_line(args.force_stats_and_abilities_on_levels)
     yaml_str = yaml_str + get_strength_increase_line(args.strength_increases)
     yaml_str = yaml_str + get_defense_increase_line(args.defense_increases)
     yaml_str = yaml_str + get_hp_increase_line(args.hp_increases)
@@ -449,6 +455,7 @@ def create_yaml(args):
     yaml_str = yaml_str + get_death_link_line(args.death_link)
     yaml_str = yaml_str + get_donald_death_link_line(args.donald_death_link)
     yaml_str = yaml_str + get_goofy_death_link_line(args.goofy_death_link)
+    yaml_str = yaml_str + get_remote_items_line(args.remote_items)
     yaml_str = yaml_str + get_shorten_go_mode_line(args.shorten_go_mode)
     output_yaml(yaml_str, args.slot_name)
 
@@ -513,8 +520,8 @@ def get_level_checks_line(level_checks):
 def get_slot_2_level_checks_line(slot_2_level_checks):
     return "  slot_2_level_checks: " + str(slot_2_level_checks) + "\n"
 
-def get_force_stats_on_levels_line(force_stats_on_levels):
-    return "  force_stats_on_levels: " + str(force_stats_on_levels) + "\n"
+def get_force_stats_and_abilities_on_levels_line(force_stats_and_abilities_on_levels):
+    return "  force_stats_and_abilities_on_levels: " + str(force_stats_and_abilities_on_levels) + "\n"
 
 def get_strength_increase_line(strength_increases):
     return "  strength_increase: " + str(strength_increases) + "\n"
@@ -608,6 +615,9 @@ def get_donald_death_link_line(donald_death_link):
 
 def get_goofy_death_link_line(goofy_death_link):
     return "  goofy_death_link: " + str(goofy_death_link).replace("Yes", "true").replace("No", "false") + "\n"
+
+def get_remote_items_line(remote_items):
+    return "  remote_items: " + str(remote_items).replace("Yes", "true").replace("No", "false") + "\n"
 
 def get_shorten_go_mode_line(shorten_go_mode):
     return "  shorten_go_mode: " + str(shorten_go_mode).replace("Yes", "true").replace("No", "false") + "\n"
