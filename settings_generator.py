@@ -370,9 +370,10 @@ def main():
         metavar = "EXP Zero in Pool",
         help = "Determines if EXP Zero should be shuffled into the item pool.")
     misc_group.add_argument('--death_link',
-        choices = ["Yes",
-            "No"],
-        default = "No",
+        choices = ["Off",
+            "Toggle",
+            "On"],
+        default = "Off",
         metavar = "Death Link",
         help = "If another player is KO'ed, so is Sora.  The opposite is also true.")
     misc_group.add_argument('--donald_death_link',
@@ -612,7 +613,7 @@ def get_exp_zero_in_pool_line(exp_zero_in_pool):
     return "  exp_zero_in_pool: " + str(exp_zero_in_pool).replace("Yes", "true").replace("No", "false") + "\n"
 
 def get_death_link_line(death_link):
-    return "  death_link: " + str(death_link).replace("Yes", "true").replace("No", "false") + "\n"
+    return "  death_link: " + str(death_link).replace(" ", "_").lower() + "\n"
 
 def get_donald_death_link_line(donald_death_link):
     return "  donald_death_link: " + str(donald_death_link).replace("Yes", "true").replace("No", "false") + "\n"
