@@ -38,6 +38,12 @@ function toBits(num)
     return t
 end
 
+function read_world()
+    --[[Gets the numeric value of the currently occupied world]]
+    world_address = {0x2340E5C, 0x233FE84}
+    return ReadByte(world_address[game_version])
+end
+
 function final_ansem_defeated()
     --[[Checks if the player is on the results screen, meaning that they defeated Final Ansem]]
     world = {0x2340E5C, 0x233FE84}
@@ -822,8 +828,10 @@ end
 
 function _OnFrame()
     if canExecute then
-        frame_count = (frame_count + 1) % 60
-        send_locations(frame_count)
-        send_victory_status()
+        if read_world() ~= 0 then
+            frame_count = (frame_count + 1) % 60
+            send_locations(frame_count)
+            send_victory_status()
+        end
     end
 end
