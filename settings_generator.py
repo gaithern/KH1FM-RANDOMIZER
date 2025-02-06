@@ -4,6 +4,7 @@ import os
 @Gooey(program_name='KH1 Randomizer Settings Generator',
         image_dir='./Images/',
         tabbed_groups=True,
+        default_size=(720, 480),
         header_bg_color="#efcf78")
 def main():
     parser = GooeyParser()
