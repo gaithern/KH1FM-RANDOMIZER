@@ -60,6 +60,9 @@ local warpType1 = {0x23405C0, 0x233FBC0} --changed for EGS 1.0.0.10
 local warpType2 = {0x22ECA90, 0x22EC0B0} --changed BOTH 1.0.0.10
 local warpDefinitions = {0x232E900, 0x232DF10} --changed for EGS 1.0.0.10
 
+local worldFlagsAddress = {0x2DEAA6D, 0x2DEA06D}
+local world_progress_array_address = {0x2DEB264, 0x2DEA864}
+
 local prevTTFlag = 0
 
 local canExecute = false
@@ -544,6 +547,25 @@ function FlagFixes()
         debugPrint("Section 41")
         WriteByte(hb_library_green_trinity_address[game_version], 0x40)
         WriteByte(hb_library_green_trinity_address_2[game_version], 0x01)
+    end
+    if ReadByte(worldFlagsAddress[game_version] + 0x1008) == 0 then --auto grab recipe cards so you can't duplicate items in DJ experiments
+        debugPrint("Section 42")
+        recipe_card_offsets = {0x1003, 0x1007, 0x1008, 0x100D, 0x100E}
+        for k,v in pairs(recipe_card_offsets) do
+            WriteByte(worldFlagsAddress[game_version] + v, 1)
+        end
+    end
+    if ReadByte(worldFlagsAddress[game_version]) == 0 then --Leon Gift unmissable
+        debugPrint("Section 43")
+        WriteByte(worldFlagsAddress[game_version], 1)
+    end
+    
+    if ReadByte(worldFlagsAddress[game_version]) <= 0x32 then --Prevent Riku Ansem before Leon Earthshine Event
+        debugPrint("Section 44")
+        WriteByte(libraryFlag[game_version] + 0x9, 0x1)
+    elseif ReadByte(world_progress_array_address[game_version] + 0xA) == 0x6E then
+        debugPrint("Section 45")
+        WriteByte(libraryFlag[game_version] + 0x9, 0x4)
     end
 end
 
