@@ -517,7 +517,7 @@ function fill_location_map()
     table.insert(location_map, {2656517, world_flags_address[game_version]          + 0x11A2, 0, 0x02, 0}) --Hollow Bastion Entrance Hall Emblem Piece (Chest)
     table.insert(location_map, {2656518, world_flags_address[game_version]          + 0x11A3, 0, 0x02, 0}) --Hollow Bastion Entrance Hall Emblem Piece (Statue)
     table.insert(location_map, {2656519, world_flags_address[game_version]          + 0x11A4, 0, 0x02, 0}) --Hollow Bastion Entrance Hall Emblem Piece (Fountain)
-    table.insert(location_map, {2656520, world_flags_address[game_version]          + 0x0,    0, 0x01, 1}) --Traverse Town 1st District Leon Gift
+    table.insert(location_map, {2656520, world_progress_array_address[game_version] + 0x0,    0, 0x31, 0}) --Traverse Town 1st District Leon Gift
     table.insert(location_map, {2656521, world_flags_address[game_version]          + 0x2,    0, 0x01, 0}) --Traverse Town 1st District Aerith Gift
     table.insert(location_map, {2656522, world_flags_address[game_version]          + 0x402,  0, 0x01, 0}) --Hollow Bastion Library Speak to Belle Divine Rose
     table.insert(location_map, {2656523, world_flags_address[game_version]          + 0x401,  0, 0x01, 0}) --Hollow Bastion Library Speak to Aerith Cure
@@ -533,6 +533,22 @@ function fill_location_map()
     table.insert(location_map, {2656609, event_flags[game_version]                  + 0xE73,  6, 0x01, 0}) --Hollow Bastion Dungeon Blue Trinity
     table.insert(location_map, {2656610, event_flags[game_version]                  + 0xE6A,  4, 0x01, 0}) --Deep Jungle Treetop Green Trinity
     table.insert(location_map, {2656611, event_flags[game_version]                  + 0xE6C,  4, 0x01, 0}) --Agrabah Treasure Room Red Trinity
+    table.insert(location_map, {2656700, world_flags_address[game_version]          + 0x319,  0, 0x01, 0}) --Destiny Islands Seashore Capture Fish 1 (Day 2)
+    table.insert(location_map, {2656701, world_flags_address[game_version]          + 0x31A,  0, 0x01, 0}) --Destiny Islands Seashore Capture Fish 2 (Day 2)
+    table.insert(location_map, {2656702, world_flags_address[game_version]          + 0x31B,  0, 0x01, 0}) --Destiny Islands Seashore Capture Fish 3 (Day 2)
+    table.insert(location_map, {2656703, world_flags_address[game_version]          + 0x303,  0, 0x01, 0}) --Destiny Islands Seashore Gather Seagull Egg (Day 2)
+    table.insert(location_map, {2656705, world_flags_address[game_version]          + 0x326,  0, 0x01, 0}) --Destiny Islands Seashore Gather Log under Bridge (Day 1)
+    table.insert(location_map, {2656706, world_flags_address[game_version]          + 0x327,  0, 0x01, 0}) --Destiny Islands Seashore Gather Cloth (Day 1)
+    table.insert(location_map, {2656708, world_flags_address[game_version]          + 0x329,  0, 0x01, 0}) --Destiny Islands Seashore Defeat Riku (Day 1)
+    table.insert(location_map, {2656704, world_flags_address[game_version]          + 0x325,  0, 0x01, 0}) --Destiny Islands Seashore Gather Log on Riku's Island (Day 1)
+    table.insert(location_map, {2656707, world_flags_address[game_version]          + 0x31E,  0, 0x01, 0}) --Destiny Islands Seashore Gather Rope (Day 1)
+    table.insert(location_map, {2656710, world_flags_address[game_version]          + 0x305,  0, 0x02, 0}) --Destiny Islands Seashore Deliver Kairi Items (Day 1)
+    table.insert(location_map, {2656712, world_flags_address[game_version]          + 0x2FD,  0, 0x01, 0}) --Destiny Islands Cove Gather Mushroom Near Zip Line (Day 2)
+    table.insert(location_map, {2656713, world_flags_address[game_version]          + 0x2FE,  0, 0x01, 0}) --Destiny Islands Cove Gather Mushroom in Small Cave (Day 2)
+    table.insert(location_map, {2656714, world_flags_address[game_version]          + 0x2F3,  0, 0x01, 0}) --Destiny Islands Cove Talk to Kairi (Day 2)
+    table.insert(location_map, {2656715, world_flags_address[game_version]          + 0x2FA,  0, 0x01, 0}) --Destiny Islands Gather Drinking Water (Day 2)
+    table.insert(location_map, {2656711, world_flags_address[game_version]          + 0x31C,  0, 0x01, 0}) --Destiny Islands Secret Place Gather Mushroom (Day 2)
+    table.insert(location_map, {2656716, world_flags_address[game_version]          + 0x301,  0, 0x02, 0}) --Destiny Islands Cove Deliver Kairi Items (Day 2)
     table.insert(location_map, {2657018, ansems_reports_address[game_version]       + 0x0,    8, 0x01, 0}) --Agrabah Defeat Jafar Genie Ansem's Report 1
     table.insert(location_map, {2657017, ansems_reports_address[game_version]       + 0x0,    7, 0x01, 0}) --Hollow Bastion Speak with Aerith Ansem's Report 2
     table.insert(location_map, {2657016, ansems_reports_address[game_version]       + 0x0,    6, 0x01, 0}) --Atlantica Defeat Ursula II Ansem's Report 3
@@ -794,11 +810,6 @@ function send_locations(frame_count)
                     value = ReadByte(address)
                 end
                 if value >= compare_value then
-                    write_location_file(location_id)
-                end
-            elseif special_function == 1 then --Leon Gift
-                world_flags_address = {0x2DEAA6D, 0x2DEA06D}
-                if ReadByte(address) >= compare_value and ReadByte(world_flags_address[game_version]) >= 0x31 then
                     write_location_file(location_id)
                 end
             end

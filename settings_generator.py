@@ -86,6 +86,12 @@ def main():
         default = "80",
         metavar = "Required Puppies",
         help = "If Final Rest Door Key is set to Puppies, determines how many Puppies are required.")
+    goal_group.add_argument('--destiny_islands',
+        choices = ["Yes",
+            "No"],
+        default = "No",
+        metavar = "Destiny Islands",
+        help = "If on, Traverse Town will have an additional place to land - Seashore in Destiny Islands.  Destiny Islands items will be shuffled into the item pool.  Turning in all Destiny Islands items to Kairi sends the player to the final fights.")
     locations_group.add_argument('--super_bosses',
         choices = ["Yes",
             "No"],
@@ -419,6 +425,7 @@ def create_yaml(args):
     yaml_str = yaml_str + get_lucky_emblems_in_pool_line(args.lucky_emblems_in_item_pool)
     yaml_str = yaml_str + get_required_postcards_line(args.required_postcards)
     yaml_str = yaml_str + get_required_puppies_line(args.required_puppies)
+    yaml_str = yaml_str + get_destiny_islands_line(args.destiny_islands)
     yaml_str = yaml_str + get_super_bosses_line(args.super_bosses)
     yaml_str = yaml_str + get_atlantica_line(args.atlantica)
     yaml_str = yaml_str + get_cups_line(args.cups)
@@ -491,6 +498,9 @@ def get_required_postcards_line(required_postcards):
 
 def get_required_puppies_line(required_puppies):
     return "  required_puppies: " + str(required_puppies) + "\n"
+
+def get_destiny_islands_line(destiny_islands):
+    return "  destiny_islands: " + str(destiny_islands).replace("Yes", "true").replace("No", "false") + "\n"
 
 def get_super_bosses_line(super_bosses):
     return "  super_bosses: " + str(super_bosses).replace("Yes", "true").replace("No", "false") + "\n"

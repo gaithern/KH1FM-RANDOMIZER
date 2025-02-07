@@ -244,15 +244,6 @@ function FlagFixes()
     
     if ReadInt(inGummi[game_version]) > 0 then
         debugPrint("Section 18")
-        if ReadByte(gummiselect[game_version]) == 3 then
-            WriteShort(worldWarps[game_version], 1) -- Add DI warp
-            if (ReadByte(unlockedWarps[game_version] - 7) // 8) % 2 == 0 then
-                WriteByte(unlockedWarps[game_version] - 7, math.max(ReadByte(unlockedWarps[game_version] - 7) + 8, 9))
-            end
-            WriteByte(warpCount[game_version], 4)
-        else
-            WriteShort(worldWarps[game_version], 4) -- Revert to Wonderland
-        end
         if ReadByte(gummiselect[game_version]) == 3 and ReadByte(cutsceneFlags[game_version]+0xB04) < 0x31 then
             WriteByte(party1[game_version], 0xFF)
             WriteByte(party1[game_version]+1, 0xFF)
