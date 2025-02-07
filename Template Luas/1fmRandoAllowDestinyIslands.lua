@@ -14,6 +14,18 @@ local room = {0x2340E5C + 0x68, 0x233FE84 + 0x8}
 local stock_address = {0x2DEA1F9, 0x2DE97F9}
 local room_flags_address = {0x2DEBDCC, 0x2DEB3CC}
 local world_flags_address = {0x2DEAA6D, 0x2DEA06D}
+local blackFade = {0x4DD3F8, 0x4DC718}
+local worldFlagBase = {0x2DEBEB0, 0x2DEB4B0}
+local party1 = {0x2DEA1EF, 0x2DE97EF}
+local cutsceneFlags = {0x2DEB260, 0x2DEA860}
+
+local worldWarp = {0x2340EF0, 0x233FEB8}
+local roomWarp = {0x2340EF0 + 4, 0x233FEB8 + 4}
+local roomWarpRead = {0x232E908, 0x232DF18}
+local warpTrigger = {0x22ECA8C, 0x22EC0AC}
+local warpType1 = {0x23405C0, 0x233FBC0}
+local warpType2 = {0x22ECA90, 0x22EC0B0}
+local warpDefinitions = {0x232E900, 0x232DF10}
 
 function enable_di_landing()
     if ReadInt(inGummi[game_version]) > 0 then
@@ -30,7 +42,7 @@ function enable_di_landing()
 end
 
 function revert_day2()
-    if ReadByte(world[game_version]) ~= 1 and ReadByte(room_flags_address[game_version]+7) ~= 0 then --Not in Destiny Islands and Seashore not on Day 1
+    if (ReadByte(world[game_version]) ~= 1 and ReadByte(world[game_version]) ~= 2) and ReadByte(room_flags_address[game_version]+7) ~= 0 then --Not in Destiny Islands and Seashore not on Day 1
         WriteByte(room_flags_address[game_version]+7, 0)
     end
 end
@@ -39,15 +51,32 @@ function kairi_gift_unmissable()
     kairi_lists_supplies_needed = world_flags_address[game_version] + 0x305
     kairi_gives_hint = world_flags_address[game_version] + 0x337
     kairi_says_youre_hopeless = world_flags_address[game_version] + 0x338
-    if ReadByte(kairi_lists_supplies_needed) ~= 0 then
-        WriteByte(kairi_lists_supplies_needed, 0)
-    end
     if ReadByte(kairi_gives_hint) ~= 0 then
         WriteByte(kairi_gives_hint, 0)
     end
     if ReadByte(kairi_says_youre_hopeless) ~= 0 then
         WriteByte(kairi_says_youre_hopeless, 0)
     end
+end
+
+function warp_to_homecoming()
+    if ReadByte(world[game_version]) == 1 and ReadByte(blackFade[game_version]) > 0 and ReadByte(worldFlagBase[game_version]) == 2 then -- DI Day2 Warp to EotW
+        RoomWarp(16, 66)
+        WriteByte(party1[game_version], 1)
+        WriteByte(party1[game_version] + 1, 2)
+        WriteByte(worldFlagBase[game_version], 0)
+        if ReadByte(cutsceneFlags[game_version] + 11) >= 90 then
+            WriteByte(cutsceneFlags[game_version] + 11, 0)
+        end
+    end
+end
+
+function RoomWarp(w, r)
+    WriteByte(warpType1[game_version], 5)
+    WriteByte(warpType2[game_version], 10)
+    WriteByte(worldWarp[game_version], w)
+    WriteByte(roomWarp[game_version], r)
+    WriteByte(warpTrigger[game_version], 2)
 end
 
 function _OnInit()
@@ -72,5 +101,6 @@ function _OnFrame()
         enable_di_landing()
         revert_day2()
         kairi_gift_unmissable()
+        warp_to_homecoming()
     end
 end
