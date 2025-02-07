@@ -9,6 +9,7 @@ LUAGUI_DESC = "Kingdom Hearts 1FM Handle Special Cases with Key Items"
 
 canExecute = false
 stock_address = {0x2DEA1FA, 0x2DE97FA}
+world_progress_array_address = {0x2DEB264, 0x2DEA864}
 
 function handle_slides(stock)
     if stock[217] > 0 and stock[218] == 0 then
@@ -73,7 +74,11 @@ function handle_worlds(stock)
     worlds_unlocked_items[6] = stock[166]
     worlds_unlocked_items[7] = stock[157]
     worlds_unlocked_items[8] = stock[165]
-    worlds_unlocked_items[9] = stock[168]
+    if ReadByte(world_progress_array_address[game_version]) >= 0x3E then
+        worlds_unlocked_items[9] = stock[168]
+    else
+        worlds_unlocked_items[9] = 0
+    end
     worlds_unlocked_items[10] = stock[169]
     worlds_unlocked_items[11] = stock[156]
     unlocked_worlds_array = {3,0,0,0,0,0,0,0,0,0,0}
