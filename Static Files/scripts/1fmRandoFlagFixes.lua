@@ -562,7 +562,7 @@ function FlagFixes()
         WriteByte(worldFlagsAddress[game_version], 1)
     end
     
-    if ReadByte(worldFlagsAddress[game_version]) <= 0x32 then --Prevent Riku Ansem before Leon Earthshine Event
+    if ReadByte(world_progress_array_address[game_version]) < 0x3E and ReadByte(world_progress_array_address[game_version] + 0xA) >= 0x32 then --Prevent Riku Ansem before Leon Earthshine Event
         debugPrint("Section 44")
         WriteByte(libraryFlag[game_version] + 0x9, 0x1)
     elseif ReadByte(world_progress_array_address[game_version] + 0xA) == 0x6E then
