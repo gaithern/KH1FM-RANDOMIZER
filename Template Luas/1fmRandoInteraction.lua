@@ -17,7 +17,7 @@ canExecute = false
 function has_correct_keyblade()
     stock_address = {0x2DEA1F9, 0x2DE97F9} --changed for EGS 1.0.0.10
     world_address = {0x2340E5C, 0x233FE84}
-    keyblade_offsets = {nil, nil, 94, 98, 86, 96, nil, 87, 90, 89, 93, 99, 88, nil, 91, 97}
+    keyblade_offsets = {96, nil, 94, 98, 86, 92, nil, 87, 90, 89, 93, 99, 88, nil, 91, 97}
     current_world = ReadByte(world_address[game_version])
     if keyblade_offsets[current_world] ~= nil then
         keyblade_amt = ReadByte(stock_address[game_version] + keyblade_offsets[current_world])
