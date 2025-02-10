@@ -528,7 +528,7 @@ def get_randomize_postcards_line(randomize_postcards):
     return "  randomize_postcards: " + str(randomize_postcards).replace(" ", "_").lower() + "\n"
 
 def get_exp_multiplier_line(exp_multiplier):
-    return "  exp_multiplier: " + str(exp_multiplier) + "x" + "\n"
+    return "  exp_multiplier: " + str(int(exp_multiplier) * 16) + "\n"
 
 def get_level_checks_line(level_checks):
     return "  level_checks: " + str(level_checks) + "\n"

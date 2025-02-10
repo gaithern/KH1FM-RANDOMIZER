@@ -30,4 +30,4 @@ Index,File,Offset,World,Map,Trigger,AP Location ID,AP Location Name,Small Munny 
 28,map_prize.bin,784,???,???,???,-,-,0,0,0,3,0,6,0,5%,Potion,5%,Ether,0%,NA,00,00,00,03,00,06,00,05,01,05,03,00,00
 29,map_prize.bin,791,???,???,???,-,-,0,0,0,6,0,0,0,10%,Hi-Potion,0%,NA,0%,NA,00,00,00,06,00,00,00,0A,02,00,00,00,00
 30,map_prize.bin,79E,???,???,???,-,-,0,0,0,0,0,20,20,100%,Mythril,0%,NA,0%,NA,00,00,00,00,00,14,14,64,FE,00,00,00,00
-31,map_prize.bin,7AB,???,???,???,-,-,40,0,3,0,0,0,0,100%,Mythril Shard,0%,NA,0%,NA,28,00,03,00,00,00,00,64,FD,00,00,00,00
+31,map_prize.bin,7AB,Monstro,Throat,Blue Trinity,2656612,Monstro Throat Blue Trinity,40,0,3,0,0,0,0,100%,Mythril Shard,0%,NA,0%,NA,28,00,03,00,00,00,00,64,FD,00,00,00,00

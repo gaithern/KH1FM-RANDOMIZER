@@ -21,6 +21,7 @@ map_prize_array = {
     [2656609] = {0xE73, 6, replace_2656609}, --Hollow Bastion Dungeon Blue Trinity
     [2656610] = {0xE6A, 4, replace_2656610}, --Deep Jungle Treetop Green Trinity
     [2656611] = {0xE6C, 4, replace_2656611}, --Agrabah Treasure Room Red Trinity
+    [2656612] = {0xE6E, 5, replace_2656612}, --Monstro Throat Blue Trinity
 }
 
 function toBits(num)
