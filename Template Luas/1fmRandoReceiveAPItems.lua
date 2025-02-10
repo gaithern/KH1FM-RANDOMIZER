@@ -11,6 +11,8 @@ canExecute = false
 game_version = 1
 initializing = true
 
+starting_items = {}
+
 if os.getenv('LOCALAPPDATA') ~= nil then
     client_communication_path = os.getenv('LOCALAPPDATA') .. "\\KH1FM\\"
 else
@@ -426,6 +428,18 @@ function read_check_number()
     return check_number
 end
 
+function read_start_inventory_written_byte()
+    gummi_address = {0x2DF5BD8, 0x2DF51D8}
+    start_inventory_written_address = gummi_address[game_version] + 0x7B
+    return ReadByte(start_inventory_written_address)
+end
+
+function write_start_inventory_written_byte(val)
+    gummi_address = {0x2DF5BD8, 0x2DF51D8}
+    start_inventory_written_address = gummi_address[game_version] + 0x7B
+    return WriteByte(start_inventory_written_address, val)
+end
+
 function read_world()
     --[[Gets the numeric value of the currently occupied world]]
     world_address = {0x2340E5C, 0x233FE84}
@@ -551,6 +565,31 @@ function add_to_soras_stats(value)
     write_soras_stats(soras_stats_array)
 end
 
+function handle_item_received(received_item_id)
+    if received_item_id >= 2641000 and received_item_id < 2642000 then
+        if received_item_id % 2641000 == 217 then
+            write_slides()
+        else
+            write_item(received_item_id % 2641000)
+        end
+    elseif received_item_id >= 2642000 and received_item_id < 2642100 then
+        write_shared_ability(received_item_id % 2642000)
+    elseif received_item_id >= 2643000 and received_item_id < 2644000 then
+        write_sora_ability(received_item_id % 2643000)
+    elseif received_item_id >= 2644000 and received_item_id < 2645000 then
+        add_to_soras_stats(received_item_id % 2644000)
+    end
+end
+
+function handle_start_inventory()
+    if read_start_inventory_written_byte() ~= 1 then
+        for item_num,item_id in pairs(starting_items) do
+            handle_item_received(item_id)
+        end
+        write_start_inventory_written_byte(1)
+    end
+end
+
 function receive_items()
     --[[Main function for receiving items from the AP server]]
     i = read_check_number() + 1
@@ -566,19 +605,7 @@ function receive_items()
             local item = get_item_by_id(received_item_id) or { Name = "UNKNOWN ITEM", ID = -1}
             table.insert(message_cache.items, item)
         end
-        if received_item_id >= 2641000 and received_item_id < 2642000 then
-            if received_item_id % 2641000 == 217 then
-                write_slides()
-            else
-                write_item(received_item_id % 2641000)
-            end
-        elseif received_item_id >= 2642000 and received_item_id < 2642100 then
-            write_shared_ability(received_item_id % 2642000)
-        elseif received_item_id >= 2643000 and received_item_id < 2644000 then
-            write_sora_ability(received_item_id % 2643000)
-        elseif received_item_id >= 2644000 and received_item_id < 2645000 then
-            add_to_soras_stats(received_item_id % 2644000)
-        end
+        handle_item_received(received_item_id)
         i = i + 1
     end
     initializing = false
@@ -939,6 +966,7 @@ end
 function _OnFrame()
     if canExecute then
         if not in_gummi_garage() then
+            handle_start_inventory()
             receive_items()
             handle_messages()
         end

@@ -533,6 +533,7 @@ function fill_location_map()
     table.insert(location_map, {2656609, event_flags[game_version]                  + 0xE73,  6, 0x01, 0}) --Hollow Bastion Dungeon Blue Trinity
     table.insert(location_map, {2656610, event_flags[game_version]                  + 0xE6A,  4, 0x01, 0}) --Deep Jungle Treetop Green Trinity
     table.insert(location_map, {2656611, event_flags[game_version]                  + 0xE6C,  4, 0x01, 0}) --Agrabah Treasure Room Red Trinity
+    table.insert(location_map, {2656612, event_flags[game_version]                  + 0xE6E,  5, 0x01, 0}) --Monstro Throat Blue Trinity
     table.insert(location_map, {2656700, world_flags_address[game_version]          + 0x319,  0, 0x01, 0}) --Destiny Islands Seashore Capture Fish 1 (Day 2)
     table.insert(location_map, {2656701, world_flags_address[game_version]          + 0x31A,  0, 0x01, 0}) --Destiny Islands Seashore Capture Fish 2 (Day 2)
     table.insert(location_map, {2656702, world_flags_address[game_version]          + 0x31B,  0, 0x01, 0}) --Destiny Islands Seashore Capture Fish 3 (Day 2)

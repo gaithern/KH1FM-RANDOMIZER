@@ -22,6 +22,7 @@ from write_shorten_go_mode_lua import write_shorten_go_mode_lua
 from write_handle_items_lua import write_handle_items_lua
 from write_death_link_lua import write_death_link_lua
 from write_destiny_islands_lua import write_destiny_islands_lua
+from write_receive_ap_items_lua import write_receive_ap_items_lua
 from validate_evdl_data import validate_evdl_data
 from unzip_ap_output import unzip_ap_output
 
@@ -113,6 +114,9 @@ def write_mod(ap_zip_file_name = None, kh1_data_path = None):
     
     print("Writing Destiny Islands lua...")
     write_destiny_islands_lua(settings_file = settings_file)
+    
+    print("Writing Receive AP Items lua...")
+    write_receive_ap_items_lua(settings_file = settings_file)
     
     print("Writing mod zip...")
     write_mod_zip()
