@@ -16,6 +16,8 @@ def main():
         "Customize what can be found on level ups.")
     keyblades_group = parser.add_argument_group("Keyblades",
         "Customize keyblade stats.")
+    synth_group = parser.add_argument_group("Synth",
+        "Customize synthesis materials.")
     misc_group = parser.add_argument_group("Misc",
         "Customize other misc settings.")
     
@@ -411,6 +413,39 @@ def main():
         default = "No",
         metavar = "Shorten Go Mode",
         help = "Determines if the player should be warped to the final cutscene after defeating Ansem 1 > Darkside > Ansem 2.")
+    synth_group.add_argument('--mythril_price',
+        widget = "Slider",
+        gooey_options={'min': 100,
+                'max': 5000,
+                'increment': 1},
+        default = 5000,
+        metavar = "Mythril Price",
+        help = "Cost of mythril in shops")
+    synth_group.add_argument('--mythril_in_pool',
+        widget = "Slider",
+        gooey_options={'min': 16,
+                'max': 30,
+                'increment': 1},
+        default = 20,
+        metavar = "Mythril In Pool",
+        help = "Number of mythril in the item pool")
+    synth_group.add_argument('--orichalcum_price',
+        widget = "Slider",
+        gooey_options={'min': 100,
+                'max': 5000,
+                'increment': 1},
+        default = 5000,
+        metavar = "Orichalcum Price",
+        help = "Cost of orichalcum in shops")
+    synth_group.add_argument('--orichalcum_in_pool',
+        widget = "Slider",
+        gooey_options={'min': 17,
+                'max': 30,
+                'increment': 1},
+        default = 20,
+        metavar = "Orichalcum In Pool",
+        help = "Number of orichalcum in the item pool")
+    
     args = parser.parse_args()
     print(create_yaml(args))
 
@@ -470,6 +505,10 @@ def create_yaml(args):
     yaml_str = yaml_str + get_goofy_death_link_line(args.goofy_death_link)
     yaml_str = yaml_str + get_remote_items_line(args.remote_items)
     yaml_str = yaml_str + get_shorten_go_mode_line(args.shorten_go_mode)
+    yaml_str = yaml_str + get_mythril_in_pool_line(args.mythril_in_pool)
+    yaml_str = yaml_str + get_mythril_price_line(args.mythril_price)
+    yaml_str = yaml_str + get_orichalcum_in_pool_line(args.orichalcum_in_pool)
+    yaml_str = yaml_str + get_orichalcum_price_line(args.orichalcum_price)
     output_yaml(yaml_str, args.slot_name)
 
 def get_slot_name_line(slot_name):
@@ -637,6 +676,18 @@ def get_remote_items_line(remote_items):
 
 def get_shorten_go_mode_line(shorten_go_mode):
     return "  shorten_go_mode: " + str(shorten_go_mode).replace("Yes", "true").replace("No", "false") + "\n"
+
+def get_mythril_in_pool_line(mythril_in_pool):
+    return "  mythril_in_pool: " + str(mythril_in_pool) + "\n"
+
+def get_mythril_price_line(mythril_price):
+    return "  mythril_price: " + str(mythril_price) + "\n"
+
+def get_orichalcum_in_pool_line(orichalcum_in_pool):
+    return "  orichalcum_in_pool: " + str(orichalcum_in_pool) + "\n"
+
+def get_orichalcum_price_line(orichalcum_price):
+    return "  orichalcum_price: " + str(orichalcum_price) + "\n"
 
 def output_yaml(yaml_str, slot_name):
     slot_name = slot_name.replace("{number}", "")

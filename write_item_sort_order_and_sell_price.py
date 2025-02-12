@@ -1,6 +1,12 @@
+import tkinter as tk
+from tkinter import filedialog
 import json
 import csv
 import pandas as pd
+
+root = tk.Tk()
+root.withdraw()
+
 
 from definitions import item_list, sort_order, filler_item_ids, buy_prices
 
@@ -175,24 +181,37 @@ def write_item_sell_price():
                 battle_table_bytes[offset + 1] = replacement_byte_array[1]
     output_battle_table(battle_table_bytes)
 
-def write_item_buy_price():
+def write_item_buy_price(new_prices):
     kh1_data_path = "./Working/"
     battle_table_bytes = get_battle_table(kh1_data_path)
     battle_table_item_definitions = get_battle_table_item_definitions()
     for battle_table_item_definition in battle_table_item_definitions:
         if battle_table_item_definition["Notes"] == "Buy Price":
-            if int(battle_table_item_definition["Item Index"]) in buy_prices.keys():
+            if int(battle_table_item_definition["Item Index"]) in new_prices.keys():
                 offset = int(battle_table_item_definition["Offset"], 16)
-                replacement = buy_prices[int(battle_table_item_definition["Item Index"])]
+                replacement = new_prices[int(battle_table_item_definition["Item Index"])]
                 replacement_byte_array = replacement.to_bytes(2, byteorder = "little")
                 battle_table_bytes[offset] = replacement_byte_array[0]
                 battle_table_bytes[offset + 1] = replacement_byte_array[1]
     output_battle_table(battle_table_bytes)
 
-def write_item_sort_order_and_sell_price():
+def get_settings_data(settings_file = None):
+    while not settings_file:
+        settings_file = filedialog.askopenfilename(filetypes =[('JSON', '*.json')], title = "KH1 Randomizer Settings JSON")
+        if not settings_file:
+            print("Error, please select a valid KH1 settings file")
+    with open(settings_file, mode='r') as file:
+        settings_data = json.load(file)
+    return settings_data
+
+def write_item_sort_order_and_sell_price(settings_file = None):
+    settings_data = get_settings_data(settings_file)
+    new_prices = {}
+    new_prices[254] = settings_data["mythril_price"]
+    new_prices[255] = settings_data["orichalcum_price"]
     write_item_sort_order()
     write_item_sell_price()
-    write_item_buy_price()
+    write_item_buy_price(new_prices)
 
 if __name__ == "__main__":
     write_item_sort_order_and_sell_price()

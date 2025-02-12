@@ -80,7 +80,7 @@ def write_mod(ap_zip_file_name = None, kh1_data_path = None):
     write_keyblade_stats(seed_json_file = keyblade_stats_file)
     
     print("Writing item sort order and sell price...")
-    write_item_sort_order_and_sell_price()
+    write_item_sort_order_and_sell_price(settings_file = settings_file)
     
     print("Writing synthesis items...")
     write_synthesis_items(seed_json_file = item_location_map_file)
