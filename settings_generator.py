@@ -1,12 +1,25 @@
 from gooey import Gooey,GooeyParser
 import os
+import json
+
+def read_presets():
+    with open("./settings_generator_presets.json", 'r') as file:
+        data = json.load(file)
+        return data
+
+def write_presets(args):
+    data = json.dumps(vars(args), indent=4)
+    with open("./settings_generator_presets.json", "w") as file:
+        file.write(data)
 
 @Gooey(program_name='KH1 Randomizer Settings Generator',
         image_dir='./Images/',
         tabbed_groups=True,
         default_size=(720, 480),
         header_bg_color="#efcf78")
+
 def main():
+    presets = read_presets()
     parser = GooeyParser()
     goal_group = parser.add_argument_group("Goal",
         "Customize how the player can win the game.")
@@ -22,8 +35,8 @@ def main():
         "Customize other misc settings.")
     
     misc_group.add_argument('--slot_name',
-        action="store",
-        default="Player{number}",
+        action = "store",
+        default = presets["slot_name"],
         metavar = "Slot Name",
         help = "Defines what the slot name should be for hosting the game on Archipelago.  You can ignore this if you plan to play offline.")
     goal_group.add_argument('--final_rest_door_key',
@@ -33,13 +46,13 @@ def main():
             "Final Rest",
             "Sephiroth",
             "Unknown"],
-        default = "Lucky Emblems",
+        default = presets["final_rest_door_key"],
         metavar = "Final Rest Door Key",
         help = "Determines where the key is which manifests the door in Final Rest.")
     goal_group.add_argument('--end_of_the_world_unlock',
         choices = ["Item",
             "Lucky Emblems"],
-        default = "Lucky Emblems",
+        default = presets["end_of_the_world_unlock"],
         metavar = "End of the World Unlock",
         help = "Determines how End of the World unlocks.")
     goal_group.add_argument('--required_lucky_emblems_for_end_of_the_world',
@@ -47,7 +60,7 @@ def main():
         gooey_options={'min': 1,
             'max': 13,
             'increment': 1},
-        default = 7,
+        default = int(presets["required_lucky_emblems_for_end_of_the_world"]),
         metavar = "Required Lucky Emblems for End of the World",
         help = "If End of the World Unlock is set to Lucky Emblems, determines how many Lucky Emblems are required.")
     goal_group.add_argument('--required_lucky_emblems_for_final_rest_door',
@@ -55,7 +68,7 @@ def main():
         gooey_options={'min': 1,
             'max': 13,
             'increment': 1},
-        default = 10,
+        default = int(presets["required_lucky_emblems_for_final_rest_door"]),
         metavar = "Required Lucky Emblems for the Final Rest Door",
         help = "If Final Rest Door Key is set to Lucky Emblems, detmermines how many Lucky Emblems are required.")
     goal_group.add_argument('-lucky_emblems_in_item_pool',
@@ -63,7 +76,7 @@ def main():
         gooey_options={'min': 1,
             'max': 13,
             'increment': 1},
-        default = 13,
+        default = int(presets["lucky_emblems_in_item_pool"]),
         metavar = "Lucky Emblems in the item pool",
         help = "If either the Final Rest Door Key or End of the World Unlock are set to Lucky Emblems, determines how many Lucky Emblems are in the pool.")
     goal_group.add_argument('--required_postcards',
@@ -71,7 +84,7 @@ def main():
         gooey_options={'min': 1,
             'max': 10,
             'increment': 1},
-        default = 8,
+        default = int(presets["required_postcards"]),
         metavar = "Required Postcards",
         help = "If Final Rest Door Key is set to Postcards, determines how many Postcards are required.")
     goal_group.add_argument('--required_puppies',
@@ -85,57 +98,57 @@ def main():
             "80",
             "90",
             "99"],
-        default = "80",
+        default = presets["required_puppies"],
         metavar = "Required Puppies",
         help = "If Final Rest Door Key is set to Puppies, determines how many Puppies are required.")
     goal_group.add_argument('--destiny_islands',
         choices = ["Yes",
             "No"],
-        default = "No",
+        default = presets["destiny_islands"],
         metavar = "Destiny Islands",
         help = "If on, Traverse Town will have an additional place to land - Seashore in Destiny Islands.  Destiny Islands items will be shuffled into the item pool.  Turning in all Destiny Islands items to Kairi sends the player to the final fights.")
     locations_group.add_argument('--super_bosses',
         choices = ["Yes",
             "No"],
-        default = "No",
+        default = presets["super_bosses"],
         metavar = "Super Bosses",
         help = "Determines if important items can be behind Super Bosses.")
     locations_group.add_argument('--atlantica',
         choices = ["Yes",
             "No"],
-        default = "No",
+        default = presets["atlantica"],
         metavar = "Atlantica",
         help = "Determines if important items can be in Atlantica.")
     locations_group.add_argument('--cups',
         choices = ["Off",
             "No Hades Cup",
             "All Cups"],
-        default = "Off",
+        default = presets["cups"],
         metavar = "Cups",
         help = "Determines which, if any, Olympus Coliseum cups hold important items.")
     locations_group.add_argument('--hundred_acre_wood',
         choices = ["Yes",
             "No"],
-        default = "No",
+        default = presets["hundred_acre_wood"],
         metavar = "100 Acre Wood",
         help = "Determines if important items can be found in the 100 Acre Wood.")
     locations_group.add_argument('--jungle_slider',
         choices = ["Yes",
             "No"],
-        default = "No",
+        default = presets["jungle_slider"],
         metavar = "Jungle Slider",
         help = "Determines if important items can be found in the Jungle Slider minigame.")
     locations_group.add_argument('--randomize_emblem_pieces',
         choices = ["Yes",
             "No"],
-        default = "No",
+        default = presets["randomize_emblem_pieces"],
         metavar = "Randomize Emblem Pieces",
         help = "Determines whether the Emblem Piece checks in Hollow Bastion are randomized.")
     locations_group.add_argument('--randomize_postcards',
         choices = ["All",
             "Chests",
             "None"],
-        default = "All",
+        default = presets["randomize_postcards"],
         metavar = "Randomize Postcards",
         help = "Determines if Postcards should be in their vanilla locations, all randomized, or if only the postcard that would appear in chests should be randomized."
         )
@@ -144,7 +157,7 @@ def main():
         gooey_options={'min': 1,
             'max': 8,
             'increment': 1},
-        default = 1,
+        default = int(presets["exp_multiplier"]),
         metavar = "EXP Multiplier",
         help = "Determines the amount of experience party members need to level up.")
     levels_group.add_argument('--level_checks',
@@ -152,7 +165,7 @@ def main():
         gooey_options={'min': 1,
             'max': 99,
             'increment': 1},
-        default = 99,
+        default = int(presets["level_checks"]),
         metavar = "Level Checks",
         help = "Determines the latest level for which rewards can be found.")
     levels_group.add_argument('--slot_2_level_checks',
@@ -160,7 +173,7 @@ def main():
         gooey_options={'min': 1,
             'max': 33,
             'increment': 1},
-        default = 10,
+        default = int(presets["slot_2_level_checks"]),
         metavar = "Slot 2 Level Checks",
         help = "Determines the amount of secondary bonuses are found on levels.")
     levels_group.add_argument('--force_stats_and_abilities_on_levels',
@@ -168,7 +181,7 @@ def main():
         gooey_options={'min': 1,
             'max': 100,
             'increment': 1},
-        default = 1,
+        default = int(presets["force_stats_and_abilities_on_levels"]),
         metavar = "Force Stats and Abilities on Levels Starting at Level",
         help = "Determines at which level can only stat increases or abilities can be found.")
     levels_group.add_argument('--strength_increases',
@@ -176,7 +189,7 @@ def main():
         gooey_options={'min': 0,
             'max': 100,
             'increment': 1},
-        default = 24,
+        default = int(presets["strength_increases"]),
         metavar = "Strength Increases",
         help = "Determines how many strength increases are in the item pool.")
     levels_group.add_argument('--defense_increases',
@@ -184,7 +197,7 @@ def main():
         gooey_options={'min': 0,
             'max': 100,
             'increment': 1},
-        default = 24,
+        default = int(presets["defense_increases"]),
         metavar = "Defense Increases",
         help = "Determines how many defense increases are in the item pool.")
     levels_group.add_argument('--hp_increases',
@@ -192,7 +205,7 @@ def main():
         gooey_options={'min': 0,
             'max': 100,
             'increment': 1},
-        default = 23,
+        default = int(presets["hp_increases"]),
         metavar = "HP Increases",
         help = "Determines how many HP increases are in the item pool.")
     levels_group.add_argument('--ap_increases',
@@ -200,7 +213,7 @@ def main():
         gooey_options={'min': 0,
             'max': 100,
             'increment': 1},
-        default = 18,
+        default = int(presets["ap_increases"]),
         metavar = "AP Increases",
         help = "Determines how many AP increases are in the item pool.")
     levels_group.add_argument('--mp_increases',
@@ -208,7 +221,7 @@ def main():
         gooey_options={'min': 0,
             'max': 20,
             'increment': 1},
-        default = 7,
+        default = int(presets["mp_increases"]),
         metavar = "MP Increases",
         help = "Determines how many MP increases are in the item pool.")
     levels_group.add_argument('--accessory_slot_increases',
@@ -216,7 +229,7 @@ def main():
         gooey_options={'min': 0,
             'max': 6,
             'increment': 1},
-        default = 1,
+        default = int(presets["accessory_slot_increases"]),
         metavar = "Accessory Slot Increases",
         help = "Determines how many accessory slot increases are in the item pool.")
     levels_group.add_argument('--item_slot_increases',
@@ -224,26 +237,26 @@ def main():
         gooey_options={'min': 0,
             'max': 5,
             'increment': 1},
-        default = 3,
+        default = int(presets["item_slot_increases"]),
         metavar = "Item Slot Increases",
         help = "Determines how many item slot increases are in the item pool.")
     keyblades_group.add_argument('--keyblades_unlock_chests',
         choices = ["Yes",
             "No"],
-        default = "No",
+        default = presets["keyblades_unlock_chests"],
         metavar = "Keyblades Unlock Chests",
         help = "Determines if chests in worlds can only be opened if you have that world's corresponding keyblade.")
     keyblades_group.add_argument('--keyblade_stats',
         choices = ["Vanilla",
             "Randomize",
             "Shuffle"],
-        default = "Shuffle",
+        default = presets["keyblade_stats"],
         metavar = "Keyblade Stats",
         help = "Determines if keyblade stats be shuffled, randomized, or remain vanilla.")
     keyblades_group.add_argument('--bad_starting_weapons',
         choices = ["Yes",
             "No"],
-        default = "Yes",
+        default = presets["bad_starting_weapons"],
         metavar = "Bad Starting Weapons",
         help = "Determines if the Kingdom Key and Dream weapons should have vanilla stats.")
     keyblades_group.add_argument('--keyblade_max_strength',
@@ -251,7 +264,7 @@ def main():
         gooey_options={'min': 0,
             'max': 20,
             'increment': 1},
-        default = 14,
+        default = int(presets["keyblade_max_strength"]),
         metavar = "Keyblade Max STR",
         help = "If keyblade stats are randomized, determines the max strength increase a keyblade can yield.")
     keyblades_group.add_argument('--keyblade_min_strength',
@@ -259,7 +272,7 @@ def main():
         gooey_options={'min': 0,
             'max': 20,
             'increment': 1},
-        default = 3,
+        default = int(presets["keyblade_min_strength"]),
         metavar = "Keyblade Min STR",
         help = "If keyblade stats are randomized, determines the min strength increase a keyblade can yield.")
     keyblades_group.add_argument('--keyblade_max_crit_rate',
@@ -267,7 +280,7 @@ def main():
         gooey_options={'min': 0,
             'max': 200,
             'increment': 1},
-        default = 200,
+        default = int(presets["keyblade_max_crit_rate"]),
         metavar = "Keyblade Crit Rate",
         help = "If keyblade stats are randomized, determines the max crit rate a keyblade can yield.")
     keyblades_group.add_argument('--keyblade_min_crit_rate',
@@ -275,7 +288,7 @@ def main():
         gooey_options={'min': 0,
             'max': 200,
             'increment': 1},
-        default = 0,
+        default = int(presets["keyblade_min_crit_rate"]),
         metavar = "Keyblade Min Crit Rate",
         help = "If keyblade stats are randomized, determines the min crit rate a keyblade can yield.")
     keyblades_group.add_argument('--keyblade_max_crit_bonus',
@@ -283,7 +296,7 @@ def main():
         gooey_options={'min': 0,
             'max': 16,
             'increment': 1},
-        default = 16,
+        default = int(presets["keyblade_max_crit_bonus"]),
         metavar = "Keyblade Max Crit Bonus",
         help = "If keyblade stats are randomized, determines the max crit bonus a keyblade can yield.")
     keyblades_group.add_argument('--keyblade_min_crit_bonus',
@@ -291,7 +304,7 @@ def main():
         gooey_options={'min': 0,
             'max': 16,
             'increment': 1},
-        default = 0,
+        default = int(presets["keyblade_min_crit_bonus"]),
         metavar = "Keyblade Min Crit Bonus",
         help = "If keyblade stats are randomized, determines the min crit bonus a keyblade can yield.")
     keyblades_group.add_argument('--keyblade_max_recoil',
@@ -299,7 +312,7 @@ def main():
         gooey_options={'min': 1,
             'max': 90,
             'increment': 1},
-        default = 90,
+        default = int(presets["keyblade_max_recoil"]),
         metavar = "Keyblade Max Recoil",
         help = "If keyblade stats are randomized, determines the max recoil a keyblade can yield.")
     keyblades_group.add_argument('--keyblade_min_recoil',
@@ -307,7 +320,7 @@ def main():
         gooey_options={'min': 1,
             'max': 90,
             'increment': 1},
-        default = 1,
+        default = int(presets["keyblade_min_recoil"]),
         metavar = "Keyblade Min Recoil",
         help = "If keyblade stats are randomized, determines the min recoil a keyblade can yield.")
     keyblades_group.add_argument('--keyblade_max_mp',
@@ -315,7 +328,7 @@ def main():
         gooey_options={'min': -2,
             'max': 5,
             'increment': 1},
-        default = 3,
+        default = int(presets["keyblade_max_mp"]),
         metavar = "Keyblade Max MP",
         help = "If keyblade stats are randomized, determines the max MP bonus a keyblade can yield.")
     keyblades_group.add_argument('--keyblade_min_mp',
@@ -323,7 +336,7 @@ def main():
         gooey_options={'min': -2,
             'max': 5,
             'increment': 1},
-        default = -2,
+        default = int(presets["keyblade_min_mp"]),
         metavar = "Keyblade Min MP",
         help = "If keyblade stats are randomized, determines the min MP bonus a keyblade can yield.")
     misc_group.add_argument('--starting_worlds',
@@ -331,19 +344,19 @@ def main():
         gooey_options={'min': 0,
             'max': 10,
             'increment': 1},
-        default = 0,
+        default = int(presets["starting_worlds"]),
         metavar = "Starting Worlds",
         help = "Determines the amount of worlds the player starts with in addition to Traverse Town.  These are given by the server, and are received after connection.")
     misc_group.add_argument('--starting_tools',
         choices = ["Yes",
             "No"],
-        default = "Yes",
+        default = presets["starting_tools"],
         metavar = "Starting Tools",
         help = "Determines if Sora starts with Scan and Dodge Roll.  These are given by the server, and are received after connection.")
     locations_group.add_argument('--randomize_puppies',
         choices = ["Yes",
             "No"],
-        default = "Yes",
+        default = presets["randomize_puppies"],
         metavar = "Randomize Puppies",
         help = "Determines if puppies are randomized.")
     locations_group.add_argument('--puppy_value',
@@ -351,57 +364,57 @@ def main():
         gooey_options={'min': 1,
             'max': 99,
             'increment': 1},
-        default = 3,
+        default = int(presets["puppy_value"]),
         metavar = "Puppy Value",
         help = "If puppies are randomized, determines how many puppies each \"Puppy\" item is worth.")
     misc_group.add_argument('--interact_in_battle',
         choices = ["Yes",
             "No"],
-        default = "No",
+        default = presets["interact_in_battle"],
         metavar = "Interact in Battle",
         help = "Determines if Sora can interact in battle.")
     misc_group.add_argument('--advanced_logic',
         choices = ["Yes",
             "No"],
-        default = "No",
+        default = presets["advanced_logic"],
         metavar = "Advanced Logic",
         help = "Determines if the player is expected to do advanced tricks to reach certain locations.")
     misc_group.add_argument('--extra_shared_abilities',
         choices = ["Yes",
             "No"],
-        default = "No",
+        default = presets["extra_shared_abilities"],
         metavar = "Extra Shared Abilities",
         help = "Determines if the item pool contains additional shared abilities, which stack.  For example, more High Jumps make you jump higher, more Glides make you glide faster.")
     misc_group.add_argument('--exp_zero_in_pool',
         choices = ["Yes",
             "No"],
-        default = "No",
+        default = presets["exp_zero_in_pool"],
         metavar = "EXP Zero in Pool",
         help = "Determines if EXP Zero should be shuffled into the item pool.")
     misc_group.add_argument('--death_link',
         choices = ["Off",
             "Toggle",
             "On"],
-        default = "Off",
+        default = presets["death_link"],
         metavar = "Death Link",
         help = "If another player is KO'ed, so is Sora.  The opposite is also true.")
     misc_group.add_argument('--donald_death_link',
         choices = ["Yes",
             "No"],
-        default = "No",
+        default = presets["donald_death_link"],
         metavar = "Donald Death Link",
         help = "If Donald is KO'ed, so is Sora.")
     misc_group.add_argument('--goofy_death_link',
         choices = ["Yes",
             "No"],
-        default = "No",
+        default = presets["goofy_death_link"],
         metavar = "Goofy Death Link",
         help = "If Goofy is KO'ed, so is Sora.")
     misc_group.add_argument('--remote_items',
         choices = ["Off",
             "Allow",
             "Full"],
-        default = "Off",
+        default = presets["remote_items"],
         metavar = "Remote Items",
         help = "Determines if items can be placed on locations in your own world in such a way that will force them to be remote items.\n"\
                 + "Off: When your items are placed in your world, they can only be placed in locations that they can be acquired without server connection (stats on levels, items in chests, etc).\n"\
@@ -410,7 +423,7 @@ def main():
     misc_group.add_argument('--shorten_go_mode',
         choices = ["Yes",
             "No"],
-        default = "No",
+        default = presets["shorten_go_mode"],
         metavar = "Shorten Go Mode",
         help = "Determines if the player should be warped to the final cutscene after defeating Ansem 1 > Darkside > Ansem 2.")
     synth_group.add_argument('--mythril_price',
@@ -418,7 +431,7 @@ def main():
         gooey_options={'min': 100,
                 'max': 5000,
                 'increment': 1},
-        default = 5000,
+        default = int(presets["mythril_price"]),
         metavar = "Mythril Price",
         help = "Cost of mythril in shops")
     synth_group.add_argument('--mythril_in_pool',
@@ -426,7 +439,7 @@ def main():
         gooey_options={'min': 16,
                 'max': 30,
                 'increment': 1},
-        default = 20,
+        default = int(presets["mythril_in_pool"]),
         metavar = "Mythril In Pool",
         help = "Number of mythril in the item pool")
     synth_group.add_argument('--orichalcum_price',
@@ -434,7 +447,7 @@ def main():
         gooey_options={'min': 100,
                 'max': 5000,
                 'increment': 1},
-        default = 5000,
+        default = int(presets["orichalcum_price"]),
         metavar = "Orichalcum Price",
         help = "Cost of orichalcum in shops")
     synth_group.add_argument('--orichalcum_in_pool',
@@ -442,11 +455,12 @@ def main():
         gooey_options={'min': 17,
                 'max': 30,
                 'increment': 1},
-        default = 20,
+        default = int(presets["orichalcum_in_pool"]),
         metavar = "Orichalcum In Pool",
         help = "Number of orichalcum in the item pool")
     
     args = parser.parse_args()
+    write_presets(args)
     print(create_yaml(args))
 
 def create_yaml(args):
