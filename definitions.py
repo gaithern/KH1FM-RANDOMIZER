@@ -399,7 +399,14 @@ new_item_descriptions = {
     235: "Allows summoning Tinker Bell.",
     236: "Allows summoning Mushu.",
     237: "Allows summoning Simba.",
-    238: "A macguffin.\nSomething will happen if you acquire enough."
+    238: "A macguffin.\nSomething will happen if you acquire enough.",
+    239: "Raises Max HP by 3.",
+    240: "Raises Max MP by 1.",
+    241: "Raises Max AP by 2.",
+    242: "Raises Strength by 2.",
+    243: "Raises Defense by 2.",
+    244: "Raises Max Item Slots by 1.",
+    245: "Raises Max Accessory Slots by 1."
     }
 
 keyblade_list = [

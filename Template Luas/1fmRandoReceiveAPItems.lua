@@ -312,13 +312,13 @@ function define_items()
   { ID = 2641236, Name = "Mushu",                   Usefulness = item_usefulness.progression },
   { ID = 2641237, Name = "Simba",                   Usefulness = item_usefulness.progression },
   { ID = 2641238, Name = "Lucky Emblem",            Usefulness = item_usefulness.progression },
-  { ID = 2641239, Name = "Power Gem" },
-  { ID = 2641240, Name = "Power Crystal" },
-  { ID = 2641241, Name = "Blaze Shard" },
-  { ID = 2641242, Name = "Blaze Gem" },
-  { ID = 2641243, Name = "Frost Shard" },
-  { ID = 2641244, Name = "Frost Gem" },
-  { ID = 2641245, Name = "Thunder Shard" },
+  { ID = 2641239, Name = "Max HP Increase",         Usefulness = item_usefulness.normal },
+  { ID = 2641240, Name = "Max MP Increase",         Usefulness = item_usefulness.normal },
+  { ID = 2641241, Name = "Max AP Increase",         Usefulness = item_usefulness.normal },
+  { ID = 2641242, Name = "Strength Increase",       Usefulness = item_usefulness.normal },
+  { ID = 2641243, Name = "Defense Increase",        Usefulness = item_usefulness.normal },
+  { ID = 2641244, Name = "Item Slot Increase",      Usefulness = item_usefulness.normal },
+  { ID = 2641245, Name = "Accessory Slot Increase", Usefulness = item_usefulness.normal },
   { ID = 2641246, Name = "Thunder Gem" },
   { ID = 2641247, Name = "Shiny Crystal" },
   { ID = 2641248, Name = "Bright Shard" },
@@ -513,56 +513,10 @@ function write_sora_ability(ability_value)
     end
 end
 
-function read_soras_stats_array()
-    --[[Reads an array of Sora's stats]]
-    soras_stats_address         = {0x2DE9D66, 0x2DE9366}
-    sora_hp_offset              = 0x0
-    sora_mp_offset              = 0x2
-    sora_ap_offset              = 0x3
-    sora_strength_offset        = 0x4
-    sora_defense_offset         = 0x5
-    sora_accessory_slots_offset = 0x16
-    sora_item_slots_offset      = 0x1F
-    return {ReadByte(soras_stats_address[game_version] + sora_hp_offset)
-          , ReadByte(soras_stats_address[game_version] + sora_mp_offset)
-          , ReadByte(soras_stats_address[game_version] + sora_ap_offset)
-          , ReadByte(soras_stats_address[game_version] + sora_strength_offset)
-          , ReadByte(soras_stats_address[game_version] + sora_defense_offset)
-          , ReadByte(soras_stats_address[game_version] + sora_accessory_slots_offset)
-          , ReadByte(soras_stats_address[game_version] + sora_item_slots_offset)}
-end
-
-function write_soras_stats(soras_stats_array)
-    --[[Writes Sora's calculated stats back to memory]]
-    soras_stats_address         = {0x2DE9D66, 0x2DE9366}
-    sora_hp_offset              = 0x00
-    sora_mp_offset              = 0x02
-    sora_ap_offset              = 0x03
-    sora_strength_offset        = 0x04
-    sora_defense_offset         = 0x05
-    sora_accessory_slots_offset = 0x16
-    sora_item_slots_offset      = 0x1F
-    WriteByte(soras_stats_address[game_version] + sora_hp_offset              , soras_stats_array[1])
-    WriteByte(soras_stats_address[game_version] + sora_mp_offset              , soras_stats_array[2])
-    WriteByte(soras_stats_address[game_version] + sora_ap_offset              , soras_stats_array[3])
-    WriteByte(soras_stats_address[game_version] + sora_strength_offset        , soras_stats_array[4])
-    WriteByte(soras_stats_address[game_version] + sora_defense_offset         , soras_stats_array[5])
-    WriteByte(soras_stats_address[game_version] + sora_accessory_slots_offset , soras_stats_array[6])
-    WriteByte(soras_stats_address[game_version] + sora_item_slots_offset      , soras_stats_array[7])
-end
-
 function write_item(item_offset)
     --[[Grants the players a specific item defined by the offset]]
     stock_address = {0x2DEA1F9, 0x2DE97F9}
     WriteByte(stock_address[game_version] + item_offset, math.min(ReadByte(stock_address[game_version] + item_offset) + 1, 99))
-end
-
-function add_to_soras_stats(value)
-    --[[Calculates sora's stats by incrementing the stat based on the stat_increases array]]
-    stat_increases = {3, 1, 2, 2, 2, 1, 1}
-    soras_stats_array = read_soras_stats_array()
-    soras_stats_array[value] = soras_stats_array[value] + stat_increases[value]
-    write_soras_stats(soras_stats_array)
 end
 
 function handle_item_received(received_item_id)
@@ -576,8 +530,6 @@ function handle_item_received(received_item_id)
         write_shared_ability(received_item_id % 2642000)
     elseif received_item_id >= 2643000 and received_item_id < 2644000 then
         write_sora_ability(received_item_id % 2643000)
-    elseif received_item_id >= 2644000 and received_item_id < 2645000 then
-        add_to_soras_stats(received_item_id % 2644000)
     end
 end
 

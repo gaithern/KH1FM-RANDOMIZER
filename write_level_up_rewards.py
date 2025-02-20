@@ -52,8 +52,8 @@ def get_battle_table_replacements(level_up_stats_definitions, level_up_abilities
         replacements[offset] = 0
         if location_id in seed_json_data.keys():
             item_id = seed_json_data[location_id]
-            if item_id >= 2644001 and item_id <= 2644007:
-                replacements[offset] = item_id % 2644000
+            if item_id >= 2641239 and item_id <= 2641245:
+                replacements[offset] = (item_id % 2641239) + 1
         print("New value for level up location: " + level_up_stats_definition["AP Location Name"] + " with offset " + level_up_stats_definition["Offset"] + " is " + str(replacements[offset]))
     for level_up_abilities_definition in level_up_abilities_definitions:
         location_id = level_up_abilities_definition["AP Location ID"]
@@ -62,8 +62,8 @@ def get_battle_table_replacements(level_up_stats_definitions, level_up_abilities
         replacements[offset] = 0
         if location_id in seed_json_data.keys():
             item_id = seed_json_data[location_id]
-            if item_id >= 2644001 and item_id <= 2644007:
-                replacements[offset] = item_id % 2644000
+            if item_id >= 2641239 and item_id <= 2641245:
+                replacements[offset] = (item_id % 2641239) + 1
             elif item_id in sora_ability_item_ids:
                 replacements[offset] = item_id % 2643000 + 0x80
         print("New value for level up location: " + level_up_abilities_definition["AP Location Name"] + " with offset " + level_up_abilities_definition["Offset"] + " is " + str(replacements[offset]))

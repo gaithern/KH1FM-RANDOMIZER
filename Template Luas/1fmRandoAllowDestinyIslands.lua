@@ -28,6 +28,7 @@ local warpType2 = {0x22ECA90, 0x22EC0B0}
 local warpDefinitions = {0x232E900, 0x232DF10}
 
 local frames = 0
+local warped_to_eotw = false
 
 function enable_di_landing()
     if ReadInt(inGummi[game_version]) > 0 then
@@ -62,13 +63,14 @@ function kairi_gift_unmissable()
 end
 
 function warp_to_homecoming()
-    if ReadByte(world[game_version]) == 16 and ReadByte(blackFade[game_version]) == 0 then
+    if ReadByte(world[game_version]) == 16 and ReadByte(blackFade[game_version]) == 0 and warped_to_eotw then
         frames = frames + 1
-        if frames > 120 then
+        if frames > 300 then
             WriteByte(warpType1[game_version], 5)
             WriteByte(warpType2[game_version], 12)
             WriteByte(warpTrigger[game_version], 2)
             frames = 0
+            warped_to_eotw = false
         end
     else
         frames = 0
@@ -81,6 +83,7 @@ function warp_to_homecoming()
         if ReadByte(cutsceneFlags[game_version] + 11) >= 90 then
             WriteByte(cutsceneFlags[game_version] + 11, 0)
         end
+        warped_to_eotw = true
     end
 end
 

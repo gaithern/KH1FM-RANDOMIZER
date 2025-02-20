@@ -1,6 +1,6 @@
 {
-    "archipelago_directory": "",
-    "settings_file": "",
+    "archipelago_directory": "C:\\ProgramData\\Archipelago",
+    "settings_file": "C:\\Users\\gaith\\Documents\\GitHub\\KH1FM-RANDOMIZER\\Settings\\Gicu.yaml",
     "replace_ap_world": "Yes",
     "clean_players_folder": "Yes"
 }
