@@ -45,8 +45,10 @@ function enable_di_landing()
 end
 
 function revert_day2()
+    kairi_lists_supplies_needed = world_flags_address[game_version] + 0x305
     if (ReadByte(world[game_version]) ~= 1 and ReadByte(world[game_version]) ~= 2) and ReadByte(room_flags_address[game_version]+7) ~= 0 then --Not in Destiny Islands and Seashore not on Day 1
         WriteByte(room_flags_address[game_version]+7, 0)
+        WriteByte(kairi_lists_supplies_needed, 2)
     end
 end
 

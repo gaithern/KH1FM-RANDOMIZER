@@ -228,15 +228,15 @@ function read_soras_stats_array()
     sora_ap_offset              = 0x3
     sora_strength_offset        = 0x4
     sora_defense_offset         = 0x5
-    sora_accessory_slots_offset = 0x16
     sora_item_slots_offset      = 0x1F
+    sora_accessory_slots_offset = 0x16
     return {ReadByte(soras_stats_address[game_version] + sora_hp_offset)
           , ReadByte(soras_stats_address[game_version] + sora_mp_offset)
           , ReadByte(soras_stats_address[game_version] + sora_ap_offset)
           , ReadByte(soras_stats_address[game_version] + sora_strength_offset)
           , ReadByte(soras_stats_address[game_version] + sora_defense_offset)
-          , ReadByte(soras_stats_address[game_version] + sora_accessory_slots_offset)
-          , ReadByte(soras_stats_address[game_version] + sora_item_slots_offset)}
+          , ReadByte(soras_stats_address[game_version] + sora_item_slots_offset)
+          , ReadByte(soras_stats_address[game_version] + sora_accessory_slots_offset)}
 end
 
 function add_to_soras_stats(value)
@@ -255,15 +255,15 @@ function write_soras_stats(soras_stats_array)
     sora_ap_offset              = 0x03
     sora_strength_offset        = 0x04
     sora_defense_offset         = 0x05
-    sora_accessory_slots_offset = 0x16
     sora_item_slots_offset      = 0x1F
+    sora_accessory_slots_offset = 0x16
     WriteByte(soras_stats_address[game_version] + sora_hp_offset              , soras_stats_array[1])
     WriteByte(soras_stats_address[game_version] + sora_mp_offset              , soras_stats_array[2])
     WriteByte(soras_stats_address[game_version] + sora_ap_offset              , soras_stats_array[3])
     WriteByte(soras_stats_address[game_version] + sora_strength_offset        , soras_stats_array[4])
     WriteByte(soras_stats_address[game_version] + sora_defense_offset         , soras_stats_array[5])
-    WriteByte(soras_stats_address[game_version] + sora_accessory_slots_offset , soras_stats_array[6])
-    WriteByte(soras_stats_address[game_version] + sora_item_slots_offset      , soras_stats_array[7])
+    WriteByte(soras_stats_address[game_version] + sora_item_slots_offset      , soras_stats_array[6])
+    WriteByte(soras_stats_address[game_version] + sora_accessory_slots_offset , soras_stats_array[7])
 end
 
 function _OnInit()

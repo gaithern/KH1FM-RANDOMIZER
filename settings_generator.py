@@ -178,8 +178,8 @@ def main():
         help = "Determines the amount of secondary bonuses are found on levels.")
     levels_group.add_argument('--force_stats_and_abilities_on_levels',
         widget='Slider',
-        gooey_options={'min': 1,
-            'max': 100,
+        gooey_options={'min': 2,
+            'max': 101,
             'increment': 1},
         default = int(presets["force_stats_and_abilities_on_levels"]),
         metavar = "Force Stats and Abilities on Levels Starting at Level",
