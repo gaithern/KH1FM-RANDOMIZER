@@ -20,7 +20,10 @@ def get_synth_items(seed_json_data):
     synth_items = []
     i = 1
     while i <= 33:
-        synth_items.append(seed_json_data[str(2656400 + i)] % 2641000)
+        synth_item_id = seed_json_data[str(2656400 + i)] % 2641000
+        if synth_item_id > 255: # If not a regular item
+            synth_item_id = 230 # Make it an AP Item
+        synth_items.append(synth_item_id)
         i = i + 1
     return synth_items
 
