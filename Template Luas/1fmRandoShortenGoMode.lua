@@ -1,8 +1,3 @@
--------------------------------------------
------- Kingdom Hearts 1 FM Randomizer -----
-------              by Gicu           -----
--------------------------------------------
-
 LUAGUI_NAME = "1fmRandoShortenGoMode"
 LUAGUI_AUTH = "Gicu"
 LUAGUI_DESC = "Kingdom Hearts 1FM Rando Shorten Go Mode"

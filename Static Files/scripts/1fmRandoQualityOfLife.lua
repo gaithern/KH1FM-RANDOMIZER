@@ -1,9 +1,4 @@
--------------------------------------------
------- Kingdom Hearts 1 FM Randomizer -----
-------              by Gicu           -----
--------------------------------------------
-
-LUAGUI_NAME = "1fmAPQualityOfLife"
+LUAGUI_NAME = "1fmRandoQualityOfLife"
 LUAGUI_AUTH = "Gicu & Sonicshadowsilver2"
 LUAGUI_DESC = "Kingdom Hearts 1FM Randomizer Bugfixes and QOL things"
 

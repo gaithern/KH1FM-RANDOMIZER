@@ -1,8 +1,3 @@
--------------------------------------------
------- Kingdom Hearts 1 FM Randomizer -----
-------              by Gicu           -----
--------------------------------------------
-
 LUAGUI_NAME = "1fmRandoEndoftheWorldUnlock"
 LUAGUI_AUTH = "Gicu"
 LUAGUI_DESC = "Kingdom Hearts 1FM Unlock End of the World with enough lucky emblems"

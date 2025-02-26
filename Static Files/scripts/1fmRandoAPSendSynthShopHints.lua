@@ -1,9 +1,4 @@
--------------------------------------------
------- Kingdom Hearts 1 FM Randomizer -----
-------              by Gicu           -----
--------------------------------------------
-
-LUAGUI_NAME = "1fmRandoSendAPSynthShopHints"
+LUAGUI_NAME = "1fmRandoAPSendSynthShopHints"
 LUAGUI_AUTH = "Gicu"
 LUAGUI_DESC = "Kingdom Hearts 1FM Randomizer Send AP Synth Shop Hints"
 

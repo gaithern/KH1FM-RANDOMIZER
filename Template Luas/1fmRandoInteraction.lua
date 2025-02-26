@@ -1,9 +1,4 @@
--------------------------------------------
------- Kingdom Hearts 1 FM Randomizer -----
-------             by Gicu            -----
--------------------------------------------
-
-LUAGUI_NAME = "1fmAPKeybladeLock"
+LUAGUI_NAME = "1fmRandoInteraction"
 LUAGUI_AUTH = "KSX and Gicu"
 LUAGUI_DESC = "Kingdom Hearts 1FM Randomizer Handle Interacting in Battle and Keyblade Locking"
 

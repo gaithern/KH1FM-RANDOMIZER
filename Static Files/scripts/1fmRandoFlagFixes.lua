@@ -1,4 +1,4 @@
-LUAGUI_NAME = "1fmAPFlagFixes"
+LUAGUI_NAME = "1fmRandoFlagFixes"
 LUAGUI_AUTH = "denhonator with edits from Gicu"
 LUAGUI_DESC = "Kingdom Hearts 1FM AP Flag Fixes"
 

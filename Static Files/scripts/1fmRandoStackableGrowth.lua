@@ -1,8 +1,3 @@
--------------------------------------------
------- Kingdom Hearts 1 FM Randomizer -----
-------             by Gicu            -----
--------------------------------------------
-
 LUAGUI_NAME = "1fmRandoStackableGrowth"
 LUAGUI_AUTH = "Denhonator with edits by Gicu"
 LUAGUI_DESC = "Kingdom Hearts 1FM Randomizer Handle stackable shared abilities"

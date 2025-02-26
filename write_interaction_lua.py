@@ -27,7 +27,7 @@ def update_interaction_keyblade_lock_lua(interaction_lua_str, settings_data):
     return interaction_lua_str
 
 def update_interaction_interact_in_battle_lua(interaction_lua_str, settings_data):
-    if settings_data["chests_locked"]:
+    if settings_data["keyblades_unlock_chests"]:
         interaction_lua_str = interaction_lua_str.replace("chestslocked = false", "chestslocked = true")
     return interaction_lua_str
 
@@ -37,7 +37,7 @@ def output_interaction_lua_file(interaction_lua_str):
 
 def write_interaction_lua(settings_file = None):
     settings_data = get_settings_data(settings_file)
-    if settings_data["interact_in_battle"] or settings_data["chests_locked"]:
+    if settings_data["interact_in_battle"] or settings_data["keyblades_unlock_chests"]:
         interaction_lua_str = get_interaction_template_lua()
         interaction_lua_str = update_interaction_interact_in_battle_lua(interaction_lua_str, settings_data)
         interaction_lua_str = update_interaction_keyblade_lock_lua(interaction_lua_str, settings_data)

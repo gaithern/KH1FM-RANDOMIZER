@@ -1,8 +1,3 @@
--------------------------------------------
------- Kingdom Hearts 1 FM Randomizer -----
-------              by Gicu           -----
--------------------------------------------
-
 LUAGUI_NAME = "1fmRandoHandleItems"
 LUAGUI_AUTH = "Gicu"
 LUAGUI_DESC = "Kingdom Hearts 1FM Handle Special Cases with Key Items"

@@ -1,9 +1,4 @@
--------------------------------------------
------- Kingdom Hearts 1 FM Randomizer -----
-------              by Gicu           -----
--------------------------------------------
-
-LUAGUI_NAME = "1fmAPInstantGummi"
+LUAGUI_NAME = "1fmRandoInstantGummi"
 LUAGUI_AUTH = "denhonator with edits from Gicu"
 LUAGUI_DESC = "Kingdom Hearts 1FM Randomizer Instantly arrive at Gummi Destination"
 

@@ -1,8 +1,3 @@
--------------------------------------------
------- Kingdom Hearts 1 FM Randomizer -----
-------             by Gicu            -----
--------------------------------------------
-
 LUAGUI_NAME = "1fmRandoHandleDeathLink"
 LUAGUI_AUTH = "Denho and Gicu"
 LUAGUI_DESC = "Kingdom Hearts 1FM Randomizer Handle Death Link"

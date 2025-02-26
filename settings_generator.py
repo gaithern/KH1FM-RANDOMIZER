@@ -458,6 +458,72 @@ def main():
         default = int(presets["orichalcum_in_pool"]),
         metavar = "Orichalcum In Pool",
         help = "Number of orichalcum in the item pool")
+    misc_group.add_argument('--one_hp',
+        choices = ["Yes",
+            "No"],
+        default = presets["one_hp"],
+        metavar = "One HP",
+        help = "If on, forces Sora's max HP to 1 and removes the low health warning sound.")
+    misc_group.add_argument('--four_by_three',
+        choices = ["Yes",
+            "No"],
+        default = presets["four_by_three"],
+        metavar = "4by3",
+        help = "If on, changes the aspect ratio to 4 by 3.")
+    misc_group.add_argument('--beep_hack',
+        choices = ["Yes",
+            "No"],
+        default = presets["beep_hack"],
+        metavar = "Beep Hack",
+        help = "If on, removes low health warning sound.  Works up to max health of 41.")
+    misc_group.add_argument('--consistent_finishers',
+        choices = ["Yes",
+            "No"],
+        default = presets["consistent_finishers"],
+        metavar = "Consistent Finishers",
+        help = "If on, 30% chance finishers are now 100% chance.")
+    misc_group.add_argument('--early_skip',
+        choices = ["Yes",
+            "No"],
+        default = presets["early_skip"],
+        metavar = "Early Skip",
+        help = "If on, allows skipping cutscenes without waiting for them.")
+    misc_group.add_argument('--fast_camera',
+        choices = ["Yes",
+            "No"],
+        default = presets["fast_camera"],
+        metavar = "Fast Camera",
+        help = "If on, speeds up camera movement and camera centering.")
+    misc_group.add_argument('--faster_animations',
+        choices = ["Yes",
+            "No"],
+        default = presets["faster_animations"],
+        metavar = "Faster Animations",
+        help = "If on, speeds up animations during which you can't play.")
+    misc_group.add_argument('--unlock_0_volume',
+        choices = ["Yes",
+            "No"],
+        default = presets["unlock_0_volume"],
+        metavar = "Unlock 0 Volume",
+        help = "If on, volume 1 mutes the audio channel.")
+    misc_group.add_argument('--unskippable',
+        choices = ["Yes",
+            "No"],
+        default = presets["unskippable"],
+        metavar = "Unskippable",
+        help = "If on, makes unskippable cutscenes skippable.")
+    misc_group.add_argument('--auto_save',
+        choices = ["Yes",
+            "No"],
+        default = presets["auto_save"],
+        metavar = "Auto Save",
+        help = "If on, enables auto saving.\nPress L1+L2+R1+R2+D-Pad Left to instantly load continue state.\nPress L1+L2+R1+R2+D-Pad Right to instantly load autosave.")
+    misc_group.add_argument('--warp_anywhere',
+        choices = ["Yes",
+            "No"],
+        default = presets["warp_anywhere"],
+        metavar = "Warp Anywhere",
+        help = "If on, enables the player to warp at any time, even when not at a save point.\nPress L1+L2+R2+Select to open the Save/Warp menu at any time.")
     
     args = parser.parse_args()
     write_presets(args)
@@ -523,6 +589,17 @@ def create_yaml(args):
     yaml_str = yaml_str + get_mythril_price_line(args.mythril_price)
     yaml_str = yaml_str + get_orichalcum_in_pool_line(args.orichalcum_in_pool)
     yaml_str = yaml_str + get_orichalcum_price_line(args.orichalcum_price)
+    yaml_str = yaml_str + get_one_hp_line(args.one_hp)
+    yaml_str = yaml_str + get_four_by_three_line(args.four_by_three)
+    yaml_str = yaml_str + get_beep_hack_line(args.beep_hack)
+    yaml_str = yaml_str + get_consistent_finishers_line(args.consistent_finishers)
+    yaml_str = yaml_str + get_early_skip_line(args.early_skip)
+    yaml_str = yaml_str + get_fast_camera_line(args.fast_camera)
+    yaml_str = yaml_str + get_faster_animations_line(args.faster_animations)
+    yaml_str = yaml_str + get_unlock_0_volume_line(args.unlock_0_volume)
+    yaml_str = yaml_str + get_unskippable_line(args.unskippable)
+    yaml_str = yaml_str + get_auto_save_line(args.auto_save)
+    yaml_str = yaml_str + get_warp_anywhere_line(args.warp_anywhere)
     output_yaml(yaml_str, args.slot_name)
 
 def get_slot_name_line(slot_name):
@@ -702,6 +779,39 @@ def get_orichalcum_in_pool_line(orichalcum_in_pool):
 
 def get_orichalcum_price_line(orichalcum_price):
     return "  orichalcum_price: " + str(orichalcum_price) + "\n"
+
+def get_one_hp_line(one_hp):
+    return "  one_hp: " + str(one_hp).replace("Yes", "true").replace("No", "false") + "\n"
+
+def get_four_by_three_line(four_by_three):
+    return "  four_by_three: " + str(four_by_three).replace("Yes", "true").replace("No", "false") + "\n"
+
+def get_beep_hack_line(beep_hack):
+    return "  beep_hack: " + str(beep_hack).replace("Yes", "true").replace("No", "false") + "\n"
+
+def get_consistent_finishers_line(consistent_finishers):
+    return "  consistent_finishers: " + str(consistent_finishers).replace("Yes", "true").replace("No", "false") + "\n"
+
+def get_early_skip_line(early_skip):
+    return "  early_skip: " + str(early_skip).replace("Yes", "true").replace("No", "false") + "\n"
+
+def get_fast_camera_line(fast_camera):
+    return "  fast_camera: " + str(fast_camera).replace("Yes", "true").replace("No", "false") + "\n"
+
+def get_faster_animations_line(faster_animations):
+    return "  faster_animations: " + str(faster_animations).replace("Yes", "true").replace("No", "false") + "\n"
+
+def get_unlock_0_volume_line(unlock_0_volume):
+    return "  unlock_0_volume: " + str(unlock_0_volume).replace("Yes", "true").replace("No", "false") + "\n"
+
+def get_unskippable_line(unskippable):
+    return "  unskippable: " + str(unskippable).replace("Yes", "true").replace("No", "false") + "\n"
+
+def get_auto_save_line(auto_save):
+    return "  auto_save: " + str(auto_save).replace("Yes", "true").replace("No", "false") + "\n"
+
+def get_warp_anywhere_line(warp_anywhere):
+    return "  warp_anywhere: " + str(warp_anywhere).replace("Yes", "true").replace("No", "false") + "\n"
 
 def output_yaml(yaml_str, slot_name):
     slot_name = slot_name.replace("{number}", "")

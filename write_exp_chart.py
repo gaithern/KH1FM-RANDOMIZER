@@ -32,7 +32,7 @@ def output_battle_table(battle_table_bytes):
         file.write(battle_table_bytes)
 
 def apply_exp_multiplier(battle_table_bytes, settings_data, exp_chart_definitions):
-    multiplier = settings_data["xpmult"]
+    multiplier = settings_data["exp_multiplier"]
     for line in exp_chart_definitions:
         new_exp_to_add = max(int(int(line["EXP to Add"])//multiplier), 1)
         new_exp_to_add_bytes = new_exp_to_add.to_bytes(2, byteorder='little')

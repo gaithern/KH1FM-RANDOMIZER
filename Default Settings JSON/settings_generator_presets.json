@@ -55,5 +55,16 @@
     "mythril_price": "5000",
     "mythril_in_pool": "20",
     "orichalcum_price": "5000",
-    "orichalcum_in_pool": "20"
+    "orichalcum_in_pool": "20",
+    "one_hp": "No",
+    "four_by_three": "No",
+    "beep_hack": "No",
+    "consistent_finishers": "No",
+    "early_skip": "No",
+    "fast_camera": "No",
+    "faster_animations": "No",
+    "unlock_0_volume": "No",
+    "unskippable": "No",
+    "auto_save": "Yes",
+    "warp_anywhere": "No"
 }

@@ -1,9 +1,4 @@
--------------------------------------------
------- Kingdom Hearts 1 FM Randomizer -----
-------              by Gicu           -----
--------------------------------------------
-
-LUAGUI_NAME = "1fmAPFixWarps"
+LUAGUI_NAME = "1fmRandoFixWarps"
 LUAGUI_AUTH = "Sonicshadowsilver2 and Gicu"
 LUAGUI_DESC = "Kingdom Hearts 1FM Randomizer Fix World States when Warping Out"
 
