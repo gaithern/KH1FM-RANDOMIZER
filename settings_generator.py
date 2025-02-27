@@ -2,6 +2,14 @@ from gooey import Gooey,GooeyParser
 import os
 import json
 
+# Handle Splash Screen
+try:
+    import pyi_splash
+    pyi_splash.close()
+except:
+    pass
+# End Handle Splash Screen
+
 def read_presets():
     with open("./settings_generator_presets.json", 'r') as file:
         data = json.load(file)

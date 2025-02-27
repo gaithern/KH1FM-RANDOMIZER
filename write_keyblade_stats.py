@@ -1,14 +1,9 @@
-import tkinter as tk
 from tkinter import filedialog
-import os
 import json
 import csv
 
 from definitions import keyblade_list
 from write_item_descriptions import replace_specific_item_description
-
-root = tk.Tk()
-root.withdraw()
 
 def get_seed_keyblade_stats_data(seed_json_file = None):
     while not seed_json_file:

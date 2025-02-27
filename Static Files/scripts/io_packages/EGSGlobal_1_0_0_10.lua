@@ -250,3 +250,6 @@ titlescreenpicture = 0x2EE9968
 
 -- unlock 0 volume
 volumeZero = 0x3D9B94
+
+-- write synthesis item names
+synthItemSelected = 0x2E9A918

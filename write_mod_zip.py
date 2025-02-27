@@ -1,7 +1,16 @@
 import os
 import shutil
-from pprint import pprint
+import json
 from datetime import datetime
+
+def get_settings_data(settings_file = None):
+    while not settings_file:
+        settings_file = filedialog.askopenfilename(filetypes =[('JSON', '*.json')], title = "KH1 Randomizer Settings JSON")
+        if not settings_file:
+            print("Error, please select a valid KH1 settings file")
+    with open(settings_file, mode='r') as file:
+        settings_data = json.load(file)
+    return settings_data
 
 def list_files_recursive(path='.', filenames=[]):
     for entry in os.listdir(path):
@@ -12,10 +21,11 @@ def list_files_recursive(path='.', filenames=[]):
             filenames.append(str(full_path).replace("\\", "/"))
     return filenames
 
-def get_mod_yaml_header():
-    return """title: Test Mod for KH1 Randomizer
+def get_mod_yaml_header(seed):
+    seed_string = hex(int(seed)).upper().replace("0X", "")
+    return """title: KH1 Randomizer Seed """ + seed_string + """
 originalAuthor: Gicu
-description: Test Mod for KH1 Randomizer
+description: Necessary files for KH1FM Archipelago Randomizer.  For more info - kh1fmrando.com
 dependencies:
 assets:
 """
@@ -31,8 +41,8 @@ def write_mod_yaml_file(mod_yaml_str):
 def zip_directory(directory_path, zip_file_path):
     shutil.make_archive(zip_file_path, 'zip', directory_path)
 
-def create_mod_yaml():
-    mod_yaml_str = get_mod_yaml_header()
+def create_mod_yaml(seed):
+    mod_yaml_str = get_mod_yaml_header(seed)
     directory_path = './Working/'
     files = list_files_recursive(directory_path)
     remove_path(files, directory_path)
@@ -45,9 +55,10 @@ def create_mod_yaml():
 """
     write_mod_yaml_file(mod_yaml_str)
 
-def write_mod_zip():
+def write_mod_zip(settings_file = None):
+    settings_data = get_settings_data(settings_file)
     now = datetime.now()
-    create_mod_yaml()
+    create_mod_yaml(settings_data["seed"])
     directory_to_zip = './Working/'
     output_zip_file = './Output/mod_' + now.strftime("%Y%m%d%H%M%S")
     zip_directory(directory_to_zip, output_zip_file)

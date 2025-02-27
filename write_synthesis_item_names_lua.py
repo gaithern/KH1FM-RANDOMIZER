@@ -1,21 +1,6 @@
 from tkinter import filedialog
 import json
 
-lua_map = {
-    "shorten_go_mode": "1fmRandoShortenGoMode.lua",
-    "one_hp": "1fm1HP.lua",
-    "four_by_three": "1fm4By3.lua",
-    "beep_hack": "1fmBeepHack.lua",
-    "consistent_finishers": "1fmConsistentFinishers.lua",
-    "early_skip": "1fmEarlySkip.lua",
-    "fast_camera": "1fmFastCamera.lua",
-    "faster_animations": "1fmFasterAnims.lua",
-    "unlock_0_volume": "1fmUnlock0Volume.lua",
-    "unskippable": "1fmUnskippable.lua",
-    "auto_save": "1fmRandoAutoSave.lua",
-    "warp_anywhere": "1fmRandoWarpAnywhere.lua"}
-
-
 def get_settings_data(settings_file = None):
     while not settings_file:
         settings_file = filedialog.askopenfilename(filetypes =[('JSON', '*.json')], title = "KH1 Randomizer Settings JSON")
@@ -34,12 +19,13 @@ def output_lua_file(lua_str, lua_file_name):
     with open('./Working/scripts/' + lua_file_name, mode = 'w') as file:
         file.write(lua_str)
 
-def write_toggleable_luas(settings_file = None):
+def write_synthesis_item_names_lua(settings_file = None):
     settings_data = get_settings_data(settings_file)
-    for key in lua_map.keys():
-        if settings_data[key]:
-            lua_str = get_lua_str(lua_map[key])
-            output_lua_file(lua_str, lua_map[key])
+    synthesis_item_names_bytes_array = settings_data["synthesis_item_name_byte_arrays"]
+    synth_item_bytes_str = str(synthesis_item_names_bytes_array).replace("[", "{").replace("]", "}")
+    synthesis_item_names_lua_str = get_lua_str("1fmRandoWriteSynthesisItemNames.lua")
+    synthesis_item_names_lua_str = synthesis_item_names_lua_str.replace("synth_item_bytes = {}", "synth_item_bytes = " + str(synth_item_bytes_str))
+    output_lua_file(synthesis_item_names_lua_str, "1fmRandoWriteSynthesisItemNames.lua")
 
 if __name__ == "__main__":
-    write_toggleable_luas()
+    write_synthesis_item_names_lua()

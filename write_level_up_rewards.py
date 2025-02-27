@@ -1,13 +1,8 @@
-import tkinter as tk
 from tkinter import filedialog
 import csv
 import json
-from pprint import pprint
 
 from definitions import sora_ability_item_ids
-
-root = tk.Tk()
-root.withdraw()
 
 def get_level_up_stats_definitions():
     with open('./Documentation/KH1FM Documentation - Battle Table Sora Level Up Stats.csv', mode = 'r') as file:

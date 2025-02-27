@@ -1,9 +1,7 @@
 import os
 import shutil
-import tkinter as tk
 from tkinter import filedialog
 import csv
-import json
 
 def get_kh1_data_path(kh1_data_path = None):
     while not kh1_data_path:

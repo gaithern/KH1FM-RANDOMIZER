@@ -1,11 +1,5 @@
-import tkinter as tk
 from tkinter import filedialog
-import csv
 import json
-from pprint import pprint
-
-root = tk.Tk()
-root.withdraw()
 
 def get_settings_data(settings_file = None):
     while not settings_file:

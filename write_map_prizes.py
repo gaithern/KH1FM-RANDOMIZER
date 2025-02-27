@@ -1,14 +1,9 @@
-import tkinter as tk
 from tkinter import filedialog
 import csv
 import json
-from pprint import pprint
 import os
 
 from definitions import filler_item_ids
-
-root = tk.Tk()
-root.withdraw()
 
 def get_map_prize_definitions():
     with open('./Documentation/KH1FM Documentation - Map Prizes.csv', mode = 'r') as file:

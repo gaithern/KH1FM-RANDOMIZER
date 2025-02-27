@@ -739,6 +739,21 @@ Pot Scorpion,Drop Table (Break 11th Pot),xa_ex_2190.mdls,96F34,00 00 00 00,Float
 Pot Scorpion,Drop Table (Break 11th Pot),xa_ex_2190.mdls,96F38,00 00 00 00,Int,0,Drop 2
 Pot Scorpion,Drop Table (Break 11th Pot),xa_ex_2190.mdls,96F3C,33 33 B3 3E,Float,0.35,Chance Drop 3
 Pot Scorpion,Drop Table (Break 11th Pot),xa_ex_2190.mdls,96F40,9D 00 00 00,Int,157,Drop 3
+Red Pot (Hidden Pot Scorpion),Header,xa_ex_2191.mdls,1AE04,65 78 5F 32 31 39 30 2E 62 64,String,ex_2191.bd,Start of stats header
+Red Pot (Hidden Pot Scorpion),Stat Page,xa_ex_2191.mdls,1AE14,01 00 00 00,Int,1,HP
+Red Pot (Hidden Pot Scorpion),Drop Table,xa_ex_2191.mdls,1AE80,14 00 00 00,Int,20,Small Munny
+Red Pot (Hidden Pot Scorpion),Drop Table,xa_ex_2191.mdls,1AE84,03 00 00 00,Int,3,Medium Munny
+Red Pot (Hidden Pot Scorpion),Drop Table,xa_ex_2191.mdls,1AE88,01 00 00 00,Int,1,Large Munny
+Red Pot (Hidden Pot Scorpion),Drop Table,xa_ex_2191.mdls,1AE8C,00 00 00 00,Int,0,Small HP
+Red Pot (Hidden Pot Scorpion),Drop Table,xa_ex_2191.mdls,1AE90,00 00 00 00,Int,0,Large HP
+Red Pot (Hidden Pot Scorpion),Drop Table,xa_ex_2191.mdls,1AE94,00 00 00 00,Int,0,Small MP
+Red Pot (Hidden Pot Scorpion),Drop Table,xa_ex_2191.mdls,1AE98,00 00 00 00,Int,0,Large MP
+Red Pot (Hidden Pot Scorpion),Drop Table,xa_ex_2191.mdls,1AE9C,00 00 00 00,Float,0,Chance Drop 1
+Red Pot (Hidden Pot Scorpion),Drop Table,xa_ex_2191.mdls,1AEA0,00 00 00 00,Int,0,Drop 1
+Red Pot (Hidden Pot Scorpion),Drop Table,xa_ex_2191.mdls,1AEA4,00 00 00 00,Float,0,Chance Drop 2
+Red Pot (Hidden Pot Scorpion),Drop Table,xa_ex_2191.mdls,1AEA8,00 00 00 00,Int,0,Drop 2
+Red Pot (Hidden Pot Scorpion),Drop Table,xa_ex_2191.mdls,1AEAC,CD CC CC 3D,Float,0.1,Chance Drop 3
+Red Pot (Hidden Pot Scorpion),Drop Table,xa_ex_2191.mdls,1AEB0,9D 00 00 00,Int,157,Drop 3
 Wight Knight,Header,xa_ex_2200.mdls,59C84,65 78 5F 32 32 30 30 2E 62 64,String,ex_2200.bd,Start of stats header
 Wight Knight,Stat Page Pre Riku Ansem,xa_ex_2200.mdls,59C94,3C 00 00 00,Int,60,HP
 Wight Knight,Stat Page Pre Riku Ansem,xa_ex_2200.mdls,59CB0,10 00 00 00,Int,16,EXP

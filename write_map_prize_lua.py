@@ -1,12 +1,6 @@
-import tkinter as tk
-from tkinter import filedialog
-import csv
 import json
 
 from definitions import filler_item_ids
-
-root = tk.Tk()
-root.withdraw()
 
 def get_seed_json_data(seed_json_file = None):
     while not seed_json_file:

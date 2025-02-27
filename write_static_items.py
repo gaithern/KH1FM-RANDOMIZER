@@ -1,12 +1,7 @@
-import tkinter as tk
 from tkinter import filedialog
 import csv
 import json
-from pprint import pprint
 import os
-
-root = tk.Tk()
-root.withdraw()
 
 def get_evdl_locations():
     with open('./Documentation/KH1FM Documentation - Static Items.csv', mode = 'r') as file:

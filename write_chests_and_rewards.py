@@ -1,11 +1,6 @@
-import tkinter as tk
 from tkinter import filedialog
 import csv
 import json
-from pprint import pprint
-
-root = tk.Tk()
-root.withdraw()
 
 def get_chest_definitions():
     with open('./Documentation/KH1FM Documentation - Chest Items.csv', mode = 'r') as file:

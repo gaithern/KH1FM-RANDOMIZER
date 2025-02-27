@@ -5,6 +5,14 @@ import subprocess
 import re
 import json
 
+# Handle Splash Screen
+try:
+    import pyi_splash
+    pyi_splash.close()
+except:
+    pass
+# End Handle Splash Screen
+
 def read_presets():
     with open("./seed_generator_presets.json", 'r') as file:
         data = json.load(file)

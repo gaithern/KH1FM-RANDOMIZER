@@ -4,6 +4,14 @@ import os
 import json
 import zipfile
 
+# Handle Splash Screen
+try:
+    import pyi_splash
+    pyi_splash.close()
+except:
+    pass
+# End Handle Splash Screen
+
 def get_nested_zip(zip_file_path):
     """
     Checks if a zip file contains another zip file.

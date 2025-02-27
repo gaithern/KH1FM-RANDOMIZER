@@ -1,12 +1,7 @@
-import tkinter as tk
 from tkinter import filedialog
 import json
 import csv
-import pandas as pd
-
-root = tk.Tk()
-root.withdraw()
-
+#import pandas as pd
 
 from definitions import item_list, sort_order, filler_item_ids, buy_prices
 
@@ -29,116 +24,116 @@ def convert_byte_array_to_string(byte_array):
         output_string = output_string + to_hex_no_0x(byte) + " "
     return output_string[:-1]
 
-def write_item_csv():
-    kh1_data_path = "./Working/"
-    battle_table_bytes = get_battle_table(kh1_data_path)
-    per_item_bytes = 20
-    items = 255
-    start_index = 0x1A58
-    end_index = start_index + (per_item_bytes * items)
-    item_bytes = battle_table_bytes[start_index:end_index]
-    i = 0
-    j = 0
-    btl_tbl_item_values = []
-    while i < len(item_bytes):
-        btl_tbl_item_values.append({
-            "Item Index": j + 1,
-            "Item Name": item_list[j],
-            "File": "btltbl.bin",
-            "Offset": to_hex_no_0x(start_index + i),
-            "Value (HEX)": convert_byte_array_to_string(item_bytes[i:i+2]),
-            "Value": bytes_to_int(item_bytes[i:i+2]),
-            "Notes": "Item Name"
-            })
-        btl_tbl_item_values.append({
-            "Item Index": j + 1,
-            "Item Name": item_list[j],
-            "File": "btltbl.bin",
-            "Offset": to_hex_no_0x(start_index + i+2),
-            "Value (HEX)": convert_byte_array_to_string([item_bytes[i+2]]),
-            "Value": bytes_to_int([item_bytes[i+2]]),
-            "Notes": "Item Icon"
-            })
-        btl_tbl_item_values.append({
-            "Item Index": j + 1,
-            "Item Name": item_list[j],
-            "File": "btltbl.bin",
-            "Offset": to_hex_no_0x(start_index + i+3),
-            "Value (HEX)": convert_byte_array_to_string([item_bytes[i+3]]),
-            "Value": bytes_to_int([item_bytes[i+3]]),
-            "Notes": "???"
-            })
-        btl_tbl_item_values.append({
-            "Item Index": j + 1,
-            "Item Name": item_list[j],
-            "File": "btltbl.bin",
-            "Offset": to_hex_no_0x(start_index + i+4),
-            "Value (HEX)": convert_byte_array_to_string(item_bytes[i+4:i+6]),
-            "Value": bytes_to_int(item_bytes[i+4:i+6]),
-            "Notes": "???"
-            })
-        btl_tbl_item_values.append({
-            "Item Index": j + 1,
-            "Item Name": item_list[j],
-            "File": "btltbl.bin",
-            "Offset": to_hex_no_0x(start_index + i+6),
-            "Value (HEX)": convert_byte_array_to_string(item_bytes[i+6:i+8]),
-            "Value": bytes_to_int(item_bytes[i+6:i+8]),
-            "Notes": "???"
-            })
-        btl_tbl_item_values.append({
-            "Item Index": j + 1,
-            "Item Name": item_list[j],
-            "File": "btltbl.bin",
-            "Offset": to_hex_no_0x(start_index + i+8),
-            "Value (HEX)": convert_byte_array_to_string(item_bytes[i+8:i+10]),
-            "Value": bytes_to_int(item_bytes[i+8:i+10]),
-            "Notes": "Buy Price"
-            })
-        btl_tbl_item_values.append({
-            "Item Index": j + 1,
-            "Item Name": item_list[j],
-            "File": "btltbl.bin",
-            "Offset": to_hex_no_0x(start_index + i+10),
-            "Value (HEX)": convert_byte_array_to_string(item_bytes[i+10:i+12]),
-            "Value": bytes_to_int(item_bytes[i+10:i+12]),
-            "Notes": "Sell Price"
-            })
-        btl_tbl_item_values.append({
-            "Item Index": j + 1,
-            "Item Name": item_list[j],
-            "File": "btltbl.bin",
-            "Offset": to_hex_no_0x(start_index + i+12),
-            "Value (HEX)": convert_byte_array_to_string(item_bytes[i+12:i+14]),
-            "Value": bytes_to_int(item_bytes[i+12:i+14]),
-            "Notes": "???"
-            })
-        btl_tbl_item_values.append({
-            "Item Index": j + 1,
-            "Item Name": item_list[j],
-            "File": "btltbl.bin",
-            "Offset": to_hex_no_0x(start_index + i+14),
-            "Value (HEX)": convert_byte_array_to_string(item_bytes[i+14:i+16]),
-            "Value": bytes_to_int(item_bytes[i+14:i+16]),
-            "Notes": "???"
-            })
-        btl_tbl_item_values.append({
-            "Item Index": j + 1,
-            "Item Name": item_list[j],
-            "File": "btltbl.bin",
-            "Offset": to_hex_no_0x(start_index + i+16),
-            "Value (HEX)": convert_byte_array_to_string(item_bytes[i+16:i+20]),
-            "Value": bytes_to_int(item_bytes[i+16:i+20]),
-            "Notes": "Sort Order"
-            })
-        i = i + 20
-        j = j + 1
-
-        for item in btl_tbl_item_values:
-            print(item)
-
-        df = pd.DataFrame(btl_tbl_item_values)
-        df.to_csv("Battle Table Items.csv", index=False, quoting=csv.QUOTE_ALL)
+#def write_item_csv():
+#    kh1_data_path = "./Working/"
+#    battle_table_bytes = get_battle_table(kh1_data_path)
+#    per_item_bytes = 20
+#    items = 255
+#    start_index = 0x1A58
+#    end_index = start_index + (per_item_bytes * items)
+#    item_bytes = battle_table_bytes[start_index:end_index]
+#    i = 0
+#    j = 0
+#    btl_tbl_item_values = []
+#    while i < len(item_bytes):
+#        btl_tbl_item_values.append({
+#            "Item Index": j + 1,
+#            "Item Name": item_list[j],
+#            "File": "btltbl.bin",
+#            "Offset": to_hex_no_0x(start_index + i),
+#            "Value (HEX)": convert_byte_array_to_string(item_bytes[i:i+2]),
+#            "Value": bytes_to_int(item_bytes[i:i+2]),
+#            "Notes": "Item Name"
+#            })
+#        btl_tbl_item_values.append({
+#            "Item Index": j + 1,
+#            "Item Name": item_list[j],
+#            "File": "btltbl.bin",
+#            "Offset": to_hex_no_0x(start_index + i+2),
+#            "Value (HEX)": convert_byte_array_to_string([item_bytes[i+2]]),
+#            "Value": bytes_to_int([item_bytes[i+2]]),
+#            "Notes": "Item Icon"
+#            })
+#        btl_tbl_item_values.append({
+#            "Item Index": j + 1,
+#            "Item Name": item_list[j],
+#            "File": "btltbl.bin",
+#            "Offset": to_hex_no_0x(start_index + i+3),
+#            "Value (HEX)": convert_byte_array_to_string([item_bytes[i+3]]),
+#            "Value": bytes_to_int([item_bytes[i+3]]),
+#            "Notes": "???"
+#            })
+#        btl_tbl_item_values.append({
+#            "Item Index": j + 1,
+#            "Item Name": item_list[j],
+#            "File": "btltbl.bin",
+#            "Offset": to_hex_no_0x(start_index + i+4),
+#            "Value (HEX)": convert_byte_array_to_string(item_bytes[i+4:i+6]),
+#            "Value": bytes_to_int(item_bytes[i+4:i+6]),
+#            "Notes": "???"
+#            })
+#        btl_tbl_item_values.append({
+#            "Item Index": j + 1,
+#            "Item Name": item_list[j],
+#            "File": "btltbl.bin",
+#            "Offset": to_hex_no_0x(start_index + i+6),
+#            "Value (HEX)": convert_byte_array_to_string(item_bytes[i+6:i+8]),
+#            "Value": bytes_to_int(item_bytes[i+6:i+8]),
+#            "Notes": "???"
+#            })
+#        btl_tbl_item_values.append({
+#            "Item Index": j + 1,
+#            "Item Name": item_list[j],
+#            "File": "btltbl.bin",
+#            "Offset": to_hex_no_0x(start_index + i+8),
+#            "Value (HEX)": convert_byte_array_to_string(item_bytes[i+8:i+10]),
+#            "Value": bytes_to_int(item_bytes[i+8:i+10]),
+#            "Notes": "Buy Price"
+#            })
+#        btl_tbl_item_values.append({
+#            "Item Index": j + 1,
+#            "Item Name": item_list[j],
+#            "File": "btltbl.bin",
+#            "Offset": to_hex_no_0x(start_index + i+10),
+#            "Value (HEX)": convert_byte_array_to_string(item_bytes[i+10:i+12]),
+#            "Value": bytes_to_int(item_bytes[i+10:i+12]),
+#            "Notes": "Sell Price"
+#            })
+#        btl_tbl_item_values.append({
+#            "Item Index": j + 1,
+#            "Item Name": item_list[j],
+#            "File": "btltbl.bin",
+#            "Offset": to_hex_no_0x(start_index + i+12),
+#            "Value (HEX)": convert_byte_array_to_string(item_bytes[i+12:i+14]),
+#            "Value": bytes_to_int(item_bytes[i+12:i+14]),
+#            "Notes": "???"
+#            })
+#        btl_tbl_item_values.append({
+#            "Item Index": j + 1,
+#            "Item Name": item_list[j],
+#            "File": "btltbl.bin",
+#            "Offset": to_hex_no_0x(start_index + i+14),
+#            "Value (HEX)": convert_byte_array_to_string(item_bytes[i+14:i+16]),
+#            "Value": bytes_to_int(item_bytes[i+14:i+16]),
+#            "Notes": "???"
+#            })
+#        btl_tbl_item_values.append({
+#            "Item Index": j + 1,
+#            "Item Name": item_list[j],
+#            "File": "btltbl.bin",
+#            "Offset": to_hex_no_0x(start_index + i+16),
+#            "Value (HEX)": convert_byte_array_to_string(item_bytes[i+16:i+20]),
+#            "Value": bytes_to_int(item_bytes[i+16:i+20]),
+#            "Notes": "Sort Order"
+#            })
+#        i = i + 20
+#        j = j + 1
+#
+#       for item in btl_tbl_item_values:
+#           print(item)
+#
+#       df = pd.DataFrame(btl_tbl_item_values)
+#       df.to_csv("Battle Table Items.csv", index=False, quoting=csv.QUOTE_ALL)
 
 def get_battle_table_item_definitions():
     with open('./Documentation/KH1FM Documentation - Battle Table Items.csv', mode = 'r') as file:

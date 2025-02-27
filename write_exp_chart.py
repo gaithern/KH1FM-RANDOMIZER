@@ -1,10 +1,6 @@
-import tkinter as tk
 from tkinter import filedialog
 import csv
 import json
-
-root = tk.Tk()
-root.withdraw()
 
 def get_exp_chart_definitions():
     with open('./Documentation/KH1FM Documentation - EXP Chart.csv', mode = 'r') as file:

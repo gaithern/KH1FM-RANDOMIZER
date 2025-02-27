@@ -1,11 +1,6 @@
-import tkinter as tk
-from tkinter import filedialog
 import os
 
 from definitions import kh1_hex_to_char_map, new_item_descriptions
-
-root = tk.Tk()
-root.withdraw()
 
 def get_item_description_bytes(kh1_data_path):
     with open(kh1_data_path + "/remastered/btltbl.bin/UK_ItemHelp.bin", mode = 'rb') as file:
