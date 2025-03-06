@@ -2,37 +2,54 @@ LUAGUI_NAME = "1fmRandoEotWFlagFixes"
 LUAGUI_AUTH = "Sonicshadowsilver2 with edits from Gicu"
 LUAGUI_DESC = "Kingdom Hearts 1FM Randomizer Fix EotW Flags"
 
-game_version = 1 --1 for EGS 1.0.0.10, 2 for Steam 1.0.0.10
-RoomFlags = {0x2DEBE3E, 0x2DEB43E} --changed for EGS 1.0.0.10
-CutsceneFlags = {0x2DEA760, 0x2DE9D60} --changed for EGS 1.0.0.10
 canExecute = false
 
 function _OnInit()
-    IsEpicGLVersion  = 0x3A2B86
-    IsSteamGLVersion = 0x3A29A6
     if GAME_ID == 0xAF71841E and ENGINE_TYPE == "BACKEND" then
-        if ReadByte(IsEpicGLVersion) == 0xF0 then
-            ConsolePrint("Epic Version Detected")
-            game_version = 1
-        end
-        if ReadByte(IsSteamGLVersion) == 0xF0 then
-            ConsolePrint("Steam Version Detected")
-            game_version = 2
-        end
-        canExecute = true
+        require("VersionCheck")
+    else
+        ConsolePrint("KH1 not detected, not running script")
     end
+end
+
+function toBits(num)
+    -- returns a table of bits, least significant first.
+    local t={} -- will contain the bits
+    while num>0 do
+        rest=math.fmod(num,2)
+        t[#t+1]=rest
+        num=(num-rest)/2
+    end
+    return t
 end
 
 function _OnFrame()
     if canExecute then
-        if ReadByte(CutsceneFlags[game_version]+0x0B0F) == 0x08 and ReadByte(CutsceneFlags[game_version]+0x020D) == 0x00 then
-            WriteByte(CutsceneFlags[game_version]+0x020D, 0x01)
-            WriteByte(RoomFlags[game_version]+0x55, 0x0D)
-            WriteByte(RoomFlags[game_version]+0x58, 0x0D)
-            WriteByte(RoomFlags[game_version]+0x5B, 0x0D)
-            WriteByte(RoomFlags[game_version]+0x5F, 0x0D)
-            WriteInt(RoomFlags[game_version]+0x61, 0x0D0D0D0D)
-            WriteInt(RoomFlags[game_version]+0x65, 0x0D0D0D0D)
+        --Sonicshadowsilver2 block
+        if ReadByte(enableRC+0xC9B) == 0x08 and ReadByte(enableRC+0x399) == 0x00 then
+            WriteByte(enableRC+0x399, 0x01)
+            WriteByte(worldFlagBase-0x1D, 0x0D)
+            WriteByte(worldFlagBase-0x1A, 0x0D)
+            WriteByte(worldFlagBase-0x17, 0x0D)
+            WriteByte(worldFlagBase-0x13, 0x0D)
+            WriteInt(worldFlagBase-0x11, 0x0D0D0D0D)
+            WriteInt(worldFlagBase-0xD, 0x0D0D0D0D)
+        end
+        
+        --End of the World World Terminus Hollow Bastion Chest Unmissable
+        eotw_wt_hb_chest_bit = toBits(ReadByte(chestsOpened+0x190))[1]
+        eotw_hb_portal_changed_to_chernabog_pit_byte = ReadByte(gummiFlagBase-0x8)
+        eotw_hb_portal_changed_to_chernabog_pit = toBits(eotw_hb_portal_changed_to_chernabog_pit_byte)[7]
+        if eotw_wt_hb_chest_bit == nil then
+            eotw_wt_hb_chest_bit = 0
+        end
+        if eotw_hb_portal_changed_to_chernabog_pit == nil then
+            eotw_hb_portal_changed_to_chernabog_pit = 0
+        end
+        if eotw_wt_hb_chest_bit == 0 and eotw_hb_portal_changed_to_chernabog_pit == 1 then
+            if ReadByte(world) ~= 0x10 then
+                WriteByte(gummiFlagBase-0x8, eotw_hb_portal_changed_to_chernabog_pit_byte + 0x40)
+            end
         end
     end
 end

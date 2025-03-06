@@ -866,9 +866,8 @@ Hollow Bastion,Entrance Hall,Fountain,Emblem Piece,1,/remastered/pc05.ard/UK_pc0
 Hollow Bastion,Entrance Hall,Fountain,Emblem Piece,1,/remastered/pc05.ard/UK_pc05_ardd.evdl,N,2,B559,2656519,Hollow Bastion Entrance Hall Emblem Piece (Fountain)
 Hollow Bastion,Entrance Hall,Fountain,Emblem Piece,1,/remastered/pc05.ard/UK_pc05_arde.evdl,N,1,B54D,2656519,Hollow Bastion Entrance Hall Emblem Piece (Fountain)
 Hollow Bastion,Entrance Hall,Fountain,Emblem Piece,1,/remastered/pc05.ard/UK_pc05_arde.evdl,N,2,B559,2656519,Hollow Bastion Entrance Hall Emblem Piece (Fountain)
-Hollow Bastion,Castle Chapel,Defeat Maleficent 1,Ansem's Report 5,1,/remastered/pc12.ard/UK_pc12_ard2.evdl,Y,1,78F5,2657014,Hollow Bastion Defeat Maleficent Ansem's Report 5
-Hollow Bastion,Castle Chapel,Defeat Maleficent 1,Ansem's Report 5,1,/remastered/pc12.ard/UK_pc12_ard2.evdl,Y,2,7901,2657014,Hollow Bastion Defeat Maleficent Ansem's Report 5
-Hollow Bastion,Castle Chapel,Defeat Maleficent 1,Ansem's Report 5,1,/remastered/pc12.ard/UK_pc12_ard2.evdl,Y,3,790D,2657014,Hollow Bastion Defeat Maleficent Ansem's Report 5
+Hollow Bastion,Castle Chapel,Defeat Maleficent 1,Ansem's Report 5,1,/remastered/pc12.ard/UK_pc12_ard2.evdl,Y,1,7901,2657014,Hollow Bastion Defeat Maleficent Ansem's Report 5
+Hollow Bastion,Castle Chapel,Defeat Maleficent 1,Ansem's Report 5,1,/remastered/pc12.ard/UK_pc12_ard2.evdl,Y,2,790D,2657014,Hollow Bastion Defeat Maleficent Ansem's Report 5
 Hollow Bastion,Castle Chapel,Speak to Princesses,Fire,1,/remastered/pc12.ard/UK_pc12d.ev,Y,1,6721,2656106,Hollow Bastion Speak to Princesses Fire Event
 Hollow Bastion,Castle Chapel,Speak to Princesses,Fire,1,/remastered/pc12.ard/UK_pc12d.ev,Y,2,672D,2656106,Hollow Bastion Speak to Princesses Fire Event
 Hollow Bastion,Castle Chapel,Speak to Princesses,Fire,1,/remastered/pc12.ard/UK_pc12d.ev,Y,3,6739,2656106,Hollow Bastion Speak to Princesses Fire Event
@@ -935,21 +934,16 @@ Traverse Town,2nd District,Defeat Opposite Armor,Navi-G Piece 3,1,/remastered/tw
 100 Acre Wood,Bouncing Spot,Inside Log,Mythril,1,/remastered/po08.ard/UK_po08a.ev,Y,1,13E59,2656359,100 Acre Wood Bouncing Spot Break Log
 100 Acre Wood,Bouncing Spot,Inside Log,Mythril,1,/remastered/po08.ard/UK_po08a.ev,Y,2,13E65,2656359,100 Acre Wood Bouncing Spot Break Log
 100 Acre Wood,Bouncing Spot,Inside Log,Mythril,1,/remastered/po08.ard/UK_po08a.ev,Y,3,13E71,2656359,100 Acre Wood Bouncing Spot Break Log
-100 Acre Wood,Bouncing Spot,Return Rare Nut 1,Power Up,1,/remastered/po08.ard/UK_po08a.ev,Y,1,F701,2656345,100 Acre Wood Bouncing Spot Turn in Rare Nut 1
-100 Acre Wood,Bouncing Spot,Return Rare Nut 1,Power Up,1,/remastered/po08.ard/UK_po08a.ev,Y,2,F70D,2656345,100 Acre Wood Bouncing Spot Turn in Rare Nut 1
-100 Acre Wood,Bouncing Spot,Return Rare Nut 1,Power Up,1,/remastered/po08.ard/UK_po08a.ev,Y,3,F719,2656345,100 Acre Wood Bouncing Spot Turn in Rare Nut 1
-100 Acre Wood,Bouncing Spot,Return Rare Nut 2,Defense Up,1,/remastered/po08.ard/UK_po08a.ev,Y,1,F945,2656349,100 Acre Wood Bouncing Spot Turn in Rare Nut 2
-100 Acre Wood,Bouncing Spot,Return Rare Nut 2,Defense Up,1,/remastered/po08.ard/UK_po08a.ev,Y,2,F951,2656349,100 Acre Wood Bouncing Spot Turn in Rare Nut 2
-100 Acre Wood,Bouncing Spot,Return Rare Nut 2,Defense Up,1,/remastered/po08.ard/UK_po08a.ev,Y,3,F95D,2656349,100 Acre Wood Bouncing Spot Turn in Rare Nut 2
-100 Acre Wood,Bouncing Spot,Return Rare Nut 3,Mythril Shard,1,/remastered/po08.ard/UK_po08a.ev,Y,1,FB89,2656347,100 Acre Wood Bouncing Spot Turn in Rare Nut 3
-100 Acre Wood,Bouncing Spot,Return Rare Nut 3,Mythril Shard,1,/remastered/po08.ard/UK_po08a.ev,Y,2,FB95,2656347,100 Acre Wood Bouncing Spot Turn in Rare Nut 3
-100 Acre Wood,Bouncing Spot,Return Rare Nut 3,Mythril Shard,1,/remastered/po08.ard/UK_po08a.ev,Y,3,FBA1,2656347,100 Acre Wood Bouncing Spot Turn in Rare Nut 3
-100 Acre Wood,Bouncing Spot,Return Rare Nut 4,AP Up,1,/remastered/po08.ard/UK_po08a.ev,Y,1,FDCD,2656346,100 Acre Wood Bouncing Spot Turn in Rare Nut 4
-100 Acre Wood,Bouncing Spot,Return Rare Nut 4,AP Up,1,/remastered/po08.ard/UK_po08a.ev,Y,2,FDD9,2656346,100 Acre Wood Bouncing Spot Turn in Rare Nut 4
-100 Acre Wood,Bouncing Spot,Return Rare Nut 4,AP Up,1,/remastered/po08.ard/UK_po08a.ev,Y,3,FDE5,2656346,100 Acre Wood Bouncing Spot Turn in Rare Nut 4
-100 Acre Wood,Bouncing Spot,Return Rare Nut 5,Orichalcum,1,/remastered/po08.ard/UK_po08a.ev,Y,1,10001,2656348,100 Acre Wood Bouncing Spot Turn in Rare Nut 5
-100 Acre Wood,Bouncing Spot,Return Rare Nut 5,Orichalcum,1,/remastered/po08.ard/UK_po08a.ev,Y,2,1000D,2656348,100 Acre Wood Bouncing Spot Turn in Rare Nut 5
-100 Acre Wood,Bouncing Spot,Return Rare Nut 5,Orichalcum,1,/remastered/po08.ard/UK_po08a.ev,Y,3,10019,2656348,100 Acre Wood Bouncing Spot Turn in Rare Nut 5
+100 Acre Wood,Bouncing Spot,Return Rare Nut 1,Power Up,1,/remastered/po08.ard/UK_po08a.ev,Y,1,F70D,2656345,100 Acre Wood Bouncing Spot Turn in Rare Nut 1
+100 Acre Wood,Bouncing Spot,Return Rare Nut 1,Power Up,1,/remastered/po08.ard/UK_po08a.ev,Y,2,F719,2656345,100 Acre Wood Bouncing Spot Turn in Rare Nut 1
+100 Acre Wood,Bouncing Spot,Return Rare Nut 2,Defense Up,1,/remastered/po08.ard/UK_po08a.ev,Y,1,F951,2656349,100 Acre Wood Bouncing Spot Turn in Rare Nut 2
+100 Acre Wood,Bouncing Spot,Return Rare Nut 2,Defense Up,1,/remastered/po08.ard/UK_po08a.ev,Y,2,F95D,2656349,100 Acre Wood Bouncing Spot Turn in Rare Nut 2
+100 Acre Wood,Bouncing Spot,Return Rare Nut 3,Mythril Shard,1,/remastered/po08.ard/UK_po08a.ev,Y,1,FB95,2656347,100 Acre Wood Bouncing Spot Turn in Rare Nut 3
+100 Acre Wood,Bouncing Spot,Return Rare Nut 3,Mythril Shard,1,/remastered/po08.ard/UK_po08a.ev,Y,2,FBA1,2656347,100 Acre Wood Bouncing Spot Turn in Rare Nut 3
+100 Acre Wood,Bouncing Spot,Return Rare Nut 4,AP Up,1,/remastered/po08.ard/UK_po08a.ev,Y,1,FDD9,2656346,100 Acre Wood Bouncing Spot Turn in Rare Nut 4
+100 Acre Wood,Bouncing Spot,Return Rare Nut 4,AP Up,1,/remastered/po08.ard/UK_po08a.ev,Y,2,FDE5,2656346,100 Acre Wood Bouncing Spot Turn in Rare Nut 4
+100 Acre Wood,Bouncing Spot,Return Rare Nut 5,Orichalcum,1,/remastered/po08.ard/UK_po08a.ev,Y,1,1000D,2656348,100 Acre Wood Bouncing Spot Turn in Rare Nut 5
+100 Acre Wood,Bouncing Spot,Return Rare Nut 5,Orichalcum,1,/remastered/po08.ard/UK_po08a.ev,Y,2,10019,2656348,100 Acre Wood Bouncing Spot Turn in Rare Nut 5
 Agrabah,Lamp Chamber,Defeat Jafar,Blizzard,1,/remastered/al17.ard/UK_al17_ard3.evdl,Y,1,3E51,2656052,Agrabah Defeat Jafar Blizzard Event
 Agrabah,Lamp Chamber,Defeat Jafar,Blizzard,1,/remastered/al17.ard/UK_al17_ard3.evdl,Y,2,3E5D,2656052,Agrabah Defeat Jafar Blizzard Event
 Agrabah,Lamp Chamber,Defeat Jafar,Blizzard,1,/remastered/al17.ard/UK_al17_ard3.evdl,Y,3,3E69,2656052,Agrabah Defeat Jafar Blizzard Event
@@ -1001,21 +995,16 @@ Halloween Town,Guillotine Square,Ring Jack's Doorbell 3 Times,Elixir,1,/remaster
 Halloween Town,Guillotine Square,Ring Jack's Doorbell 3 Times,Elixir,1,/remastered/nm01.ard/UK_nm01_arde.evdl,N,2,2949,2656331,Halloween Town Guillotine Square Ring Jack's Doorbell 3 Times
 Halloween Town,Guillotine Square,Ring Jack's Doorbell 3 Times,Elixir,1,/remastered/nm01.ard/UK_nm01_ardf.evdl,N,1,293D,2656331,Halloween Town Guillotine Square Ring Jack's Doorbell 3 Times
 Halloween Town,Guillotine Square,Ring Jack's Doorbell 3 Times,Elixir,1,/remastered/nm01.ard/UK_nm01_ardf.evdl,N,2,2949,2656331,Halloween Town Guillotine Square Ring Jack's Doorbell 3 Times
-Halloween Town,Research Lab,Examine Shelf,Torn Page 4,1,/remastered/nm11.ard/UK_nm11_ard0.evdl,N,1,6A39,2656508,Halloween Town Lab Torn Page
-Halloween Town,Research Lab,Examine Shelf,Torn Page 4,1,/remastered/nm11.ard/UK_nm11_ard0.evdl,N,2,6A45,2656508,Halloween Town Lab Torn Page
-Halloween Town,Research Lab,Examine Shelf,Torn Page 4,1,/remastered/nm11.ard/UK_nm11_ard0.evdl,N,3,6A51,2656508,Halloween Town Lab Torn Page
-Halloween Town,Research Lab,Examine Shelf,Torn Page 4,1,/remastered/nm11.ard/UK_nm11_ard2.evdl,N,1,C375,2656508,Halloween Town Lab Torn Page
-Halloween Town,Research Lab,Examine Shelf,Torn Page 4,1,/remastered/nm11.ard/UK_nm11_ard2.evdl,N,2,C381,2656508,Halloween Town Lab Torn Page
-Halloween Town,Research Lab,Examine Shelf,Torn Page 4,1,/remastered/nm11.ard/UK_nm11_ard2.evdl,N,3,C38D,2656508,Halloween Town Lab Torn Page
-Halloween Town,Research Lab,Examine Shelf,Torn Page 4,1,/remastered/nm11.ard/UK_nm11_ard3.evdl,N,1,63DD,2656508,Halloween Town Lab Torn Page
-Halloween Town,Research Lab,Examine Shelf,Torn Page 4,1,/remastered/nm11.ard/UK_nm11_ard3.evdl,N,2,63E9,2656508,Halloween Town Lab Torn Page
-Halloween Town,Research Lab,Examine Shelf,Torn Page 4,1,/remastered/nm11.ard/UK_nm11_ard3.evdl,N,3,63F5,2656508,Halloween Town Lab Torn Page
-Halloween Town,Research Lab,Examine Shelf,Torn Page 4,1,/remastered/nm11.ard/UK_nm11_ard19.evdl,N,1,14AD,2656508,Halloween Town Lab Torn Page
-Halloween Town,Research Lab,Examine Shelf,Torn Page 4,1,/remastered/nm11.ard/UK_nm11_ard19.evdl,N,2,14B9,2656508,Halloween Town Lab Torn Page
-Halloween Town,Research Lab,Examine Shelf,Torn Page 4,1,/remastered/nm11.ard/UK_nm11_ard19.evdl,N,3,14C5,2656508,Halloween Town Lab Torn Page
-Halloween Town,Research Lab,Examine Shelf,Torn Page 4,1,/remastered/nm11.ard/UK_nm11_ardc.evdl,N,1,23A9,2656508,Halloween Town Lab Torn Page
-Halloween Town,Research Lab,Examine Shelf,Torn Page 4,1,/remastered/nm11.ard/UK_nm11_ardc.evdl,N,2,23B5,2656508,Halloween Town Lab Torn Page
-Halloween Town,Research Lab,Examine Shelf,Torn Page 4,1,/remastered/nm11.ard/UK_nm11_ardc.evdl,N,3,23C1,2656508,Halloween Town Lab Torn Page
+Halloween Town,Research Lab,Examine Shelf,Torn Page 4,1,/remastered/nm11.ard/UK_nm11_ard0.evdl,N,1,6A45,2656508,Halloween Town Lab Torn Page
+Halloween Town,Research Lab,Examine Shelf,Torn Page 4,1,/remastered/nm11.ard/UK_nm11_ard0.evdl,N,2,6A51,2656508,Halloween Town Lab Torn Page
+Halloween Town,Research Lab,Examine Shelf,Torn Page 4,1,/remastered/nm11.ard/UK_nm11_ard2.evdl,N,1,C381,2656508,Halloween Town Lab Torn Page
+Halloween Town,Research Lab,Examine Shelf,Torn Page 4,1,/remastered/nm11.ard/UK_nm11_ard2.evdl,N,2,C38D,2656508,Halloween Town Lab Torn Page
+Halloween Town,Research Lab,Examine Shelf,Torn Page 4,1,/remastered/nm11.ard/UK_nm11_ard3.evdl,N,1,63E9,2656508,Halloween Town Lab Torn Page
+Halloween Town,Research Lab,Examine Shelf,Torn Page 4,1,/remastered/nm11.ard/UK_nm11_ard3.evdl,N,2,63F5,2656508,Halloween Town Lab Torn Page
+Halloween Town,Research Lab,Examine Shelf,Torn Page 4,1,/remastered/nm11.ard/UK_nm11_ard19.evdl,N,1,14B9,2656508,Halloween Town Lab Torn Page
+Halloween Town,Research Lab,Examine Shelf,Torn Page 4,1,/remastered/nm11.ard/UK_nm11_ard19.evdl,N,2,14C5,2656508,Halloween Town Lab Torn Page
+Halloween Town,Research Lab,Examine Shelf,Torn Page 4,1,/remastered/nm11.ard/UK_nm11_ardc.evdl,N,1,23B5,2656508,Halloween Town Lab Torn Page
+Halloween Town,Research Lab,Examine Shelf,Torn Page 4,1,/remastered/nm11.ard/UK_nm11_ardc.evdl,N,2,23C1,2656508,Halloween Town Lab Torn Page
 Halloween Town,Graveyard,Defeat All Heartless,Forget-Me-Not,1,/remastered/nm03.ard/UK_nm03_ard1.evdl,N,1,8BEE,2656382,Halloween Town Graveyard Forget-Me-Not Event
 Halloween Town,Graveyard,Defeat All Heartless,Forget-Me-Not,1,/remastered/nm03.ard/UK_nm03_ard1.evdl,N,2,8BFA,2656382,Halloween Town Graveyard Forget-Me-Not Event
 Halloween Town ,Torture Chamber,Defeat Oogie Boogie 1,Ansem's Report 7,1,/remastered/nm08.ard/UK_nm08_ard1.evdl,Y,1,6021,2657012,Halloween Town Defeat Oogie Boogie Ansem's Report 7
@@ -1038,186 +1027,126 @@ Neverland,Clock Tower,Seal Keyhole,Tinker Bell,1,/remastered/pp10.ard/UK_pp10_ar
 Neverland,Clock Tower,Defeat Phantom,Stop,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,1,2BE5,2656096,Neverland Defeat Phantom Stop Event
 Neverland,Clock Tower,Defeat Phantom,Stop,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,2,2BF1,2656096,Neverland Defeat Phantom Stop Event
 Neverland,Clock Tower,Defeat Phantom,Stop,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,3,2BFD,2656096,Neverland Defeat Phantom Stop Event
-Neverland,Clock Tower,Open 1:00 Door,Orichalcum,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,1,A33D,2656332,Neverland Clock Tower 01:00 Door
-Neverland,Clock Tower,Open 1:00 Door,Orichalcum,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,2,A349,2656332,Neverland Clock Tower 01:00 Door
-Neverland,Clock Tower,Open 1:00 Door,Orichalcum,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,3,A355,2656332,Neverland Clock Tower 01:00 Door
-Neverland,Clock Tower,Open 1:00 Door,Orichalcum,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,1,4991,2656332,Neverland Clock Tower 01:00 Door
-Neverland,Clock Tower,Open 1:00 Door,Orichalcum,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,2,499D,2656332,Neverland Clock Tower 01:00 Door
-Neverland,Clock Tower,Open 1:00 Door,Orichalcum,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,3,49A9,2656332,Neverland Clock Tower 01:00 Door
-Neverland,Clock Tower,Open 1:00 Door,Orichalcum,1,/remastered/pp10.ard/UK_pp10_ard2.evdl,N,1,24B9,2656332,Neverland Clock Tower 01:00 Door
-Neverland,Clock Tower,Open 1:00 Door,Orichalcum,1,/remastered/pp10.ard/UK_pp10_ard2.evdl,N,2,24C5,2656332,Neverland Clock Tower 01:00 Door
-Neverland,Clock Tower,Open 1:00 Door,Orichalcum,1,/remastered/pp10.ard/UK_pp10_ard2.evdl,N,3,24D1,2656332,Neverland Clock Tower 01:00 Door
-Neverland,Clock Tower,Open 1:00 Door,Orichalcum,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,1,1F59,2656332,Neverland Clock Tower 01:00 Door
-Neverland,Clock Tower,Open 1:00 Door,Orichalcum,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,2,1F65,2656332,Neverland Clock Tower 01:00 Door
-Neverland,Clock Tower,Open 1:00 Door,Orichalcum,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,3,1F71,2656332,Neverland Clock Tower 01:00 Door
-Neverland,Clock Tower,Open 1:00 Door,Orichalcum,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,1,3969,2656332,Neverland Clock Tower 01:00 Door
-Neverland,Clock Tower,Open 1:00 Door,Orichalcum,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,2,3975,2656332,Neverland Clock Tower 01:00 Door
-Neverland,Clock Tower,Open 1:00 Door,Orichalcum,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,3,3981,2656332,Neverland Clock Tower 01:00 Door
-Neverland,Clock Tower,Open 2:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,1,A83D,2656333,Neverland Clock Tower 02:00 Door
-Neverland,Clock Tower,Open 2:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,2,A849,2656333,Neverland Clock Tower 02:00 Door
-Neverland,Clock Tower,Open 2:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,3,A855,2656333,Neverland Clock Tower 02:00 Door
-Neverland,Clock Tower,Open 2:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,1,4E91,2656333,Neverland Clock Tower 02:00 Door
-Neverland,Clock Tower,Open 2:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,2,4E9D,2656333,Neverland Clock Tower 02:00 Door
-Neverland,Clock Tower,Open 2:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,3,4EA9,2656333,Neverland Clock Tower 02:00 Door
-Neverland,Clock Tower,Open 2:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ard2.evdl,N,1,29B9,2656333,Neverland Clock Tower 02:00 Door
-Neverland,Clock Tower,Open 2:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ard2.evdl,N,2,29C5,2656333,Neverland Clock Tower 02:00 Door
-Neverland,Clock Tower,Open 2:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ard2.evdl,N,3,29D1,2656333,Neverland Clock Tower 02:00 Door
-Neverland,Clock Tower,Open 2:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,1,2459,2656333,Neverland Clock Tower 02:00 Door
-Neverland,Clock Tower,Open 2:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,2,2465,2656333,Neverland Clock Tower 02:00 Door
-Neverland,Clock Tower,Open 2:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,3,2471,2656333,Neverland Clock Tower 02:00 Door
-Neverland,Clock Tower,Open 2:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,1,3E69,2656333,Neverland Clock Tower 02:00 Door
-Neverland,Clock Tower,Open 2:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,2,3E75,2656333,Neverland Clock Tower 02:00 Door
-Neverland,Clock Tower,Open 2:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,3,3E81,2656333,Neverland Clock Tower 02:00 Door
-Neverland,Clock Tower,Open 3:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,1,AD3D,2656334,Neverland Clock Tower 03:00 Door
-Neverland,Clock Tower,Open 3:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,2,AD49,2656334,Neverland Clock Tower 03:00 Door
-Neverland,Clock Tower,Open 3:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,3,AD55,2656334,Neverland Clock Tower 03:00 Door
-Neverland,Clock Tower,Open 3:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,1,5391,2656334,Neverland Clock Tower 03:00 Door
-Neverland,Clock Tower,Open 3:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,2,539D,2656334,Neverland Clock Tower 03:00 Door
-Neverland,Clock Tower,Open 3:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,3,53A9,2656334,Neverland Clock Tower 03:00 Door
-Neverland,Clock Tower,Open 3:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ard2.evdl,N,1,2EB9,2656334,Neverland Clock Tower 03:00 Door
-Neverland,Clock Tower,Open 3:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ard2.evdl,N,2,2EC5,2656334,Neverland Clock Tower 03:00 Door
-Neverland,Clock Tower,Open 3:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ard2.evdl,N,3,2ED1,2656334,Neverland Clock Tower 03:00 Door
-Neverland,Clock Tower,Open 3:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,1,2959,2656334,Neverland Clock Tower 03:00 Door
-Neverland,Clock Tower,Open 3:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,2,2965,2656334,Neverland Clock Tower 03:00 Door
-Neverland,Clock Tower,Open 3:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,3,2971,2656334,Neverland Clock Tower 03:00 Door
-Neverland,Clock Tower,Open 3:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,1,4369,2656334,Neverland Clock Tower 03:00 Door
-Neverland,Clock Tower,Open 3:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,2,4375,2656334,Neverland Clock Tower 03:00 Door
-Neverland,Clock Tower,Open 3:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,3,4381,2656334,Neverland Clock Tower 03:00 Door
-Neverland,Clock Tower,Open 4:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,1,B239,2656335,Neverland Clock Tower 04:00 Door
-Neverland,Clock Tower,Open 4:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,2,B245,2656335,Neverland Clock Tower 04:00 Door
-Neverland,Clock Tower,Open 4:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,3,B251,2656335,Neverland Clock Tower 04:00 Door
-Neverland,Clock Tower,Open 4:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,1,588D,2656335,Neverland Clock Tower 04:00 Door
-Neverland,Clock Tower,Open 4:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,2,5899,2656335,Neverland Clock Tower 04:00 Door
-Neverland,Clock Tower,Open 4:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,3,58A5,2656335,Neverland Clock Tower 04:00 Door
-Neverland,Clock Tower,Open 4:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ard2.evdl,N,1,33B5,2656335,Neverland Clock Tower 04:00 Door
-Neverland,Clock Tower,Open 4:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ard2.evdl,N,2,33C1,2656335,Neverland Clock Tower 04:00 Door
-Neverland,Clock Tower,Open 4:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ard2.evdl,N,3,33CD,2656335,Neverland Clock Tower 04:00 Door
-Neverland,Clock Tower,Open 4:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,1,2E55,2656335,Neverland Clock Tower 04:00 Door
-Neverland,Clock Tower,Open 4:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,2,2E61,2656335,Neverland Clock Tower 04:00 Door
-Neverland,Clock Tower,Open 4:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,3,2E6D,2656335,Neverland Clock Tower 04:00 Door
-Neverland,Clock Tower,Open 4:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,1,4865,2656335,Neverland Clock Tower 04:00 Door
-Neverland,Clock Tower,Open 4:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,2,4871,2656335,Neverland Clock Tower 04:00 Door
-Neverland,Clock Tower,Open 4:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,3,487D,2656335,Neverland Clock Tower 04:00 Door
-Neverland,Clock Tower,Open 5:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,1,B735,2656336,Neverland Clock Tower 05:00 Door
-Neverland,Clock Tower,Open 5:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,2,B741,2656336,Neverland Clock Tower 05:00 Door
-Neverland,Clock Tower,Open 5:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,3,B74D,2656336,Neverland Clock Tower 05:00 Door
-Neverland,Clock Tower,Open 5:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,1,5D89,2656336,Neverland Clock Tower 05:00 Door
-Neverland,Clock Tower,Open 5:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,2,5D95,2656336,Neverland Clock Tower 05:00 Door
-Neverland,Clock Tower,Open 5:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,3,5DA1,2656336,Neverland Clock Tower 05:00 Door
-Neverland,Clock Tower,Open 5:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ard2.evdl,N,1,38B1,2656336,Neverland Clock Tower 05:00 Door
-Neverland,Clock Tower,Open 5:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ard2.evdl,N,2,38BD,2656336,Neverland Clock Tower 05:00 Door
-Neverland,Clock Tower,Open 5:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ard2.evdl,N,3,38C9,2656336,Neverland Clock Tower 05:00 Door
-Neverland,Clock Tower,Open 5:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,1,3351,2656336,Neverland Clock Tower 05:00 Door
-Neverland,Clock Tower,Open 5:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,2,335D,2656336,Neverland Clock Tower 05:00 Door
-Neverland,Clock Tower,Open 5:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,3,3369,2656336,Neverland Clock Tower 05:00 Door
-Neverland,Clock Tower,Open 5:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,1,4D61,2656336,Neverland Clock Tower 05:00 Door
-Neverland,Clock Tower,Open 5:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,2,4D6D,2656336,Neverland Clock Tower 05:00 Door
-Neverland,Clock Tower,Open 5:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,3,4D79,2656336,Neverland Clock Tower 05:00 Door
-Neverland,Clock Tower,Open 6:00 Door,Mythril,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,1,BC35,2656337,Neverland Clock Tower 06:00 Door
-Neverland,Clock Tower,Open 6:00 Door,Mythril,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,2,BC41,2656337,Neverland Clock Tower 06:00 Door
-Neverland,Clock Tower,Open 6:00 Door,Mythril,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,3,BC4D,2656337,Neverland Clock Tower 06:00 Door
-Neverland,Clock Tower,Open 6:00 Door,Mythril,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,1,6289,2656337,Neverland Clock Tower 06:00 Door
-Neverland,Clock Tower,Open 6:00 Door,Mythril,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,2,6295,2656337,Neverland Clock Tower 06:00 Door
-Neverland,Clock Tower,Open 6:00 Door,Mythril,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,3,62A1,2656337,Neverland Clock Tower 06:00 Door
-Neverland,Clock Tower,Open 6:00 Door,Mythril,1,/remastered/pp10.ard/UK_pp10_ard2.evdl,N,1,3DB1,2656337,Neverland Clock Tower 06:00 Door
-Neverland,Clock Tower,Open 6:00 Door,Mythril,1,/remastered/pp10.ard/UK_pp10_ard2.evdl,N,2,3DBD,2656337,Neverland Clock Tower 06:00 Door
-Neverland,Clock Tower,Open 6:00 Door,Mythril,1,/remastered/pp10.ard/UK_pp10_ard2.evdl,N,3,3DC9,2656337,Neverland Clock Tower 06:00 Door
-Neverland,Clock Tower,Open 6:00 Door,Mythril,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,1,3851,2656337,Neverland Clock Tower 06:00 Door
-Neverland,Clock Tower,Open 6:00 Door,Mythril,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,2,385D,2656337,Neverland Clock Tower 06:00 Door
-Neverland,Clock Tower,Open 6:00 Door,Mythril,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,3,3869,2656337,Neverland Clock Tower 06:00 Door
-Neverland,Clock Tower,Open 6:00 Door,Mythril,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,1,5261,2656337,Neverland Clock Tower 06:00 Door
-Neverland,Clock Tower,Open 6:00 Door,Mythril,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,2,526D,2656337,Neverland Clock Tower 06:00 Door
-Neverland,Clock Tower,Open 6:00 Door,Mythril,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,3,5279,2656337,Neverland Clock Tower 06:00 Door
-Neverland,Clock Tower,Open 7:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,1,C135,2656338,Neverland Clock Tower 07:00 Door
-Neverland,Clock Tower,Open 7:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,2,C141,2656338,Neverland Clock Tower 07:00 Door
-Neverland,Clock Tower,Open 7:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,3,C14D,2656338,Neverland Clock Tower 07:00 Door
-Neverland,Clock Tower,Open 7:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,1,6789,2656338,Neverland Clock Tower 07:00 Door
-Neverland,Clock Tower,Open 7:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,2,6795,2656338,Neverland Clock Tower 07:00 Door
-Neverland,Clock Tower,Open 7:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,3,67A1,2656338,Neverland Clock Tower 07:00 Door
-Neverland,Clock Tower,Open 7:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ard2.evdl,N,1,42B1,2656338,Neverland Clock Tower 07:00 Door
-Neverland,Clock Tower,Open 7:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ard2.evdl,N,2,42BD,2656338,Neverland Clock Tower 07:00 Door
-Neverland,Clock Tower,Open 7:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ard2.evdl,N,3,42C9,2656338,Neverland Clock Tower 07:00 Door
-Neverland,Clock Tower,Open 7:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,1,3D51,2656338,Neverland Clock Tower 07:00 Door
-Neverland,Clock Tower,Open 7:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,2,3D5D,2656338,Neverland Clock Tower 07:00 Door
-Neverland,Clock Tower,Open 7:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,3,3D69,2656338,Neverland Clock Tower 07:00 Door
-Neverland,Clock Tower,Open 7:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,1,5761,2656338,Neverland Clock Tower 07:00 Door
-Neverland,Clock Tower,Open 7:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,2,576D,2656338,Neverland Clock Tower 07:00 Door
-Neverland,Clock Tower,Open 7:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,3,5779,2656338,Neverland Clock Tower 07:00 Door
-Neverland,Clock Tower,Open 8:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,1,C635,2656339,Neverland Clock Tower 08:00 Door
-Neverland,Clock Tower,Open 8:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,2,C641,2656339,Neverland Clock Tower 08:00 Door
-Neverland,Clock Tower,Open 8:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,3,C64D,2656339,Neverland Clock Tower 08:00 Door
-Neverland,Clock Tower,Open 8:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,1,6C89,2656339,Neverland Clock Tower 08:00 Door
-Neverland,Clock Tower,Open 8:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,2,6C95,2656339,Neverland Clock Tower 08:00 Door
-Neverland,Clock Tower,Open 8:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,3,6CA1,2656339,Neverland Clock Tower 08:00 Door
-Neverland,Clock Tower,Open 8:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ard2.evdl,N,1,47B1,2656339,Neverland Clock Tower 08:00 Door
-Neverland,Clock Tower,Open 8:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ard2.evdl,N,2,47BD,2656339,Neverland Clock Tower 08:00 Door
-Neverland,Clock Tower,Open 8:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ard2.evdl,N,3,47C9,2656339,Neverland Clock Tower 08:00 Door
-Neverland,Clock Tower,Open 8:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,1,4251,2656339,Neverland Clock Tower 08:00 Door
-Neverland,Clock Tower,Open 8:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,2,425D,2656339,Neverland Clock Tower 08:00 Door
-Neverland,Clock Tower,Open 8:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,3,4269,2656339,Neverland Clock Tower 08:00 Door
-Neverland,Clock Tower,Open 8:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,1,5C61,2656339,Neverland Clock Tower 08:00 Door
-Neverland,Clock Tower,Open 8:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,2,5C6D,2656339,Neverland Clock Tower 08:00 Door
-Neverland,Clock Tower,Open 8:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,3,5C79,2656339,Neverland Clock Tower 08:00 Door
+Neverland,Clock Tower,Open 1:00 Door,Orichalcum,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,1,A349,2656332,Neverland Clock Tower 01:00 Door
+Neverland,Clock Tower,Open 1:00 Door,Orichalcum,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,2,A355,2656332,Neverland Clock Tower 01:00 Door
+Neverland,Clock Tower,Open 1:00 Door,Orichalcum,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,1,499D,2656332,Neverland Clock Tower 01:00 Door
+Neverland,Clock Tower,Open 1:00 Door,Orichalcum,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,2,49A9,2656332,Neverland Clock Tower 01:00 Door
+Neverland,Clock Tower,Open 1:00 Door,Orichalcum,1,/remastered/pp10.ard/UK_pp10_ard2.evdl,N,1,24C5,2656332,Neverland Clock Tower 01:00 Door
+Neverland,Clock Tower,Open 1:00 Door,Orichalcum,1,/remastered/pp10.ard/UK_pp10_ard2.evdl,N,2,24D1,2656332,Neverland Clock Tower 01:00 Door
+Neverland,Clock Tower,Open 1:00 Door,Orichalcum,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,1,1F65,2656332,Neverland Clock Tower 01:00 Door
+Neverland,Clock Tower,Open 1:00 Door,Orichalcum,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,2,1F71,2656332,Neverland Clock Tower 01:00 Door
+Neverland,Clock Tower,Open 1:00 Door,Orichalcum,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,1,3975,2656332,Neverland Clock Tower 01:00 Door
+Neverland,Clock Tower,Open 1:00 Door,Orichalcum,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,2,3981,2656332,Neverland Clock Tower 01:00 Door
+Neverland,Clock Tower,Open 2:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,1,A849,2656333,Neverland Clock Tower 02:00 Door
+Neverland,Clock Tower,Open 2:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,2,A855,2656333,Neverland Clock Tower 02:00 Door
+Neverland,Clock Tower,Open 2:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,1,4E9D,2656333,Neverland Clock Tower 02:00 Door
+Neverland,Clock Tower,Open 2:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,2,4EA9,2656333,Neverland Clock Tower 02:00 Door
+Neverland,Clock Tower,Open 2:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ard2.evdl,N,1,29C5,2656333,Neverland Clock Tower 02:00 Door
+Neverland,Clock Tower,Open 2:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ard2.evdl,N,2,29D1,2656333,Neverland Clock Tower 02:00 Door
+Neverland,Clock Tower,Open 2:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,1,2465,2656333,Neverland Clock Tower 02:00 Door
+Neverland,Clock Tower,Open 2:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,2,2471,2656333,Neverland Clock Tower 02:00 Door
+Neverland,Clock Tower,Open 2:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,1,3E75,2656333,Neverland Clock Tower 02:00 Door
+Neverland,Clock Tower,Open 2:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,2,3E81,2656333,Neverland Clock Tower 02:00 Door
+Neverland,Clock Tower,Open 3:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,1,AD49,2656334,Neverland Clock Tower 03:00 Door
+Neverland,Clock Tower,Open 3:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,2,AD55,2656334,Neverland Clock Tower 03:00 Door
+Neverland,Clock Tower,Open 3:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,1,539D,2656334,Neverland Clock Tower 03:00 Door
+Neverland,Clock Tower,Open 3:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,2,53A9,2656334,Neverland Clock Tower 03:00 Door
+Neverland,Clock Tower,Open 3:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ard2.evdl,N,1,2EC5,2656334,Neverland Clock Tower 03:00 Door
+Neverland,Clock Tower,Open 3:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ard2.evdl,N,2,2ED1,2656334,Neverland Clock Tower 03:00 Door
+Neverland,Clock Tower,Open 3:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,1,2965,2656334,Neverland Clock Tower 03:00 Door
+Neverland,Clock Tower,Open 3:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,2,2971,2656334,Neverland Clock Tower 03:00 Door
+Neverland,Clock Tower,Open 3:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,1,4375,2656334,Neverland Clock Tower 03:00 Door
+Neverland,Clock Tower,Open 3:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,2,4381,2656334,Neverland Clock Tower 03:00 Door
+Neverland,Clock Tower,Open 4:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,1,B245,2656335,Neverland Clock Tower 04:00 Door
+Neverland,Clock Tower,Open 4:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,2,B251,2656335,Neverland Clock Tower 04:00 Door
+Neverland,Clock Tower,Open 4:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,1,5899,2656335,Neverland Clock Tower 04:00 Door
+Neverland,Clock Tower,Open 4:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,2,58A5,2656335,Neverland Clock Tower 04:00 Door
+Neverland,Clock Tower,Open 4:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ard2.evdl,N,1,33C1,2656335,Neverland Clock Tower 04:00 Door
+Neverland,Clock Tower,Open 4:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ard2.evdl,N,2,33CD,2656335,Neverland Clock Tower 04:00 Door
+Neverland,Clock Tower,Open 4:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,1,2E61,2656335,Neverland Clock Tower 04:00 Door
+Neverland,Clock Tower,Open 4:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,2,2E6D,2656335,Neverland Clock Tower 04:00 Door
+Neverland,Clock Tower,Open 4:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,1,4871,2656335,Neverland Clock Tower 04:00 Door
+Neverland,Clock Tower,Open 4:00 Door,Power Up,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,2,487D,2656335,Neverland Clock Tower 04:00 Door
+Neverland,Clock Tower,Open 5:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,1,B741,2656336,Neverland Clock Tower 05:00 Door
+Neverland,Clock Tower,Open 5:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,2,B74D,2656336,Neverland Clock Tower 05:00 Door
+Neverland,Clock Tower,Open 5:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,1,5D95,2656336,Neverland Clock Tower 05:00 Door
+Neverland,Clock Tower,Open 5:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,2,5DA1,2656336,Neverland Clock Tower 05:00 Door
+Neverland,Clock Tower,Open 5:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ard2.evdl,N,1,38BD,2656336,Neverland Clock Tower 05:00 Door
+Neverland,Clock Tower,Open 5:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ard2.evdl,N,2,38C9,2656336,Neverland Clock Tower 05:00 Door
+Neverland,Clock Tower,Open 5:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,1,335D,2656336,Neverland Clock Tower 05:00 Door
+Neverland,Clock Tower,Open 5:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,2,3369,2656336,Neverland Clock Tower 05:00 Door
+Neverland,Clock Tower,Open 5:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,1,4D6D,2656336,Neverland Clock Tower 05:00 Door
+Neverland,Clock Tower,Open 5:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,2,4D79,2656336,Neverland Clock Tower 05:00 Door
+Neverland,Clock Tower,Open 6:00 Door,Mythril,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,1,BC41,2656337,Neverland Clock Tower 06:00 Door
+Neverland,Clock Tower,Open 6:00 Door,Mythril,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,2,BC4D,2656337,Neverland Clock Tower 06:00 Door
+Neverland,Clock Tower,Open 6:00 Door,Mythril,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,1,6295,2656337,Neverland Clock Tower 06:00 Door
+Neverland,Clock Tower,Open 6:00 Door,Mythril,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,2,62A1,2656337,Neverland Clock Tower 06:00 Door
+Neverland,Clock Tower,Open 6:00 Door,Mythril,1,/remastered/pp10.ard/UK_pp10_ard2.evdl,N,1,3DBD,2656337,Neverland Clock Tower 06:00 Door
+Neverland,Clock Tower,Open 6:00 Door,Mythril,1,/remastered/pp10.ard/UK_pp10_ard2.evdl,N,2,3DC9,2656337,Neverland Clock Tower 06:00 Door
+Neverland,Clock Tower,Open 6:00 Door,Mythril,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,1,385D,2656337,Neverland Clock Tower 06:00 Door
+Neverland,Clock Tower,Open 6:00 Door,Mythril,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,2,3869,2656337,Neverland Clock Tower 06:00 Door
+Neverland,Clock Tower,Open 6:00 Door,Mythril,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,1,526D,2656337,Neverland Clock Tower 06:00 Door
+Neverland,Clock Tower,Open 6:00 Door,Mythril,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,2,5279,2656337,Neverland Clock Tower 06:00 Door
+Neverland,Clock Tower,Open 7:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,1,C141,2656338,Neverland Clock Tower 07:00 Door
+Neverland,Clock Tower,Open 7:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,2,C14D,2656338,Neverland Clock Tower 07:00 Door
+Neverland,Clock Tower,Open 7:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,1,6795,2656338,Neverland Clock Tower 07:00 Door
+Neverland,Clock Tower,Open 7:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,2,67A1,2656338,Neverland Clock Tower 07:00 Door
+Neverland,Clock Tower,Open 7:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ard2.evdl,N,1,42BD,2656338,Neverland Clock Tower 07:00 Door
+Neverland,Clock Tower,Open 7:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ard2.evdl,N,2,42C9,2656338,Neverland Clock Tower 07:00 Door
+Neverland,Clock Tower,Open 7:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,1,3D5D,2656338,Neverland Clock Tower 07:00 Door
+Neverland,Clock Tower,Open 7:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,2,3D69,2656338,Neverland Clock Tower 07:00 Door
+Neverland,Clock Tower,Open 7:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,1,576D,2656338,Neverland Clock Tower 07:00 Door
+Neverland,Clock Tower,Open 7:00 Door,AP Up,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,2,5779,2656338,Neverland Clock Tower 07:00 Door
+Neverland,Clock Tower,Open 8:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,1,C641,2656339,Neverland Clock Tower 08:00 Door
+Neverland,Clock Tower,Open 8:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,2,C64D,2656339,Neverland Clock Tower 08:00 Door
+Neverland,Clock Tower,Open 8:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,1,6C95,2656339,Neverland Clock Tower 08:00 Door
+Neverland,Clock Tower,Open 8:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,2,6CA1,2656339,Neverland Clock Tower 08:00 Door
+Neverland,Clock Tower,Open 8:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ard2.evdl,N,1,47BD,2656339,Neverland Clock Tower 08:00 Door
+Neverland,Clock Tower,Open 8:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ard2.evdl,N,2,47C9,2656339,Neverland Clock Tower 08:00 Door
+Neverland,Clock Tower,Open 8:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,1,425D,2656339,Neverland Clock Tower 08:00 Door
+Neverland,Clock Tower,Open 8:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,2,4269,2656339,Neverland Clock Tower 08:00 Door
+Neverland,Clock Tower,Open 8:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,1,5C6D,2656339,Neverland Clock Tower 08:00 Door
+Neverland,Clock Tower,Open 8:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,2,5C79,2656339,Neverland Clock Tower 08:00 Door
 Neverland,Clock Tower,Open 9:00 Door,Orichalcum,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,1,CB31,2656340,Neverland Clock Tower 09:00 Door
-Neverland,Clock Tower,Open 9:00 Door,Orichalcum,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,2,CB31,2656340,Neverland Clock Tower 09:00 Door
-Neverland,Clock Tower,Open 9:00 Door,Orichalcum,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,3,CB49,2656340,Neverland Clock Tower 09:00 Door
-Neverland,Clock Tower,Open 9:00 Door,Orichalcum,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,1,7185,2656340,Neverland Clock Tower 09:00 Door
-Neverland,Clock Tower,Open 9:00 Door,Orichalcum,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,2,7191,2656340,Neverland Clock Tower 09:00 Door
-Neverland,Clock Tower,Open 9:00 Door,Orichalcum,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,3,719D,2656340,Neverland Clock Tower 09:00 Door
-Neverland,Clock Tower,Open 9:00 Door,Orichalcum,1,/remastered/pp10.ard/UK_pp10_ard2.evdl,N,1,4CAD,2656340,Neverland Clock Tower 09:00 Door
-Neverland,Clock Tower,Open 9:00 Door,Orichalcum,1,/remastered/pp10.ard/UK_pp10_ard2.evdl,N,2,4CB9,2656340,Neverland Clock Tower 09:00 Door
-Neverland,Clock Tower,Open 9:00 Door,Orichalcum,1,/remastered/pp10.ard/UK_pp10_ard2.evdl,N,3,4CC5,2656340,Neverland Clock Tower 09:00 Door
-Neverland,Clock Tower,Open 9:00 Door,Orichalcum,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,1,474D,2656340,Neverland Clock Tower 09:00 Door
-Neverland,Clock Tower,Open 9:00 Door,Orichalcum,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,2,4759,2656340,Neverland Clock Tower 09:00 Door
-Neverland,Clock Tower,Open 9:00 Door,Orichalcum,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,3,4765,2656340,Neverland Clock Tower 09:00 Door
-Neverland,Clock Tower,Open 9:00 Door,Orichalcum,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,1,615D,2656340,Neverland Clock Tower 09:00 Door
-Neverland,Clock Tower,Open 9:00 Door,Orichalcum,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,2,6169,2656340,Neverland Clock Tower 09:00 Door
-Neverland,Clock Tower,Open 9:00 Door,Orichalcum,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,3,6175,2656340,Neverland Clock Tower 09:00 Door
-Neverland,Clock Tower,Open 10:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,1,D02D,2656341,Neverland Clock Tower 10:00 Door
-Neverland,Clock Tower,Open 10:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,2,D039,2656341,Neverland Clock Tower 10:00 Door
-Neverland,Clock Tower,Open 10:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,3,D045,2656341,Neverland Clock Tower 10:00 Door
-Neverland,Clock Tower,Open 10:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,1,7681,2656341,Neverland Clock Tower 10:00 Door
-Neverland,Clock Tower,Open 10:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,2,768D,2656341,Neverland Clock Tower 10:00 Door
-Neverland,Clock Tower,Open 10:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,3,7699,2656341,Neverland Clock Tower 10:00 Door
-Neverland,Clock Tower,Open 10:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ard2.evdl,N,1,51A9,2656341,Neverland Clock Tower 10:00 Door
-Neverland,Clock Tower,Open 10:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ard2.evdl,N,2,51B5,2656341,Neverland Clock Tower 10:00 Door
-Neverland,Clock Tower,Open 10:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ard2.evdl,N,3,51C1,2656341,Neverland Clock Tower 10:00 Door
-Neverland,Clock Tower,Open 10:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,1,4C49,2656341,Neverland Clock Tower 10:00 Door
-Neverland,Clock Tower,Open 10:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,2,4C55,2656341,Neverland Clock Tower 10:00 Door
-Neverland,Clock Tower,Open 10:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,3,4C61,2656341,Neverland Clock Tower 10:00 Door
-Neverland,Clock Tower,Open 10:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,1,6659,2656341,Neverland Clock Tower 10:00 Door
-Neverland,Clock Tower,Open 10:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,2,6665,2656341,Neverland Clock Tower 10:00 Door
-Neverland,Clock Tower,Open 10:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,3,6671,2656341,Neverland Clock Tower 10:00 Door
-Neverland,Clock Tower,Open 11:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,1,D529,2656342,Neverland Clock Tower 11:00 Door
-Neverland,Clock Tower,Open 11:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,2,D535,2656342,Neverland Clock Tower 11:00 Door
-Neverland,Clock Tower,Open 11:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,3,D541,2656342,Neverland Clock Tower 11:00 Door
-Neverland,Clock Tower,Open 11:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,1,7B7D,2656342,Neverland Clock Tower 11:00 Door
-Neverland,Clock Tower,Open 11:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,2,7B89,2656342,Neverland Clock Tower 11:00 Door
-Neverland,Clock Tower,Open 11:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,3,7B95,2656342,Neverland Clock Tower 11:00 Door
-Neverland,Clock Tower,Open 11:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ard2.evdl,N,1,56A5,2656342,Neverland Clock Tower 11:00 Door
-Neverland,Clock Tower,Open 11:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ard2.evdl,N,2,56B1,2656342,Neverland Clock Tower 11:00 Door
-Neverland,Clock Tower,Open 11:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ard2.evdl,N,3,56BD,2656342,Neverland Clock Tower 11:00 Door
-Neverland,Clock Tower,Open 11:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,1,5145,2656342,Neverland Clock Tower 11:00 Door
-Neverland,Clock Tower,Open 11:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,2,5151,2656342,Neverland Clock Tower 11:00 Door
-Neverland,Clock Tower,Open 11:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,3,515D,2656342,Neverland Clock Tower 11:00 Door
-Neverland,Clock Tower,Open 11:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,1,6B55,2656342,Neverland Clock Tower 11:00 Door
-Neverland,Clock Tower,Open 11:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,2,6B61,2656342,Neverland Clock Tower 11:00 Door
-Neverland,Clock Tower,Open 11:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,3,6B6D,2656342,Neverland Clock Tower 11:00 Door
-Neverland,Clock Tower,Open 12:00 Door,Megalixir,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,1,DA25,2656343,Neverland Clock Tower 12:00 Door
-Neverland,Clock Tower,Open 12:00 Door,Megalixir,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,2,DA31,2656343,Neverland Clock Tower 12:00 Door
-Neverland,Clock Tower,Open 12:00 Door,Megalixir,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,3,DA3D,2656343,Neverland Clock Tower 12:00 Door
-Neverland,Clock Tower,Open 12:00 Door,Megalixir,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,1,8079,2656343,Neverland Clock Tower 12:00 Door
-Neverland,Clock Tower,Open 12:00 Door,Megalixir,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,2,8085,2656343,Neverland Clock Tower 12:00 Door
-Neverland,Clock Tower,Open 12:00 Door,Megalixir,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,3,8091,2656343,Neverland Clock Tower 12:00 Door
-Neverland,Clock Tower,Open 12:00 Door,Megalixir,1,/remastered/pp10.ard/UK_pp10_ard2.evdl,N,1,5BA1,2656343,Neverland Clock Tower 12:00 Door
-Neverland,Clock Tower,Open 12:00 Door,Megalixir,1,/remastered/pp10.ard/UK_pp10_ard2.evdl,N,2,5BAD,2656343,Neverland Clock Tower 12:00 Door
-Neverland,Clock Tower,Open 12:00 Door,Megalixir,1,/remastered/pp10.ard/UK_pp10_ard2.evdl,N,3,5BB9,2656343,Neverland Clock Tower 12:00 Door
-Neverland,Clock Tower,Open 12:00 Door,Megalixir,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,1,5641,2656343,Neverland Clock Tower 12:00 Door
-Neverland,Clock Tower,Open 12:00 Door,Megalixir,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,2,564D,2656343,Neverland Clock Tower 12:00 Door
-Neverland,Clock Tower,Open 12:00 Door,Megalixir,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,3,5659,2656343,Neverland Clock Tower 12:00 Door
-Neverland,Clock Tower,Open 12:00 Door,Megalixir,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,1,7051,2656343,Neverland Clock Tower 12:00 Door
-Neverland,Clock Tower,Open 12:00 Door,Megalixir,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,2,705D,2656343,Neverland Clock Tower 12:00 Door
-Neverland,Clock Tower,Open 12:00 Door,Megalixir,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,3,7069,2656343,Neverland Clock Tower 12:00 Door
+Neverland,Clock Tower,Open 9:00 Door,Orichalcum,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,2,CB49,2656340,Neverland Clock Tower 09:00 Door
+Neverland,Clock Tower,Open 9:00 Door,Orichalcum,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,1,7191,2656340,Neverland Clock Tower 09:00 Door
+Neverland,Clock Tower,Open 9:00 Door,Orichalcum,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,2,719D,2656340,Neverland Clock Tower 09:00 Door
+Neverland,Clock Tower,Open 9:00 Door,Orichalcum,1,/remastered/pp10.ard/UK_pp10_ard2.evdl,N,1,4CB9,2656340,Neverland Clock Tower 09:00 Door
+Neverland,Clock Tower,Open 9:00 Door,Orichalcum,1,/remastered/pp10.ard/UK_pp10_ard2.evdl,N,2,4CC5,2656340,Neverland Clock Tower 09:00 Door
+Neverland,Clock Tower,Open 9:00 Door,Orichalcum,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,1,4759,2656340,Neverland Clock Tower 09:00 Door
+Neverland,Clock Tower,Open 9:00 Door,Orichalcum,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,2,4765,2656340,Neverland Clock Tower 09:00 Door
+Neverland,Clock Tower,Open 9:00 Door,Orichalcum,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,1,6169,2656340,Neverland Clock Tower 09:00 Door
+Neverland,Clock Tower,Open 9:00 Door,Orichalcum,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,2,6175,2656340,Neverland Clock Tower 09:00 Door
+Neverland,Clock Tower,Open 10:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,1,D039,2656341,Neverland Clock Tower 10:00 Door
+Neverland,Clock Tower,Open 10:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,2,D045,2656341,Neverland Clock Tower 10:00 Door
+Neverland,Clock Tower,Open 10:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,1,768D,2656341,Neverland Clock Tower 10:00 Door
+Neverland,Clock Tower,Open 10:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,2,7699,2656341,Neverland Clock Tower 10:00 Door
+Neverland,Clock Tower,Open 10:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ard2.evdl,N,1,51B5,2656341,Neverland Clock Tower 10:00 Door
+Neverland,Clock Tower,Open 10:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ard2.evdl,N,2,51C1,2656341,Neverland Clock Tower 10:00 Door
+Neverland,Clock Tower,Open 10:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,1,4C55,2656341,Neverland Clock Tower 10:00 Door
+Neverland,Clock Tower,Open 10:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,2,4C61,2656341,Neverland Clock Tower 10:00 Door
+Neverland,Clock Tower,Open 10:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,1,6665,2656341,Neverland Clock Tower 10:00 Door
+Neverland,Clock Tower,Open 10:00 Door,Defense Up,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,2,6671,2656341,Neverland Clock Tower 10:00 Door
+Neverland,Clock Tower,Open 11:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,1,D535,2656342,Neverland Clock Tower 11:00 Door
+Neverland,Clock Tower,Open 11:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,2,D541,2656342,Neverland Clock Tower 11:00 Door
+Neverland,Clock Tower,Open 11:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,1,7B89,2656342,Neverland Clock Tower 11:00 Door
+Neverland,Clock Tower,Open 11:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,2,7B95,2656342,Neverland Clock Tower 11:00 Door
+Neverland,Clock Tower,Open 11:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ard2.evdl,N,1,56B1,2656342,Neverland Clock Tower 11:00 Door
+Neverland,Clock Tower,Open 11:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ard2.evdl,N,2,56BD,2656342,Neverland Clock Tower 11:00 Door
+Neverland,Clock Tower,Open 11:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,1,5151,2656342,Neverland Clock Tower 11:00 Door
+Neverland,Clock Tower,Open 11:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,2,515D,2656342,Neverland Clock Tower 11:00 Door
+Neverland,Clock Tower,Open 11:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,1,6B61,2656342,Neverland Clock Tower 11:00 Door
+Neverland,Clock Tower,Open 11:00 Door,Mythril Shard,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,2,6B6D,2656342,Neverland Clock Tower 11:00 Door
+Neverland,Clock Tower,Open 12:00 Door,Megalixir,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,1,DA31,2656343,Neverland Clock Tower 12:00 Door
+Neverland,Clock Tower,Open 12:00 Door,Megalixir,1,/remastered/pp10.ard/UK_pp10_ard0.evdl,Y,2,DA3D,2656343,Neverland Clock Tower 12:00 Door
+Neverland,Clock Tower,Open 12:00 Door,Megalixir,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,1,8085,2656343,Neverland Clock Tower 12:00 Door
+Neverland,Clock Tower,Open 12:00 Door,Megalixir,1,/remastered/pp10.ard/UK_pp10_ard1.evdl,Y,2,8091,2656343,Neverland Clock Tower 12:00 Door
+Neverland,Clock Tower,Open 12:00 Door,Megalixir,1,/remastered/pp10.ard/UK_pp10_ard2.evdl,N,1,5BAD,2656343,Neverland Clock Tower 12:00 Door
+Neverland,Clock Tower,Open 12:00 Door,Megalixir,1,/remastered/pp10.ard/UK_pp10_ard2.evdl,N,2,5BB9,2656343,Neverland Clock Tower 12:00 Door
+Neverland,Clock Tower,Open 12:00 Door,Megalixir,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,1,564D,2656343,Neverland Clock Tower 12:00 Door
+Neverland,Clock Tower,Open 12:00 Door,Megalixir,1,/remastered/pp10.ard/UK_pp10_ard19.evdl,N,2,5659,2656343,Neverland Clock Tower 12:00 Door
+Neverland,Clock Tower,Open 12:00 Door,Megalixir,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,1,705D,2656343,Neverland Clock Tower 12:00 Door
+Neverland,Clock Tower,Open 12:00 Door,Megalixir,1,/remastered/pp10.ard/UK_pp10_ardc.evdl,N,2,7069,2656343,Neverland Clock Tower 12:00 Door
 Wonderland,Bizarre Room,Read Book,Mythril Shard,1,/remastered/aw03.ard/UK_aw03_ard0.evdl,N,1,936D,2656376,Wonderland Bizarre Room Read Book
 Wonderland,Bizarre Room,Read Book,Mythril Shard,1,/remastered/aw03.ard/UK_aw03_ard0.evdl,N,2,9379,2656376,Wonderland Bizarre Room Read Book
 Wonderland,Bizarre Room,Read Book,Mythril Shard,1,/remastered/aw03.ard/UK_aw03_ard2.evdl,N,1,7CC9,2656376,Wonderland Bizarre Room Read Book
@@ -1311,12 +1240,12 @@ Destiny Islands,Seashore,Defeat Trio (Day 1),Potion,1,/remastered/di01.ard/UK_di
 Destiny Islands,Seashore,Defeat Trio (Day 1),Potion,1,/remastered/di01.ard/UK_di01a.ev,N,2,114B5,,
 Destiny Islands,Seashore,Brings Items to Kairi (Day 1),Hi-Potion,1,/remastered/di01.ard/UK_di01a.ev,N,1,15089,2656710,Destiny Islands Seashore Deliver Kairi Items (Day 1)
 Destiny Islands,Seashore,Brings Items to Kairi (Day 1),Hi-Potion,1,/remastered/di01.ard/UK_di01a.ev,N,2,15095,2656710,Destiny Islands Seashore Deliver Kairi Items (Day 1)
-Destiny Islands,Seashore,Capture Fish 2 (Day 2),Fish,1,/remastered/di01.ard/UK_di01_ard2.evdl,N,1,FCC5,2656701,Destiny Islands Seashore Capture Fish 2 (Day 2)
-Destiny Islands,Seashore,Capture Fish 2 (Day 2),Fish,1,/remastered/di01.ard/UK_di01_ard2.evdl,N,2,FCD1,2656701,Destiny Islands Seashore Capture Fish 2 (Day 2)
+Destiny Islands,Seashore,Capture Fish 3 (Day 2),Fish,1,/remastered/di01.ard/UK_di01_ard2.evdl,N,1,FCC5,2656702,Destiny Islands Seashore Capture Fish 3 (Day 2)
+Destiny Islands,Seashore,Capture Fish 3 (Day 2),Fish,1,/remastered/di01.ard/UK_di01_ard2.evdl,N,2,FCD1,2656702,Destiny Islands Seashore Capture Fish 3 (Day 2)
 Destiny Islands,Seashore,Capture Fish 1 (Day 2),Fish,1,/remastered/di01.ard/UK_di01_ard2.evdl,N,1,F7B1,2656700,Destiny Islands Seashore Capture Fish 1 (Day 2)
 Destiny Islands,Seashore,Capture Fish 1 (Day 2),Fish,1,/remastered/di01.ard/UK_di01_ard2.evdl,N,2,F7BD,2656700,Destiny Islands Seashore Capture Fish 1 (Day 2)
-Destiny Islands,Seashore,Capture Fish 3 (Day 2),Fish,1,/remastered/di01.ard/UK_di01_ard2.evdl,N,1,FA39,2656702,Destiny Islands Seashore Capture Fish 3 (Day 2)
-Destiny Islands,Seashore,Capture Fish 3 (Day 2),Fish,1,/remastered/di01.ard/UK_di01_ard2.evdl,N,2,FA45,2656702,Destiny Islands Seashore Capture Fish 3 (Day 2)
+Destiny Islands,Seashore,Capture Fish 2 (Day 2),Fish,1,/remastered/di01.ard/UK_di01_ard2.evdl,N,1,FA39,2656701,Destiny Islands Seashore Capture Fish 2 (Day 2)
+Destiny Islands,Seashore,Capture Fish 2 (Day 2),Fish,1,/remastered/di01.ard/UK_di01_ard2.evdl,N,2,FA45,2656701,Destiny Islands Seashore Capture Fish 2 (Day 2)
 Destiny Islands,Seashore,Gather Seagull Egg (Day 2),Seagull Egg,1,/remastered/di01.ard/UK_di01_ard2.evdl,N,1,FF1D,2656703,Destiny Islands Seashore Gather Seagull Egg (Day 2)
 Destiny Islands,Seashore,Gather Seagull Egg (Day 2),Seagull Egg,1,/remastered/di01.ard/UK_di01_ard2.evdl,N,2,FF29,2656703,Destiny Islands Seashore Gather Seagull Egg (Day 2)
 Destiny Islands,Seashore,Gather Coconut (Day 2),Coconut,1,/remastered/di01.ard/UK_di01_ard2.evdl,N,1,1201D,,

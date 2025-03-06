@@ -20,7 +20,7 @@ def get_map_prize_data(kh1_data_path):
 def remove_map_prizes(map_prize_bytes, map_prize_definitions):
     for map_prize_definition in map_prize_definitions:
         offset = int(map_prize_definition["Offset"],16)
-        for i in range(13):
+        for i in range(23):
             map_prize_bytes[offset + i] = 0
     return map_prize_bytes
 

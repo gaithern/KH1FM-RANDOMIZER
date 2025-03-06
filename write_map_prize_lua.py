@@ -30,7 +30,18 @@ def update_map_prize_template_lua(map_prize_lua_str, seed_json_data):
         2656609,
         2656610,
         2656611,
-        2656612
+        2656612,
+        2656613,
+        2656614,
+        2656615,
+        2656616,
+        2656617,
+        2656618,
+        2656619,
+        2656620,
+        2656621,
+        2656622,
+        2656623
     ]
     for map_prize_location_id in map_prize_location_ids:
         replace = "0"

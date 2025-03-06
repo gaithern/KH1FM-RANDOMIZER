@@ -529,6 +529,19 @@ function fill_location_map()
     table.insert(location_map, {2656610, event_flags[game_version]                  + 0xE6A,  4, 0x01, 0}) --Deep Jungle Treetop Green Trinity
     table.insert(location_map, {2656611, event_flags[game_version]                  + 0xE6C,  4, 0x01, 0}) --Agrabah Treasure Room Red Trinity
     table.insert(location_map, {2656612, event_flags[game_version]                  + 0xE6E,  5, 0x01, 0}) --Monstro Throat Blue Trinity
+    table.insert(location_map, {2656613, event_flags[game_version]                  + 0xEDA,  8, 0x01, 0}) --Wonderland Bizarre Room Examine Flower Pot
+    table.insert(location_map, {2656614, event_flags[game_version]                  + 0xEE0,  5, 0x01, 0}) --Wonderland Lotus Forest Red Flowers on the Main Path
+    table.insert(location_map, {2656614, event_flags[game_version]                  + 0xEE0,  2, 0x01, 0}) --Wonderland Lotus Forest Red Flowers on the Main Path
+    table.insert(location_map, {2656615, event_flags[game_version]                  + 0xEE0,  8, 0x01, 0}) --Wonderland Lotus Forest Yellow Flowers in Middle Clearing and Through Painting
+    table.insert(location_map, {2656615, event_flags[game_version]                  + 0xEE0,  6, 0x01, 0}) --Wonderland Lotus Forest Yellow Flowers in Middle Clearing and Through Painting
+    table.insert(location_map, {2656616, event_flags[game_version]                  + 0xEE0,  7, 0x01, 0}) --Wonderland Lotus Forest Yellow Elixir Flower Through Painting
+    table.insert(location_map, {2656617, event_flags[game_version]                  + 0xEE0,  3, 0x01, 0}) --Wonderland Lotus Forest Red Flower Raise Lily Pads
+    table.insert(location_map, {2656618, event_flags[game_version]                  + 0xEE9,  7, 0x01, 0}) --Wonderland Tea Party Garden Left Cushioned Chair
+    table.insert(location_map, {2656619, event_flags[game_version]                  + 0xEE9,  6, 0x01, 0}) --Wonderland Tea Party Garden Left Pink Chair
+    table.insert(location_map, {2656620, event_flags[game_version]                  + 0xEE9,  2, 0x01, 0}) --Wonderland Tea Party Garden Right Yellow Chair
+    table.insert(location_map, {2656621, event_flags[game_version]                  + 0xEE9,  5, 0x01, 0}) --Wonderland Tea Party Garden Left Gray Chair
+    table.insert(location_map, {2656622, event_flags[game_version]                  + 0xEE9,  4, 0x01, 0}) --Wonderland Tea Party Garden Right Brown Chair
+    table.insert(location_map, {2656623, event_flags[game_version]                  + 0x108D, 7, 0x01, 0}) --Hollow Bastion Lift Stop from Waterway Examine Node
     table.insert(location_map, {2656700, world_flags_address[game_version]          + 0x319,  0, 0x01, 0}) --Destiny Islands Seashore Capture Fish 1 (Day 2)
     table.insert(location_map, {2656701, world_flags_address[game_version]          + 0x31A,  0, 0x01, 0}) --Destiny Islands Seashore Capture Fish 2 (Day 2)
     table.insert(location_map, {2656702, world_flags_address[game_version]          + 0x31B,  0, 0x01, 0}) --Destiny Islands Seashore Capture Fish 3 (Day 2)
