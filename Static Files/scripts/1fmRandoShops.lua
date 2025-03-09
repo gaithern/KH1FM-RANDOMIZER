@@ -20,14 +20,15 @@ end
 
 function write_shops()
     for shop_index,address_base in pairs(shop_addresses) do
-        WriteByte(address_base[game_version], 7) --Number of items in shop
+        WriteByte(address_base[game_version], 8) --Number of items in shop
         WriteByte(address_base[game_version] + 4, 1) --Potion
         WriteByte(address_base[game_version] + 8, 2) --Hi-Potion
         WriteByte(address_base[game_version] + 12, 3) --Ether
-        WriteByte(address_base[game_version] + 16, 142) --Tent
-        WriteByte(address_base[game_version] + 20, 143) --Camping Set
-        WriteByte(address_base[game_version] + 24, 254) --Mythril
-        WriteByte(address_base[game_version] + 28, 255) --Orichalcum
+        WriteByte(address_base[game_version] + 16, 4) --Elixir
+        WriteByte(address_base[game_version] + 20, 142) --Tent
+        WriteByte(address_base[game_version] + 24, 143) --Camping Set
+        WriteByte(address_base[game_version] + 28, 254) --Mythril
+        WriteByte(address_base[game_version] + 32, 255) --Orichalcum
     end
 end
 

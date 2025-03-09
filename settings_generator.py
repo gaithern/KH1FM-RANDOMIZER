@@ -399,6 +399,12 @@ def main():
         default = presets["exp_zero_in_pool"],
         metavar = "EXP Zero in Pool",
         help = "Determines if EXP Zero should be shuffled into the item pool.")
+    misc_group.add_argument('--randomize_party_member_starting_accessories',
+        choices = ["Yes",
+            "No"],
+        default = presets["randomize_party_member_starting_accessories"],
+        metavar = "Randomize Party Member Starting Accessories",
+        help = "Determines if the 10 starting accessories (normally given to Aladdin, Ariel, Jack, Peter Pan, and Beast) are randomized and distributed amongst all party members randomly.")
     misc_group.add_argument('--death_link',
         choices = ["Off",
             "Toggle",
@@ -588,6 +594,7 @@ def create_yaml(args):
     yaml_str = yaml_str + get_advanced_logic_line(args.advanced_logic)
     yaml_str = yaml_str + get_extra_shared_abilities_line(args.extra_shared_abilities)
     yaml_str = yaml_str + get_exp_zero_in_pool_line(args.exp_zero_in_pool)
+    yaml_str = yaml_str + get_randomize_party_member_starting_accessories_line(args.randomize_party_member_starting_accessories)
     yaml_str = yaml_str + get_death_link_line(args.death_link)
     yaml_str = yaml_str + get_donald_death_link_line(args.donald_death_link)
     yaml_str = yaml_str + get_goofy_death_link_line(args.goofy_death_link)
@@ -760,6 +767,9 @@ def get_extra_shared_abilities_line(extra_shared_abilities):
 
 def get_exp_zero_in_pool_line(exp_zero_in_pool):
     return "  exp_zero_in_pool: " + str(exp_zero_in_pool).replace("Yes", "true").replace("No", "false") + "\n"
+
+def get_randomize_party_member_starting_accessories_line(randomize_party_member_starting_accessories):
+    return "  randomize_party_member_starting_accessories: " + str(randomize_party_member_starting_accessories).replace("Yes", "true").replace("No", "false") + "\n"
 
 def get_death_link_line(death_link):
     return "  death_link: " + str(death_link).replace(" ", "_").lower() + "\n"

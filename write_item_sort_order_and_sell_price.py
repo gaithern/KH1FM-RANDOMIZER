@@ -202,6 +202,7 @@ def get_settings_data(settings_file = None):
 def write_item_sort_order_and_sell_price(settings_file = None):
     settings_data = get_settings_data(settings_file)
     new_prices = {}
+    new_prices[4] = 400 # Elixir added for WL flowers
     new_prices[254] = settings_data["mythril_price"]
     new_prices[255] = settings_data["orichalcum_price"]
     write_item_sort_order()

@@ -25,6 +25,7 @@ from write_receive_ap_items_lua import write_receive_ap_items_lua
 from write_seed import write_seed
 from write_icon import write_icon
 from write_synthesis_item_names_lua import write_synthesis_item_names_lua
+from write_starting_accessories import write_starting_accessories
 from validate_evdl_data import validate_evdl_data
 from unzip_ap_output import unzip_ap_output
 
@@ -119,6 +120,9 @@ def write_mod(ap_zip_file_name = None, kh1_data_path = None):
     
     print("Writing synthesis item names lua...")
     write_synthesis_item_names_lua(settings_file = settings_file)
+    
+    print("Writing starting accessories...")
+    write_starting_accessories(seed_json_file = item_location_map_file, settings_file = settings_file)
     
     print("Writing seed...")
     write_seed(settings_file = settings_file)

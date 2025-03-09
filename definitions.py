@@ -967,5 +967,6 @@ filler_item_ids = [
 ]
 
 buy_prices = {
+    4: 400,
     254: 5000
 }

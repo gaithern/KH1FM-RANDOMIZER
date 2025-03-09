@@ -47,6 +47,7 @@
     "advanced_logic": "No",
     "extra_shared_abilities": "No",
     "exp_zero_in_pool": "No",
+    "randomize_party_member_starting_accessories": "Yes",
     "death_link": "Off",
     "donald_death_link": "No",
     "goofy_death_link": "No",

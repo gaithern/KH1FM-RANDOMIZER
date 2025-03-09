@@ -558,6 +558,21 @@ function fill_location_map()
     table.insert(location_map, {2656715, world_flags_address[game_version]          + 0x2FA,  0, 0x01, 0}) --Destiny Islands Gather Drinking Water (Day 2)
     table.insert(location_map, {2656711, world_flags_address[game_version]          + 0x31C,  0, 0x01, 0}) --Destiny Islands Secret Place Gather Mushroom (Day 2)
     table.insert(location_map, {2656716, world_flags_address[game_version]          + 0x301,  0, 0x02, 0}) --Destiny Islands Cove Deliver Kairi Items (Day 2)
+    table.insert(location_map, {2656800, soras_level_address[game_version]          + 0x0,    0, 0x01, 0}) --Donald Starting Accessory 1
+    table.insert(location_map, {2656801, soras_level_address[game_version]          + 0x0,    0, 0x01, 0}) --Donald Starting Accessory 2
+    table.insert(location_map, {2656802, soras_level_address[game_version]          + 0x0,    0, 0x01, 0}) --Goofy Starting Accessory 1
+    table.insert(location_map, {2656803, soras_level_address[game_version]          + 0x0,    0, 0x01, 0}) --Goofy Starting Accessory 2
+    table.insert(location_map, {2656804, world_progress_array_address[game_version] + 0x1,    0, 0x14, 0}) --Tarzan Starting Accessory 1
+    table.insert(location_map, {2656805, world_progress_array_address[game_version] + 0x4,    0, 0x24, 0}) --Aladdin Starting Accessory 1
+    table.insert(location_map, {2656806, world_progress_array_address[game_version] + 0x4,    0, 0x24, 0}) --Aladdin Starting Accessory 2
+    table.insert(location_map, {2656807, world_progress_array_address[game_version] + 0x6,    0, 0x0A, 0}) --Ariel Starting Accessory 1
+    table.insert(location_map, {2656808, world_progress_array_address[game_version] + 0x6,    0, 0x0A, 0}) --Ariel Starting Accessory 2
+    table.insert(location_map, {2656809, world_progress_array_address[game_version] + 0x6,    0, 0x0A, 0}) --Ariel Starting Accessory 3
+    table.insert(location_map, {2656810, world_progress_array_address[game_version] + 0x8,    0, 0x07, 0}) --Jack Starting Accessory 1
+    table.insert(location_map, {2656811, world_progress_array_address[game_version] + 0x8,    0, 0x07, 0}) --Jack Starting Accessory 2
+    table.insert(location_map, {2656812, world_progress_array_address[game_version] + 0x9,    0, 0x0A, 0}) --Peter Pan Starting Accessory 1
+    table.insert(location_map, {2656813, world_progress_array_address[game_version] + 0x9,    0, 0x0A, 0}) --Peter Pan Starting Accessory 2
+    table.insert(location_map, {2656814, world_progress_array_address[game_version] + 0xA,    0, 0x1E, 0}) --Beast Starting Accessory 1
     table.insert(location_map, {2657018, ansems_reports_address[game_version]       + 0x0,    8, 0x01, 0}) --Agrabah Defeat Jafar Genie Ansem's Report 1
     table.insert(location_map, {2657017, ansems_reports_address[game_version]       + 0x0,    7, 0x01, 0}) --Hollow Bastion Speak with Aerith Ansem's Report 2
     table.insert(location_map, {2657016, ansems_reports_address[game_version]       + 0x0,    6, 0x01, 0}) --Atlantica Defeat Ursula II Ansem's Report 3

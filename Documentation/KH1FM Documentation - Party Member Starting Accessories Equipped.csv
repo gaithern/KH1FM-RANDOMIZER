@@ -1,0 +1,11 @@
+Index,File,Offset,Value (HEX),Character Value (DEC),Character,Accessory Value (DEC),Accessory
+1,/remastered/dh01.ard/UK_dh01c.ev,766D,05 00 00 09 11 00 00 09 AC 02 00 18,5,Aladdin,17,Protect Chain
+2,/remastered/dh01.ard/UK_dh01c.ev,7679,05 00 00 09 14 00 00 09 AC 02 00 18,5,Aladdin,20,Fire Ring
+3,/remastered/dh01.ard/UK_dh01c.ev,7685,06 00 00 09 11 00 00 09 AC 02 00 18,6,Ariel,17,Protect Chain
+4,/remastered/dh01.ard/UK_dh01c.ev,7691,06 00 00 09 11 00 00 09 AC 02 00 18,6,Ariel,17,Protect Chain
+5,/remastered/dh01.ard/UK_dh01c.ev,769D,06 00 00 09 1A 00 00 09 AC 02 00 18,6,Ariel,26,Thunder Ring
+6,/remastered/dh01.ard/UK_dh01c.ev,76A9,07 00 00 09 11 00 00 09 AC 02 00 18,7,Jack,17,Protect Chain
+7,/remastered/dh01.ard/UK_dh01c.ev,76B5,07 00 00 09 14 00 00 09 AC 02 00 18,7,Jack,20,Fire Ring
+8,/remastered/dh01.ard/UK_dh01c.ev,76C1,08 00 00 09 11 00 00 09 AC 02 00 18,8,Peter Pan,17,Protect Chain
+9,/remastered/dh01.ard/UK_dh01c.ev,76CD,08 00 00 09 11 00 00 09 AC 02 00 18,8,Peter Pan,17,Protect Chain
+10,/remastered/dh01.ard/UK_dh01c.ev,76D9,09 00 00 09 17 00 00 09 AC 02 00 18,9,Beast,23,Blizzard Ring
