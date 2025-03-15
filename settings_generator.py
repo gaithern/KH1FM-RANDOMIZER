@@ -170,7 +170,7 @@ def main():
         help = "Determines the amount of experience party members need to level up.")
     levels_group.add_argument('--level_checks',
         widget='Slider',
-        gooey_options={'min': 1,
+        gooey_options={'min': 0,
             'max': 99,
             'increment': 1},
         default = int(presets["level_checks"]),
@@ -178,20 +178,28 @@ def main():
         help = "Determines the latest level for which rewards can be found.")
     levels_group.add_argument('--slot_2_level_checks',
         widget='Slider',
-        gooey_options={'min': 1,
+        gooey_options={'min': 0,
             'max': 33,
             'increment': 1},
         default = int(presets["slot_2_level_checks"]),
         metavar = "Slot 2 Level Checks",
         help = "Determines the amount of secondary bonuses are found on levels.")
-    levels_group.add_argument('--force_stats_and_abilities_on_levels',
+    levels_group.add_argument('--max_level_for_slot_2_level_checks',
+        widget='Slider',
+        gooey_options={'min': 2,
+            'max': 100,
+            'increment': 1},
+        default = int(presets["max_level_for_slot_2_level_checks"]),
+        metavar = "Max Level for Slot 2 Level Checks",
+        help = "Determines the maximum level which can yield a secondary bonus.")
+    levels_group.add_argument('--force_stats_on_levels',
         widget='Slider',
         gooey_options={'min': 2,
             'max': 101,
             'increment': 1},
-        default = int(presets["force_stats_and_abilities_on_levels"]),
-        metavar = "Force Stats and Abilities on Levels Starting at Level",
-        help = "Determines at which level can only stat increases or abilities can be found.")
+        default = int(presets["force_stats_on_levels"]),
+        metavar = "Force Stats on Levels Starting at Level",
+        help = "Determines at which level can only stat increases can be found.")
     levels_group.add_argument('--strength_increases',
         widget='Slider',
         gooey_options={'min': 0,
@@ -565,7 +573,8 @@ def create_yaml(args):
     yaml_str = yaml_str + get_exp_multiplier_line(args.exp_multiplier)
     yaml_str = yaml_str + get_level_checks_line(args.level_checks)
     yaml_str = yaml_str + get_slot_2_level_checks_line(args.slot_2_level_checks)
-    yaml_str = yaml_str + get_force_stats_and_abilities_on_levels_line(args.force_stats_and_abilities_on_levels)
+    yaml_str = yaml_str + get_max_level_for_slot_2_level_checks_line(args.max_level_for_slot_2_level_checks)
+    yaml_str = yaml_str + get_force_stats_on_levels_line(args.force_stats_on_levels)
     yaml_str = yaml_str + get_strength_increase_line(args.strength_increases)
     yaml_str = yaml_str + get_defense_increase_line(args.defense_increases)
     yaml_str = yaml_str + get_hp_increase_line(args.hp_increases)
@@ -681,8 +690,11 @@ def get_level_checks_line(level_checks):
 def get_slot_2_level_checks_line(slot_2_level_checks):
     return "  slot_2_level_checks: " + str(slot_2_level_checks) + "\n"
 
-def get_force_stats_and_abilities_on_levels_line(force_stats_and_abilities_on_levels):
-    return "  force_stats_and_abilities_on_levels: " + str(force_stats_and_abilities_on_levels) + "\n"
+def get_max_level_for_slot_2_level_checks_line(max_level_for_slot_2_level_checks):
+    return "  max_level_for_slot_2_level_checks: " + str(max_level_for_slot_2_level_checks) + "\n"
+
+def get_force_stats_on_levels_line(force_stats_on_levels):
+    return "  force_stats_on_levels: " + str(force_stats_on_levels) + "\n"
 
 def get_strength_increase_line(strength_increases):
     return "  strength_increase: " + str(strength_increases) + "\n"
