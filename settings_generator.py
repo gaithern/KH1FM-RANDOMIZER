@@ -39,6 +39,8 @@ def main():
         "Customize keyblade stats.")
     synth_group = parser.add_argument_group("Synth",
         "Customize synthesis materials.")
+    ap_costs_group = parser.add_argument_group("AP Costs",
+        "Customize AP Costs.")
     misc_group = parser.add_argument_group("Misc",
         "Customize other misc settings.")
     
@@ -546,6 +548,29 @@ def main():
         default = presets["warp_anywhere"],
         metavar = "Warp Anywhere",
         help = "If on, enables the player to warp at any time, even when not at a save point.\nPress L1+L2+R2+Select to open the Save/Warp menu at any time.")
+    ap_costs_group.add_argument('--randomize_ap_costs',
+        choices = ["Off",
+            "Randomize",
+            "Distribute"],
+        default = presets["randomize_ap_costs"],
+        metavar = "Randomize AP Costs",
+        help = "Off: No randomization\nShuffle: Ability AP Costs will be shuffled amongst themselves.\nRandomize: Ability AP Costs will be randomized to the specified max and min.\nDistribute: Ability AP Costs will totalled and re-distributed randomly between the specified max and min.")
+    ap_costs_group.add_argument('--max_ap_cost',
+        widget = "Slider",
+        gooey_options={'min': 4,
+                'max': 9,
+                'increment': 1},
+        default = int(presets["max_ap_cost"]),
+        metavar = "Max AP Cost",
+        help = "If Randomize AP Costs is set to Randomize or Distribute, this defined the max AP cost an ability can have.")
+    ap_costs_group.add_argument('--min_ap_cost',
+        widget = "Slider",
+        gooey_options={'min': 0,
+                'max': 2,
+                'increment': 1},
+        default = int(presets["min_ap_cost"]),
+        metavar = "Min AP Cost",
+        help = "If Randomize AP Costs is set to Randomize or Distribute, this defined the minimum AP cost an ability can have.")
     
     args = parser.parse_args()
     write_presets(args)
@@ -624,6 +649,9 @@ def create_yaml(args):
     yaml_str = yaml_str + get_unskippable_line(args.unskippable)
     yaml_str = yaml_str + get_auto_save_line(args.auto_save)
     yaml_str = yaml_str + get_warp_anywhere_line(args.warp_anywhere)
+    yaml_str = yaml_str + get_randomize_ap_costs_line(args.randomize_ap_costs)
+    yaml_str = yaml_str + get_max_ap_cost_line(args.max_ap_cost)
+    yaml_str = yaml_str + get_min_ap_cost_line(args.min_ap_cost)
     output_yaml(yaml_str, args.slot_name)
 
 def get_slot_name_line(slot_name):
@@ -842,6 +870,15 @@ def get_auto_save_line(auto_save):
 
 def get_warp_anywhere_line(warp_anywhere):
     return "  warp_anywhere: " + str(warp_anywhere).replace("Yes", "true").replace("No", "false") + "\n"
+
+def get_randomize_ap_costs_line(randomize_ap_costs):
+    return "  randomize_ap_costs: " + str(randomize_ap_costs).replace(" ", "_").lower() + "\n"
+
+def get_max_ap_cost_line(max_ap_cost):
+    return "  max_ap_cost: " + str(max_ap_cost) + "\n"
+
+def get_min_ap_cost_line(min_ap_cost):
+    return "  min_ap_cost: " + str(min_ap_cost) + "\n"
 
 def output_yaml(yaml_str, slot_name):
     slot_name = slot_name.replace("{number}", "")

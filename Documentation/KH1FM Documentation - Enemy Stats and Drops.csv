@@ -1904,19 +1904,19 @@ Stealth Soldier,Stat Page Pre Riku Ansem,xa_ex_2430.mdls,74694,B4 00 00 00,Int,1
 Stealth Soldier,Stat Page Pre Riku Ansem,xa_ex_2430.mdls,746B0,78 00 00 00,Int,120,EXP
 Stealth Soldier,Stat Page Post Riku Ansem,xa_ex_2430.mdls,74700,F0 00 00 00,Int,240,HP
 Stealth Soldier,Stat Page Post Riku Ansem,xa_ex_2430.mdls,7471C,F0 00 00 00,Int,240,EXP
-Stealth Soldier,Drop Table,xa_ex_2430.mdls,74690,00 00 00 00,Int,0,Small Munny
-Stealth Soldier,Drop Table,xa_ex_2430.mdls,74694,00 00 00 00,Int,0,Medium Munny
-Stealth Soldier,Drop Table,xa_ex_2430.mdls,74698,00 00 00 00,Int,0,Large Munny
-Stealth Soldier,Drop Table,xa_ex_2430.mdls,7469C,00 00 00 00,Int,0,Small HP
-Stealth Soldier,Drop Table,xa_ex_2430.mdls,746A0,00 00 00 00,Int,0,Large HP
-Stealth Soldier,Drop Table,xa_ex_2430.mdls,746A4,14 00 00 00,Int,20,Small MP
-Stealth Soldier,Drop Table,xa_ex_2430.mdls,746A8,0A 00 00 00,Int,10,Large MP
-Stealth Soldier,Drop Table,xa_ex_2430.mdls,746AC,00 00 00 00,Float,0,Chance Drop 1
-Stealth Soldier,Drop Table,xa_ex_2430.mdls,746B0,00 00 00 00,Int,0,Drop 1
-Stealth Soldier,Drop Table,xa_ex_2430.mdls,746B4,00 00 00 00,Float,0,Chance Drop 2
-Stealth Soldier,Drop Table,xa_ex_2430.mdls,746B8,00 00 00 00,Int,0,Drop 2
-Stealth Soldier,Drop Table,xa_ex_2430.mdls,746BC,33 33 B3 3E,Float,0.35,Chance Drop 3
-Stealth Soldier,Drop Table,xa_ex_2430.mdls,746C0,0B 00 00 00,Int,11,Drop 3
+Stealth Soldier,Drop Table,xa_ex_2430.mdls,7492C,00 00 00 00,Int,0,Small Munny
+Stealth Soldier,Drop Table,xa_ex_2430.mdls,74930,00 00 00 00,Int,0,Medium Munny
+Stealth Soldier,Drop Table,xa_ex_2430.mdls,74934,00 00 00 00,Int,0,Large Munny
+Stealth Soldier,Drop Table,xa_ex_2430.mdls,74938,00 00 00 00,Int,0,Small HP
+Stealth Soldier,Drop Table,xa_ex_2430.mdls,7493C,00 00 00 00,Int,0,Large HP
+Stealth Soldier,Drop Table,xa_ex_2430.mdls,74940,14 00 00 00,Int,20,Small MP
+Stealth Soldier,Drop Table,xa_ex_2430.mdls,74944,0A 00 00 00,Int,10,Large MP
+Stealth Soldier,Drop Table,xa_ex_2430.mdls,74948,00 00 00 00,Float,0,Chance Drop 1
+Stealth Soldier,Drop Table,xa_ex_2430.mdls,7494C,00 00 00 00,Int,0,Drop 1
+Stealth Soldier,Drop Table,xa_ex_2430.mdls,74950,00 00 00 00,Float,0,Chance Drop 2
+Stealth Soldier,Drop Table,xa_ex_2430.mdls,74954,00 00 00 00,Int,0,Drop 2
+Stealth Soldier,Drop Table,xa_ex_2430.mdls,74958,33 33 B3 3E,Float,0.35,Chance Drop 3
+Stealth Soldier,Drop Table,xa_ex_2430.mdls,7495C,0B 00 00 00,Int,11,Drop 3
 Gigas Shadow,Header,xa_ex_2440.mdls,31584,65 78 5F 32 34 34 30 2E 62 64,String,ex_2440.bd,Start of stats header
 Gigas Shadow,Stat Page Pre Riku Ansem,xa_ex_2440.mdls,31594,96 00 00 00,Int,150,HP
 Gigas Shadow,Stat Page Pre Riku Ansem,xa_ex_2440.mdls,315B0,01 00 00 00,Int,1,EXP

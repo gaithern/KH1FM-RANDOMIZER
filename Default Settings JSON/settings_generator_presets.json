@@ -68,5 +68,8 @@
     "unlock_0_volume": "No",
     "unskippable": "No",
     "auto_save": "Yes",
-    "warp_anywhere": "No"
+    "warp_anywhere": "No",
+    "randomize_ap_costs": "Off",
+    "max_ap_cost": "5",
+    "min_ap_cost": "0"
 }
