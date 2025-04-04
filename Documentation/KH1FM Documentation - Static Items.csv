@@ -1238,8 +1238,8 @@ Destiny Islands,Seashore,Defeat Riku (Day 1),Potion,1,/remastered/di01.ard/UK_di
 Destiny Islands,Seashore,Defeat Riku (Day 1),Potion,1,/remastered/di01.ard/UK_di01a.ev,N,2,F469,,
 Destiny Islands,Seashore,Defeat Trio (Day 1),Potion,1,/remastered/di01.ard/UK_di01a.ev,N,1,114A9,,
 Destiny Islands,Seashore,Defeat Trio (Day 1),Potion,1,/remastered/di01.ard/UK_di01a.ev,N,2,114B5,,
-Destiny Islands,Seashore,Brings Items to Kairi (Day 1),Hi-Potion,1,/remastered/di01.ard/UK_di01a.ev,N,1,15089,2656710,Destiny Islands Seashore Deliver Kairi Items (Day 1)
-Destiny Islands,Seashore,Brings Items to Kairi (Day 1),Hi-Potion,1,/remastered/di01.ard/UK_di01a.ev,N,2,15095,2656710,Destiny Islands Seashore Deliver Kairi Items (Day 1)
+Destiny Islands,Seashore,Brings Items to Kairi (Day 1),Hi-Potion,1,/remastered/di01.ard/UK_di01a.ev,N,1,15089,,
+Destiny Islands,Seashore,Brings Items to Kairi (Day 1),Hi-Potion,1,/remastered/di01.ard/UK_di01a.ev,N,2,15095,,
 Destiny Islands,Seashore,Capture Fish 3 (Day 2),Fish,1,/remastered/di01.ard/UK_di01_ard2.evdl,N,1,FCC5,2656702,Destiny Islands Seashore Capture Fish 3 (Day 2)
 Destiny Islands,Seashore,Capture Fish 3 (Day 2),Fish,1,/remastered/di01.ard/UK_di01_ard2.evdl,N,2,FCD1,2656702,Destiny Islands Seashore Capture Fish 3 (Day 2)
 Destiny Islands,Seashore,Capture Fish 1 (Day 2),Fish,1,/remastered/di01.ard/UK_di01_ard2.evdl,N,1,F7B1,2656700,Destiny Islands Seashore Capture Fish 1 (Day 2)
@@ -1272,5 +1272,5 @@ Destiny Islands,Cove,Gather Coconut (Day 2),Coconut,1,/remastered/di03.ard/UK_di
 Destiny Islands,Cove,Gather Coconut (Day 2),Coconut,1,/remastered/di03.ard/UK_di03a.ev,N,2,9001,,
 Destiny Islands,Cove,Gather Coconut (Day 2),Coconut,1,/remastered/di03.ard/UK_di03a.ev,N,3,12A54,,
 Destiny Islands,Cove,Gather Coconut (Day 2),Coconut,1,/remastered/di03.ard/UK_di03a.ev,N,4,12A60,,
-Destiny Islands,Cove,Kairi Reward (Day 2),Hi-Potion,1,/remastered/di03.ard/UK_di03a.ev,N,1,17B2D,2656716,Destiny Islands Cove Deliver Kairi Items (Day 2)
-Destiny Islands,Cove,Kairi Reward (Day 2),Hi-Potion,1,/remastered/di03.ard/UK_di03a.ev,N,2,17B39,2656716,Destiny Islands Cove Deliver Kairi Items (Day 2)
+Destiny Islands,Cove,Kairi Reward (Day 2),Hi-Potion,1,/remastered/di03.ard/UK_di03a.ev,N,1,17B2D,,
+Destiny Islands,Cove,Kairi Reward (Day 2),Hi-Potion,1,/remastered/di03.ard/UK_di03a.ev,N,2,17B39,,

@@ -69,7 +69,7 @@ function handle_worlds(stock)
     worlds_unlocked_items[6] = stock[166]
     worlds_unlocked_items[7] = stock[157]
     worlds_unlocked_items[8] = stock[165]
-    if ReadByte(world_progress_array_address[game_version]) >= 0x3E then
+    if can_enter_hb() then
         worlds_unlocked_items[9] = stock[168]
     else
         worlds_unlocked_items[9] = 0
@@ -259,6 +259,11 @@ function write_soras_stats(soras_stats_array)
     WriteByte(soras_stats_address[game_version] + sora_defense_offset         , soras_stats_array[5])
     WriteByte(soras_stats_address[game_version] + sora_item_slots_offset      , soras_stats_array[6])
     WriteByte(soras_stats_address[game_version] + sora_accessory_slots_offset , soras_stats_array[7])
+end
+
+function can_enter_hb()
+    --If the player has done the Earthshine Leon event and not beaten Riku Ansem, or they have done the Kairi Oathkeeper event, they can go to HB2
+    return ReadByte(world_progress_array_address[game_version]) >= 0x8C or (ReadByte(world_progress_array_address[game_version]) >= 0x3E and ReadByte(world_progress_array_address[game_version] + 0xA) < 0x82)
 end
 
 function _OnInit()

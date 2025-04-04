@@ -27,28 +27,54 @@ local warpType1 = {0x23405C0, 0x233FBC0}
 local warpType2 = {0x22ECA90, 0x22EC0B0}
 local warpDefinitions = {0x232E900, 0x232DF10}
 
+local stock_address = {0x2DEA1FA, 0x2DE97FA}
+
 local frames = 0
 local warped_to_eotw = false
 
-function enable_di_landing()
-    if ReadInt(inGummi[game_version]) > 0 then
-        if ReadByte(gummiSelect[game_version]) == 3 then
-            WriteShort(worldWarps[game_version], 1) -- Add DI warp
-            if (ReadByte(unlockedWarps[game_version]) // 8) % 2 == 0 then
-                WriteByte(unlockedWarps[game_version], math.max(ReadByte(unlockedWarps[game_version]) + 8, 9))
+local day_2_materials = 0
+local homecoming_materials = 0
+
+function enable_di_landing(destiny_islands_item)
+    if destiny_islands_item > 0 then
+        if ReadInt(inGummi[game_version]) > 0 then
+            if ReadByte(gummiSelect[game_version]) == 3 then
+                WriteShort(worldWarps[game_version], 1) -- Add DI warp
+                if (ReadByte(unlockedWarps[game_version]) // 8) % 2 == 0 then
+                    WriteByte(unlockedWarps[game_version], math.max(ReadByte(unlockedWarps[game_version]) + 8, 9))
+                end
+                WriteByte(warpCount[game_version], 4)
+            else
+                WriteShort(worldWarps[game_version], 4) -- Revert to Wonderland
             end
-            WriteByte(warpCount[game_version], 4)
-        else
-            WriteShort(worldWarps[game_version], 4) -- Revert to Wonderland
+        end
+    end
+end
+
+function allow_progress(raft_materials_item)
+    can_progress_day_1 = world_flags_address[game_version] + 0x305
+    can_progress_day_2 = world_flags_address[game_version] + 0x2F3
+    finished_race_with_riku = world_flags_address[game_version] + 0x315
+    if (ReadByte(world[game_version]) == 1) then --On DI
+        if ReadByte(room_flags_address[game_version]+7) == 0 then --Day 1
+            if raft_materials_item >= day_2_materials then
+                WriteByte(can_progress_day_1, 2)
+            else
+                WriteByte(can_progress_day_1, 0)
+            end
+        end
+        if ReadByte(room_flags_address[game_version]+7) == 2 then --Day 2
+            WriteByte(finished_race_with_riku, 1)
+            if raft_materials_item >= homecoming_materials and ReadByte(can_progress_day_2) > 0 then --Given Empty Bottle
+                WriteByte(can_progress_day_2, 2)
+            end
         end
     end
 end
 
 function revert_day2()
-    kairi_lists_supplies_needed = world_flags_address[game_version] + 0x305
     if (ReadByte(world[game_version]) ~= 1 and ReadByte(world[game_version]) ~= 2) and ReadByte(room_flags_address[game_version]+7) ~= 0 then --Not in Destiny Islands and Seashore not on Day 1
         WriteByte(room_flags_address[game_version]+7, 0)
-        WriteByte(kairi_lists_supplies_needed, 2)
     end
 end
 
@@ -116,8 +142,11 @@ end
 
 function _OnFrame()
     if canExecute then
-        enable_di_landing()
+        destiny_islands_item = ReadByte(stock_address[game_version] + (11-1))
+        raft_materials_item = ReadByte(stock_address[game_version] + (12-1))
         revert_day2()
+        enable_di_landing(destiny_islands_item)
+        allow_progress(raft_materials_item)
         kairi_gift_unmissable()
         warp_to_homecoming()
     end

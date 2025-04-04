@@ -79,8 +79,8 @@ function define_items()
   { ID = 2641008, Name = "Megalixir", },
   { ID = 2641009, Name = "Torn Page",                 Usefulness = item_usefulness.progression },
   { ID = 2641010, Name = "Final Door Key",            Usefulness = item_usefulness.progression },
-  { ID = 2641011, Name = "Energy Stone" },
-  { ID = 2641012, Name = "Blazing Stone" },
+  { ID = 2641011, Name = "Destiny Islands",           Usefulness = item_usefulness.progression },
+  { ID = 2641012, Name = "Raft Materials",            Usefulness = item_usefulness.progression },
   { ID = 2641013, Name = "Frost Stone" },
   { ID = 2641014, Name = "Lightning Stone" },
   { ID = 2641015, Name = "Dazzling Stone" },
@@ -781,7 +781,7 @@ function show_prompt_for_item(item)
         item.Usefulness = catUsefulness
     end
     colour = usefulness_to_colour(item.Usefulness)
-    show_prompt({ text_1 }, text_2, null, colour)
+    show_prompt({ "" }, text_2, null, colour)
 end
 
 function show_prompt(input_title, input_party, duration, colour)

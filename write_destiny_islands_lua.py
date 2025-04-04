@@ -18,10 +18,18 @@ def output_destiny_islands_lua_file(destiny_islands_lua_str):
     with open('./Working/scripts/1fmRandoAllowDestinyIslands.lua', mode = 'w') as file:
         file.write(destiny_islands_lua_str)
 
+def update_destiny_islands_lua_str(destiny_islands_lua_str, day_2_materials, homecoming_materials):
+    destiny_islands_lua_str = destiny_islands_lua_str.replace("day_2_materials = 0", "day_2_materials = " + str(day_2_materials))
+    destiny_islands_lua_str = destiny_islands_lua_str.replace("homecoming_materials = 0", "homecoming_materials = " + str(homecoming_materials))
+    return destiny_islands_lua_str
+
 def write_destiny_islands_lua(settings_file = None):
     settings_data = get_settings_data(settings_file)
     if settings_data["destiny_islands"]:
+        day_2_materials = settings_data["day_2_materials"]
+        homecoming_materials = settings_data["homecoming_materials"]
         destiny_islands_lua_str = get_destiny_islands_lua_str()
+        destiny_islands_lua_str = update_destiny_islands_lua_str(destiny_islands_lua_str, day_2_materials, homecoming_materials)
         output_destiny_islands_lua_file(destiny_islands_lua_str)
 
 if __name__ == "__main__":

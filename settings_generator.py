@@ -116,7 +116,31 @@ def main():
             "No"],
         default = presets["destiny_islands"],
         metavar = "Destiny Islands",
-        help = "If on, Traverse Town will have an additional place to land - Seashore in Destiny Islands.  Destiny Islands items will be shuffled into the item pool.  Turning in all Destiny Islands items to Kairi sends the player to the final fights.")
+        help = "If on, Adds a Destiny Islands item and a number of Raft Materials items to the pool. When \"Destiny Islands\" is found, Traverse Town will have an additional place to land - Seashore.  \"Raft Materials\" allow progress into Day 2 and to Homecoming.  The amount is defined in Day 2 Materials and Homecoming Materials.")
+    goal_group.add_argument('--day_2_materials',
+        widget='Slider',
+        gooey_options={'min': 0,
+            'max': 20,
+            'increment': 1},
+        default = int(presets["day_2_materials"]),
+        metavar = "Day 2 Materials",
+        help = "The number of Raft Materials required to access Day 2.")
+    goal_group.add_argument('--homecoming_materials',
+        widget='Slider',
+        gooey_options={'min': 0,
+            'max': 20,
+            'increment': 1},
+        default = int(presets["homecoming_materials"]),
+        metavar = "Homecoming Materials",
+        help = "The number of Raft Materials required to access Homecoming.")
+    goal_group.add_argument('--materials_in_pool',
+        widget='Slider',
+        gooey_options={'min': 0,
+            'max': 20,
+            'increment': 1},
+        default = int(presets["materials_in_pool"]),
+        metavar = "Materials in Pool",
+        help = "Total number of Raft Materials in the item pool.")
     locations_group.add_argument('--super_bosses',
         choices = ["Yes",
             "No"],
@@ -588,6 +612,9 @@ def create_yaml(args):
     yaml_str = yaml_str + get_required_postcards_line(args.required_postcards)
     yaml_str = yaml_str + get_required_puppies_line(args.required_puppies)
     yaml_str = yaml_str + get_destiny_islands_line(args.destiny_islands)
+    yaml_str = yaml_str + get_day_2_materials_line(args.day_2_materials)
+    yaml_str = yaml_str + get_homecoming_materials_line(args.homecoming_materials)
+    yaml_str = yaml_str + get_materials_in_pool_line(args.materials_in_pool)
     yaml_str = yaml_str + get_super_bosses_line(args.super_bosses)
     yaml_str = yaml_str + get_atlantica_line(args.atlantica)
     yaml_str = yaml_str + get_cups_line(args.cups)
@@ -683,6 +710,15 @@ def get_required_puppies_line(required_puppies):
 
 def get_destiny_islands_line(destiny_islands):
     return "  destiny_islands: " + str(destiny_islands).replace("Yes", "true").replace("No", "false") + "\n"
+
+def get_day_2_materials_line(day_2_materials):
+    return "  day_2_materials: " + str(day_2_materials) + "\n"
+
+def get_homecoming_materials_line(homecoming_materials):
+    return "  homecoming_materials: " + str(homecoming_materials) + "\n"
+
+def get_materials_in_pool_line(materials_in_pool):
+    return "  materials_in_pool: " + str(materials_in_pool) + "\n"
 
 def get_super_bosses_line(super_bosses):
     return "  super_bosses: " + str(super_bosses).replace("Yes", "true").replace("No", "false") + "\n"

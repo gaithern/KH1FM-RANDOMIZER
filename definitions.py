@@ -348,6 +348,8 @@ kh1_hex_to_char_map = [
 new_item_descriptions = {
     9: "Allows progression in 100 Acre Wood.",
     10: "Manifests the Door in Final Rest.",
+    11: "Allows travel to Destiny Islands.\nSeashore is added as a landing option for\nTraverse Town.",
+    12: "Allows progression in Destiny Islands.",
     149: "Allows travel to Wonderland.",
     150: "Allows travel to Olympus Coliseum.",
     151: "Allows travel to Deep Jungle.",
@@ -356,7 +358,7 @@ new_item_descriptions = {
     157: "Allows travel to Atlantica.",
     165: "Allows travel to Neverland.",
     166: "Allows travel to Halloween Town.",
-    167: "Puppies to return in Traverse Town.\nMultiplied by your definied puppy value in settings.",
+    167: "Puppies to return in Traverse Town.\nMultiplied by your defined puppy value in settings.",
     168: "Allows travel to Hollow Bastion.",
     169: "Allows travel to End of the World.",
     170: "Allows interaction with Blue Trinity marks.",
@@ -376,10 +378,10 @@ new_item_descriptions = {
     184: "Allows entrance to the Pegasus Cup.",
     185: "Allows entrance to the Hercules Cup.",
     186: "Used for item synthesis in Traverse Town.",
-    188: "Used to progress in Hollow Bastion.",
-    189: "Used to progress in Hollow Bastion.",
-    190: "Used to progress in Hollow Bastion.",
-    191: "Used to progress in Hollow Bastion.",
+    188: "Used to progress in Hollow Bastion (Flame).",
+    189: "Used to progress in Hollow Bastion (Chest).",
+    190: "Used to progress in Hollow Bastion (Statue).",
+    191: "Used to progress in Hollow Bastion (Fountain).",
     210: "Used to progress in Atlantica.",
     211: "Drop in Traverse Town mailbox.",
     217: "Used to progress in Deep Jungle.",
@@ -702,8 +704,8 @@ sort_order = [
     , 8     # Megalixir
     , 5003  # Fury Stone (Becomes Torn Page)
     , 5004  # Power Stone (Becomes Final Door Key)
-    , 3035  # Energy Stone
-    , 3045  # Blazing Stone
+    , 4011  # Energy Stone (Becomes Destiny Islands)
+    , 5005  # Blazing Stone (Becomes Raft Materials)
     , 3055  # Frost Stone
     , 3065  # Lightning Stone
     , 3075  # Dazzling Stone
