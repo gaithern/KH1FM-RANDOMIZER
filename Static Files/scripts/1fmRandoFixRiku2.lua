@@ -8,6 +8,17 @@ frame_count = 0
 corrected = false
 second_visit = {false,false,false,false}
 
+function toBits(num)
+    -- returns a table of bits, least significant first.
+    local t={} -- will contain the bits
+    while num>0 do
+        rest=math.fmod(num,2)
+        t[#t+1]=rest
+        num=(num-rest)/2
+    end
+    return t
+end
+
 function read_world_progress_array()
     --[[Reads an array of world progress bytes that correspond to Sora's progress through
     each world.  The order of worlds are as follows:
@@ -136,6 +147,46 @@ function turn_on_kurt_zisa()
     end
 end
 
+function handle_phantom(neverland_progress)
+    world = {0x2340E5C, 0x233FE84}
+    if (neverland_progress == 0x78 or neverland_progress == 0x6E) and ReadByte(world[game_version]) ~= 0xD then -- Neverland finished but not post Phantom, and we're not in Neverland
+        clock_tower_doors_opened = false
+        clock_tower_chest_opened = false
+        
+        clock_tower_door_address = {0x2DEBBC2, 0x2DEB1C2}
+        clock_tower_door_byte = ReadByte(clock_tower_door_address[game_version])
+        clock_tower_door_bits = toBits(clock_tower_door_byte)
+        if clock_tower_door_bits[5] == nil then
+            clock_tower_door_bits[5] = 0
+        end
+        if clock_tower_door_bits[5] == 1 then
+            clock_tower_doors_opened = true
+        end
+        
+        clock_tower_chest_address = {0x2DEA4BC, 0x2DE9ABC}
+        clock_tower_chest_byte = ReadByte(clock_tower_chest_address[game_version])
+        clock_tower_chest_bits = toBits(clock_tower_chest_byte)
+        if clock_tower_chest_bits[4] == nil then
+            clock_tower_chest_bits[4] = 0
+        end
+        if clock_tower_chest_bits[4] == 1 then
+            clock_tower_chest_opened = true
+        end
+        
+        world_flags_address = {0x2DEBDCC, 0x2DEB3CC}
+        clock_tower_room_address = world_flags_address[game_version] + 0xA0 + 0xE
+        clock_tower_room_state = ReadByte(clock_tower_room_address)
+        
+        if not (clock_tower_chest_opened and clock_tower_doors_opened) and clock_tower_room_state == 0x1 then
+            --Something isn't opened but Phantom is set
+            WriteByte(clock_tower_room_address, 0x2) -- Back to calm state
+        elseif clock_tower_room_address and clock_tower_doors_opened and clock_tower_room_state == 0x2 then
+            --Everything is open, room is in calm state, but we've been Riku-Ansem and we're still not post Phantom
+            WriteByte(clock_tower_room_address, 0x1) -- Back to Phantom state
+        end
+    end
+end
+
 function fix_library()
     world_flag_base_address = {0x2DEBDCC, 0x2DEB3CC} --changed for EGS 1.0.0.10
     hollow_bastion_world_flag_base_address = world_flag_base_address[game_version] + 0xB0
@@ -184,6 +235,7 @@ function main()
         if specific_worlds_progress_array[3] >= 0x82 then
             turn_on_kurt_zisa()
         end
+        handle_phantom(specific_worlds_progress_array[4])
     end
 end
 

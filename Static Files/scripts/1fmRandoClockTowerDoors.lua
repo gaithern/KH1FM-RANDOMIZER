@@ -29,6 +29,9 @@ end
 function _OnFrame()
     if canExecute then
         if ReadByte(world) == 0xD and ReadByte(room) == 0x9 then
+            if ReadByte(terminusTeleUsable + 0x10) == 0x0 then
+                WriteByte(terminusTeleUsable + 0x10, 0x1)
+            end
             clock_tower_doors_opened_bytes = ReadArray(worldFlagBase - 0x2EF, 2)
             clock_tower_doors_bits_1 = toBits(clock_tower_doors_opened_bytes[1])
             clock_tower_doors_bits_2 = toBits(clock_tower_doors_opened_bytes[2])
