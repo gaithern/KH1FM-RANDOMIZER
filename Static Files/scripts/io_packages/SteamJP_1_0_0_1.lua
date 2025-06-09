@@ -83,7 +83,8 @@ zantValue = 0
 
 -- early skip
 skipArray1 = 0x17A21C
-skipArray2 = 0x17F0A3
+skipArray2 = 0x17A23C
+skipArray3 = 0x17F0A3
 skipFlag1 = 0x233FEE8
 skipFlag2 = 0x23404D0
 
