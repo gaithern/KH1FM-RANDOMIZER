@@ -23,7 +23,7 @@ local reports = {0x2DEB720, 0x2DEAD20} --changed for EGS 1.0.0.10
 local worldFlagBase = {0x2DEBDCC, 0x2DEB3CC} --changed for EGS 1.0.0.10
 local gummiFlagBase = {0x2DEBC50, 0x2DEB250} --changed for EGS 1.0.0.10
 local gummiselect = {0x507D7C, 0x50707C}
-local inGummi = {0x5082AD, 0x5075A8} --may need to revist
+local inGummi = {0x50832D, 0x5075A8} --may need to revist
 local battleLevel = {0x2DEB724, 0x2DEAD24} --changed for EGS 1.0.0.10
 local unlockedWarps = {0x2DEBC66, 0x2DEB266} --changed for EGS 1.0.0.10
 local cutsceneFlags = {0x2DEA760, 0x2DE9D60} --changed for EGS 1.0.0.10
@@ -98,6 +98,7 @@ function FlagFixes()
     end
 
     if ReadByte(world[game_version]) == 1 and ReadFloat(soraHUD[game_version]) > 0 and ReadInt(inGummi[game_version]) == 0 then
+        -- If you're in Destiny Islands and not in your Gummi Ship, make your party empty
         debugPrint("Section 2")
         WriteByte(party1[game_version], 0xFF)
         WriteByte(party1[game_version]+1, 0xFF)
@@ -208,7 +209,12 @@ function FlagFixes()
         
         -- Require Entry Pass
         if ReadByte(cutsceneFlags[game_version]+0xB06) == 0x10 then
-            WriteByte(worldFlagBase[game_version]+0x94, ReadByte(inventory[game_version]+0xE4) > 0 and 3 or 2)
+            if ReadByte(inventory[game_version]+0xE4) > 0
+                    or ReadByte(worldFlagsAddress[game_version] + 0x201 >= 0x2) then
+                WriteByte(worldFlagBase[game_version]+0x94, 3)
+            else
+                WriteByte(worldFlagBase[game_version]+0x94, 2)
+            end
         end
     end
     
@@ -242,18 +248,33 @@ function FlagFixes()
         end
     end
     
-    if ReadInt(inGummi[game_version]) > 0 then
+    if ReadInt(inGummi[game_version]) > 0 then --In gummi menu
         debugPrint("Section 18")
         if ReadByte(gummiselect[game_version]) == 3 and ReadByte(cutsceneFlags[game_version]+0xB04) < 0x31 then
+            -- If you've selected Traverse Town shouldn't have D+G yet, make your party empty
             WriteByte(party1[game_version], 0xFF)
             WriteByte(party1[game_version]+1, 0xFF)
-        elseif ReadByte(gummiselect[game_version]) == 0xF and ReadByte(cutsceneFlags[game_version]+0xB0E) < 0x31
-                                            and ReadByte(cutsceneFlags[game_version]+0xB0E) >= 0x1E then
+        elseif ReadByte(gummiselect[game_version]) == 0xF 
+                and ReadByte(cutsceneFlags[game_version]+0xB0E) < 0x31
+                and ReadByte(cutsceneFlags[game_version]+0xB0E) >= 0x1E then
+            -- If you've selected Hollow Bastion and are in the part where you should only have Beast, make your party only Beast.
             WriteByte(party1[game_version], 9)
             WriteByte(party1[game_version]+1, 0xFF)
             WriteByte(party2[game_version], 9)
             WriteByte(party2[game_version]+1, 0xFF)
-        elseif ReadByte(party1[game_version]) >= 9 then
+        elseif ReadByte(gummiselect[game_version]) == 0x5
+                and ReadByte(cutsceneFlags[game_version]+0xB05) > 0x0
+                and ReadByte(cutsceneFlags[game_version]+0xB05) < 0x17 then
+            -- If you've selected Deep Jungle and are in the part where you should only have Tarzan, make your party only Tarzan.
+            WriteByte(party1[game_version], 3)
+            WriteByte(party1[game_version]+1, 0xFF)
+            WriteByte(party2[game_version], 3)
+            WriteByte(party2[game_version]+1, 0xFF)
+        elseif not (ReadByte(party1[game_version]) == 0x1 or ReadByte(party1[game_version]) == 0x2)
+                or not (ReadByte(party1[game_version] + 0x1) == 0x1 or ReadByte(party1[game_version] + 0x1) == 0x2)
+                or not (ReadByte(party2[game_version]) == 0x1 or ReadByte(party1[game_version]) == 0x2)
+                or not (ReadByte(party2[game_version] + 0x1) == 0x1 or ReadByte(party1[game_version] + 0x1) == 0x2) then
+        -- Else if your party has anything other than D+G, make it D+G
             for i=0,1 do
                 WriteByte(party1[game_version]+i, i+1)
                 WriteByte(party2[game_version]+i, i+1)
@@ -274,17 +295,6 @@ function FlagFixes()
         
         if (ReadByte(tutorialFlag[game_version]) // 0x10) % 2 == 0 then
             WriteByte(tutorialFlag[game_version], ReadByte(tutorialFlag[game_version])+0x10)
-        end
-    end
-    
-    if ReadByte(world[game_version]) == 1 and ReadByte(blackfade[game_version])>0 and ReadByte(worldFlagBase[game_version]+0xA) == 2 then -- DI Day2 Warp to EotW
-        debugPrint("Section 19")
-        RoomWarp(0x10, 0x42)
-        WriteByte(party1[game_version], 1)
-        WriteByte(party1[game_version]+1, 2)
-        WriteByte(worldFlagBase[game_version]+0xA, 0)
-        if ReadByte(cutsceneFlags[game_version]+0xB0F) >= 0x5A then
-            WriteByte(cutsceneFlags[game_version]+0xB0F, 0)
         end
     end
     
