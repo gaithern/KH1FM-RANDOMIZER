@@ -122,9 +122,6 @@ function fix_world_states()
             WriteInt(PuppyFlag[game_version]+0x17, 1)
         end
     end
-    if ReadByte(world[game_version]) == 0x0B and ReadShort(stateFlag[game_version]) == 0x04 then --During OC if Sora is Alone
-        WriteShort(party1[game_version], 0x0201)
-    end
     if ReadByte(SephirothFlag[game_version]+0x00) == 0x01 and ReadByte(SephirothFlag[game_version]+0x48) == 0x00 then --After Sephiroth Cutscene
         if ReadByte(roomFlags[game_version]+0x7D) == 0x06 and ReadShort(stateFlag[game_version]) == 0x04 then
             WriteByte(SephirothFlag[game_version]+0x00, 0x00)

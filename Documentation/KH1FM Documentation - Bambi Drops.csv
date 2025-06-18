@@ -403,3 +403,407 @@ Drop Table (???),xa_ex_4030.mdls,D20F0,00 00 00 00,Float,0,Chance Drop 2
 Drop Table (???),xa_ex_4030.mdls,D20F4,00 00 00 00,Int,0,Drop 2
 Drop Table (???),xa_ex_4030.mdls,D20F8,00 00 00 00,Float,0,Chance Drop 3
 Drop Table (???),xa_ex_4030.mdls,D20FC,00 00 00 00,Int,0,Drop 3
+Header,xs_bambi.dat,D1A84,65 78 5F 34 30 33 30 2E 62 64,String,ex_4030.bd,Start of stats header
+Drop Table (Lvl 1 Prance),xs_bambi.dat,D1B34,00 00 00 00,Int,0,Small Munny
+Drop Table (Lvl 1 Prance),xs_bambi.dat,D1B38,00 00 00 00,Int,0,Medium Munny
+Drop Table (Lvl 1 Prance),xs_bambi.dat,D1B3C,00 00 00 00,Int,0,Large Munny
+Drop Table (Lvl 1 Prance),xs_bambi.dat,D1B40,00 00 00 00,Int,0,Small HP
+Drop Table (Lvl 1 Prance),xs_bambi.dat,D1B44,00 00 00 00,Int,0,Large HP
+Drop Table (Lvl 1 Prance),xs_bambi.dat,D1B48,0A 00 00 00,Int,10,Small MP
+Drop Table (Lvl 1 Prance),xs_bambi.dat,D1B4C,00 00 00 00,Int,0,Large MP
+Drop Table (Lvl 1 Prance),xs_bambi.dat,D1B50,00 00 00 00,Float,0,Chance Drop 2
+Drop Table (Lvl 1 Prance),xs_bambi.dat,D1B54,00 00 00 00,Int,0,Drop 2
+Drop Table (Lvl 1 Prance),xs_bambi.dat,D1B58,00 00 00 00,Float,0,Chance Drop 2
+Drop Table (Lvl 1 Prance),xs_bambi.dat,D1B5C,00 00 00 00,Int,0,Drop 2
+Drop Table (Lvl 1 Prance),xs_bambi.dat,D1B60,00 00 00 00,Float,0,Chance Drop 2
+Drop Table (Lvl 1 Prance),xs_bambi.dat,D1B64,00 00 00 00,Int,0,Drop 2
+Drop Table (Lvl 2 Prance),xs_bambi.dat,D1B68,00 00 00 00,Int,0,Small Munny
+Drop Table (Lvl 2 Prance),xs_bambi.dat,D1B6C,00 00 00 00,Int,0,Medium Munny
+Drop Table (Lvl 2 Prance),xs_bambi.dat,D1B70,00 00 00 00,Int,0,Large Munny
+Drop Table (Lvl 2 Prance),xs_bambi.dat,D1B74,00 00 00 00,Int,0,Small HP
+Drop Table (Lvl 2 Prance),xs_bambi.dat,D1B78,00 00 00 00,Int,0,Large HP
+Drop Table (Lvl 2 Prance),xs_bambi.dat,D1B7C,05 00 00 00,Int,5,Small MP
+Drop Table (Lvl 2 Prance),xs_bambi.dat,D1B80,05 00 00 00,Int,5,Large MP
+Drop Table (Lvl 2 Prance),xs_bambi.dat,D1B84,00 00 00 00,Float,0,Chance Drop 1
+Drop Table (Lvl 2 Prance),xs_bambi.dat,D1B88,00 00 00 00,Int,0,Drop 1
+Drop Table (Lvl 2 Prance),xs_bambi.dat,D1B8C,00 00 00 00,Float,0,Chance Drop 2
+Drop Table (Lvl 2 Prance),xs_bambi.dat,D1B90,00 00 00 00,Int,0,Drop 2
+Drop Table (Lvl 2 Prance),xs_bambi.dat,D1B94,00 00 00 00,Float,0,Chance Drop 3
+Drop Table (Lvl 2 Prance),xs_bambi.dat,D1B98,00 00 00 00,Int,0,Drop 3
+Drop Table (Lvl 3 Prance),xs_bambi.dat,D1B9C,00 00 00 00,Int,0,Small Munny
+Drop Table (Lvl 3 Prance),xs_bambi.dat,D1BA0,00 00 00 00,Int,0,Medium Munny
+Drop Table (Lvl 3 Prance),xs_bambi.dat,D1BA4,00 00 00 00,Int,0,Large Munny
+Drop Table (Lvl 3 Prance),xs_bambi.dat,D1BA8,00 00 00 00,Int,0,Small HP
+Drop Table (Lvl 3 Prance),xs_bambi.dat,D1BAC,00 00 00 00,Int,0,Large HP
+Drop Table (Lvl 3 Prance),xs_bambi.dat,D1BB0,00 00 00 00,Int,0,Small MP
+Drop Table (Lvl 3 Prance),xs_bambi.dat,D1BB4,0A 00 00 00,Int,10,Large MP
+Drop Table (Lvl 3 Prance),xs_bambi.dat,D1BB8,00 00 00 00,Float,0,Chance Drop 1
+Drop Table (Lvl 3 Prance),xs_bambi.dat,D1BBC,00 00 00 00,Int,0,Drop 1
+Drop Table (Lvl 3 Prance),xs_bambi.dat,D1BC0,00 00 00 00,Float,0,Chance Drop 2
+Drop Table (Lvl 3 Prance),xs_bambi.dat,D1BC4,00 00 00 00,Int,0,Drop 2
+Drop Table (Lvl 3 Prance),xs_bambi.dat,D1BC8,00 00 00 00,Float,0,Chance Drop 3
+Drop Table (Lvl 3 Prance),xs_bambi.dat,D1BCC,00 00 00 00,Int,0,Drop 3
+Drop Table (Traverse Town 1 Gauge Filled),xs_bambi.dat,D1BD0,00 00 00 00,Int,0,Small Munny
+Drop Table (Traverse Town 1 Gauge Filled),xs_bambi.dat,D1BD4,00 00 00 00,Int,0,Medium Munny
+Drop Table (Traverse Town 1 Gauge Filled),xs_bambi.dat,D1BD8,00 00 00 00,Int,0,Large Munny
+Drop Table (Traverse Town 1 Gauge Filled),xs_bambi.dat,D1BDC,00 00 00 00,Int,0,Small HP
+Drop Table (Traverse Town 1 Gauge Filled),xs_bambi.dat,D1BE0,00 00 00 00,Int,0,Large HP
+Drop Table (Traverse Town 1 Gauge Filled),xs_bambi.dat,D1BE4,00 00 00 00,Int,0,Small MP
+Drop Table (Traverse Town 1 Gauge Filled),xs_bambi.dat,D1BE8,00 00 00 00,Int,0,Large MP
+Drop Table (Traverse Town 1 Gauge Filled),xs_bambi.dat,D1BEC,00 00 80 3F,Float,1,Chance Drop 1
+Drop Table (Traverse Town 1 Gauge Filled),xs_bambi.dat,D1BF0,01 00 00 00,Int,1,Drop 1
+Drop Table (Traverse Town 1 Gauge Filled),xs_bambi.dat,D1BF4,00 00 00 00,Float,0,Chance Drop 2
+Drop Table (Traverse Town 1 Gauge Filled),xs_bambi.dat,D1BF8,00 00 00 00,Int,0,Drop 2
+Drop Table (Traverse Town 1 Gauge Filled),xs_bambi.dat,D1BFC,00 00 00 00,Float,0,Chance Drop 3
+Drop Table (Traverse Town 1 Gauge Filled),xs_bambi.dat,D1C00,00 00 00 00,Int,0,Drop 3
+Drop Table (Traverse Town 2 Gauges Filled),xs_bambi.dat,D1C04,00 00 00 00,Int,0,Small Munny
+Drop Table (Traverse Town 2 Gauges Filled),xs_bambi.dat,D1C08,00 00 00 00,Int,0,Medium Munny
+Drop Table (Traverse Town 2 Gauges Filled),xs_bambi.dat,D1C0C,00 00 00 00,Int,0,Large Munny
+Drop Table (Traverse Town 2 Gauges Filled),xs_bambi.dat,D1C10,00 00 00 00,Int,0,Small HP
+Drop Table (Traverse Town 2 Gauges Filled),xs_bambi.dat,D1C14,00 00 00 00,Int,0,Large HP
+Drop Table (Traverse Town 2 Gauges Filled),xs_bambi.dat,D1C18,00 00 00 00,Int,0,Small MP
+Drop Table (Traverse Town 2 Gauges Filled),xs_bambi.dat,D1C1C,00 00 00 00,Int,0,Large MP
+Drop Table (Traverse Town 2 Gauges Filled),xs_bambi.dat,D1C20,00 00 80 3F,Float,1,Chance Drop 1
+Drop Table (Traverse Town 2 Gauges Filled),xs_bambi.dat,D1C24,03 00 00 00,Int,3,Drop 1
+Drop Table (Traverse Town 2 Gauges Filled),xs_bambi.dat,D1C28,CD CC 4C 3E,Float,0.2,Chance Drop 2
+Drop Table (Traverse Town 2 Gauges Filled),xs_bambi.dat,D1C2C,F1 00 00 00,Int,241,Drop 2
+Drop Table (Traverse Town 2 Gauges Filled),xs_bambi.dat,D1C30,00 00 00 00,Float,0,Chance Drop 3
+Drop Table (Traverse Town 2 Gauges Filled),xs_bambi.dat,D1C34,00 00 00 00,Int,0,Drop 3
+Drop Table (Traverse Town 3 Gauges Filled),xs_bambi.dat,D1C38,00 00 00 00,Int,0,Small Munny
+Drop Table (Traverse Town 3 Gauges Filled),xs_bambi.dat,D1C3C,00 00 00 00,Int,0,Medium Munny
+Drop Table (Traverse Town 3 Gauges Filled),xs_bambi.dat,D1C40,00 00 00 00,Int,0,Large Munny
+Drop Table (Traverse Town 3 Gauges Filled),xs_bambi.dat,D1C44,00 00 00 00,Int,0,Small HP
+Drop Table (Traverse Town 3 Gauges Filled),xs_bambi.dat,D1C48,00 00 00 00,Int,0,Large HP
+Drop Table (Traverse Town 3 Gauges Filled),xs_bambi.dat,D1C4C,00 00 00 00,Int,0,Small MP
+Drop Table (Traverse Town 3 Gauges Filled),xs_bambi.dat,D1C50,00 00 00 00,Int,0,Large MP
+Drop Table (Traverse Town 3 Gauges Filled),xs_bambi.dat,D1C54,00 00 80 3F,Float,1,Chance Drop 1
+Drop Table (Traverse Town 3 Gauges Filled),xs_bambi.dat,D1C58,02 00 00 00,Int,2,Drop 1
+Drop Table (Traverse Town 3 Gauges Filled),xs_bambi.dat,D1C5C,CD CC 4C 3E,Float,0.2,Chance Drop 2
+Drop Table (Traverse Town 3 Gauges Filled),xs_bambi.dat,D1C60,F1 00 00 00,Int,241,Drop 2
+Drop Table (Traverse Town 3 Gauges Filled),xs_bambi.dat,D1C64,CD CC 4C 3E,Float,0.2,Chance Drop 3
+Drop Table (Traverse Town 3 Gauges Filled),xs_bambi.dat,D1C68,F2 00 00 00,Int,242,Drop 3
+Drop Table (Wonderland 1 Gauge Filled),xs_bambi.dat,D1C6C,00 00 00 00,Int,0,Small Munny
+Drop Table (Wonderland 1 Gauge Filled),xs_bambi.dat,D1C70,00 00 00 00,Int,0,Medium Munny
+Drop Table (Wonderland 1 Gauge Filled),xs_bambi.dat,D1C74,00 00 00 00,Int,0,Large Munny
+Drop Table (Wonderland 1 Gauge Filled),xs_bambi.dat,D1C78,00 00 00 00,Int,0,Small HP
+Drop Table (Wonderland 1 Gauge Filled),xs_bambi.dat,D1C7C,00 00 00 00,Int,0,Large HP
+Drop Table (Wonderland 1 Gauge Filled),xs_bambi.dat,D1C80,00 00 00 00,Int,0,Small MP
+Drop Table (Wonderland 1 Gauge Filled),xs_bambi.dat,D1C84,00 00 00 00,Int,0,Large MP
+Drop Table (Wonderland 1 Gauge Filled),xs_bambi.dat,D1C88,00 00 80 3F,Float,1,Chance Drop 1
+Drop Table (Wonderland 1 Gauge Filled),xs_bambi.dat,D1C8C,01 00 00 00,Int,1,Drop 1
+Drop Table (Wonderland 1 Gauge Filled),xs_bambi.dat,D1C90,00 00 00 00,Float,0,Chance Drop 2
+Drop Table (Wonderland 1 Gauge Filled),xs_bambi.dat,D1C94,00 00 00 00,Int,0,Drop 2
+Drop Table (Wonderland 1 Gauge Filled),xs_bambi.dat,D1C98,00 00 00 00,Float,0,Chance Drop 3
+Drop Table (Wonderland 1 Gauge Filled),xs_bambi.dat,D1C9C,00 00 00 00,Int,0,Drop 3
+Drop Table (Wonderland 2 Gauges Filled),xs_bambi.dat,D1CA0,00 00 00 00,Int,0,Small Munny
+Drop Table (Wonderland 2 Gauges Filled),xs_bambi.dat,D1CA4,00 00 00 00,Int,0,Medium Munny
+Drop Table (Wonderland 2 Gauges Filled),xs_bambi.dat,D1CA8,00 00 00 00,Int,0,Large Munny
+Drop Table (Wonderland 2 Gauges Filled),xs_bambi.dat,D1CAC,00 00 00 00,Int,0,Small HP
+Drop Table (Wonderland 2 Gauges Filled),xs_bambi.dat,D1CB0,00 00 00 00,Int,0,Large HP
+Drop Table (Wonderland 2 Gauges Filled),xs_bambi.dat,D1CB4,00 00 00 00,Int,0,Small MP
+Drop Table (Wonderland 2 Gauges Filled),xs_bambi.dat,D1CB8,00 00 00 00,Int,0,Large MP
+Drop Table (Wonderland 2 Gauges Filled),xs_bambi.dat,D1CBC,00 00 80 3F,Float,1,Chance Drop 1
+Drop Table (Wonderland 2 Gauges Filled),xs_bambi.dat,D1CC0,03 00 00 00,Int,3,Drop 1
+Drop Table (Wonderland 2 Gauges Filled),xs_bambi.dat,D1CC4,CD CC 4C 3E,Float,0.2,Chance Drop 2
+Drop Table (Wonderland 2 Gauges Filled),xs_bambi.dat,D1CC8,F3 00 00 00,Int,243,Drop 2
+Drop Table (Wonderland 2 Gauges Filled),xs_bambi.dat,D1CCC,00 00 00 00,Float,0,Chance Drop 3
+Drop Table (Wonderland 2 Gauges Filled),xs_bambi.dat,D1CD0,00 00 00 00,Int,0,Drop 3
+Drop Table (Wonderland 3 Gauges Filled),xs_bambi.dat,D1CD4,00 00 00 00,Int,0,Small Munny
+Drop Table (Wonderland 3 Gauges Filled),xs_bambi.dat,D1CD8,00 00 00 00,Int,0,Medium Munny
+Drop Table (Wonderland 3 Gauges Filled),xs_bambi.dat,D1CDC,00 00 00 00,Int,0,Large Munny
+Drop Table (Wonderland 3 Gauges Filled),xs_bambi.dat,D1CE0,00 00 00 00,Int,0,Small HP
+Drop Table (Wonderland 3 Gauges Filled),xs_bambi.dat,D1CE4,00 00 00 00,Int,0,Large HP
+Drop Table (Wonderland 3 Gauges Filled),xs_bambi.dat,D1CE8,00 00 00 00,Int,0,Small MP
+Drop Table (Wonderland 3 Gauges Filled),xs_bambi.dat,D1CEC,00 00 00 00,Int,0,Large MP
+Drop Table (Wonderland 3 Gauges Filled),xs_bambi.dat,D1CF0,00 00 80 3F,Float,1,Chance Drop 1
+Drop Table (Wonderland 3 Gauges Filled),xs_bambi.dat,D1CF4,02 00 00 00,Int,2,Drop 1
+Drop Table (Wonderland 3 Gauges Filled),xs_bambi.dat,D1CF8,CD CC 4C 3E,Float,0.2,Chance Drop 2
+Drop Table (Wonderland 3 Gauges Filled),xs_bambi.dat,D1CFC,F3 00 00 00,Int,243,Drop 2
+Drop Table (Wonderland 3 Gauges Filled),xs_bambi.dat,D1D00,CD CC 4C 3E,Float,0.2,Chance Drop 3
+Drop Table (Wonderland 3 Gauges Filled),xs_bambi.dat,D1D04,F4 00 00 00,Int,244,Drop 3
+Drop Table (Deep Jungle 1 Gauge Filled),xs_bambi.dat,D1D08,00 00 00 00,Int,0,Small Munny
+Drop Table (Deep Jungle 1 Gauge Filled),xs_bambi.dat,D1D0C,00 00 00 00,Int,0,Medium Munny
+Drop Table (Deep Jungle 1 Gauge Filled),xs_bambi.dat,D1D10,00 00 00 00,Int,0,Large Munny
+Drop Table (Deep Jungle 1 Gauge Filled),xs_bambi.dat,D1D14,00 00 00 00,Int,0,Small HP
+Drop Table (Deep Jungle 1 Gauge Filled),xs_bambi.dat,D1D18,00 00 00 00,Int,0,Large HP
+Drop Table (Deep Jungle 1 Gauge Filled),xs_bambi.dat,D1D1C,00 00 00 00,Int,0,Small MP
+Drop Table (Deep Jungle 1 Gauge Filled),xs_bambi.dat,D1D20,00 00 00 00,Int,0,Large MP
+Drop Table (Deep Jungle 1 Gauge Filled),xs_bambi.dat,D1D24,00 00 80 3F,Float,1,Chance Drop 1
+Drop Table (Deep Jungle 1 Gauge Filled),xs_bambi.dat,D1D28,01 00 00 00,Int,1,Drop 1
+Drop Table (Deep Jungle 1 Gauge Filled),xs_bambi.dat,D1D2C,00 00 00 00,Float,0,Chance Drop 2
+Drop Table (Deep Jungle 1 Gauge Filled),xs_bambi.dat,D1D30,00 00 00 00,Int,0,Drop 2
+Drop Table (Deep Jungle 1 Gauge Filled),xs_bambi.dat,D1D34,00 00 00 00,Float,0,Chance Drop 3
+Drop Table (Deep Jungle 1 Gauge Filled),xs_bambi.dat,D1D38,00 00 00 00,Int,0,Drop 3
+Drop Table (Deep Jungle 2 Gauges Filled),xs_bambi.dat,D1D3C,00 00 00 00,Int,0,Small Munny
+Drop Table (Deep Jungle 2 Gauges Filled),xs_bambi.dat,D1D40,00 00 00 00,Int,0,Medium Munny
+Drop Table (Deep Jungle 2 Gauges Filled),xs_bambi.dat,D1D44,00 00 00 00,Int,0,Large Munny
+Drop Table (Deep Jungle 2 Gauges Filled),xs_bambi.dat,D1D48,00 00 00 00,Int,0,Small HP
+Drop Table (Deep Jungle 2 Gauges Filled),xs_bambi.dat,D1D4C,00 00 00 00,Int,0,Large HP
+Drop Table (Deep Jungle 2 Gauges Filled),xs_bambi.dat,D1D50,00 00 00 00,Int,0,Small MP
+Drop Table (Deep Jungle 2 Gauges Filled),xs_bambi.dat,D1D54,00 00 00 00,Int,0,Large MP
+Drop Table (Deep Jungle 2 Gauges Filled),xs_bambi.dat,D1D58,00 00 80 3F,Float,1,Chance Drop 1
+Drop Table (Deep Jungle 2 Gauges Filled),xs_bambi.dat,D1D5C,03 00 00 00,Int,3,Drop 1
+Drop Table (Deep Jungle 2 Gauges Filled),xs_bambi.dat,D1D60,CD CC 4C 3E,Float,0.2,Chance Drop 2
+Drop Table (Deep Jungle 2 Gauges Filled),xs_bambi.dat,D1D64,F5 00 00 00,Int,245,Drop 2
+Drop Table (Deep Jungle 2 Gauges Filled),xs_bambi.dat,D1D68,00 00 00 00,Float,0,Chance Drop 3
+Drop Table (Deep Jungle 2 Gauges Filled),xs_bambi.dat,D1D6C,00 00 00 00,Int,0,Drop 3
+Drop Table (Deep Jungle 3 Gauges Filled),xs_bambi.dat,D1D70,00 00 00 00,Int,0,Small Munny
+Drop Table (Deep Jungle 3 Gauges Filled),xs_bambi.dat,D1D74,00 00 00 00,Int,0,Medium Munny
+Drop Table (Deep Jungle 3 Gauges Filled),xs_bambi.dat,D1D78,00 00 00 00,Int,0,Large Munny
+Drop Table (Deep Jungle 3 Gauges Filled),xs_bambi.dat,D1D7C,00 00 00 00,Int,0,Small HP
+Drop Table (Deep Jungle 3 Gauges Filled),xs_bambi.dat,D1D80,00 00 00 00,Int,0,Large HP
+Drop Table (Deep Jungle 3 Gauges Filled),xs_bambi.dat,D1D84,00 00 00 00,Int,0,Small MP
+Drop Table (Deep Jungle 3 Gauges Filled),xs_bambi.dat,D1D88,00 00 00 00,Int,0,Large MP
+Drop Table (Deep Jungle 3 Gauges Filled),xs_bambi.dat,D1D8C,00 00 80 3F,Float,1,Chance Drop 1
+Drop Table (Deep Jungle 3 Gauges Filled),xs_bambi.dat,D1D90,02 00 00 00,Int,2,Drop 1
+Drop Table (Deep Jungle 3 Gauges Filled),xs_bambi.dat,D1D94,CD CC 4C 3E,Float,0.2,Chance Drop 2
+Drop Table (Deep Jungle 3 Gauges Filled),xs_bambi.dat,D1D98,F5 00 00 00,Int,245,Drop 2
+Drop Table (Deep Jungle 3 Gauges Filled),xs_bambi.dat,D1D9C,CD CC 4C 3E,Float,0.2,Chance Drop 3
+Drop Table (Deep Jungle 3 Gauges Filled),xs_bambi.dat,D1DA0,F6 00 00 00,Int,246,Drop 3
+Drop Table (Agrabah 1 Guage Filled),xs_bambi.dat,D1DA4,00 00 00 00,Int,0,Small Munny
+Drop Table (Agrabah 1 Guage Filled),xs_bambi.dat,D1DA8,00 00 00 00,Int,0,Medium Munny
+Drop Table (Agrabah 1 Guage Filled),xs_bambi.dat,D1DAC,00 00 00 00,Int,0,Large Munny
+Drop Table (Agrabah 1 Guage Filled),xs_bambi.dat,D1DB0,00 00 00 00,Int,0,Small HP
+Drop Table (Agrabah 1 Guage Filled),xs_bambi.dat,D1DB4,00 00 00 00,Int,0,Large HP
+Drop Table (Agrabah 1 Guage Filled),xs_bambi.dat,D1DB8,00 00 00 00,Int,0,Small MP
+Drop Table (Agrabah 1 Guage Filled),xs_bambi.dat,D1DBC,00 00 00 00,Int,0,Large MP
+Drop Table (Agrabah 1 Guage Filled),xs_bambi.dat,D1DC0,00 00 80 3F,Float,1,Chance Drop 1
+Drop Table (Agrabah 1 Guage Filled),xs_bambi.dat,D1DC4,01 00 00 00,Int,1,Drop 1
+Drop Table (Agrabah 1 Guage Filled),xs_bambi.dat,D1DC8,00 00 00 00,Float,0,Chance Drop 2
+Drop Table (Agrabah 1 Guage Filled),xs_bambi.dat,D1DCC,00 00 00 00,Int,0,Drop 2
+Drop Table (Agrabah 1 Guage Filled),xs_bambi.dat,D1DD0,00 00 00 00,Float,0,Chance Drop 3
+Drop Table (Agrabah 1 Guage Filled),xs_bambi.dat,D1DD4,00 00 00 00,Int,0,Drop 3
+Drop Table (Agrabah 2 Guages Filled),xs_bambi.dat,D1DD8,00 00 00 00,Int,0,Small Munny
+Drop Table (Agrabah 2 Guages Filled),xs_bambi.dat,D1DDC,00 00 00 00,Int,0,Medium Munny
+Drop Table (Agrabah 2 Guages Filled),xs_bambi.dat,D1DE0,00 00 00 00,Int,0,Large Munny
+Drop Table (Agrabah 2 Guages Filled),xs_bambi.dat,D1DE4,00 00 00 00,Int,0,Small HP
+Drop Table (Agrabah 2 Guages Filled),xs_bambi.dat,D1DE8,00 00 00 00,Int,0,Large HP
+Drop Table (Agrabah 2 Guages Filled),xs_bambi.dat,D1DEC,00 00 00 00,Int,0,Small MP
+Drop Table (Agrabah 2 Guages Filled),xs_bambi.dat,D1DF0,00 00 00 00,Int,0,Large MP
+Drop Table (Agrabah 2 Guages Filled),xs_bambi.dat,D1DF4,00 00 80 3F,Float,1,Chance Drop 1
+Drop Table (Agrabah 2 Guages Filled),xs_bambi.dat,D1DF8,03 00 00 00,Int,3,Drop 1
+Drop Table (Agrabah 2 Guages Filled),xs_bambi.dat,D1DFC,CD CC 4C 3E,Float,0.2,Chance Drop 2
+Drop Table (Agrabah 2 Guages Filled),xs_bambi.dat,D1E00,F8 00 00 00,Int,248,Drop 2
+Drop Table (Agrabah 2 Guages Filled),xs_bambi.dat,D1E04,00 00 00 00,Float,0,Chance Drop 3
+Drop Table (Agrabah 2 Guages Filled),xs_bambi.dat,D1E08,00 00 00 00,Int,0,Drop 3
+Drop Table (Agrabah 3 Guages Filled),xs_bambi.dat,D1E0C,00 00 00 00,Int,0,Small Munny
+Drop Table (Agrabah 3 Guages Filled),xs_bambi.dat,D1E10,00 00 00 00,Int,0,Medium Munny
+Drop Table (Agrabah 3 Guages Filled),xs_bambi.dat,D1E14,00 00 00 00,Int,0,Large Munny
+Drop Table (Agrabah 3 Guages Filled),xs_bambi.dat,D1E18,00 00 00 00,Int,0,Small HP
+Drop Table (Agrabah 3 Guages Filled),xs_bambi.dat,D1E1C,00 00 00 00,Int,0,Large HP
+Drop Table (Agrabah 3 Guages Filled),xs_bambi.dat,D1E20,00 00 00 00,Int,0,Small MP
+Drop Table (Agrabah 3 Guages Filled),xs_bambi.dat,D1E24,00 00 00 00,Int,0,Large MP
+Drop Table (Agrabah 3 Guages Filled),xs_bambi.dat,D1E28,00 00 80 3F,Float,1,Chance Drop 1
+Drop Table (Agrabah 3 Guages Filled),xs_bambi.dat,D1E2C,03 00 00 00,Int,3,Drop 1
+Drop Table (Agrabah 3 Guages Filled),xs_bambi.dat,D1E30,CD CC 4C 3E,Float,0.2,Chance Drop 2
+Drop Table (Agrabah 3 Guages Filled),xs_bambi.dat,D1E34,F8 00 00 00,Int,248,Drop 2
+Drop Table (Agrabah 3 Guages Filled),xs_bambi.dat,D1E38,CD CC 4C 3E,Float,0.2,Chance Drop 3
+Drop Table (Agrabah 3 Guages Filled),xs_bambi.dat,D1E3C,F9 00 00 00,Int,249,Drop 3
+Drop Table (Monstro 1 Guage Filled),xs_bambi.dat,D1E40,00 00 00 00,Int,0,Small Munny
+Drop Table (Monstro 1 Guage Filled),xs_bambi.dat,D1E44,00 00 00 00,Int,0,Medium Munny
+Drop Table (Monstro 1 Guage Filled),xs_bambi.dat,D1E48,00 00 00 00,Int,0,Large Munny
+Drop Table (Monstro 1 Guage Filled),xs_bambi.dat,D1E4C,00 00 00 00,Int,0,Small HP
+Drop Table (Monstro 1 Guage Filled),xs_bambi.dat,D1E50,00 00 00 00,Int,0,Large HP
+Drop Table (Monstro 1 Guage Filled),xs_bambi.dat,D1E54,00 00 00 00,Int,0,Small MP
+Drop Table (Monstro 1 Guage Filled),xs_bambi.dat,D1E58,00 00 00 00,Int,0,Large MP
+Drop Table (Monstro 1 Guage Filled),xs_bambi.dat,D1E5C,00 00 80 3F,Float,1,Chance Drop 1
+Drop Table (Monstro 1 Guage Filled),xs_bambi.dat,D1E60,01 00 00 00,Int,1,Drop 1
+Drop Table (Monstro 1 Guage Filled),xs_bambi.dat,D1E64,00 00 00 00,Float,0,Chance Drop 2
+Drop Table (Monstro 1 Guage Filled),xs_bambi.dat,D1E68,00 00 00 00,Int,0,Drop 2
+Drop Table (Monstro 1 Guage Filled),xs_bambi.dat,D1E6C,00 00 00 00,Float,0,Chance Drop 3
+Drop Table (Monstro 1 Guage Filled),xs_bambi.dat,D1E70,00 00 00 00,Int,0,Drop 3
+Drop Table (Monstro 2 Guages Filled),xs_bambi.dat,D1E74,00 00 00 00,Int,0,Small Munny
+Drop Table (Monstro 2 Guages Filled),xs_bambi.dat,D1E78,00 00 00 00,Int,0,Medium Munny
+Drop Table (Monstro 2 Guages Filled),xs_bambi.dat,D1E7C,00 00 00 00,Int,0,Large Munny
+Drop Table (Monstro 2 Guages Filled),xs_bambi.dat,D1E80,00 00 00 00,Int,0,Small HP
+Drop Table (Monstro 2 Guages Filled),xs_bambi.dat,D1E84,00 00 00 00,Int,0,Large HP
+Drop Table (Monstro 2 Guages Filled),xs_bambi.dat,D1E88,00 00 00 00,Int,0,Small MP
+Drop Table (Monstro 2 Guages Filled),xs_bambi.dat,D1E8C,00 00 00 00,Int,0,Large MP
+Drop Table (Monstro 2 Guages Filled),xs_bambi.dat,D1E90,00 00 80 3F,Float,1,Chance Drop 1
+Drop Table (Monstro 2 Guages Filled),xs_bambi.dat,D1E94,03 00 00 00,Int,3,Drop 1
+Drop Table (Monstro 2 Guages Filled),xs_bambi.dat,D1E98,CD CC 4C 3E,Float,0.2,Chance Drop 2
+Drop Table (Monstro 2 Guages Filled),xs_bambi.dat,D1E9C,E9 00 00 00,Int,233,Drop 2
+Drop Table (Monstro 2 Guages Filled),xs_bambi.dat,D1EA0,00 00 00 00,Float,0,Chance Drop 3
+Drop Table (Monstro 2 Guages Filled),xs_bambi.dat,D1EA4,00 00 00 00,Int,0,Drop 3
+Drop Table (Monstro 3 Guages Filled),xs_bambi.dat,D1EA8,00 00 00 00,Int,0,Small Munny
+Drop Table (Monstro 3 Guages Filled),xs_bambi.dat,D1EAC,00 00 00 00,Int,0,Medium Munny
+Drop Table (Monstro 3 Guages Filled),xs_bambi.dat,D1EB0,00 00 00 00,Int,0,Large Munny
+Drop Table (Monstro 3 Guages Filled),xs_bambi.dat,D1EB4,00 00 00 00,Int,0,Small HP
+Drop Table (Monstro 3 Guages Filled),xs_bambi.dat,D1EB8,00 00 00 00,Int,0,Large HP
+Drop Table (Monstro 3 Guages Filled),xs_bambi.dat,D1EBC,00 00 00 00,Int,0,Small MP
+Drop Table (Monstro 3 Guages Filled),xs_bambi.dat,D1EC0,00 00 00 00,Int,0,Large MP
+Drop Table (Monstro 3 Guages Filled),xs_bambi.dat,D1EC4,00 00 80 3F,Float,1,Chance Drop 1
+Drop Table (Monstro 3 Guages Filled),xs_bambi.dat,D1EC8,02 00 00 00,Int,2,Drop 1
+Drop Table (Monstro 3 Guages Filled),xs_bambi.dat,D1ECC,CD CC 4C 3E,Float,0.2,Chance Drop 2
+Drop Table (Monstro 3 Guages Filled),xs_bambi.dat,D1ED0,E9 00 00 00,Int,233,Drop 2
+Drop Table (Monstro 3 Guages Filled),xs_bambi.dat,D1ED4,CD CC 4C 3E,Float,0.2,Chance Drop 3
+Drop Table (Monstro 3 Guages Filled),xs_bambi.dat,D1ED8,EA 00 00 00,Int,234,Drop 3
+Drop Table (Halloween Town 1 Guage Filled),xs_bambi.dat,D1EDC,00 00 00 00,Int,0,Small Munny
+Drop Table (Halloween Town 1 Guage Filled),xs_bambi.dat,D1EE0,00 00 00 00,Int,0,Medium Munny
+Drop Table (Halloween Town 1 Guage Filled),xs_bambi.dat,D1EE4,00 00 00 00,Int,0,Large Munny
+Drop Table (Halloween Town 1 Guage Filled),xs_bambi.dat,D1EE8,00 00 00 00,Int,0,Small HP
+Drop Table (Halloween Town 1 Guage Filled),xs_bambi.dat,D1EEC,00 00 00 00,Int,0,Large HP
+Drop Table (Halloween Town 1 Guage Filled),xs_bambi.dat,D1EF0,00 00 00 00,Int,0,Small MP
+Drop Table (Halloween Town 1 Guage Filled),xs_bambi.dat,D1EF4,00 00 00 00,Int,0,Large MP
+Drop Table (Halloween Town 1 Guage Filled),xs_bambi.dat,D1EF8,00 00 80 3F,Float,1,Chance Drop 1
+Drop Table (Halloween Town 1 Guage Filled),xs_bambi.dat,D1EFC,01 00 00 00,Int,1,Drop 1
+Drop Table (Halloween Town 1 Guage Filled),xs_bambi.dat,D1F00,00 00 00 00,Float,0,Chance Drop 2
+Drop Table (Halloween Town 1 Guage Filled),xs_bambi.dat,D1F04,00 00 00 00,Int,0,Drop 2
+Drop Table (Halloween Town 1 Guage Filled),xs_bambi.dat,D1F08,00 00 00 00,Float,0,Chance Drop 3
+Drop Table (Halloween Town 1 Guage Filled),xs_bambi.dat,D1F0C,00 00 00 00,Int,0,Drop 3
+Drop Table (Halloween Town 2 Guages Filled),xs_bambi.dat,D1F10,00 00 00 00,Int,0,Small Munny
+Drop Table (Halloween Town 2 Guages Filled),xs_bambi.dat,D1F14,00 00 00 00,Int,0,Medium Munny
+Drop Table (Halloween Town 2 Guages Filled),xs_bambi.dat,D1F18,00 00 00 00,Int,0,Large Munny
+Drop Table (Halloween Town 2 Guages Filled),xs_bambi.dat,D1F1C,00 00 00 00,Int,0,Small HP
+Drop Table (Halloween Town 2 Guages Filled),xs_bambi.dat,D1F20,00 00 00 00,Int,0,Large HP
+Drop Table (Halloween Town 2 Guages Filled),xs_bambi.dat,D1F24,00 00 00 00,Int,0,Small MP
+Drop Table (Halloween Town 2 Guages Filled),xs_bambi.dat,D1F28,00 00 00 00,Int,0,Large MP
+Drop Table (Halloween Town 2 Guages Filled),xs_bambi.dat,D1F2C,00 00 80 3F,Float,1,Chance Drop 1
+Drop Table (Halloween Town 2 Guages Filled),xs_bambi.dat,D1F30,03 00 00 00,Int,3,Drop 1
+Drop Table (Halloween Town 2 Guages Filled),xs_bambi.dat,D1F34,CD CC 4C 3E,Float,0.2,Chance Drop 2
+Drop Table (Halloween Town 2 Guages Filled),xs_bambi.dat,D1F38,EE 00 00 00,Int,238,Drop 2
+Drop Table (Halloween Town 2 Guages Filled),xs_bambi.dat,D1F3C,00 00 00 00,Float,0,Chance Drop 3
+Drop Table (Halloween Town 2 Guages Filled),xs_bambi.dat,D1F40,00 00 00 00,Int,0,Drop 3
+Drop Table (Halloween Town 3 Guages Filled),xs_bambi.dat,D1F44,00 00 00 00,Int,0,Small Munny
+Drop Table (Halloween Town 3 Guages Filled),xs_bambi.dat,D1F48,00 00 00 00,Int,0,Medium Munny
+Drop Table (Halloween Town 3 Guages Filled),xs_bambi.dat,D1F4C,00 00 00 00,Int,0,Large Munny
+Drop Table (Halloween Town 3 Guages Filled),xs_bambi.dat,D1F50,00 00 00 00,Int,0,Small HP
+Drop Table (Halloween Town 3 Guages Filled),xs_bambi.dat,D1F54,00 00 00 00,Int,0,Large HP
+Drop Table (Halloween Town 3 Guages Filled),xs_bambi.dat,D1F58,00 00 00 00,Int,0,Small MP
+Drop Table (Halloween Town 3 Guages Filled),xs_bambi.dat,D1F5C,00 00 00 00,Int,0,Large MP
+Drop Table (Halloween Town 3 Guages Filled),xs_bambi.dat,D1F60,00 00 80 3F,Float,1,Chance Drop 1
+Drop Table (Halloween Town 3 Guages Filled),xs_bambi.dat,D1F64,02 00 00 00,Int,2,Drop 1
+Drop Table (Halloween Town 3 Guages Filled),xs_bambi.dat,D1F68,CD CC 4C 3E,Float,0.2,Chance Drop 2
+Drop Table (Halloween Town 3 Guages Filled),xs_bambi.dat,D1F6C,EE 00 00 00,Int,238,Drop 2
+Drop Table (Halloween Town 3 Guages Filled),xs_bambi.dat,D1F70,CD CC 4C 3E,Float,0.2,Chance Drop 3
+Drop Table (Halloween Town 3 Guages Filled),xs_bambi.dat,D1F74,EF 00 00 00,Int,239,Drop 3
+Drop Table (Neverland 1 Guage Filled),xs_bambi.dat,D1F78,00 00 00 00,Int,0,Small Munny
+Drop Table (Neverland 1 Guage Filled),xs_bambi.dat,D1F7C,00 00 00 00,Int,0,Medium Munny
+Drop Table (Neverland 1 Guage Filled),xs_bambi.dat,D1F80,00 00 00 00,Int,0,Large Munny
+Drop Table (Neverland 1 Guage Filled),xs_bambi.dat,D1F84,00 00 00 00,Int,0,Small HP
+Drop Table (Neverland 1 Guage Filled),xs_bambi.dat,D1F88,00 00 00 00,Int,0,Large HP
+Drop Table (Neverland 1 Guage Filled),xs_bambi.dat,D1F8C,00 00 00 00,Int,0,Small MP
+Drop Table (Neverland 1 Guage Filled),xs_bambi.dat,D1F90,00 00 00 00,Int,0,Large MP
+Drop Table (Neverland 1 Guage Filled),xs_bambi.dat,D1F94,00 00 80 3F,Float,1,Chance Drop 1
+Drop Table (Neverland 1 Guage Filled),xs_bambi.dat,D1F98,01 00 00 00,Int,1,Drop 1
+Drop Table (Neverland 1 Guage Filled),xs_bambi.dat,D1F9C,00 00 00 00,Float,0,Chance Drop 2
+Drop Table (Neverland 1 Guage Filled),xs_bambi.dat,D1FA0,00 00 00 00,Int,0,Drop 2
+Drop Table (Neverland 1 Guage Filled),xs_bambi.dat,D1FA4,00 00 00 00,Float,0,Chance Drop 3
+Drop Table (Neverland 1 Guage Filled),xs_bambi.dat,D1FA8,00 00 00 00,Int,0,Drop 3
+Drop Table (Neverland 2 Guages Filled),xs_bambi.dat,D1FAC,00 00 00 00,Int,0,Small Munny
+Drop Table (Neverland 2 Guages Filled),xs_bambi.dat,D1FB0,00 00 00 00,Int,0,Medium Munny
+Drop Table (Neverland 2 Guages Filled),xs_bambi.dat,D1FB4,00 00 00 00,Int,0,Large Munny
+Drop Table (Neverland 2 Guages Filled),xs_bambi.dat,D1FB8,00 00 00 00,Int,0,Small HP
+Drop Table (Neverland 2 Guages Filled),xs_bambi.dat,D1FBC,00 00 00 00,Int,0,Large HP
+Drop Table (Neverland 2 Guages Filled),xs_bambi.dat,D1FC0,00 00 00 00,Int,0,Small MP
+Drop Table (Neverland 2 Guages Filled),xs_bambi.dat,D1FC4,00 00 00 00,Int,0,Large MP
+Drop Table (Neverland 2 Guages Filled),xs_bambi.dat,D1FC8,00 00 80 3F,Float,1,Chance Drop 1
+Drop Table (Neverland 2 Guages Filled),xs_bambi.dat,D1FCC,03 00 00 00,Int,3,Drop 1
+Drop Table (Neverland 2 Guages Filled),xs_bambi.dat,D1FD0,CD CC 4C 3E,Float,0.2,Chance Drop 2
+Drop Table (Neverland 2 Guages Filled),xs_bambi.dat,D1FD4,EC 00 00 00,Int,236,Drop 2
+Drop Table (Neverland 2 Guages Filled),xs_bambi.dat,D1FD8,00 00 00 00,Float,0,Chance Drop 3
+Drop Table (Neverland 2 Guages Filled),xs_bambi.dat,D1FDC,00 00 00 00,Int,0,Drop 3
+Drop Table (Neverland 3 Guages Filled),xs_bambi.dat,D1FE0,00 00 00 00,Int,0,Small Munny
+Drop Table (Neverland 3 Guages Filled),xs_bambi.dat,D1FE4,00 00 00 00,Int,0,Medium Munny
+Drop Table (Neverland 3 Guages Filled),xs_bambi.dat,D1FE8,00 00 00 00,Int,0,Large Munny
+Drop Table (Neverland 3 Guages Filled),xs_bambi.dat,D1FEC,00 00 00 00,Int,0,Small HP
+Drop Table (Neverland 3 Guages Filled),xs_bambi.dat,D1FF0,00 00 00 00,Int,0,Large HP
+Drop Table (Neverland 3 Guages Filled),xs_bambi.dat,D1FF4,00 00 00 00,Int,0,Small MP
+Drop Table (Neverland 3 Guages Filled),xs_bambi.dat,D1FF8,00 00 00 00,Int,0,Large MP
+Drop Table (Neverland 3 Guages Filled),xs_bambi.dat,D1FFC,00 00 80 3F,Float,1,Chance Drop 1
+Drop Table (Neverland 3 Guages Filled),xs_bambi.dat,D2000,02 00 00 00,Int,2,Drop 1
+Drop Table (Neverland 3 Guages Filled),xs_bambi.dat,D2004,CD CC 4C 3E,Float,0.2,Chance Drop 2
+Drop Table (Neverland 3 Guages Filled),xs_bambi.dat,D2008,EC 00 00 00,Int,236,Drop 2
+Drop Table (Neverland 3 Guages Filled),xs_bambi.dat,D200C,CD CC 4C 3E,Float,0.2,Chance Drop 3
+Drop Table (Neverland 3 Guages Filled),xs_bambi.dat,D2010,ED 00 00 00,Int,237,Drop 3
+Drop Table (Hollow Bastion 1 Guage Filled),xs_bambi.dat,D2014,00 00 00 00,Int,0,Small Munny
+Drop Table (Hollow Bastion 1 Guage Filled),xs_bambi.dat,D2018,00 00 00 00,Int,0,Medium Munny
+Drop Table (Hollow Bastion 1 Guage Filled),xs_bambi.dat,D201C,00 00 00 00,Int,0,Large Munny
+Drop Table (Hollow Bastion 1 Guage Filled),xs_bambi.dat,D2020,00 00 00 00,Int,0,Small HP
+Drop Table (Hollow Bastion 1 Guage Filled),xs_bambi.dat,D2024,00 00 00 00,Int,0,Large HP
+Drop Table (Hollow Bastion 1 Guage Filled),xs_bambi.dat,D2028,00 00 00 00,Int,0,Small MP
+Drop Table (Hollow Bastion 1 Guage Filled),xs_bambi.dat,D202C,00 00 00 00,Int,0,Large MP
+Drop Table (Hollow Bastion 1 Guage Filled),xs_bambi.dat,D2030,00 00 80 3F,Float,1,Chance Drop 1
+Drop Table (Hollow Bastion 1 Guage Filled),xs_bambi.dat,D2034,01 00 00 00,Int,1,Drop 1
+Drop Table (Hollow Bastion 1 Guage Filled),xs_bambi.dat,D2038,00 00 00 00,Float,0,Chance Drop 2
+Drop Table (Hollow Bastion 1 Guage Filled),xs_bambi.dat,D203C,00 00 00 00,Int,0,Drop 2
+Drop Table (Hollow Bastion 1 Guage Filled),xs_bambi.dat,D2040,00 00 00 00,Float,0,Chance Drop 3
+Drop Table (Hollow Bastion 1 Guage Filled),xs_bambi.dat,D2044,00 00 00 00,Int,0,Drop 3
+Drop Table (Hollow Bastion 2 Guages Filled),xs_bambi.dat,D2048,00 00 00 00,Int,0,Small Munny
+Drop Table (Hollow Bastion 2 Guages Filled),xs_bambi.dat,D204C,00 00 00 00,Int,0,Medium Munny
+Drop Table (Hollow Bastion 2 Guages Filled),xs_bambi.dat,D2050,00 00 00 00,Int,0,Large Munny
+Drop Table (Hollow Bastion 2 Guages Filled),xs_bambi.dat,D2054,00 00 00 00,Int,0,Small HP
+Drop Table (Hollow Bastion 2 Guages Filled),xs_bambi.dat,D2058,00 00 00 00,Int,0,Large HP
+Drop Table (Hollow Bastion 2 Guages Filled),xs_bambi.dat,D205C,00 00 00 00,Int,0,Small MP
+Drop Table (Hollow Bastion 2 Guages Filled),xs_bambi.dat,D2060,00 00 00 00,Int,0,Large MP
+Drop Table (Hollow Bastion 2 Guages Filled),xs_bambi.dat,D2064,00 00 80 3F,Float,1,Chance Drop 1
+Drop Table (Hollow Bastion 2 Guages Filled),xs_bambi.dat,D2068,03 00 00 00,Int,3,Drop 1
+Drop Table (Hollow Bastion 2 Guages Filled),xs_bambi.dat,D206C,CD CC CC 3D,Float,0.1,Chance Drop 2
+Drop Table (Hollow Bastion 2 Guages Filled),xs_bambi.dat,D2070,EA 00 00 00,Int,234,Drop 2
+Drop Table (Hollow Bastion 2 Guages Filled),xs_bambi.dat,D2074,00 00 00 00,Float,0,Chance Drop 3
+Drop Table (Hollow Bastion 2 Guages Filled),xs_bambi.dat,D2078,00 00 00 00,Int,0,Drop 3
+Drop Table (Hollow Bastion 3 Guages Filled),xs_bambi.dat,D207C,00 00 00 00,Int,0,Small Munny
+Drop Table (Hollow Bastion 3 Guages Filled),xs_bambi.dat,D2080,00 00 00 00,Int,0,Medium Munny
+Drop Table (Hollow Bastion 3 Guages Filled),xs_bambi.dat,D2084,00 00 00 00,Int,0,Large Munny
+Drop Table (Hollow Bastion 3 Guages Filled),xs_bambi.dat,D2088,00 00 00 00,Int,0,Small HP
+Drop Table (Hollow Bastion 3 Guages Filled),xs_bambi.dat,D208C,00 00 00 00,Int,0,Large HP
+Drop Table (Hollow Bastion 3 Guages Filled),xs_bambi.dat,D2090,00 00 00 00,Int,0,Small MP
+Drop Table (Hollow Bastion 3 Guages Filled),xs_bambi.dat,D2094,00 00 00 00,Int,0,Large MP
+Drop Table (Hollow Bastion 3 Guages Filled),xs_bambi.dat,D2098,00 00 80 3F,Float,1,Chance Drop 1
+Drop Table (Hollow Bastion 3 Guages Filled),xs_bambi.dat,D209C,02 00 00 00,Int,2,Drop 1
+Drop Table (Hollow Bastion 3 Guages Filled),xs_bambi.dat,D20A0,CD CC 4C 3E,Float,0.2,Chance Drop 2
+Drop Table (Hollow Bastion 3 Guages Filled),xs_bambi.dat,D20A4,EA 00 00 00,Int,234,Drop 2
+Drop Table (Hollow Bastion 3 Guages Filled),xs_bambi.dat,D20A8,CD CC CC 3D,Float,0.1,Chance Drop 3
+Drop Table (Hollow Bastion 3 Guages Filled),xs_bambi.dat,D20AC,EB 00 00 00,Int,235,Drop 3
+Drop Table (End of the World 1 Guage Filled),xs_bambi.dat,D20B0,00 00 00 00,Int,0,Small Munny
+Drop Table (End of the World 1 Guage Filled),xs_bambi.dat,D20B4,00 00 00 00,Int,0,Medium Munny
+Drop Table (End of the World 1 Guage Filled),xs_bambi.dat,D20B8,00 00 00 00,Int,0,Large Munny
+Drop Table (End of the World 1 Guage Filled),xs_bambi.dat,D20BC,00 00 00 00,Int,0,Small HP
+Drop Table (End of the World 1 Guage Filled),xs_bambi.dat,D20C0,00 00 00 00,Int,0,Large HP
+Drop Table (End of the World 1 Guage Filled),xs_bambi.dat,D20C4,00 00 00 00,Int,0,Small MP
+Drop Table (End of the World 1 Guage Filled),xs_bambi.dat,D20C8,00 00 00 00,Int,0,Large MP
+Drop Table (End of the World 1 Guage Filled),xs_bambi.dat,D20CC,00 00 80 3F,Float,1,Chance Drop 1
+Drop Table (End of the World 1 Guage Filled),xs_bambi.dat,D20D0,01 00 00 00,Int,1,Drop 1
+Drop Table (End of the World 1 Guage Filled),xs_bambi.dat,D20D4,00 00 00 00,Float,0,Chance Drop 2
+Drop Table (End of the World 1 Guage Filled),xs_bambi.dat,D20D8,00 00 00 00,Int,0,Drop 2
+Drop Table (End of the World 1 Guage Filled),xs_bambi.dat,D20DC,00 00 00 00,Float,0,Chance Drop 3
+Drop Table (End of the World 1 Guage Filled),xs_bambi.dat,D20E0,00 00 00 00,Int,0,Drop 3
+Drop Table (End of the World 2 Guages Filled),xs_bambi.dat,D20E4,00 00 00 00,Int,0,Small Munny
+Drop Table (End of the World 2 Guages Filled),xs_bambi.dat,D20E8,00 00 00 00,Int,0,Medium Munny
+Drop Table (End of the World 2 Guages Filled),xs_bambi.dat,D20EC,00 00 00 00,Int,0,Large Munny
+Drop Table (End of the World 2 Guages Filled),xs_bambi.dat,D20F0,00 00 00 00,Int,0,Small HP
+Drop Table (End of the World 2 Guages Filled),xs_bambi.dat,D20F4,00 00 00 00,Int,0,Large HP
+Drop Table (End of the World 2 Guages Filled),xs_bambi.dat,D20F8,00 00 00 00,Int,0,Small MP
+Drop Table (End of the World 2 Guages Filled),xs_bambi.dat,D20FC,00 00 00 00,Int,0,Large MP
+Drop Table (End of the World 2 Guages Filled),xs_bambi.dat,D2100,00 00 80 3F,Float,1,Chance Drop 1
+Drop Table (End of the World 2 Guages Filled),xs_bambi.dat,D2104,03 00 00 00,Int,3,Drop 1
+Drop Table (End of the World 2 Guages Filled),xs_bambi.dat,D2108,CD CC 4C 3E,Float,0.2,Chance Drop 2
+Drop Table (End of the World 2 Guages Filled),xs_bambi.dat,D210C,FD 00 00 00,Int,253,Drop 2
+Drop Table (End of the World 2 Guages Filled),xs_bambi.dat,D2110,00 00 00 00,Float,0,Chance Drop 3
+Drop Table (End of the World 2 Guages Filled),xs_bambi.dat,D2114,00 00 00 00,Int,0,Drop 3
+Drop Table (End of the World 3 Guages Filled),xs_bambi.dat,D2118,00 00 00 00,Int,0,Small Munny
+Drop Table (End of the World 3 Guages Filled),xs_bambi.dat,D211C,00 00 00 00,Int,0,Medium Munny
+Drop Table (End of the World 3 Guages Filled),xs_bambi.dat,D2120,00 00 00 00,Int,0,Large Munny
+Drop Table (End of the World 3 Guages Filled),xs_bambi.dat,D2124,00 00 00 00,Int,0,Small HP
+Drop Table (End of the World 3 Guages Filled),xs_bambi.dat,D2128,00 00 00 00,Int,0,Large HP
+Drop Table (End of the World 3 Guages Filled),xs_bambi.dat,D212C,00 00 00 00,Int,0,Small MP
+Drop Table (End of the World 3 Guages Filled),xs_bambi.dat,D2130,00 00 00 00,Int,0,Large MP
+Drop Table (End of the World 3 Guages Filled),xs_bambi.dat,D2134,00 00 80 3F,Float,1,Chance Drop 1
+Drop Table (End of the World 3 Guages Filled),xs_bambi.dat,D2138,02 00 00 00,Int,2,Drop 1
+Drop Table (End of the World 3 Guages Filled),xs_bambi.dat,D213C,CD CC 4C 3E,Float,0.2,Chance Drop 2
+Drop Table (End of the World 3 Guages Filled),xs_bambi.dat,D2140,FD 00 00 00,Int,253,Drop 2
+Drop Table (End of the World 3 Guages Filled),xs_bambi.dat,D2144,CD CC CC 3D,Float,0.1,Chance Drop 3
+Drop Table (End of the World 3 Guages Filled),xs_bambi.dat,D2148,FE 00 00 00 00,Int,254,Drop 3
+Drop Table (???),xs_bambi.dat,D214C,00 00 00 00,Int,0,Small Munny
+Drop Table (???),xs_bambi.dat,D2150,00 00 00 00,Int,0,Medium Munny
+Drop Table (???),xs_bambi.dat,D2154,00 00 00 00,Int,0,Large Munny
+Drop Table (???),xs_bambi.dat,D2158,00 00 00 00,Int,0,Small HP
+Drop Table (???),xs_bambi.dat,D215C,03 00 00 00,Int,3,Large HP
+Drop Table (???),xs_bambi.dat,D2160,00 00 00 00,Int,0,Small MP
+Drop Table (???),xs_bambi.dat,D2164,00 00 00 00,Int,0,Large MP
+Drop Table (???),xs_bambi.dat,D2168,00 00 00 00,Float,0,Chance Drop 1
+Drop Table (???),xs_bambi.dat,D216C,00 00 00 00,Int,0,Drop 1
+Drop Table (???),xs_bambi.dat,D2170,00 00 00 00,Float,0,Chance Drop 2
+Drop Table (???),xs_bambi.dat,D2174,00 00 00 00,Int,0,Drop 2
+Drop Table (???),xs_bambi.dat,D2178,00 00 00 00,Float,0,Chance Drop 3
+Drop Table (???),xs_bambi.dat,D217C,00 00 00 00,Int,0,Drop 3

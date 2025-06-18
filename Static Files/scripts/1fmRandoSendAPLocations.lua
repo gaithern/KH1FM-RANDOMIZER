@@ -423,11 +423,11 @@ function fill_location_map()
     table.insert(location_map, {2656342, world_flags_address[game_version]          + 0x1155, 6, 0x01, 0}) --Neverland Clock Tower 11:00 Door
     table.insert(location_map, {2656343, world_flags_address[game_version]          + 0x1155, 5, 0x01, 0}) --Neverland Clock Tower 12:00 Door
     table.insert(location_map, {2656344, world_flags_address[game_version]          + 0x1155, 2, 0x01, 0}) --Neverland Hold Aero Chest
-    table.insert(location_map, {2656345, world_flags_address[game_version]          + 0x6F5,  0, 0x02, 0}) --100 Acre Wood Bouncing Spot Turn in Rare Nut 1
-    table.insert(location_map, {2656346, world_flags_address[game_version]          + 0x6F6,  0, 0x02, 0}) --100 Acre Wood Bouncing Spot Turn in Rare Nut 2
-    table.insert(location_map, {2656347, world_flags_address[game_version]          + 0x6F7,  0, 0x02, 0}) --100 Acre Wood Bouncing Spot Turn in Rare Nut 3
-    table.insert(location_map, {2656348, world_flags_address[game_version]          + 0x6F8,  0, 0x02, 0}) --100 Acre Wood Bouncing Spot Turn in Rare Nut 4
-    table.insert(location_map, {2656349, world_flags_address[game_version]          + 0x6F9,  0, 0x02, 0}) --100 Acre Wood Bouncing Spot Turn in Rare Nut 5
+    table.insert(location_map, {2656345, world_flags_address[game_version]          + 0x6F4,  0, 0x01, 1}) --100 Acre Wood Bouncing Spot Turn in Rare Nut 1
+    table.insert(location_map, {2656346, world_flags_address[game_version]          + 0x6F4,  0, 0x02, 1}) --100 Acre Wood Bouncing Spot Turn in Rare Nut 2
+    table.insert(location_map, {2656347, world_flags_address[game_version]          + 0x6F4,  0, 0x03, 1}) --100 Acre Wood Bouncing Spot Turn in Rare Nut 3
+    table.insert(location_map, {2656348, world_flags_address[game_version]          + 0x6F4,  0, 0x04, 1}) --100 Acre Wood Bouncing Spot Turn in Rare Nut 4
+    table.insert(location_map, {2656349, world_flags_address[game_version]          + 0x6F4,  0, 0x05, 1}) --100 Acre Wood Bouncing Spot Turn in Rare Nut 5
     table.insert(location_map, {2656350, world_flags_address[game_version]          + 0x702,  0, 0x01, 0}) --100 Acre Wood Pooh's House Owl Cheer
     table.insert(location_map, {2656351, world_flags_address[game_version]          + 0x703,  0, 0x01, 0}) --100 Acre Wood Convert Torn Page 1
     table.insert(location_map, {2656352, world_flags_address[game_version]          + 0x704,  0, 0x01, 0}) --100 Acre Wood Convert Torn Page 2
@@ -837,6 +837,11 @@ function send_locations(frame_count)
                     write_location_file(location_id)
                 end
             end
+            if special_function == 1 then -- Rare nuts
+                if ReadByte(address) - ReadByte(address + 0x6) >= compare_value then
+                    write_location_file(location_id)
+                end
+           end
         end
     end
 end

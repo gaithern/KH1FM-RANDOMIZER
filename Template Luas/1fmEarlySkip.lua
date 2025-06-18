@@ -8,8 +8,13 @@ function _OnInit()
     if GAME_ID == 0xAF71841E and ENGINE_TYPE == "BACKEND" then
         require("VersionCheck")
         if canExecute then
-            WriteInt(skipArray1, 3284180495)
-            WriteInt(skipArray2, 3682930804)
+            WriteInt(skipArray1 - 0x04, 0xFF)
+            WriteArray(skipArray1, { 0x0F, 0x9E, 0xC0, 0xC3 })
+
+            WriteInt(skipArray2 - 0x04, 0xFF)
+            WriteArray(skipArray2, { 0x0F, 0x9E, 0xC0, 0xC3 })
+
+            WriteArray(skipArray3, { 0xEB, 0x10 })
         end
     else
         ConsolePrint("KH1 not detected, not running script")
@@ -17,18 +22,5 @@ function _OnInit()
 end
 
 function _OnFrame()
-    if canExecute and ReadInt(cutscene) == 1 then
-        curFade = math.min(ReadInt(fadeBase) + 20, 128)
-        if curFade - 30 > 0 and lastFade < curFade then
-            WriteInt(white, 0) --white screen off
-            for i=0,3 do
-                WriteInt(fadeBase + (i * 4), curFade) --canskip
-            end
-            WriteInt(skipFlag1, 0) --canskip
-            WriteInt(skipFlag2, 0) --canskip
-            WriteInt(skipFlag2 + 4, 0) --canskip
-        end
-        lastFade = curFade
-    end
 end
 
