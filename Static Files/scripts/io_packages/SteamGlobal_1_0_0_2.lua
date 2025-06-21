@@ -254,3 +254,6 @@ volumeZero = 0x3D8B64
 
 -- write synthesis item names
 synthItemSelected = 0x2E99F40
+
+--atlantica clams in battle and locking
+evdlPointer = 0x234E780

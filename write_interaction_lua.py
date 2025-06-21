@@ -15,6 +15,11 @@ def get_interaction_template_lua():
         interaction_lua_str = file.read()
     return interaction_lua_str
 
+def get_atlantica_clams_in_battle_and_locking_template_lua():
+    with open('./Template Luas/1fmRandoAtlanticaClamsInBattleAndLocking.lua', mode = 'r') as file:
+        atlantica_clams_in_battle_and_locking_lua_str = file.read()
+    return atlantica_clams_in_battle_and_locking_lua_str
+
 def update_interaction_keyblade_lock_lua(interaction_lua_str, settings_data):
     if settings_data["interact_in_battle"]:
         interaction_lua_str = interaction_lua_str.replace("interactinbattle = false", "interactinbattle = true")
@@ -25,17 +30,31 @@ def update_interaction_interact_in_battle_lua(interaction_lua_str, settings_data
         interaction_lua_str = interaction_lua_str.replace("chestslocked = false", "chestslocked = true")
     return interaction_lua_str
 
+def update_atlantica_clams_in_battle_and_locking_lua(atlantica_clams_in_battle_and_locking_lua_str, settings_data):
+    if settings_data["interact_in_battle"]:
+        atlantica_clams_in_battle_and_locking_lua_str = atlantica_clams_in_battle_and_locking_lua_str.replace("open_in_battle = false", "open_in_battle = true")
+    if settings_data["keyblades_unlock_chests"]:
+        atlantica_clams_in_battle_and_locking_lua_str = atlantica_clams_in_battle_and_locking_lua_str.replace("keyblade_locking = false", "keyblade_locking = true")
+    return atlantica_clams_in_battle_and_locking_lua_str
+
 def output_interaction_lua_file(interaction_lua_str):
     with open('./Working/scripts/1fmRandoInteraction.lua', mode = 'w') as file:
         file.write(interaction_lua_str)
+
+def output_atlantica_clams_in_battle_and_locking_lua_file(atlantica_clams_in_battle_and_locking_lua_str):
+    with open('./Working/scripts/1fmRandoAtlanticaClamsInBattleAndLocking.lua', mode = 'w') as file:
+        file.write(atlantica_clams_in_battle_and_locking_lua_str)
 
 def write_interaction_lua(settings_file = None):
     settings_data = get_settings_data(settings_file)
     if settings_data["interact_in_battle"] or settings_data["keyblades_unlock_chests"]:
         interaction_lua_str = get_interaction_template_lua()
+        atlantica_clams_in_battle_and_locking_lua_str = get_atlantica_clams_in_battle_and_locking_template_lua()
         interaction_lua_str = update_interaction_interact_in_battle_lua(interaction_lua_str, settings_data)
         interaction_lua_str = update_interaction_keyblade_lock_lua(interaction_lua_str, settings_data)
+        atlantica_clams_in_battle_and_locking_lua_str = update_atlantica_clams_in_battle_and_locking_lua(atlantica_clams_in_battle_and_locking_lua_str, settings_data)
         output_interaction_lua_file(interaction_lua_str)
+        output_atlantica_clams_in_battle_and_locking_lua_file(atlantica_clams_in_battle_and_locking_lua_str)
 
 if __name__ == "__main__":
     write_interaction_lua()
