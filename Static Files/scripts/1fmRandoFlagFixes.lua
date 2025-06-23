@@ -210,7 +210,7 @@ function FlagFixes()
         -- Require Entry Pass
         if ReadByte(cutsceneFlags[game_version]+0xB06) == 0x10 then
             if ReadByte(inventory[game_version]+0xE4) > 0
-                    or ReadByte(worldFlagsAddress[game_version] + 0x201 >= 0x2) then
+                    or ReadByte(worldFlagsAddress[game_version] + 0x201) >= 0x2 then
                 WriteByte(worldFlagBase[game_version]+0x94, 3)
             else
                 WriteByte(worldFlagBase[game_version]+0x94, 2)
