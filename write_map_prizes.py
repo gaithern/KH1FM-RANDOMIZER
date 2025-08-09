@@ -48,6 +48,8 @@ def replace_map_prize_items(map_prize_bytes, map_prize_definitions, seed_json_da
         if map_prize_definition["AP Location ID"] != "-":
             offset = int(map_prize_definition["Offset"],16)
             item = seed_json_data[map_prize_definition["AP Location ID"]] % 264100
+            if item > 255: # If its an ability, must have been placed there as remote_items was set to allow
+                item = 230 # Make it AP item, the item must be remote.
             map_prize_bytes[offset + 7] = 100
             map_prize_bytes[offset + 8] = item
     return map_prize_bytes

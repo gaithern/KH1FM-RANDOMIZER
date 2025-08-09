@@ -121,6 +121,6 @@ end
 function _OnFrame()
     if canExecute then
         consolidate_lotus_forest_flowers()
-        restart_map_prizes()
+        --restart_map_prizes()
     end
 end

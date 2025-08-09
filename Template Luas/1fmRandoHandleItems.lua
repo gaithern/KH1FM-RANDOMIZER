@@ -5,6 +5,8 @@ LUAGUI_DESC = "Kingdom Hearts 1FM Handle Special Cases with Key Items"
 canExecute = false
 stock_address = {0x2DEA1FA, 0x2DE97FA}
 world_progress_array_address = {0x2DEB264, 0x2DEA864}
+stacking_worlds = false
+stacking_forget_me_not = false
 
 function handle_slides(stock)
     if stock[217] > 0 and stock[218] == 0 then
@@ -85,6 +87,51 @@ function handle_worlds(stock)
     world_status_address = {0x2DEBC50, 0x2DEB250}
     WriteArray(world_status_address[game_version], unlocked_worlds_array)
     write_world_lines()
+    
+    -- Add stacking world item handling
+    if stacking_worlds then
+        -- Wonderland
+        if worlds_unlocked_items[2] > 1 then
+            if stock[223] == 0 then -- If not footprints
+                WriteByte(stock_address[game_version] + 223-1, 1) -- Give footprints
+            end
+        end
+        -- Olympus Coliseum
+        if worlds_unlocked_items[3] > 1 then
+            if stock[229] == 0 then -- If not entry pass
+                WriteByte(stock_address[game_version] + 229-1, 1) -- Give entry pass
+            end
+        end
+        -- Deep Jungle
+        if worlds_unlocked_items[4] > 1 then
+            if stock[217] == 0 then -- If not slides
+                WriteByte(stock_address[game_version] + 217-1, 1) -- Give slides
+            end
+        end
+        -- Halloween Town
+        if worlds_unlocked_items[6] > 1 then
+            if stock[227] == 0 then -- If not forget-me-not
+                WriteByte(stock_address[game_version] + 227-1, 1) -- Give forget-me-not
+            end
+        end
+        if worlds_unlocked_items[6] > 2 then
+            if stock[228] == 0 then -- If not jack-in-the-box
+                WriteByte(stock_address[game_version] + 228-1, 1) -- Give jack-in-the-box
+            end
+        end
+        -- Atlantica
+        if worlds_unlocked_items[7] > 1 then
+            if stock[210] == 0 then -- If not crystal trident
+                WriteByte(stock_address[game_version] + 210-1, 1) -- Give crystal trident
+            end
+        end
+        -- Hollow Bastion
+        if worlds_unlocked_items[9] > 1 then
+            if stock[183] == 0 then -- If not theon vol. 6
+                WriteByte(stock_address[game_version] + 183-1, 1) -- Give theon vol. 6
+            end
+        end
+    end
 end
 
 function handle_trinities(stock)
@@ -195,6 +242,12 @@ function handle_stat_ups(stock)
     end
 end
 
+function handle_forget_me_not(stock)
+    if stacking_forget_me_not and stock[227] > 0 and stock[228] == 0 then
+        WriteByte(stock_address[game_version] + 228 - 1, 1)
+    end
+end
+
 function handle_ap_item(stock)
     --[[Removes any received "AP Items"]]
     if stock[230] > 0 then
@@ -296,6 +349,7 @@ function _OnFrame()
         handle_final_door(stock)
         handle_olympus_cups(stock)
         handle_stat_ups(stock)
+        handle_forget_me_not(stock)
         handle_ap_item(stock)
     end
 end
