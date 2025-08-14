@@ -7,6 +7,7 @@ local canExecute = false
 frame_count = 0
 corrected = false
 second_visit = {false,false,false,false}
+local inGummi = {0x50832D, 0x5075A8}
 
 function toBits(num)
     -- returns a table of bits, least significant first.
@@ -224,11 +225,13 @@ function main()
             end
         end
         for i=1,#second_visit_test_bytes do
-            if not second_visit[i] and specific_worlds_progress_array[i] >= second_visit_test_bytes[i] then
-                if not (i == 4 and specific_worlds_progress_array[i] == 0x96) then --Ignore if Neverland is already post Phantom
-                    write_world_progress_byte(world_progress_indexes[i], final_bytes[i])
-                    correct_world_flags(world_offset[i], world_progress_reset_array[i][#world_progress_reset_array[i]][2])
-                    second_visit[i] = true
+            if i ~= 2 or ReadByte(inGummi[game_version]) > 0 then -- Don't do anything for Deep Jungle unless you're in the Gummi Ship
+                if not second_visit[i] and specific_worlds_progress_array[i] >= second_visit_test_bytes[i] then
+                    if not (i == 4 and specific_worlds_progress_array[i] == 0x96) then --Ignore if Neverland is already post Phantom
+                        write_world_progress_byte(world_progress_indexes[i], final_bytes[i])
+                        correct_world_flags(world_offset[i], world_progress_reset_array[i][#world_progress_reset_array[i]][2])
+                        second_visit[i] = true
+                    end
                 end
             end
         end
