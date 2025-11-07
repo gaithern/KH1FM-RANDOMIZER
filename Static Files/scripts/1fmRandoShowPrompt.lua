@@ -169,23 +169,6 @@ function GetKHSCII(INPUT)
         elseif _char >= '0' and _char <= '9' then
             _returnArray[i] = string.byte(_char) - 0x0F
             z = z + 1
-        elseif _char == '{' then
-            local _str =
-            {
-                INPUT:sub(z + 1, z + 1),
-                INPUT:sub(z + 2, z + 2),
-                INPUT:sub(z + 3, z + 3),
-                INPUT:sub(z + 4, z + 4),
-                INPUT:sub(z + 5, z + 5)
-            }
-
-            if _str[1] == '0' and _str[2] == 'x' and _str[5] == '}' then
-
-                local _s = _str[3] .. _str[4]
-
-                _returnArray[i] = tonumber(_s, 16)
-                z = z + 6
-            end
         else
             if _charTable[_char] ~= nil then
                 _returnArray[i] = _charTable[_char]

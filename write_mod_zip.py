@@ -22,7 +22,7 @@ def list_files_recursive(path='.', filenames=[]):
     return filenames
 
 def get_mod_yaml_header(seed):
-    seed_string = hex(int(seed)).upper().replace("0X", "")
+    seed_string = hex(int(str(seed).replace("W", ""))).upper().replace("0X", "")
     return """title: KH1 Randomizer Seed """ + seed_string + """
 originalAuthor: Gicu
 description: Necessary files for KH1FM Archipelago Randomizer.  For more info - kh1fmrando.com
