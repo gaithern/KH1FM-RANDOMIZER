@@ -27,6 +27,7 @@ from write_icon import write_icon
 from write_synthesis_item_names_lua import write_synthesis_item_names_lua
 from write_starting_accessories import write_starting_accessories
 from write_ap_cost_lua import write_ap_cost_lua
+from write_spell_info import write_spell_info
 from validate_evdl_data import validate_evdl_data
 from unzip_ap_output import unzip_ap_output
 
@@ -45,11 +46,13 @@ def write_mod(ap_zip_file_name = None, kh1_data_path = None):
     keyblade_stats_file = json_path + "/keyblade_stats.json"
     settings_file = json_path + "/settings.json"
     ap_cost_file = json_path + "/ap_costs.json"
+    mp_cost_file = json_path + "/mp_costs.json"
     
     print("Item Location Map File: " + str(item_location_map_file))
     print("Keyblade Stats File: " + str(keyblade_stats_file))
     print("Settings File: " + str(settings_file))
     print("AP Costs File: " + str(ap_cost_file))
+    print("MP Costs File: " + str(mp_cost_file))
     
     if kh1_data_path is None:
         print("Getting KH1 data path...")
@@ -129,6 +132,9 @@ def write_mod(ap_zip_file_name = None, kh1_data_path = None):
     
     print("Writing AP Costs lua...")
     write_ap_cost_lua(settings_file = settings_file, ap_cost_file = ap_cost_file)
+    
+    print("Writing spell info...")
+    write_spell_info(settings_file = settings_file, mp_cost_file = mp_cost_file)
     
     print("Writing seed...")
     write_seed(settings_file = settings_file)

@@ -1,0 +1,22 @@
+File,Offset,Value (HEX),Value (Int),Spell,Translated Cost
+btltbl.bin,5F58,1E 00 00 00,30,Fire,1 Pip(s)
+btltbl.bin,5FC8,1E 00 00 00,30,Fira,1 Pip(s)
+btltbl.bin,6038,1E 00 00 00,30,Firaga,1 Pip(s)
+btltbl.bin,60A8,1E 00 00 00,30,Blizzard,1 Pip(s)
+btltbl.bin,6118,1E 00 00 00,30,Blizzara,1 Pip(s)
+btltbl.bin,6188,1E 00 00 00,30,Blizzaga,1 Pip(s)
+btltbl.bin,61F8,64 00 00 00,100,Thunder,1 MP
+btltbl.bin,6268,64 00 00 00,100,Thundara,1 MP
+btltbl.bin,62D8,64 00 00 00,100,Thundaga,1 MP
+btltbl.bin,6348,64 00 00 00,100,Cure,1 MP
+btltbl.bin,63B8,64 00 00 00,100,Cura,1 MP
+btltbl.bin,6428,64 00 00 00,100,Curaga,1 MP
+btltbl.bin,6498,64 00 00 00,100,Gravity,1 MP
+btltbl.bin,6508,64 00 00 00,100,Gravira,1 MP
+btltbl.bin,6578,64 00 00 00,100,Graviga,1 MP
+btltbl.bin,65E8,C8 00 00 00,200,Stop,2 MP
+btltbl.bin,6658,C8 00 00 00,200,Stopra,2 MP
+btltbl.bin,66C8,C8 00 00 00,200,Stopga,2 MP
+btltbl.bin,6738,C8 00 00 00,200,Aero,2 MP
+btltbl.bin,67A8,C8 00 00 00,200,Aerora,2 MP
+btltbl.bin,6818,C8 00 00 00,200,Aeroga,2 MP
