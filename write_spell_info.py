@@ -5,17 +5,6 @@ import csv
 from definitions import kh1_hex_to_char_map
 from pprint import pprint
 
-def find_byte_sequence(data, pattern):
-    indexes = []
-    start = 0
-    while True:
-        pos = data.find(pattern, start)
-        if pos == -1:
-            break
-        indexes.append(pos)
-        start = pos + 1
-    return indexes
-
 def get_settings_data(settings_file = None):
     while not settings_file:
         settings_file = filedialog.askopenfilename(filetypes =[('JSON', '*.json')], title = "KH1 Randomizer Settings JSON")
@@ -66,18 +55,37 @@ def replace_sysmsgs(sysmsg_bytes, spell_mp_costs_data):
         90:  [0x24, 0x68, 0x21, 0x01, 0x2D], # "3.0 C"
         100: [0x22, 0x68, 0x21, 0x01, 0x37], # "1.0 M"
         200: [0x23, 0x68, 0x21, 0x01, 0x37], # "2.0 M"
-        300: [0x24, 0x68, 0x21, 0x01, 0x37]} # "2.0 M"
-    search_sequence = [0x21, 0x68, 0x21, 0x01, 0x42] # Bytes corresponding to "0.0 X"
-    indexes = find_byte_sequence(bytes(sysmsg_bytes), bytes(search_sequence))
-    if len(indexes) != len(spell_mp_costs_data):
-        print("ERROR: Indexes of substrings don't match number of spells expected.")
-        exit(1)
-    for i in range(len(spell_mp_costs_data)):
-        sysmsg_bytes[indexes[i]]   = replacement_bytes[spell_mp_costs_data[i]][0]
-        sysmsg_bytes[indexes[i]+1] = replacement_bytes[spell_mp_costs_data[i]][1]
-        sysmsg_bytes[indexes[i]+2] = replacement_bytes[spell_mp_costs_data[i]][2]
-        sysmsg_bytes[indexes[i]+3] = replacement_bytes[spell_mp_costs_data[i]][3]
-        sysmsg_bytes[indexes[i]+4] = replacement_bytes[spell_mp_costs_data[i]][4]
+        300: [0x24, 0x68, 0x21, 0x01, 0x37]} # "3.0 M"
+    indexes = {
+        0x133F:  0, 0x134C:  1, 0x135B:  2, # Fire     description
+        0x1380:  0, 0x138D:  1, 0x139C:  2, # Fira     description
+        0x13C2:  0, 0x13CF:  1, 0x13DE:  2, # Firaga   description
+        0x140D:  3, 0x141E:  4, 0x142F:  5, # Blizzard description
+        0x1447:  3, 0x1458:  4, 0x1469:  5, # Blizzara description
+        0x149D:  3, 0x14AE:  4, 0x14BF:  5, # Blizzaga description
+        0x14E5:  6, 0x14F6:  7, 0x1507:  8, # Thunder  description
+        0x1521:  6, 0x1532:  7, 0x1543:  8, # Thundara description
+        0x1565:  6, 0x1576:  7, 0x1587:  8, # Thundaga description
+        0x15AA:  9, 0x15B7: 10, 0x15C6: 11, # Cure     description
+        0x15E0:  9, 0x15ED: 10, 0x15FC: 11, # Cura     description
+        0x1616:  9, 0x1623: 10, 0x1632: 11, # Cura     description
+        0x165A: 12, 0x166A: 13, 0x167A: 14, # Gravity  description
+        0x16BF: 12, 0x16CF: 13, 0x16DF: 14, # Gravira  description
+        0x171C: 12, 0x172C: 13, 0x173C: 14, # Graviga  description
+        0x1776: 15, 0x1785: 16, 0x1794: 17, # Stop     description
+        0x17BC: 15, 0x17CB: 16, 0x17DA: 17, # Stopra   description
+        0x1818: 15, 0x1827: 16, 0x1836: 17, # Stopga   description
+        0x1876: 18, 0x1885: 19, 0x1894: 20, # Aero     description
+        0x18AC: 18, 0x18BB: 19, 0x18CA: 20, # Aerora   description
+        0x18FE: 18, 0x190D: 19, 0x191C: 20, # Aeroga   description
+    }
+    for index in indexes.keys():
+        new_cost = spell_mp_costs_data[indexes[index]]
+        sysmsg_bytes[index]   = replacement_bytes[new_cost][0]
+        sysmsg_bytes[index+1] = replacement_bytes[new_cost][1]
+        sysmsg_bytes[index+2] = replacement_bytes[new_cost][2]
+        sysmsg_bytes[index+3] = replacement_bytes[new_cost][3]
+        sysmsg_bytes[index+4] = replacement_bytes[new_cost][4]
     return sysmsg_bytes
 
 def safe_open_wb(path):
