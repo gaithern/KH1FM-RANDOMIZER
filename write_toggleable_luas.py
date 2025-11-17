@@ -13,7 +13,8 @@ lua_map = {
     "unlock_0_volume": "1fmUnlock0Volume.lua",
     "unskippable": "1fmUnskippable.lua",
     "auto_save": "1fmRandoAutoSave.lua",
-    "warp_anywhere": "1fmRandoWarpAnywhere.lua"}
+    "warp_anywhere": "1fmRandoWarpAnywhere.lua",
+    "randomize_enemies": "1fmRandoAutoCutsceneSkip.lua"}
 
 
 def get_settings_data(settings_file = None):

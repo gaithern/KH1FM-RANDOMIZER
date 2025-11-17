@@ -1,0 +1,34 @@
+Enemy,String,Difficulty
+Shadow,xa_ex_2020,Easy
+Soldier,xa_ex_2010,Easy
+Powerwild,xa_ex_2030,Easy
+Sea Neon,xa_ex_2070,Easy
+Red Nocturne,xa_ex_2110,Easy (Small)
+Blue Rhapsody,xa_ex_2120,Easy (Small)
+Yellow Opera,xa_ex_2130,Easy (Small)
+Green Requiem,xa_ex_2140,Easy (Small)
+Air Soldier,xa_ex_2160,Medium
+Bouncywild,xa_ex_2040,Medium
+Large Body,xa_ex_2050,Easy (Large)
+Fat Bandit,xa_ex_2060,Easy (Large)
+Sheltering Zone,xa_ex_2080,
+Bandit,xa_ex_2090,Medium
+Pirate,xa_ex_2100,Medium
+Wight Knight,xa_ex_2200,Hard
+Air Pirate,xa_ex_2210,Medium
+Gargoyle,xa_ex_2220,Medium
+Search Ghost,xa_ex_2230,Medium
+Aquatank,xa_ex_2240,Easy (Large)
+Screwdiver,xa_ex_2250,Medium
+Battleship,xa_ex_2270,Hard (Large)
+Darkball,xa_ex_2280,Hard
+Bitsniper,xa_ew_2010,Medium
+Wizard,xa_ex_2150,Hard
+Invisible,xa_ex_2290,Hard
+Wyvern,xa_ex_2320,Hard (Large)
+Angel Star,xa_ex_2330,Hard
+Defender,xa_ex_2340,Hard (Large)
+Neoshadow,xa_ex_2420,
+Jet Balloon,xa_ex_2480,
+Stealth Sneak,xa_ex_2430,
+Missile Diver,xa_ex_2490,

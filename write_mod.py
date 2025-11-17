@@ -28,6 +28,7 @@ from write_synthesis_item_names_lua import write_synthesis_item_names_lua
 from write_starting_accessories import write_starting_accessories
 from write_ap_cost_lua import write_ap_cost_lua
 from write_spell_info import write_spell_info
+from write_enemies import write_enemies
 from validate_evdl_data import validate_evdl_data
 from unzip_ap_output import unzip_ap_output
 
@@ -135,6 +136,10 @@ def write_mod(ap_zip_file_name = None, kh1_data_path = None):
     
     print("Writing spell info...")
     write_spell_info(settings_file = settings_file, mp_cost_file = mp_cost_file)
+    
+    print("Writing enemies...")
+    write_enemies(settings_file = settings_file)
+    
     
     print("Writing seed...")
     write_seed(settings_file = settings_file)
