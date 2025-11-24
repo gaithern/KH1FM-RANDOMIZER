@@ -58,7 +58,11 @@ def create_mod_yaml(seed, slot_name):
 def write_mod_zip(settings_file = None):
     settings_data = get_settings_data(settings_file)
     now = datetime.now()
-    create_mod_yaml(settings_data["seed"], settings_data["slot_name"])
+    seed = settings_data["seed"]
+    slot_name = ""
+    if "slot_name" in settings_data.keys():
+        slot_name = settings_data["slot_name"]
+    create_mod_yaml(seed, slot_name)
     directory_to_zip = './Working/'
     output_zip_file = './Output/mod_' + now.strftime("%Y%m%d%H%M%S")
     zip_directory(directory_to_zip, output_zip_file)
