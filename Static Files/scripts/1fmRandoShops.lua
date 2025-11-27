@@ -5,7 +5,8 @@ LUAGUI_DESC = "Kingdom Hearts 1FM Randomizer Shops"
 canExecute = false
 shopsWritten = false
 
-shop_addresses = {}
+shop_addresses       = {}
+gummi_shop_addresses = {}
 
 function fill_shop_addresses()
     table.insert(shop_addresses, 1, {0x4FF3C0,0x4FEE00}) --Item Shop Initial
@@ -17,6 +18,12 @@ function fill_shop_addresses()
     table.insert(shop_addresses, 7, {0x4FF8B8,0x4FF2F8}) --Accessory Shop After Riku Ansem
     table.insert(shop_addresses, 8, {0x4FF98C,0x4FF3CC}) --Agrabah Shop
 end
+
+function fill_gummi_shop_addresses()
+    table.insert(gummi_shop_addresses, 1, {0x4FF070,0x4FEAB0}) -- Gummi Shop 1
+    table.insert(gummi_shop_addresses, 2, {0x4FF144,0x4FEB84}) -- Gummi Shop 2
+    table.insert(gummi_shop_addresses, 3, {0x4FF218,0x4FEC58}) -- Gummi Shop 3
+    table.insert(gummi_shop_addresses, 4, {0x4FF2EC,0x4FED2C}) -- Gummi Shop 4
 
 function write_shops()
     for shop_index,address_base in pairs(shop_addresses) do
@@ -32,6 +39,12 @@ function write_shops()
     end
 end
 
+function write_gummi_shops()
+    for shop_index,address_base in pairs(gummi_shop_addresses) do
+        WriteByte(address_base[game_version], 0) --Number of items in shop
+    end
+end
+
 function _OnInit()
     IsEpicGLVersion  = 0x3A2B86
     IsSteamGLVersion = 0x3A29A6
@@ -41,12 +54,14 @@ function _OnInit()
             game_version = 1
             canExecute = true
             fill_shop_addresses()
+            fill_gummi_shop_addresses()
         end
         if ReadByte(IsSteamGLVersion) == 0xF0 then
             ConsolePrint("Steam Version Detected")
             game_version = 2
             canExecute = true
             fill_shop_addresses()
+            fill_gummi_shop_addresses()
         end
     end
 end
@@ -55,6 +70,7 @@ function _OnFrame()
     if canExecute then
         if not shopsWritten then
             write_shops()
+            write_gummi_shops()
             shopsWritten = true
         end
     end

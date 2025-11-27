@@ -62,6 +62,8 @@ def build_item_description_bytes(item_description_string):
         else:
             char = item_description_string[i]
         replacement_byte = get_replacement_byte(char)
+        if replacement_byte is None:
+            print(f"Error!  Got char {char} but gives byte {replacement_byte}")
         item_description_bytes.append(replacement_byte)
         i = i + 1
     return item_description_bytes
