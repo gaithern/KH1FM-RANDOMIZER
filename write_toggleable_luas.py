@@ -14,7 +14,7 @@ lua_map = {
     "unskippable": "1fmUnskippable.lua",
     "auto_save": "1fmRandoAutoSave.lua",
     "warp_anywhere": "1fmRandoWarpAnywhere.lua",
-    "randomize_enemies": "1fmRandoAutoCutsceneSkip.lua"}
+    "randomize_heartless": "1fmRandoAutoCutsceneSkip.lua"}
 
 
 def get_settings_data(settings_file = None):
@@ -38,9 +38,10 @@ def output_lua_file(lua_str, lua_file_name):
 def write_toggleable_luas(settings_file = None):
     settings_data = get_settings_data(settings_file)
     for key in lua_map.keys():
-        if settings_data[key]:
-            lua_str = get_lua_str(lua_map[key])
-            output_lua_file(lua_str, lua_map[key])
+        if key in settings_data.keys():
+            if settings_data[key]:
+                lua_str = get_lua_str(lua_map[key])
+                output_lua_file(lua_str, lua_map[key])
 
 if __name__ == "__main__":
     write_toggleable_luas()

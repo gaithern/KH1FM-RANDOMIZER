@@ -140,7 +140,6 @@ def write_mod(ap_zip_file_name = None, kh1_data_path = None):
     print("Writing enemies...")
     write_enemies(settings_file = settings_file)
     
-    
     print("Writing seed...")
     write_seed(settings_file = settings_file)
     
