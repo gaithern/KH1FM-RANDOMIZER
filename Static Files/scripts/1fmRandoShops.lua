@@ -20,10 +20,11 @@ function fill_shop_addresses()
 end
 
 function fill_gummi_shop_addresses()
-    table.insert(gummi_shop_addresses, 1, {0x4FF070,0x4FEAB0}) -- Gummi Shop 1
-    table.insert(gummi_shop_addresses, 2, {0x4FF144,0x4FEB84}) -- Gummi Shop 2
-    table.insert(gummi_shop_addresses, 3, {0x4FF218,0x4FEC58}) -- Gummi Shop 3
-    table.insert(gummi_shop_addresses, 4, {0x4FF2EC,0x4FED2C}) -- Gummi Shop 4
+    table.insert(gummi_shop_addresses, 1, {0x4FFA60,0x4FEAB0}) -- Gummi Shop 1
+    table.insert(gummi_shop_addresses, 2, {0x4FFB34,0x4FEB84}) -- Gummi Shop 2
+    table.insert(gummi_shop_addresses, 3, {0x4FFC08,0x4FEC58}) -- Gummi Shop 3
+    table.insert(gummi_shop_addresses, 4, {0x4FFCDC,0x4FED2C}) -- Gummi Shop 4
+end
 
 function write_shops()
     for shop_index,address_base in pairs(shop_addresses) do
