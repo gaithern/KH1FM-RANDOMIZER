@@ -5,11 +5,33 @@ from write_item_descriptions import build_item_description_string, build_item_de
 from definitions import kh1_hex_to_char_map
 from pprint import pprint
 
-SETTINGS_EXCLUSIONS = ["starting_items", "synthesis_item_name_byte_arrays", "remote_location_ids"]
+SETTINGS_EXCLUSIONS = ["starting_items", "synthesis_item_name_byte_arrays", "remote_location_ids", "slot_name"]
 SENTINEL = b"\xCD" * 10
 AP_ITEM_GUMMI_INDEXES = [0x77, 0x78, 0x79, 0x7A]
 START_INVENTORY_WRITTEN_INDEX = 0x7B
 GUMMI_ITEMS_WRITTEN_INDEX = 0x7C
+TOO_LONG_DESCRIPTIONS = {
+    "Bad Starting Weapons": "Bad Starting Wpns",
+    "Consistent Finishers": "Consistent Fnshrs",
+    "End Of The World Unlock": "EOTW Unlock",
+    "Extra Shared Abilities": "Extra Shared Ablts",
+    "Final Rest Door Key": "FR Door Key",
+    "Force Stats On Levels": "Force Stats on LVs",
+    "Halloween Town Key Item Bundle": "HT Key Item Bundle",
+    "Homecoming Materials": "Homecomings Mats",
+    "Individual Spell Level Costs": "Ind Spell LV Costs",
+    "Keyblades Unlock Chests": "Keyblade Locking",
+    "Randomize Ap Costs": "Random AP Costs",
+    "Randomize Emblem Pieces": "Random E. Pieces",
+    "Randomize Heartless": "Random Heartless",
+    "Randomize Party Member Starting Accessories": "Random Start Accs",
+    "Randomize Postcards": "Random Postcards",
+    "Randomize Spell Mp Costs": "Random Spell MP",
+    "Required Lucky Emblems Door": "Rqrd Embs Door",
+    "Required Lucky Emblems Eotw": "Rqrd Embs EOTW",
+    "Required Postcards": "Rqrd Postcards",
+    "Scaling Spell Potency": "Scaling Spells",
+    "Stacking World Items": "Stacking Worlds"}
 
 def safe_open_wb(path):
     ''' Open "path" for writing, creating any parent directories as needed.
@@ -55,6 +77,8 @@ def output_gummi_item_descriptions_offset_bytes(new_gummi_item_description_offse
 
 def replace_specific_gummi_item_string(index, description):
     kh1_data_path = "./Working/"
+    if description in TOO_LONG_DESCRIPTIONS.keys():
+        description = TOO_LONG_DESCRIPTIONS[description]
     gummi_item_description_bytes = get_gummi_item_description_bytes(kh1_data_path)
     gummi_item_description_string = build_item_description_string(gummi_item_description_bytes)
     gummi_item_descriptions = build_item_description_string_array(gummi_item_description_string)
@@ -93,9 +117,9 @@ def write_gummi_items(setings_file = None):
     for index in AP_ITEM_GUMMI_INDEXES:
         replace_specific_gummi_item_string(index,       "AP Items Received")
         replace_specific_gummi_item_string(index + 160, "")
-    replace_specific_gummi_item_string(START_INVENTORY_WRITTEN_INDEX, "Start Inventory Written")
+    replace_specific_gummi_item_string(START_INVENTORY_WRITTEN_INDEX, "Start Written")
     replace_specific_gummi_item_string(START_INVENTORY_WRITTEN_INDEX + 160, "")
-    replace_specific_gummi_item_string(GUMMI_ITEMS_WRITTEN_INDEX, "Gummi Items Written")
+    replace_specific_gummi_item_string(GUMMI_ITEMS_WRITTEN_INDEX, "Gummi Written")
     replace_specific_gummi_item_string(GUMMI_ITEMS_WRITTEN_INDEX + 160, "")
     
     # Handle Offsets
