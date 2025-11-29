@@ -30,6 +30,7 @@ from write_ap_cost_lua import write_ap_cost_lua
 from write_spell_info import write_spell_info
 from write_gummi_items import write_gummi_items
 from write_gummi_item_buy_and_sell_price import write_gummi_item_buy_and_sell_price
+from write_settings_file import write_settings_file
 from validate_evdl_data import validate_evdl_data
 from unzip_ap_output import unzip_ap_output
 
@@ -143,6 +144,9 @@ def write_mod(ap_zip_file_name = None, kh1_data_path = None):
     
     print("Writing gummi item buy and sell price...")
     write_gummi_item_buy_and_sell_price()
+    
+    print("Writing settings file...")
+    write_settings_file(settings_file = settings_file)
     
     print("Writing seed...")
     write_seed(settings_file = settings_file)
