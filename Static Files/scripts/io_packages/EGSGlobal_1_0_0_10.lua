@@ -260,3 +260,12 @@ evdlPointer = 0x234F188
 
 -- bambi rewards
 bambi = 0x1AFD304
+
+-- summon anywhere
+summonanywhere1 = 0x286E1A
+summonanywhere2 = 0x286E2C
+summonanywhere3 = 0x292689
+
+-- air items
+airitems1 = 0x29224F
+airitems2 = 0x2A15DD
