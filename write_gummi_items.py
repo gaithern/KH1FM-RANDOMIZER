@@ -11,6 +11,7 @@ AP_ITEM_GUMMI_INDEXES = [0x77, 0x78, 0x79, 0x7A]
 START_INVENTORY_WRITTEN_INDEX = 0x7B
 GUMMI_ITEMS_WRITTEN_INDEX = 0x7C
 TOO_LONG_DESCRIPTIONS = {
+    "Accessory Augments": "Acc Augments",
     "Bad Starting Weapons": "Bad Starting Wpns",
     "Consistent Finishers": "Consistent Fnshrs",
     "End Of The World Unlock": "EOTW Unlock",
