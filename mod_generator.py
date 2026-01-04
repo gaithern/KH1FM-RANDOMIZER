@@ -3,6 +3,17 @@ from write_mod import write_mod
 import os
 import json
 import zipfile
+import ctypes
+import requests
+import webbrowser
+
+# Constants for readability
+MB_YESNO = 0x00000004
+MB_ICONQUESTION = 0x00000020
+IDYES = 6
+IDNO = 7
+
+VERSION = "0.10.0"
 
 # Handle Splash Screen
 try:
@@ -54,11 +65,28 @@ def write_presets(args):
     with open("./mod_generator_presets.json", "w") as file:
         file.write(data)
 
+def check_for_updates():
+    initial_url = "https://github.com/gaithern/KH1FM-RANDOMIZER/releases/latest"
+    response = requests.get(initial_url)
+    final_url = response.url
+    latest_version_number = final_url.split("/")[-1]
+    if VERSION != latest_version_number:
+        result = Mbox("Update available", "There is an update available for the mod generator and AP World.\n\n"
+        "Would you like to open the download page now?",
+        MB_YESNO | MB_ICONQUESTION)
+        if result == IDYES:
+            webbrowser.open("https://github.com/gaithern/KH1FM-RANDOMIZER/releases/latest")
+            exit(0)
+
+def Mbox(title, text, style):
+    return ctypes.windll.user32.MessageBoxW(0, text, title, style)
+
 @Gooey(program_name='KH1 Randomizer Mod Generator',
         image_dir='./Images/',
         header_bg_color="#efcf78")
 
 def main():
+    check_for_updates()
     presets = read_presets()
     parser = GooeyParser()
     parser.add_argument("ap_zip_file",
