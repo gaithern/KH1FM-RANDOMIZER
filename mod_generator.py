@@ -13,7 +13,7 @@ MB_ICONQUESTION = 0x00000020
 IDYES = 6
 IDNO = 7
 
-VERSION = "0.10.0"
+VERSION = "0.11.1"
 
 # Handle Splash Screen
 try:

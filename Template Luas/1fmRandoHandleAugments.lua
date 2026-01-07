@@ -126,8 +126,8 @@ function handle_context_abilities(acc_equipped)
         [2] = aug_hurricane_blast_acc,
         [3] = aug_ripple_drive_acc,
         [4] = aug_stun_impact_acc,
-        [5] = aug_graviy_break_acc,
-        [6] = aug_zatetsuken_acc
+        [5] = aug_gravity_break_acc,
+        [6] = aug_zantetsuken_acc
     }
 
     context_abilities_acc_to_bits = {context_abilities_acc_to_bits_0, context_abilities_acc_to_bits_1, context_abilities_acc_to_bits_2, context_abilities_acc_to_bits_3}
