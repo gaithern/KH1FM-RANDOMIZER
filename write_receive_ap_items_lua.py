@@ -11,7 +11,7 @@ def get_settings_data(settings_file = None):
     return settings_data
 
 def get_receive_ap_items_lua():
-    with open('./Template Luas/1fmRandoReceiveAPItems.lua', mode = 'r', encoding = 'utf8') as file:
+    with open('./Working/scripts/1fmRandoSocketServer.lua', mode = 'r', encoding = 'utf8') as file:
         receive_ap_items_lua_str = file.read()
     return receive_ap_items_lua_str
 
@@ -20,7 +20,7 @@ def update_receive_ap_items_lua(receive_ap_items_lua_str, settings_data):
     return receive_ap_items_lua_str
 
 def output_receive_ap_items_lua_file(receive_ap_items_lua_str):
-    with open('./Working/scripts/1fmRandoReceiveAPItems.lua', mode = 'w') as file:
+    with open('./Working/scripts/1fmRandoSocketServer.lua', mode = 'w') as file:
         file.write(receive_ap_items_lua_str)
 
 def write_receive_ap_items_lua(settings_file = None):
