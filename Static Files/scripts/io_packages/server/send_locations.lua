@@ -1,26 +1,4 @@
-LUAGUI_NAME = "1fmRandoSendAPLocations"
-LUAGUI_AUTH = "Gicu"
-LUAGUI_DESC = "Kingdom Hearts 1FM Randomizer Send AP Locations"
-
-canExecute = false
-game_version = 1
-frame_count = 0
-location_map = {}
-
-if os.getenv('LOCALAPPDATA') ~= nil then
-    client_communication_path = os.getenv('LOCALAPPDATA') .. "\\KH1FM\\"
-else
-    client_communication_path = os.getenv('HOME') .. "/KH1FM/"
-    ok, err, code = os.rename(client_communication_path, client_communication_path)
-    if not ok and code ~= 13 then
-        os.execute("mkdir " .. path)
-    end
-end
-
-function file_exists(name)
-   local f=io.open(name,"r")
-   if f~=nil then io.close(f) return true else return false end
-end
+local helpers = require("server.helpers")
 
 function toBits(num)
     -- returns a table of bits, least significant first.
@@ -33,33 +11,22 @@ function toBits(num)
     return t
 end
 
-function read_world()
-    --[[Gets the numeric value of the currently occupied world]]
-    world_address = {0x2340E5C, 0x233FE84}
-    return ReadByte(world_address[game_version])
-end
-
-function final_ansem_defeated()
+function final_ansem_defeated(victory)
     --[[Checks if the player is on the results screen, meaning that they defeated Final Ansem]]
+    victory_updated = false
     world = {0x2340E5C, 0x233FE84}
     room_offset = {0x68, 0x8}
     room = world[game_version] + room_offset[game_version]
     cutscene_flags_address = {0x2DEB264, 0x2DEA864}
-    return (ReadByte(world[game_version]) == 0x10 and ReadByte(room) == 0x20 and ReadByte(cutscene_flags_address[game_version] + 0xB) == 0x9B)
-end
-
-function send_victory_status()
-    if final_ansem_defeated() then
-        if not file_exists(client_communication_path .. "victory") then
-            file = io.open(client_communication_path .. "victory", "w")
-            io.output(file)
-            io.write("")
-            io.close(file)
-        end
+    victory_status = ReadByte(world[game_version]) == 0x10 and ReadByte(room) == 0x20 and ReadByte(cutscene_flags_address[game_version] + 0xB) == 0x9B
+    if victory_status ~= victory then
+        victory_updated = true
     end
+    return victory_status, victory_updated
 end
 
 function fill_location_map()
+    location_map = {}
     chests_opened_address        = {0x2DEA32C, 0x2DE992C}
     world_progress_array_address = {0x2DEB264, 0x2DEA864}
     atlantica_clams_address      = {0x2DEBB09, 0x2DEB109}
@@ -805,73 +772,37 @@ function fill_location_map()
     table.insert(location_map, {2659017, ansems_reports_address[game_version]       + 0x0,    1, 0x01, 0}) --Hades Cup Defeat Hades Event
     table.insert(location_map, {2659018, olympus_flags_address[game_version]        + 0x2,    0, 0x01, 0}) --Hercules Cup Defeat Cloud Event
     table.insert(location_map, {2659019, olympus_flags_address[game_version]        + 0x2,    0, 0x01, 0}) --Hercules Cup Yellow Trinity Event
+    return location_map
 end
 
-function write_location_file(location_id)
-    if not file_exists(client_communication_path .. "send" .. tostring(location_id)) then
-        file = io.open(client_communication_path .. "send" .. tostring(location_id), "w")
-        io.output(file)
-        io.write("")
-        io.close(file)
-    end
-end
-
-function send_locations(frame_count)
+function add_locations_to_locations_checked(frame_count)
     for index, data in pairs(location_map) do
         if index % 60 == frame_count then
-            location_id      = data[1]
-            address          = data[2]
-            bit_num          = data[3]
-            compare_value    = data[4]
-            special_function = data[5]
-            if special_function == 0 then
-                if bit_num > 0 then
-                    value = toBits(ReadByte(address))[bit_num]
-                    if value == nil then
-                        value = 0
+            location_id = data[1]
+            if not contains_item(game_state.locations, location_id) then
+                address          = data[2]
+                bit_num          = data[3]
+                compare_value    = data[4]
+                special_function = data[5]
+                if special_function == 0 then
+                    if bit_num > 0 then
+                        value = toBits(ReadByte(address))[bit_num]
+                        if value == nil then
+                            value = 0
+                        end
+                    else
+                        value = ReadByte(address)
                     end
-                else
-                    value = ReadByte(address)
+                    if value >= compare_value then
+                        game_state.locations[#game_state.locations + 1] = location_id
+                    end
                 end
-                if value >= compare_value then
-                    write_location_file(location_id)
+                if special_function == 1 then -- Rare nuts
+                    if ReadByte(address) - ReadByte(address + 0x6) >= compare_value then
+                        game_state.locations[#game_state.locations + 1] = location_id
+                    end
                 end
             end
-            if special_function == 1 then -- Rare nuts
-                if ReadByte(address) - ReadByte(address + 0x6) >= compare_value then
-                    write_location_file(location_id)
-                end
-           end
-        end
-    end
-end
-
-function _OnInit()
-    IsEpicGLVersion  = 0x3A2B86
-    IsSteamGLVersion = 0x3A29A6
-    if GAME_ID == 0xAF71841E and ENGINE_TYPE == "BACKEND" then
-        if ReadByte(IsEpicGLVersion) == 0xF0 then
-            ConsolePrint("Epic Version Detected")
-            game_version = 1
-            canExecute = true
-        end
-        if ReadByte(IsSteamGLVersion) == 0xF0 then
-            ConsolePrint("Steam Version Detected")
-            game_version = 2
-            canExecute = true
-        end
-    end
-    if canExecute then
-        fill_location_map()
-    end
-end
-
-function _OnFrame()
-    if canExecute then
-        if read_world() ~= 0 then
-            frame_count = (frame_count + 1) % 60
-            send_locations(frame_count)
-            send_victory_status()
         end
     end
 end

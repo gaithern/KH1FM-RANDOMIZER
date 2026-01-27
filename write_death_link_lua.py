@@ -11,7 +11,7 @@ def get_settings_data(settings_file = None):
     return settings_data
 
 def get_death_link_template_lua():
-    with open('./Template Luas/1fmRandoHandleDeathLink.lua', mode = 'r') as file:
+    with open('./Working/scripts/io_packages/server/death_link.lua', mode = 'r') as file:
         death_link_lua_str = file.read()
     return death_link_lua_str
 
@@ -25,7 +25,7 @@ def update_death_link_lua(death_link_lua_str, settings_data):
     return death_link_lua_str
 
 def output_death_link_lua_file(death_link_lua_str):
-    with open('./Working/scripts/1fmRandoHandleDeathLink.lua', mode = 'w') as file:
+    with open('./Working/scripts/io_packages/server/death_link.lua', mode = 'w') as file:
         file.write(death_link_lua_str)
 
 def write_death_link_lua(settings_file = None):
