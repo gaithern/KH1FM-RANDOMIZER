@@ -1,3 +1,5 @@
+local helpers = require("server.helpers")
+
 function toBits(num)
     -- returns a table of bits, least significant first.
     local t={} -- will contain the bits
@@ -9,13 +11,18 @@ function toBits(num)
     return t
 end
 
-function final_ansem_defeated()
+function final_ansem_defeated(victory)
     --[[Checks if the player is on the results screen, meaning that they defeated Final Ansem]]
+    victory_updated = false
     world = {0x2340E5C, 0x233FE84}
     room_offset = {0x68, 0x8}
     room = world[game_version] + room_offset[game_version]
     cutscene_flags_address = {0x2DEB264, 0x2DEA864}
-    return (ReadByte(world[game_version]) == 0x10 and ReadByte(room) == 0x20 and ReadByte(cutscene_flags_address[game_version] + 0xB) == 0x9B)
+    victory_status = ReadByte(world[game_version]) == 0x10 and ReadByte(room) == 0x20 and ReadByte(cutscene_flags_address[game_version] + 0xB) == 0x9B
+    if victory_status ~= victory then
+        victory_updated = true
+    end
+    return victory_status, victory_updated
 end
 
 function fill_location_map()
@@ -768,38 +775,34 @@ function fill_location_map()
     return location_map
 end
 
-function add_location(locations_checked, location_id)
-    locations_checked[location_id] = 1
-    return locations_checked
-end
-
-function add_locations_to_locations_checked(locations_checked, frame_count)
+function add_locations_to_locations_checked(frame_count)
     for index, data in pairs(location_map) do
         if index % 60 == frame_count then
-            location_id      = data[1]
-            address          = data[2]
-            bit_num          = data[3]
-            compare_value    = data[4]
-            special_function = data[5]
-            if special_function == 0 then
-                if bit_num > 0 then
-                    value = toBits(ReadByte(address))[bit_num]
-                    if value == nil then
-                        value = 0
+            location_id = data[1]
+            if not contains_item(game_state.locations, location_id) then
+                address          = data[2]
+                bit_num          = data[3]
+                compare_value    = data[4]
+                special_function = data[5]
+                if special_function == 0 then
+                    if bit_num > 0 then
+                        value = toBits(ReadByte(address))[bit_num]
+                        if value == nil then
+                            value = 0
+                        end
+                    else
+                        value = ReadByte(address)
                     end
-                else
-                    value = ReadByte(address)
+                    if value >= compare_value then
+                        game_state.locations[#game_state.locations + 1] = location_id
+                    end
                 end
-                if value >= compare_value then
-                    locations_checked = add_location(locations_checked, location_id)
+                if special_function == 1 then -- Rare nuts
+                    if ReadByte(address) - ReadByte(address + 0x6) >= compare_value then
+                        game_state.locations[#game_state.locations + 1] = location_id
+                    end
                 end
             end
-            if special_function == 1 then -- Rare nuts
-                if ReadByte(address) - ReadByte(address + 0x6) >= compare_value then
-                    locations_checked = add_location(locations_checked, location_id)
-                end
-           end
         end
     end
-    return locations_checked
 end

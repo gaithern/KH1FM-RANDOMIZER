@@ -28,9 +28,15 @@ canExecute = false
 game_version = 1
 frame_count = 0
 location_map = {}
-locations_checked = {}
-victory = false
-starting_items = {2641151, 2641156, 2641168, 2641150, 2643010, 2643022}
+
+game_state = {}
+game_state.victory = false
+game_state.locations = {}
+game_state.world = 0
+game_state.sora_koed = false
+game_state.hinted_locations = {}
+
+starting_items = {}
 
 ------------
 -- Socket --
@@ -64,14 +70,18 @@ function close_client(client_index)
     ConsolePrint("Client disconnected")
 end
 
-function send_message_to_client(client, message)
+function send_message_to_client(client, message, print_msg)
     encoded_message = json.encode(message)
     client:send(encoded_message.."\n")
-    ConsolePrint("Replied with: " .. encoded_message)
+    if print_msg then
+        ConsolePrint("Replied with: " .. encoded_message)
+    end
 end
 
 function handle_message(c, line)
-    ConsolePrint("Received request: " .. line)
+    if line ~= "{\"get_state\": true}" then
+        ConsolePrint("Received request: " .. line)
+    end
 
     local reply = {}
     local ok, msg = pcall(json.decode, line)
@@ -80,18 +90,13 @@ function handle_message(c, line)
         return
     end
 
-    -- {"ping": true}
-    if msg.ping then
-        reply.pong = true
-    end
-
     -- {"get_state": true}
     if msg.get_state then
-        reply.locations = get_checked_locations_array(locations_checked)
-        reply.victory = victory
-        reply.world = read_world()
-        reply.sora_koed = sora_koed()
-        reply.hinted_locations = get_synth_shop_hints()
+        reply.locations = game_state.locations
+        reply.victory = game_state.victory
+        reply.world = game_state.world
+        reply.sora_koed = game_state.sora_koed
+        reply.hinted_locations = game_state.hinted_locations
     end
 
     -- {"items": [...]}
@@ -133,7 +138,7 @@ function handle_message(c, line)
         reply.shared_abilities = read_shared_abilities()
     end
 
-    send_message_to_client(c, reply)
+    send_message_to_client(c, reply, false)
 end
 
 function receive_client_data()
@@ -151,6 +156,36 @@ function receive_client_data()
             ConsolePrint("Socket error: " .. tostring(err))
             close_client(i)
         end
+    end
+end
+
+function set_subscriptions(c, topics)
+    ensure_client_entry(c)
+    local subs = client_subscriptions[c]
+    -- clear existing
+    for k, _ in pairs(subs) do subs[k] = nil end
+    -- set new
+    for _, t in ipairs(topics) do
+        local nt = normalize_topic(t)
+        if nt then subs[nt] = true end
+    end
+end
+
+function add_subscriptions(c, topics)
+    ensure_client_entry(c)
+    local subs = client_subscriptions[c]
+    for _, t in ipairs(topics) do
+        local nt = normalize_topic(t)
+        if nt then subs[nt] = true end
+    end
+end
+
+function remove_subscriptions(c, topics)
+    ensure_client_entry(c)
+    local subs = client_subscriptions[c]
+    for _, t in ipairs(topics) do
+        local nt = normalize_topic(t)
+        if nt then subs[nt] = nil end
     end
 end
 
@@ -185,11 +220,13 @@ function _OnFrame()
         receive_client_data()
         if read_world() ~= 0 then
             frame_count = (frame_count + 1) % 60
-            locations_checked = add_locations_to_locations_checked(locations_checked, frame_count)
-            victory = final_ansem_defeated()
+            add_locations_to_locations_checked(frame_count)
+            final_ansem_defeated()
+            check_for_world_update()
+            check_for_synth_shop_hints()
+            get_sora_koed()
             handle_start_inventory()
             death_link_frame()
-            check_for_synth_shop_hints()
         end
     end
 end

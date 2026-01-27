@@ -6,13 +6,17 @@ function read_world()
     return ReadByte(world_address[game_version])
 end
 
-function get_checked_locations_array(locations_checked)
-    local locs = {}
-    for location_id, _ in pairs(locations_checked) do
-        table.insert(locs, location_id)
+function check_for_world_update(world)
+    game_state.world = read_world()
+end
+
+function contains_item(list, item)
+    for _, value in ipairs(list) do 
+        if value == item then
+            return true
+        end
     end
-    table.sort(locs)
-    return locs
+    return false
 end
 
 function read_first_7_bits(address)

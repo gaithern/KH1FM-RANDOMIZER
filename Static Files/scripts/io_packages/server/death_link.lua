@@ -37,6 +37,10 @@ function sora_koed()
     return ReadByte(soras_hp_address[game_version]) == 0
 end
 
+function get_sora_koed()
+    game_state.sora_koed = sora_koed()
+end
+
 function death_link_init()
     lastDeathPointer = ReadLong(deathPointer[game_version])
     soras_last_hp = ReadByte(soraHP[game_version])
