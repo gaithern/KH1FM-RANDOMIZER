@@ -22,9 +22,9 @@ def extract_zip(zip_file_path):
 def get_ap_zip_file_name():
     ap_zip_file = None
     while not ap_zip_file:
-        ap_zip_file = filedialog.askopenfilename(filetypes =[('ZIP', '*.zip')], title = "KH1 AP Output Zip")
+        ap_zip_file = filedialog.askopenfilename(filetypes =[("KH1 Randomizer Patch (*.kh1rpatch)", "*.kh1rpatch")], title = "KH1 Randomizer Patch")
         if not ap_zip_file:
-            print("Error, please select a valid KH1 AP output zip file")
+            print("Error, please select a valid KH1 Randomizer patch file")
     return ap_zip_file
 
 def unzip_ap_output(ap_zip_file_name = None):
@@ -32,7 +32,7 @@ def unzip_ap_output(ap_zip_file_name = None):
     if ap_zip_file_name is None:
         ap_zip_file_name = get_ap_zip_file_name()
     extract_zip(ap_zip_file_name)
-    json_path = ap_zip_file_name.replace(".zip","") + "/"
+    json_path = ap_zip_file_name.replace(".kh1rpatch","") + "/"
     print(json_path)
     return json_path
 

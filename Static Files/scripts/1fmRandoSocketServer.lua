@@ -218,6 +218,7 @@ function _OnFrame()
     if canExecute then
         accept_client()
         receive_client_data()
+        handle_start_inventory()
         if read_world() ~= 0 then
             frame_count = (frame_count + 1) % 60
             add_locations_to_locations_checked(frame_count)
@@ -225,7 +226,6 @@ function _OnFrame()
             check_for_world_update()
             check_for_synth_shop_hints()
             get_sora_koed()
-            handle_start_inventory()
             death_link_frame()
         end
     end
