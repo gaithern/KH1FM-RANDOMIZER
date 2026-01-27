@@ -32,7 +32,7 @@ def unzip_ap_output(ap_zip_file_name = None):
     if ap_zip_file_name is None:
         ap_zip_file_name = get_ap_zip_file_name()
     extract_zip(ap_zip_file_name)
-    json_path = ap_zip_file_name.replace(".kh1rpatch","") + "/"
+    json_path = ap_zip_file_name.replace(".kh1rpatch","").replace(".zip","") + "/"
     print(json_path)
     return json_path
 

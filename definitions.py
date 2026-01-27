@@ -1038,5 +1038,6 @@ augment_strings = {
     2644035: ["aug_gravity_down_acc", "Augment: Gravity Down"],
     2644036: ["aug_stop_down_acc", "Augment: Stop Down"],
     2644037: ["aug_aero_down_acc", "Augment: Aero Down"],
-    2644038: ["aug_summon_anywhere_acc", "Augment: Summon Anywhere"]
+    2644038: ["aug_summon_anywhere_acc", "Augment: Summon Anywhere"],
+    2644039: ["aug_summon_boost_acc", "Augment: Summon Boost"]
 }

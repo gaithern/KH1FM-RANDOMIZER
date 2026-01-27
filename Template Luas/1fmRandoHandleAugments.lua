@@ -69,6 +69,7 @@ aug_gravity_down_acc = 256
 aug_stop_down_acc = 256
 aug_aero_down_acc = 256
 aug_summon_anywhere_acc = 256
+aug_summon_boost_acc = 256
 
 function contains(tbl, val)
     for _, v in ipairs(tbl) do
@@ -339,6 +340,14 @@ function handle_magic_costs(acc_equipped)
     end
     for spell_index, spell_cost_index in pairs(magic_costs) do
         WriteByte(btltbl + 0x5F58 + (0x70 * (spell_index - 1)), possible_magic_costs[spell_cost_index])
+    end
+end
+
+function handle_summon_time_up(acc_equipped):
+    if contains(acc_equipped, aug_summon_boost_acc) then
+        WriteInt(summonanywhere1 + 0x317, 4000)
+    else
+        WriteInt(summonanywhere1 + 0x317, 3000)
     end
 end
 
