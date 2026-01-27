@@ -20,8 +20,6 @@ def update_death_link_lua(death_link_lua_str, settings_data):
         death_link_lua_str = death_link_lua_str.replace("local donald_death_link = false", "local donald_death_link = true")
     if settings_data["donald_death_link"]:
         death_link_lua_str = death_link_lua_str.replace("local goofy_death_link = false", "local goofy_death_link = true")
-    if settings_data["death_link"] != "off":
-        death_link_lua_str = death_link_lua_str.replace("local death_link = false", "local death_link = true")
     return death_link_lua_str
 
 def output_death_link_lua_file(death_link_lua_str):
