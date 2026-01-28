@@ -351,6 +351,38 @@ function handle_summon_time_up(acc_equipped):
     end
 end
 
+function handle_grounded()
+    --ground_animations = {0xC8, 0xC9, 0xCA, 0xCB, 0xCF, 0xD0, 0xD2, 0xD5, 0xD6, 0xD7, 0xD8, 0xD9, 0xDA}
+    ground_animations = {0xCB, 0xD0, 0xD2, 0xD3, 0xD6, 0xD7, 0xD8, 0xD9, 0xDA}
+    ground_bonuses    = {0.4,  0.75, 0.4,  0.75, 0.4,  0.5 , 0.5,  0.5,  0.4}
+    air_animations = {0xCC, 0xCD, 0xCE, 0xD1}
+    currSpeed = ReadFloat(GetPointer(soraHUD - 0xA94) + 0x284, true)
+    currAnim = ReadByte(ReadLong(soraPointer)+0x164, true)
+    i = index(ground_animations, currAnim)
+    if i ~= nil then
+        WriteFloat(GetPointer(soraHUD - 0xA94) + 0x284, currSpeed + ground_bonuses[i], true)
+    elseif contains(air_animations, currAnim) then
+        WriteFloat(GetPointer(soraHUD - 0xA94) + 0x284, currSpeed - 0.25, true)
+    else
+        WriteFloat(GetPointer(soraHUD - 0xA94) + 0x284, currSpeed, true)
+    end
+end
+
+function handle_finishing_plus()
+    ground_finishers = {0xCB, 0xD0, 0xD2, 0xD3, 0xD6, 0xD7, 0xD8, 0xD9, 0xDA}
+    ground_animations = {0xC8, 0xC9, 0xCA, 0xCB, 0xCF, 0xD0, 0xD2, 0xD5, 0xD6, 0xD7, 0xD8, 0xD9, 0xDA}
+    current_hits = ReadByte(0x296B221)
+    animation_time = ReadFloat(ReadLong(soraPointer)+0x16C, true)
+    currAnim = ReadByte(ReadLong(soraPointer)+0x164, true)
+    
+    if contains(ground_finishers, currAnim) and current_hits > 1 and ReadByte(inputAddress + 0x3) == 0 and animation_time > 40 then
+        WriteByte(soraHP + 0x98, 1)
+        WriteByte(ReadLong(soraPointer), 0x3, true)
+    elseif not contains(ground_animations, currAnim) then
+        WriteByte(soraHP + 0x98, 3)
+    end
+end
+
 function _OnInit()
     if GAME_ID == 0xAF71841E and ENGINE_TYPE == "BACKEND" then
         require("VersionCheck")
