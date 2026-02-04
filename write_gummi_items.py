@@ -12,6 +12,7 @@ START_INVENTORY_WRITTEN_INDEX = 0x7B
 GUMMI_ITEMS_WRITTEN_INDEX = 0x7C
 TOO_LONG_DESCRIPTIONS = {
     "Accessory Augments": "Acc Augments",
+    "Augment Abilities From Pool": "Aug Ablts frm Pool",
     "Bad Starting Weapons": "Bad Starting Wpns",
     "Consistent Finishers": "Consistent Fnshrs",
     "End Of The World Unlock": "EOTW Unlock",
@@ -115,6 +116,8 @@ def write_gummi_items(setings_file = None):
             replace_specific_gummi_item_string(settings_num, setting_name)
             replace_specific_gummi_item_string(settings_num + 160, setting_description)
             settings_num = settings_num + 1
+            if settings_num == 49: # Warp-G
+                settings_num = settings_num + 1
     for index in AP_ITEM_GUMMI_INDEXES:
         replace_specific_gummi_item_string(index,       "AP Items Received")
         replace_specific_gummi_item_string(index + 160, "")

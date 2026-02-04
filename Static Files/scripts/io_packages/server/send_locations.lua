@@ -11,18 +11,13 @@ function toBits(num)
     return t
 end
 
-function final_ansem_defeated(victory)
+function final_ansem_defeated()
     --[[Checks if the player is on the results screen, meaning that they defeated Final Ansem]]
-    victory_updated = false
     world = {0x2340E5C, 0x233FE84}
     room_offset = {0x68, 0x8}
     room = world[game_version] + room_offset[game_version]
     cutscene_flags_address = {0x2DEB264, 0x2DEA864}
-    victory_status = ReadByte(world[game_version]) == 0x10 and ReadByte(room) == 0x20 and ReadByte(cutscene_flags_address[game_version] + 0xB) == 0x9B
-    if victory_status ~= victory then
-        victory_updated = true
-    end
-    return victory_status, victory_updated
+    game_state.victory = ReadByte(world[game_version]) == 0x10 and ReadByte(room) == 0x20 and ReadByte(cutscene_flags_address[game_version] + 0xB) == 0x9B
 end
 
 function fill_location_map()

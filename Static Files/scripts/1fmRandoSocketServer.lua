@@ -36,8 +36,6 @@ game_state.world = 0
 game_state.sora_koed = false
 game_state.hinted_locations = {}
 
-starting_items = {}
-
 ------------
 -- Socket --
 ------------
@@ -79,9 +77,9 @@ function send_message_to_client(client, message, print_msg)
 end
 
 function handle_message(c, line)
-    if line ~= "{\"get_state\": true}" then
-        ConsolePrint("Received request: " .. line)
-    end
+    --if line ~= "{\"get_state\": true}" then
+    --    ConsolePrint("Received request: " .. line)
+    --end
 
     local reply = {}
     local ok, msg = pcall(json.decode, line)

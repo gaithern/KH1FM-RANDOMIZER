@@ -2,11 +2,11 @@ LUAGUI_NAME = "1fmRandoHandleItems"
 LUAGUI_AUTH = "Gicu"
 LUAGUI_DESC = "Kingdom Hearts 1FM Handle Special Cases with Key Items"
 
+require("globals")
+
 canExecute = false
 stock_address = {0x2DEA1FA, 0x2DE97FA}
 world_progress_array_address = {0x2DEB264, 0x2DEA864}
-stacking_worlds = false
-stacking_forget_me_not = false
 
 function handle_slides(stock)
     if stock[217] > 0 and stock[218] == 0 then
@@ -71,11 +71,7 @@ function handle_worlds(stock)
     worlds_unlocked_items[6] = stock[166]
     worlds_unlocked_items[7] = stock[157]
     worlds_unlocked_items[8] = stock[165]
-    if can_enter_hb() then
-        worlds_unlocked_items[9] = stock[168]
-    else
-        worlds_unlocked_items[9] = 0
-    end
+    worlds_unlocked_items[9] = stock[168]
     worlds_unlocked_items[10] = stock[169]
     worlds_unlocked_items[11] = stock[156]
     unlocked_worlds_array = {3,0,0,0,0,0,0,0,0,0,0}
@@ -312,11 +308,6 @@ function write_soras_stats(soras_stats_array)
     WriteByte(soras_stats_address[game_version] + sora_defense_offset         , soras_stats_array[5])
     WriteByte(soras_stats_address[game_version] + sora_item_slots_offset      , soras_stats_array[6])
     WriteByte(soras_stats_address[game_version] + sora_accessory_slots_offset , soras_stats_array[7])
-end
-
-function can_enter_hb()
-    --If the player has done the Earthshine Leon event and not beaten Riku Ansem, or they have done the Kairi Oathkeeper event, they can go to HB2
-    return ReadByte(world_progress_array_address[game_version]) >= 0x8C or (ReadByte(world_progress_array_address[game_version]) >= 0x3E and ReadByte(world_progress_array_address[game_version] + 0xA) < 0x82)
 end
 
 function _OnInit()

@@ -2,6 +2,8 @@ LUAGUI_NAME = "1fmRandoAllowDestinyIslands"
 LUAGUI_AUTH = "denho, Gicu"
 LUAGUI_DESC = "Kingdom Hearts Rando Allow Landing in Destiny Islands"
 
+require("globals")
+
 canExecute = false
 
 local inGummi = {0x50832D, 0x5075A8}
@@ -31,9 +33,6 @@ local stock_address = {0x2DEA1FA, 0x2DE97FA}
 
 local frames = 0
 local warped_to_eotw = false
-
-local day_2_materials = 0
-local homecoming_materials = 0
 
 function enable_di_landing(destiny_islands_item)
     if destiny_islands_item > 0 then

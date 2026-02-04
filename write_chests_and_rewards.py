@@ -104,13 +104,13 @@ def get_all_reward_replacements(reward_definitions, seed_json_data):
             print("Replacement bytes: " + str(replacement_bytes))
     return replacements
 
-def get_chest_template_lua():
-    with open('./Template Luas/1fmRandoChests.lua', mode = 'r') as file:
-        chests_lua_str = file.read()
-    return chests_lua_str
+def get_globals_lua():
+    with open('./Working/scripts/io_packages/globals.lua', mode = 'r') as file:
+        globals_lua_st = file.read()
+    return globals_lua_st
 
-def update_chest_lua(chests_lua_str, replacements):
-    return chests_lua_str.replace("chests = {}", "chests = " + json.dumps(replacements).replace("{\"", "{[").replace("\":", "] =").replace(", \"", ", ["))
+def update_globals_lua(globals_lua_str, replacements):
+    return globals_lua_str.replace("chests = {}", "chests = " + json.dumps(replacements).replace("{\"", "{[").replace("\":", "] =").replace(", \"", ", ["))
 
 def update_battle_table(battle_table_bytes, replacements):
     for replacement_offset in replacements.keys():
@@ -118,9 +118,9 @@ def update_battle_table(battle_table_bytes, replacements):
         battle_table_bytes[replacement_offset] = replacements[replacement_offset][1]
     return battle_table_bytes
 
-def output_chest_lua_file(chest_lua_str):
-    with open('./Working/scripts/1fmRandoChests.lua', mode = 'w') as file:
-        file.write(chest_lua_str)
+def output_globals_lua_file(globals_lua_str):
+    with open('./Working/scripts/io_packages/globals.lua', mode = 'w') as file:
+        file.write(globals_lua_str)
 
 def output_battle_table(battle_table_bytes):
     with open('./Working/btltbl.bin', mode = 'wb') as file:
@@ -133,9 +133,9 @@ def write_chests_and_rewards(seed_json_file = None):
     seed_json_data = get_seed_json_data(seed_json_file = seed_json_file)
     chest_replacements, reward_definitions = get_all_chest_replacements(chest_definitions, reward_definitions, seed_json_data)
     reward_replacements = get_all_reward_replacements(reward_definitions, seed_json_data)
-    chest_template_lua = get_chest_template_lua()
-    chest_lua = update_chest_lua(chest_template_lua, chest_replacements)
-    output_chest_lua_file(chest_lua)
+    globals_lua_str = get_globals_lua()
+    globals_lua_str = update_globals_lua(globals_lua_str, chest_replacements)
+    output_globals_lua_file(globals_lua_str)
     battle_table_bytes = get_battle_table(kh1_data_path)
     updated_battle_table = update_battle_table(battle_table_bytes, reward_replacements)
     output_battle_table(updated_battle_table)

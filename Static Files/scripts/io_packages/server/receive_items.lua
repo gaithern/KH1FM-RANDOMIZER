@@ -1,4 +1,5 @@
-local json = require("json")
+local json    = require("json")
+local globals = require("globals")
 
 function in_gummi_garage()
     in_gummi_address = {0x508778, 0x507C08}

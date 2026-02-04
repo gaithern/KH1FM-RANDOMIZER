@@ -38,12 +38,14 @@ function _OnFrame()
         if ReadByte(gummi_address[game_version] + 0x7C) == 0 then
             i = 0
             while i < 160 do
-                if i < gummi_item_count then
-                    if ReadByte(gummi_address[game_version] + i) ~= 1 then
-                        WriteByte(gummi_address[game_version] + i, 1)
+                if i ~= 49 then -- Don't give Warp-G
+                    if i < gummi_item_count then
+                        if ReadByte(gummi_address[game_version] + i) ~= 1 then
+                            WriteByte(gummi_address[game_version] + i, 1)
+                        end
+                    elseif not contains(exclude_items, i) then
+                         WriteByte(gummi_address[game_version] + i, 0)
                     end
-                elseif not contains(exclude_items, i) then
-                     WriteByte(gummi_address[game_version] + i, 0)
                 end
                 i = i + 1
             end

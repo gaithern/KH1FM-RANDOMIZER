@@ -2,9 +2,9 @@ LUAGUI_NAME = "1fmRandoWriteSynthesisItemNames"
 LUAGUI_AUTH = "Gicu"
 LUAGUI_DESC = "Kingdom Hearts 1FM Randomizer Write Synthesis Item Names"
 
-canExecute = false
+require("globals")
 
-synth_item_bytes = {}
+canExecute = false
 
 function write_synth_item_name()
     synth_item_selected_index = ReadByte(synthItemSelected)

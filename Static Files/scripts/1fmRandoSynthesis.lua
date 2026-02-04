@@ -2,8 +2,9 @@ LUAGUI_NAME = "1fmRandoSynthesis"
 LUAGUI_AUTH = "Gicu"
 LUAGUI_DESC = "Kingdom Hearts 1FM Randomizer Synthesis"
 
+require("globals")
+
 canExecute = false
-synth_items = {}
 synth_written = false
 synth_address = {0x5483A0, 0x5476C0}
 

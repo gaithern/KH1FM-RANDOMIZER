@@ -269,3 +269,15 @@ summonanywhere3 = 0x294819
 -- air items
 airitems1 = 0x2943DF
 airitems2 = 0x2A376D
+
+-- current hits
+currentHits = 0x296B221
+
+-- summon time
+summonTime = 0x2892B1
+
+-- interaction
+chests_interaction = 0x2B5AA4
+examine_interaction = 0x294B89
+talk_interaction = 0x294BC9
+trinity_interaction = 0x1A4EFF

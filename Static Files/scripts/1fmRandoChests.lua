@@ -2,8 +2,9 @@ LUAGUI_NAME = "1fmRandoChests"
 LUAGUI_AUTH = "Gicu"
 LUAGUI_DESC = "Kingdom Hearts 1FM Randomizer Chests"
 
+require("globals")
+
 canExecute = false
-chests = {}
 chests_written = false
 
 function randomize_chests()

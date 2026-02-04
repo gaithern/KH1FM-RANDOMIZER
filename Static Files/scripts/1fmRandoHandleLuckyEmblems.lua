@@ -2,18 +2,18 @@ LUAGUI_NAME = "1fmRandoHandleLuckyEmblems"
 LUAGUI_AUTH = "Gicu"
 LUAGUI_DESC = "Kingdom Hearts 1FM Unlock End of the World or Final Door Key with enough lucky emblems"
 
+require ("globals")
+
 canExecute = false
 stock_address = {0x2DEA1F9, 0x2DE97F9}
 
 function unlock_eotw()
-    eotw_lucky_emblems = 100
     if ReadByte(stock_address[game_version] + 238) >= eotw_lucky_emblems and ReadByte(stock_address[game_version] + 169) == 0 then
         WriteByte(stock_address[game_version] + 169, 1)
     end
 end
 
 function unlock_door()
-    door_lucky_emblems = 100
     if ReadByte(stock_address[game_version] + 238) >= door_lucky_emblems and ReadByte(stock_address[game_version] + 10) == 0 then
         WriteByte(stock_address[game_version] + 10, 1)
     end

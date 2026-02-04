@@ -2,11 +2,10 @@ LUAGUI_NAME = "1fmRandoAPCosts"
 LUAGUI_AUTH = "KSX and Gicu"
 LUAGUI_DESC = "Kingdom Hearts 1FM Randomizer Randomize AP Costs"
 
+require("globals")
 
 canExecute = false
 costsWritten = false
-
-ability_costs = {}
 
 function write_ap_costs()
     treasureMagnetAddress = soraAbilityTable - 0x7F0

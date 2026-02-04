@@ -2,6 +2,8 @@ LUAGUI_NAME = "1fmRandoFixComboMaster"
 LUAGUI_AUTH = "Gicu"
 LUAGUI_DESC = "Kingdom Hearts 1FM Randomizer Fix Combo Master"
 
+require("globals")
+
 canExecute = false
 
 function overwrite_combo_master()
@@ -12,8 +14,6 @@ function overwrite_combo_master()
     Level 55 for Guardian
     Level 55 for Mystic
     ]]
-    level_50_overwrite_value = 0x0
-    level_55_overwrite_value = 0x0
     battle_table_address = {0x2D23740, 0x2D22D40}
     abilities_1_table_offset = 0x3BF8
     abilities_2_table_offset = 0x3BF8 - 0xD0

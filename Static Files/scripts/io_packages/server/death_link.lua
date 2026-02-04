@@ -1,3 +1,5 @@
+require("globals")
+
 local revertCode = false
 local removeWhite = 0
 local lastDeathPointer = 0
@@ -7,8 +9,6 @@ local deathCheck = {0x299F20, 0x29C0B0} --changed BOTH 1.0.0.10
 local whiteFade = {0x234081C, 0x233FE1C} --changed for EGS 1.0.0.10
 local deathPointer = {0x2398838, 0x2382568} --changed for EGS 1.0.0.10
 
-local donald_death_link = false
-local goofy_death_link = false
 local sora_hp_address_base = {0x2DE9D60, 0x2DE9360} --changed for EGS 1.0.0.10
 local soras_hp_address = {0x2DE9D60 + 0x5, 0x2DE9360 + 0x5} --changed for EGS 1.0.0.10
 local donalds_hp_address = {0x2DE9D60 + 0x5 + 0x74, 0x2DE9360 + 0x5 + 0x74} --changed for EGS 1.0.0.10
