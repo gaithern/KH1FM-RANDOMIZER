@@ -17,7 +17,8 @@ lua_map = {
     "destiny_islands":         "1fmRandoAllowDestinyIslands.lua",
     "accessory_augments":      "1fmRandoHandleAugments.lua",
     "interact_in_battle":      "1fmRandoInteraction.lua",
-    "keyblades_unlock_chests": "1fmRandoInteraction.lua"
+    "keyblades_unlock_chests": "1fmRandoInteraction.lua",
+    "randomize_ap_costs":      "1fmRandoAPCosts.lua"
     }
 
 
@@ -46,10 +47,7 @@ def output_lua(lua_file_name):
 def write_toggleable_luas(settings_file = None):
     settings_data = get_settings_data(settings_file)
     for key in lua_map.keys():
-        if key in ["final_rest_door_key", "end_of_the_world_unlock"]:
-            if settings_data[key] == "lucky_emblems":
-                output_lua("1fmRandoHandleLuckyEmblems.lua")
-        elif key == "randomize_ap_costs":
+        if key == "randomize_ap_costs":
             if settings_data[key] != "off":
                 output_lua("1fmRandoAPCosts.lua")
         elif settings_data[key]:
