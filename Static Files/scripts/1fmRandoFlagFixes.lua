@@ -208,12 +208,11 @@ function FlagFixes()
         end
         
         -- Require Entry Pass
-        if ReadByte(cutsceneFlags[game_version]+0xB06) == 0x10 then
-            if ReadByte(inventory[game_version]+0xE4) > 0
-                    or ReadByte(worldFlagsAddress[game_version] + 0x201) >= 0x2 then
-                WriteByte(worldFlagBase[game_version]+0x94, 3)
+        if ReadByte(cutsceneFlags[game_version]+0xB06) >= 0x10 and ReadByte(cutsceneFlags[game_version]+0xB06) <= 0x13 then -- In the correct part of OC story
+            if ReadByte(inventory[game_version]+0xE4) > 0 or ReadByte(worldFlagsAddress[game_version] + 0x201) >= 0x2 then -- Have the entry pass or turned it in
+                WriteByte(worldFlagBase[game_version]+0x94, 3) -- Set the lobby scene to 3
             else
-                WriteByte(worldFlagBase[game_version]+0x94, 2)
+                WriteByte(worldFlagBase[game_version]+0x94, 2) -- Set the lobby scene to 2
             end
         end
     end
