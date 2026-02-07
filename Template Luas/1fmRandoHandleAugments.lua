@@ -212,7 +212,13 @@ function handle_magic_boosts(acc_equipped)
     end
     local new_effectiveness_values = {}
     for spell, mod in pairs(mag_mods) do
-        new_effectiveness_values[spell] = effectiveness_values[spell] * mod
+        if mod > 1.0 then
+            new_effectiveness_values[spell] = math.ceil(effectiveness_values[spell] * mod)
+        elseif mod < 1.0 then
+            new_effectiveness_values[spell] = math.floor(effectiveness_values[spell] * mod)
+        else
+            new_effectiveness_values[spell] = effectiveness_values[spell]
+        end
     end
     for spell, effectiveness_value in pairs(new_effectiveness_values) do
         set_spell_effectiveness(spell, effectiveness_value)

@@ -2,6 +2,7 @@ ability_costs = {}
 chests = {}
 donald_death_link = false
 goofy_death_link = false
+death_link = false
 day_2_materials = 100
 homecoming_materials = 100
 level_50_overwrite_value = 0x0
@@ -15,6 +16,7 @@ stacking_worlds = false
 stacking_forget_me_not = false
 interactinbattle = false
 chestslocked = false
+puppy_value = 3
 
 map_prize_array = {
     [2656600] = {0x0E64, 7, replace_2656600}, --Traverse Town 1st District Blue Trinity by Exit Door

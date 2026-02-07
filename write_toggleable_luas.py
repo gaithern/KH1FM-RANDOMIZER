@@ -18,7 +18,8 @@ lua_map = {
     "accessory_augments":      "1fmRandoHandleAugments.lua",
     "interact_in_battle":      "1fmRandoInteraction.lua",
     "keyblades_unlock_chests": "1fmRandoInteraction.lua",
-    "randomize_ap_costs":      "1fmRandoAPCosts.lua"
+    "randomize_ap_costs":      "1fmRandoAPCosts.lua",
+    "death_link":              "1fmRandoHandleDeathLink.lua"
     }
 
 
@@ -47,10 +48,8 @@ def output_lua(lua_file_name):
 def write_toggleable_luas(settings_file = None):
     settings_data = get_settings_data(settings_file)
     for key in lua_map.keys():
-        if key == "randomize_ap_costs":
-            if settings_data[key] != "off":
-                output_lua("1fmRandoAPCosts.lua")
-        elif settings_data[key]:
+        if str(settings_data.get(key, "false")).lower() not in ["false", "off"]:
+            print(str(settings_data.get(key, "false")))
             output_lua(lua_map[key])
         
 if __name__ == "__main__":

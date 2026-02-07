@@ -170,7 +170,6 @@ function handle_summons(stock)
 end
 
 function handle_puppies(stock)
-    puppy_value = 3
     puppy_array_address = {0x2DEB463, 0x2DEAA63}
     puppies_item = stock[167] * puppy_value
     puppies_array = {0x0}

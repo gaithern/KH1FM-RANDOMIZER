@@ -1,5 +1,27 @@
-local json    = require("json")
-local globals = require("globals")
+LUAGUI_NAME = "1fmRandoReceiveAPItems"
+LUAGUI_AUTH = "Gicu"
+LUAGUI_DESC = "Kingdom Hearts 1FM Randomizer Receive AP Items"
+
+canExecute = false
+game_version = 1
+initializing = true
+
+require("globals")
+
+if os.getenv('LOCALAPPDATA') ~= nil then
+    client_communication_path = os.getenv('LOCALAPPDATA') .. "\\KH1FM\\"
+else
+    client_communication_path = os.getenv('HOME') .. "/KH1FM/"
+    ok, err, code = os.rename(client_communication_path, client_communication_path)
+    if not ok and code ~= 13 then
+        os.execute("mkdir " .. path)
+    end
+end
+
+function file_exists(name)
+   local f=io.open(name,"r")
+   if f~=nil then io.close(f) return true else return false end
+end
 
 function in_gummi_garage()
     in_gummi_address = {0x508778, 0x507C08}
@@ -32,6 +54,12 @@ function write_start_inventory_written_byte(val)
     gummi_address = {0x2DF5BD8, 0x2DF51D8}
     start_inventory_written_address = gummi_address[game_version] + 0x7B
     return WriteByte(start_inventory_written_address, val)
+end
+
+function read_world()
+    --[[Gets the numeric value of the currently occupied world]]
+    world_address = {0x2340E5C, 0x233FE84}
+    return ReadByte(world_address[game_version])
 end
 
 function write_check_number(check_number)
@@ -130,22 +158,46 @@ function handle_start_inventory()
     end
 end
 
-function receive_items_from_client(items)
-    local last_check = read_check_number()
-    local next_index = last_check + 1
-
-    -- Process only items we haven't seen yet
-    while items[next_index] do
-        local item_id = tonumber(items[next_index])
-        if not item_id then
-            ConsolePrint("Invalid item at index " .. next_index)
-            break
+function receive_items()
+    --[[Main function for receiving items from the AP server]]
+    i = read_check_number() + 1
+    while file_exists(client_communication_path .. "AP_" .. tostring(i) .. ".item") do
+        file = io.open(client_communication_path .. "AP_" .. tostring(i) .. ".item", "r")
+        io.input(file)
+        received_item_id = tonumber(io.read())
+        if received_item_id == nil then
+            return
         end
-
-        handle_item_received(item_id)
-        next_index = next_index + 1
+        io.close(file)
+        handle_item_received(received_item_id)
+        i = i + 1
     end
-
     initializing = false
-    write_check_number(next_index - 1)
+    write_check_number(i - 1)
+end
+
+function _OnInit()
+    IsEpicGLVersion  = 0x3A2B86
+    IsSteamGLVersion = 0x3A29A6
+    if GAME_ID == 0xAF71841E and ENGINE_TYPE == "BACKEND" then
+        if ReadByte(IsEpicGLVersion) == 0xF0 then
+            ConsolePrint("Epic Version Detected")
+            game_version = 1
+            canExecute = true
+        end
+        if ReadByte(IsSteamGLVersion) == 0xF0 then
+            ConsolePrint("Steam Version Detected")
+            game_version = 2
+            canExecute = true
+        end
+    end
+end
+
+function _OnFrame()
+    if canExecute then
+        if not in_gummi_garage() then
+            handle_start_inventory()
+            receive_items()
+        end
+    end
 end
