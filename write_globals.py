@@ -87,7 +87,7 @@ def update_globals_lua_deathlink(globals_lua_str, settings_data):
     if settings_data["goofy_death_link"]:
         globals_lua_str = globals_lua_str.replace("goofy_death_link = false", "goofy_death_link = true")
     if settings_data["death_link"] != "off":
-        globals_lua_str = globals_lua_str.replace("death_link = false", "death_link = true")
+        globals_lua_str = globals_lua_str.replace("reg_death_link = false", "reg_death_link = true")
     return globals_lua_str
 
 def update_globals_lua_ap_costs(globals_lua_str, ap_cost_data):

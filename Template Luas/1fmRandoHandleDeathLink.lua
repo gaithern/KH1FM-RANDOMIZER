@@ -112,7 +112,7 @@ function _OnFrame()
         end
     end
     
-    if death_link then
+    if reg_death_link then
         if file_exists(client_communication_path .. "dlreceive") then
             file = io.open(client_communication_path .. "dlreceive")
             io.input(file)
