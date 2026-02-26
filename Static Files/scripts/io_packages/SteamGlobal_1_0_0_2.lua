@@ -281,3 +281,9 @@ chests_interaction = 0x2B5AA4
 examine_interaction = 0x294B89
 talk_interaction = 0x294BC9
 trinity_interaction = 0x1A4EFF
+
+-- show prompt
+boxMemory = 0x283B390
+textMemory = 0x2DC2668
+colorBox = 0x527A10
+colorText = 0x527A50
