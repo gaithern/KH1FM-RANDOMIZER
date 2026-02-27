@@ -612,8 +612,8 @@ function is_pressed(button_array, only)
     local input_bits = merge_tables(merge_tables(merge_tables(ReadBits(inputAddress), ReadBits(inputAddress+1)), ReadBits(inputAddress+2)), ReadBits(inputAddress+3))
     local bitmap = {"Select", "L3", "R3", "Start", "DPad U", "DPad R", "DPad D", "DPad L",
               "L2", "R2", "L1", "R1", "Triangle", "Circle", "X", "Square",
-              nil, nil, nil, nil, "Right Analog Stick U", "Right Analog Stick R", "Right Analog Stick D", "Right Analog Stick L"
-              nil, nil, nil, nil, "Left Analog Stick U", "Left Analog Stick R", "Left Analog Stick D", "Left Analog Stick L"}
+              "Unused 1", "Unused 2", "Unused 3", "Unused 4", "Right Analog Stick U", "Right Analog Stick R", "Right Analog Stick D", "Right Analog Stick L",
+              "Unused 5", "Unused 6", "Unused 7", "Unused 8", "Left Analog Stick U", "Left Analog Stick R", "Left Analog Stick D", "Left Analog Stick L"}
     expected_bitmap = {}
     for k,v in pairs(bitmap) do
         if contains(button_array, v) then
