@@ -74,7 +74,7 @@ function handle_worlds(stock)
     worlds_unlocked_items[9] = stock[168]
     worlds_unlocked_items[10] = stock[169]
     worlds_unlocked_items[11] = stock[156]
-    unlocked_worlds_array = {3,0,0,0,0,0,0,0,0,0,0}
+    unlocked_worlds_array = {3,0,0,0,0,0,0,0,0,0,0,0,0,0}
     for k,v in pairs(worlds_unlocked_items) do
         if v > 0 then
             unlocked_worlds_array[k] = 3
