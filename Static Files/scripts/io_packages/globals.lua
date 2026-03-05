@@ -17,6 +17,9 @@ stacking_forget_me_not = false
 interactinbattle = false
 chestslocked = false
 puppy_value = 3
+locations_checked = {}
+items_received = {}
+locations_hinted = {}
 
 map_prize_array = {
     [2656600] = {0x0E64, 7, replace_2656600}, --Traverse Town 1st District Blue Trinity by Exit Door

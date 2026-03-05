@@ -27,6 +27,7 @@ def get_mod_yaml_header(seed, slot_name):
 originalAuthor: Gicu
 description: Necessary files for KH1FM Archipelago Randomizer.  For more info - kh1fmrando.com
 dependencies:
+  - gaithern/kh1-lua-library
 assets:
 """
 
