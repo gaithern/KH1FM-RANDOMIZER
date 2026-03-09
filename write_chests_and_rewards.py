@@ -2,39 +2,16 @@ from tkinter import filedialog
 import csv
 import json
 
-def get_chest_definitions():
-    with open('./Documentation/KH1FM Documentation - Chest Items.csv', mode = 'r') as file:
-        chest_definitions = []
-        chest_data = csv.DictReader(file)
-        for line in chest_data:
-            chest_definitions.append(line)
-    return chest_definitions
+from globals import BASE_DIR, read_csv, read_json, read_bytes, read_file, write_bytes, write_file
 
 def get_rewards_definitions():
-    with open('./Documentation/KH1FM Documentation - Battle Table Reward Items.csv', mode = 'r') as file:
-        reward_definitions = []
-        reward_data = csv.DictReader(file)
-        for line in reward_data:
-            reward_definitions.append(line)
+    reward_definitions = read_csv(BASE_DIR / "Documentation/KH1FM Documentation - Battle Table Reward Items.csv")
     for reward in reward_definitions:
         if reward["Chest Reference"] == "Link":
             reward["AP Location ID"] = None
         if reward["AP Location ID"] == "":
             reward["AP Location ID"] = None
     return reward_definitions
-
-def get_battle_table(kh1_data_path):
-    with open(kh1_data_path + "/btltbl.bin", mode = 'rb') as file:
-        return bytearray(file.read())
-
-def get_seed_json_data(seed_json_file = None):
-    while not seed_json_file:
-        seed_json_file = filedialog.askopenfilename(filetypes =[('JSON', '*.json')], title = "KH1 Randomizer Seed JSON")
-        if not seed_json_file:
-            print("Error, please select a valid KH1 seed file")
-    with open(seed_json_file, mode='r') as file:
-        seed_json_data = json.load(file)
-    return seed_json_data
 
 def get_replacement_short_item(item_index):
     short_value = item_index * 0x10
@@ -104,11 +81,6 @@ def get_all_reward_replacements(reward_definitions, seed_json_data):
             print("Replacement bytes: " + str(replacement_bytes))
     return replacements
 
-def get_globals_lua():
-    with open('./Working/scripts/io_packages/globals.lua', mode = 'r') as file:
-        globals_lua_st = file.read()
-    return globals_lua_st
-
 def update_globals_lua(globals_lua_str, replacements):
     return globals_lua_str.replace("chests = {}", "chests = " + json.dumps(replacements).replace("{\"", "{[").replace("\":", "] =").replace(", \"", ", ["))
 
@@ -118,27 +90,16 @@ def update_battle_table(battle_table_bytes, replacements):
         battle_table_bytes[replacement_offset] = replacements[replacement_offset][1]
     return battle_table_bytes
 
-def output_globals_lua_file(globals_lua_str):
-    with open('./Working/scripts/io_packages/globals.lua', mode = 'w') as file:
-        file.write(globals_lua_str)
-
-def output_battle_table(battle_table_bytes):
-    with open('./Working/btltbl.bin', mode = 'wb') as file:
-        file.write(battle_table_bytes)
-
-def write_chests_and_rewards(seed_json_file = None):
-    kh1_data_path = "./Working/"
-    chest_definitions = get_chest_definitions()
+def write_chests_and_rewards(seed_json_file):
+    kh1_data_path = BASE_DIR / "Working/"
+    chest_definitions = read_csv(BASE_DIR / "Documentation/KH1FM Documentation - Chest Items.csv")
     reward_definitions = get_rewards_definitions()
-    seed_json_data = get_seed_json_data(seed_json_file = seed_json_file)
+    seed_json_data = read_json(seed_json_file)
     chest_replacements, reward_definitions = get_all_chest_replacements(chest_definitions, reward_definitions, seed_json_data)
     reward_replacements = get_all_reward_replacements(reward_definitions, seed_json_data)
-    globals_lua_str = get_globals_lua()
+    globals_lua_str = read_file(kh1_data_path / "scripts/io_packages/globals.lua")
     globals_lua_str = update_globals_lua(globals_lua_str, chest_replacements)
-    output_globals_lua_file(globals_lua_str)
-    battle_table_bytes = get_battle_table(kh1_data_path)
+    write_file(kh1_data_path / "scripts/io_packages/globals.lua", globals_lua_str)
+    battle_table_bytes = read_bytes(kh1_data_path / "btltbl.bin")
     updated_battle_table = update_battle_table(battle_table_bytes, reward_replacements)
-    output_battle_table(updated_battle_table)
-
-if __name__=="__main__":
-    write_chests_and_rewards()
+    write_bytes(kh1_data_path / "btltbl.bin", updated_battle_table)

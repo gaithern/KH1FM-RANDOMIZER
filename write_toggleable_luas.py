@@ -1,5 +1,9 @@
-from tkinter import filedialog
-import json
+from globals import BASE_DIR, read_json, read_file, write_file
+
+def get_interaction_file(settings):
+    if "world_version" not in settings:
+        return "1fmRandoInteraction_Old.lua"
+    return "1fmRandoInteraction.lua"
 
 lua_map = {
     "shorten_go_mode":         "1fmRandoShortenGoMode.lua",
@@ -16,41 +20,22 @@ lua_map = {
     "warp_anywhere":           "1fmRandoWarpAnywhere.lua",
     "destiny_islands":         "1fmRandoAllowDestinyIslands.lua",
     "accessory_augments":      "1fmRandoHandleAugments.lua",
-    "interact_in_battle":      "1fmRandoInteraction.lua",
-    "keyblades_unlock_chests": "1fmRandoInteraction.lua",
-    "randomize_ap_costs":      "1fmRandoAPCosts.lua",
-    "death_link":              "1fmRandoHandleDeathLink.lua"
+    "interact_in_battle":      get_interaction_file,
+    "keyblades_unlock_chests": get_interaction_file,
+    "randomize_ap_costs":      "1fmRandoAPCosts.lua"
     }
 
-
-def get_settings_data(settings_file = None):
-    while not settings_file:
-        settings_file = filedialog.askopenfilename(filetypes =[('JSON', '*.json')], title = "KH1 Randomizer Settings JSON")
-        if not settings_file:
-            print("Error, please select a valid KH1 settings file")
-    with open(settings_file, mode='r') as file:
-        settings_data = json.load(file)
-    return settings_data
-
-def get_lua_str(lua_file_name):
-    with open('./Template Luas/' + lua_file_name, mode = 'r') as file:
-        lua_str = file.read()
-    return lua_str
-
-def output_lua_file(lua_str, lua_file_name):
-    with open('./Working/scripts/' + lua_file_name, mode = 'w') as file:
-        file.write(lua_str)
-
 def output_lua(lua_file_name):
-    lua_str = get_lua_str(lua_file_name)
-    output_lua_file(lua_str, lua_file_name)
+    lua_str = read_file(BASE_DIR / "Template Luas" / lua_file_name)
+    write_file(BASE_DIR / "Working" / "scripts" / lua_file_name, lua_str)
 
-def write_toggleable_luas(settings_file = None):
-    settings_data = get_settings_data(settings_file)
-    for key in lua_map.keys():
-        if str(settings_data.get(key, "false")).lower() not in ["false", "off"]:
-            print(str(settings_data.get(key, "false")))
-            output_lua(lua_map[key])
-        
-if __name__ == "__main__":
-    write_toggleable_luas()
+def write_toggleable_luas(settings_file):
+    settings_data = read_json(settings_file)
+    written_files = set()
+    for key, value in lua_map.items():
+        is_enabled = str(settings_data.get(key, "false")).lower() not in ["false", "off"]
+        if is_enabled:
+            lua_file_name = value(settings_data) if callable(value) else value
+            if lua_file_name not in written_files:
+                output_lua(lua_file_name)
+                written_files.add(lua_file_name)

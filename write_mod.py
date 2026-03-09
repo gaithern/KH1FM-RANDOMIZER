@@ -1,3 +1,4 @@
+from pathlib import Path
 from tkinter import filedialog
 
 from clear_working_folder import clear_working_folder
@@ -26,32 +27,22 @@ from write_globals import write_globals
 from validate_evdl_data import validate_evdl_data
 from unzip_ap_output import unzip_ap_output
 
-def get_kh1_data_path():
-    kh1_data_path = None
-    while not kh1_data_path:
-        kh1_data_path = filedialog.askdirectory()
-        if not kh1_data_path:
-            print("Error, please select a valid KH1 data path")
-    return kh1_data_path
-
-def write_mod(ap_zip_file_name = None, kh1_data_path = None):
+def write_mod(ap_zip_file_name, kh1_data_path):
+    ap_zip_file_name = Path(ap_zip_file_name)
+    kh1_data_path = Path(kh1_data_path)
     print("Unzipping AP Output File...")
     json_path = unzip_ap_output(ap_zip_file_name)
-    item_location_map_file = json_path + "/item_location_map.json"
-    keyblade_stats_file = json_path + "/keyblade_stats.json"
-    settings_file = json_path + "/settings.json"
-    ap_cost_file = json_path + "/ap_costs.json"
-    mp_cost_file = json_path + "/mp_costs.json"
+    item_location_map_file = json_path / "item_location_map.json"
+    keyblade_stats_file = json_path / "keyblade_stats.json"
+    settings_file = json_path / "settings.json"
+    ap_cost_file = json_path / "ap_costs.json"
+    mp_cost_file = json_path / "mp_costs.json"
     
     print("Item Location Map File: " + str(item_location_map_file))
-    print("Keyblade Stats File: " + str(keyblade_stats_file))
-    print("Settings File: " + str(settings_file))
-    print("AP Costs File: " + str(ap_cost_file))
-    print("MP Costs File: " + str(mp_cost_file))
-    
-    if kh1_data_path is None:
-        print("Getting KH1 data path...")
-        kh1_data_path = get_kh1_data_path()
+    print("Keyblade Stats File: "    + str(keyblade_stats_file))
+    print("Settings File: "          + str(settings_file))
+    print("AP Costs File: "          + str(ap_cost_file))
+    print("MP Costs File: "          + str(mp_cost_file))
     
     print("Validating KH1 data...")
     validate_evdl_data(kh1_data_path = kh1_data_path)
@@ -99,7 +90,7 @@ def write_mod(ap_zip_file_name = None, kh1_data_path = None):
     write_spell_info(settings_file = settings_file, mp_cost_file = mp_cost_file)
     
     print("Writing gummi items...")
-    write_gummi_items(setings_file = settings_file)
+    write_gummi_items(settings_file = settings_file)
     
     print("Writing gummi item buy and sell price...")
     write_gummi_item_buy_and_sell_price()
@@ -126,6 +117,3 @@ def write_mod(ap_zip_file_name = None, kh1_data_path = None):
     write_mod_zip(settings_file = settings_file)
     
     print("All jobs complete!  Enjoy!")
-
-if __name__ == "__main__":
-    write_mod()

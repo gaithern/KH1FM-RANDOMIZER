@@ -1,30 +1,6 @@
-from tkinter import filedialog
-import json
-import csv
-
 from definitions import keyblade_list
 from write_item_descriptions import replace_specific_item_description
-
-def get_seed_keyblade_stats_data(seed_json_file = None):
-    while not seed_json_file:
-        seed_json_file = filedialog.askopenfilename(filetypes =[('JSON', '*.json')], title = "KH1 Keyblade Stats JSON File")
-        if not seed_json_file:
-            print("Error, please select a valid KH1 keyblade stats json file")
-    with open(seed_json_file, mode='r') as file:
-        seed_json_data = json.load(file)
-    return seed_json_data
-
-def get_battle_table(kh1_data_path):
-    with open(kh1_data_path + "/btltbl.bin", mode = 'rb') as file:
-        return bytearray(file.read())
-
-def get_weapon_stat_definitions():
-    with open('./Documentation/KH1FM Documentation - Weapon Stats.csv', mode = 'r') as file:
-        weapon_definitions = []
-        weapon_data = csv.DictReader(file)
-        for line in weapon_data:
-            weapon_definitions.append(line)
-    return weapon_definitions
+from globals import BASE_DIR, read_json, read_bytes, read_csv, write_bytes
 
 def get_weapon_byte_offset(weapon_definitions, stat, keyblade, user):
     for weapon in weapon_definitions:
@@ -79,17 +55,10 @@ def write_weapon_stats(battle_table_data, weapon_definitions, keyblade_stats_dat
         i = i + 1
     return battle_table_data
 
-def output_battle_table(battle_table_bytes):
-    with open('./Working/btltbl.bin', mode = 'wb') as file:
-        file.write(battle_table_bytes)
-
-def write_keyblade_stats(seed_json_file = None):
-    kh1_data_path = "./Working/"
-    keyblade_stats_data = get_seed_keyblade_stats_data(seed_json_file)
-    battle_table_bytes = get_battle_table(kh1_data_path)
-    weapon_definitions = get_weapon_stat_definitions()
+def write_keyblade_stats(seed_json_file):
+    kh1_data_path = BASE_DIR / "Working"
+    keyblade_stats_data = read_json(seed_json_file)
+    battle_table_bytes = read_bytes(kh1_data_path / "btltbl.bin")
+    weapon_definitions = read_csv(BASE_DIR / "Documentation" / "KH1FM Documentation - Weapon Stats.csv")
     battle_table_bytes = write_weapon_stats(battle_table_bytes, weapon_definitions, keyblade_stats_data)
-    output_battle_table(battle_table_bytes)
-
-if __name__ == "__main__":
-    write_keyblade_stats()
+    write_bytes(kh1_data_path / "btltbl.bin", battle_table_bytes)

@@ -1,7 +1,6 @@
 from shutil import copyfile
 
-def write_icon():
-    copyfile("./Images/program_icon.png", "./Working/icon.png")
+from globals import BASE_DIR
 
-if __name__ == "__main__":
-    write_icon()
+def write_icon():
+    copyfile(BASE_DIR / "Images" / "program_icon.png", BASE_DIR / "Working" / "icon.png")

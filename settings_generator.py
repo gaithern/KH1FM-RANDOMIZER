@@ -1,6 +1,6 @@
+from globals import BASE_DIR, read_json, write_json
 from gooey import Gooey,GooeyParser
 import os
-import json
 
 # Handle Splash Screen
 try:
@@ -10,24 +10,14 @@ except:
     pass
 # End Handle Splash Screen
 
-def read_presets():
-    with open("./settings_generator_presets.json", 'r') as file:
-        data = json.load(file)
-        return data
-
-def write_presets(args):
-    data = json.dumps(vars(args), indent=4)
-    with open("./settings_generator_presets.json", "w") as file:
-        file.write(data)
-
 @Gooey(program_name='KH1 Randomizer Settings Generator',
-        image_dir='./Images/',
+        image_dir=BASE_DIR / 'Images/',
         tabbed_groups=True,
         default_size=(720, 480),
         header_bg_color="#efcf78")
 
 def main():
-    presets = read_presets()
+    presets = read_json(BASE_DIR / "settings_generator_presets.json")
     parser = GooeyParser()
     goal_group = parser.add_argument_group("Goal",
         "Customize how the player can win the game.")
@@ -597,7 +587,7 @@ def main():
         help = "If Randomize AP Costs is set to Randomize or Distribute, this defined the minimum AP cost an ability can have.")
     
     args = parser.parse_args()
-    write_presets(args)
+    write_json(BASE_DIR / "settings_generator_presets.json", args)
     print(create_yaml(args))
 
 def create_yaml(args):
@@ -918,7 +908,7 @@ def get_min_ap_cost_line(min_ap_cost):
 
 def output_yaml(yaml_str, slot_name):
     slot_name = slot_name.replace("{number}", "")
-    path = "./Settings/"
+    path = BASE_DIR / "Settings/"
     if not os.path.exists(path):
         os.makedirs(path)
     with open(path + slot_name + '.yaml', mode = 'w') as file:
