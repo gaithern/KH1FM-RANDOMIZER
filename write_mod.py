@@ -1,5 +1,4 @@
 from pathlib import Path
-from tkinter import filedialog
 
 from clear_working_folder import clear_working_folder
 from write_files_to_working import write_files_to_working

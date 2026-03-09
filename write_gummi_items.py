@@ -1,7 +1,6 @@
 import struct
 
 from write_item_descriptions import build_item_description_string, build_item_description_string_array, concat_item_descriptions, build_item_description_bytes
-from definitions import kh1_hex_to_char_map
 from globals import BASE_DIR, read_json, read_bytes, write_bytes, read_file, write_file
 
 SETTINGS_EXCLUSIONS = ["starting_items", "synthesis_item_name_byte_arrays", "remote_location_ids", "slot_name"]

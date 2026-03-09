@@ -1,5 +1,3 @@
-from tkinter import filedialog
-import csv
 import json
 
 from globals import BASE_DIR, read_csv, read_json, read_bytes, read_file, write_bytes, write_file

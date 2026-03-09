@@ -1,4 +1,3 @@
-from definitions import filler_item_ids
 from globals import BASE_DIR, read_csv, read_bytes, write_bytes, read_json
 
 def remove_map_prizes(map_prize_bytes, map_prize_definitions):

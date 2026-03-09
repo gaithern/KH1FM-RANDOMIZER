@@ -1,6 +1,3 @@
-import os
-
-from definitions import kh1_hex_to_char_map
 from globals import BASE_DIR, read_json, read_csv, read_bytes, write_bytes
 
 def replace_sysmsgs(sysmsg_bytes, spell_mp_costs_data):

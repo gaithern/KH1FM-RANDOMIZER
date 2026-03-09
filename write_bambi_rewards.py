@@ -1,5 +1,3 @@
-import os
-
 from definitions import filler_item_ids
 from globals import BASE_DIR, read_csv, read_bytes, write_bytes
 

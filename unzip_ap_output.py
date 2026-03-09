@@ -1,5 +1,3 @@
-from pathlib import Path
-
 from globals import extract_zip
 
 def unzip_ap_output(ap_zip_file):

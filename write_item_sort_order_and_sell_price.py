@@ -1,4 +1,4 @@
-from definitions import item_list, sort_order, filler_item_ids, buy_prices
+from definitions import sort_order, filler_item_ids
 from globals import BASE_DIR, read_json, read_csv, read_bytes, write_bytes
 
 def to_hex_no_0x(val):
