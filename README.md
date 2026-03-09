@@ -43,5 +43,3 @@ Use the following command to build a standalone executable for the mod_generator
 ## License
 
 This project is licensed under the [MIT License](LICENSE) - see the [LICENSE](LICENSE) file for details.
-
-<parameter name="filePath">c:\Users\gaith\Documents\GitHub\KH1FM-RANDOMIZER\README.md
