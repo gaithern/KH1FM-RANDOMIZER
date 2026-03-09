@@ -1,9 +1,6 @@
 from gooey import Gooey,GooeyParser
 from write_mod import write_mod
 from globals import BASE_DIR, read_json, write_json
-import os
-import json
-import zipfile
 import ctypes
 import requests
 import webbrowser

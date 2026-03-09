@@ -4,6 +4,7 @@ import json
 import zipfile
 import csv
 import os
+import shutil
 
 if getattr(sys, "frozen", False):
     BASE_DIR = Path(sys.executable).parent

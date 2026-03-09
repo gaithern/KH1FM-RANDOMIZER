@@ -2,16 +2,6 @@ import random
 
 from globals import BASE_DIR, read_csv, read_json, read_bytes, write_bytes, write_file
 
-def safe_open_wb(path):
-    ''' Open "path" for writing, creating any parent directories as needed.
-    '''
-    os.makedirs(os.path.dirname(path), exist_ok=True)
-    return open(path, 'wb')
-
-def get_bytes(file_path):
-    with open(file_path, mode = 'rb') as file:
-        return bytearray(file.read())
-
 def choose_random_enemies(map_enemies, enemy_categories, seed):
     random.seed(seed)
     categories = ["Easy", "Medium", "Hard"]
@@ -70,7 +60,7 @@ def change_ard_bytes(kh1_data_path, changes):
             write_bytes(file, bytes)
 
 def write_enemies(settings_file):
-    kh1_data_path = "./Working/"
+    kh1_data_path = BASE_DIR / "Working"
     settings_data = read_json(settings_file)
     if "randomize_enemies" in settings_data.keys():
         if settings_data["randomize_enemies"] != "off":
@@ -81,6 +71,3 @@ def write_enemies(settings_file):
             change_ard_bytes(kh1_data_path, changes)
             enemy_rando_log = get_enemy_rando_log(changes)
             write_file(kh1_data_path / "enemy_rando_log.txt", enemy_rando_log)
-
-if __name__ == "__main__":
-    write_enemies()
