@@ -26,7 +26,7 @@ def check_for_updates():
     response = requests.get(initial_url)
     final_url = response.url
     latest_version_number = final_url.split("/")[-1]
-    if VERSION != latest_version_number:
+    if VERSION < latest_version_number:
         result = Mbox("Update available", "There is an update available for the mod generator and AP World.\n\n"
         "Would you like to open the download page now?",
         MB_YESNO | MB_ICONQUESTION)
@@ -42,7 +42,7 @@ def Mbox(title, text, style):
         header_bg_color="#efcf78")
 
 def main():
-    #check_for_updates()
+    check_for_updates()
     presets = read_json(BASE_DIR / "mod_generator_presets.json")
     parser = GooeyParser()
     parser.add_argument("kh1_randomizer_patch_file",
