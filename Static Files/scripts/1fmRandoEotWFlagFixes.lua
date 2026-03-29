@@ -2,8 +2,6 @@ LUAGUI_NAME = "1fmRandoEotWFlagFixes"
 LUAGUI_AUTH = "Sonicshadowsilver2 with edits from Gicu"
 LUAGUI_DESC = "Kingdom Hearts 1FM Randomizer Fix EotW Flags"
 
-canExecute = false
-
 function _OnInit()
     if GAME_ID == 0xAF71841E and ENGINE_TYPE == "BACKEND" then
         require("VersionCheck")
